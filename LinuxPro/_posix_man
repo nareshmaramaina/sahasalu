@@ -1,0 +1,4 @@
+==> To install posix man page packages
+
+        sudo apt-get install manpages-posix-dev
+

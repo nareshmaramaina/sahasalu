@@ -1,0 +1,6 @@
+1. write a program that computes sum of an int array of size 1000. Engage 4 threads  to 
+   process array faster.
+ 
+  Note: implement main thread to compute the final result
+  Hint: use appropriate synchronization primitives provided by pthreads library.
+

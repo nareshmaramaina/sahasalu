@@ -1,0 +1,315 @@
+Details of TCP Packet 
+source prt = 47729
+dest prt = 5222
+seq = -2120327007
+ack = 0
+value of syn flag = 1
+value of ack flag = 0
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 267998828
+ack = -2120327006
+value of syn flag = 1
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 47729
+dest prt = 5222
+seq = -2120327006
+ack = 267998829
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 47729
+dest prt = 5222
+seq = -2120327006
+ack = 267998829
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 267998829
+ack = -2120326892
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 267998829
+ack = -2120326892
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 47729
+dest prt = 5222
+seq = -2120326892
+ack = 267998967
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 267998967
+ack = -2120326892
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 47729
+dest prt = 5222
+seq = -2120326892
+ack = 267999208
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 47729
+dest prt = 5222
+seq = -2120326892
+ack = 267999208
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 267999208
+ack = -2120326841
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 47729
+dest prt = 5222
+seq = -2120326841
+ack = 267999258
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 267999258
+ack = -2120326620
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 268000284
+ack = -2120326620
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 47729
+dest prt = 5222
+seq = -2120326620
+ack = 268001702
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 268001702
+ack = -2120326620
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 268002334
+ack = -2120326620
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 47729
+dest prt = 5222
+seq = -2120326620
+ack = 268002429
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 47729
+dest prt = 5222
+seq = -2120326620
+ack = 268002429
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 268002429
+ack = -2120326306
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 47729
+dest prt = 5222
+seq = -2120326306
+ack = 268002476
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 268002476
+ack = -2120326167
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 268002639
+ack = -2120326167
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 47729
+dest prt = 5222
+seq = -2120326167
+ack = 268002861
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 47729
+dest prt = 5222
+seq = -2120326167
+ack = 268002861
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 268002861
+ack = -2120326046
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 268002861
+ack = -2120326046
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 268002963
+ack = -2120326046
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 268003004
+ack = -2120326046
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 47729
+dest prt = 5222
+seq = -2120326046
+ack = 268003031
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 268003031
+ack = -2120326046
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 1
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 47729
+dest prt = 5222
+seq = -2120326046
+ack = 268003032
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 47729
+dest prt = 5222
+seq = -2120326019
+ack = 268003032
+value of syn flag = 0
+value of ack flag = 1
+value of fin flag = 1
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 268003032
+ack = 0
+value of syn flag = 0
+value of ack flag = 0
+value of fin flag = 0
+--------------------------------------------------------------
+Details of TCP Packet 
+source prt = 5222
+dest prt = 47729
+seq = 268003032
+ack = 0
+value of syn flag = 0
+value of ack flag = 0
+value of fin flag = 0
+--------------------------------------------------------------

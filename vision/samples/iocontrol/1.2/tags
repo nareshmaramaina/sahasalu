@@ -1,0 +1,219 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ADPT_BAT1	imx_iocon.c	34;"	d	file:
+ARG_ERR	iomisc.c	36;"	d	file:
+AUD_PWR	ioc_hardware.h	39;"	d
+AUD_PWR_CNTRL	ioc_hardware.h	10;"	d
+AUD_PWR_CNTRL	iomisc.c	25;"	d	file:
+BATTER_SENSE	LCD_KEYPAD/lcdkp_io.h	6;"	d
+BATTER_SENSE	ioc_hardware.h	17;"	d
+BATTER_SENSE	iomisc.c	32;"	d	file:
+BATT_BAT2	imx_iocon.c	35;"	d	file:
+BAT_CHG	ioc_hardware.h	40;"	d
+BAT_SENSE_PIN	ioc_hardware.h	54;"	d
+BLUTH_PWR_CNTRL	ioc_hardware.h	14;"	d
+BLUTH_PWR_CNTRL	iomisc.c	29;"	d	file:
+BT_PWR_CTRL	ioc_hardware.h	45;"	d
+BUZZ	ioc_hardware.h	41;"	d
+BUZZER	LCD_KEYPAD/lcdkp_io.h	1;"	d
+BUZZER_CNTRL	ioc_hardware.h	11;"	d
+BUZZER_CNTRL	iomisc.c	26;"	d	file:
+CAMERA_FLASH_CTRL	ioc_hardware.h	51;"	d
+CAMERA_PWR_CTRL	ioc_hardware.h	48;"	d
+CAM_PWR_CNTRL	ioc_hardware.h	13;"	d
+CAM_PWR_CNTRL	iomisc.c	28;"	d	file:
+CFLAG	LCD_KEYPAD/Makefile	/^CFLAG   :=ARCH=arm CROSS_COMPILE=\/opt\/freescale\/usr\/local\/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12\/fsl-linaro-toolchain\/bin\/arm-fsl-linux-gnueabi-$/;"	m
+CFLAG	Makefile	/^CFLAG   :=ARCH=arm CROSS_COMPILE=\/opt\/freescale\/usr\/local\/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12\/fsl-linaro-toolchain\/bin\/arm-none-linux-gnueabi-$/;"	m
+FALSE	iomisc.c	38;"	d	file:
+FLASH_CNTRL	ioc_hardware.h	7;"	d
+FLASH_CNTRL	iomisc.c	22;"	d	file:
+GPIO_PAD_IN	ioc_hardware.h	27;"	d
+GPIO_PAD_OUT	ioc_hardware.h	26;"	d
+GPS_ON_OFF_PIN	ioc_hardware.h	42;"	d
+GPS_PWR_CNTRL	ioc_hardware.h	3;"	d
+GPS_PWR_CNTRL	iomisc.c	18;"	d	file:
+GSM_M_RESET	gl865_reset.c	16;"	d	file:
+GSM_M_RESET	ioc_hardware.h	21;"	d
+GSM_M_RESET_PIN	ioc_hardware.h	53;"	d
+GSM_PWR_CNTRL	ioc_hardware.h	4;"	d
+GSM_PWR_CNTRL	iomisc.c	19;"	d	file:
+GSM_PWR_CTRL	ioc_hardware.h	49;"	d
+GSM_USB_PWR_CNTRL	ioc_hardware.h	16;"	d
+GSM_USB_PWR_CNTRL	iomisc.c	31;"	d	file:
+GSM_USB_PWR_CTRL	ioc_hardware.h	50;"	d
+Get_String_file	iomisc.c	/^int Get_String_file(char *Path, char *Line)$/;"	f
+HOST_PWR_CNTRL	ioc_hardware.h	6;"	d
+HOST_PWR_CNTRL	iomisc.c	21;"	d	file:
+HOST_PWR_CTRL	ioc_hardware.h	46;"	d
+IFD_PWR_CNTRL	ioc_hardware.h	12;"	d
+IFD_PWR_CNTRL	iomisc.c	27;"	d	file:
+IFD_PWR_ENABLE_PIN	ioc_hardware.h	44;"	d
+KDIR	LCD_KEYPAD/Makefile	/^KDIR    := \/u03\/BANDHAN\/working\/kernel\/linux-3.0.35$/;"	m
+KDIR	Makefile	/^KDIR    :=\/u03\/BANDHAN\/working\/kernel\/1.2\/linux-3.0.35$/;"	m
+KEY_BUZZER	LCD_KEYPAD/lcdkp_io.h	2;"	d
+KEY_BUZZ_CNTRL	ioc_hardware.h	20;"	d
+KEY_BUZZ_CNTRL	iomisc.c	35;"	d	file:
+KPD_BKL	ioc_hardware.h	37;"	d
+LCD_BKL	LCD_KEYPAD/lcdkp_io.h	4;"	d
+LCD_BKL	ioc_hardware.h	38;"	d
+LCD_BKL_C	ioc_hardware.h	22;"	d
+LCD_BKL_CNTRL	ioc_hardware.h	9;"	d
+LCD_BKL_CNTRL	iomisc.c	24;"	d	file:
+LCD_BKL_TIMEOUT	LCD_KEYPAD/lcdkp_io.h	5;"	d
+LCD_BKL_TIMEOUT	ioc_hardware.h	18;"	d
+LCD_BKL_TIMEOUT	iomisc.c	33;"	d	file:
+MAJORNO	LCD_KEYPAD/lcdkp_io.c	29;"	d	file:
+MAJORNO	imx_iocon.c	31;"	d	file:
+MAJORNO	lcdkp_io.c	29;"	d	file:
+MX6_BRD_BAT_SENSE	LCD_KEYPAD/lcdkp_io.h	12;"	d
+MX6_BRD_KP_BACKLIGHT	LCD_KEYPAD/lcdkp_io.h	11;"	d
+MX6_BRD_KP_BUZZER	LCD_KEYPAD/lcdkp_io.h	10;"	d
+MX6_BRD_LCD_BACKLIGHT	LCD_KEYPAD/lcdkp_io.h	9;"	d
+NAME	LCD_KEYPAD/lcdkp_io.c	30;"	d	file:
+NAME	imx_iocon.c	32;"	d	file:
+NAME	lcdkp_io.c	30;"	d	file:
+OPT_CAPPWR_CNTRL	ioc_hardware.h	5;"	d
+OPT_CAPPWR_CNTRL	iomisc.c	20;"	d	file:
+OPT_CAPPWR_EN_PIN	ioc_hardware.h	43;"	d
+PWD	LCD_KEYPAD/Makefile	/^PWD     :=$(shell pwd)$/;"	m
+PWD	Makefile	/^PWD     :=$(shell pwd)$/;"	m
+SAM_PWR_CNTRL	ioc_hardware.h	15;"	d
+SAM_PWR_CNTRL	iomisc.c	30;"	d	file:
+SAM_PWR_CTRL	ioc_hardware.h	47;"	d
+SELECT_SIM	ioc_hardware.h	8;"	d
+SELECT_SIM	iomisc.c	23;"	d	file:
+SIM_SELECT	ioc_hardware.h	52;"	d
+TOUCH_BUZZER	LCD_KEYPAD/lcdkp_io.h	3;"	d
+TOUCH_BUZZ_CNTRL	ioc_hardware.h	19;"	d
+TOUCH_BUZZ_CNTRL	iomisc.c	34;"	d	file:
+TRUE	iomisc.c	37;"	d	file:
+UC	iomisc.c	/^typedef unsigned char UC;$/;"	t	file:
+__this_module	imx_iocon.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	imx_iocon.mod.c	/^__used$/;"	v	file:
+__used	imx_iocon.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+batsense_val	imx_iocon.c	/^        int batsense_val;$/;"	m	struct:drv_batsense	file:
+batsense_val	iomisc.c	/^        int batsense_val;$/;"	m	struct:get_batsense	file:
+bkl_off	imx_iocon.c	/^volatile int bkl_off=0;$/;"	v
+bkl_on	imx_iocon.c	/^volatile int bkl_on=0;$/;"	v
+bootloader_details	iomisc.c	/^int bootloader_details(char *Bver)$/;"	f
+buz_counter	imx_iocon.c	/^volatile int buz_counter=2;	\/\/2$/;"	v
+buzz_on_flg	imx_iocon.c	/^volatile int buzz_on_flg=1;$/;"	v
+cam_flag	imx_iocon.c	/^static int cam_flag=0;$/;"	v	file:
+data_present	imx_iocon.c	/^static atomic_t data_present=ATOMIC_INIT(0);$/;"	v	file:
+drv_batsense	imx_iocon.c	/^struct drv_batsense{$/;"	s	file:
+drv_battery	imx_iocon.c	/^}drv_battery;$/;"	v	typeref:struct:drv_batsense
+exit_flag	imx_iocon.c	/^int exit_flag=1;$/;"	v
+fd	iomisc.c	/^static int fd;$/;"	v	file:
+flash_onflag	imx_iocon.c	/^volatile int flash_onflag=0;$/;"	v
+flash_timeout	imx_iocon.c	/^unsigned long int  flash_timeout=0;$/;"	v
+get_batsense	iomisc.c	/^struct get_batsense{$/;"	s	file:
+get_batterysense	iomisc.c	/^struct get_batsense get_batterysense;$/;"	v	typeref:struct:get_batsense
+get_node_readvalue	iomisc.c	/^int get_node_readvalue(const char *node_name)$/;"	f
+gl11_GetBatteryInfo	iomisc.c	/^int gl11_GetBatteryInfo(int *AdapPresent,int *BattSt,int *BattVt)$/;"	f
+gl11_audio_power_off	iomisc.c	/^int gl11_audio_power_off(void)$/;"	f
+gl11_audio_power_on	iomisc.c	/^int gl11_audio_power_on(void)$/;"	f
+gl11_audio_vol_control	iomisc.c	/^int gl11_audio_vol_control(int val)$/;"	f
+gl11_bklight_intensity	iomisc.c	/^int gl11_bklight_intensity(int val)$/;"	f
+gl11_bluetooth_control	iomisc.c	/^int gl11_bluetooth_control(int val)$/;"	f
+gl11_buzz_off	iomisc.c	/^int gl11_buzz_off(void)$/;"	f
+gl11_buzz_on	iomisc.c	/^int gl11_buzz_on(void)$/;"	f
+gl11_cam_control	iomisc.c	/^int gl11_cam_control(int val)$/;"	f
+gl11_eth_control	iomisc.c	/^int gl11_eth_control (int state)$/;"	f
+gl11_gethwid	iomisc.c	/^int gl11_gethwid(char *hwid)$/;"	f
+gl11_getmacid	iomisc.c	/^int gl11_getmacid(char *macid)$/;"	f
+gl11_getpinpadid	iomisc.c	/^int gl11_getpinpadid(char *machineid)$/;"	f
+gl11_getuid	iomisc.c	/^int gl11_getuid (char *Uid)$/;"	f
+gl11_gps_pwroff	iomisc.c	/^int gl11_gps_pwroff(void)$/;"	f
+gl11_gps_pwron	iomisc.c	/^int gl11_gps_pwron(void)$/;"	f
+gl11_gpsctrl	iomisc.c	/^int gl11_gpsctrl(int val)$/;"	f
+gl11_gsmpwrctrl	iomisc.c	/^int gl11_gsmpwrctrl(int val)$/;"	f
+gl11_host_pwroff	iomisc.c	/^int gl11_host_pwroff(void)$/;"	f
+gl11_host_pwron	iomisc.c	/^int gl11_host_pwron(void)$/;"	f
+gl11_ifd_control	iomisc.c	/^int gl11_ifd_control(int val)$/;"	f
+gl11_internal_camflash	iomisc.c	/^int gl11_internal_camflash(int val)$/;"	f
+gl11_iodev_close	iomisc.c	/^int gl11_iodev_close()$/;"	f
+gl11_iodev_open	iomisc.c	/^int gl11_iodev_open()$/;"	f
+gl11_keypad_buzz_off	iomisc.c	/^int gl11_keypad_buzz_off(void)$/;"	f
+gl11_keypad_buzz_on	iomisc.c	/^int gl11_keypad_buzz_on(void)$/;"	f
+gl11_lcdbklt_off	iomisc.c	/^int gl11_lcdbklt_off(void)$/;"	f
+gl11_lcdbklt_on	iomisc.c	/^int gl11_lcdbklt_on(void)$/;"	f
+gl11_lcdbklt_time_duration	iomisc.c	/^int gl11_lcdbklt_time_duration(int val)$/;"	f
+gl11_magswipe_pwroff	iomisc.c	/^int gl11_magswipe_pwroff(void)	$/;"	f
+gl11_magswipe_pwron	iomisc.c	/^int gl11_magswipe_pwron(void)$/;"	f
+gl11_optcap_pwroff	iomisc.c	/^int gl11_optcap_pwroff(void)$/;"	f
+gl11_optcap_pwron	iomisc.c	/^int gl11_optcap_pwron(void)$/;"	f
+gl11_sam_pwr_ctrl	iomisc.c	/^int gl11_sam_pwr_ctrl(int val)$/;"	f
+gl11_simselect	iomisc.c	/^int gl11_simselect(int val)$/;"	f
+gl11_timer	imx_iocon.c	/^static struct timer_list gl11_timer ;$/;"	v	typeref:struct:timer_list	file:
+gl11_timer_work	imx_iocon.c	/^static void gl11_timer_work ( unsigned long arg )$/;"	f	file:
+gl11_touch_buzz_off	iomisc.c	/^int  gl11_touch_buzz_off(void)$/;"	f
+gl11_touch_buzz_on	iomisc.c	/^int  gl11_touch_buzz_on(void)$/;"	f
+gl11_wifi_control	iomisc.c	/^int gl11_wifi_control(int val)$/;"	f
+gl865_reset_exit	gl865_reset.c	/^module_exit(gl865_reset_exit);$/;"	v
+gl865_reset_exit	gl865_reset.c	/^static void gl865_reset_exit(void)$/;"	f	file:
+gl865_reset_init	gl865_reset.c	/^module_init(gl865_reset_init);$/;"	v
+gl865_reset_init	gl865_reset.c	/^static int gl865_reset_init(void)$/;"	f	file:
+helper_function	LCD_KEYPAD/lcdkp_io.c	/^void  helper_function  (void)$/;"	f
+helper_function	LCD_KEYPAD/working_usermodehelper.c	/^void  helper_function  (void)$/;"	f
+helper_function	lcdkp_io.c	/^void  helper_function  (void)$/;"	f
+imx6sl_hw_deinit	ioc_hardware.h	/^void imx6sl_hw_deinit(void)$/;"	f
+imx6sl_hw_init	ioc_hardware.h	/^void imx6sl_hw_init(void)$/;"	f
+ioc_cleanup	imx_iocon.c	/^module_exit(ioc_cleanup);$/;"	v
+ioc_cleanup	imx_iocon.c	/^static void __exit ioc_cleanup(void)$/;"	f	file:
+ioc_fops	imx_iocon.c	/^static const struct file_operations ioc_fops = {$/;"	v	typeref:struct:file_operations	file:
+ioc_get_gpio_value	ioc_hardware.h	31;"	d
+ioc_init	imx_iocon.c	/^module_init(ioc_init);$/;"	v
+ioc_init	imx_iocon.c	/^static int __init ioc_init(void)$/;"	f	file:
+ioc_ioctl	imx_iocon.c	/^static long ioc_ioctl(struct file *flip, unsigned int cmd, unsigned long arg)$/;"	f	file:
+ioc_open	imx_iocon.c	/^static int ioc_open(struct inode *inode, struct file *filp)$/;"	f	file:
+ioc_read	imx_iocon.c	/^static ssize_t ioc_read(struct file *filp, char *buffer, size_t length, loff_t * offset)$/;"	f	file:
+ioc_release	imx_iocon.c	/^static int ioc_release(struct inode *inode, struct file *filp)$/;"	f	file:
+ioc_set_gpio_value	ioc_hardware.h	30;"	d
+ioc_write	imx_iocon.c	/^static ssize_t ioc_write(struct file *filp, const char *buff, size_t length, loff_t * off)$/;"	f	file:
+kernel_details	iomisc.c	/^int kernel_details(char *kernelver)$/;"	f
+lcd_bkl_flag	imx_iocon.c	/^static  int lcd_bkl_flag=0;$/;"	v	file:
+lcd_kp_fops	LCD_KEYPAD/lcdkp_io.c	/^struct file_operations lcd_kp_fops={$/;"	v	typeref:struct:file_operations
+lcd_kp_fops	lcdkp_io.c	/^struct file_operations lcd_kp_fops={$/;"	v	typeref:struct:file_operations
+lcd_kp_ioctl	LCD_KEYPAD/lcdkp_io.c	/^static long lcd_kp_ioctl(struct file *flip, unsigned int cmd, unsigned long arg)$/;"	f	file:
+lcd_kp_ioctl	lcdkp_io.c	/^static long lcd_kp_ioctl(struct file *flip, unsigned int cmd, unsigned long arg)$/;"	f	file:
+lcd_kp_open	LCD_KEYPAD/lcdkp_io.c	/^static int lcd_kp_open(struct inode *inode, struct file *filp)$/;"	f	file:
+lcd_kp_open	lcdkp_io.c	/^static int lcd_kp_open(struct inode *inode, struct file *filp)$/;"	f	file:
+lcd_kp_read	LCD_KEYPAD/lcdkp_io.c	/^static ssize_t lcd_kp_read(struct file *filp, char *buffer, size_t length, loff_t * offset)$/;"	f	file:
+lcd_kp_read	lcdkp_io.c	/^static ssize_t lcd_kp_read(struct file *filp, char *buffer, size_t length, loff_t * offset)$/;"	f	file:
+lcd_kp_release	LCD_KEYPAD/lcdkp_io.c	/^static int lcd_kp_release(struct inode *inode, struct file *filp)$/;"	f	file:
+lcd_kp_release	lcdkp_io.c	/^static int lcd_kp_release(struct inode *inode, struct file *filp)$/;"	f	file:
+my_timer	LCD_KEYPAD/lcdkp_io.c	/^static struct timer_list my_timer;$/;"	v	typeref:struct:timer_list	file:
+my_timer	LCD_KEYPAD/working_usermodehelper.c	/^static struct timer_list my_timer;$/;"	v	typeref:struct:timer_list	file:
+my_timer	lcdkp_io.c	/^static struct timer_list my_timer;$/;"	v	typeref:struct:timer_list	file:
+my_timer_function	LCD_KEYPAD/lcdkp_io.c	/^static void my_timer_function (unsigned long ptr)$/;"	f	file:
+my_timer_function	LCD_KEYPAD/working_usermodehelper.c	/^static void my_timer_function (unsigned long ptr)$/;"	f	file:
+my_timer_function	lcdkp_io.c	/^static void my_timer_function (unsigned long ptr)$/;"	f	file:
+myexit	LCD_KEYPAD/working_usermodehelper.c	/^module_exit(myexit);$/;"	v
+myexit	LCD_KEYPAD/working_usermodehelper.c	/^static __exit void  myexit(void)$/;"	f	file:
+myinit	LCD_KEYPAD/working_usermodehelper.c	/^module_init(myinit);$/;"	v
+myinit	LCD_KEYPAD/working_usermodehelper.c	/^static __init int myinit(void)$/;"	f	file:
+obj-m	LCD_KEYPAD/Makefile	/^obj-m   := lcdkp_io.o$/;"	m
+obj-m	Makefile	/^obj-m   :=imx_iocon.o$/;"	m
+poweroff_battery	imx_iocon.c	/^void poweroff_battery(void)$/;"	f
+rgb_function	imx_iocon.c	/^void  rgb_function  (void)$/;"	f
+rootfs_details	iomisc.c	/^int rootfs_details(char *rootfsver)$/;"	f
+setup_exit	LCD_KEYPAD/lcdkp_io.h	/^void setup_exit(void){$/;"	f
+setup_init	LCD_KEYPAD/lcdkp_io.h	/^void setup_init(void){$/;"	f
+touch_buzz	imx_iocon.c	/^volatile int touch_buzz=1;$/;"	v
+user_mode_func	LCD_KEYPAD/lcdkp_io.c	/^static struct work_struct user_mode_func;$/;"	v	typeref:struct:work_struct	file:
+user_mode_func	LCD_KEYPAD/working_usermodehelper.c	/^static struct work_struct user_mode_func;$/;"	v	typeref:struct:work_struct	file:
+user_mode_func	lcdkp_io.c	/^static struct work_struct user_mode_func;$/;"	v	typeref:struct:work_struct	file:
+usermode_exit	LCD_KEYPAD/lcdkp_io.c	/^module_exit(usermode_exit);$/;"	v
+usermode_exit	LCD_KEYPAD/lcdkp_io.c	/^static __exit void  usermode_exit(void)$/;"	f	file:
+usermode_exit	lcdkp_io.c	/^module_exit(usermode_exit);$/;"	v
+usermode_exit	lcdkp_io.c	/^static __exit void  usermode_exit(void)$/;"	f	file:
+usermode_init	LCD_KEYPAD/lcdkp_io.c	/^module_init(usermode_init);$/;"	v
+usermode_init	LCD_KEYPAD/lcdkp_io.c	/^static __init int usermode_init(void)$/;"	f	file:
+usermode_init	lcdkp_io.c	/^module_init(usermode_init);$/;"	v
+usermode_init	lcdkp_io.c	/^static __init int usermode_init(void)$/;"	f	file:
+work_thread	imx_iocon.c	/^static int work_thread(void *arg)$/;"	f	file:
+wq	imx_iocon.c	/^DECLARE_WAIT_QUEUE_HEAD(wq);$/;"	v

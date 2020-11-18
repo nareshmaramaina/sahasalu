@@ -1,0 +1,15 @@
+
+inter-library dependencies
+-----------------------------------------------------------------------------------------
+liba.so
+	x()
+	{
+		a() // libxyz.so
+	}
+	y()
+	{
+		b() // libabc.so
+	}
+
+# gcc -c -fpic liba.c
+# gcc -shared -o liba.so liba.o libxyz.so libabc.so 

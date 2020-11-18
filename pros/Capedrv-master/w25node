@@ -1,0 +1,27 @@
+&am33xx_pinmux {
+	spi0_pins: pinmux_spi0_pins {
+		pinctrl-single,pins = <
+			0x150 (PIN_INPUT_PULLUP | MUX_MODE0)  /* spi0_sclk, INPUT_PULLUP | MODE0(0x30) */
+			0x154 (PIN_INPUT_PULLUP | MUX_MODE0)   /* spi0_d0, INPUT_PULLUP | MODE0 (0x30) */
+			0x158 (PIN_OUTPUT_PULLUP | MUX_MODE0)  /* spi0_d1, OUTPUT_PULLUP | MODE0(0x10) */
+			0x15c (PIN_OUTPUT_PULLUP | MUX_MODE0)  /* spi0_cs0, OUTPUT_PULLUP | MODE0(0x10) */
+		>;
+	};
+};
+
+&spi0 {
+	pinctrl-names = "default";
+	pinctrl-0 = <&spi0_pins>;
+
+	status = "okay";
+
+	/*DT node for w25q32 spi flash chip*/
+	w25q32: w25q32@0 {
+		compatible = "winbond,w25q32";
+		spi-max-frequency = <50000>;
+		reg = <0x0>;
+		size = <4194304>;       /*4 MBytes*/
+		pagesize = <256>;
+		address-width = <24>;   /*In bits*/
+	};
+};

@@ -1,0 +1,1 @@
+cmd_/u01/ksrc/KernPro/drvskel/usb_skel.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /u01/ksrc/KernPro/drvskel/usb_skel.ko /u01/ksrc/KernPro/drvskel/usb_skel.o /u01/ksrc/KernPro/drvskel/usb_skel.mod.o ;  true

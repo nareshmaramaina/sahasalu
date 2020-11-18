@@ -1,0 +1,6 @@
+/ {
+	extbutton {
+		compatible = "gpio_button_intr";
+                gpios = <&gpio1 13 GPIO_ACTIVE_LOW>;
+	};
+};

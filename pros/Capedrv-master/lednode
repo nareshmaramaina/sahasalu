@@ -1,0 +1,7 @@
+/ {
+        extled {
+                compatible = "gpio_extled";
+                gpios = <&gpio0 27 GPIO_ACTIVE_LOW>;
+        };
+};
+

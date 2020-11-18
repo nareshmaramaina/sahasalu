@@ -1,0 +1,304 @@
+Mon Apr 28 08:30:13 IST 2008
+	 ----------------------------------
+source port no : 57143
+destination port no : 8000
+seq number : 813643943
+ack number : 0
+window size : 32792
+	 ----------------------------------
+Mon Apr 28 08:30:13 IST 2008
+	 ----------------------------------
+source port no : 57143
+destination port no : 8000
+seq number : 813643943
+ack number : 0
+window size : 32792
+	 ----------------------------------
+Mon Apr 28 08:30:13 IST 2008
+	 ----------------------------------
+source port no : 8000
+destination port no : 57143
+seq number : 820410778
+ack number : 813643944
+window size : 32768
+	 ----------------------------------
+Mon Apr 28 08:30:14 IST 2008
+	 ----------------------------------
+source port no : 8000
+destination port no : 57143
+seq number : 820410778
+ack number : 813643944
+window size : 32768
+	 ----------------------------------
+Mon Apr 28 08:30:14 IST 2008
+	 ----------------------------------
+source port no : 57143
+destination port no : 8000
+seq number : 813643944
+ack number : 820410779
+window size : 513
+	 ----------------------------------
+Mon Apr 28 08:30:14 IST 2008
+	 ----------------------------------
+source port no : 57143
+destination port no : 8000
+seq number : 813643944
+ack number : 820410779
+window size : 513
+	 ----------------------------------
+Mon Apr 28 08:30:14 IST 2008
+	 ----------------------------------
+source port no : 57143
+destination port no : 8000
+seq number : 813643944
+ack number : 820410779
+window size : 513
+	 ----------------------------------
+Mon Apr 28 08:30:14 IST 2008
+	 ----------------------------------
+source port no : 57143
+destination port no : 8000
+seq number : 813643944
+ack number : 820410779
+window size : 513
+	 ----------------------------------
+Mon Apr 28 08:30:14 IST 2008
+	 ----------------------------------
+source port no : 8000
+destination port no : 57143
+seq number : 820410779
+ack number : 813643945
+window size : 512
+	 ----------------------------------
+Mon Apr 28 08:30:14 IST 2008
+	 ----------------------------------
+source port no : 8000
+destination port no : 57143
+seq number : 820410779
+ack number : 813643945
+window size : 512
+	 ----------------------------------
+Tue May 28 12:50:51 IST 2013
+	 ----------------------------------
+source port no : 39320
+destination port no : 8000
+seq number : 3431042469
+ack number : 0
+window size : 32792
+	 ----------------------------------
+Tue May 28 12:50:51 IST 2013
+	 ----------------------------------
+source port no : 39320
+destination port no : 8000
+seq number : 3431042469
+ack number : 0
+window size : 32792
+	 ----------------------------------
+Tue May 28 12:50:51 IST 2013
+	 ----------------------------------
+source port no : 8000
+destination port no : 39320
+seq number : 2296311945
+ack number : 3431042470
+window size : 32768
+	 ----------------------------------
+Tue May 28 12:50:51 IST 2013
+	 ----------------------------------
+source port no : 8000
+destination port no : 39320
+seq number : 2296311945
+ack number : 3431042470
+window size : 32768
+	 ----------------------------------
+Tue May 28 12:50:51 IST 2013
+	 ----------------------------------
+source port no : 39320
+destination port no : 8000
+seq number : 3431042470
+ack number : 2296311946
+window size : 2050
+	 ----------------------------------
+Tue May 28 12:50:51 IST 2013
+	 ----------------------------------
+source port no : 39320
+destination port no : 8000
+seq number : 3431042470
+ack number : 2296311946
+window size : 2050
+	 ----------------------------------
+Tue May 28 12:50:51 IST 2013
+	 ----------------------------------
+source port no : 39320
+destination port no : 8000
+seq number : 3431042470
+ack number : 2296311946
+window size : 2050
+	 ----------------------------------
+Tue May 28 12:50:51 IST 2013
+	 ----------------------------------
+source port no : 39320
+destination port no : 8000
+seq number : 3431042470
+ack number : 2296311946
+window size : 2050
+	 ----------------------------------
+Tue May 28 12:50:51 IST 2013
+	 ----------------------------------
+source port no : 8000
+destination port no : 39320
+seq number : 2296311946
+ack number : 3431042471
+window size : 2048
+	 ----------------------------------
+Tue May 28 12:50:51 IST 2013
+	 ----------------------------------
+source port no : 8000
+destination port no : 39320
+seq number : 2296311946
+ack number : 3431042471
+window size : 2048
+	 ----------------------------------
+Wed Aug  7 20:45:50 IST 2013
+	 ----------------------------------
+source port no : 59908
+destination port no : 8000
+seq number : 1308358427
+ack number : 0
+window size : 43690
+	 ----------------------------------
+Wed Aug  7 20:45:50 IST 2013
+	 ----------------------------------
+source port no : 59908
+destination port no : 8000
+seq number : 1308358427
+ack number : 0
+window size : 43690
+	 ----------------------------------
+Wed Aug  7 20:45:50 IST 2013
+	 ----------------------------------
+source port no : 8000
+destination port no : 59908
+seq number : 1388799479
+ack number : 1308358428
+window size : 43690
+	 ----------------------------------
+Wed Aug  7 20:45:50 IST 2013
+	 ----------------------------------
+source port no : 8000
+destination port no : 59908
+seq number : 1388799479
+ack number : 1308358428
+window size : 43690
+	 ----------------------------------
+Wed Aug  7 20:45:50 IST 2013
+	 ----------------------------------
+source port no : 59908
+destination port no : 8000
+seq number : 1308358428
+ack number : 1388799480
+window size : 342
+	 ----------------------------------
+Wed Aug  7 20:45:50 IST 2013
+	 ----------------------------------
+source port no : 59908
+destination port no : 8000
+seq number : 1308358428
+ack number : 1388799480
+window size : 342
+	 ----------------------------------
+Wed Aug  7 20:45:52 IST 2013
+	 ----------------------------------
+source port no : 59908
+destination port no : 8000
+seq number : 1308358428
+ack number : 1388799480
+window size : 342
+	 ----------------------------------
+Wed Aug  7 20:45:52 IST 2013
+	 ----------------------------------
+source port no : 59908
+destination port no : 8000
+seq number : 1308358428
+ack number : 1388799480
+window size : 342
+	 ----------------------------------
+Wed Aug  7 20:45:52 IST 2013
+	 ----------------------------------
+source port no : 8000
+destination port no : 59908
+seq number : 1388799480
+ack number : 1308358437
+window size : 342
+	 ----------------------------------
+Wed Aug  7 20:45:52 IST 2013
+	 ----------------------------------
+source port no : 8000
+destination port no : 59908
+seq number : 1388799480
+ack number : 1308358437
+window size : 342
+	 ----------------------------------
+Wed Aug  7 20:45:52 IST 2013
+	 ----------------------------------
+source port no : 8000
+destination port no : 59908
+seq number : 1388799480
+ack number : 1308358437
+window size : 342
+	 ----------------------------------
+Wed Aug  7 20:45:52 IST 2013
+	 ----------------------------------
+source port no : 8000
+destination port no : 59908
+seq number : 1388799480
+ack number : 1308358437
+window size : 342
+	 ----------------------------------
+Wed Aug  7 20:45:52 IST 2013
+	 ----------------------------------
+source port no : 59908
+destination port no : 8000
+seq number : 1308358437
+ack number : 1388799488
+window size : 342
+	 ----------------------------------
+Wed Aug  7 20:45:52 IST 2013
+	 ----------------------------------
+source port no : 59908
+destination port no : 8000
+seq number : 1308358437
+ack number : 1388799488
+window size : 342
+	 ----------------------------------
+Wed Aug  7 20:45:52 IST 2013
+	 ----------------------------------
+source port no : 59908
+destination port no : 8000
+seq number : 1308358437
+ack number : 1388799488
+window size : 342
+	 ----------------------------------
+Wed Aug  7 20:45:52 IST 2013
+	 ----------------------------------
+source port no : 59908
+destination port no : 8000
+seq number : 1308358437
+ack number : 1388799488
+window size : 342
+	 ----------------------------------
+Wed Aug  7 20:45:52 IST 2013
+	 ----------------------------------
+source port no : 8000
+destination port no : 59908
+seq number : 1388799488
+ack number : 1308358438
+window size : 342
+	 ----------------------------------
+Wed Aug  7 20:45:52 IST 2013
+	 ----------------------------------
+source port no : 8000
+destination port no : 59908
+seq number : 1388799488
+ack number : 1308358438
+window size : 342
+	 ----------------------------------

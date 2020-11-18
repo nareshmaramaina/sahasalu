@@ -1,0 +1,4 @@
+7/03/2015
+
+in cleanup function modified the address
+ __raw_writel(( __raw_readl(0xf40ac000 + GPIO_IMR) &~ 0x5140  ),(0xf40ac000 + GPIO_IMR)) ;

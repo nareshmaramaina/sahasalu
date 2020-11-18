@@ -1,0 +1,135 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CFLAG	Makefile	/^CFLAG   :=ARCH=arm CROSS_COMPILE=\/opt\/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12\/fsl-linaro-toolchain\/bin\/arm-fsl-linux-gnueabi-$/;"	m
+ES1	eval.c	56;"	d	file:
+ES1	imx_mscrd.c	56;"	d	file:
+ES2	eval.c	58;"	d	file:
+ES2	imx_mscrd.c	58;"	d	file:
+GPIO_IMR	eval.c	64;"	d	file:
+GPIO_IMR	imx_mscrd.c	64;"	d	file:
+GetTrackDataFw	eval.c	/^static int GetTrackDataFw(int *data, char *dest, int cnt, int track)$/;"	f	file:
+GetTrackDataFw	imx_mscrd.c	/^static int GetTrackDataFw(int *data, char *dest, int cnt, int track)$/;"	f	file:
+GetTrackDataRev	eval.c	/^static int GetTrackDataRev(int *data, char *dest, int cnt, int track)$/;"	f	file:
+GetTrackDataRev	imx_mscrd.c	/^static int GetTrackDataRev(int *data, char *dest, int cnt, int track)$/;"	f	file:
+KDIR	Makefile	/^KDIR    :=\/u01\/IMX6\/Back-up\/kernel\/linux-3.0.35 $/;"	m
+MAJORNO	eval.c	49;"	d	file:
+MAJORNO	imx_mscrd.c	49;"	d	file:
+MS_CARD_LOAD	eval.c	78;"	d	file:
+MS_CARD_LOAD	imx_mscrd.c	78;"	d	file:
+MS_PAD_CTL	eval.c	53;"	d	file:
+MS_PAD_CTL	imx_mscrd.c	53;"	d	file:
+MS_TRACK1_CLK	eval.c	79;"	d	file:
+MS_TRACK1_CLK	imx_mscrd.c	79;"	d	file:
+MS_TRACK1_DATA	eval.c	80;"	d	file:
+MS_TRACK1_DATA	imx_mscrd.c	80;"	d	file:
+MS_TRACK2_CLK	eval.c	81;"	d	file:
+MS_TRACK2_CLK	imx_mscrd.c	81;"	d	file:
+MS_TRACK2_DATA	eval.c	82;"	d	file:
+MS_TRACK2_DATA	imx_mscrd.c	82;"	d	file:
+MS_TRACK3_CLK	eval.c	83;"	d	file:
+MS_TRACK3_CLK	imx_mscrd.c	83;"	d	file:
+MS_TRACK3_DATA	eval.c	84;"	d	file:
+MS_TRACK3_DATA	imx_mscrd.c	84;"	d	file:
+PWD	Makefile	/^PWD     :=$(shell pwd)$/;"	m
+SS1	eval.c	55;"	d	file:
+SS1	imx_mscrd.c	55;"	d	file:
+SS2	eval.c	57;"	d	file:
+SS2	imx_mscrd.c	57;"	d	file:
+TRACK1	eval.c	59;"	d	file:
+TRACK1	imx_mscrd.c	59;"	d	file:
+TRACK2	eval.c	60;"	d	file:
+TRACK2	imx_mscrd.c	60;"	d	file:
+TRACK3	eval.c	61;"	d	file:
+TRACK3	imx_mscrd.c	61;"	d	file:
+__this_module	imx_mscrd.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	imx_mscrd.mod.c	/^__used$/;"	v	file:
+__used	imx_mscrd.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+card_load	eval.c	/^int card_load, clk1, clk2, clk3 ;$/;"	v
+card_load	imx_mscrd.c	/^int card_load, clk1, clk2, clk3 ;$/;"	v
+card_load_interrupt	eval.c	/^static irqreturn_t card_load_interrupt(int irq, void *dev_id)$/;"	f	file:
+card_load_interrupt	imx_mscrd.c	/^static irqreturn_t card_load_interrupt(int irq, void *dev_id)$/;"	f	file:
+chk_parity	eval.c	/^static int chk_parity(unsigned char x)$/;"	f	file:
+chk_parity	imx_mscrd.c	/^static int chk_parity(unsigned char x)$/;"	f	file:
+cleanup_port	eval.c	/^static void cleanup_port(void)$/;"	f	file:
+cleanup_port	imx_mscrd.c	/^static void cleanup_port(void)$/;"	f	file:
+clk1	eval.c	/^int card_load, clk1, clk2, clk3 ;$/;"	v
+clk1	imx_mscrd.c	/^int card_load, clk1, clk2, clk3 ;$/;"	v
+clk1_interrupt	eval.c	/^static irqreturn_t clk1_interrupt(int irq, void *dev_id)$/;"	f	file:
+clk1_interrupt	imx_mscrd.c	/^static irqreturn_t clk1_interrupt(int irq, void *dev_id)$/;"	f	file:
+clk2	eval.c	/^int card_load, clk1, clk2, clk3 ;$/;"	v
+clk2	imx_mscrd.c	/^int card_load, clk1, clk2, clk3 ;$/;"	v
+clk2_interrupt	eval.c	/^static irqreturn_t clk2_interrupt(int irq, void *dev_id)$/;"	f	file:
+clk2_interrupt	imx_mscrd.c	/^static irqreturn_t clk2_interrupt(int irq, void *dev_id)$/;"	f	file:
+clk3	eval.c	/^int card_load, clk1, clk2, clk3 ;$/;"	v
+clk3	imx_mscrd.c	/^int card_load, clk1, clk2, clk3 ;$/;"	v
+clk3_interrupt	eval.c	/^static irqreturn_t clk3_interrupt(int irq, void *dev_id)$/;"	f	file:
+clk3_interrupt	imx_mscrd.c	/^static irqreturn_t clk3_interrupt(int irq, void *dev_id)$/;"	f	file:
+count1	eval.c	/^int \/*wait1 = 0,*\/ count1 = 0, count2 = 0 ,count3 = 0 ;$/;"	v
+count1	imx_mscrd.c	/^int \/*wait1 = 0,*\/ count1 = 0, count2 = 0 ,count3 = 0 ;$/;"	v
+count2	eval.c	/^int \/*wait1 = 0,*\/ count1 = 0, count2 = 0 ,count3 = 0 ;$/;"	v
+count2	imx_mscrd.c	/^int \/*wait1 = 0,*\/ count1 = 0, count2 = 0 ,count3 = 0 ;$/;"	v
+count3	eval.c	/^int \/*wait1 = 0,*\/ count1 = 0, count2 = 0 ,count3 = 0 ;$/;"	v
+count3	imx_mscrd.c	/^int \/*wait1 = 0,*\/ count1 = 0, count2 = 0 ,count3 = 0 ;$/;"	v
+data1	eval.c	/^static char data1[256], data2[256],data3[256];$/;"	v	file:
+data1	imx_mscrd.c	/^static char data1[256], data2[256],data3[256];$/;"	v	file:
+data2	eval.c	/^static char data1[256], data2[256],data3[256];$/;"	v	file:
+data2	imx_mscrd.c	/^static char data1[256], data2[256],data3[256];$/;"	v	file:
+data3	eval.c	/^static char data1[256], data2[256],data3[256];$/;"	v	file:
+data3	imx_mscrd.c	/^static char data1[256], data2[256],data3[256];$/;"	v	file:
+deviceopen	eval.c	/^static int deviceopen = 0;      \/* For preventing multiple device opens *\/$/;"	v	file:
+deviceopen	imx_mscrd.c	/^static int deviceopen = 0;      \/* For preventing multiple device opens *\/$/;"	v	file:
+firstint	eval.c	/^static int ready, firstint, pc26, pc28 ,pc30 ;$/;"	v	file:
+firstint	imx_mscrd.c	/^static int ready, firstint, pc26, pc28 ,pc30 ;$/;"	v	file:
+kt_timedout	eval.c	/^static void kt_timedout(unsigned long arg)$/;"	f	file:
+kt_timedout	imx_mscrd.c	/^static void kt_timedout(unsigned long arg)$/;"	f	file:
+mag_spin_lock	eval.c	/^static spinlock_t mag_spin_lock;$/;"	v	file:
+mag_spin_lock	imx_mscrd.c	/^static spinlock_t mag_spin_lock;$/;"	v	file:
+makeready	eval.c	/^static void makeready()$/;"	f	file:
+makeready	imx_mscrd.c	/^static void makeready()$/;"	f	file:
+ms_get_gpio_value	eval.c	88;"	d	file:
+ms_get_gpio_value	imx_mscrd.c	88;"	d	file:
+ms_set_gpio_value	eval.c	87;"	d	file:
+ms_set_gpio_value	imx_mscrd.c	87;"	d	file:
+mscrd_close	eval.c	/^static int mscrd_close(struct inode *inode, struct file *filp)$/;"	f	file:
+mscrd_close	imx_mscrd.c	/^static int mscrd_close(struct inode *inode, struct file *filp)$/;"	f	file:
+mscrd_exit	eval.c	/^module_exit(mscrd_exit);$/;"	v
+mscrd_exit	eval.c	/^static void __exit mscrd_exit(void)$/;"	f	file:
+mscrd_exit	imx_mscrd.c	/^module_exit(mscrd_exit);$/;"	v
+mscrd_exit	imx_mscrd.c	/^static void __exit mscrd_exit(void)$/;"	f	file:
+mscrd_fops	eval.c	/^static struct file_operations mscrd_fops = {$/;"	v	typeref:struct:file_operations	file:
+mscrd_fops	imx_mscrd.c	/^static struct file_operations mscrd_fops = {$/;"	v	typeref:struct:file_operations	file:
+mscrd_init	eval.c	/^module_init(mscrd_init);$/;"	v
+mscrd_init	eval.c	/^static int __init mscrd_init(void)$/;"	f	file:
+mscrd_init	imx_mscrd.c	/^module_init(mscrd_init);$/;"	v
+mscrd_init	imx_mscrd.c	/^static int __init mscrd_init(void)$/;"	f	file:
+mscrd_open	eval.c	/^static int mscrd_open(struct inode *inode, struct file *filp)$/;"	f	file:
+mscrd_open	imx_mscrd.c	/^static int mscrd_open(struct inode *inode, struct file *filp)$/;"	f	file:
+mscrd_read	eval.c	/^static ssize_t mscrd_read(struct file *flip, char *buf, size_t length, loff_t *off)$/;"	f	file:
+mscrd_read	imx_mscrd.c	/^static ssize_t mscrd_read(struct file *flip, char *buf, size_t length, loff_t *off)$/;"	f	file:
+obj-m	Makefile	/^obj-m   :=imx_mscrd.o$/;"	m
+pc26	eval.c	/^static int ready, firstint, pc26, pc28 ,pc30 ;$/;"	v	file:
+pc26	imx_mscrd.c	/^static int ready, firstint, pc26, pc28 ,pc30 ;$/;"	v	file:
+pc28	eval.c	/^static int ready, firstint, pc26, pc28 ,pc30 ;$/;"	v	file:
+pc28	imx_mscrd.c	/^static int ready, firstint, pc26, pc28 ,pc30 ;$/;"	v	file:
+pc30	eval.c	/^static int ready, firstint, pc26, pc28 ,pc30 ;$/;"	v	file:
+pc30	imx_mscrd.c	/^static int ready, firstint, pc26, pc28 ,pc30 ;$/;"	v	file:
+ready	eval.c	/^static int ready, firstint, pc26, pc28 ,pc30 ;$/;"	v	file:
+ready	imx_mscrd.c	/^static int ready, firstint, pc26, pc28 ,pc30 ;$/;"	v	file:
+setup_port	eval.c	/^static void setup_port(void)$/;"	f	file:
+setup_port	imx_mscrd.c	/^static void setup_port(void)$/;"	f	file:
+trackone	eval.c	/^static int trackone[2048], tracktwo[2048],trackthree[2048];$/;"	v	file:
+trackone	imx_mscrd.c	/^static int trackone[2048], tracktwo[2048],trackthree[2048];$/;"	v	file:
+trackthree	eval.c	/^static int trackone[2048], tracktwo[2048],trackthree[2048];$/;"	v	file:
+trackthree	imx_mscrd.c	/^static int trackone[2048], tracktwo[2048],trackthree[2048];$/;"	v	file:
+tracktwo	eval.c	/^static int trackone[2048], tracktwo[2048],trackthree[2048];$/;"	v	file:
+tracktwo	imx_mscrd.c	/^static int trackone[2048], tracktwo[2048],trackthree[2048];$/;"	v	file:
+valid1	eval.c	/^static int valid1, valid2, valid3 ;$/;"	v	file:
+valid1	imx_mscrd.c	/^static int valid1, valid2, valid3 ;$/;"	v	file:
+valid2	eval.c	/^static int valid1, valid2, valid3 ;$/;"	v	file:
+valid2	imx_mscrd.c	/^static int valid1, valid2, valid3 ;$/;"	v	file:
+valid3	eval.c	/^static int valid1, valid2, valid3 ;$/;"	v	file:
+valid3	imx_mscrd.c	/^static int valid1, valid2, valid3 ;$/;"	v	file:

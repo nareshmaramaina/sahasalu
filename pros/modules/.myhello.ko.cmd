@@ -1,0 +1,1 @@
+cmd_/home/veda/Documents/Sourcesforstudents/KernPro_New/modules/myhello.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/veda/Documents/Sourcesforstudents/KernPro_New/modules/myhello.ko /home/veda/Documents/Sourcesforstudents/KernPro_New/modules/myhello.o /home/veda/Documents/Sourcesforstudents/KernPro_New/modules/myhello.mod.o

@@ -1,0 +1,28 @@
+tcp/ip v4  server skel
+
+step 1: Create a tcp/ip server socket
+
+step 2: Assign Address to socket
+
+step 3: Enable protocol operations
+
+step 4: validate clients request for connection
+
+step 5: Establish/Grant  connection 
+
+step 6: Communicate as per Application protocol
+
+
+--------------------------------------------------------------
+
+tcp/ip v4 client skel
+
+step 1: Create tcp/ip client socket
+
+step 2: Assign Address to socket
+
+step 3: Identify server and initiate connection request
+
+step 4: Communicate as per Applicatio  protocol
+
+-------------------------------------------------------------------- 

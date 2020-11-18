@@ -1,0 +1,1 @@
+cmd_/home/veda/Documents/Sourcesforstudents/KernPro_New/modules/modcounter.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/veda/Documents/Sourcesforstudents/KernPro_New/modules/modcounter.ko /home/veda/Documents/Sourcesforstudents/KernPro_New/modules/modcounter.o /home/veda/Documents/Sourcesforstudents/KernPro_New/modules/modcounter.mod.o

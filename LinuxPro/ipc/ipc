@@ -1,0 +1,132 @@
+1. files as message interfaces
+
+	issues
+		1. file i/o consumes undeterministic time
+		2, file data is file system persisitent
+		3. file I/O requires explicit sync(file locking).
+
+2. Pipes
+	  1. process persistent buffer stream
+	  2. uni-direction data flow
+	  3. auto sync between reader and writers (no locking needed)
+	  4. saperate interface for communication between related and unrelated processes
+			-- pipe(parent/child)
+			-- fifo(unrelated processes)
+	  
+issues
+          1. does not define message boundaries
+	  2. difficult to manage when applied B/W one to many 
+
+
+
+1. message queue
+
+	file system persistent : data available accross sessions(data stored on storage media)
+	
+	process persistent : resource created and destroyed by a process in execution
+				(pipe)
+	kernel persistent : resource created and available for the current session 
+				(message queues)
+
+Linux message queues
+	1. Sys V message queues
+			--- each message identified with message id
+			--- reading process can read a message using message id
+			--- messages can be read in any order
+			--- support one to many communication
+	limitations:
+			--- not implemented under unix common file interface
+			--- requires processes to use explicit system calls for executing message qeueu ops		
+
+	2. Posix message queues
+			-- message queues are implemented and managed under mqueue file system
+			-- applications are provided with file api's to initiate message queue ops
+			-- each message must be assigned with priorities (int)
+			-- reader can only read highest priority messsage from queue
+			-- readers can register for message arrival notifications 
+					-- signal notification	
+					-- Thread notification 
+
+
+shared memory
+
+	1. Sys V shared memory
+			-- explicit shared memory create, attach, detach calls
+			-- kernel persistent resource
+	limitations:
+			-- not under unix common file interface
+			-- requires synchronization for data access
+	2. Posix shared memory
+			--- implemented under shmfs file system
+			--- open, mmap, unmap operations for attach and detaching
+		
+
+semaphores	
+
+	1. Sys V semaphores
+		       -- explicit calls to allocate and access semaphore
+		       -- each semaphore operation invokes system calls
+
+	issues:
+                       --- binding semaphore with shared data is applications job.
+		       --- semaphores ops always invoke syscalls for both contended and uncontended case.
+
+
+	2. Posix semaphores
+			-- implemented under shmfs filesystem 
+			-- post and wait operations will not always invoke system calls	
+			-- kernel mode transition  needed only for contended case
+			
+        issues:
+		    --- apps need to link pthread library.
+
+
+
+
+------------------------------------------------------------------------------------------------------------
+
+
+raghu@techveda.org , hari@techveda.org
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

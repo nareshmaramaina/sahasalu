@@ -1,0 +1,1 @@
+cmd_/u03/DOP_NEW/IOCONTROL/imx_iocon.ko := /opt/freescale/usr/local/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL -r  -T /u03/DOP_NEW/kernel/linux-3.0.35_dop/scripts/module-common.lds --build-id  -o /u03/DOP_NEW/IOCONTROL/imx_iocon.ko /u03/DOP_NEW/IOCONTROL/imx_iocon.o /u03/DOP_NEW/IOCONTROL/imx_iocon.mod.o

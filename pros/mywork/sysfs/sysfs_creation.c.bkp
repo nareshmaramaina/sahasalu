@@ -1,0 +1,88 @@
+#include <linux/kernel.h>
+#include <linux/init.h>
+#include <linux/module.h>
+#include <linux/kdev_t.h>
+#include <linux/fs.h>
+#include <linux/cdev.h>
+#include <linux/device.h>
+#include<linux/slab.h>                 //kmalloc()
+#include<linux/uaccess.h>              //copy_to/from_user()
+#include<linux/sysfs.h> 
+#include<linux/kobject.h> 
+#include<linux/sysfs.h>
+#include<linux/kobject.h>
+struct kobject *k_ref;
+volatile int etx_value = 12;
+static ssize_t sysfs_show(struct kobject *kobj,
+		struct kobj_attribute *attr, char *buf)
+{
+	return sprintf(buf, "%d", etx_value);
+}
+
+static ssize_t sysfs_store(struct kobject *kobj,
+		struct kobj_attribute *attr,const char *buf, size_t count)
+{
+	sscanf(buf,"%d",&etx_value);
+	return count;
+}
+
+struct kobj_attribute etx_attr = __ATTR(sysfs, 0644, sysfs_show, sysfs_store);
+struct kobj_attribute maya_attr = __ATTR(maya, 0644, sysfs_show, sysfs_store);
+struct kobj_attribute raya_attr = __ATTR(raya, 0644, sysfs_show, sysfs_store);
+
+//struct kobj_attribute etx_attr = __ATTR(etx_value, 0660, sysfs_show, sysfs_store);
+
+static struct attribute  *attr[]={
+	&etx_attr.attr, /* Kattribute having attr memeber */ 
+	&maya_attr.attr,
+	&raya_attr.attr,
+	NULL,
+
+};
+
+
+static struct  attribute_group attr_group = {
+	.attrs=attr,
+};
+
+static int __init char_dev_init(void) 
+	//int __init init_module (void)
+{
+
+	printk("Iam in \n");
+	k_ref = kobject_create_and_add("example",NULL); // Sysfs kernel object
+	if ( ! k_ref  )
+	{
+		pr_info("********* kobject_create_and_add function **********\n");
+		return -1;
+	}
+
+	//sysfs_create_file(k_ref, &etx_attr.attr);
+	sysfs_create_group(k_ref, &attr_group);
+
+
+	return 0;	
+
+}
+
+
+static void __exit char_dev_exit(void)
+	//void __exit cleanup_module(void)
+{
+
+	pr_info(" function \n");
+	kobject_put(k_ref);
+	//sysfs_remove_file(kernel_kobj, &etx_attr.attr); */
+
+}
+
+
+module_init(char_dev_init);
+module_exit(char_dev_exit);
+
+//module_init(sysfs_init);
+//module_exit(sysfs_exit);
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("naresh");
+MODULE_DESCRIPTION(" simple device driver - SysFs");
+MODULE_VERSION("1.8");

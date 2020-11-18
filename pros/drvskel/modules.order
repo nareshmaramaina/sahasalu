@@ -1,0 +1,3 @@
+kernel//u01/ksrc/KernPro/drvskel/rtc.ko
+kernel//u01/ksrc/KernPro/drvskel/apic.ko
+kernel//u01/ksrc/KernPro/drvskel/usb_skel.ko

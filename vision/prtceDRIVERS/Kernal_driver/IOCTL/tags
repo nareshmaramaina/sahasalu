@@ -1,0 +1,114 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Buffer	Ioctl.c	/^unsigned char *Buffer="hello world";$/;"	v
+CFLAG	Makefile	/^CFLAG	:=$/;"	m
+CLR_VARIABLES	app.c	19;"	d	file:
+CLR_VARIABLES	driver.c	16;"	d	file:
+DEVICE_NAME	Ioctl.c	7;"	d	file:
+DEVICE_NAME	Vioctl.c	18;"	d	file:
+DEVICE_NAME	ioctl.c	9;"	d	file:
+DEVICE_PATH	ioctl.c	10;"	d	file:
+Fops	Ioctl.c	/^struct file_operations Fops = {$/;"	v	typeref:struct:file_operations
+Fops	Vioctl.c	/^struct file_operations Fops = $/;"	v	typeref:struct:file_operations
+Fops	driver.c	/^struct file_operations Fops={$/;"	v	typeref:struct:file_operations
+GET_VARIABLES	app.c	17;"	d	file:
+GET_VARIABLES	driver.c	14;"	d	file:
+IOCTL_CLR_MSG	app1.c	10;"	d	file:
+IOCTL_CMD	appl.c	6;"	d	file:
+IOCTL_GET_MSG	app1.c	8;"	d	file:
+IOCTL_GET_MSG	app2.c	9;"	d	file:
+IOCTL_SET_MSG	app1.c	9;"	d	file:
+IOCTL_SET_MSG	app2.c	10;"	d	file:
+IOCTL_SET_MSG	application.c	8;"	d	file:
+KDIR	Makefile	/^KDIR	:= \/lib\/modules\/$(shell uname -r)\/build$/;"	m
+MAJOR_NUM	Ioctl.c	9;"	d	file:
+MAJOR_NUM	Vioctl.c	20;"	d	file:
+NAME	driver.c	13;"	d	file:
+PWD	Makefile	/^PWD	:=$(shell pwd)$/;"	m
+READ	apps.c	9;"	d	file:
+READ	ioctl.c	12;"	d	file:
+READ1	Vioctl.c	21;"	d	file:
+READ1	appp.c	9;"	d	file:
+SET_VARIABLES	app.c	18;"	d	file:
+SET_VARIABLES	driver.c	15;"	d	file:
+SUCCESS	Ioctl.c	6;"	d	file:
+SUCCESS	Vioctl.c	17;"	d	file:
+WRITE	apps.c	10;"	d	file:
+WRITE	ioctl.c	11;"	d	file:
+WRITE1	Ioctl.c	11;"	d	file:
+WRITE1	Vioctl.c	22;"	d	file:
+WRITE1	appp.c	10;"	d	file:
+__this_module	Ioctl.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__this_module	driver.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__this_module	ioctl.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	Ioctl.mod.c	/^__used$/;"	v	file:
+__used	Ioctl.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	driver.mod.c	/^__used$/;"	v	file:
+__used	driver.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+__used	ioctl.mod.c	/^__used$/;"	v	file:
+__used	ioctl.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+cleanup_module	Vioctl.c	/^void cleanup_module()$/;"	f
+clr_variables	app.c	/^int clr_variables(fd)$/;"	f
+device_ioctl	Ioctl.c	/^int device_ioctl(struct inode *inode,struct file *file,unsigned int ioctl_num,unsigned long ioctl_param)$/;"	f
+device_ioctl	Vioctl.c	/^static long device_ioctl(struct file *file,unsigned int ioctl_num,unsigned long ioctl_param)$/;"	f	file:
+device_ioctl	driver.c	/^static long device_ioctl(struct file *f,unsigned int cmd,unsigned long param)$/;"	f	file:
+device_ioctl	ioctl.c	/^static long device_ioctl(struct file *file, unsigned int cmd, unsigned long args)$/;"	f	file:
+device_open	Ioctl.c	/^static int device_open(struct inode *inode, struct file *file)$/;"	f	file:
+device_open	Vioctl.c	/^static int device_open(struct inode *inode, struct file *file)$/;"	f	file:
+device_open	driver.c	/^static int device_open(struct inode *i,struct file *f)$/;"	f	file:
+device_open	ioctl.c	/^static int device_open(struct inode *inode, struct file *file)$/;"	f	file:
+device_read	Ioctl.c	/^static ssize_t device_read(struct file *file,char __user * buffer,size_t length,loff_t * offset)$/;"	f	file:
+device_read	Vioctl.c	/^static ssize_t device_read(struct file *file,char __user * buffer,size_t length,loff_t * offset)$/;"	f	file:
+device_read	driver.c	/^static ssize_t device_read(struct file *f,char __user *buffer,size_t length,loff_t *offset)$/;"	f	file:
+device_release	Ioctl.c	/^static int device_release(struct inode *inode, struct file *file)$/;"	f	file:
+device_release	Vioctl.c	/^static int device_release(struct inode *inode, struct file *file)$/;"	f	file:
+device_release	driver.c	/^static int device_release(struct inode *i,struct file *f)$/;"	f	file:
+device_release	ioctl.c	/^static int device_release(struct inode *inode, struct file *file)$/;"	f	file:
+device_write	Ioctl.c	/^static ssize_t device_write(struct file *file, const char __user * buffer, size_t length, loff_t * offset)$/;"	f	file:
+device_write	Vioctl.c	/^static ssize_t device_write(struct file *file, const char __user * buffer, size_t length, loff_t * offset)$/;"	f	file:
+device_write	driver.c	/^static ssize_t device_write(struct file *f,const char __user *buffer,size_t length,loff_t *offset)$/;"	f	file:
+fops	ioctl.c	/^static struct file_operations fops={$/;"	v	typeref:struct:file_operations	file:
+get_variables	app.c	/^int get_variables(fd)$/;"	f
+hello_exit	Ioctl.c	/^module_exit(hello_exit);$/;"	v
+hello_exit	Ioctl.c	/^static void hello_exit(void)$/;"	f	file:
+hello_exit	driver.c	/^module_exit(hello_exit);$/;"	v
+hello_exit	driver.c	/^static void hello_exit(void)$/;"	f	file:
+hello_exit	ioctl.c	/^module_exit(hello_exit);$/;"	v
+hello_exit	ioctl.c	/^static void __exit hello_exit(void)$/;"	f	file:
+hello_init	Ioctl.c	/^module_init(hello_init);$/;"	v
+hello_init	Ioctl.c	/^static int hello_init(void)$/;"	f	file:
+hello_init	driver.c	/^module_init(hello_init);$/;"	v
+hello_init	driver.c	/^static int hello_init(void)$/;"	f	file:
+hello_init	ioctl.c	/^module_init(hello_init);$/;"	v
+hello_init	ioctl.c	/^static int __init hello_init(void)$/;"	f	file:
+init_module	Vioctl.c	/^int init_module()$/;"	f
+ioctl_get_msg	appp.c	/^int ioctl_get_msg(int fd)$/;"	f
+ioctl_get_msg	apps.c	/^int ioctl_get_msg(int fd)$/;"	f
+ioctl_set_msg	application.c	/^int ioctl_set_msg(int fd)$/;"	f
+ioctl_set_msg	appp.c	/^int ioctl_set_msg(int fd)$/;"	f
+ioctl_set_msg	apps.c	/^int ioctl_set_msg(int fd)$/;"	f
+main	app.c	/^int main(int argc, char *argv[])$/;"	f
+main	app1.c	/^int main(int argc , char *argv[])$/;"	f
+main	app2.c	/^int main()$/;"	f
+main	appl.c	/^int main()$/;"	f
+main	application.c	/^int main()$/;"	f
+main	appp.c	/^int main()$/;"	f
+main	apps.c	/^int main()$/;"	f
+major_no	ioctl.c	/^static int major_no;$/;"	v	file:
+msg	appp.c	/^	unsigned char msg[10]="visiontek";$/;"	v
+my_class	ioctl.c	/^static struct class *my_class;$/;"	v	typeref:struct:class	file:
+name	app.c	/^	char *name;$/;"	m	struct:__anon1	file:
+name	driver.c	/^	char *name;$/;"	m	struct:__anon2	file:
+name	driver.c	/^static char *name="chandana";$/;"	v	file:
+obj-m	Makefile	/^obj-m	:= Ioctl.o $/;"	m
+rollno	app.c	/^	int rollno;$/;"	m	struct:__anon1	file:
+rollno	driver.c	/^	int rollno;$/;"	m	struct:__anon2	file:
+rollno	driver.c	/^static int rollno=9;$/;"	v	file:
+s	app1.c	/^unsigned char *s;$/;"	v
+set_variables	app.c	/^int set_variables(fd)$/;"	f
+variable	app.c	/^}variable;$/;"	t	typeref:struct:__anon1	file:
+variable	driver.c	/^}variable;$/;"	t	typeref:struct:__anon2	file:

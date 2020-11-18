@@ -1,0 +1,37 @@
+1. Inet Raw sockets
+	- sockets bound to kernel's ip layer
+
+  Application areas
+	- Applications designed to use library based transport protocols	
+	   in user space.
+	- Applications designed to use 3rd party transport protocols over IP
+	- Implementation of network diagnostic tools
+	   - sniffers
+		- Traffic monitor
+		- port scanner
+		- protocol analyser
+		- data logger
+	- network utilities
+	   - Ping, traceroute, route.
+	- network security apps
+		- firewalls
+
+2. packet raw socket
+	 - sockets bound with DLL layer
+
+   Application Areas
+
+	- Applications designed to use library based protocol suite
+          in user space. (lwip)
+
+        - Implementation of network diagnostic tools
+           - sniffers
+                - Traffic monitor
+                - port scanner
+                - protocol analyser
+                - data logger
+        - network utilities
+           - ethreal, tcpdump, wireshark
+
+        - network security apps 
+                - firewalls

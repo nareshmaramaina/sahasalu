@@ -1,0 +1,62 @@
+Memory Management
+
+Unix systems interfaces
+
+void * brk(void *addr)
+
+        change the location of the program break, which defines the
+        end of the process's data segment to the value specified addr
+
+viod * sbrk(intptr_t increment)
+
+        increments the program's data segment by increment bytes.
+        increment of 0 can be used to find the current location
+        of the program break point.
+
+
+
+Glibc
+	void *malloc(size_t size);
+       	void *calloc(size_t nmemb, size_t size);
+       	void *realloc(void *ptr, size_t size);
+       	void free(void *ptr);
+
+	Malloc implementation in Glibc
+
+	Smaller Blocks (<128 K)
+
+	- Implemented with "buddy memory allocation scheme".
+	- Divide the data segment into a series of power-of-2 partitions.
+	- Allocate by returning the partition that is the closest fit 
+	  to the requested size.
+	- Freeing memory is as simple marking the partition as “free.”
+	- If adjacent partitions are free, they can be combined into a single, 
+	  larger partition.
+
+
+	Larger Blocks (>=128 K)
+	
+	- Creates an anonymous memory mapping.
+	- An anonymous memory mapping is simply a large, zero-filled block of
+	  memory, ready for your use.
+	- They do not contribute to the data segment’s fragmentation.
+	
+	Pros
+	- No fragmentation concerns.
+	- Mappings are resizable, have adjustable permissions, and can receive 
+	  advice just like normal mappings
+	- Each allocation exists in a separate memory mapping. No need to 
+	  manage the global heap.
+	
+	Cons
+	- Each memory mapping is multiple of the system page size in size.
+	- Creating a new memory mapping incurs more overhead than returning memory
+	  from the heap
+
+Using Device file
+	- BSD does not have a MAP_ANONYMOUS flag.
+	- Uses a special devic file /dev/zero which provides identical semantics to 
+	  anonymous memory.
+	- Involves the additional system call overhead of opening and closing the 
+	  device file.
+

@@ -1,0 +1,8 @@
+kernel//home/veda/Documents/Sourcesforstudents/KernPro_New/modules/myhello.ko
+kernel//home/veda/Documents/Sourcesforstudents/KernPro_New/modules/modex.ko
+kernel//home/veda/Documents/Sourcesforstudents/KernPro_New/modules/moddep1.ko
+kernel//home/veda/Documents/Sourcesforstudents/KernPro_New/modules/modparam.ko
+kernel//home/veda/Documents/Sourcesforstudents/KernPro_New/modules/modexfunc.ko
+kernel//home/veda/Documents/Sourcesforstudents/KernPro_New/modules/tfunc.ko
+kernel//home/veda/Documents/Sourcesforstudents/KernPro_New/modules/modcounter.ko
+kernel//home/veda/Documents/Sourcesforstudents/KernPro_New/modules/moddep1.ko

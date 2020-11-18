@@ -1,0 +1,26 @@
+
+1. fork() creates  a  new process by duplicating the calling process.  The new process,
+   referred to as the child, is an exact duplicate of the calling process.
+
+2.  On success, the PID of the child process is returned in the parent, and 0 is returned
+    in the child.
+
+3.  call to fork() is generally followed with condtional construct to branch out work to run
+    in child and parent process.
+
+	childpid = fork();
+        if (childPid == CHILD) 
+                work to be executed in child
+        else
+                work to be executed in parent
+
+
+4. All code statements out of conditional branch are run by both parent and child process.
+
+5. Termination of parent process does not effect execution of child process.
+
+6.  Under Linux, fork() is implemented using copy-on-write pages,  so  the
+       only  penalty that it incurs is the time and memory required to dupli‐
+       cate the parent's page tables, and to create a unique  task  structure
+       for the child.
+

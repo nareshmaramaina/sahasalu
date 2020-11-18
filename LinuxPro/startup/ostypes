@@ -1,0 +1,19 @@
+1. GPOS(General purpose Operating system)
+	- x86arch + generic services for wide range						 of apps
+	- often designed to be extensible(modular in design)
+
+2. Embedded Operating system
+
+	- designed and implemented for custom arch + board
+	- limited services designed to cater limited set of apps
+	- often designed and implemented as monolithic softwares(not extensible)
+
+3. Real Time operating system
+
+     - O/S services designed and implemented with guarnateed
+       determinism  with fixed service time.
+     - often used to host real-time apps(deterministic apps)
+     - These O/S can exist on PC or Embedded platforms
+
+	
+kernel.org

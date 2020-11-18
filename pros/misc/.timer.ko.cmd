@@ -1,0 +1,1 @@
+cmd_/root/training/KernPro/misc/timer.ko := ld -r -m elf_x86_64 -T /usr/src/linux-headers-3.11.0-18-generic/scripts/module-common.lds --build-id  -o /root/training/KernPro/misc/timer.ko /root/training/KernPro/misc/timer.o /root/training/KernPro/misc/timer.mod.o

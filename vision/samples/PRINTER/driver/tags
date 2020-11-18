@@ -1,0 +1,118 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABORT_PRINT	imx_tpd.c	53;"	d	file:
+ADC_HOT_HEAD	imx_tpd.c	50;"	d	file:
+ADC_MIN_BATTERY	imx_tpd.c	49;"	d	file:
+ADC_NO_ADAPTER	imx_tpd.c	48;"	d	file:
+BYTES_PER_SCANLINE	imx_tpd.c	45;"	d	file:
+CFLAG	Makefile	/^CFLAG   :=ARCH=arm CROSS_COMPILE=\/opt\/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12\/fsl-linaro-toolchain\/bin\/arm-fsl-linux-gnueabi-$/;"	m
+CLK_HIGH	tpd_hardware.h	25;"	d
+CLK_LOW	tpd_hardware.h	24;"	d
+DATAIN_HIGH	tpd_hardware.h	23;"	d
+DATAIN_LOW	tpd_hardware.h	22;"	d
+DotCount	imx_tpd.c	/^unsigned int DotCount = 0; \/* Dot count of 384 dots *\/$/;"	v
+DotCount1	imx_tpd.c	/^unsigned int DotCount1=0,DotCount2=0,DotCount3=0,DotCount4=0,DotCount5=0,DotCount6=0;$/;"	v
+DotCount2	imx_tpd.c	/^unsigned int DotCount1=0,DotCount2=0,DotCount3=0,DotCount4=0,DotCount5=0,DotCount6=0;$/;"	v
+DotCount3	imx_tpd.c	/^unsigned int DotCount1=0,DotCount2=0,DotCount3=0,DotCount4=0,DotCount5=0,DotCount6=0;$/;"	v
+DotCount4	imx_tpd.c	/^unsigned int DotCount1=0,DotCount2=0,DotCount3=0,DotCount4=0,DotCount5=0,DotCount6=0;$/;"	v
+DotCount5	imx_tpd.c	/^unsigned int DotCount1=0,DotCount2=0,DotCount3=0,DotCount4=0,DotCount5=0,DotCount6=0;$/;"	v
+DotCount6	imx_tpd.c	/^unsigned int DotCount1=0,DotCount2=0,DotCount3=0,DotCount4=0,DotCount5=0,DotCount6=0;$/;"	v
+GET_PAPER_STATUS	imx_tpd.c	55;"	d	file:
+GET_THERMISTOR_VALUE	imx_tpd.c	54;"	d	file:
+IN1_HIGH	tpd_hardware.h	39;"	d
+IN1_LOW	tpd_hardware.h	38;"	d
+IN2_HIGH	tpd_hardware.h	41;"	d
+IN2_LOW	tpd_hardware.h	40;"	d
+IN3_HIGH	tpd_hardware.h	43;"	d
+IN3_LOW	tpd_hardware.h	42;"	d
+IN4_HIGH	tpd_hardware.h	45;"	d
+IN4_LOW	tpd_hardware.h	44;"	d
+KDIR	Makefile	/^KDIR    := \/u01\/IMX6\/Back-up\/kernel\/linux-3.0.35$/;"	m
+LATCH_HIGH	tpd_hardware.h	21;"	d
+LATCH_LOW	tpd_hardware.h	20;"	d
+LOW_BATTERY	imx_tpd.c	63;"	d	file:
+MAJORNO	imx_tpd.c	68;"	d	file:
+MAX_SCAN_LINE_MEMORY	imx_tpd.c	44;"	d	file:
+MAX_TEMP	imx_tpd.c	64;"	d	file:
+MEMORY_ERROR	imx_tpd.c	58;"	d	file:
+MX6_BRD_LCD_DAT0_PRN_DATA	tpd_hardware.h	3;"	d
+MX6_BRD_LCD_DAT10_PRN_IN2	tpd_hardware.h	13;"	d
+MX6_BRD_LCD_DAT11_PRN_IN3	tpd_hardware.h	14;"	d
+MX6_BRD_LCD_DAT12_PRN_IN4	tpd_hardware.h	15;"	d
+MX6_BRD_LCD_DAT13_VH_CNTRL	tpd_hardware.h	16;"	d
+MX6_BRD_LCD_DAT1_PRN_CLK	tpd_hardware.h	4;"	d
+MX6_BRD_LCD_DAT2_PRN_LATCH	tpd_hardware.h	5;"	d
+MX6_BRD_LCD_DAT3_STROBE1	tpd_hardware.h	6;"	d
+MX6_BRD_LCD_DAT4_STROBE2	tpd_hardware.h	7;"	d
+MX6_BRD_LCD_DAT5_STROBE3	tpd_hardware.h	8;"	d
+MX6_BRD_LCD_DAT6_STROBE4	tpd_hardware.h	9;"	d
+MX6_BRD_LCD_DAT7_STROBE5	tpd_hardware.h	10;"	d
+MX6_BRD_LCD_DAT8_STROBE6	tpd_hardware.h	11;"	d
+MX6_BRD_LCD_DAT9_PRN_IN1	tpd_hardware.h	12;"	d
+MX6_BRD_PAPERSENSE	tpd_hardware.h	17;"	d
+MX6_BRD_PRN_SW	tpd_hardware.h	18;"	d
+NAME	imx_tpd.c	69;"	d	file:
+NO_LINES	imx_tpd.c	59;"	d	file:
+NO_PAPER	imx_tpd.c	62;"	d	file:
+PLATEN_SW_OPEN	imx_tpd.c	61;"	d	file:
+PWD	Makefile	/^PWD     :=$(shell pwd)$/;"	m
+PresentDotCount1	imx_tpd.c	/^unsigned int PresentDotCount1=0,PresentDotCount2=0,PresentDotCount3=0,PresentDotCount4=0,PresentDotCount5=0,PresentDotCount6=0;$/;"	v
+PresentDotCount2	imx_tpd.c	/^unsigned int PresentDotCount1=0,PresentDotCount2=0,PresentDotCount3=0,PresentDotCount4=0,PresentDotCount5=0,PresentDotCount6=0;$/;"	v
+PresentDotCount3	imx_tpd.c	/^unsigned int PresentDotCount1=0,PresentDotCount2=0,PresentDotCount3=0,PresentDotCount4=0,PresentDotCount5=0,PresentDotCount6=0;$/;"	v
+PresentDotCount4	imx_tpd.c	/^unsigned int PresentDotCount1=0,PresentDotCount2=0,PresentDotCount3=0,PresentDotCount4=0,PresentDotCount5=0,PresentDotCount6=0;$/;"	v
+PresentDotCount5	imx_tpd.c	/^unsigned int PresentDotCount1=0,PresentDotCount2=0,PresentDotCount3=0,PresentDotCount4=0,PresentDotCount5=0,PresentDotCount6=0;$/;"	v
+PresentDotCount6	imx_tpd.c	/^unsigned int PresentDotCount1=0,PresentDotCount2=0,PresentDotCount3=0,PresentDotCount4=0,PresentDotCount5=0,PresentDotCount6=0;$/;"	v
+STATUS_NO_PAPER	imx_tpd.c	65;"	d	file:
+STROBE1_HIGH	tpd_hardware.h	27;"	d
+STROBE1_LOW	tpd_hardware.h	26;"	d
+STROBE2_HIGH	tpd_hardware.h	29;"	d
+STROBE2_LOW	tpd_hardware.h	28;"	d
+STROBE3_HIGH	tpd_hardware.h	31;"	d
+STROBE3_LOW	tpd_hardware.h	30;"	d
+STROBE4_HIGH	tpd_hardware.h	33;"	d
+STROBE4_LOW	tpd_hardware.h	32;"	d
+STROBE5_HIGH	tpd_hardware.h	35;"	d
+STROBE5_LOW	tpd_hardware.h	34;"	d
+STROBE6_HIGH	tpd_hardware.h	37;"	d
+STROBE6_LOW	tpd_hardware.h	36;"	d
+Stb_Width	imx_tpd.c	/^static int Stb_Width=0;$/;"	v	file:
+VHCNTRL_HIGH	tpd_hardware.h	47;"	d
+VHCNTRL_LOW	tpd_hardware.h	46;"	d
+WRITE_ERROR	imx_tpd.c	60;"	d	file:
+__this_module	imx_tpd.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+__used	imx_tpd.mod.c	/^__used$/;"	v	file:
+__used	imx_tpd.mod.c	/^__used$/;"	v	typeref:struct:____versions	file:
+abort2	imx_tpd.c	/^static int abort2;  $/;"	v	file:
+deviceopen	imx_tpd.c	/^static int deviceopen = 0;	\/* For preventing multiple device opens *\/$/;"	v	file:
+driver_strb	imx_tpd.c	/^struct driver_strb{$/;"	s	file:
+driver_strobewidth	imx_tpd.c	/^struct driver_strb driver_strobewidth;$/;"	v	typeref:struct:driver_strb
+flags	imx_tpd.c	/^static unsigned long flags;$/;"	v	file:
+line	imx_tpd.c	/^static int line;			\/* at whice scanline we r now *\/$/;"	v	file:
+motorstate	imx_tpd.c	/^static int motorstate = 1;	\/\/ maintains current step motor state$/;"	v	file:
+obj-m	Makefile	/^obj-m   :=imx_tpd.o$/;"	m
+onestep	imx_tpd.c	/^static void onestep(void)$/;"	f	file:
+paper_feed	imx_tpd.c	/^static char paper_feed = 0;$/;"	v	file:
+print_case	imx_tpd.c	/^static char print_case = 0 ;$/;"	v	file:
+prn_lock	imx_tpd.c	/^static spinlock_t prn_lock ;$/;"	v	file:
+scanlines	imx_tpd.c	/^static unsigned int scanlines;$/;"	v	file:
+setup_port	tpd_hardware.h	/^void setup_port(void)$/;"	f
+start_stepmotor	imx_tpd.c	/^static void start_stepmotor( void )$/;"	f	file:
+stop_stepmotor	imx_tpd.c	/^static void stop_stepmotor(void)$/;"	f	file:
+storelines	imx_tpd.c	/^static unsigned char storelines[MAX_SCAN_LINE_MEMORY];	\/\/Memory to store dot image$/;"	v	file:
+strobewidth_value	imx_tpd.c	/^	int strobewidth_value;$/;"	m	struct:driver_strb	file:
+tpd_cleanup	imx_tpd.c	/^module_exit(tpd_cleanup);$/;"	v
+tpd_cleanup	imx_tpd.c	/^static void __exit tpd_cleanup(void)$/;"	f	file:
+tpd_fops	imx_tpd.c	/^static const struct file_operations tpd_fops = {$/;"	v	typeref:struct:file_operations	file:
+tpd_init	imx_tpd.c	/^module_init(tpd_init);$/;"	v
+tpd_init	imx_tpd.c	/^static int __init tpd_init(void)$/;"	f	file:
+tpd_ioctl	imx_tpd.c	/^static long tpd_ioctl(struct file *flip, unsigned int cmd, unsigned long arg)$/;"	f	file:
+tpd_open	imx_tpd.c	/^static int tpd_open(struct inode *inode, struct file *filp)$/;"	f	file:
+tpd_print	imx_tpd.c	/^static int tpd_print(void)$/;"	f	file:
+tpd_read	imx_tpd.c	/^tpd_read(struct file *filp, char *buffer, size_t length, loff_t * offset)$/;"	f	file:
+tpd_release	imx_tpd.c	/^static int tpd_release(struct inode *inode, struct file *filp)$/;"	f	file:
+tpd_write	imx_tpd.c	/^tpd_write(struct file *filp, const char *buff, size_t length, loff_t * off)$/;"	f	file:
+unsetup_port	tpd_hardware.h	/^void unsetup_port(void)$/;"	f

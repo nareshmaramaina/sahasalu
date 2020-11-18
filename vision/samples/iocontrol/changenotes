@@ -1,0 +1,8 @@
+1.0 to 1.1 changes
+
+1. GSM reset pin set to default in gsm power control
+
+1.1 to 1.2
+
+1. Reset delay change to 200 ms as per data sheet
+

@@ -1,0 +1,23 @@
+1. what are signals
+2  Types of signals	
+	- General purpose
+	- real time 
+3. How Applications can handle an signal event
+	- Default handler
+	- custom handler
+	- ignore
+4. establishing signal handler 
+	- using signal() api
+	- using sigaction() api
+5. sigaction flags
+	-SA_RESTART
+	-SA_NODEFER
+	-SA_RESETHAND
+	-SA_ONSTACK
+	-SA_NOCLDSTOP
+	-SA_NOCLDWAIT
+6. Blocking signal Delivery
+	- During exectuion of a priority signal handler
+		-sigaction with sa_mask field
+	- During execution of critical operation in main thread
+		- sigprocmask() api

@@ -1,0 +1,1 @@
+cmd_/home/veda/Documents/Sourcesforstudents/KernPro_New/modules/modex.ko := ld -r -m elf_i386 -T ./scripts/module-common.lds --build-id  -o /home/veda/Documents/Sourcesforstudents/KernPro_New/modules/modex.ko /home/veda/Documents/Sourcesforstudents/KernPro_New/modules/modex.o /home/veda/Documents/Sourcesforstudents/KernPro_New/modules/modex.mod.o

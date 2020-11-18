@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BATTER_SENSE	lcdkp_io.h	6;"	d
+BUZZER	lcdkp_io.h	1;"	d
+CFLAG	Makefile	/^CFLAG   :=ARCH=arm CROSS_COMPILE=\/opt\/freescale\/usr\/local\/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12\/fsl-linaro-toolchain\/bin\/arm-fsl-linux-gnueabi-$/;"	m
+CFLAG	Makefile1/Makefile	/^CFLAG   :=ARCH=arm CROSS_COMPILE=\/opt\/freescale\/usr\/local\/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12\/fsl-linaro-toolchain\/bin\/arm-fsl-linux-gnueabi-$/;"	m
+KDIR	Makefile	/^KDIR    := \/u03\/BANDHAN\/working\/kernel\/linux-3.0.35$/;"	m
+KDIR	Makefile1/Makefile	/^KDIR    := \/u03\/BANDHAN\/working\/kernel\/linux-3.0.35$/;"	m
+KEY_BUZZER	lcdkp_io.h	2;"	d
+LCD_BKL	lcdkp_io.h	4;"	d
+LCD_BKL_TIMEOUT	lcdkp_io.h	5;"	d
+MAJORNO	lcdkp_io.c	29;"	d	file:
+MX6_BRD_BAT_SENSE	lcdkp_io.h	12;"	d
+MX6_BRD_KP_BACKLIGHT	lcdkp_io.h	11;"	d
+MX6_BRD_KP_BUZZER	lcdkp_io.h	10;"	d
+MX6_BRD_LCD_BACKLIGHT	lcdkp_io.h	9;"	d
+NAME	lcdkp_io.c	30;"	d	file:
+PWD	Makefile	/^PWD     :=$(shell pwd)$/;"	m
+PWD	Makefile1/Makefile	/^PWD     :=$(shell pwd)$/;"	m
+TOUCH_BUZZER	lcdkp_io.h	3;"	d
+helper_function	lcdkp_io.c	/^void  helper_function  (void)$/;"	f
+helper_function	working_usermodehelper.c	/^void  helper_function  (void)$/;"	f
+lcd_kp_fops	lcdkp_io.c	/^struct file_operations lcd_kp_fops={$/;"	v	typeref:struct:file_operations
+lcd_kp_ioctl	lcdkp_io.c	/^static long lcd_kp_ioctl(struct file *flip, unsigned int cmd, unsigned long arg)$/;"	f	file:
+lcd_kp_open	lcdkp_io.c	/^static int lcd_kp_open(struct inode *inode, struct file *filp)$/;"	f	file:
+lcd_kp_read	lcdkp_io.c	/^static ssize_t lcd_kp_read(struct file *filp, char *buffer, size_t length, loff_t * offset)$/;"	f	file:
+lcd_kp_release	lcdkp_io.c	/^static int lcd_kp_release(struct inode *inode, struct file *filp)$/;"	f	file:
+my_timer	lcdkp_io.c	/^static struct timer_list my_timer;$/;"	v	typeref:struct:timer_list	file:
+my_timer	working_usermodehelper.c	/^static struct timer_list my_timer;$/;"	v	typeref:struct:timer_list	file:
+my_timer_function	lcdkp_io.c	/^static void my_timer_function (unsigned long ptr)$/;"	f	file:
+my_timer_function	working_usermodehelper.c	/^static void my_timer_function (unsigned long ptr)$/;"	f	file:
+myexit	working_usermodehelper.c	/^module_exit(myexit);$/;"	v
+myexit	working_usermodehelper.c	/^static __exit void  myexit(void)$/;"	f	file:
+myinit	working_usermodehelper.c	/^module_init(myinit);$/;"	v
+myinit	working_usermodehelper.c	/^static __init int myinit(void)$/;"	f	file:
+obj-m	Makefile	/^obj-m   := lcdkp_io.o$/;"	m
+obj-m	Makefile1/Makefile	/^obj-m   := lcdkp_io.o$/;"	m
+setup_exit	lcdkp_io.h	/^void setup_exit(void){$/;"	f
+setup_init	lcdkp_io.h	/^void setup_init(void){$/;"	f
+user_mode_func	lcdkp_io.c	/^static struct work_struct user_mode_func;$/;"	v	typeref:struct:work_struct	file:
+user_mode_func	working_usermodehelper.c	/^static struct work_struct user_mode_func;$/;"	v	typeref:struct:work_struct	file:
+usermode_exit	lcdkp_io.c	/^module_exit(usermode_exit);$/;"	v
+usermode_exit	lcdkp_io.c	/^static __exit void  usermode_exit(void)$/;"	f	file:
+usermode_init	lcdkp_io.c	/^module_init(usermode_init);$/;"	v
+usermode_init	lcdkp_io.c	/^static __init int usermode_init(void)$/;"	f	file:

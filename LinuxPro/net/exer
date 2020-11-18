@@ -1,0 +1,40 @@
+I. Implement following types of tcp/ip servers 
+  
+   1. Tcp/ip fork server
+   2. Tcp/ip pre-forking server(process pool)
+   3. Tcp/ip threading server
+   4. Tcp/ip pre-threaded server(thread pool)
+   5. Tcp/ip prefork-threaded server(fork-threads)
+	
+write test cases to verfiy concurrent service of the above servers
+
+II. Impelement Tcp/ip client server application which should communicate are per following steps
+
+1. Client Establishes connection with Server.
+
+2. Server sends a Greeting Message to client.
+
+3. Client has to send the some text to Server as a message.
+
+4. Server sends a "quote of the day" message to the client and closes the connection.
+
+   note: First Two bytes of the each Message Should consist of length info.
+
+
+II. Echo server
+ 
+    implement udp/ip echo server(revert same mesg recvd from client back to client) 
+
+
+III. Quote of the day service
+
+1. client sends "hello" msg to server
+2. server responds with "greetings" message
+3. client sends request for quote of the day
+4. server responds with "quote" message.
+
+note: server must ramdomly pick quote from a set of quote's in its database.
+
+
+
+

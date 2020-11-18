@@ -1,0 +1,22 @@
+fork()----> sys_fork()---->do_fork()
+
+sys_fork()
+{
+	1. validate args
+	2. invoke do_fork()
+	3. return PID;
+}     
+
+do_fork()
+{
+	1. Allocate new address space
+	2. copy segments of caller address space to new address space.
+	3. allocate new task_struct instance
+	4. copy caller task_struct entries to new task_struct
+           (except identification details).
+	5. return.
+}
+
+Note: when operation in step 4 executes caller's cpu state is copied into
+      new process PCB, resulting both processes to resume/start execution with same 
+      state. (ebp, eip, esp) 	

@@ -1,0 +1,1 @@
+cmd_/u01/ksrc/KernPro/mywork/chrdrv/part2/naresh.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /u01/ksrc/KernPro/mywork/chrdrv/part2/naresh.ko /u01/ksrc/KernPro/mywork/chrdrv/part2/naresh.o /u01/ksrc/KernPro/mywork/chrdrv/part2/naresh.mod.o ;  true

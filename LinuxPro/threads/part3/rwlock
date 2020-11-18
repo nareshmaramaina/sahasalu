@@ -1,0 +1,38 @@
+1. declare lock structure
+
+typedef  struct {
+
+	pthread_mutex_t mtx;
+	int seqcount;
+	} pthread_seqlock_t;
+
+2. implement writer interfaces
+
+	pthread_seqlock()
+	{
+		1. lock mtx
+	}
+	
+	pthread_sequnlock()
+	{
+		1. unlock mtx;
+		2. incr seqcount;
+	}
+
+3. implement reader interfaces
+
+	pthread_seqread()
+	{
+		return seqcount;
+	}
+
+
+readers
+
+	int count;
+	do {
+	count = pthread_seqread();
+		read shared data
+
+	while(count == pthread_seqread());
+		

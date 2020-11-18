@@ -1,0 +1,41 @@
+Description of the Application-level protocol used by "quote of the day"
+Server and Client.
+
+--------------------------------------------------------------------------
+1. Client Establishes connection with Server.
+
+2. Server sends a Greeting Message to client.
+
+	(i)First Two bytes of the Message Should consist of length info.
+
+3. Client has to send the some text to Server as a message.
+	
+	(i)First Two bytes of the Message Should consist of length info.
+
+4. Server sends message to the client and closes the connection.
+---------------------------------------------------------------------------
+In the above protocol all the messages that are passed between Client and
+Server will be in the following Format.
+
+	struct message{
+		short sizeofmsg;
+		void *message;
+	}
+----------------------------------------------------------------------------
+Quote of the day (udp)
+
+1. Client sends a greeting message to Server.
+
+2. Server responds to clients greeting message and sends menu of
+   services offered
+	
+	1) Quote of the day
+	2) Fortune message of the day
+	3) word of the day
+
+3. Client makes a request as per options in services menu.
+
+4. Server sends message to the client.
+	
+Note : All messages must include length info in first Two bytes.
+
