@@ -1,0 +1,215 @@
+Atomic Variables
+
+With the advent of multiprocessor systems, the requirement of the programs to maintain the synchronization has become mandatory.
+
+In a multiprocessor systems if a program is being executed on multiple processors with data being shared between the processors then the update of data by one one processor might be affected by an update by another processor.
+
+For eg consider the instruction val = val + 1; This is a good example of a read modify write instruction where the processor read the value of "val" modifies it and write it back. In a uniproessor system this poses no problem because the processor will not let go of the memory bus until the instruction is not completely executed.
+
+But in a multiprocessor system, the memory bus might be released after the read and while one processor updates the value another processor can make use of the bus.
+If two processors, processor A and processor B reach this instruction at the same time. Assume the value of val is 3 initially.
+
+Processor A reads the value 3 and lets go of the bus
+While processor A updates the val processor B also reads val as 3 and lets the go of the bus
+Now processor A updates the new value 4 in the val
+Then processor B also updates the value of val as 4.
+
+With 2 increments the value of val should have become 5, but it remains at 4 because both the processors were allowed to read the variable before one of them finished the operation on it.
+
+This simultaneous access can be prevented using semaphores and spinlocks but implementing a semaphore or spinlock for one instruction might be an overkill.
+
+There is another solution in linux kernel called atomic variables.
+
+Atomic variables are the ones on whom the read modify write operation is done as one instruction with out any interruption .
+
+In the above example if val was an atomic variable then processor B would have been allowed access to the variable only after processor A has finished the updating the visible, until then the processor A would have held on to the memory bus.
+
+To make use of the atomic variables the variable needs to be declared as of type atomic_t.
+
+The access to the atomic variables is not through the standard instructions but using special functions listed below.
+
+atomic_t *val   Declaration
+
+
+atomic_read(val): Returns the value of *val
+atomic_set(val,i) :  Sets *val to i
+
+
+atomic_add(i,val):    adds i to *val
+atomic_sub(i,val):  Subtracts i from *val
+atomic_sub_and_test(i, val) : Subtracts i from *val and returns 1 if the result is zero,
+
+
+atomic_inc(val) : Adds 1 to *val
+atomic_dec(val) :  Subtracts 1 from *val
+
+
+atomic_dec_and_test(val): Subtracts 1 from *val and returns 1 if the result is zero, otherwise it returns 0
+atomic_inc_and_test(val): Adds 1 to *v and returns 1 if the result is zero; 0 otherwise
+
+
+atomic_add_negative(i, val): Adds i to *val and returns 1 if the result is negative, otherwise it returns 0
+
+atomic_inc_return(val): Adds 1 to *val and returns the new value of *val
+atomic_dec_return(val): Subtracts 1 from *val and return the new value of *val
+atomic_add_return(i, val) : Adds i to *val and returns the new value of *val
+atomic_sub_return(i, val): Subtracts i from *val and return the new value of *val
+
+Let us write a small module using one of the functions and see how it gets implemented at the assembly level.
+
+
+***********************test_atomic.c **********************
+#include<linux/kernel.h>
+#include<linux/module.h> 
+
+
+atomic_t *test; 
+
+
+int test_init(void) 
+{
+atomic_set(test,2);
+atomic_add(2,test);
+}
+
+
+void test_exit(void)
+{
+}
+module_init(test_init);
+module_exit(test_exit);
+**************************************************************
+
+Save the above code as test_atomic.c, the makefile required to compile the code will be
+
+*****************Makefile*******************************
+
+
+ifneq ($(KERNELRELEASE),) 
+   obj-m := test_atomic.o
+else 
+
+
+KERNELDIR ?= /lib/modules/$(shell uname -r)/build 
+
+
+PWD := $(shell pwd)
+
+
+default: 
+ $(MAKE) -C $(KERNELDIR) M=$(PWD) modules  
+clean:
+ $(MAKE) -C $(KERNELDIR) M=$(PWD) clean
+endif 
+********************************************************
+
+Now compile the code by running the command make
+
+$ make
+
+This should generate the file test_atomic.ko.
+
+To look at the assembly instructions for this code we can use "objdump"  which is a command to read information from object files.
+
+Run the command as follows
+
+$ objdump -d -S test_atomic.ko 
+
+test_atomic.o:     file format elf32-i386
+
+
+
+
+Disassembly of section .text:
+
+
+00000000 <init_module>:
+   0: a1 00 00 00 00        mov    0x0,%eax
+   5: c7 00 02 00 00 00     movl   $0x2,(%eax)
+   b: a1 00 00 00 00        mov    0x0,%eax
+  10: f0 83 00 02           lock addl $0x2,(%eax)   
+  14: c3                    ret    
+
+
+00000015 <cleanup_module>:
+  15: c3                    ret    
+
+
+
+
+The lines after <init_module> in the output of the command is the assembly code for the init function we have written.
+
+If we look at the 4th line of the assebly instructions we notice an instruction that starts with the keyword "lock" and then followed by "addl".
+
+This instruction corresponds to the function "atomic_add". The lock keyword makes sure that the memory bus remains locked as long as the variable is not read modified and written back.
+
+Similarly any of the atomic instructions are executed with the lock keyword making sure that the read modify write happens with out any interruptions.
+
+
+
+Posted by tuxthink Email ThisBlogThis!Share to TwitterShare to FacebookShare to Pinterest
+No comments:
+
+Post a Comment
+
+Newer Post Older Post Home
+Subscribe to: Post Comments (Atom)
+Follow by Email
+	
+Follow @Linux_world
+Subscribe Now
+Subscribe in a reader
+	
+Blog Archive
+
+    ►  2020 (1)
+
+    ►  2019 (17)
+
+    ►  2018 (7)
+
+    ►  2017 (12)
+
+    ►  2016 (6)
+
+    ►  2015 (7)
+
+    ►  2014 (36)
+
+    ►  2013 (81)
+
+    ►  2012 (174)
+
+    ▼  2011 (69)
+        ►  December (5)
+        ►  November (1)
+        ▼  October (4)
+            Linux Quiz 1
+            Atomic Variables
+            VI editor tips for programmers - 3
+            VI editor tips for programmers -2
+        ►  September (13)
+        ►  August (11)
+        ►  July (12)
+        ►  June (3)
+        ►  May (3)
+        ►  April (4)
+        ►  March (5)
+        ►  February (4)
+        ►  January (4)
+
+    ►  2010 (85)
+
+    ►  2009 (1)
+
+Followers
+About Me
+
+tuxthink
+
+View my complete profile
+	
+Treat the information in the blog with precautions, None of the results are gauranteed.. Simple theme. Powered by Blogger.
+
+
+@#$123nari

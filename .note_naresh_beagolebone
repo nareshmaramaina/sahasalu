@@ -1,0 +1,6 @@
+Hard float soft float gcc lib 
+	ld-linux-armhf.so.3 -> arm-linux-gnueabihf/ld-2.19.so ( Library )
+	ld-linux.so.3 -> ld-linux-armhf.so.3ld-linux.so.3 -> ld-linux-armhf.so.3 // Create Soft for soft float binaries 
+
+
+imx6 of devkermit need to utilize in beaglone, if in  devkermit application tty was  hardcoded in the binary, don't edit ex: ttymxc0 to ttyS0,  Give symblolic link to ttymxc0 to ttyS0 
