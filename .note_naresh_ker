@@ -1,4 +1,4 @@
--------------
+.note_naresh_ker.swp-------------
 Char driver 
 --------------
 
@@ -20,7 +20,8 @@ $(MAKE) -C KDIR M=$(PWD) clean
 Source Code write
 -------------
 
-__init __exit  init exit modules for driver  
+__init __exit  init exit modules for driver , These are use to clean after module init or exit as per ur decision 
+ 
 
 If you want to  use generic name Use init  for init_module ( init module fun)	exit for cleanup_module  ( exit module function) // It should non static
 
@@ -41,6 +42,12 @@ cdev_del
 
 }
 
+
+
+module_param(myshort, short, S_IRUSR ); // Variable, data type , Permissions 
+MODULE_PARM_DESC(myshort, "A short integer"); // Description about variable for modinfo purpose 
+
+
 Major Number is the location of the driver object with in drivers list maintained by vfs.
 * Vfs identifies appropriate driver operations board to a device file through major number.
 
@@ -53,8 +60,35 @@ The minor number is used by the driver code to distinguish between the various h
 
 
 
+Observation Note : 
+1)	Basically 512 Major numbers are supported, if want behind on that u can change in linux/fs.h #define CHRDEV_MAJOR_MAX 4096 	( Is possible )
+2)	You can also write module without init,exit functiions ( This means we are just attaching our module to kerenel data and code segment ) Utill user run it can't run
+3)  After driver insert u can create the file name / directory anywhere it doesn't matter, it looks only major number
+4) register_chrdev(major,count,&fops) // Limitation is major and minor number is supported with in the 255
 
+
+	 register_chrdev_region(my_dev,count,CHAR_DEV_NAME); // CHAR_DEV_NAME Just name not a node to fix supported file
+ 
+	it is supported static allocation only, if u pass majar number as 0, it will allocate dynamically major number but it can't unregister the allocated number 
+	alloc_chrdev, for dynamically allocate major number and unregister properly allocated thing  	
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ----------------
 Sysfs file creation 

@@ -61,11 +61,11 @@ static int __init char_dev_init(void)
 		return ret;
 	}
 	pr_info("major no assigned is %d", ret);
-	major = ret;
-	mydev = MKDEV(major, minor);
+	//major = ret;
+	//mydev = MKDEV(major, minor);
 
-	veda_class = class_create(THIS_MODULE, "VIRTUAL");
-	device_create(veda_class, NULL, mydev, NULL, "%s", "vDev3");
+	//veda_class = class_create(THIS_MODULE, "VIRTUAL");
+	//device_create(veda_class, NULL, mydev, NULL, "%s", "vDev3");
 
 	return SUCCESS;
 }

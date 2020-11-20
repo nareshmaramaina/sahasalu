@@ -13,7 +13,7 @@ MODULE_AUTHOR("Peter Jay Salzman");
 static short int myshort = 1;
 static int myint = 420;
 static long int mylong = 9999;
-static char *mystring = "blah";
+static char mystring='l';
 static int myintArray[2] = { -1, -1 };
 static int arr_argc = 0;
 
@@ -31,7 +31,7 @@ module_param(myint, int, S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH);
 MODULE_PARM_DESC(myint, "An integer");
 module_param(mylong, long, S_IRUSR);
 MODULE_PARM_DESC(mylong, "A long integer");
-module_param(mystring, charp, 0000);
+module_param(mystring, byte ,S_IRUSR);
 MODULE_PARM_DESC(mystring, "A character string");
 
 /*
@@ -45,14 +45,14 @@ MODULE_PARM_DESC(mystring, "A character string");
 module_param_array(myintArray, int, &arr_argc, 0000);
 MODULE_PARM_DESC(myintArray, "An array of integers");
 
-static int __init hello_5_init(void)
+int  init_module(void)
 {
 	int i;
 	printk(KERN_INFO "Hello, world 5\n=============\n");
 	printk(KERN_INFO "myshort is a short integer: %hd\n", myshort);
 	printk(KERN_INFO "myint is an integer: %d\n", myint);
 	printk(KERN_INFO "mylong is a long integer: %ld\n", mylong);
-	printk(KERN_INFO "mystring is a string: %s\n", mystring);
+	printk(KERN_INFO "mystring is a string: %c\n", mystring);
 	for (i = 0; i < (sizeof myintArray / sizeof (int)); i++)
 	{
 		printk(KERN_INFO "myintArray[%d] = %d\n", i, myintArray[i]);
@@ -61,10 +61,10 @@ static int __init hello_5_init(void)
 	return 0;
 }
 
-static void __exit hello_5_exit(void)
+void cleanup_module(void)
 {
 	printk(KERN_INFO "Goodbye, world 5\n");
 }
 
-module_init(hello_5_init);
-module_exit(hello_5_exit);
+//module_init(hello_5_init);
+//module_exit(hello_5_exit);

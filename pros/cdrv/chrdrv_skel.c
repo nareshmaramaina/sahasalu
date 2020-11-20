@@ -4,7 +4,7 @@
 #include <linux/fs.h>
 #include <linux/cdev.h>
 
-#define MAJORNO 190
+#define MAJORNO 1900
 #define MINORNO  0
 #define CHAR_DEV_NAME "vDev1"
 #define SUCCESS 0
@@ -58,8 +58,6 @@ static int __init char_dev_init(void)
 {
 	int ret;
 
-
-
 	mydev = MKDEV(MAJORNO, MINORNO);
 	register_chrdev_region(mydev, count, CHAR_DEV_NAME);
 
@@ -76,7 +74,6 @@ static int __init char_dev_init(void)
 		return ret;
 	}
 	pr_info("Device Registered %s\n", CHAR_DEV_NAME);
-	while(1);
 	return SUCCESS;
 }
 
