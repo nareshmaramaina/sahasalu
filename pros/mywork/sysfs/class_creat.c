@@ -15,26 +15,26 @@ static int etx_release(struct inode *inode, struct file *file);
 
 struct file_operations hello_fops = {  
 	.owner = THIS_MODULE , 
-	 .open    = etx_open,
-        .release        = etx_release,
+	.open    = etx_open,
+	.release        = etx_release,
 }; 
 static int etx_open(struct inode *inode, struct file *file)
 {
-        printk(KERN_INFO "Device File Opened...!!!\n");
-        return 0;
+	printk(KERN_INFO "Device File Opened...!!!\n");
+	return 0;
 }
 
 static int etx_release(struct inode *inode, struct file *file)
 {
-        printk(KERN_INFO "Device File Closed...!!!\n");
-        return 0;
+	printk(KERN_INFO "Device File Closed...!!!\n");
+	return 0;
 }
 
 static void char_reg_setup_cdev (void)  
 {  
 	int error, devno = MKDEV (hello_major, hello_minor); 
 
-	        cdev = cdev_alloc();
+	cdev = cdev_alloc();
 	cdev_init (cdev, &hello_fops);  
 	error = cdev_add (cdev, devno , 3);  
 	if (error)  

@@ -1,0 +1,1 @@
+cmd_/home/naresh/sahasalu/pros/mywork/sysfs/alloc.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/naresh/sahasalu/pros/mywork/sysfs/alloc.ko /home/naresh/sahasalu/pros/mywork/sysfs/alloc.o /home/naresh/sahasalu/pros/mywork/sysfs/alloc.mod.o;  true

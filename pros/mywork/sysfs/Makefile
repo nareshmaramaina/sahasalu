@@ -1,4 +1,4 @@
-obj-m := high.o
+obj-m := alloc.o
 #obj-m := driver.o
 #obj-m := class_creat.o
 
