@@ -1,0 +1,1 @@
+cmd_/home/naresh/sahasalu/pros/mywork/sysfs/Sysfs_groupfile_create.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/naresh/sahasalu/pros/mywork/sysfs/Sysfs_groupfile_create.ko /home/naresh/sahasalu/pros/mywork/sysfs/Sysfs_groupfile_create.o /home/naresh/sahasalu/pros/mywork/sysfs/Sysfs_groupfile_create.mod.o;  true

@@ -28,6 +28,7 @@ int __init init(void)
 	pr_info("Module Init\n");
 
 	ret = alloc_chrdev_region(&mydev,2,2,"maresh"); // &dev Num , Minor 2 , 2,  2,3 
+	pr_info("REgisterted Numer %d\n",ret);
 	if (ret < 0 )
 	{	
 		pr_info("Registration failed\n");
@@ -40,8 +41,8 @@ int __init init(void)
 }
 void myexit(void)
 {
-	unregister_chrdev_region(mydev,2);
 	cdev_del(cdevp);
+	unregister_chrdev_region(mydev,2);
 	pr_info("Module Exit\n");
 	return;
 }

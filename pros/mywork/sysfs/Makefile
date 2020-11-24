@@ -1,4 +1,4 @@
-obj-m := alloc.o
+obj-m := Sysfs_groupfile_create.o
 #obj-m := driver.o
 #obj-m := class_creat.o
 

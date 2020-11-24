@@ -1,0 +1,1 @@
+cmd_/home/naresh/sahasalu/pros/mywork/sysfs/Sysfs_groupfile_create.mod := { echo  /home/naresh/sahasalu/pros/mywork/sysfs/Sysfs_groupfile_create.o; echo; } > /home/naresh/sahasalu/pros/mywork/sysfs/Sysfs_groupfile_create.mod

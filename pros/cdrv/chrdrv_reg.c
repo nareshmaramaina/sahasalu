@@ -55,7 +55,7 @@ static int __init char_dev_init(void)
 	int ret;
 	unsigned int minor = 0;
 
-	ret = register_chrdev(major, "CHAR_DEV_NAME", &char_dev_fops);
+	ret = register_chrdev(227, CHAR_DEV_NAME, &char_dev_fops);
 	if (ret < 0) {
 		pr_err("failed acquiring major no");
 		return ret;
@@ -73,8 +73,8 @@ static int __init char_dev_init(void)
 static void __exit char_dev_exit(void)
 {
 	unregister_chrdev(major, CHAR_DEV_NAME);
-	device_destroy(veda_class, mydev);
-	class_destroy(veda_class);
+//	device_destroy(veda_class, mydev);
+//	class_destroy(veda_class);
 	pr_info("Driver unregistered");
 }
 

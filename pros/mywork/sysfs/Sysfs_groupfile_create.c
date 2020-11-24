@@ -3,8 +3,6 @@
 #include<linux/cdev.h>
 #include<linux/kobject.h> 
 #include<linux/sysfs.h> 
-int hi=0;
-dev_t mydev=0;
 #include <linux/kernel.h>
 #include <linux/init.h>
 #include <linux/module.h>
@@ -31,10 +29,34 @@ static ssize_t mystore(struct kobject *kobj,struct kobj_attribute *kattr,const c
 	sscanf(buf,"date: %d",&value);
 	return  count;
 }
+static ssize_t show(struct kobject *kobj,struct kobj_attribute *kattr,char *buf)
+{
+        int count;
+        pr_info("Cmae\n");
+        count = sprintf(buf,"Mamoye: %d",value);
+        return count;
+}
+static ssize_t store(struct kobject *kobj,struct kobj_attribute *kattr,const char *buf,size_t  count)
+{
+        pr_info("Cmae mys stroe\n");
+        sscanf(buf,"Mamoye: %d",&value);
+        return  count;
+}
+
 //struct cdev *cdevp;
 struct kobject *kobj;
 struct kobj_attribute kobj_attr=
 __ATTR(File,0660,myshow,mystore);
+struct kobj_attribute kobj_attr1=
+__ATTR(File1,0660,show,store);
+struct attribute *attrs[] ={
+&kobj_attr.attr,
+&kobj_attr1.attr,
+NULL,
+};
+struct attribute_group kobj_group={
+.attrs=attrs,
+};
 int  init(void)
 {
 	int ret;
@@ -57,17 +79,32 @@ int  init(void)
 		return -1;
 	}
 
-	ret = sysfs_create_file(kobj,&kobj_attr.attr);
+	ret = sysfs_create_group(kobj,&kobj_group);
 	if ( ret )
 	{
 		pr_info("Creation Failed\n");
 		return -1;
 	}
+
+/*	ret = sysfs_create_file(kobj,&kobj_attr.attr);
+	if ( ret )
+	{
+		pr_info("Creation Failed\n");
+		return -1;
+	}
+	ret = sysfs_create_file(kobj,&kobj_attr1.attr);
+	if ( ret )
+	{
+		pr_info("Creation Failed\n");
+		return -1;
+	} */
 	return 0;
 }
 void myexit(void)
 {
-	sysfs_remove_file(kobj,&kobj_attr.attr);
+//	sysfs_remove_file(kobj,&kobj_attr.attr);
+//	sysfs_remove_file(kobj,&kobj_attr1.attr);
+	sysfs_remove_group(kobj,&kobj_group);
 	kobject_put(kobj);
 	//unregister_chrdev_region(mydev,2);
 	//cdev_del(cdevp);

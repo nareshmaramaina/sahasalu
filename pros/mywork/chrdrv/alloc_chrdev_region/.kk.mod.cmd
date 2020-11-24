@@ -1,0 +1,1 @@
+cmd_/home/naresh/sahasalu/pros/mywork/chrdrv/alloc_chrdev_region/kk.mod := { echo  /home/naresh/sahasalu/pros/mywork/chrdrv/alloc_chrdev_region/kk.o; echo; } > /home/naresh/sahasalu/pros/mywork/chrdrv/alloc_chrdev_region/kk.mod
