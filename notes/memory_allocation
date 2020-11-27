@@ -1,0 +1,26 @@
+
+Memory Management Unit (MMU) transforms a logical address into a linear address (using a hardware circuit called a segmentation unit), and the linear address into a physical address (using a second hardware circuit called a paging unit), as shown in the figure below:
+
+Memory Sub system :-
+
+High level MM code ( Processor independent code )  Memory Manager  ( /usr/src/linux*/mm/ )
+
+Low level MM  code ( Processor  Dependent Code ) Memory Initializer ( /usr/src/linux*/arch/ arm
+											    i386
+											     PPCmm
+
+Runs at early boot stage end is responsible for following operations 
+
+1) Initilization of MMU		
+2) Initilization page descriptor
+3) Setting up page frame table  	 
+4) Allocation of zone decriptor 
+5) Initilaztion of TLB ( Cache )
+6) Management of TLB buffers 
+7) Initialzation of low level memory allocate
+
+
+
+In Processor view ( Real Memory mode )  -> Memory is single array -> Physical Offset 
+In processor view ( Protected Memory Mode ) - > Memory set of array/ vector  -> Blocks -> Frame 4k -> Physical Address = Frame No + offset 
+

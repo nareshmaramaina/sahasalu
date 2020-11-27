@@ -1,0 +1,241 @@
+C
+
+High level Languages <- Compiler , interpreters
+Low Level Languages	<- Assembly Language and machine level language
+
+	A-Z  ( 65 -90 )
+	a-z  ( 97 - 122 )
+	0-9  ( 48 -57 )
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+C/C++ has many built-in operator types and they are classified as follows:
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    	Arithmetic Operators: These are the operators used to perform arithmetic/mathematical operations on operands. Examples: (+, -, *, /, %,++,–). Arithmetic operator are of two types:
+
+        Unary Operators: Operators that operates or works with a single operand are unary operators. For example: (++ , –)
+
+        Binary Operators: Operators that operates or works with two operands are binary operators. For example: (+ , – , * , /)
+
+	Relational Operators: These are used for comparison of the values of two operands. For example, checking if one operand is equal to the other operand or not, an operand is greater than the other operand or not etc. Some of the relational operators are (==, >= , <= ).
+
+Logical Operators:  Logical Operators are used to combine two or more conditions/constraints or to complement the evaluation of the original condition in consideration. The result of the operation of a logical operator is a boolean value either true or false. For example, the logical AND represented as ‘&&’ operator in C or C++ returns true when both the conditions under consideration are satisfied. Otherwise it returns false. Therfore, a && b returns true when both a and b are true (i.e. non-zero). To learn about different logical operators in details please visit this link.
+
+Bitwise Operators: The Bitwise operators is used to perform bit-level operations on the operands. The operators are first converted to bit-level and then the calculation is performed on the operands. The mathematical operations such as addition, subtraction, multiplication etc. can be performed at bit-level for faster processing. For example, the bitwise AND represented as & operator in C or C++ takes two numbers as operands and does AND on every bit of two numbers. The result of AND is 1 only if both bits are 1. To learn bitwise operators in details, visit this link.
+
+Assignment Operators: Assignment operators are used to assign value to a variable. The left side operand of the assignment operator is a variable and right side operand of the assignment operator is a value. The value on the right side must be of the same data-type of variable on the left side otherwise the compiler will raise an error.
+Different types of assignment operators are shown below:
+
+    “=”: This is the simplest assignment operator. This operator is used to assign the value on the right to the variable on the left.
+    For example:
+
+    a = 10;
+    b = 20;
+    ch = 'y';
+
+    “+=”: This operator is combination of ‘+’ and ‘=’ operators. This operator first adds the current value of the variable on left to the value on right and then assigns the result to the variable on the left.
+    Example:
+
+    (a += b) can be written as (a = a + b)
+
+    If initially value stored in a is 5. Then (a += 6) = 11.
+    “-=”: This operator is combination of ‘-‘ and ‘=’ operators. This operator first subtracts the value on right from the current value of the variable on left and then assigns the result to the variable on the left.
+    Example:
+
+    (a -= b) can be written as (a = a - b)
+
+    If initially value stored in a is 8. Then (a -= 6) = 2.
+    “*=”: This operator is combination of ‘*’ and ‘=’ operators. This operator first multiplies the current value of the variable on left to the value on right and then assigns the result to the variable on the left.
+    Example:
+
+    (a *= b) can be written as (a = a * b)
+
+    If initially value stored in a is 5. Then (a *= 6) = 30.
+    “/=”: This operator is combination of ‘/’ and ‘=’ operators. This operator first divides the current value of the variable on left by the value on right and then assigns the result to the variable on the left.
+    Example:
+
+    (a /= b) can be written as (a = a / b)
+
+    If initially value stored in a is 6. Then (a /= 2) = 3.
+
+Other Operators: Apart from the above operators there are some other operators available in C or C++ used to perform some specific task. Some of them are discussed here:
+
+    sizeof operator: sizeof is a much used in the C/C++ programming language. It is a compile time unary operator which can be used to compute the size of its operand. The result of sizeof is of unsigned integral type which is usually denoted by size_t. Basically, sizeof operator is used to compute the size of the variable. To learn about sizeof operator in details you may visit this link.
+
+    Comma Operator: The comma operator (represented by the token ,) is a binary operator that evaluates its first operand and discards the result, it then evaluates the second operand and returns this value (and type). The comma operator has the lowest precedence of any C operator. Comma acts as both operator and separator. To learn about comma in details visit this link.
+
+    Conditional Operator: Conditional operator is of the form Expression1 ? Expression2 : Expression3 . Here, Expression1 is the condition to be evaluated. If the condition(Expression1) is True then we will execute and return the result of Expression2 otherwise if the condition(Expression1) is false then we will execute and return the result of Expression3. We may replace the use of if..else statements by conditional operators. To learn about conditional operators in details, visit this link.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Operator in C 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+				Operator 		Type 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Unary Operator		-	++ --			Unary Operator
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Binary Operator		- 	+,-,*,/,%		Arithmetic operator
+
+				<,<=,>,>=,==,!=		Relational Operator
+				
+				&&,||,!			Logical Operator 
+
+
+				&,|,^,>>,<<,~		Bitwise Operator 
+
+
+				=,+=,-=,*=,%=,/=	Assignment Operator 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ternary Operator 	-	?:			Ternary operator or conditional operator 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Category 	Operator 				Associativity
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Postfix		() [] -> . ++ - - 			Left to right
+Unary 		+ - ! ~ ++ - - (type)* & sizeof 	Right to left
+Multiplicative 	* / % 					Left to right
+Additive 	+ - 					Left to right
+Shift	 	<< >> 					Left to right
+Relational 	< <= > >= 				Left to right
+Equality 	== != 					Left to right
+Bitwise AND 	& 					Left to right
+Bitwise XOR 	^ 					Left to right
+Bitwise OR 	| 					Left to right
+Logical AND 	&& 					Left to right
+Logical OR 	|| 					Left to right
+Conditional 	?: 					Right to left
+Assignment 	= += -= *= /= %=>>= <<= &= ^= |= 	Right to left
+Comma 		, 					Left to right
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Precedence 	Operator 	Description 				Associativity
+------------------------------------------------------------------------------------------------------------------------------------------------------
+1 		++ -- 		Suffix/postfix increment and decrement 	Left-to-right
+		()	 	Function call
+		[] 		Array subscripting
+		. 		Structure and union member access
+		-> 		Structure and union member access 
+				throug pointer
+		(type){list} 	Compound literal(C99)
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2 		++ -- 		Prefix increment and decrement	 	Right-to-left
+		+ - 		Unary plus and minus
+		! ~ 		Logical NOT and bitwise NOT
+		(type) 		Type cast
+		* 		Indirection (dereference)
+		& 		Address-of
+		sizeof 		Size-of[note 2]
+		_Alignof 	Alignment requirement(C11)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+3	 	* / % 		Multiplication, division,remainder	 Left-to-right
+
+4 		+ - 		Addition and subtraction
+
+5 		<< >> 		Bitwise left shift and right shift
+
+6 		< <= 		For relational operators < and ≤ respectively
+		> >= 		For relational operators > and ≥ respectively
+7	 	== != 		For relational = and ≠ respectively
+
+8	 	& 		Bitwise AND
+
+9	 	^ 		Bitwise XOR (exclusive or)
+
+10	 	| 		Bitwise OR (inclusive or)
+
+11 		&& 		Logical AND
+
+12	 	|| 		Logical OR
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+13 		?: 		Ternary conditional			Right-to-Left
+
+14		=	 	Simple assignment
+		+= -=	 	Assignment by sum and difference
+		*= /= %= 	Assignment by product, quotient, and remainder
+		<<= >>=		Assignment by bitwise left shift and right shift
+		&= ^= |= 	Assignment by bitwise AND, XOR, and OR
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+15 		, 				Comma 			Left-to-right 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+BODMAS ( Brackets, square )
+	( Of ( square of , power of )
+	( DIVISION )
+	(Multiplication )
+	( Addition )
+	( Subtraction )
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+Big endian vs. little endian
+
+Big-endian is an order in which the "big end" (most significant value in the sequence) is stored first (at the lowest storage address). Little-endian is an order in which the "little end" (least significant value in the sequence) is stored first. For example, in a big-endian computer, the two bytes required for the hexadecimal number 4F52 would be stored as 4F52 in storage (if 4F is stored at storage address 1000, for example, 52 will be at address 1001). In a little-endian system, it would be stored as 524F (52 at address 1000, 4F at 1001).
+
+For people who use languages that read left-to-right, big endian seems like the natural way to think of a storing a string of characters or numbers - in the same order you expect to see it presented to you. Many of us would thus think of big-endian as storing something in forward fashion, just as we read.
+
+An argument for little-endian order is that as you increase a numeric value, you may need to add digits to the left (a higher non-exponential number has more digits). Thus, an addition of two numbers often requires moving all the digits of a big-endian ordered number in storage, moving everything to the right. In a number stored in little-endian fashion, the least significant bytes can stay where they are and new digits can be added to the right at a higher address. This means that some computer operations may be simpler and faster to perform.-
+
+
+
+Note that within both big-endian and little-endian byte orders, the bits within each byte are big-endian. That is, there is no attempt to be big- or little-endian about the entire bit stream represented by a given number of stored bytes. For example, whether hexadecimal 4F is put in storage first or last with other bytes in a given storage address range, the bit order within the byte will be:
+
+01001111
+
+It is possible to be big-endian or little-endian about the bit order, but CPUs and programs are almost always designed for a big-endian bit order. In data transmission, however, it is possible to have either bit order.
+
+
+http://www2.cs.uregina.ca/~hamilton/courses/330/notes/memory/memory.html
+
+
+Practice 	- PUMASRE	BBB	LL	C	A	C
+
+PUMASRE Bitwise3 Logical 2 Conditional 1 Assignment C
+
+
+
+
+Postfix 6	++ -- () []  . ->  
+Uninary 10	++ -- + - ! ~, sizeof, &of, *, (typecast)  ( it will work on single operand )  Bitwise Not , Logical Not 
+Multicative 3   * / % 
+Addicative 2	+ - 
+Shift	2	<<, >>
+Relational 4    <, <= , >, >=
+Equative  2	==, != 
+Bitwise And 1	&
+Bitwise XOR 1	^
+Bitwise OR 1	|
+Logical ANd 1	&&
+Logical OR 1	||
+Assignment 11	=, +=, -= , *=, /=, %=, <<=, >>=, &=,^=,|=
+Comma	1	, 
+

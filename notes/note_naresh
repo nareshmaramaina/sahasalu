@@ -1,0 +1,1026 @@
+libreoffice --headless -convert-to csv ./file-to-convert.xls  // convert big xls file 
+
+
+ a='hello:world'
+$ b=${a%:*}
+$ echo "$b"
+hello
+$ a='hello:world:of:tomorrow'
+$ echo "${a%:*}"
+hello:world:of
+$ echo "${a%%:*}"
+hello
+$ echo "${a#*:}"
+world:of:tomorrow
+$ echo "${a##*:}"
+tomorrow
+
+        nfile=${fdu_url##*/} in place / is deliminator
+
+
+
+
+sed -e '5,$d' file // delete particular line
+sed -i '/hello/d' Sample.txt  //  These command used to delete hello string lines ( If line have hello ) in the Sample.txt 
+sed  '/hello/d' Sample.txt  //  These command used to delete hello string  lines give remains output  to stdout 
+
+sed -i '/hello/a JJ THAMPSON'  Sample.txt  // Apped the "JJ THAMPON" text After the line of hello in the Sample.txt
+
+You can use in sed command with  s/hello/hai/   or	s|hello|thatha| 	or	 s:babai:mama 	or 	s:chi:cha 
+
+sed 's/abc/(abc)/' <old >new
+
+sed 's/[a-zA-Z]*/(&)/' Sample.txt 
+sed 's/[a-zA-Z]*/()/'  Sample.txt 
+
+sed 's/[a-z]*[A-Z]*/(&)/g' Sample.txt // Round All words with ()
+
+ sed 's/[^][^]*/(&)/g' Sample.txt ( whole line with ( hewloo jaja  ) ) 
+ sed 's/[^ ][^ ]*/(&)/g' Sample.txt ( whole line with ( hewloo jaja  ) )  // word aroung 
+
+
+
+
+
+
+
+* atof function will work properly when we add stdlib.h
+
+* we can also direct to file to scanf function 	
+	./a.out < file_name scanf will give return 1 for success, else failure
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+A Memory Technology Device (MTD) is a type of device file in Linux for interacting with flash memory. The MTD subsystem was created to provide an abstraction layer between the hardware-specific device drivers and higher-level applications. 
+
+
+
+    df Command – Find Filesystem Type.
+    fsck – Print Linux Filesystem Type.
+    lsblk – Shows Linux Filesystem Type.
+    Mount – Show Filesystem Type in Linux.
+    blkid – Find Filesystem Type.
+    file – Identifies Filesystem Type.
+    Fstab – Shows Linux Filesystem Type.
+
+
+The term eMMC is short for "embedded Multi-Media Controller" and refers to a package consisting of both flash memory and a flash memory controller integrated on the same silicon die. ... Today's embedded applications such as digital cameras, smart phones, and tablets almost always store their content on flash memory.
+
+
+
+
+
+
+	commands and it values
+
+cut -c1-9 ----> it will cut the particular line 1to9 letters 
+cut -d ' ' -f1-4 -------> -d is deliminator the words like space tab newline, after that deliminator f1 f2 f3 are words to print
+   
+sort file | uniq -c -d ( repeated lines only ) --> this command will report or omit repeated lines
+***********************
+
+
+date '0711113118'  <---- To set date  ( date 'month|day|hours|minutes|year' )			
+
+Get unix time(secs)  
+date +%s 
+
+print date for  unix time : 
+date -d @1234567890 
+
+***********************
+
+unzip name.zip -d directory_name(specify_path)
+
+tar -xvjf name.tar -C specify path
+
+
+
+ time ls  >> log 2>&1  // Append stdin and out into your file
+ 
+
+
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+					RHMS
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+****** RHMS LOGIN ADDRESS *******
+
+http://202.53.78.186:5052/rtm/frmLoginPage.aspx
+
+
+
+-----------------------------------------------------------------------------------------------
+
+
+******* RHMS ADMINISTRATOR PASSWORD ********
+
+http://202.53.78.186:5052/rtmadmin
+userid: kedar
+Password: kedar@321
+
+
+-----------------------------------------------------------------------------------------------
+Imx25 environment variables erase 
+
+nand erase 40000 c0000
+	   256kb - 768Kb
+	   offset size 
+reset
+
+-----------------------------------------------------------------------------------------------
+About rhms
+	when your uploading the multipatch insert in patch-configversions file 
+	follow Highest version to low version i.e,
+PATCH_VERSION=1.4
+PATCH_VERSION=1.3
+PATCH_VERSION=1.2
+		
+-----------------------------------------------------------------------------------------------
+
+How to prepare a application patch
+	step:1 Login with App admin
+	step:2 Click on application It will ask 3 files to upload 
+		file1 ----> app-1.0.zip
+		file2 ----> app-patch-1.0.zip
+		file3 ----> config-appversions
+
+It will show successful Message for upload
+
+
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+					RHMS
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+
+
+
+Imx25 ATK tool using ------->
+	In device
+	1) connect otg and serial cables 
+	2) nand erase 0 200000 
+	3) reset ( now it is ready to builds loading ) 
+At pc side 
+	1) after open ATK tool click on download if there is any no usb connection found 
+		check in pc 	
+right click on my computer-->
+	 select manage --> dev manager											 	---> jungo 											     ---> MX25  if these is avaiable ( your already connected )
+
+        2) Else check it with new node and also check is there otg drivers are installed or not? 
+-----------------------------------------------------------------------------------------------
+	
+To print the macid of lic file ---->	hexdump -C /etc/idkit/iengine.lic
+
+To Set the macid 
+	 ifconfig eth0 up
+         ifconfig eth0 hw ether 7CF0BA00E7E2 up
+
+
+-----------------------------------------------------------------------------------------------
+
+if you want change your interface of the PC 
+
+write this file ->>> /etc/udev/rules.d/70-persistent-net.rules
+ to    	|
+	|
+	|	
+	*
+# This file was automatically generated by the /lib/udev/write_net_rules
+# program, run by the persistent-net-generator.rules rules file.
+#
+# You can modify it, as long as you keep each rule on a single
+# line, and change only the value of the NAME= key.
+
+# PCI device 0x10ec:0x8168 (r8169)
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="c8:9c:dc:32:a4:05", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="eth*", NAME="eth8"
+
+# USB device 0x:0x (rt2800usb)
+SUBSYSTEM=="net", ACTION=="add", DRIVERS=="?*", ATTR{address}=="7c:dd:90:ab:21:83", ATTR{dev_id}=="0x0", ATTR{type}=="1", KERNEL=="wlan*", NAME="wlan0"
+
+-----------------------------------------------------------------------------------------------
+
+gzip Config_name <----- It will automatically create Config_name.gz
+
+If you want to extract  Config_name.gz Use below 
+	gunzip Config_name.gz 
+
+zcat -c /proc/config.gz <---- It will cat the Original file information
+
+-----------------------------------------------------------------------------------------------
+
+UPLOADING AND DOWNLOADING FILES TO/FROM THE FTP SERVER 
+
+wget -c -T 24  ftp://rnd:rnd123@115.111.229.10/upload/testfile101
+
+curl --connect-timeout 32 --max-time 64 -s -u rnd:rnd123 -T   testfile101  ftp://115.111.229.10/upload/
+
+For DELTE A FILE
+ 
+curl -Q '-DELE test_file1' --connect-timeout 32 --max-time 64 -s -u rnd:rnd123     ftp://115.111.229.10/upload/test_file1
+
+FOR MAKE DIRECTORY
+curl  -Q "MKD directory_name" -s -u rnd:rnd123     ftp://115.111.229.10/
+
+FOR DELETE DIRECTORY
+curl  -Q "RMD directory_name" -s -u rnd:rnd123     ftp://115.111.229.10/
+
+-----------------------------------------------------------------------------------------------
+
+PLM  RHMS build number  was created with 1938 for server patches backup files 
+1938 :chandana_bkp
+-----------------------------------------------------------------------------------------------
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+BHARGAV BACKUP NOTE
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+/* How to display a png image */
+cp image.png /root/logo.png
+./displayImage & -------------> it will cat the image on to frame buffer
+cat /dev/fb0 > image (our required binary image is obtained)
+
+#MachineID=`fw_printenv | grep machineid | cut -c11-21`
+
+
+
+ // Running python server
+python -m SimpleHTTPServer 8000 
+
+bootdelay=1
+baudrate=115200
+loadaddr=0x80100000
+netdev=eth0
+ethprime=fec
+fec_addr=12
+setenv bootargs_base 'setenv bootargs console=ttymxc1,115200'
+setenv bootargs_nand 'setenv bootargs $(bootargs) root=/dev/mtdblock6 ip=none rootfstype=jffs2'
+
+setenv bootargs_nand 'setenv bootargs $(bootargs) root=/dev/mtdblock2 ip=none rootfstype=jffs2'
+setenv bootcmd 'run bootcmd_nand'
+setenv bootcmd_nand 'run bootargs_base bootargs_nand; nand read ${loadaddr} 0x100000 0x200000; bootm'
+
+mtdids=nand0=micron-nand
+mtdparts=mtdparts=micron-nand:1m@0(u-boot),5m(kernel),64m(root),2m(app),8m(Sysuser),-(userfs)
+partition=nand0,4
+mtddevnum=4
+mtddevname=Sysuser
+stdin=serial
+stdout=serial
+stderr=serial
+ethact=FEC0
+ver=U-Boot 2009.08 (May 02 2011 - 11:24:08)
+
+mkfs.jffs2 -r rootfs-14.5m -e 0x20000 -s 0x800 -n -o 92-RD-JFFS2-533-14.5.IMG 
+
+tftp 92kr;nand erase 100000 500000;nand write $(loadaddr) 100000 $(filesize)
+tftp 92rd;nand erase 600000 4000000;nand write $(loadaddr) 600000 $(filesize)
+tftp 92ub;nand erase 0 100000;nand write $(loadaddr) 0 $(filesize)
+tftp 92app;nand erase 4600000 200000;nand write $(loadaddr) 4600000 $(filesize)
+set serverip 192.168.1.60;set ipaddr 192.168.1.61;saveenv
+setenv bootargs_nand 'setenv bootargs ${bootargs} root=/dev/mtdblock2 ip=none rootfstype=jffs2';saveenv
+
+
+----===============================================================================================================
+for tftpboot go for this files 
+
+root@bhargav-Think@bhargav:/# vi /etc/inetd.conf  (change path to /tftpboot)
+root@bhargav-Think@bhargav:/# /etc/init.d/xinetd  restart
+==================================================================================================================
+
+
+
+@@@@@@@@@@@@@@@@@@@@@@@------GNOME--------@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+
+Partitions Name             Start Address               End Address              Size
+
+Boot loader u-boot          0x000000000000              0x0000001FFFFF          0x0200000  ( 2MB )
+
+Kernel Linux 2.6.31         0x000000200000              0x0000007FFFFF          0x0600000  ( 6MB )
+
+Rootfs jffs2                0x000000800000              0x0000187FFFFF          0x18800000 ( 384M )
+
+
+===================================================================
+LOADING UBOOT
+
+nand erase 0 0x0200000 
+tftpboot uboot.img----------(filename)
+nand write $(loadaddr) 0 $(filesize)
+=======================================================================
+
+LOADING KERNEL 
+
+nand erase 0 0x0200000 
+tftpboot uboot.img----------(filename)
+nand write $(loadaddr) 0 $(filesize)
+========================================================================
+
+LOADING ROOTFS INTO THE DEVICE
+
+split -b 128m GL11-RD-JFFS2-1041-1.2.IMG 
+
+
+nand erase 800000 18800000;tftp 90000000 xaa;nand write 90000000 800000 $(filesize)
+
+tftp 90000000 xab;nand write 90000000 8800000 $(filesize)
+
+
+
+tftp 90000000 xac
+nand write 90000000 10800000 $(filesize)
+=========================================================================
+GL11 QT  
+
+
+KR:
+
+
+tftp glkr;bootm
+
+tftp glkr;nand erase 200000 600000;nand write $(loadaddr) 200000 $(filesize)
+
+Rootfs :
+
+tftp 90000000 glrd;nand erase 800000 8000000;nand write 90000000 800000 $(filesize)
+
+setenv bootargs_nand 'setenv bootargs $(bootargs) root=/dev/nfs ip=192.168.1.61:192.168.1.60:255.255.255.0 nfsroot=192.168.1.60:/home/mallikarjuna/ramdisk,v3,tcp'
+
+=================================================================
+FINGERPRINT -------QT
+
+/mnt/app/app -qws---------------------------for selfdiag
+
+
+
+hexdump -C /etc/idkit/iengine.lic
+
+ ifconfig eth0 up
+ ifconfig eth0 hw ether (7CF0BA00E7E2---macid copy from iengine.lic) up
+
+
+
+
+
+
+mkfs.jffs2  -r rootfs-1202-IB-2.2  -e 0x20000 -s 0x800 -n -o   GL11-RD-JFFS2-1202-IB-2.2-TCS-Chennai.IMG
+
+
+
+
+===================================================================================
+
+
+sumtool  -n -e 0x20000 -p -i GL11-RD-JFFS2-783-2.4.IMG -o rootdir-sum.jffs2
+
+
+grabserial  -v -d "/dev/ttyS0" -b 115200 -w 8 -p N -s 1 -e 30 -t -m "Build*"
+
+// ADDED BY ARUN  *********  BHARGAV
+
+CALCULATION OF HEX 
+
+to write from 1mb 
+
+     1*1024*1024
+dec= ------------- = 2048
+          512
+
+Convert to this HEX = 0x800
+
+
+HEX TO DEC
+
+800
+
+800 decimal= 2048
+
+	 2048 * 512
+      ---------------  --> 1 Mb
+	1024*1024
+
+
+
+g_serial : TO Get the usb-console 
+
+g_ether  : NET SHARE
+
+*****************************************************************************************************
+		   new jdk install
+		<------------------->
+
+ update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.8.0_144/bin/java 1
+ java -version
+ update-alternatives --config java
+ java -version
+
+
+
+
+
+
+
+
+******************************************************************************************************
+
+
+BLUETOOTH TETHER Andriod to POS
+
+kernel Side :
+ 
+1. Ethernet Bridging Enable
+2. Bnep support 
+
+
+Steps : 
+
+1. insmod lcd_dat23.ko
+2. /etc/rc.d/init.d/bluetooth start
+3. hcitool scan
+4. simple-agent <id> <key>
+5. pand --connect A0:32:99:79:80:6A --persist
+6. udhcpc -i bnep0 
+7. ifconfig
+8. ping 8.8.8.8
+
+
+
+
+OWN LOCAL GIT SERVER
+client side :
+
+git init
+cat ~/.ssh/id_rsa.pub | ssh git@remote-server "mkdir -p ~/.ssh && cat >>  ~/.ssh/authorized_keys"
+git remote add origin bhargav@192.168.2.201:/root/GIT-DEMO/Project.git
+git add .
+git commit -m "SENDING TO SERVER"
+git push origin master
+
+git status -b  
+git branch <name>
+git branch --list  
+git checkout master 
+
+making changes as seperate patch file 
+* Add ur changes
+* Checkout to the branch need to change there
+
+
+git add SRC-1.0/
+git commit -m "MSG"
+
+git format-patch -1 
+
+
+
+V-MNGMNT
+*********************************************************************************
+
+git pull origin --tag 
+
+//checkout to ur branch wer u r  modifying and create tag as below
+
+git tag -a 'FW_UP-VERSION-3.0' -m  'BHARGAV-PUSHING-3.0' HEAD
+
+git push  --tags
+*******************************************************************************
+client2
+
+git pull
+// new tags will download to local repo
+git checkout -b Version3.0    FW_UP-VERSION-3.0
+//check with 
+git branch
+
+U can see Modifications Now
+
+*********************************************************************************
+reset
+
+git reset --soft HEAD~   // Last commit id will be deleted temporarly
+
+git reset --hard HEAD~  // Permanent (Reset) last commit  delete 
+
+undoing Soft reset
+
+git reflog
+git reset 'HEAD@{1}'
+
+*********************************************************************************
+
+
+**********************************************************************************
+
+server
+
+git --bare init
+git ls-tree --full-tree -r HEAD
+git log
+
+
+git instaweb --httpd=webrick  // For Web based view for server . 
+
+
+
+
+
+***********************************************************************************
+arch/arm/plat-mxc/include/mach/mx6.h VIRT ADD
+*******************************************************************************
+
+###################################################################
+boot-logo create
+------------------
+
+dd if=mam-ATM-bootup-logo of=my bs=1K count=150
+
+###################################################################################################
+
+Makefile Library Linking
+
+libraries that are linking should be .so files not like ext-files like .so.1 or .so.1.1
+
+LDIR += -L./LIB/ -lmosquitto -lssl -lcrypto
+
+IDIR= ./include/
+
+CC=arm-none-linux-gnueabi-gcc
+
+OBJS_pub= test-pub.o
+OBJS_sub= test-sub.o
+
+EXE1NAME = arm_sub
+EXE2NAME = arm_pub
+
+all: $(OBJS_sub) $(OBJS_pub)
+        $(CC) -o $(EXE1NAME) $(OBJS_sub) $(LDIR) 
+        $(CC) -o $(EXE2NAME) $(OBJS_pub) $(LDIR) 
+
+test-sub.o: test-sub.c
+        $(CC)  -c test-sub.c  -I $(IDIR)   
+
+test-pub.o: test-pub.c
+        $(CC)  -c test-pub.c   -I $(IDIR)  
+
+clean:
+        rm -f *.o arm_pub arm_sub
+
+######################################################################################################
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+for Internal 
+insmod /vision/camera_pwr.ko
+
+apply patch i.e, libs and all required bins 
+
+zbarcam --prescale=500x400 /dev/video2 -Sdisable -Sqrcode.enab
+le
+
+for externel don't 'insmod /vision/camera_pwr.ko'  Internal camera 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Employee Id-  1557 
+ls --color={auto,always,never}
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+1194 <------ (RHMS PATCH VERSION IS GIVEN AS 1.0 ) Date:13/11/2018
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ mplayer -vf scale=320:240 $1  <-------- Video Player cmd
+
+	-framedrop
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+mplayer -ao alsa:device=hw=00.0 $1 <------- Audio Player cmd 
+	
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+RHMS_BACKUP_CMD
+wget --mirror --ftp-user=visiontek --ftp-password= --no-host-directories ftp://202.53.78.186
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+dirname <-- gives you directory name of given path (Like /root/naresh/a.out ---> o/p /root/naresh/ )
+basename give base name of the given path ( Like /root/naresh/a.out ---> o/p a.out ) 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+IMS.VTK.1300E.E --- optical 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+( ip addr) command  is used for know the ipv6 ipaddr  in POS
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+#COLOUR Program
+printf("\033[2J"); clear command
+printf(e[2Je[H);
+#include <stdio.h>
+int main () {
+  printf("\033[1;31m");
+  printf("Hello world\n");
+  printf("\033[0m");
+  return 0;
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------
+https://www.tldp.org/HOWTO/html_single/TCP-Keepalive-HOWTO/ ( keepalive)
+------------------------------------------------------------------------------------------------------------------------------------------------------
+curly brace button (shift + 5 )
+------------------------------------------------------------------------------------------------------------------------------------------------------
+ROOT_PASSWORD:nari@#$123
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+NETWORK
+$ nc -l 3206
+Ncat: bind to :::3206: Address already in use. QUITTING.
+
+Can someone give a 1 line command without pages of explanations, references and alternative methods, on how you free up this port...
+socket
+shareimprove this question
+edited Apr 13 '17 at 12:36
+Community♦
+1
+asked Feb 10 '17 at 20:49
+Snowcrash
+181211
+marked as duplicate by roaima, Mongrel, GAD3R, Jeff Schaller♦, thrig Feb 11 '17 at 15:27
+
+This question has been asked before and already has an answer. If those answers do not fully address your question, please ask a new question.
+add a comment
+2 Answers
+active
+oldest
+votes
+2
+
+There's a process that uses that port, and you will not be able to bind to that port until that process has closed its connection.
+
+To find out what process is holding the port:
+
+$ sudo lsof -i :3206
+
+If it's a process that you think you may be able to kill without causing any loss of data, then just use kill pid (possibly with sudo if it's root's process), where pid is the process ID reported by lsof.
+shareimprove this answer
+answered Feb 10 '17 at 23:33
+Kusalananda♦
+138k17258426
+
+add a comment
+0
+
+You can see what processes are on port.
+
+netstat -tulpn
+
+shareimprove this answer
+
+curl ipinfo.io/ip
+curl ifconfig.me
+
+
+
+/vision/cp210x.ko //callon
+
+/vision/ftdi_sio.ko // DEvice to Device
+
+
+
+
+sed -i  -e 's/^/short int /'  file   // prefix short int text in every in the file
+
+sed  -i s/$/\;/ file // Add ; all lines in a line
+
+
+nc -vz 202.53.78.186 5051 //network check commandd
+
+
+sed -i '/src/a dest ' /usr/bin/startx ///  Write a line after src content in a file
+
+
+
+
+apt install libcurl4-nss-dev      
+apt install libcurl4-openssl-dev  
+apt install libcurl-openssl1.0-dev  // not installed yet
+
+
+2&>1
+ >/dev/null 2>&1
+
+
+curl --connect-timeout 32 --max-time 64 -s -u rnd:rnd123  ftp://115.111.229.10/PROJECTS/
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Chandana priya KT
+------------------------------------------------------------------------------------------------------------------------------------------------------
+In Device tree  Any hardware changes   ---> .dtb .h
+U-boot --> Atags --> Ahardware .hex
+ZImage Uimage
+
+cscope -r  <-- Kernel
+arch/arm/mach-mx6/board-mx6sl-evk.c        platform device
+drivers/input/keypad/matrixkey.c 	platfrom driver            Any changes name should be change
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Hima Bindu KT 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+U-boot
+
+-> Board Initialization
+-> Environment variables
+-> Device Configuraion setting 
+-> Pin initialization 
+
+
+include/configs  Board related headerfiles 
+	For atags enable ( inti_RD_TAG ) in mx25_3stack.h
+SYS_PROMT "VISIONTEK>" +241 
+PHYS_SDRAM_1_SIZE	( 128 * 1024 * 1024 )
+PHYS_SDRAM_2_SIZE	( 128 * 1024 * 1024 )
+
+
+CONFIG_EXTRA_ENV_SET	fw_print
+
+tools/env/fw_env.c 
+
+command/command.c
+
+drivers/mtd/nand/nand_ids.c
+
+lib_arm/board.c 	<-- Board intialization file
+
+	Init_sequence 
+
+board/freescale/mx25_3stack/mx25_3stack.c
+
+board_init()
+Need to enable --> setup_soc_rev()
+
+include/arm-arm/arm-imx25/
+
+
+mx25_reg.h	dcd header.s --> SDRAM
+		Boot part 0 
+		vector address <-- Location to start 
+
+
+1)  bOARD INTILIZATION
+
+set of func UART 	1 - ttymxc0 
+			2 - ttymxc2
+
+
+Clock signal
+CPU_info 
+nand information  ( flash memory )
+ethernet Intialization 
+UART
+
+
+UFS <-- Higher read write cycles 
+	
+	Boot 
+	SRAM <-- ROM 
+	 |
+	 RAM
+
+
+EMMC	Controller	sdio
+
+
+
+
+
+
+U-boot Sequence
+
+	-> SD RAM initilization ( dcd header.s)
+	-> Machine type -> kernel parameters ( Atag address )
+	-> Nand Initilization  (PLL clocks, timer, IRQ , init )
+	-> RAM memory banks
+	-> cpu arch architeture 
+	-> UART initialization 
+	-> Ethernet initialization 
+	-> MMC disabled
+	-> Environmental variables initilization 
+	
+
+Processor ( SRAM )
+ |
+Flash memory ( code )
+ | 
+RAM ( execution )
+
+
+
+Kernel 
+atags -> Machine start
+
+
+
+Compliation procedure
+
+
+mkimage -l complied name  -a -> load address 
+			  -e entry point -n name -d Image data
+
+
+
+
+Kernel subsystems will start 
+rest_init(); seperate thread will run
+run_init_prcess ("/sbin/init")
+kernel_execve ();
+ Abow all is processor independent code 
+
+Discoverable device 
+
+I2c			USB 
+
+Non discovable 		Discoverable device
+platform devices	Platform drivers
+
+
+mxc_board_init()
+gpio initilization
+mxc_init_mmc();
+mxc_init_fec(); //Ethernet 
+
+
+
+I/p high 0 5v
+
+
+
+
+ Flashmemory is NAND NOR  
+flash Contorller EMMC
+Registers of Memories  
+
+csd  ( Card Specific data )
+CID (card identification data )
+mxc_request_iomux(); It gives multiple outputs and inputs
+
+
+drivers/mmc/core/mmc.c
+	card-> ext_csd.rev > 8 
+
+
+
+Kernel functions can not use it in drivers. If you want to use in drivers use export Function 
+
+
+DEVICE_ATTR( Functionname,r,w,r,Null)
+
+controller host block 
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Sqlite 
+	; for get out from worng command enter
+
+	
+
+ /vision/ftdi_sio.ko // Serial data in through USB cable
+
+sed 's:\x0::g' nov-19_Data.txt  -i
+
+
+        //      ip route get 216.58.197.67 | egrep -o "eth0|ppp0|wlan0|usb0|eth1"
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+************		Bluetooth Weighing Scale Steps		***********
+
+1) On Bluetooth module  gl11_bluetooth_control(1);
+
+2)  /etc/rc.d/init.d/bluetooth start // Start Bluetooth service in device 
+
+3) hcitool scan > Bluetooth devices scan ( Find Weighing device Macid Number  )
+
+4) simple-agent client_btaddr passkey         // Pairing Bluetooth device 
+
+5)rfcomm connect 0 bt_macid 1 & 
+  rfcomm connect Port_file BLUETOOTH_MACID  Channel_Number
+
+6)  Find device  cat /dev/rfcomm0
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+ifconfig wlan0 up
+
+
+
+cat Data_BPDS | tr "\n"  " " >
+tr -d '\n'
+
+
+
+Delete particular lines ///sed '2,4d' file
+
+
+
+rsa_verify will need public key
+rsa_sign will need private key
+
+
+
+xxd  -i hi.txt //Covert data into  Array of hexdecimal way type 
+
+
+
+
+
+=COUNTIF(A1:A18,"="&B1) xls
+=VLOOKUP(A1,$B$1:$B$18,1,0)
+
+
+
+Days Difference 
+echo $((($(date +%s --date "1995-07-01")-$(date +%s --date "2020-02-27"))/(3600*24))) days
+
+
+
+awk 'BEGIN{if('$a'>'$b')print "1";else print "0"}'
+
+netstat -ltnp
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------
+ssh -f -N -T -R 2222:localhost:22 bindu@115.111.229.7
+
+
+git remote add origin https://github.com/nareshmaramaina/RHMS.git
+…or create a new repository on the command line
+
+echo "# RHMS" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/nareshmaramaina/RHMS.git
+git push -u origin master
+                
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/nareshmaramaina/RHMS.git
+git push -u origin master
+
+
+320 * 240 

@@ -1,0 +1,347 @@
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+-------------
+Char driver 
+--------------
+
+Compiling Steps:
+Step 1:
+obj-m :=  ( Sourcename src.o )
+Step 2: 
+KSRC=/lib/modules/(shell uname -r)/build // Current kernel for PC 
+Step 3:
+all:
+$(MAKE) -C KDIR M=$(PWD) modules
+Step 4:
+clean:
+
+$(MAKE) -C KDIR M=$(PWD) clean
+
+
+-------------
+Source Code write
+-------------
+
+__init __exit  init exit modules for driver , These are use to clean after module init or exit as per ur decision 
+ 
+
+If you want to  use generic name Use init  for init_module ( init module fun)	exit for cleanup_module  ( exit module function) // It should non static
+
+init
+{
+mydev =	MKDEV(MAJORNO,MINOR NO);
+Step 1:  register chr dev ( mydev, count, "filename");         register_chrdev_region(my_dev,count,CHAR_DEV_NAME);
+Step 2:  Allocate cdev instance  // ( cdev_alloc() )		
+Step 3:  Initiate cdev with file operations object  // cdev_init 		        cdev_init(cdev,&file_ops);
+Step 4:  register cdev with vfs ( devtmpfs ) // cdev_add(cdev,mydev,count);
+
+}
+
+exit
+{
+unregister 
+cdev_del
+
+}
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+module_param(myshort, short, S_IRUSR ); // Variable, data type , Permissions 
+MODULE_PARM_DESC(myshort, "A short integer"); // Description about variable for modinfo purpose 
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Major Number is the location of the driver object with in drivers list maintained by vfs.
+	* Vfs identifies appropriate driver operations board to a device file through major number.
+	* 12 bit major number, so 4k Major drivers are possible 
+	* all device files with same major number are controlled by same driver. 
+	* Major number can be reserved by either statically or dynamically 
+	* The reserving a major number statically will impact driver portability 
+	* Each driver is assigned a unique major number,
+	* Major number tells you which driver is used to access the hardware. 	
+
+
+Minor number is used by driver code to identify physical device on which the operation is to be performed 
+	
+	* 1MB devices we can handle 
+	*The minor number is used by the driver code to distinguish between the various hardware it controls.
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Observation Note : 
+1)	Basically 512 Major numbers are supported, if want behind on that u can change in linux/fs.h #define CHRDEV_MAJOR_MAX 4096 	( Is possible )
+2)	You can also write module without init,exit functiions ( This means we are just attaching our module to kerenel data and code segment ) Utill user run it can't run
+3)  After driver insert u can create the file name / directory anywhere it doesn't matter, it looks only major number
+4) register_chrdev(major,count,&fops) // Limitation is major and minor number is supported with in the 255
+
+
+	 register_chrdev_region(my_dev,count,CHAR_DEV_NAME); // CHAR_DEV_NAME Just name not a node to fix supported file
+ 
+	register_chrdev_region is supported static allocation only, if u pass majar number as 0, it will allocate dynamically major number but it can't unregister the allocated number.
+	In register_chrdev(); If you pass 0 for this it will create dynamic number , and returns the allocated number, then u can pass to unregister. In register_chrdev_region you can't do this. Because it don';t return the number. 
+
+	alloc_chrdev, for dynamically allocate major number and unregister properly allocated thing  	
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+	void cdev_init (	struct cdev * cdev, 	const struct file_operations * fops);
+
+	struct cdev * cdev_alloc ( void); // Allocate cdev structure 
+	
+	void cdev_del (	struct cdev * p); 
+	
+	int cdev_add (	struct cdev * p,dev_t dev, unsigned count);
+
+	void unregister_chrdev_region (	dev_t from,	unsigned count); 
+			unregister_chrdev_region — unregister a range of device numbers 
+
+	int alloc_chrdev_region (	dev_t * dev,unsigned baseminor,	unsigned count,	const char * name); // return 0 on success
+
+	int register_chrdev_region (	dev_t from, 	unsigned count, 	const char * name); // return 0 on success 
+
+	int register_chrdev ( 	unsigned int   	major ,const char *   	name , 	const struct file_operations *   	fops) ; // return dynamic number when u put 0
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+----------------
+Sysfs file creation 
+----------------
+* Sysfs is the commonly used method to export system information from the kernel space to the user space for specific devices.
+* The sysfs is tied to the device driver model of the kernel.
+* The procfs is used to export the process specific information and
+* the debugfs is used to used for exporting the debug information by the developer.
+
+* Providing interface for supporting configuration operations, 
+
+Limitation: sysfs represents all data as string constants, and each sysfs file is bound to a page size buffer 4K
+
+
+struct kobject {
+        char                    *k_name;
+        char                    name[KOBJ_NAME_LEN];
+        struct kref             kref;
+        struct list_head        entry;
+        struct kobject          *parent;
+        struct kset             *kset;
+        struct kobj_type        *ktype;
+        struct dentry           *dentry;
+};
+
+Some of the important fields are:
+
+struct kobject
+|– name (Name of the kobject. Current kobject are created with this name in sysfs.)
+|– parent (This iskobject’s parent. When we create a directory in sysfs for current kobject, it will create under this parent directory)
+|– ktype ( type associated with a kobject)
+|– kset (group of kobjects all of which are embedded in structures of the same type)
+|– sd (points to a sysfs_dirent structure that represents this kobject in sysfs.)
+|– kref (provides reference counting)
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+***********	Steps **************
+
+
+step 1:  Instantiate new kobject which serves as an inode for new directory at a group of files
+
+static struct kobject *my_rtc;
+my_rtc = kobject_create_and_add(“my_rtc”, NULL /* Kernel_kobj */ );
+
+
+
+struct kobject * kobject_create_and_add ( const char * name, struct kobject * parent); 
+						<name> – the name for the kobject
+
+						<parent> – the parent kobject of this kobject, if any.
+
+If you pass kernel_kobj to the second argument, it will create the directory under /sys/kernel/. If you pass firmware_kobjto the second argument, it will create the directory under /sys/firmware/. If you pass fs_kobjto the second argument, it will create the directory under /sys/fs/. If you pass NULL to the second argument, it will create the directory under /sys/.
+
+This function creates a kobject structure dynamically and registers it with sysfs. If the kobject was not able to be created, NULL will be returned.
+When you are finished with this structure, call kobject_put and the structure will be dynamically freed when it is no longer being used.
+
+
+
+
+STep 2: The second step is creating the actual file attribute.  Assign file attributes
+
+There are loads of helper function that can be used to create the kobject attributes.They can be found in header file sysfs.h
+
+
+
+ struct kobj_attribute {
+    struct attribute attr;
+    ssize_t (*show)(struct kobject *kobj, struct kobj_attribute *attr, char *buf);
+    ssize_t (*store)(struct kobject *kobj, struct kobj_attribute *attr, const char *buf, size_t count);
+};
+attr – the attribute representing the file to be created,
+
+show – the pointer to the function that will be called when the file is read in sysfs,
+	In show function you must write into buff argument and return there count otherwise it can't display 
+	do sprintf(buff,"Info");
+
+store – the pointer to the function which will be called when the file is written in sysfs.
+	 In this also   you should return count , otherwise Pc will hang
+
+static struct kobj_attribute tm_attribute =__ATTR(time, 0644, tm_show, tm_store); __ATTR(filename,Permissions, show (cat ) function , store (echo ) function 
+
+static struct kobj_attribute dt_attribute = __ATTR(date, 0644, dt_show, dt_store);
+
+Step 3 : Create single sysfs file
+sysfs_create_file(my_rtc,&tm_attribute.attr);
+
+
+
+
+step 3 : Create group of files 
+static struct attribute *attrs[] = {
+        &tm_attribute.attr,
+        &dt_attribute.attr,
+        NULL,   /* need to NULL terminate the list of attributes */
+};
+
+static struct attribute_group attr_group = {
+        .attrs = attrs,
+};
+
+static struct kobject *my_rtc;
+
+
+retval = sysfs_create_group(my_rtc, &attr_group);
+
+
+Step 4: Deallocation also need in sequential way, like  	First Call  // REmove related then creation  related 
+	sysfs_remove_file(kobj,&kobj_attr1.attr); //struct kobj_attribute kattr
+        sysfs_remove_group(kobj,&kobj_group); //struct attribute kattr
+	kobject_put(my_obj); // struct kobject *my_obj
+	
+----------------------------------------------------------------------------------------------------------------------------------------------
+	struct kobject *kobject_create_and_add(const char *name, struct kobject *parent);
+	int sysfs_create_file(struct kobject *kobj, const struct attribute *attr); 
+	int sysfs_create_group(struct kobject *kobj, const struct attribute_group *grp);
+	void kobject_put(struct kobject *kobj);
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+GPIO Drivers ( https://www.kernel.org/doc/html/latest/driver-api/gpio/driver.html Full description ) 
+
+ 
+A GPIO chip handles one or more GPIO lines. To be considered a GPIO chip, the lines must conform to the definition: General Purpose Input/Output. If the line is not general purpose, it is not GPIO and should not be handled by a GPIO chip. The use case is the indicative: certain lines in a system may be called GPIO but serve a very particular purpose thus not meeting the criteria of a general purpose I/O. On the other hand a LED driver line may be used as a GPIO and should therefore still be handled by a GPIO chip driver.
+
+In the gpiolib framework each GPIO controller is packaged as a “struct gpio_chip” (see <linux/gpio/driver.h> for its complete definition) with members common to each controller of that type, these should be assigned by the driver code:
+
+        methods to establish GPIO line direction
+        methods used to access GPIO line values
+        method to set electrical configuration for a given GPIO line
+        method to return the IRQ number associated to a given GPIO line
+        flag saying whether calls to its methods may sleep
+        optional line names array to identify lines
+        optional debugfs dump method (showing extra state information)
+        optional base number (will be automatically assigned if omitted)
+        optional label for diagnostics and GPIO chip mapping using platform data
+
+Realtime considerations: the GPIO driver should not use spinlock_t or any sleepable APIs (like PM runtime) in its gpio_chip implementation (.get/.set and direction control callbacks) if it is expected to call GPIO APIs from atomic context on realtime kernels (inside hard IRQ handlers and similar contexts). Normally this should not be required.
+By disabling the P-MOS transistor, the output can be driven between GND and high impedance (open drain), and by disabling the N-MOS transistor, the output can be driven between VDD and high impedance (open source). In the first case, a pull-up resistor is needed on the outgoing rail to complete the circuit, and in the second case, a pull-down resistor is needed on the rail.
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+--------------------------
+Printer Info
+--------------------------
+
+Motor ( Step up ) - 4
+Paper Sensor - 1
+Plater switch - 1
+Temparature Sensor - 1
+Clk - 1
+Data - 1
+Strobes - 6
+Latch - 1
+
+6 strobes, each strobe can print 64bytes 
+64 * 6 = 384 bytes needed
+
+For one line moving strobes start temparture based on 0 or 1 logic
+After STrobe printing, strobe will get off and motor will start one step
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+Useful Link:	https://linuxhint.com/linux-kernel-tutorial-beginners/ 
+
+http://www.programmersought.com/article/55971304949/;jsessionid=38EB43478AA4D3961C3B39615827F879  // Class_create function explantion
+
+
+https://www.kernel.org/doc/html/v4.11/driver-api/index.html // Api lists 4 kernel 
+https://www.kernel.org/doc/html/latest/core-api/kobject.html // 5 kernel 
+https://www.kernel.org/doc/htmldocs/kernel-api/API-cdev-add.html // Api cdev 
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+GPIO Driven matrix keypad is used to interface 	a SOC with a matrix keypad.
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+The Matrix keypad supports multiple rows and coloumns, a key can be placed at intersection of a unique row and unique coloumn.
+The matrix keypad can sense a keypress an keyrelease by means of GPIO lines and report the event using GPIO interrupts of CPU
+
+
+
+* GPIO driven matrix keypad device tree bindings
+
+GPIO driven matrix keypad is used to interface a SoC with a matrix keypad.
+The matrix keypad supports multiple row and column lines, a key can be
+placed at each intersection of a unique row and a unique column. The matrix
+keypad can sense a key-press and key-release by means of GPIO lines and
+report the event using GPIO interrupts to the cpu.
+
+Required Properties:
+- compatible:		Should be "gpio-matrix-keypad"
+- row-gpios:		List of gpios used as row lines. The gpio specifier
+			for this property depends on the gpio controller to
+			which these row lines are connected.
+- col-gpios:		List of gpios used as column lines. The gpio specifier
+			for this property depends on the gpio controller to
+			which these column lines are connected.
+- linux,keymap:		The definition can be found at
+			bindings/input/matrix-keymap.txt
+
+Optional Properties:
+- linux,no-autorepeat:	do no enable autorepeat feature.
+- wakeup-source:	use any event on keypad as wakeup event.
+			(Legacy property supported: "linux,wakeup")
+- debounce-delay-ms:	debounce interval in milliseconds
+- col-scan-delay-us:	delay, measured in microseconds, that is needed
+			before we can scan keypad after activating column gpio
+- drive-inactive-cols:	drive inactive columns during scan,
+			default is to turn inactive columns into inputs.
+
+Example:
+	matrix-keypad {
+		compatible = "gpio-matrix-keypad";
+		debounce-delay-ms = <5>;
+		col-scan-delay-us = <2>;
+
+		row-gpios = <&gpio2 25 0
+			     &gpio2 26 0
+			     &gpio2 27 0>;
+
+		col-gpios = <&gpio2 21 0
+			     &gpio2 22 0>;
+
+		linux,keymap = <0x0000008B
+				0x0100009E
+				0x02000069
+				0x0001006A
+				0x0101001C
+				0x0201006C>;
+	};  
+----------------------------------------------------------------------------------------------------------------------------------------------
