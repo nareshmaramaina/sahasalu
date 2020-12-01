@@ -24,3 +24,206 @@ Runs at early boot stage end is responsible for following operations
 In Processor view ( Real Memory mode )  -> Memory is single array -> Physical Offset 
 In processor view ( Protected Memory Mode ) - > Memory set of array/ vector  -> Blocks -> Frame 4k -> Physical Address = Frame No + offset 
 
+
+ 		CAche Alllocator 
+	
+Slab Allocator	Fragemnet allacator 	CMA Allocator 	DMA Allocator GCMA Allocator
+
+		Page Allocator 
+			
+		Buddy System	( Manager for all the zones
+
+		Zone zone zone 
+
+Fragement : Virutal mapped ( Address continues but physicaslly scatterred 
+
+
+Paga Allocator :- 
+
+* Base Allocator responseble for manage physical per page  zone list 
+* provides routines for single and 2 page allocator
+* Ensure ( for 32bit machines ) gurantteed allocator up to 8mb requests,(  Be on the 8 MB depends on memory fragmenatation state )
+* CAhce and page alloctors physically contained, 
+
+
+Page allocator provides ( 1) Alloc_family_of 2 ) Get_free_page_family calls
+
+strcut page *alloc_pages ( unsigned int gfp_mask, order );
+
+Continuous page frames from the low level memory manager ( buddy system )
+and returns address of descriptor of first page allocator ( not itself )
+
+struct page *alloc_page(unsigned int gfp_mask); 
+
+#include<linux/gfp.h>
+unsigned long * __get_free_pages ( unsigned int gfp_mask,unsigned int  order );
+
+
+gfp_mask = GFP ATOMIC, high priority non blocking
+
+gfp_kernel = kernel space allocation may block 
+GFP_ORDER = user space allocation may block ( contiguous 2^n order )
+
+To allocate single page 
+
+	__get_free_page ( );
+
+
+
+GFP macros 
+
+
+GFP_ATOMIC - Normal zone high priporty allocation ( Reserve poll of pages )
+
+GFP_KERNEL - Normal zone normal pripority  ( may block )
+
+GFP_NOWAIT - Normal zone non blocking allocation call 
+
+GFP_USER - Normalo zone normal priority ( Blocking call )
+
+GFP_DMA - DMA zone notma
+
+GFP_DMA32 - DMA zone ntomal 
+
+HIGH_USER - 32 bit system Only high memory azone  normal  pori
+
+* When alocation function are invoked in normal mode the caller might be put into wait state if requested memory is not directly foun in the free poll 
+
+* Allocation algorithum look into process pages and file system caches ( io caches ) to sque out memroy by swapping out pages which are currently not used 
+
+
+2) Buddy system 
+
+* Internally used page allocator to sort allocation 
+
+* All free pages in zone are grouped into n  ( Usally 2 power of 11 ( 2K) lists of blocks )
+
+Corresponing diveided unitll block zis reacged 
+
+
+Benifits: 
+
+Minimizes the external fragmentation 
+Guarntreyt avalible physcial cintguous 
+
+Qucik allocaitons and deallocations
+
+Limitations :- 
+
+* Since allocation are page size or in mulples will cause internel fragmentation when caller does not need memory multiplssize
+* For instance if 3k is requested allcoate 4k and 5k is requrested allocate 8k resulting in rest of memory being unused. 
+
+
+2 ) Slab allocator 
+
+	Implemented extension of page allocator 
+
+	Handles memory allocations in multiples of 8bytes ( 8 16 32 64 128 upto 4MB )
+
+	Always returns start linear address of physically continuous chunck 
+	
+
+
+
+	Fails if it can not find physically conitnous memory 
+
+	kmalloc routines fmaliy
+
+	kmalloc kzalloc krealloc kcalloc 
+
+
+
+Slab Allocator Design 
+
+1) During intialization slab allocator acquires a set of free pages and device then into free lists called slab caches 
+
+2) each slab cahche is list of pages 
+
+3) Slab caches exists from 8bytes to 8k 
+
+4) To minimize allocation time and efficient slab cache mangement 
+
+5) Each slab strcutured with slab strucutre 
+
+6) cahces are diveid into slabs, slab holds server objects 
+
+Example : process descriptors,semaphores,inodes 
+
+CAhce Fully slabed 
+	partially slavobed
+	empty slabed 
+
+slab is contianed with in the opages used for block allocations 
+
+A slab may be of three possible states
+
+Full :All objects are marked as used 
+Empty : All marked as free
+Partically full:  slab contains used and free 
+
+
+Slab Algrothum 
+
+Slab allocators first attempts to find a free object in a partial slab 
+if no such objects are exist then allocate free object from an empty slab
+IF empty slab also not found, a new slab is allocate using buddy system allocator 
+
+Benifits : - 
+No internal s=framents 
+
+Fast in allocations 
+
+SLAB SULB ( Defaulty )  SLOB 
+
+Slab allotors allows kernel service to private caches reserved form memory pool
+
+
+CAche allocator 
+
+top of slab 
+
+* Allow kernel services to pre allocate memory caches 
+
+* Allow allocation memory pool / object pool 
+
+* Alwaysserver physically cintigous memory
+
+* return start linear address of allocate memory
+
+
+
+stuct kmem_cache *mycache 
+
+mychahe =  kmem_cache_Create("test cre" 128,,,,);
+
+object= kmem_cache_object(mycahe,GFP_KERNEL);
+
+
+kmem_cache_free(mycahe,object);
+kemem_cahche_destroy
+
+
+
+Fragment allocator : - 
+
+
+* Bulit top of page allocator
+
+* Handles memory allocation in random sizes 
+
+* returns virtually contiguous memory by joining framents list over in pages 
+
+* reuturns start kernel virtual address 
+
+* requires unique address translation table of each allocation and is generated at allocation time 
+
+ Routines are vmalloc vzalloc vfree 
+
+Linear = Page + offset 
+
+Phyciscal = page + frame 
+
+Virtual = page + offset ( but physically not continous )
+
+
+ 
