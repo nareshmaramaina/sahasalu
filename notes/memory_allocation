@@ -226,4 +226,19 @@ Phyciscal = page + frame
 Virtual = page + offset ( but physically not continous )
 
 
- 
+
+
+DMA Allocator :-
+
+DMA is capability of a device to perform direct access operation on primary memory 
+
+It's Mechanism where h/w component moves data b/w it's memory & main memory without involvement of of CPU
+
+DMA capable devices use an additional circuit call DMA engine to drive Address and control bus  
+
+While DMA operations are in progress CPU does not have access to main memory 
+
+1) Driver Set up the buffer 
+2) Populate Tx data ( Write operation )
+3) Retrieve address of the buffer and programs it into device 
+

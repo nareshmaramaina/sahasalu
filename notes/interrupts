@@ -1,0 +1,38 @@
+
+Interrupt is an event that alter sequence of exectiobns execution  by a processor in corresponding to electrical signals rasied by h/w circuts by the inside and outside CPU. 
+
+
+Driver interrupt handler :-
+
+It is register with interrupt management subsystem through kernel IRQ number. 
+
+These functions are invoked by interrupt management layer upon suspending processor schedular and masking interrupt in local CPU. Local CPU's  interrputs are tuned only on FSPA, 
+
+Driver ISR's must be register as instance of type struct IRQ action with interrupt sub system.
+ 
+
+IRQ descriptor table is the core data structure which hlods reference 	of driver interrupt hanlders and kernel IRQ properties 
+
+request_irq(irq,my_interrupt,IRQF_SHARED,"my_interrupts",&my_dev_id);
+
+
+Software options for resource partioning 
+
+CPU affinity and interrupt affinity 
+Contianers virtualization 
+
+Hardware option for resource porting / allocations 
+
+* Partition hardware to assign dedicated processing powr for data processing and control ooerations 
+
+
+
+Do's and don't s to achieve deterministic exection of ISR's 
+
+Don't :- 
+1) Avoid memory allocation calls 
+2) Avoid process sharing data structr or buffers 
+
+
+Do's:- 
+ 
