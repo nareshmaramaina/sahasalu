@@ -9,7 +9,7 @@ module_param(irq, int, S_IRUGO);
 static irqreturn_t my_interrupt(int irq, void *dev_id)
 {
 	irq_counter++;
-	pr_info("In the ISR: counter = %d\n", irq_counter);
+	pr_info("In the ISR: counter = %d  %d\n", irq_counter,(int)dev_id);
 	return IRQ_NONE;	/* we return IRQ_NONE because we are just observing */
 	/*return IRQ_HANDLED; */
 }
@@ -18,14 +18,15 @@ static int __init my_init(void)
 {
 	for (i = 0; i < 1; i++) {
 		request_irq(i, my_interrupt, IRQF_SHARED, "my_interrupt",
-			    &my_dev_id);
+				NULL);
+		pr_info(" request_irq interrupt = %d \n",my_dev_id);
 	}
 	/* arg1: irq no
-	   arg2: driver's interrupt handler address
-	   arg3: priority flag
-	   arg4: name of the driver
-	   arg5: unique no to identify interrupt handler 
-	 */
+arg2: driver's interrupt handler address
+arg3: priority flag
+arg4: name of the driver
+arg5: unique no to identify interrupt handler 
+*/
 	pr_info("Registered IRQ handler\n");
 	return 0;
 }
@@ -35,6 +36,7 @@ static void __exit my_exit(void)
 	for (i = 0; i < 24; i++) {
 		synchronize_irq(i);
 		free_irq(i, &my_dev_id);
+		pr_info(" request_irq interrupt = %d \n",my_dev_id);
 		pr_info("Successfully unloading \n");
 	}
 }
