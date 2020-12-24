@@ -131,3 +131,14 @@ in_interrupt() Returns nonzero if in interrupt context and zero if in process
 context
 in_irq() Returns nonzero if currently executing an interrupt handler
 and zero otherwise
+
+A Softirq never preempts the another softirqs, The only one preempty the softirq is interrupt handler
+
+
+Softirqs are reserved for the most timing-critical and important bottom-half processing
+on the system. Currently, only two subsystems--networking and block devices--directly
+use softirqs.Additionally, kernel timers and tasklets are built on top of softirqs. If you add a
+new softirq, you normally want to ask yourself why using a tasklet is insufficient.Tasklets
+are dynamically created and are simpler to use because of their weaker locking require-
+ments, and they still perform quite well. Nonetheless, for timing-critical applications that
+can do their own locking in an efficient way, softirqs might be the correct solution. 

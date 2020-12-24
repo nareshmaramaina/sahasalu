@@ -1,9 +1,9 @@
 #include<linux/module.h>
 #include<linux/fs.h>
 #include<linux/cdev.h>
+#include <linux/uaccess.h>
 int hi=0;
 dev_t mydev=0;
-
 int init(void);
 int  myopen(struct inode *inode,struct file *file)
 {
@@ -15,9 +15,28 @@ int myclose(struct inode *inode,struct file *file)
 	pr_info("File closed\n");
 	return 0;
 }
+
+ssize_t myread(struct file *file, char  *buff, size_t size,loff_t *k)
+{
+//	copy_to_user(buff,"Hlo",3);	
+	pr_info("Read %d\n",*k);
+		strcpy(buff,"Hlo");
+	if ( *k > 100)
+		return EINVAL;
+	*k=*k+3;
+	return 3;
+}
+ssize_t mywrite(struct file *file, const  char  *buff, size_t size,loff_t *k)
+{
+	pr_info("Write %10s \n",buff);     
+	return size;
+}
+
 struct file_operations fops = {
 	.owner = THIS_MODULE,
 	.open = myopen,
+	.read = myread,
+	.write = mywrite,
 	.release = myclose
 };
 struct cdev *cdevp;
