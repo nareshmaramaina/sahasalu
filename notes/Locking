@@ -1,0 +1,47 @@
+The kernel has similar causes of concurrency:
+
+Interrupts— An interrupt can occur asynchronously at almost any time, inter-
+rupting the currently executing code.
+
+Softirqs and tasklets— The kernel can raise or schedule a softirq or tasklet at
+almost any time, interrupting the currently executing code.
+
+Kernel preemption— Because the kernel is preemptive, one task in the kernel
+can preempt another.
+
+Sleeping and synchronization with user-space— A task in the kernel can
+sleep and thus invoke the scheduler, resulting in the running of a new process.
+
+Symmetrical multiprocessing— Two or more processors can execute kernel
+code at exactly the same time.
+
+
+
+Whenever you write kernel code, you should ask yourself these questions:
+
+Is the data global? Can a thread of execution other than the current one access it?
+
+Is the data shared between process context and interrupt context? Is it shared
+between two different interrupt handlers?
+
+If a process is preempted while accessing this data, can the newly scheduled process
+access the same data?
+
+Can the current process sleep (block) on anything? If it does, in what state does that
+leave any shared data?
+
+What prevents the data from being freed out from under me?
+
+What happens if this function is called again on another processor?
+
+Given the proceeding points, how am I going to ensure that my code is safe from
+concurrency?
+
+
+
+
+DeadLock :- 
+
+Dead Lock is a condition invloing one or more threads exection or one or more resources, such that each thread waits for one of the resources,  but all threads already held. The threads all wait for each other, but they never make any progress toward releasing the resources that they alredy heald,  Therefore none of threads are continue, which results in a deadlock. 
+
+
