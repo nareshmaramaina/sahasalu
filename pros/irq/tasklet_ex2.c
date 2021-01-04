@@ -3,7 +3,7 @@
 #include <linux/interrupt.h>
 #include <linux/sched.h>
 
-#define SHARED_IRQ 1
+#define SHARED_IRQ 396 
 static int irq = SHARED_IRQ, my_dev_id, irq_counter = 0;
 module_param(irq, int, S_IRUGO);
 

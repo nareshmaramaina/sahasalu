@@ -1,0 +1,1 @@
+cmd_/u01/sahasalu/pros/irq/tasklet_ex2.ko := /opt/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-ld -EL -r  -T /root/prev/kernel_src/linux-3.0.35_1170_lcd/scripts/module-common.lds --build-id  -o /u01/sahasalu/pros/irq/tasklet_ex2.ko /u01/sahasalu/pros/irq/tasklet_ex2.o /u01/sahasalu/pros/irq/tasklet_ex2.mod.o

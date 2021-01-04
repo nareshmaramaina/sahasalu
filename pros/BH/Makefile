@@ -1,4 +1,3 @@
-obj-m := timer2.o
 obj-m += wqshared.o
 obj-m += wqpriv.o
 obj-m += wqnewi.o

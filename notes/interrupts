@@ -141,4 +141,70 @@ use softirqs.Additionally, kernel timers and tasklets are built on top of softir
 new softirq, you normally want to ask yourself why using a tasklet is insufficient.Tasklets
 are dynamically created and are simpler to use because of their weaker locking require-
 ments, and they still perform quite well. Nonetheless, for timing-critical applications that
-can do their own locking in an efficient way, softirqs might be the correct solution. 
+can do their own locking in an efficient way, softirqs might be the correct solution.
+
+
+
+Softirq :- 
+
+
+void softirq_handler(struct softirq_action *) ;
+
+open_softirq(HI_SOFTIRQ,BH);
+
+raise_softirq(HI_SOFTIRQ);
+
+
+
+
+
+Tasklet :- 
+
+DECLARE_TASKLET(my_tasklet, my_tasklet_handler, dev); // Statically 
+This line is equivalent to
+struct tasklet_struct my_tasklet = { NULL, 0, ATOMIC_INIT(0),
+my_tasklet_handler, dev };
+
+This creates a tasklet named my_tasklet enabled with tasklet_handler as its han-
+dler.The value of dev is passed to the handler when it is executed.
+
+To initialize a tasklet given an indirect reference (a pointer) to a dynamically created
+struct tasklet_struct , t , call tasklet_init() :
+
+tasklet_init(t, tasklet_handler, dev);
+/* dynamically as opposed to statically */
+
+
+tasklet_schedule(&my_tasklet);
+
+
+DECLARE_TASKLET_DISABLED(name, func, data);
+tasklet_enable() enables the tasklet.This function also must be called
+created with DECLARE_TASKLET_DISABLED() is usable. For example:
+
+tasklet_disable(&my_tasklet);
+
+before a tasklet
+/* tasklet is now disabled */
+/* we can now do stuff knowing that the tasklet cannot run .. */
+tasklet_enable(&my_tasklet);
+/* tasklet is now enabled */
+You can remove a tasklet from the pending queue via tasklet_kill() .This function
+receives a pointer as a lone argument to the tasklet's tasklet_struct . Removing a
+scheduled tasklet from the queue is useful when dealing with a tasklet that often resched-
+ules itself.This function first waits for the tasklet to finish executing and then it removes
+the tasklet from the queue. Nothing stops some other code from rescheduling the tasklet,
+of course.This function must not be used from interrupt context because it sleep
+
+
+
+
+
+
+Process 0 is a special process (called swapper or idle process) which runs when the system is idle, i.e. no other process is scheduled. It is the only process which can invoke the idle() system call.
+
+This is the first process to be spawned, which then creates init (PID 1) which starts other processes.
+
+root         1     0 /sbin/init
+
+You can also check man idle
