@@ -108,27 +108,38 @@ The macro irqs_disabled() , defined in <asm/system.h> , returns nonzero if the
 interrupt system on the local processor is disabled. Otherwise, it returns zero.
 Two macros, defined in <linux/hardirq.h> , provide an interface to check the ker-
 nel’s current context.They are
+
 in_interrupt()
-in_irq()
-The most useful is the first: It returns nonzero if the kernel is performing any type of
+
+in_irq() : The most useful is the first: It returns nonzero if the kernel is performing any type of
 interrupt handling.This includes either executing an interrupt handler or a bottom half
 handler.The macro in_irq() returns nonzero only if the kernel is specifically executing
 an interrupt handler.
 
 Function Description
+
 local_irq_disable() Disables local interrupt delivery
+
 local_irq_enable() Enables local interrupt delivery
+
 local_irq_save() Saves the current state of local interrupt delivery and then
 disables it
+
 local_irq_restore() Restores local interrupt delivery to the given state
+
 disable_irq() Disables the given interrupt line and ensures no handler on
 the line is executing before returning
+
 disable_irq_nosync() Disables the given interrupt line
+
 enable_irq() Enables the given interrupt line
+
 irqs_disabled() Returns nonzero if local interrupt delivery is disabled; other-
 wise returns zero
+
 in_interrupt() Returns nonzero if in interrupt context and zero if in process
 context
+
 in_irq() Returns nonzero if currently executing an interrupt handler
 and zero otherwise
 
