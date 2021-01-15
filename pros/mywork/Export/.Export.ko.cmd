@@ -1,0 +1,1 @@
+cmd_/u01/sahasalu/pros/mywork/Export/Export.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /u01/sahasalu/pros/mywork/Export/Export.ko /u01/sahasalu/pros/mywork/Export/Export.o /u01/sahasalu/pros/mywork/Export/Export.mod.o ;  true

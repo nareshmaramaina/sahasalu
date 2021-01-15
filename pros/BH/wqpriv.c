@@ -18,7 +18,7 @@ static int __init my_init(void)
 	my_workq = create_workqueue("my_workq");
 	INIT_WORK(&work, w_fun);
 	queue_work(my_workq, &work);
-        pr_info("%s: I queued the task, jiffies=%ld\n",__func__, jiffies);
+	pr_info("%s: I queued the task, jiffies=%ld\n",__func__, jiffies);
 	return 0;
 
 }

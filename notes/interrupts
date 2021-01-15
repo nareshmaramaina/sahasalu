@@ -209,6 +209,20 @@ of course.This function must not be used from interrupt context because it sleep
 
 
 
+Work Queues : -
+
+
+DECLARE_WORK(name, void (*func)(void *), void *data);
+	This statically creates a work_struct structure named name with handler function
+and argument data .
+Alternatively, you can create work at runtime via a pointer:
+func
+
+INIT_WORK(struct work_struct *work, void (*func)(void *), void *data);
+This dynamically initializes the work queue pointed to by work with handler function
+and argument data .
+
+
 
 
 
