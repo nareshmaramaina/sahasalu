@@ -143,6 +143,8 @@ int main()
 	AddAtend(4);
 	AddAtend(3);
 	AddAtend(2);
+	AddAtend(1);
+	AddAtend(0);
 	/*	AddAtend(5);
 		AddAtend(6);
 		AddAtend(4);
@@ -160,9 +162,8 @@ int main()
 	//Addatbeg(12);
 	print();
 	//	Delete_Num(2);
-	Delete_mid();
-	Delete_mid();
-	Delete_mid();
+	//Delete_mid();
+	MyReverse();
 	print();
 	//printMiddle();
 	//reverse_list();
@@ -297,6 +298,30 @@ int delete(int num)
 	return 0;
 }
 
+void MyReverse()
+{
+
+	struct hi *prev,*curr,*next;
+	// 1 2 3 4 5 
+	// 2 1(NULL) 1 should store at prev  3 4 5 
+	// 
+	prev=NULL;
+	curr=head;
+	while(curr)
+	{
+		next = curr->link;
+
+		curr->link = prev;
+
+		prev = curr; 	
+
+		curr = next;
+	}
+
+	head = prev;
+	return;
+}
+
 void reverse_list()
 {
 
@@ -308,10 +333,17 @@ void reverse_list()
 	while( curr != NULL )
 	{
 
-		next = curr->link;
+		next = curr->link;		
 		curr->link = prev;
 		prev = curr;
 		curr = next;
+
+		// 1 2 3 4 5 
+		//   prev = NULL Next = 2 [ Have List ]  curr->link = 1 [ prev = NULL ]  prev = curr [ 1 ]  curr [ Next 2 [ Have List ]  ] 
+
+		//   prev = 1, next = 3 , curr -> link = prev [ 1]  , prev = 2 , curr = 3 
+
+		//   NULL 1 2 3 4 5 6 7 8 9 
 	}
 	head = prev;
 	return;

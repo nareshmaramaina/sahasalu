@@ -1,0 +1,46 @@
+Hardware = SOC | pheripharal interface
+
+SOC = CPU + MMU + Memory controller + interrupt controller + bus controllers + DMA + Device Controllers 
+
+
+Boot ROM 
+
+	- Reside at reset vector
+	-Intitalizes the Following 
+	CPU Clocks ,
+	 CPU caches  
+	Static Memory 
+
+	Boot Device Controller 
+		Any or all of the following 
+			Nand / nor flasah SD MMC controller 
+
+	Initilization of memory controller or Dynamic controller initilization ( DRAM controller ) optional 
+
+	Load Boot loader ( FSBLor SSBL  )  into preconfigured Address space 
+
+-FSBL ( First Stage Boot Loader ) 
+ - Loaded into Static RAM from stroage 
+  Intilize DRAM controller 
+Load SSBL into Memory
+
+
+- SSBL ( Boot loader )
+	
+	Resides of on board stroage
+	loaded into Dynamic memory either by FSBL or Boot-ROM 
+
+	-Initilize the following 
+		-Console
+		- Stroage Device Controllers ( USB / SD / MMC  )
+		- Network Controllers
+		Allocate Address space for kernel 
+	
+	- Fetch and load kernel , BSP ( DT ) images from preconfigured  stroage  or netwokr into memory 
+
+	- Setup kernel Parameters 
+
+	- Invoke kernel's boot strap with board information 
+
+
+- Kernel Boot ( SAme like x86 ) 

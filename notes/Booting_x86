@@ -1,0 +1,62 @@
+
+Linux Booting Procedure 
+
+
+BIOS ( Static Memory )  -> GRUB -> OS kernel 
+
+	
+In BIOS
+
+
+
+
+
+Os Kernel :- 
+
+
+-Boot strap 
+
+	MMU init , set up page tables 
+	Saves kernel args into kernel variables ( DT address )
+ 	Invokes kernel main routine ( start_kernel )
+
+- Protected mode kernel 
+
+	start_kernel is Starts kernel subsystem initilization 
+		-setup_arch()
+	 
+			Enumates physical memory info with mem block layer 
+			Parse kernel boot parameters 
+			Invoke 	target specific platform device enumations routines 
+			setup memory zones info 
+		- High level MM 
+		- Driver Stacks 
+		- Process Manager 
+		- File systems 
+		- rootfs mount 
+		- Intilizes kenrel threads  - init , kthreadd 
+
+	init, kthread loads first user space binary i.e, also a same name init from rootfs 
+
+
+* Init process of user mode is responbile for initilization of demons ( User mode ) start up processes ( Shell Login ) load shared objects ( pre loading by default libraries ( Ex ldd )
+
+
+* Based on the type of platform the applicaiotn framework configured , configuration of init process is varies 
+
+	init thread ( first user programmable )
+
+User Space init implementaions and  frame works 
+
+
+system v init  ( 1 -6 older unix init level )
+upstart init ( ubunut concureent ) 
+
+andriod inti 
+systemd init 
+initg
+openwrt  init
+
+
+
+
