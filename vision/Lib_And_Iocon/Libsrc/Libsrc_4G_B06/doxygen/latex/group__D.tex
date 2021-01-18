@@ -1,0 +1,102 @@
+\hypertarget{group__D}{\section{Magswipe Device Module Header.}
+\label{group__D}\index{Magswipe Device Module Header.@{Magswipe Device Module Header.}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{group__D_gafa3a94e588b1ba39a77cee64b1e68c49}{mscr\+\_\+open} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to open magswipe device. \end{DoxyCompactList}\item 
+int \hyperlink{group__D_gaf9a8351a0558d4148917a02f3ca56daf}{mscr\+\_\+close} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is to close magnetic swipe device. \end{DoxyCompactList}\item 
+int \hyperlink{group__D_ga5a3cd52dc4c6e21ac0a8a3aad4e53fdb}{mscr\+\_\+getstate} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to check wether the device is having valid data(both track1 and track2 data). \end{DoxyCompactList}\item 
+int \hyperlink{group__D_gaf5add969f80c642176e8f048c1685d5a}{mscr\+\_\+read} (char $\ast$track\+\_\+1\+\_\+data, char $\ast$track\+\_\+2\+\_\+data, char $\ast$track\+\_\+3\+\_\+data)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function reads the data of the tracks from the card. \end{DoxyCompactList}\item 
+int \hyperlink{group__D_ga70cf19854d6bbce3b16d0038dbe69ff4}{mscr\+\_\+flush} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function clears the card reader device buffer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\hypertarget{group__D_gaf9a8351a0558d4148917a02f3ca56daf}{\index{Magswipe Device Module Header.@{Magswipe Device Module Header.}!mscr\+\_\+close@{mscr\+\_\+close}}
+\index{mscr\+\_\+close@{mscr\+\_\+close}!Magswipe Device Module Header.@{Magswipe Device Module Header.}}
+\subsubsection[{mscr\+\_\+close}]{\setlength{\rightskip}{0pt plus 5cm}int mscr\+\_\+close (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__D_gaf9a8351a0558d4148917a02f3ca56daf}
+
+
+This A\+P\+I Function is to close magnetic swipe device. 
+
+\begin{DoxyReturn}{Returns}
+1 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__D_ga70cf19854d6bbce3b16d0038dbe69ff4}{\index{Magswipe Device Module Header.@{Magswipe Device Module Header.}!mscr\+\_\+flush@{mscr\+\_\+flush}}
+\index{mscr\+\_\+flush@{mscr\+\_\+flush}!Magswipe Device Module Header.@{Magswipe Device Module Header.}}
+\subsubsection[{mscr\+\_\+flush}]{\setlength{\rightskip}{0pt plus 5cm}int mscr\+\_\+flush (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__D_ga70cf19854d6bbce3b16d0038dbe69ff4}
+
+
+This A\+P\+I Function clears the card reader device buffer. 
+
+\begin{DoxyReturn}{Returns}
+1 on Success and -\/1 on Failure or May be Device not Open. 
+\end{DoxyReturn}
+\hypertarget{group__D_ga5a3cd52dc4c6e21ac0a8a3aad4e53fdb}{\index{Magswipe Device Module Header.@{Magswipe Device Module Header.}!mscr\+\_\+getstate@{mscr\+\_\+getstate}}
+\index{mscr\+\_\+getstate@{mscr\+\_\+getstate}!Magswipe Device Module Header.@{Magswipe Device Module Header.}}
+\subsubsection[{mscr\+\_\+getstate}]{\setlength{\rightskip}{0pt plus 5cm}int mscr\+\_\+getstate (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__D_ga5a3cd52dc4c6e21ac0a8a3aad4e53fdb}
+
+
+This A\+P\+I Function is used to check wether the device is having valid data(both track1 and track2 data). 
+
+\begin{DoxyReturn}{Returns}
+1 on Success and -\/1 if there is no Valid Data. 
+\end{DoxyReturn}
+\hypertarget{group__D_gafa3a94e588b1ba39a77cee64b1e68c49}{\index{Magswipe Device Module Header.@{Magswipe Device Module Header.}!mscr\+\_\+open@{mscr\+\_\+open}}
+\index{mscr\+\_\+open@{mscr\+\_\+open}!Magswipe Device Module Header.@{Magswipe Device Module Header.}}
+\subsubsection[{mscr\+\_\+open}]{\setlength{\rightskip}{0pt plus 5cm}int mscr\+\_\+open (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__D_gafa3a94e588b1ba39a77cee64b1e68c49}
+
+
+This A\+P\+I Function is used to open magswipe device. 
+
+\begin{DoxyNote}{Note}
+This function must be called before any magswipe function. 
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+1 on Success, 2 on Already Open and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__D_gaf5add969f80c642176e8f048c1685d5a}{\index{Magswipe Device Module Header.@{Magswipe Device Module Header.}!mscr\+\_\+read@{mscr\+\_\+read}}
+\index{mscr\+\_\+read@{mscr\+\_\+read}!Magswipe Device Module Header.@{Magswipe Device Module Header.}}
+\subsubsection[{mscr\+\_\+read}]{\setlength{\rightskip}{0pt plus 5cm}int mscr\+\_\+read (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{track\+\_\+1\+\_\+data, }
+\item[{char $\ast$}]{track\+\_\+2\+\_\+data, }
+\item[{char $\ast$}]{track\+\_\+3\+\_\+data}
+\end{DoxyParamCaption}
+)}}\label{group__D_gaf5add969f80c642176e8f048c1685d5a}
+
+
+This A\+P\+I function reads the data of the tracks from the card. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$track\+\_\+1\+\_\+data,$\ast$track\+\_\+2\+\_\+data,$\ast$track\+\_\+3\+\_\+data} & Description\+: Pointers to the buffers,where tracks data are copied to the passed buffers,these track1,track2 and track3 are character pointer data types and the memory allocated to them should be length of the expected data+1(suggested 256 bytes each). Type\+: I\+N\+P\+U\+T Range\+: 256 bytes \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+1 if only track1 data is valid and copied data into track\+\_\+1\+\_\+data buffer, 2 if only track2 data is valid and copied data into track\+\_\+2\+\_\+data buffer, 3 if only track2 data is valid and copied data into track\+\_\+3\+\_\+data buffer, 4 if track 1 \& 2 are valid and copied data into track\+\_\+1\+\_\+data buffer \& track\+\_\+2\+\_\+data buffer, 5 if track 2 \& 3 are valid and copied data into track\+\_\+2\+\_\+data buffer \& track\+\_\+3\+\_\+data buffer, 6 if track 1 \& 3 are valid and copied data into track\+\_\+1\+\_\+data buffer \& track\+\_\+3\+\_\+data buffer, 7 if track 1, 2 \& 3 are valid and copied into all three buffers and -\/1 if there is no valid data of all three tracks or Device not Opened. 
+\end{DoxyReturn}

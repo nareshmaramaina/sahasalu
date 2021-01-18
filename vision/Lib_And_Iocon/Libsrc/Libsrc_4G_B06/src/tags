@@ -1,0 +1,854 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADC_HOT_HEAD	../src/printer/printer.c	15;"	d	file:
+ADC_HOT_HEAD	../src/printer/printer_bkp1.c	15;"	d	file:
+ADC_MIN_BATTERY	../src/printer/printer.c	14;"	d	file:
+ADC_MIN_BATTERY	../src/printer/printer_bkp1.c	14;"	d	file:
+ADC_NO_ADAPTER	../src/printer/printer.c	13;"	d	file:
+ADC_NO_ADAPTER	../src/printer/printer_bkp1.c	13;"	d	file:
+ARG_ERR	../src/lcd/lcdcontrol.c	14;"	d	file:
+ARG_ERR	../src/miscall/iomisc.c	38;"	d	file:
+ARRAY_SIZE	../src/lcd/lcdcontrol.c	21;"	d	file:
+AUD_PWR_CNTRL	../src/miscall/iomisc.c	25;"	d	file:
+Audio Module Header	../doxygen/latex/group__H.tex	/^\\hypertarget{group__H}{\\section{Audio Module Header.}$/;"	s
+BATTER_SENSE	../src/miscall/iomisc.c	32;"	d	file:
+BLUTH_PWR_CNTRL	../src/miscall/iomisc.c	29;"	d	file:
+BOOL	../include/wintypes.h	/^	typedef short BOOL;$/;"	t
+BOOL	../include/wintypes.h	/^    typedef int16_t BOOL;$/;"	t
+BUZZER_CNTRL	../src/miscall/iomisc.c	26;"	d	file:
+BYTE	../include/wintypes.h	/^	typedef unsigned char BYTE;$/;"	t
+BYTE	../include/wintypes.h	/^    typedef uint8_t BYTE;$/;"	t
+Barcode Module Header	../doxygen/latex/group__G.tex	/^\\hypertarget{group__G}{\\section{Barcode Module Header.}$/;"	s
+CAM_PWR_CNTRL	../src/miscall/iomisc.c	28;"	d	file:
+CC	../src/Makefile	/^CC=arm-none-linux-gnueabi-gcc$/;"	m
+Cmd_Resp	../src/gsm/gsm_gps.c	19;"	d	file:
+DIAGNOSE	../src/rfid/rfid_api.c	56;"	d	file:
+DWORD	../include/wintypes.h	/^	typedef unsigned long DWORD;$/;"	t
+DWORD	../include/wintypes.h	/^    typedef uint32_t DWORD;$/;"	t
+Detailed Description	../doxygen/latex/group__A.tex	/^\\subsection{Detailed Description}$/;"	b
+Detailed Description	../doxygen/latex/group__B.tex	/^\\subsection{Detailed Description}$/;"	b
+Detailed Description	../doxygen/latex/group__C.tex	/^\\subsection{Detailed Description}$/;"	b
+Detailed Description	../doxygen/latex/group__D.tex	/^\\subsection{Detailed Description}$/;"	b
+Detailed Description	../doxygen/latex/group__E.tex	/^\\subsection{Detailed Description}$/;"	b
+Detailed Description	../doxygen/latex/group__F.tex	/^\\subsection{Detailed Description}$/;"	b
+Detailed Description	../doxygen/latex/group__G.tex	/^\\subsection{Detailed Description}$/;"	b
+Detailed Description	../doxygen/latex/group__H.tex	/^\\subsection{Detailed Description}$/;"	b
+Detailed Description	../doxygen/latex/group__I.tex	/^\\subsection{Detailed Description}$/;"	b
+Detailed Description	../doxygen/latex/group__J.tex	/^\\subsection{Detailed Description}$/;"	b
+Detailed Description	../doxygen/latex/group__K.tex	/^\\subsection{Detailed Description}$/;"	b
+Detailed Description	../doxygen/latex/group__L.tex	/^\\subsection{Detailed Description}$/;"	b
+ERROR	../src/scr/scr.c	26;"	d	file:
+ERR_LRC	../src/scr/scr.c	31;"	d	file:
+FALSE	../src/lcd/lcdcontrol.c	16;"	d	file:
+FALSE	../src/magswipe/magswipe.c	25;"	d	file:
+FALSE	../src/miscall/iomisc.c	40;"	d	file:
+FALSE	../src/sam/sam_api.c	29;"	d	file:
+FLAGFPIC	../src/Makefile	/^FLAGFPIC=$/;"	m
+FLAGFPIC	../src/Makefile	/^FLAGFPIC=-fPIC$/;"	m
+FLAGGDB	../src/Makefile	/^FLAGGDB=$/;"	m
+FLAGGDB	../src/Makefile	/^FLAGGDB=-g$/;"	m
+FLASH_CNTRL	../src/miscall/iomisc.c	22;"	d	file:
+File Documentation	../doxygen/latex/refman.tex	/^\\chapter{File Documentation}$/;"	c
+File Index	../doxygen/latex/refman.tex	/^\\chapter{File Index}$/;"	c
+File List	../doxygen/latex/files.tex	/^\\section{File List}$/;"	s
+Function Documentation	../doxygen/latex/group__A.tex	/^\\subsection{Function Documentation}$/;"	b
+Function Documentation	../doxygen/latex/group__B.tex	/^\\subsection{Function Documentation}$/;"	b
+Function Documentation	../doxygen/latex/group__C.tex	/^\\subsection{Function Documentation}$/;"	b
+Function Documentation	../doxygen/latex/group__D.tex	/^\\subsection{Function Documentation}$/;"	b
+Function Documentation	../doxygen/latex/group__E.tex	/^\\subsection{Function Documentation}$/;"	b
+Function Documentation	../doxygen/latex/group__F.tex	/^\\subsection{Function Documentation}$/;"	b
+Function Documentation	../doxygen/latex/group__G.tex	/^\\subsection{Function Documentation}$/;"	b
+Function Documentation	../doxygen/latex/group__H.tex	/^\\subsection{Function Documentation}$/;"	b
+Function Documentation	../doxygen/latex/group__I.tex	/^\\subsection{Function Documentation}$/;"	b
+Function Documentation	../doxygen/latex/group__J.tex	/^\\subsection{Function Documentation}$/;"	b
+Function Documentation	../doxygen/latex/group__K.tex	/^\\subsection{Function Documentation}$/;"	b
+Function Documentation	../doxygen/latex/group__L.tex	/^\\subsection{Function Documentation}$/;"	b
+Functions	../doxygen/latex/gl11_8h.tex	/^\\subsection*{Functions}$/;"	b
+Functions	../doxygen/latex/group__A.tex	/^\\subsection*{Functions}$/;"	b
+Functions	../doxygen/latex/group__B.tex	/^\\subsection*{Functions}$/;"	b
+Functions	../doxygen/latex/group__C.tex	/^\\subsection*{Functions}$/;"	b
+Functions	../doxygen/latex/group__D.tex	/^\\subsection*{Functions}$/;"	b
+Functions	../doxygen/latex/group__E.tex	/^\\subsection*{Functions}$/;"	b
+Functions	../doxygen/latex/group__F.tex	/^\\subsection*{Functions}$/;"	b
+Functions	../doxygen/latex/group__G.tex	/^\\subsection*{Functions}$/;"	b
+Functions	../doxygen/latex/group__H.tex	/^\\subsection*{Functions}$/;"	b
+Functions	../doxygen/latex/group__I.tex	/^\\subsection*{Functions}$/;"	b
+Functions	../doxygen/latex/group__J.tex	/^\\subsection*{Functions}$/;"	b
+Functions	../doxygen/latex/group__K.tex	/^\\subsection*{Functions}$/;"	b
+Functions	../doxygen/latex/group__L.tex	/^\\subsection*{Functions}$/;"	b
+G P S Module Header	../doxygen/latex/group__K.tex	/^\\hypertarget{group__K}{\\section{G\\+P\\+S Module Header.}$/;"	s
+GAOPEN	../src/gsm/gsm_gps.c	16;"	d	file:
+GDB	../src/Makefile	/^GDB="no"$/;"	m
+GERROR	../src/gsm/gsm_gps.c	14;"	d	file:
+GETFIRMWAREVERSION	../src/rfid/rfid_api.c	57;"	d	file:
+GETGENERALSTATUS	../src/rfid/rfid_api.c	58;"	d	file:
+GL11_H	../doxygen/gl11.h	14;"	d
+GL11_H	../include/gl11.h	14;"	d
+GNTOPEN	../src/gsm/gsm_gps.c	12;"	d	file:
+GPS_Modemfd	../src/gps/gps_api.c	/^int GPS_Modemfd;$/;"	v
+GPS_PWR_CNTRL	../src/miscall/iomisc.c	18;"	d	file:
+GSM_M_RESET	../src/miscall/iomisc.c	36;"	d	file:
+GSM_PWR_CNTRL	../src/miscall/iomisc.c	19;"	d	file:
+GSM_USB_PWR_CNTRL	../src/miscall/iomisc.c	31;"	d	file:
+GSUCCESS	../src/gsm/gsm_gps.c	15;"	d	file:
+GTIMEOUT	../src/gsm/gsm_gps.c	13;"	d	file:
+GetLRC	../src/scr/scr.c	/^static unsigned char GetLRC(unsigned char *Data, unsigned int Offset)$/;"	f	file:
+Get_String_file	../src/miscall/iomisc.c	/^int Get_String_file(char *Path, char *Line)$/;"	f
+Gsm _ Gprs module header	../doxygen/latex/group__J.tex	/^\\hypertarget{group__J}{\\section{Gsm\\+\\_\\+\\+Gprs module header}$/;"	s
+HOST_PWR_CNTRL	../src/miscall/iomisc.c	21;"	d	file:
+Hfont_tbl	../include/Hfont.h	/^unsigned char Hfont_tbl[][17]={$/;"	v
+I F D Module Header	../doxygen/latex/group__E.tex	/^\\hypertarget{group__E}{\\section{I\\+F\\+D Module Header.}$/;"	s
+I O D E V S Module Header	../doxygen/latex/group__A.tex	/^\\hypertarget{group__A}{\\section{I\\+O\\+D\\+E\\+V\\+S Module Header.}$/;"	s
+IDIR	../src/Makefile	/^IDIR=..\/include$/;"	m
+IFD_PWR_CNTRL	../src/miscall/iomisc.c	27;"	d	file:
+INFINITE	../include/pcsclite.h	190;"	d
+IOPORT	../src/scr/scr.c	/^}IOPORT;$/;"	t	typeref:struct:__anon3	file:
+Imx6_atcmd_response	../src/gsm/gsm_gps.c	/^int Imx6_atcmd_response(int Amodemfd, char *Cmd, char *Resp, int Tout)$/;"	f
+Imx6_checkdriver	../src/gsm/gsm_gps.c	/^static int Imx6_checkdriver(char *drv)$/;"	f	file:
+Imx6_gsmgps_dexit	../src/gsm/gsm_gps.c	/^static int Imx6_gsmgps_dexit(void)$/;"	f	file:
+Imx6_gsmgps_dinit	../src/gsm/gsm_gps.c	/^static int Imx6_gsmgps_dinit(void)$/;"	f	file:
+Imx6_gsmgps_modemclose	../src/gsm/gsm_gps.c	/^static int Imx6_gsmgps_modemclose(int cfd, int gg_al)$/;"	f	file:
+Imx6_gsmgps_modemopen	../src/gsm/gsm_gps.c	/^static int Imx6_gsmgps_modemopen(char *Portname, int Brate, int gg_al)$/;"	f	file:
+Imx6_gsmgps_setbaudrate	../src/gsm/gsm_gps.c	/^static void Imx6_gsmgps_setbaudrate(int ggbfd, int BR)$/;"	f	file:
+KEY_BUZZ_CNTRL	../src/miscall/iomisc.c	35;"	d	file:
+LCD_BKL	../src/lcd/lcdcontrol.c	19;"	d	file:
+LCD_BKL_CNTRL	../src/miscall/iomisc.c	24;"	d	file:
+LCD_BKL_TIMEOUT	../src/lcd/lcdcontrol.c	18;"	d	file:
+LCD_BKL_TIMEOUT	../src/miscall/iomisc.c	33;"	d	file:
+LCD_ERR	../src/lcd/lcdcontrol.c	13;"	d	file:
+LIB	../src/Makefile	/^LIB=..\/lib$/;"	m
+LID_ERROR	../src/printer/printer.c	25;"	d	file:
+LID_ERROR	../src/printer/printer_bkp1.c	25;"	d	file:
+LONG	../include/wintypes.h	/^	typedef long LONG;$/;"	t
+LONG	../include/wintypes.h	/^    typedef int32_t LONG;$/;"	t
+LOW_BATTERY	../src/printer/printer.c	23;"	d	file:
+LOW_BATTERY	../src/printer/printer_bkp1.c	23;"	d	file:
+LPBYTE	../include/wintypes.h	/^	typedef BYTE *LPBYTE;$/;"	t
+LPBYTE	../include/wintypes.h	/^    typedef BYTE *LPBYTE;$/;"	t
+LPCBYTE	../include/wintypes.h	/^	typedef const BYTE *LPCBYTE;$/;"	t
+LPCBYTE	../include/wintypes.h	/^    typedef const BYTE *LPCBYTE;$/;"	t
+LPCSCARD_IO_REQUEST	../include/pcsclite.h	/^typedef const SCARD_IO_REQUEST *LPCSCARD_IO_REQUEST;$/;"	t
+LPCSTR	../include/wintypes.h	/^	typedef const char *LPCSTR;$/;"	t
+LPCSTR	../include/wintypes.h	/^    typedef const char *LPCSTR;$/;"	t
+LPCTSTR	../include/wintypes.h	/^	typedef LPCSTR LPCTSTR;$/;"	t
+LPCVOID	../include/wintypes.h	/^	typedef const void *LPCVOID;$/;"	t
+LPCVOID	../include/wintypes.h	/^    typedef const void *LPCVOID;$/;"	t
+LPDWORD	../include/wintypes.h	/^	typedef DWORD *LPDWORD;$/;"	t
+LPDWORD	../include/wintypes.h	/^    typedef DWORD *LPDWORD;$/;"	t
+LPSCARDCONTEXT	../include/pcsclite.h	/^typedef SCARDCONTEXT *LPSCARDCONTEXT;$/;"	t
+LPSCARDHANDLE	../include/pcsclite.h	/^typedef SCARDHANDLE *LPSCARDHANDLE;$/;"	t
+LPSCARD_IO_REQUEST	../include/pcsclite.h	/^SCARD_IO_REQUEST, *PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST;$/;"	t	typeref:struct:__anon2
+LPSCARD_READERSTATE	../include/pcsclite.h	/^SCARD_READERSTATE, *LPSCARD_READERSTATE;$/;"	t	typeref:struct:__anon1
+LPSTR	../include/wintypes.h	/^	typedef char *LPSTR;$/;"	t
+LPSTR	../include/wintypes.h	/^    typedef char *LPSTR;$/;"	t
+LPTSTR	../include/wintypes.h	/^	typedef LPSTR LPTSTR;$/;"	t
+LPVOID	../include/wintypes.h	/^	typedef void *LPVOID;$/;"	t
+LPVOID	../include/wintypes.h	/^    typedef void *LPVOID;$/;"	t
+MAG_SW_ERR	../src/magswipe/magswipe.c	9;"	d	file:
+MAX_ATR_SIZE	../include/pcsclite.h	38;"	d
+MAX_BUFFER_SIZE	../include/pcsclite.h	208;"	d
+MAX_BUFFER_SIZE_EXTENDED	../include/pcsclite.h	209;"	d
+MAX_READERNAME	../include/pcsclite.h	197;"	d
+MAX_TEMP	../src/printer/printer.c	24;"	d	file:
+MAX_TEMP	../src/printer/printer_bkp1.c	24;"	d	file:
+MSCR_BUSY	../src/magswipe/magswipe.c	12;"	d	file:
+MSCR_FAIL	../src/magswipe/magswipe.c	13;"	d	file:
+MSCR_OFF	../src/magswipe/magswipe.c	10;"	d	file:
+MSCR_ON	../src/magswipe/magswipe.c	11;"	d	file:
+MSCR_SUCCESS	../src/magswipe/magswipe.c	14;"	d	file:
+MSCR_TRACK1	../src/magswipe/magswipe.c	16;"	d	file:
+MSCR_TRACK12	../src/magswipe/magswipe.c	19;"	d	file:
+MSCR_TRACK123	../src/magswipe/magswipe.c	22;"	d	file:
+MSCR_TRACK13	../src/magswipe/magswipe.c	21;"	d	file:
+MSCR_TRACK2	../src/magswipe/magswipe.c	17;"	d	file:
+MSCR_TRACK23	../src/magswipe/magswipe.c	20;"	d	file:
+MSCR_TRACK3	../src/magswipe/magswipe.c	18;"	d	file:
+Magswipe Device Module Header	../doxygen/latex/group__D.tex	/^\\hypertarget{group__D}{\\section{Magswipe Device Module Header.}$/;"	s
+ModemOpen_gps	../src/gps/gps_api.c	/^int ModemOpen_gps(char *portname)$/;"	f
+Modemclose _ gps	../doxygen/latex/group__K.tex	/^\\subsubsection[{Modemclose\\+\\_\\+gps}]{\\setlength{\\rightskip}{0pt plus 5cm}int Modemclose\\+\\_\\+gps ($/;"	b
+Modemclose_gps	../src/gps/gps_api.c	/^int  Modemclose_gps()$/;"	f
+Module Documentation	../doxygen/latex/refman.tex	/^\\chapter{Module Documentation}$/;"	c
+Module Index	../doxygen/latex/refman.tex	/^\\chapter{Module Index}$/;"	c
+Modules	../doxygen/latex/modules.tex	/^\\section{Modules}$/;"	s
+NO_LINES	../src/printer/printer.c	22;"	d	file:
+NO_LINES	../src/printer/printer_bkp1.c	22;"	d	file:
+NO_PAPER	../src/printer/printer.c	21;"	d	file:
+NO_PAPER	../src/printer/printer_bkp1.c	21;"	d	file:
+NPRESENT	../src/scr/scr.c	33;"	d	file:
+OBJS	../src/Makefile	/^OBJS=scr.o printer.o magswipe.o barcode_api.o lcdcontrol.o iomisc.o sam_api.o gsm_api.o rfid_api.o rtc.o$/;"	m
+OPT_CAPPWR_CNTRL	../src/miscall/iomisc.c	20;"	d	file:
+One	../src/rfid/rfid_api.c	/^unsigned char One = 0x01;$/;"	v
+PCSCLITE_MAX_READERS_CONTEXTS	../include/pcsclite.h	195;"	d
+PCSCLITE_VERSION_NUMBER	../include/pcsclite.h	193;"	d
+PCSC_API	../include/winscard.h	28;"	d
+PCSC_ERROR	../src/sam/sam_api.c	48;"	d	file:
+PDWORD	../include/wintypes.h	/^	typedef unsigned long *PDWORD;$/;"	t
+PDWORD	../include/wintypes.h	/^    typedef uint32_t *PDWORD;$/;"	t
+POSTAMBLE	../src/rfid/rfid_api.c	50;"	d	file:
+POWERDOWN	../src/rfid/rfid_api.c	66;"	d	file:
+PREAMBLE	../src/rfid/rfid_api.c	45;"	d	file:
+PRESENT	../src/scr/scr.c	32;"	d	file:
+PRN_BUSY	../src/printer/printer.c	19;"	d	file:
+PRN_BUSY	../src/printer/printer_bkp1.c	19;"	d	file:
+PRN_ERR	../src/printer/printer.c	17;"	d	file:
+PRN_ERR	../src/printer/printer_bkp1.c	17;"	d	file:
+PRN_LEN_ERR	../src/printer/printer.c	18;"	d	file:
+PRN_LEN_ERR	../src/printer/printer_bkp1.c	18;"	d	file:
+PRN_OFF	../src/printer/printer.c	27;"	d	file:
+PRN_OFF	../src/printer/printer_bkp1.c	27;"	d	file:
+PRN_ON	../src/printer/printer.c	28;"	d	file:
+PRN_ON	../src/printer/printer_bkp1.c	28;"	d	file:
+PRN_SUCCESS	../src/printer/printer.c	20;"	d	file:
+PRN_SUCCESS	../src/printer/printer_bkp1.c	20;"	d	file:
+PSCARDCONTEXT	../include/pcsclite.h	/^typedef SCARDCONTEXT *PSCARDCONTEXT;$/;"	t
+PSCARDHANDLE	../include/pcsclite.h	/^typedef SCARDHANDLE *PSCARDHANDLE;$/;"	t
+PSCARD_IO_REQUEST	../include/pcsclite.h	/^SCARD_IO_REQUEST, *PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST;$/;"	t	typeref:struct:__anon2
+PUCHAR	../include/wintypes.h	/^	typedef unsigned char *PUCHAR;$/;"	t
+PUCHAR	../include/wintypes.h	/^    typedef uint8_t *PUCHAR;$/;"	t
+PULONG	../include/wintypes.h	/^	typedef unsigned long *PULONG;$/;"	t
+PULONG	../include/wintypes.h	/^    typedef uint32_t *PULONG;$/;"	t
+PWRDN_BS300	../src/magswipe/magswipe.c	26;"	d	file:
+Printer Module Header	../doxygen/latex/group__C.tex	/^\\hypertarget{group__C}{\\section{Printer Module Header.}$/;"	s
+R T C Module Header	../doxygen/latex/group__B.tex	/^\\hypertarget{group__B}{\\section{R\\+T\\+C Module Header.}$/;"	s
+READGPIO	../src/rfid/rfid_api.c	61;"	d	file:
+READREGISTER	../src/rfid/rfid_api.c	59;"	d	file:
+RFFieldOff	../src/rfid/rfid_api.c	/^int RFFieldOff()$/;"	f
+RF_CONFIG	../src/rfid/rfid_api.c	67;"	d	file:
+RF_INATR	../src/rfid/rfid_api.c	71;"	d	file:
+RF_INCOMMUNICATETHRU	../src/rfid/rfid_api.c	74;"	d	file:
+RF_INDATAEXCHANGE	../src/rfid/rfid_api.c	73;"	d	file:
+RF_INDESELECT	../src/rfid/rfid_api.c	75;"	d	file:
+RF_INJUMPFORDEP	../src/rfid/rfid_api.c	68;"	d	file:
+RF_INJUMPFORPSL	../src/rfid/rfid_api.c	69;"	d	file:
+RF_INLISTPASSIVETARGET	../src/rfid/rfid_api.c	70;"	d	file:
+RF_INPSL	../src/rfid/rfid_api.c	72;"	d	file:
+RF_INRELEASE	../src/rfid/rfid_api.c	76;"	d	file:
+RF_INSELECT	../src/rfid/rfid_api.c	77;"	d	file:
+RMUTE	../src/scr/scr.c	29;"	d	file:
+RTC_ALM_READ	../src/rtc/rtc.c	43;"	d	file:
+RTC_ALM_SET	../src/rtc/rtc.c	42;"	d	file:
+RTC_RD_TIME	../src/rtc/rtc.c	40;"	d	file:
+RTC_SET_TIME	../src/rtc/rtc.c	41;"	d	file:
+RX_TFI	../src/rfid/rfid_api.c	49;"	d	file:
+S A M Module Header	../doxygen/latex/group__F.tex	/^\\hypertarget{group__F}{\\section{S\\+A\\+M Module Header.}$/;"	s
+S A M _ Close	../doxygen/latex/group__F.tex	/^\\subsubsection[{S\\+A\\+M\\+\\_\\+\\+Close}]{\\setlength{\\rightskip}{0pt plus 5cm}int S\\+A\\+M\\+\\_\\+\\+Close ($/;"	b
+S A M _ Cold Reset	../doxygen/latex/group__F.tex	/^\\subsubsection[{S\\+A\\+M\\+\\_\\+\\+Cold\\+Reset}]{\\setlength{\\rightskip}{0pt plus 5cm}int S\\+A\\+M\\+\\_\\+\\+Cold\\+Reset ($/;"	b
+S A M _ Get Atr	../doxygen/latex/group__F.tex	/^\\subsubsection[{S\\+A\\+M\\+\\_\\+\\+Get\\+Atr}]{\\setlength{\\rightskip}{0pt plus 5cm}int S\\+A\\+M\\+\\_\\+\\+Get\\+Atr ($/;"	b
+S A M _ Open	../doxygen/latex/group__F.tex	/^\\subsubsection[{S\\+A\\+M\\+\\_\\+\\+Open}]{\\setlength{\\rightskip}{0pt plus 5cm}int S\\+A\\+M\\+\\_\\+\\+Open ($/;"	b
+S A M _ Send Command	../doxygen/latex/group__F.tex	/^\\subsubsection[{S\\+A\\+M\\+\\_\\+\\+Send\\+Command}]{\\setlength{\\rightskip}{0pt plus 5cm}int S\\+A\\+M\\+\\_\\+\\+Send\\+Command ($/;"	b
+S C R _ Checkup _ Card Presence	../doxygen/latex/group__E.tex	/^\\subsubsection[{S\\+C\\+R\\+\\_\\+\\+Checkup\\+\\_\\+\\+Card\\+Presence}]{\\setlength{\\rightskip}{0pt plus 5cm}int S\\+C\\+R\\+\\_\\+\\+Checkup\\+\\_\\+\\+Card\\+Presence ($/;"	b
+S C R _ Get F V	../doxygen/latex/group__E.tex	/^\\subsubsection[{S\\+C\\+R\\+\\_\\+\\+Get\\+F\\+V}]{\\setlength{\\rightskip}{0pt plus 5cm}int S\\+C\\+R\\+\\_\\+\\+Get\\+F\\+V ($/;"	b
+S C R _ Get S B	../doxygen/latex/group__E.tex	/^\\subsubsection[{S\\+C\\+R\\+\\_\\+\\+Get\\+S\\+B}]{\\setlength{\\rightskip}{0pt plus 5cm}int S\\+C\\+R\\+\\_\\+\\+Get\\+S\\+B ($/;"	b
+S C R _ get A T R	../doxygen/latex/group__E.tex	/^\\subsubsection[{S\\+C\\+R\\+\\_\\+get\\+A\\+T\\+R}]{\\setlength{\\rightskip}{0pt plus 5cm}int S\\+C\\+R\\+\\_\\+get\\+A\\+T\\+R ($/;"	b
+SAMCONFIGURATION	../src/rfid/rfid_api.c	65;"	d	file:
+SAM_Close	../src/sam/sam_api.c	/^int SAM_Close ( )$/;"	f
+SAM_ColdReset	../src/sam/sam_api.c	/^int SAM_ColdReset(int selection)$/;"	f
+SAM_GetAtr	../src/sam/sam_api.c	/^int SAM_GetAtr ( unsigned int * length, unsigned char * buffer )$/;"	f
+SAM_Open	../src/sam/sam_api.c	/^int SAM_Open ( void )$/;"	f
+SAM_PWR_CNTRL	../src/miscall/iomisc.c	30;"	d	file:
+SAM_PowerDown	../src/sam/sam_api.c	/^int SAM_PowerDown ( )$/;"	f
+SAM_SendCommand	../src/sam/sam_api.c	/^int SAM_SendCommand (unsigned char *CAPDU_Data,unsigned int CLen,unsigned char *RAPDU_Data,unsigned int *RLen )$/;"	f
+SCARDCONTEXT	../include/pcsclite.h	/^typedef LONG SCARDCONTEXT; \/**< \\p hContext returned by SCardEstablishContext() *\/$/;"	t
+SCARDHANDLE	../include/pcsclite.h	/^typedef LONG SCARDHANDLE; \/**< \\p hCard returned by SCardConnect() *\/$/;"	t
+SCARD_ABSENT	../include/pcsclite.h	169;"	d
+SCARD_ATR_LENGTH	../include/pcsclite.h	200;"	d
+SCARD_AUTOALLOCATE	../include/pcsclite.h	145;"	d
+SCARD_EJECT_CARD	../include/pcsclite.h	166;"	d
+SCARD_E_BAD_SEEK	../include/pcsclite.h	122;"	d
+SCARD_E_CANCELLED	../include/pcsclite.h	82;"	d
+SCARD_E_CANT_DISPOSE	../include/pcsclite.h	94;"	d
+SCARD_E_CARD_UNSUPPORTED	../include/pcsclite.h	108;"	d
+SCARD_E_CERTIFICATE_UNAVAILABLE	../include/pcsclite.h	126;"	d
+SCARD_E_COMM_DATA_LOST	../include/pcsclite.h	128;"	d
+SCARD_E_DIR_NOT_FOUND	../include/pcsclite.h	116;"	d
+SCARD_E_DUPLICATE_READER	../include/pcsclite.h	107;"	d
+SCARD_E_FILE_NOT_FOUND	../include/pcsclite.h	117;"	d
+SCARD_E_ICC_CREATEORDER	../include/pcsclite.h	114;"	d
+SCARD_E_ICC_INSTALLATION	../include/pcsclite.h	113;"	d
+SCARD_E_INSUFFICIENT_BUFFER	../include/pcsclite.h	88;"	d
+SCARD_E_INVALID_ATR	../include/pcsclite.h	101;"	d
+SCARD_E_INVALID_CHV	../include/pcsclite.h	123;"	d
+SCARD_E_INVALID_HANDLE	../include/pcsclite.h	83;"	d
+SCARD_E_INVALID_PARAMETER	../include/pcsclite.h	84;"	d
+SCARD_E_INVALID_TARGET	../include/pcsclite.h	85;"	d
+SCARD_E_INVALID_VALUE	../include/pcsclite.h	97;"	d
+SCARD_E_NOT_READY	../include/pcsclite.h	96;"	d
+SCARD_E_NOT_TRANSACTED	../include/pcsclite.h	102;"	d
+SCARD_E_NO_ACCESS	../include/pcsclite.h	120;"	d
+SCARD_E_NO_DIR	../include/pcsclite.h	118;"	d
+SCARD_E_NO_FILE	../include/pcsclite.h	119;"	d
+SCARD_E_NO_KEY_CONTAINER	../include/pcsclite.h	129;"	d
+SCARD_E_NO_MEMORY	../include/pcsclite.h	86;"	d
+SCARD_E_NO_READERS_AVAILABLE	../include/pcsclite.h	127;"	d
+SCARD_E_NO_SERVICE	../include/pcsclite.h	109;"	d
+SCARD_E_NO_SMARTCARD	../include/pcsclite.h	92;"	d
+SCARD_E_NO_SUCH_CERTIFICATE	../include/pcsclite.h	125;"	d
+SCARD_E_PCI_TOO_SMALL	../include/pcsclite.h	105;"	d
+SCARD_E_PROTO_MISMATCH	../include/pcsclite.h	95;"	d
+SCARD_E_READER_UNAVAILABLE	../include/pcsclite.h	103;"	d
+SCARD_E_READER_UNSUPPORTED	../include/pcsclite.h	106;"	d
+SCARD_E_SERVER_TOO_BUSY	../include/pcsclite.h	130;"	d
+SCARD_E_SERVICE_STOPPED	../include/pcsclite.h	110;"	d
+SCARD_E_SHARING_VIOLATION	../include/pcsclite.h	91;"	d
+SCARD_E_SYSTEM_CANCELLED	../include/pcsclite.h	98;"	d
+SCARD_E_TIMEOUT	../include/pcsclite.h	90;"	d
+SCARD_E_UNEXPECTED	../include/pcsclite.h	111;"	d
+SCARD_E_UNKNOWN_CARD	../include/pcsclite.h	93;"	d
+SCARD_E_UNKNOWN_READER	../include/pcsclite.h	89;"	d
+SCARD_E_UNKNOWN_RES_MNG	../include/pcsclite.h	124;"	d
+SCARD_E_UNSUPPORTED_FEATURE	../include/pcsclite.h	112;"	d
+SCARD_E_WRITE_TOO_MANY	../include/pcsclite.h	121;"	d
+SCARD_F_COMM_ERROR	../include/pcsclite.h	99;"	d
+SCARD_F_INTERNAL_ERROR	../include/pcsclite.h	81;"	d
+SCARD_F_UNKNOWN_ERROR	../include/pcsclite.h	100;"	d
+SCARD_F_WAITED_TOO_LONG	../include/pcsclite.h	87;"	d
+SCARD_IO_REQUEST	../include/pcsclite.h	/^SCARD_IO_REQUEST, *PSCARD_IO_REQUEST, *LPSCARD_IO_REQUEST;$/;"	t	typeref:struct:__anon2
+SCARD_LEAVE_CARD	../include/pcsclite.h	163;"	d
+SCARD_NEGOTIABLE	../include/pcsclite.h	173;"	d
+SCARD_PCI_RAW	../include/pcsclite.h	76;"	d
+SCARD_PCI_T0	../include/pcsclite.h	74;"	d
+SCARD_PCI_T1	../include/pcsclite.h	75;"	d
+SCARD_POWERED	../include/pcsclite.h	172;"	d
+SCARD_PRESENT	../include/pcsclite.h	170;"	d
+SCARD_PROTOCOL_ANY	../include/pcsclite.h	157;"	d
+SCARD_PROTOCOL_RAW	../include/pcsclite.h	154;"	d
+SCARD_PROTOCOL_T0	../include/pcsclite.h	152;"	d
+SCARD_PROTOCOL_T1	../include/pcsclite.h	153;"	d
+SCARD_PROTOCOL_T15	../include/pcsclite.h	155;"	d
+SCARD_PROTOCOL_UNDEFINED	../include/pcsclite.h	150;"	d
+SCARD_PROTOCOL_UNSET	../include/pcsclite.h	151;"	d
+SCARD_P_SHUTDOWN	../include/pcsclite.h	104;"	d
+SCARD_READERSTATE	../include/pcsclite.h	/^SCARD_READERSTATE, *LPSCARD_READERSTATE;$/;"	t	typeref:struct:__anon1
+SCARD_RESET_CARD	../include/pcsclite.h	164;"	d
+SCARD_SCOPE_SYSTEM	../include/pcsclite.h	148;"	d
+SCARD_SCOPE_TERMINAL	../include/pcsclite.h	147;"	d
+SCARD_SCOPE_USER	../include/pcsclite.h	146;"	d
+SCARD_SHARE_DIRECT	../include/pcsclite.h	161;"	d
+SCARD_SHARE_EXCLUSIVE	../include/pcsclite.h	159;"	d
+SCARD_SHARE_SHARED	../include/pcsclite.h	160;"	d
+SCARD_SPECIFIC	../include/pcsclite.h	174;"	d
+SCARD_STATE_ATRMATCH	../include/pcsclite.h	183;"	d
+SCARD_STATE_CHANGED	../include/pcsclite.h	178;"	d
+SCARD_STATE_EMPTY	../include/pcsclite.h	181;"	d
+SCARD_STATE_EXCLUSIVE	../include/pcsclite.h	184;"	d
+SCARD_STATE_IGNORE	../include/pcsclite.h	177;"	d
+SCARD_STATE_INUSE	../include/pcsclite.h	185;"	d
+SCARD_STATE_MUTE	../include/pcsclite.h	186;"	d
+SCARD_STATE_PRESENT	../include/pcsclite.h	182;"	d
+SCARD_STATE_UNAVAILABLE	../include/pcsclite.h	180;"	d
+SCARD_STATE_UNAWARE	../include/pcsclite.h	176;"	d
+SCARD_STATE_UNKNOWN	../include/pcsclite.h	179;"	d
+SCARD_STATE_UNPOWERED	../include/pcsclite.h	187;"	d
+SCARD_SWALLOWED	../include/pcsclite.h	171;"	d
+SCARD_S_SUCCESS	../include/pcsclite.h	80;"	d
+SCARD_UNKNOWN	../include/pcsclite.h	168;"	d
+SCARD_UNPOWER_CARD	../include/pcsclite.h	165;"	d
+SCARD_W_CANCELLED_BY_USER	../include/pcsclite.h	142;"	d
+SCARD_W_CARD_NOT_AUTHENTICATED	../include/pcsclite.h	143;"	d
+SCARD_W_CHV_BLOCKED	../include/pcsclite.h	140;"	d
+SCARD_W_EOF	../include/pcsclite.h	141;"	d
+SCARD_W_REMOVED_CARD	../include/pcsclite.h	136;"	d
+SCARD_W_RESET_CARD	../include/pcsclite.h	135;"	d
+SCARD_W_SECURITY_VIOLATION	../include/pcsclite.h	138;"	d
+SCARD_W_UNPOWERED_CARD	../include/pcsclite.h	134;"	d
+SCARD_W_UNRESPONSIVE_CARD	../include/pcsclite.h	133;"	d
+SCARD_W_UNSUPPORTED_CARD	../include/pcsclite.h	132;"	d
+SCARD_W_WRONG_CHV	../include/pcsclite.h	139;"	d
+SCR_Baudrate	../src/scr/scr.c	/^static int SCR_Baudrate(void)$/;"	f	file:
+SCR_CAPDUMake	../src/scr/scr.c	/^static void SCR_CAPDUMake(unsigned char *HexData, unsigned char *ProtoData, unsigned short int *Len)$/;"	f	file:
+SCR_Checksum	../src/scr/scr.c	/^static unsigned char SCR_Checksum(unsigned char *Data, unsigned int Len)$/;"	f	file:
+SCR_Checkup_CardPresence	../src/scr/scr.c	/^int SCR_Checkup_CardPresence(void)$/;"	f
+SCR_Checkup_Cardpresence	../src/scr/scr.c	/^int SCR_Checkup_Cardpresence(void)$/;"	f
+SCR_Close	../src/scr/scr.c	/^int SCR_Close(void)$/;"	f
+SCR_Ferase	../src/scr/scr.c	/^int SCR_Ferase(void)$/;"	f
+SCR_GetFV	../src/scr/scr.c	/^int SCR_GetFV(unsigned char *Fv_Resp, unsigned int *Fv_RLen)$/;"	f
+SCR_GetSB	../src/scr/scr.c	/^int SCR_GetSB(unsigned char *Sresp, unsigned int *Slen)$/;"	f
+SCR_Getatr	../src/scr/scr.c	/^int SCR_Getatr(unsigned char *Aresp, unsigned int *Alen)$/;"	f
+SCR_Getfv	../src/scr/scr.c	/^int SCR_Getfv(unsigned char *Fresp, unsigned int *Flen)$/;"	f
+SCR_Getlpa	../src/scr/scr.c	/^int SCR_Getlpa(unsigned char *Lresp, unsigned int *Llen)$/;"	f
+SCR_Getlpb	../src/scr/scr.c	/^int SCR_Getlpb(unsigned char *Lresp, unsigned int *Llen)$/;"	f
+SCR_Getsb	../src/scr/scr.c	/^int SCR_Getsb(unsigned char *Sresp, unsigned int *Slen)$/;"	f
+SCR_Getsn	../src/scr/scr.c	/^int SCR_Getsn(unsigned char *Sresp, unsigned int *Slen)$/;"	f
+SCR_Getsn8	../src/scr/scr.c	/^int SCR_Getsn8(unsigned char *Iresp, unsigned int *Ilen)$/;"	f
+SCR_Open	../src/scr/scr.c	/^int SCR_Open(void)$/;"	f
+SCR_Powerdown	../src/scr/scr.c	/^int SCR_Powerdown(void)\/\/Power Down for Cards$/;"	f
+SCR_Powerup	../src/scr/scr.c	/^int SCR_Powerup(int volt)\/\/Voltage Apply for Cards$/;"	f
+SCR_Read	../src/scr/scr.c	/^static int SCR_Read(unsigned char *Rresp, unsigned int *RLen)$/;"	f	file:
+SCR_Selectcard	../src/scr/scr.c	/^int SCR_Selectcard(int card)\/\/Select a Cards$/;"	f
+SCR_Send	../src/scr/scr.c	/^static int SCR_Send(unsigned char *Cmd, unsigned short int Wsize)$/;"	f	file:
+SCR_SendCommand	../src/scr/scr.c	/^int SCR_SendCommand(unsigned char *CAPDU_Data, unsigned char CLen, unsigned char *RAPDU_Data, unsigned int *RLen)$/;"	f
+SCR_SendReceive	../src/scr/scr.c	/^static int SCR_SendReceive(unsigned char *CommandData, unsigned int CLen, unsigned char *samifd_response_data, unsigned int *ResponseLen)$/;"	f	file:
+SCR_Sendcommand	../src/scr/scr.c	/^int SCR_Sendcommand(unsigned char *Cmd, int CLen, unsigned char *Resp, unsigned int *RLen)\/\/Write Command Then Get Response$/;"	f
+SCR_SetTimeOut	../src/scr/scr.c	/^static int SCR_SetTimeOut(unsigned long blocktime)$/;"	f	file:
+SCR_Strip	../src/scr/scr.c	/^static int SCR_Strip(unsigned char *Sresp, unsigned int *Slen)$/;"	f	file:
+SCR_getATR	../src/scr/scr.c	/^int SCR_getATR(unsigned char *Aresp, unsigned int *Alen)$/;"	f
+SELECT_SIM	../src/miscall/iomisc.c	23;"	d	file:
+SETSERIALBAUDRATE	../src/rfid/rfid_api.c	63;"	d	file:
+SETTAMAPARAMETERS	../src/rfid/rfid_api.c	64;"	d	file:
+SOF1	../src/rfid/rfid_api.c	46;"	d	file:
+SOF2	../src/rfid/rfid_api.c	47;"	d	file:
+SPIDEV_H	../include/spidev.h	23;"	d
+SPI_3WIRE	../include/spidev.h	41;"	d
+SPI_CPHA	../include/spidev.h	31;"	d
+SPI_CPOL	../include/spidev.h	32;"	d
+SPI_CS_HIGH	../include/spidev.h	39;"	d
+SPI_IOC_MAGIC	../include/spidev.h	50;"	d
+SPI_IOC_MESSAGE	../include/spidev.h	110;"	d
+SPI_IOC_RD_BITS_PER_WORD	../include/spidev.h	122;"	d
+SPI_IOC_RD_LSB_FIRST	../include/spidev.h	118;"	d
+SPI_IOC_RD_MAX_SPEED_HZ	../include/spidev.h	126;"	d
+SPI_IOC_RD_MODE	../include/spidev.h	114;"	d
+SPI_IOC_WR_BITS_PER_WORD	../include/spidev.h	123;"	d
+SPI_IOC_WR_LSB_FIRST	../include/spidev.h	119;"	d
+SPI_IOC_WR_MAX_SPEED_HZ	../include/spidev.h	127;"	d
+SPI_IOC_WR_MODE	../include/spidev.h	115;"	d
+SPI_LOOP	../include/spidev.h	42;"	d
+SPI_LSB_FIRST	../include/spidev.h	40;"	d
+SPI_MODE_0	../include/spidev.h	34;"	d
+SPI_MODE_1	../include/spidev.h	35;"	d
+SPI_MODE_2	../include/spidev.h	36;"	d
+SPI_MODE_3	../include/spidev.h	37;"	d
+SPI_MSGSIZE	../include/spidev.h	107;"	d
+SPI_NO_CS	../include/spidev.h	43;"	d
+SPI_READY	../include/spidev.h	44;"	d
+SUCCESS	../src/scr/scr.c	27;"	d	file:
+Sigterm_Handler	../src/gsm/gsm_api.c	/^void Sigterm_Handler(int Signum)$/;"	f
+Sigterm_Handler	../src/gsm/gsm_gps.c	/^void Sigterm_Handler(int Signum)$/;"	f
+T0VER	../src/scr/scr.c	30;"	d	file:
+TAMA_FAILURE	../src/rfid/rfid_api.c	53;"	d	file:
+TAMA_SUCCESS	../src/rfid/rfid_api.c	52;"	d	file:
+TCID	../src/gps/gps_api.c	/^char *TCID="GPS";$/;"	v
+TEST_BUF	../src/rfid/rfid_api.c	/^unsigned char TEST_BUF[256];$/;"	v
+TEST_CHR	../src/rfid/rfid_api.c	/^unsigned char TEST_CHR;$/;"	v
+TEST_CNT	../src/rfid/rfid_api.c	/^unsigned int  TEST_CNT;$/;"	v
+TFI_SIZE	../src/rfid/rfid_api.c	51;"	d	file:
+TOUCH_BUZZ_CNTRL	../src/miscall/iomisc.c	34;"	d	file:
+TRUE	../src/lcd/lcdcontrol.c	15;"	d	file:
+TRUE	../src/magswipe/magswipe.c	24;"	d	file:
+TRUE	../src/miscall/iomisc.c	39;"	d	file:
+TRUE	../src/sam/sam_api.c	28;"	d	file:
+TX_TFI	../src/rfid/rfid_api.c	48;"	d	file:
+T_MAX	../src/rfid/rfid_api.c	54;"	d	file:
+TargetData	../src/rfid/rfid_api.c	/^} TargetData;$/;"	t	typeref:struct:__anon4	file:
+Test _ modem _ response	../doxygen/latex/group__J.tex	/^\\subsubsection[{Test\\+\\_\\+modem\\+\\_\\+response}]{\\setlength{\\rightskip}{0pt plus 5cm}int Test\\+\\_\\+modem\\+\\_\\+response ($/;"	b
+Test _ modem _ responses	../doxygen/latex/group__J.tex	/^\\subsubsection[{Test\\+\\_\\+modem\\+\\_\\+responses}]{\\setlength{\\rightskip}{0pt plus 5cm}int Test\\+\\_\\+modem\\+\\_\\+responses ($/;"	b
+TestLRCs	../src/scr/scr.c	/^static short int TestLRCs(unsigned char LRC_1, unsigned char LRC_2)$/;"	f	file:
+Two	../src/rfid/rfid_api.c	/^unsigned char Two = 0x02;$/;"	v
+U S B H O S T Module Header	../doxygen/latex/group__I.tex	/^\\hypertarget{group__I}{\\section{U\\+S\\+B-\\\/\\+H\\+O\\+S\\+T Module Header.}$/;"	s
+UC	../src/miscall/iomisc.c	/^typedef unsigned char UC;$/;"	t	file:
+UCHAR	../include/wintypes.h	/^	typedef unsigned char UCHAR;$/;"	t
+UCHAR	../include/wintypes.h	/^    typedef uint8_t UCHAR;$/;"	t
+ULONG	../include/wintypes.h	/^	typedef unsigned long ULONG;$/;"	t
+ULONG	../include/wintypes.h	/^    typedef uint32_t ULONG;$/;"	t
+USHORT	../include/wintypes.h	/^	typedef unsigned short USHORT;$/;"	t
+USHORT	../include/wintypes.h	/^    typedef uint16_t USHORT;$/;"	t
+Version Module Header	../doxygen/latex/group__L.tex	/^\\hypertarget{group__L}{\\section{Version Module Header.}$/;"	s
+WERROR	../src/scr/scr.c	28;"	d	file:
+WORD	../include/wintypes.h	/^	typedef unsigned short WORD;$/;"	t
+WORD	../include/wintypes.h	/^    typedef uint16_t WORD;$/;"	t
+WRITEGPIO	../src/rfid/rfid_api.c	62;"	d	file:
+WRITEREGISTER	../src/rfid/rfid_api.c	60;"	d	file:
+_GNU_SOURCE	../src/gsm/gsm_gps.c	1;"	d	file:
+__pcsclite_h__	../include/pcsclite.h	22;"	d
+__winscard_h__	../include/winscard.h	18;"	d
+__wintypes_h__	../include/wintypes.h	18;"	d
+_ack	../src/rfid/rfid_api.c	/^unsigned char  _ack[]      = {0x00,0x00,0xff,0x00,0xff,0x00};$/;"	v
+_databuf	../src/rfid/rfid_api.c	/^unsigned char* _databuf;$/;"	v
+_error	../src/rfid/rfid_api.c	/^unsigned char  _error[]    = {0x00,0x00,0xff,0x01,0xff,0x7f,0x81};$/;"	v
+_preamble	../src/rfid/rfid_api.c	/^unsigned char  _preamble[] = {0x00,0x00,0xff};$/;"	v
+adapter_name	../src/printer/printer.c	/^static const char *adapter_name="\/sys\/devices\/platform\/imx6q-ecspi.1\/spi_master\/spi1\/spi1.1\/bat1";$/;"	v	file:
+adapter_name	../src/printer/printer_bkp1.c	/^static const char *adapter_name="\/sys\/devices\/platform\/imx6q-ecspi.1\/spi_master\/spi1\/spi1.1\/bat1";$/;"	v	file:
+auth_tg	../src/rfid/rfid_api.c	/^unsigned char  auth_tg;	\/\/To store authenticated tag.$/;"	v
+bar _ code _ close	../doxygen/latex/group__G.tex	/^\\subsubsection[{bar\\+\\_\\+code\\+\\_\\+close}]{\\setlength{\\rightskip}{0pt plus 5cm}int bar\\+\\_\\+code\\+\\_\\+close ($/;"	b
+bar _ code _ open	../doxygen/latex/group__G.tex	/^\\subsubsection[{bar\\+\\_\\+code\\+\\_\\+open}]{\\setlength{\\rightskip}{0pt plus 5cm}int bar\\+\\_\\+code\\+\\_\\+open ($/;"	b
+bar _ code _ read	../doxygen/latex/group__G.tex	/^\\subsubsection[{bar\\+\\_\\+code\\+\\_\\+read}]{\\setlength{\\rightskip}{0pt plus 5cm}int bar\\+\\_\\+code\\+\\_\\+read ($/;"	b
+bar_code_close	../src/barcode/barcode_api.c	/^int bar_code_close()$/;"	f
+bar_code_open	../src/barcode/barcode_api.c	/^int bar_code_open()$/;"	f
+bar_code_read	../src/barcode/barcode_api.c	/^int bar_code_read (unsigned char *rxbuf,int len)$/;"	f
+bat_name	../src/printer/printer.c	/^static const char *bat_name="\/sys\/devices\/platform\/imx6q-ecspi.1\/spi_master\/spi1\/spi1.1\/bat2";$/;"	v	file:
+bat_name	../src/printer/printer_bkp1.c	/^static const char *bat_name="\/sys\/devices\/platform\/imx6q-ecspi.1\/spi_master\/spi1\/spi1.1\/bat2";$/;"	v	file:
+batsense_val	../src/miscall/iomisc.c	/^	int batsense_val;$/;"	m	struct:get_batsense	file:
+baud	../src/scr/scr.c	/^	unsigned char baud;$/;"	m	struct:__anon3	file:
+bits	../src/lcd/lcdcontrol.c	/^static uint8_t bits = 24;$/;"	v	file:
+bits	../src/scr/scr.c	/^	unsigned bits;$/;"	m	struct:__anon3	file:
+bits_per_word	../include/spidev.h	/^	__u8		bits_per_word;$/;"	m	struct:spi_ioc_transfer
+blocktime	../src/scr/scr.c	/^	unsigned long blocktime;$/;"	m	struct:__anon3	file:
+bmp	../include/updated_hex_file_bkp.h	/^unsigned char bmp[]={0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,0x0,\/\/*48bytes*$/;"	v
+bootloader _ details	../doxygen/latex/group__L.tex	/^\\subsubsection[{bootloader\\+\\_\\+details}]{\\setlength{\\rightskip}{0pt plus 5cm}int bootloader\\+\\_\\+details ($/;"	b
+bootloader_details	../src/miscall/iomisc.c	/^int bootloader_details(char *Bver)$/;"	f
+brcodedev_test	../src/barcode/barcode_api.c	/^int brcodedev_test ()$/;"	f
+cbAtr	../include/pcsclite.h	/^	DWORD cbAtr;$/;"	m	struct:__anon1
+cbPciLength	../include/pcsclite.h	/^	unsigned long cbPciLength;	\/**< Protocol Control Inf Length *\/$/;"	m	struct:__anon2
+cleanup	../src/gps/gps_api.c	/^void cleanup()$/;"	f
+code	../src/barcode/barcode_api.c	/^int rd,value,code;$/;"	v
+cs_change	../include/spidev.h	/^	__u8		cs_change;$/;"	m	struct:spi_ioc_transfer
+delay	../src/lcd/lcdcontrol.c	/^static uint16_t delay;$/;"	v	file:
+delay_usecs	../include/spidev.h	/^	__u16		delay_usecs;$/;"	m	struct:spi_ioc_transfer
+device	../src/lcd/lcdcontrol.c	/^static const char *device = "\/dev\/spidev1.0";$/;"	v	file:
+dwActiveProtocol	../src/sam/sam_api.c	/^DWORD dwActiveProtocol, dwReaderLen, dwState, dwProt, dwAtrLen;$/;"	v
+dwAtrLen	../src/sam/sam_api.c	/^DWORD dwActiveProtocol, dwReaderLen, dwState, dwProt, dwAtrLen;$/;"	v
+dwCurrentState	../include/pcsclite.h	/^	DWORD dwCurrentState;$/;"	m	struct:__anon1
+dwEventState	../include/pcsclite.h	/^	DWORD dwEventState;$/;"	m	struct:__anon1
+dwProt	../src/sam/sam_api.c	/^DWORD dwActiveProtocol, dwReaderLen, dwState, dwProt, dwAtrLen;$/;"	v
+dwProtocol	../include/pcsclite.h	/^	unsigned long dwProtocol;	\/**< Protocol identifier *\/$/;"	m	struct:__anon2
+dwReaderLen	../src/sam/sam_api.c	/^DWORD dwActiveProtocol, dwReaderLen, dwState, dwProt, dwAtrLen;$/;"	v
+dwReaders	../src/sam/sam_api.c	/^DWORD dwReaders=0;$/;"	v
+dwState	../src/sam/sam_api.c	/^DWORD dwActiveProtocol, dwReaderLen, dwState, dwProt, dwAtrLen;$/;"	v
+ev	../src/barcode/barcode_api.c	/^struct input_event ev[64];$/;"	v	typeref:struct:input_event
+event_fd	../src/barcode/barcode_api.c	/^int event_fd ;$/;"	v
+eventid	../src/barcode/barcode_api.c	/^char eventid[2]="";$/;"	v
+fd	../src/miscall/iomisc.c	/^static int fd;$/;"	v	file:
+fd	../src/rfid/rfid_api.c	/^static   int   fd ;$/;"	v	file:
+fd_gpsData	../src/gps/gps_api.c	/^FILE *fd_gpsData;$/;"	v
+find_eventid	../src/barcode/barcode_api.c	/^int find_eventid()$/;"	f
+first_count	../src/printer/printer.c	/^static int prnstatus=PRN_OFF, prn_len=0, first_count =0;$/;"	v	file:
+first_count	../src/printer/printer_bkp1.c	/^static int prnstatus=PRN_OFF, prn_len=0, first_count =0;$/;"	v	file:
+getExactValues	../src/gps/gps_api.c	/^int getExactValues(char *Time,char *Latitude,char *Longitude)$/;"	f
+get_batsense	../src/miscall/iomisc.c	/^struct get_batsense{$/;"	s	file:
+get_batterysense	../src/miscall/iomisc.c	/^struct get_batsense get_batterysense;$/;"	v	typeref:struct:get_batsense
+get_node_readvalue	../src/miscall/iomisc.c	/^int get_node_readvalue(const char *node_name)$/;"	f
+get_node_readvalue	../src/printer/printer.c	/^static int get_node_readvalue(const char *node_name)$/;"	f	file:
+get_node_readvalue	../src/printer/printer_bkp1.c	/^static int get_node_readvalue(const char *node_name)$/;"	f	file:
+get_strb	../src/printer/printer.c	/^struct get_strb{$/;"	s	file:
+get_strb	../src/printer/printer_bkp1.c	/^struct get_strb{$/;"	s	file:
+get_strobewidth	../src/printer/printer.c	/^struct get_strb get_strobewidth;$/;"	v	typeref:struct:get_strb
+get_strobewidth	../src/printer/printer_bkp1.c	/^struct get_strb get_strobewidth;$/;"	v	typeref:struct:get_strb
+getrtc_old	../src/rtc/rtc.c	/^int getrtc_old(struct tm *tt)$/;"	f
+ggfd_lists	../src/gsm/gsm_gps.c	/^static int gsmgps_fd=0, ggfd_lists=0;\/\/gsmgps_fd:Its for Signal Handler fd and ggfd_lists:Its for Imx6_gsmgps_dexit function$/;"	v	file:
+gl11 _ Get Battery Info	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+\\+Get\\+Battery\\+Info}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+\\+Get\\+Battery\\+Info ($/;"	b
+gl11 _ audio _ power _ off	../doxygen/latex/group__H.tex	/^\\subsubsection[{gl11\\+\\_\\+audio\\+\\_\\+power\\+\\_\\+off}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+audio\\+\\_\\+power\\+\\_\\+off ($/;"	b
+gl11 _ audio _ power _ on	../doxygen/latex/group__H.tex	/^\\subsubsection[{gl11\\+\\_\\+audio\\+\\_\\+power\\+\\_\\+on}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+audio\\+\\_\\+power\\+\\_\\+on ($/;"	b
+gl11 _ audio _ vol _ control	../doxygen/latex/group__H.tex	/^\\subsubsection[{gl11\\+\\_\\+audio\\+\\_\\+vol\\+\\_\\+control}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+audio\\+\\_\\+vol\\+\\_\\+control ($/;"	b
+gl11 _ bluetooth _ control	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+bluetooth\\+\\_\\+control}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+bluetooth\\+\\_\\+control ($/;"	b
+gl11 _ buzz _ off	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+buzz\\+\\_\\+off}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+buzz\\+\\_\\+off ($/;"	b
+gl11 _ buzz _ on	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+buzz\\+\\_\\+on}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+buzz\\+\\_\\+on ($/;"	b
+gl11 _ cam _ control	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+cam\\+\\_\\+control}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+cam\\+\\_\\+control ($/;"	b
+gl11 _ gethwid	../doxygen/latex/group__L.tex	/^\\subsubsection[{gl11\\+\\_\\+gethwid}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+gethwid ($/;"	b
+gl11 _ getmacid	../doxygen/latex/group__L.tex	/^\\subsubsection[{gl11\\+\\_\\+getmacid}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+getmacid ($/;"	b
+gl11 _ getpinpadid	../doxygen/latex/group__L.tex	/^\\subsubsection[{gl11\\+\\_\\+getpinpadid}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+getpinpadid ($/;"	b
+gl11 _ getrtc	../doxygen/latex/group__B.tex	/^\\subsubsection[{gl11\\+\\_\\+getrtc}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+getrtc ($/;"	b
+gl11 _ getuid	../doxygen/latex/group__L.tex	/^\\subsubsection[{gl11\\+\\_\\+getuid}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+getuid ($/;"	b
+gl11 _ gps _ pwroff	../doxygen/latex/group__K.tex	/^\\subsubsection[{gl11\\+\\_\\+gps\\+\\_\\+pwroff}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+gps\\+\\_\\+pwroff ($/;"	b
+gl11 _ gps _ pwron	../doxygen/latex/group__K.tex	/^\\subsubsection[{gl11\\+\\_\\+gps\\+\\_\\+pwron}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+gps\\+\\_\\+pwron ($/;"	b
+gl11 _ gsm _ pwroff	../doxygen/latex/group__J.tex	/^\\subsubsection[{gl11\\+\\_\\+gsm\\+\\_\\+pwroff}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+gsm\\+\\_\\+pwroff ($/;"	b
+gl11 _ gsm _ pwron	../doxygen/latex/group__J.tex	/^\\subsubsection[{gl11\\+\\_\\+gsm\\+\\_\\+pwron}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+gsm\\+\\_\\+pwron ($/;"	b
+gl11 _ gsm _ select	../doxygen/latex/group__J.tex	/^\\subsubsection[{gl11\\+\\_\\+gsm\\+\\_\\+select}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+gsm\\+\\_\\+select ($/;"	b
+gl11 _ gsm _ usb _ pwr _ cntrl	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+gsm\\+\\_\\+usb\\+\\_\\+pwr\\+\\_\\+cntrl}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+gsm\\+\\_\\+usb\\+\\_\\+pwr\\+\\_\\+cntrl ($/;"	b
+gl11 _ gsmpwrctrl	../doxygen/latex/group__J.tex	/^\\subsubsection[{gl11\\+\\_\\+gsmpwrctrl}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+gsmpwrctrl ($/;"	b
+gl11 _ host _ pwroff	../doxygen/latex/group__I.tex	/^\\subsubsection[{gl11\\+\\_\\+host\\+\\_\\+pwroff}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+host\\+\\_\\+pwroff ($/;"	b
+gl11 _ host _ pwron	../doxygen/latex/group__I.tex	/^\\subsubsection[{gl11\\+\\_\\+host\\+\\_\\+pwron}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+host\\+\\_\\+pwron ($/;"	b
+gl11 _ ifd _ control	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+ifd\\+\\_\\+control}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+ifd\\+\\_\\+control ($/;"	b
+gl11 _ internal _ camflash	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+internal\\+\\_\\+camflash}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+internal\\+\\_\\+camflash ($/;"	b
+gl11 _ iodev _ close	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+iodev\\+\\_\\+close}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+iodev\\+\\_\\+close ($/;"	b
+gl11 _ iodev _ open	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+iodev\\+\\_\\+open}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+iodev\\+\\_\\+open ($/;"	b
+gl11 _ keypad _ buzz _ off	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+keypad\\+\\_\\+buzz\\+\\_\\+off}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+keypad\\+\\_\\+buzz\\+\\_\\+off ($/;"	b
+gl11 _ keypad _ buzz _ on	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+keypad\\+\\_\\+buzz\\+\\_\\+on}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+keypad\\+\\_\\+buzz\\+\\_\\+on ($/;"	b
+gl11 _ lcd _ brightness	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+lcd\\+\\_\\+brightness}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+lcd\\+\\_\\+brightness ($/;"	b
+gl11 _ lcd _ contrast	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+lcd\\+\\_\\+contrast}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+lcd\\+\\_\\+contrast ($/;"	b
+gl11 _ lcd _ default	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+lcd\\+\\_\\+default}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+lcd\\+\\_\\+default ($/;"	b
+gl11 _ lcdbklt _ off	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+lcdbklt\\+\\_\\+off}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+lcdbklt\\+\\_\\+off ($/;"	b
+gl11 _ lcdbklt _ on	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+lcdbklt\\+\\_\\+on}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+lcdbklt\\+\\_\\+on ($/;"	b
+gl11 _ lcdbklt _ time _ duration	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+lcdbklt\\+\\_\\+time\\+\\_\\+duration}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+lcdbklt\\+\\_\\+time\\+\\_\\+duration ($/;"	b
+gl11 _ modem _ reset	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+modem\\+\\_\\+reset}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+modem\\+\\_\\+reset ($/;"	b
+gl11 _ optcap _ pwroff	../doxygen/latex/group__I.tex	/^\\subsubsection[{gl11\\+\\_\\+optcap\\+\\_\\+pwroff}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+optcap\\+\\_\\+pwroff ($/;"	b
+gl11 _ sam _ pwr _ ctrl	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+sam\\+\\_\\+pwr\\+\\_\\+ctrl}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+sam\\+\\_\\+pwr\\+\\_\\+ctrl ($/;"	b
+gl11 _ setrtc	../doxygen/latex/group__B.tex	/^\\subsubsection[{gl11\\+\\_\\+setrtc}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+setrtc ($/;"	b
+gl11 _ touch _ buzz _ off	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+touch\\+\\_\\+buzz\\+\\_\\+off}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+touch\\+\\_\\+buzz\\+\\_\\+off ($/;"	b
+gl11 _ touch _ buzz _ on	../doxygen/latex/group__A.tex	/^\\subsubsection[{gl11\\+\\_\\+touch\\+\\_\\+buzz\\+\\_\\+on}]{\\setlength{\\rightskip}{0pt plus 5cm}int gl11\\+\\_\\+touch\\+\\_\\+buzz\\+\\_\\+on ($/;"	b
+gl11 h File Reference	../doxygen/latex/gl11_8h.tex	/^\\hypertarget{gl11_8h}{\\section{gl11.\\+h File Reference}$/;"	s
+gl11_GetBatteryInfo	../src/miscall/iomisc.c	/^int gl11_GetBatteryInfo(int *AdapPresent,int *BattSt,int *BattVt)$/;"	f
+gl11_audio_power_off	../src/miscall/iomisc.c	/^int gl11_audio_power_off(void)$/;"	f
+gl11_audio_power_on	../src/miscall/iomisc.c	/^int gl11_audio_power_on(void)$/;"	f
+gl11_audio_vol_control	../src/miscall/iomisc.c	/^int gl11_audio_vol_control(int val)$/;"	f
+gl11_bklight_intensity	../src/miscall/iomisc.c	/^int gl11_bklight_intensity(int val)$/;"	f
+gl11_bluetooth_control	../src/miscall/iomisc.c	/^int gl11_bluetooth_control(int val)$/;"	f
+gl11_buzz_off	../src/miscall/iomisc.c	/^int gl11_buzz_off(void)$/;"	f
+gl11_buzz_on	../src/miscall/iomisc.c	/^int gl11_buzz_on(void)$/;"	f
+gl11_cam_control	../src/miscall/iomisc.c	/^int gl11_cam_control(int val)$/;"	f
+gl11_eth_control	../src/miscall/iomisc.c	/^int gl11_eth_control (int state)$/;"	f
+gl11_gethwid	../Test/hwid.c	/^int gl11_gethwid(char *hwid)$/;"	f
+gl11_gethwid	../src/miscall/iomisc.c	/^int gl11_gethwid(char *hwid)$/;"	f
+gl11_getmacid	../src/miscall/iomisc.c	/^int gl11_getmacid(char *macid)$/;"	f
+gl11_getpinpadid	../src/miscall/iomisc.c	/^int gl11_getpinpadid(char *machineid)$/;"	f
+gl11_getrtc	../src/rtc/rtc.c	/^int gl11_getrtc(struct tm *curt)$/;"	f
+gl11_getuid	../src/miscall/iomisc.c	/^int gl11_getuid (char *Uid)$/;"	f
+gl11_gps_pwroff	../src/miscall/iomisc.c	/^int gl11_gps_pwroff(void)$/;"	f
+gl11_gps_pwron	../src/miscall/iomisc.c	/^int gl11_gps_pwron(void)$/;"	f
+gl11_gpsctrl	../src/miscall/iomisc.c	/^int gl11_gpsctrl(int val)$/;"	f
+gl11_gsm_pwroff	../src/gsm/gsm_api.c	/^int gl11_gsm_pwroff(void)$/;"	f
+gl11_gsm_pwroff	../src/gsm/gsm_api_new.c	/^int gl11_gsm_pwroff(void)$/;"	f
+gl11_gsm_pwron	../src/gsm/gsm_api.c	/^static int gl11_gsm_pwron(int baudrate)$/;"	f	file:
+gl11_gsm_pwron	../src/gsm/gsm_api_new.c	/^static int gl11_gsm_pwron(int baudrate)$/;"	f	file:
+gl11_gsm_select	../src/gsm/gsm_api.c	/^int gl11_gsm_select(int sel, int baudrate)$/;"	f
+gl11_gsm_select	../src/gsm/gsm_api_new.c	/^int gl11_gsm_select(int sel, int baudrate)$/;"	f
+gl11_gsm_usb_pwr_cntrl	../src/miscall/iomisc.c	/^int gl11_gsm_usb_pwr_cntrl(int val)$/;"	f
+gl11_gsmatcmd_response	../src/gsm/gsm_api.c	/^int gl11_gsmatcmd_response(char *Cmd, char *Resp, char *Ansr[], int Tout)$/;"	f
+gl11_gsmatcmd_response	../src/gsm/gsm_api_new.c	/^int gl11_gsmatcmd_response(char *Cmd, char *Resp, char *Ansr[], int Tout)$/;"	f
+gl11_gsmpwrctrl	../src/miscall/iomisc.c	/^int gl11_gsmpwrctrl(int val)$/;"	f
+gl11_host_pwroff	../src/miscall/iomisc.c	/^int gl11_host_pwroff(void)$/;"	f
+gl11_host_pwron	../src/miscall/iomisc.c	/^int gl11_host_pwron(void)$/;"	f
+gl11_ifd_control	../src/miscall/iomisc.c	/^int gl11_ifd_control(int val)$/;"	f
+gl11_internal_camflash	../src/miscall/iomisc.c	/^int gl11_internal_camflash(int val)$/;"	f
+gl11_iodev_close	../src/miscall/iomisc.c	/^int gl11_iodev_close(void)$/;"	f
+gl11_iodev_open	../src/miscall/iomisc.c	/^int gl11_iodev_open(void)$/;"	f
+gl11_keypad_buzz_off	../src/miscall/iomisc.c	/^int gl11_keypad_buzz_off(void)$/;"	f
+gl11_keypad_buzz_on	../src/miscall/iomisc.c	/^int gl11_keypad_buzz_on(void)$/;"	f
+gl11_lcd_brightness	../src/lcd/lcdcontrol.c	/^int gl11_lcd_brightness(int chngval)$/;"	f
+gl11_lcd_brightness_old	../src/lcd/lcdcontrol.c	/^int gl11_lcd_brightness_old(int chngval)$/;"	f
+gl11_lcd_contrast	../src/lcd/lcdcontrol.c	/^int gl11_lcd_contrast(int chngval)$/;"	f
+gl11_lcd_contrast_old	../src/lcd/lcdcontrol.c	/^int gl11_lcd_contrast_old(int chngval)$/;"	f
+gl11_lcd_default	../src/lcd/lcdcontrol.c	/^int gl11_lcd_default(void)$/;"	f
+gl11_lcdbklt_off	../src/miscall/iomisc.c	/^int gl11_lcdbklt_off(void)$/;"	f
+gl11_lcdbklt_on	../src/miscall/iomisc.c	/^int gl11_lcdbklt_on(void)$/;"	f
+gl11_lcdbklt_time_duration	../src/miscall/iomisc.c	/^int gl11_lcdbklt_time_duration(int val)$/;"	f
+gl11_magswipe_pwroff	../src/miscall/iomisc.c	/^int gl11_magswipe_pwroff(void)$/;"	f
+gl11_magswipe_pwron	../src/miscall/iomisc.c	/^int gl11_magswipe_pwron(void)$/;"	f
+gl11_modem_reset	../src/miscall/iomisc.c	/^int gl11_modem_reset(void)$/;"	f
+gl11_optcap_pwroff	../src/miscall/iomisc.c	/^int gl11_optcap_pwroff(void)$/;"	f
+gl11_optcap_pwron	../src/miscall/iomisc.c	/^int gl11_optcap_pwron(void)$/;"	f
+gl11_sam_pwr_ctrl	../src/miscall/iomisc.c	/^int gl11_sam_pwr_ctrl(int val)$/;"	f
+gl11_setrtc	../src/rtc/rtc.c	/^int gl11_setrtc(struct tm *rtc_tm)$/;"	f
+gl11_simselect	../src/miscall/iomisc.c	/^int gl11_simselect(int val)$/;"	f
+gl11_touch_buzz_off	../src/miscall/iomisc.c	/^int  gl11_touch_buzz_off(void)$/;"	f
+gl11_touch_buzz_on	../src/miscall/iomisc.c	/^int  gl11_touch_buzz_on(void)$/;"	f
+gl11_wifi_control	../src/miscall/iomisc.c	/^int gl11_wifi_control(int val)$/;"	f
+gmodem_usage	../src/gsm/gsm_api_new.c	/^static short gmodem_usage =0;\/\/gmodem_usage:Its for GSM Modem Using with Application, So 0-for Free and 1-for Busy.$/;"	v	file:
+gps_close	../src/gsm/gsm_gps.c	/^int gps_close(int gcfd)$/;"	f
+gps_fd	../src/gps/gps_api.c	/^int ret=0,gps_fd;$/;"	v
+gps_open	../src/gsm/gsm_gps.c	/^int gps_open(void)$/;"	f
+gps_pwroff	../src/gsm/gsm_gps.c	/^int gps_pwroff(void)$/;"	f
+gps_pwron	../src/gsm/gsm_gps.c	/^int gps_pwron(void)$/;"	f
+gps_test	../src/gps/gps_api.c	/^void gps_test()$/;"	f
+gsm_atcmd_response	../src/gsm/gsm_api.c	/^int gsm_atcmd_response(char *Cmd, char *Resp, char *Ansr[], int Tout)$/;"	f
+gsm_brate	../src/gsm/gsm_api.c	/^static int gsm_mfd=-1, gsm_brate=115200;\/\/gsm_mfd:Its for GSM Modem Open File Discriptor and gsm_brate:Its to Store The GSM Modem IO Bauderate. $/;"	v	file:
+gsm_brate	../src/gsm/gsm_api_new.c	/^static int gsm_mfd=-1, gsm_brate=115200;\/\/gsm_mfd:Its for GSM Modem Open File Discriptor and gsm_brate:Its to Store The GSM Modem IO Bauderate. $/;"	v	file:
+gsm_fds	../src/gsm/gsm_gps.c	/^static int gsm_fds[25] = {-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1};$/;"	v	file:
+gsm_mfd	../src/gsm/gsm_api.c	/^static int gsm_mfd=-1, gsm_brate=115200;\/\/gsm_mfd:Its for GSM Modem Open File Discriptor and gsm_brate:Its to Store The GSM Modem IO Bauderate. $/;"	v	file:
+gsm_mfd	../src/gsm/gsm_api_new.c	/^static int gsm_mfd=-1, gsm_brate=115200;\/\/gsm_mfd:Its for GSM Modem Open File Discriptor and gsm_brate:Its to Store The GSM Modem IO Bauderate. $/;"	v	file:
+gsm_modem_close	../src/gsm/gsm_gps.c	/^int gsm_modem_close(int gcfd)$/;"	f
+gsm_modem_open	../src/gsm/gsm_gps.c	/^int gsm_modem_open(void)$/;"	f
+gsm_modem_pwroff	../src/gsm/gsm_gps.c	/^int gsm_modem_pwroff(void)$/;"	f
+gsm_modem_pwron	../src/gsm/gsm_gps.c	/^int gsm_modem_pwron(void)$/;"	f
+gsm_modemclose	../src/gsm/gsm_api.c	/^static int gsm_modemclose(void)$/;"	f	file:
+gsm_modemclose	../src/gsm/gsm_api_new.c	/^static int gsm_modemclose(void)$/;"	f	file:
+gsm_modemopen	../src/gsm/gsm_api.c	/^static int gsm_modemopen(char *Pname, int Brate)$/;"	f	file:
+gsm_modemopen	../src/gsm/gsm_api_new.c	/^static int gsm_modemopen(char *Pname, int Brate)$/;"	f	file:
+gsm_setbaudrate	../src/gsm/gsm_api.c	/^static void gsm_setbaudrate(int BR)$/;"	f	file:
+gsm_setbaudrate	../src/gsm/gsm_api_new.c	/^static void gsm_setbaudrate(int BR)$/;"	f	file:
+gsmgps_fd	../src/gsm/gsm_gps.c	/^static int gsmgps_fd=0, ggfd_lists=0;\/\/gsmgps_fd:Its for Signal Handler fd and ggfd_lists:Its for Imx6_gsmgps_dexit function$/;"	v	file:
+hCard	../src/sam/sam_api.c	/^SCARDHANDLE hCard=0;$/;"	v
+hContext	../src/sam/sam_api.c	/^SCARDCONTEXT hContext;$/;"	v
+handle	../src/scr/scr.c	/^	unsigned long handle;$/;"	m	struct:__anon3	file:
+ifd_atr_response	../src/scr/scr.c	/^static unsigned char ifd_atr_response[50]="";$/;"	v	file:
+ifd_atr_rlen	../src/scr/scr.c	/^static unsigned int ifd_atr_rlen=0;$/;"	v	file:
+ioport	../src/scr/scr.c	/^IOPORT ioport;$/;"	v
+kernel _ details	../doxygen/latex/group__L.tex	/^\\subsubsection[{kernel\\+\\_\\+details}]{\\setlength{\\rightskip}{0pt plus 5cm}int kernel\\+\\_\\+details ($/;"	b
+kernel_details	../src/miscall/iomisc.c	/^int kernel_details(char *kernelver)$/;"	f
+keycode	../src/barcode/barcode_api.c	/^char *keycode[256] = {$/;"	v
+latex_count	../doxygen/latex/Makefile	/^	latex_count=8 ; \\$/;"	m
+lcd_cfd	../src/lcd/lcdcontrol.c	/^static int lcd_cfd =-1;$/;"	v	file:
+len	../include/spidev.h	/^	__u32		len;$/;"	m	struct:spi_ioc_transfer
+lib_checkdriver	../src/rtc/rtc.c	/^int lib_checkdriver(char *drv)\/\/Check Driver Insert or Not$/;"	f
+magswipe_test	../src/magswipe/magswipe.c	/^int magswipe_test()$/;"	f
+main	../Test/appp.c	/^int main (void)$/;"	f
+main	../Test/gsm.c	/^main()$/;"	f
+main	../Test/hwid.c	/^int main()$/;"	f
+main	../Test/test.c	/^int main(int argc, char *argv[])$/;"	f
+max_temp	../src/printer/printer.c	/^static unsigned char max_temp =0;$/;"	v	file:
+max_temp	../src/printer/printer_bkp1.c	/^static unsigned char max_temp =0;$/;"	v	file:
+modemclose	../doxygen/latex/group__J.tex	/^\\subsubsection[{modemclose}]{\\setlength{\\rightskip}{0pt plus 5cm}int modemclose ($/;"	b
+modemopen	../doxygen/latex/group__J.tex	/^\\subsubsection[{modemopen}]{\\setlength{\\rightskip}{0pt plus 5cm}int modemopen ($/;"	b
+mscr _ close	../doxygen/latex/group__D.tex	/^\\subsubsection[{mscr\\+\\_\\+close}]{\\setlength{\\rightskip}{0pt plus 5cm}int mscr\\+\\_\\+close ($/;"	b
+mscr _ flush	../doxygen/latex/group__D.tex	/^\\subsubsection[{mscr\\+\\_\\+flush}]{\\setlength{\\rightskip}{0pt plus 5cm}int mscr\\+\\_\\+flush ($/;"	b
+mscr _ getstate	../doxygen/latex/group__D.tex	/^\\subsubsection[{mscr\\+\\_\\+getstate}]{\\setlength{\\rightskip}{0pt plus 5cm}int mscr\\+\\_\\+getstate ($/;"	b
+mscr _ open	../doxygen/latex/group__D.tex	/^\\subsubsection[{mscr\\+\\_\\+open}]{\\setlength{\\rightskip}{0pt plus 5cm}int mscr\\+\\_\\+open ($/;"	b
+mscr _ read	../doxygen/latex/group__D.tex	/^\\subsubsection[{mscr\\+\\_\\+read}]{\\setlength{\\rightskip}{0pt plus 5cm}int mscr\\+\\_\\+read ($/;"	b
+mscr_close	../src/magswipe/magswipe.c	/^int mscr_close(void)$/;"	f
+mscr_fd	../src/magswipe/magswipe.c	/^static int mscr_fd, mstatus = MSCR_OFF; $/;"	v	file:
+mscr_flush	../src/magswipe/magswipe.c	/^int mscr_flush(void)$/;"	f
+mscr_getstate	../src/magswipe/magswipe.c	/^int mscr_getstate(void) $/;"	f
+mscr_init	../src/magswipe/magswipe.c	/^int mscr_init(void)$/;"	f
+mscr_open	../src/magswipe/magswipe.c	/^int mscr_open(void)$/;"	f
+mscr_read	../src/magswipe/magswipe.c	/^int mscr_read(char *track_1_data, char *track_2_data, char *track_3_data)$/;"	f
+mstatus	../src/magswipe/magswipe.c	/^static int mscr_fd, mstatus = MSCR_OFF; $/;"	v	file:
+mszReaders	../src/sam/sam_api.c	/^LPSTR mszReaders = NULL;$/;"	v
+my_termios	../src/gps/gps_api.c	/^struct termios my_termios,old_termios;$/;"	v	typeref:struct:termios
+nbReaders	../src/sam/sam_api.c	/^static int nbReaders=0;$/;"	v	file:
+nfcid	../src/rfid/rfid_api.c	/^  unsigned char nfcid[4];$/;"	m	struct:__anon4	file:
+nfcid_len	../src/rfid/rfid_api.c	/^  unsigned char nfcid_len;$/;"	m	struct:__anon4	file:
+old_termios	../src/gps/gps_api.c	/^struct termios my_termios,old_termios;$/;"	v	typeref:struct:
+old_termios	../src/rfid/rfid_api.c	/^struct 	   termios old_termios; \/\/structure to hold previous terminal values(baudrate, no. of transmission\/reception bits)$/;"	v	typeref:struct:termios
+pad	../include/spidev.h	/^	__u32		pad;$/;"	m	struct:spi_ioc_transfer
+parity	../src/scr/scr.c	/^	char parity;$/;"	m	struct:__anon3	file:
+pbAtr	../src/sam/sam_api.c	/^BYTE pbAtr[MAX_ATR_SIZE] = "";$/;"	v
+pbReader	../src/sam/sam_api.c	/^static char pbReader[MAX_READERNAME] = "";$/;"	v	file:
+pdbl	../src/printer/printer.c	/^static char prn_s[48], pdbl[48], prn_sl[1024*150];$/;"	v	file:
+pdbl	../src/printer/printer_bkp1.c	/^static char prn_s[48], pdbl[48], prn_sl[1024*150];$/;"	v	file:
+pioRecvPci	../src/sam/sam_api.c	/^static SCARD_IO_REQUEST pioRecvPci;$/;"	v	file:
+pioSendPci	../src/sam/sam_api.c	/^const SCARD_IO_REQUEST *pioSendPci=NULL;$/;"	v
+powerdown	../doxygen/latex/group__E.tex	/^\\subsubsection[{powerdown}]{\\setlength{\\rightskip}{0pt plus 5cm}int powerdown ($/;"	b
+powerdown	../src/scr/scr.c	/^int powerdown(void)$/;"	f
+powerup _ 3v	../doxygen/latex/group__E.tex	/^\\subsubsection[{powerup\\+\\_\\+3v}]{\\setlength{\\rightskip}{0pt plus 5cm}int powerup\\+\\_\\+3v ($/;"	b
+powerup _ 5v	../doxygen/latex/group__E.tex	/^\\subsubsection[{powerup\\+\\_\\+5v}]{\\setlength{\\rightskip}{0pt plus 5cm}int powerup\\+\\_\\+5v ($/;"	b
+powerup1 _ 8v	../doxygen/latex/group__E.tex	/^\\subsubsection[{powerup1\\+\\_\\+8v}]{\\setlength{\\rightskip}{0pt plus 5cm}int powerup1\\+\\_\\+8v ($/;"	b
+powerup1_8v	../src/scr/scr.c	/^int powerup1_8v(void)$/;"	f
+powerup_3v	../src/scr/scr.c	/^int powerup_3v(void)$/;"	f
+powerup_5v	../src/scr/scr.c	/^int powerup_5v(void)$/;"	f
+print_test	../src/printer/printer.c	/^int print_test()$/;"	f
+print_test	../src/printer/printer_bkp1.c	/^int print_test()$/;"	f
+prn _ close	../doxygen/latex/group__C.tex	/^\\subsubsection[{prn\\+\\_\\+close}]{\\setlength{\\rightskip}{0pt plus 5cm}int prn\\+\\_\\+close ($/;"	b
+prn _ lid _ status	../doxygen/latex/group__C.tex	/^\\subsubsection[{prn\\+\\_\\+lid\\+\\_\\+status}]{\\setlength{\\rightskip}{0pt plus 5cm}int prn\\+\\_\\+lid\\+\\_\\+status ($/;"	b
+prn _ open	../doxygen/latex/group__C.tex	/^\\subsubsection[{prn\\+\\_\\+open}]{\\setlength{\\rightskip}{0pt plus 5cm}int prn\\+\\_\\+open ($/;"	b
+prn _ paper _ feed	../doxygen/latex/group__C.tex	/^\\subsubsection[{prn\\+\\_\\+paper\\+\\_\\+feed}]{\\setlength{\\rightskip}{0pt plus 5cm}int prn\\+\\_\\+paper\\+\\_\\+feed ($/;"	b
+prn _ paperstatus	../doxygen/latex/group__C.tex	/^\\subsubsection[{prn\\+\\_\\+paperstatus}]{\\setlength{\\rightskip}{0pt plus 5cm}int prn\\+\\_\\+paperstatus ($/;"	b
+prn _ write _ bmp	../doxygen/latex/group__C.tex	/^\\subsubsection[{prn\\+\\_\\+write\\+\\_\\+bmp}]{\\setlength{\\rightskip}{0pt plus 5cm}int prn\\+\\_\\+write\\+\\_\\+bmp ($/;"	b
+prn _ write _ text	../doxygen/latex/group__C.tex	/^\\subsubsection[{prn\\+\\_\\+write\\+\\_\\+text}]{\\setlength{\\rightskip}{0pt plus 5cm}int prn\\+\\_\\+write\\+\\_\\+text ($/;"	b
+prn_close	../src/printer/printer.c	/^int prn_close(void)$/;"	f
+prn_close	../src/printer/printer_bkp1.c	/^int prn_close(void)$/;"	f
+prn_doublewidth	../src/printer/printer.c	/^static void prn_doublewidth(void)$/;"	f	file:
+prn_doublewidth	../src/printer/printer_bkp1.c	/^static void prn_doublewidth(void)$/;"	f	file:
+prn_fd	../src/printer/printer.c	/^static int prn_fd;$/;"	v	file:
+prn_fd	../src/printer/printer_bkp1.c	/^static int prn_fd;$/;"	v	file:
+prn_fill_printbuf	../src/printer/printer.c	/^static void prn_fill_printbuf(int n)$/;"	f	file:
+prn_fill_printbuf	../src/printer/printer_bkp1.c	/^static void prn_fill_printbuf(int n)$/;"	f	file:
+prn_get_stb_width	../src/printer/printer.c	/^static int prn_get_stb_width(void) \/\/Returns required strobe width in uSec based on VH voltage$/;"	f	file:
+prn_get_stb_width	../src/printer/printer_bkp1.c	/^static int prn_get_stb_width(void) \/\/Returns required strobe width in uSec based on VH voltage$/;"	f	file:
+prn_len	../src/printer/printer.c	/^static int prnstatus=PRN_OFF, prn_len=0, first_count =0;$/;"	v	file:
+prn_len	../src/printer/printer_bkp1.c	/^static int prnstatus=PRN_OFF, prn_len=0, first_count =0;$/;"	v	file:
+prn_lid_status	../src/printer/printer.c	/^int prn_lid_status(void)$/;"	f
+prn_lid_status	../src/printer/printer_bkp1.c	/^int prn_lid_status(void)$/;"	f
+prn_open	../src/printer/printer.c	/^int prn_open(void)$/;"	f
+prn_open	../src/printer/printer_bkp1.c	/^int prn_open(void)$/;"	f
+prn_paper_feed	../src/printer/printer.c	/^int prn_paper_feed(int slines)$/;"	f
+prn_paper_feed	../src/printer/printer_bkp1.c	/^int prn_paper_feed(int slines)$/;"	f
+prn_paperstatus	../src/printer/printer.c	/^int prn_paperstatus(void)$/;"	f
+prn_paperstatus	../src/printer/printer_bkp1.c	/^int prn_paperstatus(void)$/;"	f
+prn_prepare_bmp	../src/printer/printer.c	/^int prn_prepare_bmp(unsigned char* Bmpbuf, unsigned char* Data, int Len)$/;"	f
+prn_prepare_bmp	../src/printer/printer_bkp1.c	/^int prn_prepare_bmp(unsigned char* Bmpbuf, unsigned char* Data, int Len)$/;"	f
+prn_reterror	../src/printer/printer.c	/^static int prn_reterror(int Error_no)$/;"	f	file:
+prn_reterror	../src/printer/printer_bkp1.c	/^static int prn_reterror(int Error_no)$/;"	f	file:
+prn_s	../src/printer/printer.c	/^static char prn_s[48], pdbl[48], prn_sl[1024*150];$/;"	v	file:
+prn_s	../src/printer/printer_bkp1.c	/^static char prn_s[48], pdbl[48], prn_sl[1024*150];$/;"	v	file:
+prn_sl	../src/printer/printer.c	/^static char prn_s[48], pdbl[48], prn_sl[1024*150];$/;"	v	file:
+prn_sl	../src/printer/printer_bkp1.c	/^static char prn_s[48], pdbl[48], prn_sl[1024*150];$/;"	v	file:
+prn_status	../src/printer/printer.c	/^int prn_status(void)$/;"	f
+prn_status	../src/printer/printer_bkp1.c	/^int prn_status(void)$/;"	f
+prn_vstrobewidth	../src/printer/printer.c	/^static int prn_vstrobewidth(int val)$/;"	f	file:
+prn_vstrobewidth	../src/printer/printer_bkp1.c	/^static int prn_vstrobewidth(int val)$/;"	f	file:
+prn_write_bmp	../src/printer/printer.c	/^int prn_write_bmp(unsigned char *bitmap, long len)\/\/bitmap$/;"	f
+prn_write_bmp	../src/printer/printer_bkp1.c	/^int prn_write_bmp(unsigned char *bitmap, long len)\/\/bitmap$/;"	f
+prn_write_text	../src/printer/printer.c	/^int prn_write_text(unsigned char *text, int len, int font) \/\/Pass Address and prn_len of string to be Printed$/;"	f
+prn_write_text	../src/printer/printer_bkp1.c	/^int prn_write_text(unsigned char *text, int len, int font) \/\/Pass Address and prn_len of string to be Printed$/;"	f
+prnstatus	../src/printer/printer.c	/^static int prnstatus=PRN_OFF, prn_len=0, first_count =0;$/;"	v	file:
+prnstatus	../src/printer/printer_bkp1.c	/^static int prnstatus=PRN_OFF, prn_len=0, first_count =0;$/;"	v	file:
+ptr	../src/sam/sam_api.c	/^static char *ptr, **readers = NULL;$/;"	v	file:
+pvUserData	../include/pcsclite.h	/^	void *pvUserData;$/;"	m	struct:__anon1
+rd	../src/barcode/barcode_api.c	/^int rd,value,code;$/;"	v
+read _ from _ modem _ without _ signal _ gps	../doxygen/latex/group__K.tex	/^\\subsubsection[{read\\+\\_\\+from\\+\\_\\+modem\\+\\_\\+without\\+\\_\\+signal\\+\\_\\+gps}]{\\setlength{\\rightskip}{0pt plus 5cm}int read\\+\\_\\+from\\+\\_\\+modem\\+\\_\\+without\\+\\_\\+signal\\+\\_\\+gps ($/;"	b
+read_buf	../src/rfid/rfid_api.c	/^unsigned char  read_buf[1024];$/;"	v
+read_from_modem_without_signal_gps	../src/gps/gps_api.c	/^int read_from_modem_without_signal_gps(char *buffer,int no_of_bytes,int timeout)$/;"	f
+reader_nb	../src/sam/sam_api.c	/^static int reader_nb=0;$/;"	v	file:
+readers	../src/sam/sam_api.c	/^static char *ptr, **readers = NULL;$/;"	v	file:
+response	../src/gps/gps_api.c	/^char response[1024]="";$/;"	v
+ret	../src/gps/gps_api.c	/^int ret=0,gps_fd;$/;"	v
+return_event	../src/barcode/barcode_api.c	/^int return_event(FILE*fp)$/;"	f
+rgbAtr	../include/pcsclite.h	/^	unsigned char rgbAtr[MAX_ATR_SIZE];$/;"	m	struct:__anon1
+rootfs _ details	../doxygen/latex/group__L.tex	/^\\subsubsection[{rootfs\\+\\_\\+details}]{\\setlength{\\rightskip}{0pt plus 5cm}int rootfs\\+\\_\\+details ($/;"	b
+rootfs_details	../src/miscall/iomisc.c	/^int rootfs_details(char *rootfsver)$/;"	f
+rtc_time	../src/rtc/rtc.c	/^struct rtc_time{$/;"	s	file:
+rtc_time	../src/rtc/rtc.c	/^}rtc_time;$/;"	v	typeref:struct:rtc_time
+rv	../src/sam/sam_api.c	/^static LONG rv=0;$/;"	v	file:
+rx_buf	../include/spidev.h	/^	__u64		rx_buf;$/;"	m	struct:spi_ioc_transfer
+scr _ close	../doxygen/latex/group__E.tex	/^\\subsubsection[{scr\\+\\_\\+close}]{\\setlength{\\rightskip}{0pt plus 5cm}int scr\\+\\_\\+close ($/;"	b
+scr _ open	../doxygen/latex/group__E.tex	/^\\subsubsection[{scr\\+\\_\\+open}]{\\setlength{\\rightskip}{0pt plus 5cm}int scr\\+\\_\\+open ($/;"	b
+scr_close	../src/scr/scr.c	/^int scr_close(void)$/;"	f
+scr_open	../src/scr/scr.c	/^int scr_open(void)$/;"	f
+sel_res	../src/rfid/rfid_api.c	/^  unsigned char sel_res;$/;"	m	struct:__anon4	file:
+select_card	../src/scr/scr.c	/^int select_card(int card)$/;"	f
+sens_res	../src/rfid/rfid_api.c	/^  unsigned char sens_res[2];$/;"	m	struct:__anon4	file:
+setup	../src/gps/gps_api.c	/^void setup()$/;"	f
+size	../src/barcode/barcode_api.c	/^int size;$/;"	v
+smart_ifd_fd	../src/scr/scr.c	/^static int smart_ifd_fd;$/;"	v	file:
+speed	../src/lcd/lcdcontrol.c	/^static uint32_t speed = 500000;$/;"	v	file:
+speed_hz	../include/spidev.h	/^	__u32		speed_hz;$/;"	m	struct:spi_ioc_transfer
+spi_ioc_transfer	../include/spidev.h	/^struct spi_ioc_transfer {$/;"	s
+stopbits	../src/scr/scr.c	/^	int stopbits;$/;"	m	struct:__anon3	file:
+strobewidth	../src/printer/printer.c	/^static int strobewidth=0, voltage=0, ther_res=0;$/;"	v	file:
+strobewidth	../src/printer/printer_bkp1.c	/^static int strobewidth=0, voltage=0, ther_res=0;$/;"	v	file:
+strobewidth_value	../src/printer/printer.c	/^	int strobewidth_value;$/;"	m	struct:get_strb	file:
+strobewidth_value	../src/printer/printer_bkp1.c	/^	int strobewidth_value;$/;"	m	struct:get_strb	file:
+szReader	../include/pcsclite.h	/^	const char *szReader;$/;"	m	struct:__anon1
+tama_authenticate_mifare	../src/rfid/rfid_api.c	/^int tama_authenticate_mifare(unsigned char Tg_No, unsigned char Blk_Addr, unsigned char *Key, unsigned char Key_Type)$/;"	f
+tama_check_response	../src/rfid/rfid_api.c	/^int tama_check_response(void)$/;"	f
+tama_close	../src/rfid/rfid_api.c	/^void tama_close(void)$/;"	f
+tama_compute_checksum	../src/rfid/rfid_api.c	/^unsigned char tama_compute_checksum(unsigned char Data)$/;"	f
+tama_compute_dcs	../src/rfid/rfid_api.c	/^unsigned char tama_compute_dcs(unsigned char* data, unsigned char dlen)$/;"	f
+tama_decrement_block	../src/rfid/rfid_api.c	/^int tama_decrement_block(unsigned char Blk_Addr, unsigned int Value)$/;"	f
+tama_detectTarget	../src/rfid/rfid_api.c	/^int tama_detectTarget(unsigned char Tg_Nos, unsigned char *Tg_Detected, unsigned char *Tg_ID)$/;"	f
+tama_halt_mifare	../src/rfid/rfid_api.c	/^int tama_halt_mifare(unsigned char Tg_LID)$/;"	f
+tama_inc_dec_block	../src/rfid/rfid_api.c	/^int tama_inc_dec_block(unsigned char Inc_Dec, unsigned char Blk_Addr, unsigned int Value)$/;"	f
+tama_increment_block	../src/rfid/rfid_api.c	/^int tama_increment_block(unsigned char Blk_Addr, unsigned int Value)$/;"	f
+tama_open	../src/rfid/rfid_api.c	/^int tama_open(void)$/;"	f
+tama_prepare_valueBlock	../src/rfid/rfid_api.c	/^int tama_prepare_valueBlock(unsigned char Blk_Addr, unsigned int Value, unsigned char Addr)$/;"	f
+tama_process_buffer	../src/rfid/rfid_api.c	/^int tama_process_buffer(void)$/;"	f
+tama_read_data	../src/rfid/rfid_api.c	/^int tama_read_data(int Len)$/;"	f
+tama_read_target	../src/rfid/rfid_api.c	/^int tama_read_target(unsigned char Blk_Addr, unsigned char *Data_In)$/;"	f
+tama_read_valueBlock	../src/rfid/rfid_api.c	/^ int tama_read_valueBlock(unsigned char Blk_Addr, unsigned int *Value)$/;"	f
+tama_restore_block	../src/rfid/rfid_api.c	/^int tama_restore_block(unsigned char Blk_Addr)$/;"	f
+tama_send_command	../src/rfid/rfid_api.c	/^int tama_send_command(unsigned char Cmd_Code, unsigned char *Data,  int Dlen)$/;"	f
+tama_transfer_block	../src/rfid/rfid_api.c	/^int tama_transfer_block(unsigned char Blk_Addr)$/;"	f
+tama_write_target	../src/rfid/rfid_api.c	/^int tama_write_target(unsigned char Blk_Addr, unsigned char *Data_Out, int Dlen)$/;"	f
+test_cases	../src/gps/gps_api.c	/^int test_cases=1;$/;"	v
+tg_data	../src/rfid/rfid_api.c	/^TargetData tg_data[2];		\/\/To store tag details$/;"	v
+tg_nbtg	../src/rfid/rfid_api.c	/^unsigned char  tg_nbtg; \/\/To store number of tags detected$/;"	v
+tgno	../src/rfid/rfid_api.c	/^  unsigned char tgno;$/;"	m	struct:__anon4	file:
+ther_res	../src/printer/printer.c	/^static int strobewidth=0, voltage=0, ther_res=0;$/;"	v	file:
+ther_res	../src/printer/printer_bkp1.c	/^static int strobewidth=0, voltage=0, ther_res=0;$/;"	v	file:
+thermister_name	../src/printer/printer.c	/^static const char *thermister_name="\/sys\/devices\/platform\/imx6q-ecspi.1\/spi_master\/spi1\/spi1.1\/aux3";$/;"	v	file:
+thermister_name	../src/printer/printer_bkp1.c	/^static const char *thermister_name="\/sys\/devices\/platform\/imx6q-ecspi.1\/spi_master\/spi1\/spi1.1\/aux3";$/;"	v	file:
+thread_func_gps	../src/gps/gps_api.c	/^void *thread_func_gps()$/;"	f
+tm_hour	../src/rtc/rtc.c	/^	int tm_hour;$/;"	m	struct:rtc_time	file:
+tm_isdst	../src/rtc/rtc.c	/^	int tm_isdst;$/;"	m	struct:rtc_time	file:
+tm_mday	../src/rtc/rtc.c	/^	int tm_mday;$/;"	m	struct:rtc_time	file:
+tm_min	../src/rtc/rtc.c	/^	int tm_min;$/;"	m	struct:rtc_time	file:
+tm_mon	../src/rtc/rtc.c	/^	int tm_mon;$/;"	m	struct:rtc_time	file:
+tm_sec	../src/rtc/rtc.c	/^	int tm_sec;$/;"	m	struct:rtc_time	file:
+tm_wday	../src/rtc/rtc.c	/^	int tm_wday;$/;"	m	struct:rtc_time	file:
+tm_yday	../src/rtc/rtc.c	/^	int tm_yday;$/;"	m	struct:rtc_time	file:
+tm_year	../src/rtc/rtc.c	/^	int tm_year;$/;"	m	struct:rtc_time	file:
+tx_buf	../include/spidev.h	/^	__u64		tx_buf;$/;"	m	struct:spi_ioc_transfer
+value	../src/barcode/barcode_api.c	/^int rd,value,code;$/;"	v
+voltage	../src/printer/printer.c	/^static int strobewidth=0, voltage=0, ther_res=0;$/;"	v	file:
+voltage	../src/printer/printer_bkp1.c	/^static int strobewidth=0, voltage=0, ther_res=0;$/;"	v	file:
+voltage_strobewidth_0	../src/printer/printer.c	/^static int voltage_strobewidth_0[10] ={990, 1091, 1148, 1209, 1275, 1347, 1425, 1510, 1603, 922};$/;"	v	file:
+voltage_strobewidth_0	../src/printer/printer_bkp1.c	/^static int voltage_strobewidth_0[10] ={990, 1091, 1148, 1209, 1275, 1347, 1425, 1510, 1603, 922};$/;"	v	file:
+voltage_strobewidth_10	../src/printer/printer.c	/^static int voltage_strobewidth_10[10] ={863, 952, 1001, 1054, 1112, 1175, 1243, 1313, 1399, 805};$/;"	v	file:
+voltage_strobewidth_10	../src/printer/printer_bkp1.c	/^static int voltage_strobewidth_10[10] ={863, 952, 1001, 1054, 1112, 1175, 1243, 1313, 1399, 805};$/;"	v	file:
+voltage_strobewidth_15	../src/printer/printer.c	/^static int voltage_strobewidth_15[10] ={803, 885, 931, 981, 1035, 1093, 1156, 1226, 1301, 749};$/;"	v	file:
+voltage_strobewidth_15	../src/printer/printer_bkp1.c	/^static int voltage_strobewidth_15[10] ={803, 885, 931, 981, 1035, 1093, 1156, 1226, 1301, 749};$/;"	v	file:
+voltage_strobewidth_20	../src/printer/printer.c	/^static int voltage_strobewidth_20[10] ={749, 826, 869, 915, 966, 1020, 1079, 1143, 1214, 699};$/;"	v	file:
+voltage_strobewidth_20	../src/printer/printer_bkp1.c	/^static int voltage_strobewidth_20[10] ={749, 826, 869, 915, 966, 1020, 1079, 1143, 1214, 699};$/;"	v	file:
+voltage_strobewidth_25	../src/printer/printer.c	/^static int voltage_strobewidth_25[10] ={695, 767, 807, 850, 896, 947, 1002, 1061, 1127, 648};$/;"	v	file:
+voltage_strobewidth_25	../src/printer/printer_bkp1.c	/^static int voltage_strobewidth_25[10] ={695, 767, 807, 850, 896, 947, 1002, 1061, 1127, 648};$/;"	v	file:
+voltage_strobewidth_30	../src/printer/printer.c	/^static int voltage_strobewidth_30[10] ={648, 714, 752, 792, 835, 882, 933, 989, 1050, 605};$/;"	v	file:
+voltage_strobewidth_30	../src/printer/printer_bkp1.c	/^static int voltage_strobewidth_30[10] ={648, 714, 752, 792, 835, 882, 933, 989, 1050, 605};$/;"	v	file:
+voltage_strobewidth_35	../src/printer/printer.c	/^static int voltage_strobewidth_35[10] ={597, 659, 693, 730, 770, 813, 860, 912, 968, 557};$/;"	v	file:
+voltage_strobewidth_35	../src/printer/printer_bkp1.c	/^static int voltage_strobewidth_35[10] ={597, 659, 693, 730, 770, 813, 860, 912, 968, 557};$/;"	v	file:
+voltage_strobewidth_40	../src/printer/printer.c	/^static int voltage_strobewidth_40[10] ={553, 610, 642, 676, 713, 753, 797, 844, 896, 516};$/;"	v	file:
+voltage_strobewidth_40	../src/printer/printer_bkp1.c	/^static int voltage_strobewidth_40[10] ={553, 610, 642, 676, 713, 753, 797, 844, 896, 516};$/;"	v	file:
+voltage_strobewidth_45	../src/printer/printer.c	/^static int voltage_strobewidth_45[10] ={512, 564, 594, 626, 660, 697, 737, 781, 830, 477};$/;"	v	file:
+voltage_strobewidth_45	../src/printer/printer_bkp1.c	/^static int voltage_strobewidth_45[10] ={512, 564, 594, 626, 660, 697, 737, 781, 830, 477};$/;"	v	file:
+voltage_strobewidth_5	../src/printer/printer.c	/^static int voltage_strobewidth_5[10] ={923, 1018, 1071, 1128, 1190, 1257, 1330, 1409, 1496, 861};$/;"	v	file:
+voltage_strobewidth_5	../src/printer/printer_bkp1.c	/^static int voltage_strobewidth_5[10] ={923, 1018, 1071, 1128, 1190, 1257, 1330, 1409, 1496, 861};$/;"	v	file:
+voltage_strobewidth_50	../src/printer/printer.c	/^static int voltage_strobewidth_50[10] ={468, 516, 542, 571, 603, 637, 674, 714, 758, 436};$/;"	v	file:
+voltage_strobewidth_50	../src/printer/printer_bkp1.c	/^static int voltage_strobewidth_50[10] ={468, 516, 542, 571, 603, 637, 674, 714, 758, 436};$/;"	v	file:
+voltage_strobewidth_55	../src/printer/printer.c	/^static int voltage_strobewidth_55[10] ={430, 474, 498, 525, 554, 585, 619, 656, 696, 401};$/;"	v	file:
+voltage_strobewidth_55	../src/printer/printer_bkp1.c	/^static int voltage_strobewidth_55[10] ={430, 474, 498, 525, 554, 585, 619, 656, 696, 401};$/;"	v	file:
+voltage_strobewidth_60	../src/printer/printer.c	/^static int voltage_strobewidth_60[10] ={392, 432, 455, 479, 505, 533, 564, 598, 635, 366};$/;"	v	file:
+voltage_strobewidth_60	../src/printer/printer_bkp1.c	/^static int voltage_strobewidth_60[10] ={392, 432, 455, 479, 505, 533, 564, 598, 635, 366};$/;"	v	file:
+voltage_strobewidth_65	../src/printer/printer.c	/^static int voltage_strobewidth_65[10] ={354, 390, 410, 432, 456, 482, 510, 540, 573, 330};$/;"	v	file:
+voltage_strobewidth_65	../src/printer/printer_bkp1.c	/^static int voltage_strobewidth_65[10] ={354, 390, 410, 432, 456, 482, 510, 540, 573, 330};$/;"	v	file:

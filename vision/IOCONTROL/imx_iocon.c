@@ -49,7 +49,7 @@ DECLARE_WAIT_QUEUE_HEAD(wq);
 /*  External Varibles and functions  */
 
 extern int touch_pnt_out;    // notification for touch pont out
-extern char key_out_flag;    // notification for key out flag
+char key_out_flag_=0;    // notification for key out flag
 
 extern char touch_release_flag;  // Dummy 
 
@@ -491,7 +491,7 @@ static int work_thread(void *arg)
 			return 0;
 		} 
 
-		if ( key_out_flag || touch_pnt_out || bkl_on_timer || bkl_cont_on )
+		if ( key_out_flag_1 || touch_pnt_out || bkl_on_timer || bkl_cont_on )
 		{
 			gpio_set_value(LCD_BKL,1); // bkl _on
 
@@ -501,9 +501,9 @@ static int work_thread(void *arg)
 				touch_pnt_out = 0;
 
 			if (  !key_buzz)  // when key pad buzze disabled 
-				key_out_flag = 0;
+				key_out_flag_1 = 0;
 
-			if ( key_out_flag || touch_pnt_out || buzz_on_flg )
+			if ( key_out_flag_1 || touch_pnt_out || buzz_on_flg )
 			{
 				gpio_set_value(BUZZ, 1);
 				
@@ -514,8 +514,8 @@ static int work_thread(void *arg)
 				}
 			}
 
-			if (key_out_flag)
-			key_out_flag=0;
+			if (key_out_flag_1)
+			key_out_flag_1=0;
 			if (touch_pnt_out)
 			touch_pnt_out=0;
 			if (bkl_on_timer)

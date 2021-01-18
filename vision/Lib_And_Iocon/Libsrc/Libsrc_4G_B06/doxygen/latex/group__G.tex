@@ -1,0 +1,71 @@
+\hypertarget{group__G}{\section{Barcode Module Header.}
+\label{group__G}\index{Barcode Module Header.@{Barcode Module Header.}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{group__G_ga43e1c6dd6923efd7087271d5e5490e56}{bar\+\_\+code\+\_\+open} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to open barcode device. \end{DoxyCompactList}\item 
+int \hyperlink{group__G_gaf79b92031944bc6459ea4351e60b8dcb}{bar\+\_\+code\+\_\+read} (unsigned char $\ast$rxbuf, int len)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function reads the barcode. \end{DoxyCompactList}\item 
+int \hyperlink{group__G_ga4041f938c6bd7e678665084217cf977e}{bar\+\_\+code\+\_\+close} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function closes the barcode. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\hypertarget{group__G_ga4041f938c6bd7e678665084217cf977e}{\index{Barcode Module Header.@{Barcode Module Header.}!bar\+\_\+code\+\_\+close@{bar\+\_\+code\+\_\+close}}
+\index{bar\+\_\+code\+\_\+close@{bar\+\_\+code\+\_\+close}!Barcode Module Header.@{Barcode Module Header.}}
+\subsubsection[{bar\+\_\+code\+\_\+close}]{\setlength{\rightskip}{0pt plus 5cm}int bar\+\_\+code\+\_\+close (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__G_ga4041f938c6bd7e678665084217cf977e}
+
+
+This A\+P\+I Function closes the barcode. 
+
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Error. 
+\end{DoxyReturn}
+\hypertarget{group__G_ga43e1c6dd6923efd7087271d5e5490e56}{\index{Barcode Module Header.@{Barcode Module Header.}!bar\+\_\+code\+\_\+open@{bar\+\_\+code\+\_\+open}}
+\index{bar\+\_\+code\+\_\+open@{bar\+\_\+code\+\_\+open}!Barcode Module Header.@{Barcode Module Header.}}
+\subsubsection[{bar\+\_\+code\+\_\+open}]{\setlength{\rightskip}{0pt plus 5cm}int bar\+\_\+code\+\_\+open (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__G_ga43e1c6dd6923efd7087271d5e5490e56}
+
+
+This A\+P\+I Function is used to open barcode device. 
+
+\begin{DoxyNote}{Note}
+This function must be called before any barcode function. 
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__G_gaf79b92031944bc6459ea4351e60b8dcb}{\index{Barcode Module Header.@{Barcode Module Header.}!bar\+\_\+code\+\_\+read@{bar\+\_\+code\+\_\+read}}
+\index{bar\+\_\+code\+\_\+read@{bar\+\_\+code\+\_\+read}!Barcode Module Header.@{Barcode Module Header.}}
+\subsubsection[{bar\+\_\+code\+\_\+read}]{\setlength{\rightskip}{0pt plus 5cm}int bar\+\_\+code\+\_\+read (
+\begin{DoxyParamCaption}
+\item[{unsigned char $\ast$}]{rxbuf, }
+\item[{int}]{len}
+\end{DoxyParamCaption}
+)}}\label{group__G_gaf79b92031944bc6459ea4351e60b8dcb}
+
+
+This A\+P\+I Function reads the barcode. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$rxbuf} & Description\+: buffer used to store barcode data. Type\+: output Range\+: 0 -\/ 256 \\
+\hline
+{\em len} & Description\+:len means size of data to receive(receive buffer size). Type\+: input Range\+: 0 -\/ 256 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+$>$0 on Success and -\/1 on Error. 
+\end{DoxyReturn}

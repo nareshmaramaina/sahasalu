@@ -1,0 +1,119 @@
+\hypertarget{group__F}{\section{S\+A\+M Module Header.}
+\label{group__F}\index{S\+A\+M Module Header.@{S\+A\+M Module Header.}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{group__F_gad43449de19bf2fb1d6d4f9e0944840bf}{S\+A\+M\+\_\+\+Open} (void)
+\begin{DoxyCompactList}\small\item\em This function checks for the existence of the Sam card reader device and if found prepares it for further communication. Before attempting any operations related to Sam card reader device this function should be called. \end{DoxyCompactList}\item 
+int \hyperlink{group__F_ga48040ba823a58f324ac38a6bb21376e2}{S\+A\+M\+\_\+\+Close} (void)
+\begin{DoxyCompactList}\small\item\em This function closes the S\+A\+M device. After finishing all the operations related to S\+A\+M card reader this function should get called. \end{DoxyCompactList}\item 
+int \hyperlink{group__F_ga66804014e17c75985005870456133fd9}{S\+A\+M\+\_\+\+Get\+Atr} (unsigned int $\ast$length, unsigned char $\ast$buffer)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I reads A\+T\+R from the card. \end{DoxyCompactList}\item 
+int \hyperlink{group__F_gaa53c6aaf4884c46519194ee2ea43971b}{S\+A\+M\+\_\+\+Send\+Command} (unsigned char $\ast$C\+A\+P\+D\+U\+\_\+\+Data, unsigned int C\+Len, unsigned char $\ast$R\+A\+P\+D\+U\+\_\+\+Data, unsigned int $\ast$R\+Len)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to send all the E\+M\+V complaint C\+A\+P\+D\+Us to the card. The A\+P\+I call sends the command contained in C\+A\+P\+D\+U Data buffer and gives the response and $\ast$its length out through R\+A\+P\+D\+U Data and R\+Len variables respectively. \end{DoxyCompactList}\item 
+int \hyperlink{group__F_ga55ebe18119baa9aafe31e61f8a38605c}{S\+A\+M\+\_\+\+Cold\+Reset} (int selection)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is to power up the card,after this call Vcc is applied as selected during card select A\+P\+I. After this call only we can do any command operations on card. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\hypertarget{group__F_ga48040ba823a58f324ac38a6bb21376e2}{\index{S\+A\+M Module Header.@{S\+A\+M Module Header.}!S\+A\+M\+\_\+\+Close@{S\+A\+M\+\_\+\+Close}}
+\index{S\+A\+M\+\_\+\+Close@{S\+A\+M\+\_\+\+Close}!S\+A\+M Module Header.@{S\+A\+M Module Header.}}
+\subsubsection[{S\+A\+M\+\_\+\+Close}]{\setlength{\rightskip}{0pt plus 5cm}int S\+A\+M\+\_\+\+Close (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__F_ga48040ba823a58f324ac38a6bb21376e2}
+
+
+This function closes the S\+A\+M device. After finishing all the operations related to S\+A\+M card reader this function should get called. 
+
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__F_ga55ebe18119baa9aafe31e61f8a38605c}{\index{S\+A\+M Module Header.@{S\+A\+M Module Header.}!S\+A\+M\+\_\+\+Cold\+Reset@{S\+A\+M\+\_\+\+Cold\+Reset}}
+\index{S\+A\+M\+\_\+\+Cold\+Reset@{S\+A\+M\+\_\+\+Cold\+Reset}!S\+A\+M Module Header.@{S\+A\+M Module Header.}}
+\subsubsection[{S\+A\+M\+\_\+\+Cold\+Reset}]{\setlength{\rightskip}{0pt plus 5cm}int S\+A\+M\+\_\+\+Cold\+Reset (
+\begin{DoxyParamCaption}
+\item[{int}]{selection}
+\end{DoxyParamCaption}
+)}}\label{group__F_ga55ebe18119baa9aafe31e61f8a38605c}
+
+
+This A\+P\+I is to power up the card,after this call Vcc is applied as selected during card select A\+P\+I. After this call only we can do any command operations on card. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em selection} & Description\+: 1-\/ card1 1.\+8v, 2-\/ card1 3v, 3-\/ card1 5v, 4-\/ card2 1.\+8v, 5-\/ card2 3v and 6-\/ card3 5v. Type\+: Input\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__F_ga66804014e17c75985005870456133fd9}{\index{S\+A\+M Module Header.@{S\+A\+M Module Header.}!S\+A\+M\+\_\+\+Get\+Atr@{S\+A\+M\+\_\+\+Get\+Atr}}
+\index{S\+A\+M\+\_\+\+Get\+Atr@{S\+A\+M\+\_\+\+Get\+Atr}!S\+A\+M Module Header.@{S\+A\+M Module Header.}}
+\subsubsection[{S\+A\+M\+\_\+\+Get\+Atr}]{\setlength{\rightskip}{0pt plus 5cm}int S\+A\+M\+\_\+\+Get\+Atr (
+\begin{DoxyParamCaption}
+\item[{unsigned int $\ast$}]{length, }
+\item[{unsigned char $\ast$}]{buffer}
+\end{DoxyParamCaption}
+)}}\label{group__F_ga66804014e17c75985005870456133fd9}
+
+
+This A\+P\+I reads A\+T\+R from the card. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$length} & Description\+: length of A\+T\+R from card in bytes. Type\+: Output \\
+\hline
+{\em $\ast$buffer} & Description\+: pointer to buffer which holds A\+T\+R response from the card. Type\+: Output\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Error 'if unable to receive A\+T\+R this happens only if card is not present in slot'. 
+\end{DoxyReturn}
+\hypertarget{group__F_gad43449de19bf2fb1d6d4f9e0944840bf}{\index{S\+A\+M Module Header.@{S\+A\+M Module Header.}!S\+A\+M\+\_\+\+Open@{S\+A\+M\+\_\+\+Open}}
+\index{S\+A\+M\+\_\+\+Open@{S\+A\+M\+\_\+\+Open}!S\+A\+M Module Header.@{S\+A\+M Module Header.}}
+\subsubsection[{S\+A\+M\+\_\+\+Open}]{\setlength{\rightskip}{0pt plus 5cm}int S\+A\+M\+\_\+\+Open (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__F_gad43449de19bf2fb1d6d4f9e0944840bf}
+
+
+This function checks for the existence of the Sam card reader device and if found prepares it for further communication. Before attempting any operations related to Sam card reader device this function should be called. 
+
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__F_gaa53c6aaf4884c46519194ee2ea43971b}{\index{S\+A\+M Module Header.@{S\+A\+M Module Header.}!S\+A\+M\+\_\+\+Send\+Command@{S\+A\+M\+\_\+\+Send\+Command}}
+\index{S\+A\+M\+\_\+\+Send\+Command@{S\+A\+M\+\_\+\+Send\+Command}!S\+A\+M Module Header.@{S\+A\+M Module Header.}}
+\subsubsection[{S\+A\+M\+\_\+\+Send\+Command}]{\setlength{\rightskip}{0pt plus 5cm}int S\+A\+M\+\_\+\+Send\+Command (
+\begin{DoxyParamCaption}
+\item[{unsigned char $\ast$}]{C\+A\+P\+D\+U\+\_\+\+Data, }
+\item[{unsigned int}]{C\+Len, }
+\item[{unsigned char $\ast$}]{R\+A\+P\+D\+U\+\_\+\+Data, }
+\item[{unsigned int $\ast$}]{R\+Len}
+\end{DoxyParamCaption}
+)}}\label{group__F_gaa53c6aaf4884c46519194ee2ea43971b}
+
+
+This A\+P\+I is used to send all the E\+M\+V complaint C\+A\+P\+D\+Us to the card. The A\+P\+I call sends the command contained in C\+A\+P\+D\+U Data buffer and gives the response and $\ast$its length out through R\+A\+P\+D\+U Data and R\+Len variables respectively. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$\+C\+A\+P\+D\+U\+\_\+\+Data} & Description\+: Buffer holding the command A\+P\+D\+U in the standard format. Type\+: Input\\
+\hline
+{\em C\+Len} & Description\+: length of the C\+A\+P\+D\+U Data buffer. Type\+: Input\\
+\hline
+{\em $\ast$\+R\+A\+P\+D\+U\+\_\+\+Data} & Description\+: Buffer to hold the response A\+P\+D\+U in the standard format. Type\+: Output\\
+\hline
+{\em R\+Len} & Description\+: variable to hold response length. Type\+: Output\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure 'communication error occurred and the device is closed'. 
+\end{DoxyReturn}

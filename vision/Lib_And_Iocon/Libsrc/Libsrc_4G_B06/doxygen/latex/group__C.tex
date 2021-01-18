@@ -1,0 +1,151 @@
+\hypertarget{group__C}{\section{Printer Module Header.}
+\label{group__C}\index{Printer Module Header.@{Printer Module Header.}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{group__C_ga65ae7f900c3b8201da211d9d878c1bda}{prn\+\_\+open} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to open the printer device. \end{DoxyCompactList}\item 
+int \hyperlink{group__C_ga9b87dda400581e39e395c668d5bd9774}{prn\+\_\+close} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to close the printer device. \end{DoxyCompactList}\item 
+int \hyperlink{group__C_gade0a5b30298701171427f9aba222ff1c}{prn\+\_\+paperstatus} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to detect paper presence status. \end{DoxyCompactList}\item 
+int \hyperlink{group__C_ga1d831a3b1705a26fc967cd3d4b1e9178}{prn\+\_\+lid\+\_\+status} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used printer Platen Switch(\+L\+I\+D) is Open or Close. \end{DoxyCompactList}\item 
+int \hyperlink{group__C_ga1ea1a73d596e98f963fb19741749b5b3}{prn\+\_\+paper\+\_\+feed} (int scanlines)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to advance the paper(move the paper in advance of given no.\+of lines). \end{DoxyCompactList}\item 
+int \hyperlink{group__C_gabdeaa56253765c0daf7b08ebabd1238e}{prn\+\_\+write\+\_\+text} (unsigned char $\ast$text, int len, int font)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to prints the text. \end{DoxyCompactList}\item 
+int \hyperlink{group__C_ga99d653d0a5b9e666fe90877863175e87}{prn\+\_\+write\+\_\+bmp} (unsigned char $\ast$bitmap, long len)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to print bmp data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\hypertarget{group__C_ga9b87dda400581e39e395c668d5bd9774}{\index{Printer Module Header.@{Printer Module Header.}!prn\+\_\+close@{prn\+\_\+close}}
+\index{prn\+\_\+close@{prn\+\_\+close}!Printer Module Header.@{Printer Module Header.}}
+\subsubsection[{prn\+\_\+close}]{\setlength{\rightskip}{0pt plus 5cm}int prn\+\_\+close (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__C_ga9b87dda400581e39e395c668d5bd9774}
+
+
+This A\+P\+I Function is used to close the printer device. 
+
+\begin{DoxyReturn}{Returns}
+1 if the device Closed Successfully and -\/1 if the device is Failure in Closing. 
+\end{DoxyReturn}
+\hypertarget{group__C_ga1d831a3b1705a26fc967cd3d4b1e9178}{\index{Printer Module Header.@{Printer Module Header.}!prn\+\_\+lid\+\_\+status@{prn\+\_\+lid\+\_\+status}}
+\index{prn\+\_\+lid\+\_\+status@{prn\+\_\+lid\+\_\+status}!Printer Module Header.@{Printer Module Header.}}
+\subsubsection[{prn\+\_\+lid\+\_\+status}]{\setlength{\rightskip}{0pt plus 5cm}int prn\+\_\+lid\+\_\+status (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__C_ga1d831a3b1705a26fc967cd3d4b1e9178}
+
+
+This A\+P\+I Function is used printer Platen Switch(\+L\+I\+D) is Open or Close. 
+
+\begin{DoxyReturn}{Returns}
+0 on Success(\+Lid Close) and -\/2 on Failure(\+Lid Open). 
+\end{DoxyReturn}
+\hypertarget{group__C_ga65ae7f900c3b8201da211d9d878c1bda}{\index{Printer Module Header.@{Printer Module Header.}!prn\+\_\+open@{prn\+\_\+open}}
+\index{prn\+\_\+open@{prn\+\_\+open}!Printer Module Header.@{Printer Module Header.}}
+\subsubsection[{prn\+\_\+open}]{\setlength{\rightskip}{0pt plus 5cm}int prn\+\_\+open (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__C_ga65ae7f900c3b8201da211d9d878c1bda}
+
+
+This A\+P\+I Function is used to open the printer device. 
+
+\begin{DoxyNote}{Note}
+This function must be called before any printer function. 
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+1 on Success, 2 if the device is Already Opened and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__C_ga1ea1a73d596e98f963fb19741749b5b3}{\index{Printer Module Header.@{Printer Module Header.}!prn\+\_\+paper\+\_\+feed@{prn\+\_\+paper\+\_\+feed}}
+\index{prn\+\_\+paper\+\_\+feed@{prn\+\_\+paper\+\_\+feed}!Printer Module Header.@{Printer Module Header.}}
+\subsubsection[{prn\+\_\+paper\+\_\+feed}]{\setlength{\rightskip}{0pt plus 5cm}int prn\+\_\+paper\+\_\+feed (
+\begin{DoxyParamCaption}
+\item[{int}]{scanlines}
+\end{DoxyParamCaption}
+)}}\label{group__C_ga1ea1a73d596e98f963fb19741749b5b3}
+
+
+This A\+P\+I Function is used to advance the paper(move the paper in advance of given no.\+of lines). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scanlines} & Description\+: scanlines is to be passed as parameter (1 text line is equal to 17 scan lines). Type\+: I\+N\+P\+U\+T Range\+: 1 to 50 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success, -\/1 if Error occurs, -\/2 if the length is more or less, -\/3 N\+O Paper, -\/4 Low Battery, -\/5 Max Temp, -\/6 No Lines and -\/7 W\+R\+I\+T\+E E\+R\+R\+O\+R. 
+\end{DoxyReturn}
+\hypertarget{group__C_gade0a5b30298701171427f9aba222ff1c}{\index{Printer Module Header.@{Printer Module Header.}!prn\+\_\+paperstatus@{prn\+\_\+paperstatus}}
+\index{prn\+\_\+paperstatus@{prn\+\_\+paperstatus}!Printer Module Header.@{Printer Module Header.}}
+\subsubsection[{prn\+\_\+paperstatus}]{\setlength{\rightskip}{0pt plus 5cm}int prn\+\_\+paperstatus (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__C_gade0a5b30298701171427f9aba222ff1c}
+
+
+This A\+P\+I Function is used to detect paper presence status. 
+
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/2 on Error. 
+\end{DoxyReturn}
+\hypertarget{group__C_ga99d653d0a5b9e666fe90877863175e87}{\index{Printer Module Header.@{Printer Module Header.}!prn\+\_\+write\+\_\+bmp@{prn\+\_\+write\+\_\+bmp}}
+\index{prn\+\_\+write\+\_\+bmp@{prn\+\_\+write\+\_\+bmp}!Printer Module Header.@{Printer Module Header.}}
+\subsubsection[{prn\+\_\+write\+\_\+bmp}]{\setlength{\rightskip}{0pt plus 5cm}int prn\+\_\+write\+\_\+bmp (
+\begin{DoxyParamCaption}
+\item[{unsigned char $\ast$}]{bitmap, }
+\item[{long}]{len}
+\end{DoxyParamCaption}
+)}}\label{group__C_ga99d653d0a5b9e666fe90877863175e87}
+
+
+This A\+P\+I Function is used to print bmp data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$bitmap} & Description\+: pointer to the buffer from which the data to be printed.\+The image size is 384x480 pixels. Type\+: I\+N\+P\+U\+T \\
+\hline
+{\em len} & Description\+:Length of the text. Type\+: I\+N\+P\+U\+T \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 no. of characters written on Success, -\/1 if Error Occurs or Device not Open, -\/2 if the length is more, -\/3 N\+O Paper, -\/4 Low Battery, -\/5 Max temp, -\/6 No Lines and -\/7 W\+R\+I\+T\+E\+\_\+\+E\+R\+R\+O\+R. 
+\end{DoxyReturn}
+\hypertarget{group__C_gabdeaa56253765c0daf7b08ebabd1238e}{\index{Printer Module Header.@{Printer Module Header.}!prn\+\_\+write\+\_\+text@{prn\+\_\+write\+\_\+text}}
+\index{prn\+\_\+write\+\_\+text@{prn\+\_\+write\+\_\+text}!Printer Module Header.@{Printer Module Header.}}
+\subsubsection[{prn\+\_\+write\+\_\+text}]{\setlength{\rightskip}{0pt plus 5cm}int prn\+\_\+write\+\_\+text (
+\begin{DoxyParamCaption}
+\item[{unsigned char $\ast$}]{text, }
+\item[{int}]{len, }
+\item[{int}]{font}
+\end{DoxyParamCaption}
+)}}\label{group__C_gabdeaa56253765c0daf7b08ebabd1238e}
+
+
+This A\+P\+I Function is used to prints the text. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$text} & Description\+: pointer to the buffer from which the text to be printed. Type\+: I\+N\+P\+U\+T \\
+\hline
+{\em len} & Description\+: length of the text. Type\+: I\+N\+P\+U\+T \\
+\hline
+{\em font} & Description\+: font of the the text presently there are two fonts are supported.(1 and 2 fonts). Type\+: I\+N\+P\+U\+T \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success, -\/1 if the device not Opened, -\/2 if the length is more, -\/3 N\+O Paper, -\/4 Low Battery, -\/5 Max Temp, -\/6 No Lines and -\/7 W\+R\+I\+T\+E E\+R\+R\+O\+R. 
+\end{DoxyReturn}

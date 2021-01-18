@@ -1,0 +1,168 @@
+\hypertarget{gl11_8h}{\section{gl11.\+h File Reference}
+\label{gl11_8h}\index{gl11.\+h@{gl11.\+h}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{group__A_ga82a55216b80b79a47fbabadec00c5a5f}{gl11\+\_\+iodev\+\_\+open} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to open io control devices. Note\+: This function must be called before calling any A\+P\+I started with gl11\+\_\+ prefix functions. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_ga86ceb9f93c2358e2e1ac755f22084960}{gl11\+\_\+iodev\+\_\+close} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to close io control devices. Note\+: This function must be called after any L\+C\+D and Keypad,buzzer functions. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_gaaaa41f0eb4292051f8e42b1b3ee73fde}{gl11\+\_\+lcd\+\_\+contrast} (int chngval)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I used to change the lcd contrast. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_ga5626128851f2aa7c81fac7a2fdcddf4e}{gl11\+\_\+lcd\+\_\+brightness} (int chngval)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I used to change the lcd brightness. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_gafc9600c2f4af0154db76f633ced40296}{gl11\+\_\+lcd\+\_\+default} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I used to set default lcd contrast brightness. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_gad9e349138f3450631a117d36ea31c20a}{gl11\+\_\+lcdbklt\+\_\+time\+\_\+duration} (int val)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I used to set backlight timeout. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_ga13839a610d5db6b320792a10f89df5a9}{gl11\+\_\+lcdbklt\+\_\+on} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I used to On the backlight. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_ga5180b5491124c52075bd2398a2617449}{gl11\+\_\+lcdbklt\+\_\+off} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I used to O\+F\+F the backlight. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_ga25e5b5ddaa856a414cf93c4098cb97c6}{gl11\+\_\+buzz\+\_\+off} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I used to O\+F\+F the buzzer sound. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_gab2aca7aa79008a26b13c0b6644170b2f}{gl11\+\_\+buzz\+\_\+on} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I used to On the buzzer sound. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_ga582145ae5b419d838870a9caa497f4bb}{gl11\+\_\+keypad\+\_\+buzz\+\_\+off} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I used to Off the keypad buzzer sound. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_gac4d32b8fe2ea4568b090bc95fa527712}{gl11\+\_\+keypad\+\_\+buzz\+\_\+on} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I used to O\+N the keypad buzzer sound. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_ga8300037e60997084ce36bc159a210849}{gl11\+\_\+touch\+\_\+buzz\+\_\+off} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I used to Off the Touch buzzer sound. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_ga8d79d9249ef0ad95f6abdc7517d8d7e9}{gl11\+\_\+touch\+\_\+buzz\+\_\+on} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I used to On the Touch buzzer sound. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_ga48e50ce94407b9485b8c4559970f8540}{gl11\+\_\+modem\+\_\+reset} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I used to On the G\+S\+M Modem reset. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_ga6a13d4be38437dd96e5f7d3f787e3564}{gl11\+\_\+gsm\+\_\+usb\+\_\+pwr\+\_\+cntrl} (int val)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I used to set gsm\+\_\+usb power control. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_gac92bbb5843bb279006fb1323fe26bbe6}{gl11\+\_\+cam\+\_\+control} (int val)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function is used to Poweron or Power off Camera Module. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_gae275e6f5f74ef7cad0ef2cab0abb7a98}{gl11\+\_\+internal\+\_\+camflash} (int val)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function is used to Poweron Camera flash. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_gaa9b46ebf6af760a60988b8d87b437687}{gl11\+\_\+ifd\+\_\+control} (int val)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function is used to Poweron or Poweroff I\+F\+D Module. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_ga91a7ae1d76d33512d8d4b80e81109616}{gl11\+\_\+sam\+\_\+pwr\+\_\+ctrl} (int val)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function is used to Poweron or Poweroff S\+A\+M Module. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_gabc802e0b159ca0571d23c2f8fbe522de}{gl11\+\_\+bluetooth\+\_\+control} (int val)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function is used to Poweron or Poweroff Bluetooth Module. \end{DoxyCompactList}\item 
+int \hyperlink{group__A_ga48d244f938360b934372e998acf2afba}{gl11\+\_\+\+Get\+Battery\+Info} (int $\ast$Apresent, int $\ast$Bpresent, int $\ast$Bvolts)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to get battery and adapter status. \end{DoxyCompactList}\item 
+int \hyperlink{group__B_gab78df64fbe832a18d0c8a41aca287071}{gl11\+\_\+getrtc} (struct tm $\ast$dt)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function gets the time from the R\+T\+C chip or from the O\+S if already set. \end{DoxyCompactList}\item 
+int \hyperlink{group__B_gaf85376edf6364611edb9f636d9c7fdbe}{gl11\+\_\+setrtc} (struct tm $\ast$dt)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function sets the time to the R\+T\+C chip as well as for O\+S. \end{DoxyCompactList}\item 
+int \hyperlink{group__C_ga65ae7f900c3b8201da211d9d878c1bda}{prn\+\_\+open} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to open the printer device. \end{DoxyCompactList}\item 
+int \hyperlink{group__C_ga9b87dda400581e39e395c668d5bd9774}{prn\+\_\+close} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to close the printer device. \end{DoxyCompactList}\item 
+int \hyperlink{group__C_gade0a5b30298701171427f9aba222ff1c}{prn\+\_\+paperstatus} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to detect paper presence status. \end{DoxyCompactList}\item 
+int \hyperlink{group__C_ga1d831a3b1705a26fc967cd3d4b1e9178}{prn\+\_\+lid\+\_\+status} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used printer Platen Switch(\+L\+I\+D) is Open or Close. \end{DoxyCompactList}\item 
+int \hyperlink{group__C_ga1ea1a73d596e98f963fb19741749b5b3}{prn\+\_\+paper\+\_\+feed} (int scanlines)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to advance the paper(move the paper in advance of given no.\+of lines). \end{DoxyCompactList}\item 
+int \hyperlink{group__C_gabdeaa56253765c0daf7b08ebabd1238e}{prn\+\_\+write\+\_\+text} (unsigned char $\ast$text, int len, int font)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to prints the text. \end{DoxyCompactList}\item 
+int \hyperlink{group__C_ga99d653d0a5b9e666fe90877863175e87}{prn\+\_\+write\+\_\+bmp} (unsigned char $\ast$bitmap, long len)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to print bmp data. \end{DoxyCompactList}\item 
+int \hyperlink{group__D_gafa3a94e588b1ba39a77cee64b1e68c49}{mscr\+\_\+open} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to open magswipe device. \end{DoxyCompactList}\item 
+int \hyperlink{group__D_gaf9a8351a0558d4148917a02f3ca56daf}{mscr\+\_\+close} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is to close magnetic swipe device. \end{DoxyCompactList}\item 
+int \hyperlink{group__D_ga5a3cd52dc4c6e21ac0a8a3aad4e53fdb}{mscr\+\_\+getstate} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to check wether the device is having valid data(both track1 and track2 data). \end{DoxyCompactList}\item 
+int \hyperlink{group__D_gaf5add969f80c642176e8f048c1685d5a}{mscr\+\_\+read} (char $\ast$track\+\_\+1\+\_\+data, char $\ast$track\+\_\+2\+\_\+data, char $\ast$track\+\_\+3\+\_\+data)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function reads the data of the tracks from the card. \end{DoxyCompactList}\item 
+int \hyperlink{group__D_ga70cf19854d6bbce3b16d0038dbe69ff4}{mscr\+\_\+flush} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function clears the card reader device buffer. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_ga7a152ac6f3b7d07e496997925dbbab61}{scr\+\_\+open} (void)
+\begin{DoxyCompactList}\small\item\em This function checks for the existence of the I\+F\+D card reader device and if found prepares it for further communication.\+Before attempting any operations related to Sam card reader device this function should be called. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_ga2734d3bcd5ff6a9c49be31c325604eab}{scr\+\_\+close} (void)
+\begin{DoxyCompactList}\small\item\em This function closes the I\+F\+D device. After finishing all the operations related to I\+F\+D card reader this function should get called. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_gadd96a82bc4b780133bb337333bed762b}{select\+\_\+card} (int card)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is to select the I\+F\+D card slot. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_ga1b464bff1a79bbf4fdfd249cf102d331}{powerup\+\_\+5v} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is to power up the card in 5 Volts. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_ga879f3cf7a6460262c1976f9a7273f74e}{powerup\+\_\+3v} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is to power up the card in 3 Volts. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_gabc346300f471a35d0502373f5b04766e}{powerup1\+\_\+8v} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is to power up the card in 1.\+8 Volts. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_gaff820a31b976fcb517d872d74c7cd88c}{S\+C\+R\+\_\+get\+A\+T\+R} (unsigned char $\ast$Aresp, unsigned int $\ast$Alen)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I reads A\+T\+R(\+Answer to The Response) from the card. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_ga93fed44584244baac49478d101448441}{S\+C\+R\+\_\+\+Checkup\+\_\+\+Card\+Presence} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to check the card presence in Selected Slot. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_gafe7a146be5453ea14e7c41ea41d2dc33}{S\+C\+R\+\_\+\+Send\+Command} (unsigned char $\ast$Cmd, int C\+Len, unsigned char $\ast$Resp, unsigned int $\ast$R\+Len)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to send all the E\+M\+V compatible C\+A\+P\+D\+Us to the card. The A\+P\+I sends the command contained in C\+A\+P\+D\+U Data buffer and gives the response and its length out through R\+A\+P\+D\+U Data and R\+Len variables respectively. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_ga0ba852a4be481d685f594b18529c2d6b}{powerdown} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to Power down the I\+F\+D cards. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_gac6a5cb156099b15c7e569b5ba6dbfe5c}{S\+C\+R\+\_\+\+Get\+F\+V} (unsigned char $\ast$Fresp, unsigned int $\ast$Flen)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to get S\+C\+R Firmware Version number. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_gae44d3efab59f709e4134c3e2c6d0bd95}{S\+C\+R\+\_\+\+Get\+S\+B} (unsigned char $\ast$Sresp, unsigned int $\ast$Slen)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to get S\+C\+R Software Build number. \end{DoxyCompactList}\item 
+int \hyperlink{group__F_gad43449de19bf2fb1d6d4f9e0944840bf}{S\+A\+M\+\_\+\+Open} (void)
+\begin{DoxyCompactList}\small\item\em This function checks for the existence of the Sam card reader device and if found prepares it for further communication. Before attempting any operations related to Sam card reader device this function should be called. \end{DoxyCompactList}\item 
+int \hyperlink{group__F_ga48040ba823a58f324ac38a6bb21376e2}{S\+A\+M\+\_\+\+Close} (void)
+\begin{DoxyCompactList}\small\item\em This function closes the S\+A\+M device. After finishing all the operations related to S\+A\+M card reader this function should get called. \end{DoxyCompactList}\item 
+int \hyperlink{group__F_ga66804014e17c75985005870456133fd9}{S\+A\+M\+\_\+\+Get\+Atr} (unsigned int $\ast$length, unsigned char $\ast$buffer)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I reads A\+T\+R from the card. \end{DoxyCompactList}\item 
+int \hyperlink{group__F_gaa53c6aaf4884c46519194ee2ea43971b}{S\+A\+M\+\_\+\+Send\+Command} (unsigned char $\ast$C\+A\+P\+D\+U\+\_\+\+Data, unsigned int C\+Len, unsigned char $\ast$R\+A\+P\+D\+U\+\_\+\+Data, unsigned int $\ast$R\+Len)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to send all the E\+M\+V complaint C\+A\+P\+D\+Us to the card. The A\+P\+I call sends the command contained in C\+A\+P\+D\+U Data buffer and gives the response and $\ast$its length out through R\+A\+P\+D\+U Data and R\+Len variables respectively. \end{DoxyCompactList}\item 
+int \hyperlink{group__F_ga55ebe18119baa9aafe31e61f8a38605c}{S\+A\+M\+\_\+\+Cold\+Reset} (int selection)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is to power up the card,after this call Vcc is applied as selected during card select A\+P\+I. After this call only we can do any command operations on card. \end{DoxyCompactList}\item 
+int \hyperlink{group__G_ga43e1c6dd6923efd7087271d5e5490e56}{bar\+\_\+code\+\_\+open} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to open barcode device. \end{DoxyCompactList}\item 
+int \hyperlink{group__G_gaf79b92031944bc6459ea4351e60b8dcb}{bar\+\_\+code\+\_\+read} (unsigned char $\ast$rxbuf, int len)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function reads the barcode. \end{DoxyCompactList}\item 
+int \hyperlink{group__G_ga4041f938c6bd7e678665084217cf977e}{bar\+\_\+code\+\_\+close} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function closes the barcode. \end{DoxyCompactList}\item 
+int \hyperlink{group__H_ga6011dcf44940225407107aa199a3fe39}{gl11\+\_\+audio\+\_\+power\+\_\+on} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to power on audio device. \end{DoxyCompactList}\item 
+int \hyperlink{group__H_ga564572ab7bca83745b538e8faa08d283}{gl11\+\_\+audio\+\_\+power\+\_\+off} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to power off audio device. \end{DoxyCompactList}\item 
+int \hyperlink{group__H_ga0c562edffbfe85b3b3ccaa0db0ab0671}{gl11\+\_\+audio\+\_\+vol\+\_\+control} (int val)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function is used to control Audio Volume. \end{DoxyCompactList}\item 
+int \hyperlink{group__I_ga3c46a5f5d9d17e464c69c8d38ea65fc3}{gl11\+\_\+host\+\_\+pwron} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to power on usb-\/host device. \end{DoxyCompactList}\item 
+int \hyperlink{group__I_gaa3917a2eaf53fa3529bca9af7b87bd50}{gl11\+\_\+host\+\_\+pwroff} (void) int gl11\+\_\+optcap\+\_\+pwron(void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to power off usb-\/host device. \end{DoxyCompactList}\item 
+int \hyperlink{group__I_ga63aa8e211c25daae7034782b70850ec0}{gl11\+\_\+optcap\+\_\+pwroff} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to power off optcap(\+Finger Print) device. \end{DoxyCompactList}\item 
+int \hyperlink{group__J_ga6bc2c58aa861b09310bcb0b94162f8d3}{gl11\+\_\+gsmpwrctrl} (int val)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function is used to Poweron or Poweroff G\+S\+M Module. \end{DoxyCompactList}\item 
+int \hyperlink{group__J_ga09ea21cdfc6c18d07df547925d791dfe}{modemopen} (char $\ast$Portname)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function opens G\+S\+M Modem Module. \end{DoxyCompactList}\item 
+int \hyperlink{group__J_ga01d17c0d8a22f5b0f5b39358a51115ac}{modemclose} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function Closes the G\+S\+M Module. \end{DoxyCompactList}\item 
+int \hyperlink{group__J_ga8abc3d3ae375a9a10614369d60addba4}{gl11\+\_\+gsm\+\_\+pwron} (int baudrate)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function used to poweron the G\+S\+M Module with specified baud rate. \end{DoxyCompactList}\item 
+int \hyperlink{group__J_gae95624d1ed6841654b77eb47ac399fbf}{gl11\+\_\+gsm\+\_\+select} (int sel, int baudrate)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function used to select gsm card1 or card2. \end{DoxyCompactList}\item 
+int \hyperlink{group__J_ga7adeabda2cc3bcbccbfd49b670ba0384}{gl11\+\_\+gsm\+\_\+pwroff} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function is used to power off the gsm module. \end{DoxyCompactList}\item 
+int \hyperlink{group__J_ga19110d700a91a6d88661e81ad30978bb}{Test\+\_\+modem\+\_\+response} (char $\ast$Cmd, char $\ast$Resp, char $\ast$Ans\mbox{[}$\,$\mbox{]}, int Tout)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to get the response from A\+T Commands. \end{DoxyCompactList}\item 
+int \hyperlink{group__J_ga1ce8c28272556809363b754923bff849}{Test\+\_\+modem\+\_\+responses} (char $\ast$Cmd, char $\ast$Resp, char $\ast$Ans\mbox{[}$\,$\mbox{]}, int Tout)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to get the response from A\+T Commands. \end{DoxyCompactList}\item 
+int \hyperlink{group__K_ga2cd518698a40d53594100755e204d268}{gl11\+\_\+gps\+\_\+pwron} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to power on gps module device. \end{DoxyCompactList}\item 
+int \hyperlink{group__K_gac57d232a38c04f4c9c8f38af5012779d}{gl11\+\_\+gps\+\_\+pwroff} (void) int Modem\+Open\+\_\+gps(char $\ast$Portname)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to power off gps module device. \end{DoxyCompactList}\item 
+int \hyperlink{group__K_ga7e7626d1301bbdaefea7ef3e99d2ed03}{Modemclose\+\_\+gps} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function Closes the G\+P\+S Module. \end{DoxyCompactList}\item 
+int \hyperlink{group__K_ga42c01376d0e7537fdbb26449836aa15f}{read\+\_\+from\+\_\+modem\+\_\+without\+\_\+signal\+\_\+gps} (char $\ast$Resp, int Nread\+\_\+bytes, int Tout)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to get the response from A\+T Commands. \end{DoxyCompactList}\item 
+int \hyperlink{group__L_ga187e392e64bf6cb327f0bcb839d3d40f}{gl11\+\_\+getuid} (char $\ast$Uid)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I used to get the Serial number. \end{DoxyCompactList}\item 
+int \hyperlink{group__L_gaf29deab5e8615c18227b76d0795c2704}{gl11\+\_\+getpinpadid} (char $\ast$machineid)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function is used to get the P\+I\+N P\+A\+D I\+D. (Pre Requirements\+: This id should be set at u-\/boot prompt before call this A\+P\+I do like as\+: V\+I\+S\+I\+O\+N\+T\+E\+K$>$ setenv machineid 1234567890 then V\+I\+S\+I\+O\+N\+T\+E\+K$>$ saveenv). \end{DoxyCompactList}\item 
+int \hyperlink{group__L_gad69ff9042b0c39abde1b0827fe7b8f98}{gl11\+\_\+gethwid} (char $\ast$hwid)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function is used to get the Hardware I\+D. (Pre Requirements\+: This id should be set at u-\/boot prompt before call this A\+P\+I do like as\+: V\+I\+S\+I\+O\+N\+T\+E\+K$>$ setenv hwid 87654321 then V\+I\+S\+I\+O\+N\+T\+E\+K$>$ saveenv). \end{DoxyCompactList}\item 
+int \hyperlink{group__L_gae33abc02e4e0c66cbf543366837c966c}{gl11\+\_\+getmacid} (har $\ast$macid)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function is used to get the M\+A\+C I\+D(8\+C\+:89\+:\+A5\+:\+E\+B\+:8\+E\+:9\+C). \end{DoxyCompactList}\item 
+int \hyperlink{group__L_ga929263cb027bb7f7acf33302051b073e}{bootloader\+\_\+details} (char $\ast$Bver)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function used to get bootloader version details. \end{DoxyCompactList}\item 
+int \hyperlink{group__L_ga4560da82475960f347d9e92fa2c413a5}{kernel\+\_\+details} (char $\ast$Kver)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function used to get kernel version details. \end{DoxyCompactList}\item 
+int \hyperlink{group__L_ga474fbf260ac02d737c5bb9a901b0322c}{rootfs\+\_\+details} (char $\ast$Rver)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function used to get rootfs version details. \end{DoxyCompactList}\end{DoxyCompactItemize}

@@ -1,0 +1,2 @@
+dd if=/root/IMAGES/kernel.IMG of=/dev/mmcblk0 bs=1M seek=1 conv=fsync
+

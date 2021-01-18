@@ -1,0 +1,101 @@
+\hypertarget{group__K}{\section{G\+P\+S Module Header.}
+\label{group__K}\index{G\+P\+S Module Header.@{G\+P\+S Module Header.}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{group__K_ga2cd518698a40d53594100755e204d268}{gl11\+\_\+gps\+\_\+pwron} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to power on gps module device. \end{DoxyCompactList}\item 
+int \hyperlink{group__K_gac57d232a38c04f4c9c8f38af5012779d}{gl11\+\_\+gps\+\_\+pwroff} (void) int Modem\+Open\+\_\+gps(char $\ast$Portname)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function is used to power off gps module device. \end{DoxyCompactList}\item 
+int \hyperlink{group__K_ga7e7626d1301bbdaefea7ef3e99d2ed03}{Modemclose\+\_\+gps} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function Closes the G\+P\+S Module. \end{DoxyCompactList}\item 
+int \hyperlink{group__K_ga42c01376d0e7537fdbb26449836aa15f}{read\+\_\+from\+\_\+modem\+\_\+without\+\_\+signal\+\_\+gps} (char $\ast$Resp, int Nread\+\_\+bytes, int Tout)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to get the response from A\+T Commands. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\hypertarget{group__K_gac57d232a38c04f4c9c8f38af5012779d}{\index{G\+P\+S Module Header.@{G\+P\+S Module Header.}!gl11\+\_\+gps\+\_\+pwroff@{gl11\+\_\+gps\+\_\+pwroff}}
+\index{gl11\+\_\+gps\+\_\+pwroff@{gl11\+\_\+gps\+\_\+pwroff}!G\+P\+S Module Header.@{G\+P\+S Module Header.}}
+\subsubsection[{gl11\+\_\+gps\+\_\+pwroff}]{\setlength{\rightskip}{0pt plus 5cm}int gl11\+\_\+gps\+\_\+pwroff (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__K_gac57d232a38c04f4c9c8f38af5012779d}
+
+
+This A\+P\+I Function is used to power off gps module device. 
+
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. This A\+P\+I function opens G\+P\+S Modem Module. 
+\end{DoxyReturn}
+\begin{DoxyNote}{Note}
+In-\/order to access the G\+P\+S functionality we have to call this A\+P\+I. 
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$\+Portname} & Description\+: This portname is used to Open any Module(Ex\+: /dev/tty\+U\+S\+B1). Type\+: Input \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__K_ga2cd518698a40d53594100755e204d268}{\index{G\+P\+S Module Header.@{G\+P\+S Module Header.}!gl11\+\_\+gps\+\_\+pwron@{gl11\+\_\+gps\+\_\+pwron}}
+\index{gl11\+\_\+gps\+\_\+pwron@{gl11\+\_\+gps\+\_\+pwron}!G\+P\+S Module Header.@{G\+P\+S Module Header.}}
+\subsubsection[{gl11\+\_\+gps\+\_\+pwron}]{\setlength{\rightskip}{0pt plus 5cm}int gl11\+\_\+gps\+\_\+pwron (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__K_ga2cd518698a40d53594100755e204d268}
+
+
+This A\+P\+I Function is used to power on gps module device. 
+
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__K_ga7e7626d1301bbdaefea7ef3e99d2ed03}{\index{G\+P\+S Module Header.@{G\+P\+S Module Header.}!Modemclose\+\_\+gps@{Modemclose\+\_\+gps}}
+\index{Modemclose\+\_\+gps@{Modemclose\+\_\+gps}!G\+P\+S Module Header.@{G\+P\+S Module Header.}}
+\subsubsection[{Modemclose\+\_\+gps}]{\setlength{\rightskip}{0pt plus 5cm}int Modemclose\+\_\+gps (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__K_ga7e7626d1301bbdaefea7ef3e99d2ed03}
+
+
+This A\+P\+I function Closes the G\+P\+S Module. 
+
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__K_ga42c01376d0e7537fdbb26449836aa15f}{\index{G\+P\+S Module Header.@{G\+P\+S Module Header.}!read\+\_\+from\+\_\+modem\+\_\+without\+\_\+signal\+\_\+gps@{read\+\_\+from\+\_\+modem\+\_\+without\+\_\+signal\+\_\+gps}}
+\index{read\+\_\+from\+\_\+modem\+\_\+without\+\_\+signal\+\_\+gps@{read\+\_\+from\+\_\+modem\+\_\+without\+\_\+signal\+\_\+gps}!G\+P\+S Module Header.@{G\+P\+S Module Header.}}
+\subsubsection[{read\+\_\+from\+\_\+modem\+\_\+without\+\_\+signal\+\_\+gps}]{\setlength{\rightskip}{0pt plus 5cm}int read\+\_\+from\+\_\+modem\+\_\+without\+\_\+signal\+\_\+gps (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{Resp, }
+\item[{int}]{Nread\+\_\+bytes, }
+\item[{int}]{Tout}
+\end{DoxyParamCaption}
+)}}\label{group__K_ga42c01376d0e7537fdbb26449836aa15f}
+
+
+This A\+P\+I is used to get the response from A\+T Commands. 
+
+\begin{DoxyNote}{Note}
+Some commands works with sim card and some commands works with-\/out sim card and returns E\+R\+R\+O\+R. 
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$\+Resp} & Description\+: This parameter fills the Gps modem with the response of Gps Data. Type\+: Output \\
+\hline
+{\em Nread\+\_\+bytes} & Description\+: This parameter is used to set output data in bytes. Type\+: Input \\
+\hline
+{\em Tout} & Description\+: This parameter is used to set the timeout for G\+S\+M module to get the response. Type\+: Input \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}

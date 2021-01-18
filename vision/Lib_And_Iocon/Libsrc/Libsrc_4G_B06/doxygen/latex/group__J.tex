@@ -1,0 +1,200 @@
+\hypertarget{group__J}{\section{Gsm\+\_\+\+Gprs module header}
+\label{group__J}\index{Gsm\+\_\+\+Gprs module header@{Gsm\+\_\+\+Gprs module header}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{group__J_ga6bc2c58aa861b09310bcb0b94162f8d3}{gl11\+\_\+gsmpwrctrl} (int val)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function is used to Poweron or Poweroff G\+S\+M Module. \end{DoxyCompactList}\item 
+int \hyperlink{group__J_ga09ea21cdfc6c18d07df547925d791dfe}{modemopen} (char $\ast$Portname)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function opens G\+S\+M Modem Module. \end{DoxyCompactList}\item 
+int \hyperlink{group__J_ga01d17c0d8a22f5b0f5b39358a51115ac}{modemclose} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function Closes the G\+S\+M Module. \end{DoxyCompactList}\item 
+int \hyperlink{group__J_ga8abc3d3ae375a9a10614369d60addba4}{gl11\+\_\+gsm\+\_\+pwron} (int baudrate)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function used to poweron the G\+S\+M Module with specified baud rate. \end{DoxyCompactList}\item 
+int \hyperlink{group__J_gae95624d1ed6841654b77eb47ac399fbf}{gl11\+\_\+gsm\+\_\+select} (int sel, int baudrate)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function used to select gsm card1 or card2. \end{DoxyCompactList}\item 
+int \hyperlink{group__J_ga7adeabda2cc3bcbccbfd49b670ba0384}{gl11\+\_\+gsm\+\_\+pwroff} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function is used to power off the gsm module. \end{DoxyCompactList}\item 
+int \hyperlink{group__J_ga19110d700a91a6d88661e81ad30978bb}{Test\+\_\+modem\+\_\+response} (char $\ast$Cmd, char $\ast$Resp, char $\ast$Ans\mbox{[}$\,$\mbox{]}, int Tout)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to get the response from A\+T Commands. \end{DoxyCompactList}\item 
+int \hyperlink{group__J_ga1ce8c28272556809363b754923bff849}{Test\+\_\+modem\+\_\+responses} (char $\ast$Cmd, char $\ast$Resp, char $\ast$Ans\mbox{[}$\,$\mbox{]}, int Tout)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to get the response from A\+T Commands. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\hypertarget{group__J_ga7adeabda2cc3bcbccbfd49b670ba0384}{\index{Gsm\+\_\+\+Gprs module header@{Gsm\+\_\+\+Gprs module header}!gl11\+\_\+gsm\+\_\+pwroff@{gl11\+\_\+gsm\+\_\+pwroff}}
+\index{gl11\+\_\+gsm\+\_\+pwroff@{gl11\+\_\+gsm\+\_\+pwroff}!Gsm\+\_\+\+Gprs module header@{Gsm\+\_\+\+Gprs module header}}
+\subsubsection[{gl11\+\_\+gsm\+\_\+pwroff}]{\setlength{\rightskip}{0pt plus 5cm}int gl11\+\_\+gsm\+\_\+pwroff (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__J_ga7adeabda2cc3bcbccbfd49b670ba0384}
+
+
+This A\+P\+I function is used to power off the gsm module. 
+
+\begin{DoxyReturn}{Returns}
+0 on Success, 1 on Busy with other fd and -\/1 on Power\+Off Error. 
+\end{DoxyReturn}
+\hypertarget{group__J_ga8abc3d3ae375a9a10614369d60addba4}{\index{Gsm\+\_\+\+Gprs module header@{Gsm\+\_\+\+Gprs module header}!gl11\+\_\+gsm\+\_\+pwron@{gl11\+\_\+gsm\+\_\+pwron}}
+\index{gl11\+\_\+gsm\+\_\+pwron@{gl11\+\_\+gsm\+\_\+pwron}!Gsm\+\_\+\+Gprs module header@{Gsm\+\_\+\+Gprs module header}}
+\subsubsection[{gl11\+\_\+gsm\+\_\+pwron}]{\setlength{\rightskip}{0pt plus 5cm}int gl11\+\_\+gsm\+\_\+pwron (
+\begin{DoxyParamCaption}
+\item[{int}]{baudrate}
+\end{DoxyParamCaption}
+)}}\label{group__J_ga8abc3d3ae375a9a10614369d60addba4}
+
+
+This A\+P\+I Function used to poweron the G\+S\+M Module with specified baud rate. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em baudrate} & Description\+: power on G\+S\+M Module with given baudrate. Type\+: Input Range\+: preferably 9600 or 115200. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Error(\+A\+T command response). 
+\end{DoxyReturn}
+\hypertarget{group__J_gae95624d1ed6841654b77eb47ac399fbf}{\index{Gsm\+\_\+\+Gprs module header@{Gsm\+\_\+\+Gprs module header}!gl11\+\_\+gsm\+\_\+select@{gl11\+\_\+gsm\+\_\+select}}
+\index{gl11\+\_\+gsm\+\_\+select@{gl11\+\_\+gsm\+\_\+select}!Gsm\+\_\+\+Gprs module header@{Gsm\+\_\+\+Gprs module header}}
+\subsubsection[{gl11\+\_\+gsm\+\_\+select}]{\setlength{\rightskip}{0pt plus 5cm}int gl11\+\_\+gsm\+\_\+select (
+\begin{DoxyParamCaption}
+\item[{int}]{sel, }
+\item[{int}]{baudrate}
+\end{DoxyParamCaption}
+)}}\label{group__J_gae95624d1ed6841654b77eb47ac399fbf}
+
+
+This A\+P\+I Function used to select gsm card1 or card2. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sel} & Description\+: select card1 or card2. Type\+: Input Range\+: '1' -\/ card1 and '2' -\/ card2. \\
+\hline
+{\em baudrate} & Description\+: open gsm modem with given baudrate. Type\+: Input Range\+: preferably '9600' or 115200. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success. -\/1 on Error(\+A\+T command response) and -\/3 Sim not Present. 
+\end{DoxyReturn}
+\hypertarget{group__J_ga6bc2c58aa861b09310bcb0b94162f8d3}{\index{Gsm\+\_\+\+Gprs module header@{Gsm\+\_\+\+Gprs module header}!gl11\+\_\+gsmpwrctrl@{gl11\+\_\+gsmpwrctrl}}
+\index{gl11\+\_\+gsmpwrctrl@{gl11\+\_\+gsmpwrctrl}!Gsm\+\_\+\+Gprs module header@{Gsm\+\_\+\+Gprs module header}}
+\subsubsection[{gl11\+\_\+gsmpwrctrl}]{\setlength{\rightskip}{0pt plus 5cm}int gl11\+\_\+gsmpwrctrl (
+\begin{DoxyParamCaption}
+\item[{int}]{val}
+\end{DoxyParamCaption}
+)}}\label{group__J_ga6bc2c58aa861b09310bcb0b94162f8d3}
+
+
+This A\+P\+I function is used to Poweron or Poweroff G\+S\+M Module. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & Description\+: G\+S\+M power O\+N or O\+F\+F. Type\+: Input Range\+: 0 -\/ For power Off and 1 -\/ For power On \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success, -\/1 on Failure and -\/2 on Argument Error. 
+\end{DoxyReturn}
+\hypertarget{group__J_ga01d17c0d8a22f5b0f5b39358a51115ac}{\index{Gsm\+\_\+\+Gprs module header@{Gsm\+\_\+\+Gprs module header}!modemclose@{modemclose}}
+\index{modemclose@{modemclose}!Gsm\+\_\+\+Gprs module header@{Gsm\+\_\+\+Gprs module header}}
+\subsubsection[{modemclose}]{\setlength{\rightskip}{0pt plus 5cm}int modemclose (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__J_ga01d17c0d8a22f5b0f5b39358a51115ac}
+
+
+This A\+P\+I function Closes the G\+S\+M Module. 
+
+\begin{DoxyReturn}{Returns}
+0 on Success. 
+\end{DoxyReturn}
+\hypertarget{group__J_ga09ea21cdfc6c18d07df547925d791dfe}{\index{Gsm\+\_\+\+Gprs module header@{Gsm\+\_\+\+Gprs module header}!modemopen@{modemopen}}
+\index{modemopen@{modemopen}!Gsm\+\_\+\+Gprs module header@{Gsm\+\_\+\+Gprs module header}}
+\subsubsection[{modemopen}]{\setlength{\rightskip}{0pt plus 5cm}int modemopen (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{Portname}
+\end{DoxyParamCaption}
+)}}\label{group__J_ga09ea21cdfc6c18d07df547925d791dfe}
+
+
+This A\+P\+I function opens G\+S\+M Modem Module. 
+
+\begin{DoxyNote}{Note}
+In-\/order to access the G\+S\+M functionality we have to call this A\+P\+I. 
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$\+Portname} & Description\+: This portname is used to Open any Module(Ex\+: /dev/tty\+U\+S\+B1). Type\+: Input \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__J_ga19110d700a91a6d88661e81ad30978bb}{\index{Gsm\+\_\+\+Gprs module header@{Gsm\+\_\+\+Gprs module header}!Test\+\_\+modem\+\_\+response@{Test\+\_\+modem\+\_\+response}}
+\index{Test\+\_\+modem\+\_\+response@{Test\+\_\+modem\+\_\+response}!Gsm\+\_\+\+Gprs module header@{Gsm\+\_\+\+Gprs module header}}
+\subsubsection[{Test\+\_\+modem\+\_\+response}]{\setlength{\rightskip}{0pt plus 5cm}int Test\+\_\+modem\+\_\+response (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{Cmd, }
+\item[{char $\ast$}]{Resp, }
+\item[{char $\ast$}]{Ans\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{Tout}
+\end{DoxyParamCaption}
+)}}\label{group__J_ga19110d700a91a6d88661e81ad30978bb}
+
+
+This A\+P\+I is used to get the response from A\+T Commands. 
+
+\begin{DoxyNote}{Note}
+Some commands works with sim card and some commands works with-\/out sim card and returns E\+R\+R\+O\+R. This A\+P\+I give Response slow. 
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$\+Cmd} & Description\+: These are the Cmd parameters(\+A\+T Commands) passsed to Gsm modem(Ex\+:A\+T+\+C\+P\+I\+N?, A\+T+\+C\+P\+O\+S?, A\+T+\+C\+R\+E\+G? and etc,.). Type\+: Input \\
+\hline
+{\em $\ast$\+Resp} & Description\+: This parameter fills the Gsm modem with the response of A\+T commands(\+Passed in the first parameter). Type\+: Output \\
+\hline
+{\em $\ast$\+Ans\mbox{[}$\,$\mbox{]}} & Description\+: This parameter(\+Expectation of A\+T Command Response) passsed to Gsm modem(Ex\+:O\+K, E\+R\+R\+O\+R, N\+O C\+A\+R\+R\+I\+E\+R and etc,.), This parameter fills the Gsm modem with the response of A\+T commands(\+Passed in the first parameter). Type\+: Output \\
+\hline
+{\em Tout} & Description\+: This parameter is used to set the timeout for G\+S\+M module to get the response. Type\+: Input \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+3 on N\+O C\+A\+R\+R\+I\+E\+R, 2 on N\+O D\+I\+A\+L\+T\+O\+N\+E, 1 on Command Response Error, 0 on Success, -\/1 on Failure, -\/2 on Time out and 
+\end{DoxyReturn}
+\hypertarget{group__J_ga1ce8c28272556809363b754923bff849}{\index{Gsm\+\_\+\+Gprs module header@{Gsm\+\_\+\+Gprs module header}!Test\+\_\+modem\+\_\+responses@{Test\+\_\+modem\+\_\+responses}}
+\index{Test\+\_\+modem\+\_\+responses@{Test\+\_\+modem\+\_\+responses}!Gsm\+\_\+\+Gprs module header@{Gsm\+\_\+\+Gprs module header}}
+\subsubsection[{Test\+\_\+modem\+\_\+responses}]{\setlength{\rightskip}{0pt plus 5cm}int Test\+\_\+modem\+\_\+responses (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{Cmd, }
+\item[{char $\ast$}]{Resp, }
+\item[{char $\ast$}]{Ans\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{Tout}
+\end{DoxyParamCaption}
+)}}\label{group__J_ga1ce8c28272556809363b754923bff849}
+
+
+This A\+P\+I is used to get the response from A\+T Commands. 
+
+\begin{DoxyNote}{Note}
+Some commands works with sim card and some commands works with-\/out sim card and returns E\+R\+R\+O\+R. 
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$\+Cmd} & Description\+: These are the Cmd parameters(\+A\+T Commands) passsed to Gsm modem(Ex\+:A\+T+\+C\+P\+I\+N?, A\+T+\+C\+P\+O\+S?, A\+T+\+C\+R\+E\+G? and etc,.). Type\+: Input \\
+\hline
+{\em $\ast$\+Resp} & Description\+: This parameter fills the Gsm modem with the response of A\+T commands(\+Passed in the first parameter). Type\+: Output \\
+\hline
+{\em $\ast$\+Ans\mbox{[}$\,$\mbox{]}} & Description\+: This parameter(\+Expectation of A\+T Command Response) passsed to Gsm modem(Ex\+:O\+K, E\+R\+R\+O\+R, N\+O C\+A\+R\+R\+I\+E\+R and etc,.), This parameter fills the Gsm modem with the response of A\+T commands(\+Passed in the first parameter). Type\+: Output \\
+\hline
+{\em Tout} & Description\+: This parameter is used to set the timeout for G\+S\+M module to get the response. Type\+: Input \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+3 on N\+O C\+A\+R\+R\+I\+E\+R, 2 on N\+O D\+I\+A\+L\+T\+O\+N\+E, 1 on Command Response Error, 0 on Success, -\/1 on Failure, -\/2 on Time out and 
+\end{DoxyReturn}

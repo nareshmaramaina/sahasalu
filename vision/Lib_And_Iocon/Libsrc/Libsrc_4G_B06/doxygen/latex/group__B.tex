@@ -1,0 +1,54 @@
+\hypertarget{group__B}{\section{R\+T\+C Module Header.}
+\label{group__B}\index{R\+T\+C Module Header.@{R\+T\+C Module Header.}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{group__B_gab78df64fbe832a18d0c8a41aca287071}{gl11\+\_\+getrtc} (struct tm $\ast$dt)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function gets the time from the R\+T\+C chip or from the O\+S if already set. \end{DoxyCompactList}\item 
+int \hyperlink{group__B_gaf85376edf6364611edb9f636d9c7fdbe}{gl11\+\_\+setrtc} (struct tm $\ast$dt)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function sets the time to the R\+T\+C chip as well as for O\+S. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\hypertarget{group__B_gab78df64fbe832a18d0c8a41aca287071}{\index{R\+T\+C Module Header.@{R\+T\+C Module Header.}!gl11\+\_\+getrtc@{gl11\+\_\+getrtc}}
+\index{gl11\+\_\+getrtc@{gl11\+\_\+getrtc}!R\+T\+C Module Header.@{R\+T\+C Module Header.}}
+\subsubsection[{gl11\+\_\+getrtc}]{\setlength{\rightskip}{0pt plus 5cm}int gl11\+\_\+getrtc (
+\begin{DoxyParamCaption}
+\item[{struct tm $\ast$}]{dt}
+\end{DoxyParamCaption}
+)}}\label{group__B_gab78df64fbe832a18d0c8a41aca287071}
+
+
+This A\+P\+I Function gets the time from the R\+T\+C chip or from the O\+S if already set. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$dt} & Description\+: A pointer to tm structure(time.\+h) The A\+P\+I call populates this structure. Type\+: Output \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__B_gaf85376edf6364611edb9f636d9c7fdbe}{\index{R\+T\+C Module Header.@{R\+T\+C Module Header.}!gl11\+\_\+setrtc@{gl11\+\_\+setrtc}}
+\index{gl11\+\_\+setrtc@{gl11\+\_\+setrtc}!R\+T\+C Module Header.@{R\+T\+C Module Header.}}
+\subsubsection[{gl11\+\_\+setrtc}]{\setlength{\rightskip}{0pt plus 5cm}int gl11\+\_\+setrtc (
+\begin{DoxyParamCaption}
+\item[{struct tm $\ast$}]{dt}
+\end{DoxyParamCaption}
+)}}\label{group__B_gaf85376edf6364611edb9f636d9c7fdbe}
+
+
+This A\+P\+I function sets the time to the R\+T\+C chip as well as for O\+S. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$dt} & Description\+: A pointer to tm structure(time.\+h) The A\+P\+I call populates this structure. Type\+: Input \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}

@@ -1,0 +1,11 @@
+1.1 library 
+
+taken form apepds
+1.Magswipe pinpad authentication apis added and 
+libcrypto.so  libcrypto.so.1.0.0  libkf311.so libraries added
+
+
+
+
+
+

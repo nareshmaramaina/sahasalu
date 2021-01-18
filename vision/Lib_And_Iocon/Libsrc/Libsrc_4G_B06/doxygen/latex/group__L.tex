@@ -1,0 +1,159 @@
+\hypertarget{group__L}{\section{Version Module Header.}
+\label{group__L}\index{Version Module Header.@{Version Module Header.}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{group__L_ga187e392e64bf6cb327f0bcb839d3d40f}{gl11\+\_\+getuid} (char $\ast$Uid)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I used to get the Serial number. \end{DoxyCompactList}\item 
+int \hyperlink{group__L_gaf29deab5e8615c18227b76d0795c2704}{gl11\+\_\+getpinpadid} (char $\ast$machineid)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function is used to get the P\+I\+N P\+A\+D I\+D. (Pre Requirements\+: This id should be set at u-\/boot prompt before call this A\+P\+I do like as\+: V\+I\+S\+I\+O\+N\+T\+E\+K$>$ setenv machineid 1234567890 then V\+I\+S\+I\+O\+N\+T\+E\+K$>$ saveenv). \end{DoxyCompactList}\item 
+int \hyperlink{group__L_gad69ff9042b0c39abde1b0827fe7b8f98}{gl11\+\_\+gethwid} (char $\ast$hwid)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function is used to get the Hardware I\+D. (Pre Requirements\+: This id should be set at u-\/boot prompt before call this A\+P\+I do like as\+: V\+I\+S\+I\+O\+N\+T\+E\+K$>$ setenv hwid 87654321 then V\+I\+S\+I\+O\+N\+T\+E\+K$>$ saveenv). \end{DoxyCompactList}\item 
+int \hyperlink{group__L_gae33abc02e4e0c66cbf543366837c966c}{gl11\+\_\+getmacid} (har $\ast$macid)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I function is used to get the M\+A\+C I\+D(8\+C\+:89\+:\+A5\+:\+E\+B\+:8\+E\+:9\+C). \end{DoxyCompactList}\item 
+int \hyperlink{group__L_ga929263cb027bb7f7acf33302051b073e}{bootloader\+\_\+details} (char $\ast$Bver)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function used to get bootloader version details. \end{DoxyCompactList}\item 
+int \hyperlink{group__L_ga4560da82475960f347d9e92fa2c413a5}{kernel\+\_\+details} (char $\ast$Kver)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function used to get kernel version details. \end{DoxyCompactList}\item 
+int \hyperlink{group__L_ga474fbf260ac02d737c5bb9a901b0322c}{rootfs\+\_\+details} (char $\ast$Rver)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I Function used to get rootfs version details. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\hypertarget{group__L_ga929263cb027bb7f7acf33302051b073e}{\index{Version Module Header.@{Version Module Header.}!bootloader\+\_\+details@{bootloader\+\_\+details}}
+\index{bootloader\+\_\+details@{bootloader\+\_\+details}!Version Module Header.@{Version Module Header.}}
+\subsubsection[{bootloader\+\_\+details}]{\setlength{\rightskip}{0pt plus 5cm}int bootloader\+\_\+details (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{Bver}
+\end{DoxyParamCaption}
+)}}\label{group__L_ga929263cb027bb7f7acf33302051b073e}
+
+
+This A\+P\+I Function used to get bootloader version details. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$\+Bver} & Description\+: Buffer which holds uboot version details. Type\+: Output \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Error. 
+\end{DoxyReturn}
+\hypertarget{group__L_gad69ff9042b0c39abde1b0827fe7b8f98}{\index{Version Module Header.@{Version Module Header.}!gl11\+\_\+gethwid@{gl11\+\_\+gethwid}}
+\index{gl11\+\_\+gethwid@{gl11\+\_\+gethwid}!Version Module Header.@{Version Module Header.}}
+\subsubsection[{gl11\+\_\+gethwid}]{\setlength{\rightskip}{0pt plus 5cm}int gl11\+\_\+gethwid (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{hwid}
+\end{DoxyParamCaption}
+)}}\label{group__L_gad69ff9042b0c39abde1b0827fe7b8f98}
+
+
+This A\+P\+I function is used to get the Hardware I\+D. (Pre Requirements\+: This id should be set at u-\/boot prompt before call this A\+P\+I do like as\+: V\+I\+S\+I\+O\+N\+T\+E\+K$>$ setenv hwid 87654321 then V\+I\+S\+I\+O\+N\+T\+E\+K$>$ saveenv). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$hwid} & Description\+: Read Hardware I\+D of 8 digits from u-\/boot environment variables. Type\+: Output Range\+: 8 digits (bytes). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__L_gae33abc02e4e0c66cbf543366837c966c}{\index{Version Module Header.@{Version Module Header.}!gl11\+\_\+getmacid@{gl11\+\_\+getmacid}}
+\index{gl11\+\_\+getmacid@{gl11\+\_\+getmacid}!Version Module Header.@{Version Module Header.}}
+\subsubsection[{gl11\+\_\+getmacid}]{\setlength{\rightskip}{0pt plus 5cm}int gl11\+\_\+getmacid (
+\begin{DoxyParamCaption}
+\item[{har $\ast$}]{macid}
+\end{DoxyParamCaption}
+)}}\label{group__L_gae33abc02e4e0c66cbf543366837c966c}
+
+
+This A\+P\+I function is used to get the M\+A\+C I\+D(8\+C\+:89\+:\+A5\+:\+E\+B\+:8\+E\+:9\+C). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$macid} & Description\+: Buffer which holds M\+A\+C I\+D details. Type\+: Output Range\+: 17 characters(bytes). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__L_gaf29deab5e8615c18227b76d0795c2704}{\index{Version Module Header.@{Version Module Header.}!gl11\+\_\+getpinpadid@{gl11\+\_\+getpinpadid}}
+\index{gl11\+\_\+getpinpadid@{gl11\+\_\+getpinpadid}!Version Module Header.@{Version Module Header.}}
+\subsubsection[{gl11\+\_\+getpinpadid}]{\setlength{\rightskip}{0pt plus 5cm}int gl11\+\_\+getpinpadid (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{machineid}
+\end{DoxyParamCaption}
+)}}\label{group__L_gaf29deab5e8615c18227b76d0795c2704}
+
+
+This A\+P\+I function is used to get the P\+I\+N P\+A\+D I\+D. (Pre Requirements\+: This id should be set at u-\/boot prompt before call this A\+P\+I do like as\+: V\+I\+S\+I\+O\+N\+T\+E\+K$>$ setenv machineid 1234567890 then V\+I\+S\+I\+O\+N\+T\+E\+K$>$ saveenv). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$machineid} & Description\+: Read machine I\+D of 10 digits from u-\/boot environment variables. Type\+: Output Range\+: 10 digits (bytes). \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return Values 0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__L_ga187e392e64bf6cb327f0bcb839d3d40f}{\index{Version Module Header.@{Version Module Header.}!gl11\+\_\+getuid@{gl11\+\_\+getuid}}
+\index{gl11\+\_\+getuid@{gl11\+\_\+getuid}!Version Module Header.@{Version Module Header.}}
+\subsubsection[{gl11\+\_\+getuid}]{\setlength{\rightskip}{0pt plus 5cm}int gl11\+\_\+getuid (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{Uid}
+\end{DoxyParamCaption}
+)}}\label{group__L_ga187e392e64bf6cb327f0bcb839d3d40f}
+
+
+This A\+P\+I used to get the Serial number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$\+Uid} & Description\+: Variable buffer to be passed to get the Serial number. Type\+: Output Range\+: 16 Characters(bytes).\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__L_ga4560da82475960f347d9e92fa2c413a5}{\index{Version Module Header.@{Version Module Header.}!kernel\+\_\+details@{kernel\+\_\+details}}
+\index{kernel\+\_\+details@{kernel\+\_\+details}!Version Module Header.@{Version Module Header.}}
+\subsubsection[{kernel\+\_\+details}]{\setlength{\rightskip}{0pt plus 5cm}int kernel\+\_\+details (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{Kver}
+\end{DoxyParamCaption}
+)}}\label{group__L_ga4560da82475960f347d9e92fa2c413a5}
+
+
+This A\+P\+I Function used to get kernel version details. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$\+Kver} & Description\+: Buffer which holds kernel version details. Type\+: Output \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Error. 
+\end{DoxyReturn}
+\hypertarget{group__L_ga474fbf260ac02d737c5bb9a901b0322c}{\index{Version Module Header.@{Version Module Header.}!rootfs\+\_\+details@{rootfs\+\_\+details}}
+\index{rootfs\+\_\+details@{rootfs\+\_\+details}!Version Module Header.@{Version Module Header.}}
+\subsubsection[{rootfs\+\_\+details}]{\setlength{\rightskip}{0pt plus 5cm}int rootfs\+\_\+details (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{Rver}
+\end{DoxyParamCaption}
+)}}\label{group__L_ga474fbf260ac02d737c5bb9a901b0322c}
+
+
+This A\+P\+I Function used to get rootfs version details. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$\+Rver} & Description\+: Buffer which holds rootfs version details. Type\+: Output \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Error. 
+\end{DoxyReturn}

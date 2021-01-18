@@ -1,0 +1,250 @@
+\hypertarget{group__E}{\section{I\+F\+D Module Header.}
+\label{group__E}\index{I\+F\+D Module Header.@{I\+F\+D Module Header.}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{group__E_ga7a152ac6f3b7d07e496997925dbbab61}{scr\+\_\+open} (void)
+\begin{DoxyCompactList}\small\item\em This function checks for the existence of the I\+F\+D card reader device and if found prepares it for further communication.\+Before attempting any operations related to Sam card reader device this function should be called. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_ga2734d3bcd5ff6a9c49be31c325604eab}{scr\+\_\+close} (void)
+\begin{DoxyCompactList}\small\item\em This function closes the I\+F\+D device. After finishing all the operations related to I\+F\+D card reader this function should get called. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_gadd96a82bc4b780133bb337333bed762b}{select\+\_\+card} (int card)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is to select the I\+F\+D card slot. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_ga1b464bff1a79bbf4fdfd249cf102d331}{powerup\+\_\+5v} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is to power up the card in 5 Volts. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_ga879f3cf7a6460262c1976f9a7273f74e}{powerup\+\_\+3v} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is to power up the card in 3 Volts. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_gabc346300f471a35d0502373f5b04766e}{powerup1\+\_\+8v} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is to power up the card in 1.\+8 Volts. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_gaff820a31b976fcb517d872d74c7cd88c}{S\+C\+R\+\_\+get\+A\+T\+R} (unsigned char $\ast$Aresp, unsigned int $\ast$Alen)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I reads A\+T\+R(\+Answer to The Response) from the card. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_ga93fed44584244baac49478d101448441}{S\+C\+R\+\_\+\+Checkup\+\_\+\+Card\+Presence} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to check the card presence in Selected Slot. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_gafe7a146be5453ea14e7c41ea41d2dc33}{S\+C\+R\+\_\+\+Send\+Command} (unsigned char $\ast$Cmd, int C\+Len, unsigned char $\ast$Resp, unsigned int $\ast$R\+Len)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to send all the E\+M\+V compatible C\+A\+P\+D\+Us to the card. The A\+P\+I sends the command contained in C\+A\+P\+D\+U Data buffer and gives the response and its length out through R\+A\+P\+D\+U Data and R\+Len variables respectively. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_ga0ba852a4be481d685f594b18529c2d6b}{powerdown} (void)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to Power down the I\+F\+D cards. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_gac6a5cb156099b15c7e569b5ba6dbfe5c}{S\+C\+R\+\_\+\+Get\+F\+V} (unsigned char $\ast$Fresp, unsigned int $\ast$Flen)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to get S\+C\+R Firmware Version number. \end{DoxyCompactList}\item 
+int \hyperlink{group__E_gae44d3efab59f709e4134c3e2c6d0bd95}{S\+C\+R\+\_\+\+Get\+S\+B} (unsigned char $\ast$Sresp, unsigned int $\ast$Slen)
+\begin{DoxyCompactList}\small\item\em This A\+P\+I is used to get S\+C\+R Software Build number. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+\subsection{Function Documentation}
+\hypertarget{group__E_ga0ba852a4be481d685f594b18529c2d6b}{\index{I\+F\+D Module Header.@{I\+F\+D Module Header.}!powerdown@{powerdown}}
+\index{powerdown@{powerdown}!I\+F\+D Module Header.@{I\+F\+D Module Header.}}
+\subsubsection[{powerdown}]{\setlength{\rightskip}{0pt plus 5cm}int powerdown (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__E_ga0ba852a4be481d685f594b18529c2d6b}
+
+
+This A\+P\+I is used to Power down the I\+F\+D cards. 
+
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__E_gabc346300f471a35d0502373f5b04766e}{\index{I\+F\+D Module Header.@{I\+F\+D Module Header.}!powerup1\+\_\+8v@{powerup1\+\_\+8v}}
+\index{powerup1\+\_\+8v@{powerup1\+\_\+8v}!I\+F\+D Module Header.@{I\+F\+D Module Header.}}
+\subsubsection[{powerup1\+\_\+8v}]{\setlength{\rightskip}{0pt plus 5cm}int powerup1\+\_\+8v (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__E_gabc346300f471a35d0502373f5b04766e}
+
+
+This A\+P\+I is to power up the card in 1.\+8 Volts. 
+
+\begin{DoxyReturn}{Returns}
+0 on Success, 1 on Write Error and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__E_ga879f3cf7a6460262c1976f9a7273f74e}{\index{I\+F\+D Module Header.@{I\+F\+D Module Header.}!powerup\+\_\+3v@{powerup\+\_\+3v}}
+\index{powerup\+\_\+3v@{powerup\+\_\+3v}!I\+F\+D Module Header.@{I\+F\+D Module Header.}}
+\subsubsection[{powerup\+\_\+3v}]{\setlength{\rightskip}{0pt plus 5cm}int powerup\+\_\+3v (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__E_ga879f3cf7a6460262c1976f9a7273f74e}
+
+
+This A\+P\+I is to power up the card in 3 Volts. 
+
+\begin{DoxyReturn}{Returns}
+0 on Success, 1 on Write Error and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__E_ga1b464bff1a79bbf4fdfd249cf102d331}{\index{I\+F\+D Module Header.@{I\+F\+D Module Header.}!powerup\+\_\+5v@{powerup\+\_\+5v}}
+\index{powerup\+\_\+5v@{powerup\+\_\+5v}!I\+F\+D Module Header.@{I\+F\+D Module Header.}}
+\subsubsection[{powerup\+\_\+5v}]{\setlength{\rightskip}{0pt plus 5cm}int powerup\+\_\+5v (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__E_ga1b464bff1a79bbf4fdfd249cf102d331}
+
+
+This A\+P\+I is to power up the card in 5 Volts. 
+
+\begin{DoxyReturn}{Returns}
+0 on Success, 1 on Write Error and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__E_ga93fed44584244baac49478d101448441}{\index{I\+F\+D Module Header.@{I\+F\+D Module Header.}!S\+C\+R\+\_\+\+Checkup\+\_\+\+Card\+Presence@{S\+C\+R\+\_\+\+Checkup\+\_\+\+Card\+Presence}}
+\index{S\+C\+R\+\_\+\+Checkup\+\_\+\+Card\+Presence@{S\+C\+R\+\_\+\+Checkup\+\_\+\+Card\+Presence}!I\+F\+D Module Header.@{I\+F\+D Module Header.}}
+\subsubsection[{S\+C\+R\+\_\+\+Checkup\+\_\+\+Card\+Presence}]{\setlength{\rightskip}{0pt plus 5cm}int S\+C\+R\+\_\+\+Checkup\+\_\+\+Card\+Presence (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__E_ga93fed44584244baac49478d101448441}
+
+
+This A\+P\+I is used to check the card presence in Selected Slot. 
+
+\begin{DoxyReturn}{Returns}
+11 for card Presence, 12 for card Absence and -\/1 for Error. 
+\end{DoxyReturn}
+\hypertarget{group__E_ga2734d3bcd5ff6a9c49be31c325604eab}{\index{I\+F\+D Module Header.@{I\+F\+D Module Header.}!scr\+\_\+close@{scr\+\_\+close}}
+\index{scr\+\_\+close@{scr\+\_\+close}!I\+F\+D Module Header.@{I\+F\+D Module Header.}}
+\subsubsection[{scr\+\_\+close}]{\setlength{\rightskip}{0pt plus 5cm}int scr\+\_\+close (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__E_ga2734d3bcd5ff6a9c49be31c325604eab}
+
+
+This function closes the I\+F\+D device. After finishing all the operations related to I\+F\+D card reader this function should get called. 
+
+\begin{DoxyReturn}{Returns}
+0 on Success. 
+\end{DoxyReturn}
+\hypertarget{group__E_gaff820a31b976fcb517d872d74c7cd88c}{\index{I\+F\+D Module Header.@{I\+F\+D Module Header.}!S\+C\+R\+\_\+get\+A\+T\+R@{S\+C\+R\+\_\+get\+A\+T\+R}}
+\index{S\+C\+R\+\_\+get\+A\+T\+R@{S\+C\+R\+\_\+get\+A\+T\+R}!I\+F\+D Module Header.@{I\+F\+D Module Header.}}
+\subsubsection[{S\+C\+R\+\_\+get\+A\+T\+R}]{\setlength{\rightskip}{0pt plus 5cm}int S\+C\+R\+\_\+get\+A\+T\+R (
+\begin{DoxyParamCaption}
+\item[{unsigned char $\ast$}]{Aresp, }
+\item[{unsigned int $\ast$}]{Alen}
+\end{DoxyParamCaption}
+)}}\label{group__E_gaff820a31b976fcb517d872d74c7cd88c}
+
+
+This A\+P\+I reads A\+T\+R(\+Answer to The Response) from the card. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$\+Aresp} & Description\+: Buffer which holds A\+T\+R response from the card. Type\+: O\+U\+T\+P\+U\+T \\
+\hline
+{\em $\ast$\+Alen} & Description\+: Length of A\+T\+R from card in bytes. Type\+: O\+U\+T\+P\+U\+T \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Error 'if unable to receive A\+T\+R or if card is not present in slot'. 
+\end{DoxyReturn}
+\hypertarget{group__E_gac6a5cb156099b15c7e569b5ba6dbfe5c}{\index{I\+F\+D Module Header.@{I\+F\+D Module Header.}!S\+C\+R\+\_\+\+Get\+F\+V@{S\+C\+R\+\_\+\+Get\+F\+V}}
+\index{S\+C\+R\+\_\+\+Get\+F\+V@{S\+C\+R\+\_\+\+Get\+F\+V}!I\+F\+D Module Header.@{I\+F\+D Module Header.}}
+\subsubsection[{S\+C\+R\+\_\+\+Get\+F\+V}]{\setlength{\rightskip}{0pt plus 5cm}int S\+C\+R\+\_\+\+Get\+F\+V (
+\begin{DoxyParamCaption}
+\item[{unsigned char $\ast$}]{Fresp, }
+\item[{unsigned int $\ast$}]{Flen}
+\end{DoxyParamCaption}
+)}}\label{group__E_gac6a5cb156099b15c7e569b5ba6dbfe5c}
+
+
+This A\+P\+I is used to get S\+C\+R Firmware Version number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$\+Fresp} & Description\+: Buffer to hold the response A\+P\+D\+U in the standard format. Type\+: O\+U\+T\+P\+U\+T \\
+\hline
+{\em $\ast$\+Flen} & Description\+: variable to hold response length. Type\+: O\+U\+T\+P\+U\+T \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__E_gae44d3efab59f709e4134c3e2c6d0bd95}{\index{I\+F\+D Module Header.@{I\+F\+D Module Header.}!S\+C\+R\+\_\+\+Get\+S\+B@{S\+C\+R\+\_\+\+Get\+S\+B}}
+\index{S\+C\+R\+\_\+\+Get\+S\+B@{S\+C\+R\+\_\+\+Get\+S\+B}!I\+F\+D Module Header.@{I\+F\+D Module Header.}}
+\subsubsection[{S\+C\+R\+\_\+\+Get\+S\+B}]{\setlength{\rightskip}{0pt plus 5cm}int S\+C\+R\+\_\+\+Get\+S\+B (
+\begin{DoxyParamCaption}
+\item[{unsigned char $\ast$}]{Sresp, }
+\item[{unsigned int $\ast$}]{Slen}
+\end{DoxyParamCaption}
+)}}\label{group__E_gae44d3efab59f709e4134c3e2c6d0bd95}
+
+
+This A\+P\+I is used to get S\+C\+R Software Build number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$\+Sresp} & Description\+: Buffer to hold the response A\+P\+D\+U in the standard format. Type\+: O\+U\+T\+P\+U\+T \\
+\hline
+{\em $\ast$\+Slen} & Description\+: variable to hold response length. Type\+: O\+U\+T\+P\+U\+T \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
+\hypertarget{group__E_ga7a152ac6f3b7d07e496997925dbbab61}{\index{I\+F\+D Module Header.@{I\+F\+D Module Header.}!scr\+\_\+open@{scr\+\_\+open}}
+\index{scr\+\_\+open@{scr\+\_\+open}!I\+F\+D Module Header.@{I\+F\+D Module Header.}}
+\subsubsection[{scr\+\_\+open}]{\setlength{\rightskip}{0pt plus 5cm}int scr\+\_\+open (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}}\label{group__E_ga7a152ac6f3b7d07e496997925dbbab61}
+
+
+This function checks for the existence of the I\+F\+D card reader device and if found prepares it for further communication.\+Before attempting any operations related to Sam card reader device this function should be called. 
+
+\begin{DoxyNote}{Note}
+Backward compatabilty with I\+F\+D A\+P\+I's are also existed. 
+\end{DoxyNote}
+\begin{DoxyReturn}{Returns}
+$>$0 on Success and $<$0 on Error. 
+\end{DoxyReturn}
+\hypertarget{group__E_gafe7a146be5453ea14e7c41ea41d2dc33}{\index{I\+F\+D Module Header.@{I\+F\+D Module Header.}!S\+C\+R\+\_\+\+Send\+Command@{S\+C\+R\+\_\+\+Send\+Command}}
+\index{S\+C\+R\+\_\+\+Send\+Command@{S\+C\+R\+\_\+\+Send\+Command}!I\+F\+D Module Header.@{I\+F\+D Module Header.}}
+\subsubsection[{S\+C\+R\+\_\+\+Send\+Command}]{\setlength{\rightskip}{0pt plus 5cm}int S\+C\+R\+\_\+\+Send\+Command (
+\begin{DoxyParamCaption}
+\item[{unsigned char $\ast$}]{Cmd, }
+\item[{int}]{C\+Len, }
+\item[{unsigned char $\ast$}]{Resp, }
+\item[{unsigned int $\ast$}]{R\+Len}
+\end{DoxyParamCaption}
+)}}\label{group__E_gafe7a146be5453ea14e7c41ea41d2dc33}
+
+
+This A\+P\+I is used to send all the E\+M\+V compatible C\+A\+P\+D\+Us to the card. The A\+P\+I sends the command contained in C\+A\+P\+D\+U Data buffer and gives the response and its length out through R\+A\+P\+D\+U Data and R\+Len variables respectively. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$\+Cmd} & Description\+:Buffer holding the command A\+P\+D\+U in the standard format. Type\+:I\+N\+P\+U\+T \\
+\hline
+{\em C\+Len} & Description\+:length of the C\+A\+P\+D\+U Data buffer. Type\+:I\+N\+P\+U\+T \\
+\hline
+{\em $\ast$\+Resp} & Description\+:Buffer to hold the response A\+P\+D\+U in the standard format. Type\+:O\+U\+T\+P\+U\+T \\
+\hline
+{\em $\ast$\+R\+Len} & Description\+:variable to hold response length. Type\+:O\+U\+T\+P\+U\+T \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Error. 
+\end{DoxyReturn}
+\hypertarget{group__E_gadd96a82bc4b780133bb337333bed762b}{\index{I\+F\+D Module Header.@{I\+F\+D Module Header.}!select\+\_\+card@{select\+\_\+card}}
+\index{select\+\_\+card@{select\+\_\+card}!I\+F\+D Module Header.@{I\+F\+D Module Header.}}
+\subsubsection[{select\+\_\+card}]{\setlength{\rightskip}{0pt plus 5cm}int select\+\_\+card (
+\begin{DoxyParamCaption}
+\item[{int}]{card}
+\end{DoxyParamCaption}
+)}}\label{group__E_gadd96a82bc4b780133bb337333bed762b}
+
+
+This A\+P\+I is to select the I\+F\+D card slot. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em card} & Description\+: 1 -\/ External I\+F\+D Card and 2 -\/ internal I\+F\+D Card. Type\+: I\+N\+P\+U\+T \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+0 on Success and -\/1 on Failure. 
+\end{DoxyReturn}
