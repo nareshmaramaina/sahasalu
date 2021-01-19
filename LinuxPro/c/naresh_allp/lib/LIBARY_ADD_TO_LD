@@ -1,0 +1,6 @@
+step 1 : cd /etc/ld.so.conf.d/
+step 2 : create a file name extension with .conf
+	ex:vi myown.conf
+step 3 : write any folder path in myown.conf ex: /home/naresh/pos
+
+step 4 :  $ ldconfig  <----- after run .so of that path will be searched.

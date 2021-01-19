@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<POSHEALTHDETAILS>
+  <DEVICE_DETAILS>
+    <TerminalID>1802516151</TerminalID>
+    <SerialNo>111802516151</SerialNo>
+    <IMEInumber>861477031963463</IMEInumber>
+    <Sim1CCID>89914901900021021602</Sim1CCID>
+    <Sim2CCID>89910725400202120382</Sim2CCID>
+    <UID>202541d4ea9ce675</UID>
+    <Macid>7C:F0:BA:FA:DA:F4</Macid>
+  </DEVICE_DETAILS>
+  <PERIPHERALS>
+    <RTC>OK</RTC>
+    <Date_Time>25072018111150</Date_Time>
+    <AUDIO>OK</AUDIO>
+    <FingerPrint>OK/Capacitive</FingerPrint>
+    <FPScannerid>F7FD39147F8ED7332DB72A895BD03337</FPScannerid>
+    <Ethernet>Not Alive</Ethernet>
+    <PaperStatus>Present</PaperStatus>
+    <Printer>OK</Printer>
+    <Camera>OK</Camera>
+    <IFD1>ERROR</IFD1>
+    <Adapter>Connected</Adapter>
+    <Battery>0.00V/Not Connected</Battery>
+    <GSMVersion>LE11B06SIM7600M22</GSMVersion>
+    <Sim1Details>SIM1/21db/airtel/4G</Sim1Details>
+    <Sim2Details>SIM2/21db/idea/4G</Sim2Details>
+    <SAM1>ERROR</SAM1>
+    <SAM2>ERROR</SAM2>
+    <WIFI>OK</WIFI>
+    <Bluetooth>OK</Bluetooth>
+  </PERIPHERALS>
+  <MEMORY>
+    <InternalMem-Sysuser>1007.9M/33.3M/923.4M</InternalMem-Sysuser>
+    <InternalMem-Jffs2>3.9G/136.1M/3.6G</InternalMem-Jffs2>
+    <ExternalMem>Not Found</ExternalMem>
+    <Usbdevice>Not Found</Usbdevice>
+    <RAM>1008MB/158MB/849MB</RAM>
+  </MEMORY>
+  <IMAGES>
+    <UbootImageName>GL11-UB-2009.08-1573-1.1.bin</UbootImageName>
+    <KernelImageName>GL11-KR-3.0.35-1860-1.0.IMG</KernelImageName>
+    <RootfsImageName>GL11-RD-EXT3-1854-1.1.IMG</RootfsImageName>
+    <ApplicationType>100</ApplicationType>
+    <ApplicationVer>1.0</ApplicationVer>
+    <FirmwarePatchVersion>1.0</FirmwarePatchVersion>
+    <FirmwarePatchName>patch-1.0.zip</FirmwarePatchName>
+  </IMAGES>
+</POSHEALTHDETAILS>
+#END#

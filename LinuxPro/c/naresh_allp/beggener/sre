@@ -1,0 +1,7 @@
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+4 S     0  9096  9003  0  80   0 - 15362 wait   pts/11   00:00:00 su
+4 S     0  9109  9096  0  80   0 -  7110 wait   pts/11   00:00:00 bash
+4 S     0 14767 14741  0  80   0 - 15362 wait   pts/6    00:00:00 su
+4 S     0 14784 14767  0  80   0 -  7167 wait   pts/6    00:00:00 bash
+0 S     0 16143  9109  0  80   0 - 13460 poll_s pts/11   00:00:00 kermit
+0 R     0 17407 14784  0  80   0 -  8997 -      pts/6    00:00:00 ps

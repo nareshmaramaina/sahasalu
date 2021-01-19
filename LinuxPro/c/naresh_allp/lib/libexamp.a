@@ -1,0 +1,8 @@
+!<arch>
+bill1.c/        0           0     0     644     93        `
+#include <stdio.h>
+void bill(char *arg)
+{
+printf("bill: IAM DYNAMIC we passed %s\n", arg);
+}
+

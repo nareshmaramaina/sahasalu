@@ -1,0 +1,13 @@
+CC= gcc
+INCLUDE= .
+CFLAGS= -g -Wall
+sample:	main.o fun1.o fun2.o
+	$(CC) -o sample $(INCLUDE) main.o fun1.o fun2.o
+main.o:main.c fun.h naresh.h
+	$(CC)I$(INCLUDE) $(CFLAGS) -c  main.c
+fun1.o:fun1.c  naresh.h
+	$(CC) -I$(INCLUDE) $(CFLAGS) -c  fun1.c
+fun2.o:fun2.c  naresh.h
+	$(CC) -I$(INCLUDE) $(CFLAGS) -c  fun2.c
+clean:
+	rm *.o	
