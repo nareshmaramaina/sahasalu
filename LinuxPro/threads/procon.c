@@ -25,6 +25,7 @@ static void *threadFunc(void *arg)
 		/* Code to produce units */
 
 		pthread_mutex_lock(&mtx);
+		puts("Locked in thread for loop");
 
 		avail++;	/* Let consumer know another unit is available */
 
@@ -51,6 +52,8 @@ int main()
 	if (ret != 0)
 		perror("pthread_create:      ");
 
+		pthread_mutex_lock(&mtx);
+		printf("Locked in for loop =, %d, %d\n",sizeof(short),sizeof(long));
 	/* Consumer code to process produced units */
 	/* Use a polling loop to check for available units */
 	for (;;) {
@@ -60,7 +63,7 @@ int main()
 			/* Do something with produced unit */
 			numConsumed++;
 			avail--;
-			printf("numConsumed=%d\n", numConsumed);
+			printf("numConsumed=%d avail  %d\n", numConsumed,avail);
 			done = numConsumed >= totRequired;
 		}
 

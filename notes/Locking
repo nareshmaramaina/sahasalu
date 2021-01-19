@@ -45,3 +45,95 @@ DeadLock :-
 Dead Lock is a condition invloing one or more threads exection or one or more resources, such that each thread waits for one of the resources,  but all threads already held. The threads all wait for each other, but they never make any progress toward releasing the resources that they alredy heald,  Therefore none of threads are continue, which results in a deadlock. 
 
 
+
+Spin Locks :-  
+
+A Spin lock is continuley poll for lock to be removed. Spin lock is suitable for less time release, it is useful in Softirq and interrupt handlers. 
+
+A spinlock is a lock that operates by disabling scheduler and possibly interrupts (irqsave variant) on that particular core that the lock is acquired on. I 
+* Both spinlocks & mutexes api implements their locking functions two disable preemption on the
+local processor. When lock acquisition succeed.
+* This ensures continuous CPU time to the owner process. When the lock is released preemption is re
+enabled.
+* Disabling kernel preemption with in critical section results in reduced lock contention and elements
+the possibility of priority inventions due to lock contentions
+* Voluntary ( like sleep ), wait ( like read call ) , interrupt preemptions are still possible.
+
+
+spin_lock() Acquires given lock
+spin_lock_irq() Disables local interrupts and acquires given lock
+spin_lock_irqsave() Saves current state of local interrupts, disables local inter-
+rupts, and acquires given lock
+spin_unlock() Releases given lock
+spin_unlock_irq() Releases given lock and enables local interrupts
+spin_unlock_irqrestore() Releases given lock and restores local interrupts to given pre-
+vious state
+spin_lock_init() Dynamically initializes given spinlock_t
+spin_trylock() Tries to acquire given lock; if unavailable, returns nonzero
+spin_is_locked() Returns nonzero if the given lock is currently acquired, other-
+wise it returns zero
+
+
+
+Semaphores : - 
+
+Semaphores are sleeping Locks , When tasks attempts to acquire a semaphore i.e, unavailable , the semaphores places the task onto a wait queue and put the task to sleep. 
+
+Then processor is free to excute the other code.
+
+When The semaphore becomes available, one of the task on the wait queue is awakened , so that it can aquire the semaphore.
+
+
+* semaphores are well suited to locks that are held for a long time. 
+
+* Conversely, semaphore are not optimcal for that held lock for short periods, cause the overhaed of queues and sleeping, 
+
+* Because a thread of execution sleeps on lock contention, semaphores must be obtained only in process context because interrupt context is not schedulable.
+
+* You cannot hold a spin lock while you acquire a semaphore, because you might have to sleep while waiting for the semaphore, and 
+you cannot sleep while holding a spin lock.
+
+If your code needs to sleep, which is often the case when synchronizing with user-space, semaphores are the sole solution
+
+.When you do have a choice, the decision between semaphore and spin lock should be based on lock hold time
+
+
+Additionally,
+unlike spin locks, semaphores do not disable kernel preemption and, consequently, code
+holding a semaphore can be preempted.This means semaphores do not adversely affect
+scheduling latency
+
+
+The mutex is represented by struct mutex . It behaves similar to a semaphore with a count of one,
+ but it has a simpler interface, more efficient performance, and additional constraints on its use
+
+
+BKL ( Big Kernel Lock ) Not useful , it is same as spin lock .
+
+
+Sequential Lock are Useful when ur prority to writers, Writers is always successuful ( until there is other writers ) , unlike spinlock read-writers they are priority reader, after reading only writes will allow. 
+
+
+
+Sequetial Locks : - 
+write_seqlock(&mr_seq_lock);
+/* write lock is obtained... */
+write_sequnlock(&mr_seq_lock);
+This looks like normal spin lock code.The oddness comes in with the read path,
+which is quite a bit different:
+unsigned long seq;
+do {
+seq = read_seqbegin(&mr_seq_lock);
+/* read data here ... */
+} while (read_seqretry(&mr_seq_lock, seq));
+
+
+Spin lock read-write 
+
+read_lock(&mr_rwlock);
+/* critical section (read only) ... */
+read_unlock(&mr_rwlock);
+Finally, in the writer code path:
+write_lock(&mr_rwlock);
+/* critical section (read and write) ... */
+write_unlock(&mr_lock);
