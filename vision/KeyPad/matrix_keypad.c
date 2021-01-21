@@ -192,7 +192,8 @@ static void kpad_timer(unsigned long data)
 		pr_info(" Column0 = %d\n", col_get_gpio_value(MX6_BRD_LCD_DAT11_COL0));
 		pr_info(" Column1 = %d\n", col_get_gpio_value(MX6_BRD_LCD_DAT12_COL1));
 		pr_info(" Column2 = %d\n", col_get_gpio_value(MX6_BRD_LCD_DAT13_COL2));
-		if(scan_count){
+		if(scan_count)
+		{
 			val = col_get_gpio_value(MX6_BRD_LCD_DAT11_COL0);
 			new_state[rowdata] = val ;
 			val = col_get_gpio_value(MX6_BRD_LCD_DAT12_COL1);
@@ -201,7 +202,7 @@ static void kpad_timer(unsigned long data)
 			val = col_get_gpio_value(MX6_BRD_LCD_DAT13_COL2);
 			if(val)
 				new_state[rowdata] |= 0x04 ;
-			if((rowdata == 3) && (new_state[rowdata] == 5)){ 
+			if((new_state[rowdata] == 5) (rowdata == 3) &&){ // ( KEY( Col, Row );
 				if(fn_key_count == 1)		
 					fn_key_count = 0 ;
 				shift_count ++ ;
@@ -237,10 +238,35 @@ static void kpad_timer(unsigned long data)
 				//bkl_controller() ;
 				key_out_flag=1;
 			}
-			else{
-				if((new_state[rowdata] == 6 && rowdata == 3) || (new_state[rowdata] == 5 && rowdata == 4)|| (new_state[rowdata] == 4 && rowdata == 5)||(new_state[rowdata] == 2 && rowdata == 6)||(new_state[rowdata] == 0 && rowdata == 4)||(new_state[rowdata] == 6 && rowdata == 4)||(new_state[rowdata] == 5 && rowdata == 5)||(new_state[rowdata] == 3 && rowdata == 6)||(new_state[rowdata] == 4 && rowdata == 4)||(new_state[rowdata] == 3 && rowdata == 5)||(new_state[rowdata] == 0 && rowdata == 7)||(new_state[rowdata] == 6 && rowdata == 6))
+			else
+			{
+				/*KEY(0, 0, KEY_Q),KEY(0, 1, KEY_I),KEY(0, 2, KEY_G),KEY(0, 3, KEY_C),KEY(0, 4, KEY_TAB),KEY(0, 5, KEY_4),KEY(0, 6, KEY_8),KEY(0, 7, KEY_ENTER),
+				  KEY(1, 0, KEY_W),KEY(1, 1, KEY_O),KEY(1, 2, KEY_H),KEY(1, 3, KEY_V),KEY(1, 4, KEY_1),KEY(1, 5, KEY_5),KEY(1, 6, KEY_9),KEY(1, 7, KEY_RESERVED),
+				  KEY(2, 0, KEY_E),KEY(2, 1, KEY_P),KEY(2, 2, KEY_J),KEY(2, 3, KEY_B),KEY(2, 4, KEY_2),KEY(2, 5, KEY_6),KEY(2, 6, KEY_RIGHT),KEY(2, 7,KEY_RESERVED),
+				  KEY(3, 0, KEY_R),KEY(3, 1, KEY_A),KEY(3, 2, KEY_K),KEY(3, 3, KEY_N),KEY(3, 4, KEY_3),KEY(3, 5, KEY_BACKSPACE),KEY(3, 6, KEY_END),KEY(3, 7, KEY_RESERVED),
+				  KEY(4, 0, KEY_T),KEY(4, 1, KEY_S),KEY(4, 2, KEY_L),KEY(4, 3, KEY_M),KEY(4, 4, KEY_ESC),KEY(4, 5, KEY_LEFT),KEY(4, 6, KEY_RESERVED),KEY(4, 7, KEY_RESERVED),
+				  KEY(5, 0, KEY_Y),KEY(5, 1, KEY_D),KEY(5, 2, KEY_Z),KEY(5, 3, KEY_RIGHTSHIFT),KEY(5, 4, KEY_DOWN),KEY(5, 5, KEY_HOME),KEY(5, 6, KEY_0),KEY(5, 7, KEY_RESERVED),
+				  KEY(6, 0, KEY_U),KEY(6, 1, KEY_F),KEY(6, 2, KEY_X),KEY(6, 3, KEY_UP),KEY(6, 4, KEY_INSERT),KEY(6, 5, KEY_7),KEY(6, 6, KEY_SPACE),KEY(6, 7, KEY_RESERVED), KEY(7, 0, KEY_MINUS) 
+				//if(	(new_state[rowdata] == 6 && rowdata == 3) // KEY_UP
+				// || (new_state[rowdata] == 5 && rowdata == 4) //KEY_LEFT
+				// || (new_state[rowdata] == 4 && rowdata == 5) //KEY_DOWN
+				// ||(new_state[rowdata] == 2 && rowdata == 6) // KEY_X
+				// ||(new_state[rowdata] == 0 && rowdata == 4) // KEY_TAB
+				// ||(new_state[rowdata] == 6 && rowdata == 4) // KEY_RESERVED
+				// ||(new_state[rowdata] == 5 && rowdata == 5) // KEY_HOME
+				// ||(new_state[rowdata] == 3 && rowdata == 6) // KEY_UP
+				// ||(new_state[rowdata] == 4 && rowdata == 4) // KEY_ESC
+				// ||(new_state[rowdata] == 3 && rowdata == 5) // KEY_RIGHTSHIFT
+				// ||(new_state[rowdata] == 0 && rowdata == 7) // KEY_MINUS
+				// ||(new_state[rowdata] == 6 && rowdata == 6)) //KEY_SPACE */
+				if(	(new_state[rowdata] == 6 && rowdata == 3) || (new_state[rowdata] == 5 && rowdata == 4)|| (new_state[rowdata] == 4 && rowdata == 5)||(new_state[rowdata] == 2 && rowdata == 6)||(new_state[rowdata] == 0 && rowdata == 4)||(new_state[rowdata] == 6 && rowdata == 4)||(new_state[rowdata] == 5 && rowdata == 5)||(new_state[rowdata] == 3 && rowdata == 6)||(new_state[rowdata] == 4 && rowdata == 4)||(new_state[rowdata] == 3 && rowdata == 5)||(new_state[rowdata] == 0 && rowdata == 7)||(new_state[rowdata] == 6 && rowdata == 6))
 					default_keys = 1 ;
-				if((fn_key_count == 1)&& (default_keys != 1)){
+
+
+
+				// If function Key == 1 + No Default Keys  
+				if((fn_key_count == 1) && (default_keys != 1))
+				{
 					if(shift_count == 1){
 						code = MATRIX_SCAN_CODE(5, 3, keypad->row_shift);
 						input_event(input_dev, EV_MSC, MSC_SCAN, code);
@@ -248,7 +274,8 @@ static void kpad_timer(unsigned long data)
 						input_sync(input_dev) ;
 						shift_count = 0 ;
 					}
-					if(((new_state[rowdata]) % 2) == 0){
+					if(((new_state[rowdata]) % 2) == 0){ // Even Coloumn 
+						// Q   , 
 						code = MATRIX_SCAN_CODE((new_state[rowdata]+7), rowdata, keypad->row_shift);
 						input_event(input_dev, EV_MSC, MSC_SCAN, code);
 						input_report_key(input_dev,keypad->keycodes[code],1);
@@ -290,9 +317,14 @@ static void kpad_timer(unsigned long data)
 						key_out_flag=1;
 					}
 				}
-				else{
-					if((fn_key_count == 1)&& (default_keys == 1)){
-						if(shift_count == 1){
+				else
+				{
+
+					// Function ( Pressed or Not ) + Default Must Press 
+					if((fn_key_count == 1)&& (default_keys == 1))
+					{
+						if(shift_count == 1){  // Case For KEY_RIGHTSHIFT
+
 							code = MATRIX_SCAN_CODE(5, 3, keypad->row_shift);
 							input_event(input_dev, EV_MSC, MSC_SCAN, code);
 							input_report_key(input_dev,keypad->keycodes[code],0);
