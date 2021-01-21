@@ -77,7 +77,7 @@
 #define encoder_gs()                  	gpio_get_value(MX6_BRD_LCD_DAT14_KBINT)
 /* **************************************************************** */
 
-//#define DEBUG
+#define DEBUG 1
 struct matrix_keypad {
 	const struct matrix_keypad_platform_data *pdata;
 	struct input_dev *input_dev;
@@ -183,12 +183,15 @@ static void kpad_timer(unsigned long data)
 	int i = 0 , code , val = 0;
 
 #ifdef DEBUG
-	printk("%s %d\n",__func__,__LINE__);
+	//	printk("%s %d encoder_gs() = %d\n",__func__,__LINE__,encoder_gs() );
 #endif
 
 	memset(new_state, 0, sizeof(new_state));
 	if(encoder_gs() == 0 )
 	{
+		pr_info(" Column0 = %d\n", col_get_gpio_value(MX6_BRD_LCD_DAT11_COL0));
+		pr_info(" Column1 = %d\n", col_get_gpio_value(MX6_BRD_LCD_DAT12_COL1));
+		pr_info(" Column2 = %d\n", col_get_gpio_value(MX6_BRD_LCD_DAT13_COL2));
 		if(scan_count){
 			val = col_get_gpio_value(MX6_BRD_LCD_DAT11_COL0);
 			new_state[rowdata] = val ;
@@ -338,7 +341,11 @@ static void kpad_timer(unsigned long data)
 		}
 	}
 	else{
+		pr_info(" Row0 %d\n",gpio_get_value(MX6_BRD_LCD_DAT8_ROW0)); 
+		pr_info(" Row1 %d\n",gpio_get_value(MX6_BRD_LCD_DAT9_ROW1)); 
+		pr_info(" Row2 %d\n",gpio_get_value(MX6_BRD_LCD_DAT10_ROW2)); 
 		clear_count = 0 ;
+
 		for(i=0;i<8;i++)
 		{
 			if(i == 7){
@@ -584,7 +591,9 @@ static int __devinit matrix_keypad_probe(struct platform_device *pdev)
 	   bkl_timer.expires = jiffies + 1 ;
 	   backlight_timeout = 16 ;
 	   */
-
+	pr_info(" P Column0 = %d\n", col_get_gpio_value(MX6_BRD_LCD_DAT11_COL0));
+	pr_info(" P Column1 = %d\n", col_get_gpio_value(MX6_BRD_LCD_DAT12_COL1));
+	pr_info("  P Column2 = %d\n", col_get_gpio_value(MX6_BRD_LCD_DAT13_COL2));
 
 
 	setup_timer(&keypad->timer, kpad_timer, (unsigned long) pdev);

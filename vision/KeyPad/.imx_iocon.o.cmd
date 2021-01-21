@@ -1,8 +1,8 @@
-cmd_/u01/sahasalu/vision/KeyPad/imx_iocon.o := /opt/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-gcc -Wp,-MD,/u01/sahasalu/vision/KeyPad/.imx_iocon.o.d  -nostdinc -isystem /opt/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include -I/home/naresh/KPDS_Kernel/arch/arm/include -Iarch/arm/include/generated -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx6/include -Iarch/arm/plat-mxc/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -O2 -marm -fno-dwarf2-cfi-asm -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fomit-frame-pointer -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -DCC_HAVE_ASM_GOTO  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(imx_iocon)"  -D"KBUILD_MODNAME=KBUILD_STR(imx_iocon)" -c -o /u01/sahasalu/vision/KeyPad/.tmp_imx_iocon.o /u01/sahasalu/vision/KeyPad/imx_iocon.c
+cmd_/home/naresh/sahasalu/vision/KeyPad/imx_iocon.o := /opt/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-gcc -Wp,-MD,/home/naresh/sahasalu/vision/KeyPad/.imx_iocon.o.d  -nostdinc -isystem /opt/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include -I/home/naresh/KPDS_Kernel/arch/arm/include -Iarch/arm/include/generated -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx6/include -Iarch/arm/plat-mxc/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -O2 -marm -fno-dwarf2-cfi-asm -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fomit-frame-pointer -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -DCC_HAVE_ASM_GOTO  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(imx_iocon)"  -D"KBUILD_MODNAME=KBUILD_STR(imx_iocon)" -c -o /home/naresh/sahasalu/vision/KeyPad/.tmp_imx_iocon.o /home/naresh/sahasalu/vision/KeyPad/imx_iocon.c
 
-source_/u01/sahasalu/vision/KeyPad/imx_iocon.o := /u01/sahasalu/vision/KeyPad/imx_iocon.c
+source_/home/naresh/sahasalu/vision/KeyPad/imx_iocon.o := /home/naresh/sahasalu/vision/KeyPad/imx_iocon.c
 
-deps_/u01/sahasalu/vision/KeyPad/imx_iocon.o := \
+deps_/home/naresh/sahasalu/vision/KeyPad/imx_iocon.o := \
   include/linux/module.h \
     $(wildcard include/config/symbol/prefix.h) \
     $(wildcard include/config/sysfs.h) \
@@ -568,8 +568,8 @@ deps_/u01/sahasalu/vision/KeyPad/imx_iocon.o := \
   include/../arch/arm/plat-mxc/include/mach/iomux-mx6sl.h \
     $(wildcard include/config/sion.h) \
   arch/arm/plat-mxc/include/mach/iomux-v3.h \
-  /u01/sahasalu/vision/KeyPad/ioc_hardware.h \
+  /home/naresh/sahasalu/vision/KeyPad/ioc_hardware.h \
 
-/u01/sahasalu/vision/KeyPad/imx_iocon.o: $(deps_/u01/sahasalu/vision/KeyPad/imx_iocon.o)
+/home/naresh/sahasalu/vision/KeyPad/imx_iocon.o: $(deps_/home/naresh/sahasalu/vision/KeyPad/imx_iocon.o)
 
-$(deps_/u01/sahasalu/vision/KeyPad/imx_iocon.o):
+$(deps_/home/naresh/sahasalu/vision/KeyPad/imx_iocon.o):

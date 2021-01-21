@@ -33,6 +33,7 @@ __attribute__((section("__versions"))) = {
 	{ 0x65d6d0f0, "gpio_direction_input" },
 	{ 0xae00d767, "dev_err" },
 	{ 0x2db6ffff, "mxc_iomux_v3_setup_pad" },
+	{ 0x27e1a049, "printk" },
 	{ 0xa8f59416, "gpio_direction_output" },
 	{ 0x1b780516, "input_set_capability" },
 	{ 0x9a6221c5, "mod_timer" },

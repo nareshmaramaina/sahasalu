@@ -80,7 +80,7 @@
 
 void imx6sl_hw_init(void)
 {
-//	mxc_iomux_v3_setup_pad(MX6SL_PAD_EPDC_SDCE1__GPIO_1_28) ; // KEYPAD_BACKLIGHT
+	//	mxc_iomux_v3_setup_pad(MX6SL_PAD_EPDC_SDCE1__GPIO_1_28) ; // KEYPAD_BACKLIGHT
 	mxc_iomux_v3_setup_pad(MX6SL_PAD_PWM1__GPIO_3_23) ; // LCD_BACKLIGHT
 	mxc_iomux_v3_setup_pad(MX6SL_PAD_EPDC_D10__GPIO_1_17) ; // AUD_PWR_CONTROL
 	mxc_iomux_v3_setup_pad(MX6SL_PAD_AUD_RXFS__GPIO_1_0) ; // BAT_SENSE
@@ -102,7 +102,7 @@ void imx6sl_hw_init(void)
 
 	mxc_iomux_v3_setup_pad(MX6SL_PAD_KEY_COL3__GPIO_3_30);//wifi power control
 
-//	gpio_request(KPD_BKL, "kpd_bkl");
+	//	gpio_request(KPD_BKL, "kpd_bkl");
 	gpio_request(LCD_BKL, "lcd_bkl");
 	gpio_request(AUD_PWR, "aud_pwr");
 	gpio_request(BAT_CHG, "bat_chg");
@@ -125,8 +125,8 @@ void imx6sl_hw_init(void)
 	gpio_request(WIFI_RF_PWR_CTRL_PIN,"wifi") ;
 	gpio_request(RFID_PWR_CTRL_PIN,"rfid") ;
 
-
-//	gpio_direction_output(KPD_BKL, 0);
+	
+	//	gpio_direction_output(KPD_BKL, 0);
 	gpio_direction_output(LCD_BKL, 0);
 	gpio_direction_output(AUD_PWR, 0);
 	gpio_direction_input(BAT_CHG);
@@ -153,7 +153,7 @@ void imx6sl_hw_init(void)
 
 void imx6sl_hw_deinit(void)
 {
-//	gpio_free(KPD_BKL);
+	//	gpio_free(KPD_BKL);
 	gpio_free(LCD_BKL);
 	gpio_free(AUD_PWR);
 	gpio_free(BAT_CHG);

@@ -13,7 +13,7 @@ Boot ROM
 
 	Boot Device Controller 
 		Any or all of the following 
-			Nand / nor flasah SD MMC controller 
+			Nand / nor flash SD MMC controller 
 
 	Initilization of memory controller or Dynamic controller initilization ( DRAM controller ) optional 
 

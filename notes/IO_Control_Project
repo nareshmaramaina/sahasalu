@@ -1,0 +1,122 @@
+https://www.kernel.org/doc/html/v4.17/driver-api/gpio/intro.html
+https://www.kernel.org/doc/html/v4.17/driver-api/gpio/legacy.html
+
+
+This driver basically developed for power control of all the modules. 
+
+This driver was developed for pos machine in which we are accessing the GPIO pins to do the power control of all peripheral. 
+
+This is compiled with linux-3.0.35 kernel. Myself gone through the schematic of the pos device and  wrote the driver by accessing the various gpio pins for the respective peripherals.
+
+
+
+Source Code Following :-
+
+After Insertion of Driver 
+
+
+
+module init
+
+1) Registeration of static Character driver 
+2) imx6sl ( Sololite ) Hardware init
+3) kthread Running 
+4) Timer Initilized with 10 + jiffies
+
+static struct timer_list gl11_timer ;
+  gl11_timer.function = gl11_timer_work ;
+  gl11_timer.expires = jiffies+10;
+
+5) add_timer  
+
+
+.unlocked_ioctl = ioctl;
+
+In ioctl call 
+{
+static int ioc_ioctl(struct file *flip, unsigned int cmd, unsigned long arg);
+
+Cmd = "Generally Send Pin No , 
+Arg = Switch On/Off 
+
+
+GPS, GSM, LCD BKL, HOST , FingerPrint , Flash, audio, buzzer,
+}
+
+
+Work thread 
+{
+
+we demanzise this thread and we are etnering into continuous while  loop
+
+
+in that loop we are waiting for timer interrupt  through  
+
+wait_event_interruptible(wq,(atomic_read (&data_present)
+
+in Which loop we are handling, on key click or touch click , we giving sound  and LCD bkl on
+
+If any want to off the backgrond sound also we are giving support in this driver only. 
+
+Basically How we did is Exporting the symbols of key and touch varaibles 
+ 
+
+} 
+
+
+Gl11_timer
+{
+wake_up_interruptible(); // It will wake the previously waiting quuw thread 
+
+And again adding the same timer and function 
+}
+
+
+
+
+static long rtc_ioctl(struct file *file, unsigned int end, unsigned long arg);
+{
+Step 1: Validate applications request command
+if(_IOC_TYPE(cmd) != VEDA_MAGIC )
+Step 2: Process received command through appropriate conditional check
+* A switch case construct is preferred for implementation of configuration under each command .
+rtc_ioctl.c
+Static struct file_operations ={
+unlocked_ioctl = rtc_ioctl;
+}
+ioctl(fd,SET_MINUTE,8 //it can be value or data );
+42Limitation of ioctl
+ioctl is considered potential source of routine false
+Application program is passing an address of integer, while driver is expecting an address of 1K data.
+Application
+int main()
+{
+int a=10;
+ioctl(fd,DRV_ENCODE_CMD, &a);
+}
+Driver
+ioctl(---)
+{
+case(DRV_ENCODED_CMD)
+/* Transferring data to user mode */
+copy_to_user(buf,a,1024); // !!! voilation
+}
+Solution: Kernel Provides ioctl request command decode macros through which a driver
+can verify passed from user mode.
+If (_IOC_DIR(CMD)&_IOC_READ)
+if ( ! access_ok(VERIFY_WRITE, (void*) arg, _IOC_SIZE(cmd)).
+return -EFAULT;
+If (_IOC_DIR(CMD)&_IOC_WRITE)
+if ( ! access_ok(VERIFY_READ, (void*) arg, _IOC_SIZE(cmd)).
+return -EFAULT;
+* Usage of decode macros to validate user inputs is optional.
+* Driver implementation which will not engage for decode macros for validation can be potential
+sources of run time fault as an alternative to ioctl, sysfs is preferred.
+* Sysfs is a logical file systems designed an interface for hot-plug subsystem.
+43* The same interface can be used by drivers to enumerate configuration files through which driver can
+support configurations / Special operations.
+* Providing a file system interface for supporting configuration operations, makes it simple for user
+mode apps to initiate config operations through shell command interface
+cat -> read from file , echo -> write to file
+Limitation:
+* Sysfs represents all data as string constant, and each sysfs file is bound to a page size buffer 4K.
