@@ -1,0 +1,56 @@
+Yocto Build system pre-requisites and setup
+===========================================
+
+install following pre-requisite packages on host
+
+        $ sudo apt install build-essential chrpath diffstat gawk libncurses5-dev texinfo
+	
+
+	
+Install and set up python2.7
+============================
+
+              $ sudo apt install python2.7
+
+	      $ sudo ln -sf /usr/bin/python2.7 /usr/bin/python
+	      $ sudo ln -sf /usr/bin/python2.7 /usr/bin/python2
+
+
+change the default Ubuntu shell from dash to bash
+=================================================
+
+	$ sudo dpkg-reconfigure dash
+
+	Choose "No" to dash when prompted
+
+
+Clone yocto build system repositories
+=====================================
+
+
+ $ sudo git clone -b warrior git://git.yoctoproject.org/poky.git poky-warrior
+ $ cd poky-warrior
+~/poky-warrior$ sudo git clone -b warrior git://git.openembedded.org/meta-openembedded
+~/poky-warrior$ sudo git clone -b warrior https://github.com/meta-qt5/meta-qt5.git
+~/poky-warrior$ sudo git clone git://git.yoctoproject.org/meta-ti
+
+
+Initiate Build for BBB
+======================
+   
+ ~/poky-warrior$ source oe-init-build-env /home/($YOUR HOME DIRECTORY)/bbb-build
+  
+ After execution of the above command, current directory will switch to build directory. Do following changes 
+  
+ /home/($YOUR HOME DIRECTORY)/bbb-build$ vim conf/local.conf
+
+ In local.conf file uncomment the following line (commented lines begin with hash "#")
+
+ MACHINE ?= "beaglebone-yocto"
+
+ 
+ trigger build using this command:
+ 
+ /home/($YOUR HOME DIRECTORY)/bbb-build$ bitbake -k core-image-minimal
+
+
