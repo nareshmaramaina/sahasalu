@@ -25,7 +25,6 @@ Steps to translate function call into equivalent assembly
 
 
 
-
 system calls are inteface to kernel services, system calls reside in kernel segment 
 ABI defines std sysytem call procedures 
 
@@ -43,4 +42,3 @@ move argument to kernel stack 	Update SP register in stack pointer
 Memory descriptor struture of the process ( nm_struct ) contains pointers to start and end address of allocated heap
 
 sbrk(0); // current position of program break
-

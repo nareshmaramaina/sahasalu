@@ -37,9 +37,9 @@ int  __init init_module(void)
 	pr_info("Hai Ra Mama first p\n");
 
 	
-	my_dev = MKDEV(MAJORNO,MINORNO);
+//	my_dev = MKDEV(MAJORNO,MINORNO);
 
-	register_chrdev_region(my_dev,count,CHAR_DEV_NAME);
+	my_dev = register_chrdev_region(my_dev,count,CHAR_DEV_NAME);
 
 	cdev = cdev_alloc();
 
@@ -51,7 +51,8 @@ int  __init init_module(void)
 		pr_info("Registration file success\n");
 		return -1;
 	}
-	pr_info(" %s Succesfuly reg\n",CHAR_DEV_NAME);
+	pr_info(" %s Succesfuly reg Major Number = %d\n",CHAR_DEV_NAME,my_dev);
+	
 
 
 	return 0;

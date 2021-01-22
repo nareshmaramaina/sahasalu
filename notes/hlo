@@ -11,3 +11,23 @@ processing, the tasklet is sufficient. Softirqs are useful when performance is c
 with networking. Using softirqs requires more care, however, because two of the same
 softirq can run at the same time. In addition, softirqs must be registered statically at com-
 pile time. Conversely, code can dynamically register tasklets.
+
+
+
+The key differences between softirq and tasklet are:
+
+    Allocation
+
+    Softirqs are statically allocated at compile-time. Unlike tasklets, you cannot dynamically register and destroy softirqs.
+    Tasklets can be statically allocated using DECLARE_TASKLET(name, func, data) or can also be allocated dynamically and initialized at runtime using tasklet_init(name, func, data)
+
+    Concurrency
+
+    Softirqs can run concurrently on several CPUs, even if they are of the same type because softirqs are reentrant functions and must explicitly protect their data structures with spinlocks.
+    Tasklets are non-reentrant and tasklets of the same type are always serialized: in other words, the same type of tasklet cannot be executed by two CPUs at the same time. However, tasklets of different types can be executed concurrently on several CPUs.
+
+    Processing
+
+    Softirqs are activated by means of the raise_softirq(). The pending softirqs are processed by do_softirq() and ksoftirqd kernel thread after being enabled by local_bh_enable() or by spin_unlock_bh()
+    Tasklets are a bottom-half mechanism built on top of softirqs i.e. tasklets are represented by two softirqs: HI_SOFTIRQ and TASKLET_SOFTIRQ. Tasklets are actually run from a softirq. The only real difference in these types is that the HI_SOFTIRQ based tasklets run prior to the TASKLET_SOFTIRQ tasklets. So, tasklet_schedule() basically calls raise_softirq(TASKLET_SOFTIRQ)
+    Note that softirqs (and hence tasklets and timers) are run on return from hardware interrupts, or on return from a system call. Also as soon as the thread that raised the softirq ends, that single softirq (and on other) is run to minimize softirq latency.

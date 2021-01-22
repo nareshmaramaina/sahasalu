@@ -1,0 +1,1 @@
+cmd_/home/naresh/sahasalu/pros/mywork/chrdrv/register_chr_dev/naresh.mod := { echo  /home/naresh/sahasalu/pros/mywork/chrdrv/register_chr_dev/naresh.o; echo; } > /home/naresh/sahasalu/pros/mywork/chrdrv/register_chr_dev/naresh.mod

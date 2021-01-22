@@ -1,5 +1,5 @@
 
-Interrupt is an event that alter sequence of exectiobns execution  by a processor in corresponding to electrical signals rasied by h/w circuts by the inside and outside CPU. 
+Interrupt is an event that alter sequence of instructions execution  by a processor in corresponding to electrical signals rasied by h/w circuts by the inside and outside CPU. 
 
 
 Driver interrupt handler :-

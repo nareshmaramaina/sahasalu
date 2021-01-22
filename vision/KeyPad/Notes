@@ -66,4 +66,11 @@ for for example mouse movement, where you don't want the X and Y values
 to be interpreted separately, because that'd result in a different movement.
 
 
-Keyboard drivers should use EV_KEY to report key presses, 
+Keyboard drivers should use EV_KEY to report key presses,
+
+
+The Matrix keypad supports multiple rows and coloumns, a key can be placed at intersection of a unique row and unique coloumn. 
+
+
+
+ 
