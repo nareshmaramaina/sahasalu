@@ -29,7 +29,7 @@ valid* stack(valid *head,char ch)
 		head=ptr;
 		free(temp);*/
 	}
-return head;
+	return head;
 }
 int check(char ch,valid *head)
 {

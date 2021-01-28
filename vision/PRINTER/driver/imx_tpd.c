@@ -125,11 +125,11 @@ struct driver_strb driver_strobewidth;
 
 static const struct file_operations tpd_fops = {
 	.owner = THIS_MODULE,
-      	.open = tpd_open,
-      	.read = tpd_read,
-      	.write = tpd_write,
-     	.unlocked_ioctl = tpd_ioctl,
-      	.release = tpd_release,
+	.open = tpd_open,
+	.read = tpd_read,
+	.write = tpd_write,
+	.unlocked_ioctl = tpd_ioctl,
+	.release = tpd_release,
 };
 
 static void start_stepmotor( void )
@@ -152,7 +152,7 @@ static void stop_stepmotor(void)
 //-----------------------------------------------------------------------------
 static long tpd_ioctl(struct file *flip, unsigned int cmd, unsigned long arg)
 {
-//	printk("IN IOCTL cmd=%d\n",cmd);
+	//	printk("IN IOCTL cmd=%d\n",cmd);
 
 	if( cmd == 0 ) {
 		abort2 = 0;
@@ -174,23 +174,23 @@ static long tpd_ioctl(struct file *flip, unsigned int cmd, unsigned long arg)
 		if(copy_from_user(&driver_strobewidth,(struct driver_strb*)arg,sizeof(struct driver_strb)))
 			return -EFAULT;
 		Stb_Width = driver_strobewidth.strobewidth_value;
-	//	printk("***************IN IOCTL 4 Stb_Width = %d\n",Stb_Width);
+		//	printk("***************IN IOCTL 4 Stb_Width = %d\n",Stb_Width);
 		print_case = 4; //1 23 45 6
 		return 0;
 	}
 	if( cmd == 5 ) { // Bold Font
 		if(copy_from_user(&driver_strobewidth,(struct driver_strb*)arg,sizeof(struct driver_strb)))
 			return -EFAULT;
-                Stb_Width = driver_strobewidth.strobewidth_value;
-	//	printk("****************IN IOCTL 5 Stb_Width = %d\n",Stb_Width);
+		Stb_Width = driver_strobewidth.strobewidth_value;
+		//	printk("****************IN IOCTL 5 Stb_Width = %d\n",Stb_Width);
 		print_case = 3; //12 34 56
 		return 0;
 	}
 	if( cmd == 6 ) { //BMP
 		if(copy_from_user(&driver_strobewidth,(struct driver_strb*)arg,sizeof(struct driver_strb)))
 			return -EFAULT;
-                Stb_Width = driver_strobewidth.strobewidth_value; 
-	//	printk("**************IN IOCTL 6 Stb_Width = %d\n",Stb_Width);
+		Stb_Width = driver_strobewidth.strobewidth_value; 
+		//	printk("**************IN IOCTL 6 Stb_Width = %d\n",Stb_Width);
 		print_case = 5; //1 2 3 4 5 6
 		return 0;
 	}
@@ -205,7 +205,7 @@ static long tpd_ioctl(struct file *flip, unsigned int cmd, unsigned long arg)
 	}
 	if(cmd == 10){
 		paper_feed = 1;
-	//	printk("##########in driver paperfeed ioctl=%d\n",paper_feed);
+		//	printk("##########in driver paperfeed ioctl=%d\n",paper_feed);
 		return 0;
 	}
 
@@ -224,7 +224,7 @@ static int __init tpd_init(void)
 #endif
 		return result;
 	}
-        spin_lock_init(&prn_lock);
+	spin_lock_init(&prn_lock);
 
 	setup_port();
 	motorstate = 1;
@@ -289,11 +289,11 @@ tpd_write(struct file *filp, const char *buff, size_t length, loff_t * off)
 #endif
 		return WRITE_ERROR;
 	}
-//	if(paper_feed == 0)
-		scanlines = len/BYTES_PER_SCANLINE + 1;
-//	else
-//		scanlines = len;
-//	printk("############### in driver scanlines=%d\n",scanlines);
+	//	if(paper_feed == 0)
+	scanlines = len/BYTES_PER_SCANLINE + 1;
+	//	else
+	//		scanlines = len;
+	//	printk("############### in driver scanlines=%d\n",scanlines);
 #ifdef DEBUG
 	printk(" %d %i scanlines\n",len,scanlines);
 #endif
@@ -382,17 +382,17 @@ static int tpd_print(void)
 	static unsigned char mask ;
 	static int pixel = 0, bits; /*,Stb_Width=0,nop=0*/;
 	//static long Stb_Width=0;
-	
-//	printk("######################IN DRIVER Stb_Width = %d\n",Stb_Width);
-//	printk("######################PAPER_FEED= %d\n",paper_feed);
-//	if(paper_feed==0 && (Stb_Width >1500 || Stb_Width <=0))
-//		return -1;
+
+	//	printk("######################IN DRIVER Stb_Width = %d\n",Stb_Width);
+	//	printk("######################PAPER_FEED= %d\n",paper_feed);
+	//	if(paper_feed==0 && (Stb_Width >1500 || Stb_Width <=0))
+	//		return -1;
 	spin_lock_irqsave(&prn_lock, flags);
 
 	STROBE1_LOW ; STROBE2_LOW ;STROBE3_LOW ;STROBE4_LOW ;STROBE5_LOW ;STROBE6_LOW ;
 
 	start_stepmotor();
-//	printk("##############in tpd_print scanlines ======%d,paperfeed ====%d\n",scanlines,paper_feed);
+	//	printk("##############in tpd_print scanlines ======%d,paperfeed ====%d\n",scanlines,paper_feed);
 	while((line < scanlines)&&abort2){
 		if(line == 0){
 			for ( pixel = 0; pixel < 48; pixel++ ) {
@@ -495,239 +495,239 @@ static int tpd_print(void)
 			STROBE5_LOW ;
 			STROBE4_LOW ;
 
-				onestep();
+			onestep();
 
-				STROBE3_HIGH ;
-				STROBE2_HIGH ;
-				STROBE1_HIGH ;
-				for ( ; pixel < 48; pixel++ ) {
-					mask = 0x80;
-					for( bits = 1; bits <= 8; bits++ ) {
-						if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
-							DATAIN_LOW ;
-							CLK_HIGH ;
-							CLK_LOW ;
-						} else {
-							DATAIN_HIGH ;
-							CLK_HIGH ;
-							CLK_LOW ;
-							if (pixel < 32 )PresentDotCount3++;
-							else if (pixel < 40 )PresentDotCount2++;
-							else PresentDotCount1 ++;
-						}
-						mask = mask >> 1;
+			STROBE3_HIGH ;
+			STROBE2_HIGH ;
+			STROBE1_HIGH ;
+			for ( ; pixel < 48; pixel++ ) {
+				mask = 0x80;
+				for( bits = 1; bits <= 8; bits++ ) {
+					if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
+						DATAIN_LOW ;
+						CLK_HIGH ;
+						CLK_LOW ;
+					} else {
+						DATAIN_HIGH ;
+						CLK_HIGH ;
+						CLK_LOW ;
+						if (pixel < 32 )PresentDotCount3++;
+						else if (pixel < 40 )PresentDotCount2++;
+						else PresentDotCount1 ++;
 					}
+					mask = mask >> 1;
 				}
-				udelay(Stb_Width+DotCount3+DotCount2+DotCount1-192) ;
-				STROBE3_LOW ;
-				STROBE2_LOW ;
-				STROBE1_LOW ;
-				onestep();
 			}
-			else if (DotCount > 127 && DotCount < 256){
-				STROBE6_HIGH ;
-				STROBE5_HIGH ;
-				for ( pixel = 0; pixel < 16; pixel++ ) {
-					mask = 0x80;
-					for( bits = 1; bits <= 8; bits++ ) {
-						if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
-							DATAIN_LOW ;
-							CLK_HIGH ;
-							CLK_LOW ;
-						} else {
-							DATAIN_HIGH ;
-							CLK_HIGH ;
-							CLK_LOW ;
-							if (pixel < 8) PresentDotCount6++;
-							else if (pixel < 16 )PresentDotCount5++;
-						}
-						mask = mask >> 1;
+			udelay(Stb_Width+DotCount3+DotCount2+DotCount1-192) ;
+			STROBE3_LOW ;
+			STROBE2_LOW ;
+			STROBE1_LOW ;
+			onestep();
+		}
+		else if (DotCount > 127 && DotCount < 256){
+			STROBE6_HIGH ;
+			STROBE5_HIGH ;
+			for ( pixel = 0; pixel < 16; pixel++ ) {
+				mask = 0x80;
+				for( bits = 1; bits <= 8; bits++ ) {
+					if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
+						DATAIN_LOW ;
+						CLK_HIGH ;
+						CLK_LOW ;
+					} else {
+						DATAIN_HIGH ;
+						CLK_HIGH ;
+						CLK_LOW ;
+						if (pixel < 8) PresentDotCount6++;
+						else if (pixel < 16 )PresentDotCount5++;
 					}
+					mask = mask >> 1;
 				}
-				udelay(Stb_Width+DotCount6+DotCount5-128) ;
-				STROBE6_LOW ;
-				STROBE5_LOW ;
-				onestep();
-				STROBE4_HIGH ;
-				STROBE3_HIGH ;
-				for ( ; pixel < 32; pixel++ ) {
-					mask = 0x80;
-					for( bits = 1; bits <= 8; bits++ ) {
-						if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
-							DATAIN_LOW ;
-							CLK_HIGH ;
-							CLK_LOW ;
-						} else {
-							DATAIN_HIGH ;
-							CLK_HIGH ;
-							CLK_LOW ;
-							if (pixel < 24 )PresentDotCount4++;
-							else if (pixel < 32 )PresentDotCount3++;
-						}
-						mask = mask >> 1;
-					}
-				}
-				udelay(Stb_Width+DotCount4+DotCount3-128) ;
-				STROBE4_LOW ;
-				STROBE3_LOW ;
-
-				STROBE2_HIGH ;
-				STROBE1_HIGH ;
-				for ( ; pixel < 48; pixel++ ) {
-					mask = 0x80;
-					for( bits = 1; bits <= 8; bits++ ) {
-						if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
-							DATAIN_LOW ;
-							CLK_HIGH ;
-							CLK_LOW ;
-						} else {
-							DATAIN_HIGH ;
-							CLK_HIGH ;
-							CLK_LOW ;
-							if (pixel < 40 )PresentDotCount2++;
-							else PresentDotCount1 ++;
-						}
-						mask = mask >> 1;
-					}
-				}
-				udelay(Stb_Width+DotCount2+DotCount1-128) ;
-				STROBE2_LOW ;
-				STROBE1_LOW ;
-				onestep();
 			}
-			else if(DotCount > 255){
-				STROBE6_HIGH ;
-				for ( pixel = 0; pixel < 8; pixel++ ) {
-					mask = 0x80;
-					for( bits = 1; bits <= 8; bits++ ) {
-						if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
-							DATAIN_LOW ;
-							CLK_HIGH ;
-							CLK_LOW ;
-						} else {
-							DATAIN_HIGH ;
-							CLK_HIGH ;
-							CLK_LOW ;
-							PresentDotCount6++;
-						}
-						mask = mask >> 1;
+			udelay(Stb_Width+DotCount6+DotCount5-128) ;
+			STROBE6_LOW ;
+			STROBE5_LOW ;
+			onestep();
+			STROBE4_HIGH ;
+			STROBE3_HIGH ;
+			for ( ; pixel < 32; pixel++ ) {
+				mask = 0x80;
+				for( bits = 1; bits <= 8; bits++ ) {
+					if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
+						DATAIN_LOW ;
+						CLK_HIGH ;
+						CLK_LOW ;
+					} else {
+						DATAIN_HIGH ;
+						CLK_HIGH ;
+						CLK_LOW ;
+						if (pixel < 24 )PresentDotCount4++;
+						else if (pixel < 32 )PresentDotCount3++;
 					}
+					mask = mask >> 1;
 				}
-				udelay(Stb_Width+DotCount6-64) ;
-				STROBE6_LOW ;
-
-				STROBE5_HIGH ;
-				for ( ; pixel < 16; pixel++ ) {
-					mask = 0x80;
-					for( bits = 1; bits <= 8; bits++ ) {
-						if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
-							DATAIN_LOW ;
-							CLK_HIGH ;
-							CLK_LOW ;
-						} else {
-							DATAIN_HIGH ;
-							CLK_HIGH ;
-							CLK_LOW ;
-							PresentDotCount5++;
-						}
-						mask = mask >> 1;
-					}
-				}
-				udelay(Stb_Width+DotCount5-64) ;
-				STROBE5_LOW ;
-
-				STROBE4_HIGH ;
-				for ( ; pixel < 24; pixel++ ) {
-					mask = 0x80;
-					for( bits = 1; bits <= 8; bits++ ) {
-						if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
-							DATAIN_LOW ;
-							CLK_HIGH ;
-							CLK_LOW ;
-						} else {
-							DATAIN_HIGH ;
-							CLK_HIGH ;
-							CLK_LOW ;
-							PresentDotCount4++;
-						}
-						mask = mask >> 1;
-					}
-				}
-				udelay(Stb_Width+DotCount4-64) ;
-				STROBE4_LOW ;
-				onestep() ;
-				STROBE3_HIGH ;
-				for ( ; pixel < 32; pixel++ ) {
-					mask = 0x80;
-					for( bits = 1; bits <= 8; bits++ ) {
-						if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
-							DATAIN_LOW ;
-							CLK_HIGH ;
-							CLK_LOW ;
-						} else {
-							DATAIN_HIGH ;
-							CLK_HIGH ;
-							CLK_LOW ;
-							PresentDotCount3++;
-						}
-						mask = mask >> 1;
-					}
-				}
-				udelay(Stb_Width+DotCount3-64) ;
-				STROBE3_LOW ;
-
-				STROBE2_HIGH ;
-				for ( ; pixel < 40; pixel++ ) {
-					mask = 0x80;
-					for( bits = 1; bits <= 8; bits++ ) {
-						if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
-							DATAIN_LOW ;
-							CLK_HIGH ;
-							CLK_LOW ;
-						} else {
-							DATAIN_HIGH ;
-							CLK_HIGH ;
-							CLK_LOW ;
-							PresentDotCount2++;
-						}
-						mask = mask >> 1;
-					}
-				}
-				udelay(Stb_Width+DotCount2-64) ;
-				STROBE2_LOW ;
-
-				STROBE1_HIGH ;
-				for ( ; pixel < 48; pixel++ ) {
-					mask = 0x80;
-					for( bits = 1; bits <= 8; bits++ ) {
-						if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
-							DATAIN_LOW ;
-							CLK_HIGH ;
-							CLK_LOW ;
-						} else {
-							DATAIN_HIGH ;
-							CLK_HIGH ;
-							CLK_LOW ;
-							PresentDotCount1 ++;
-						}
-						mask = mask >> 1;
-					}
-				}
-				udelay(Stb_Width+DotCount1-64) ;
-				STROBE1_LOW ;
-				onestep() ;
 			}
+			udelay(Stb_Width+DotCount4+DotCount3-128) ;
+			STROBE4_LOW ;
+			STROBE3_LOW ;
 
-			DotCount = DotCount1 = DotCount2 = DotCount3 = DotCount4 = DotCount5 = DotCount6 = 0;
-			DotCount1 = PresentDotCount1 ;
-			DotCount2 = PresentDotCount2 ;
-			DotCount3 = PresentDotCount3 ;
-			DotCount4 = PresentDotCount4 ;
-			DotCount5 = PresentDotCount5 ;
-			DotCount6 = PresentDotCount6 ;
-			PresentDotCount1 = PresentDotCount2 = PresentDotCount3 = PresentDotCount4 = PresentDotCount5 = PresentDotCount6 = 0;
-			line ++ ;
-		
+			STROBE2_HIGH ;
+			STROBE1_HIGH ;
+			for ( ; pixel < 48; pixel++ ) {
+				mask = 0x80;
+				for( bits = 1; bits <= 8; bits++ ) {
+					if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
+						DATAIN_LOW ;
+						CLK_HIGH ;
+						CLK_LOW ;
+					} else {
+						DATAIN_HIGH ;
+						CLK_HIGH ;
+						CLK_LOW ;
+						if (pixel < 40 )PresentDotCount2++;
+						else PresentDotCount1 ++;
+					}
+					mask = mask >> 1;
+				}
+			}
+			udelay(Stb_Width+DotCount2+DotCount1-128) ;
+			STROBE2_LOW ;
+			STROBE1_LOW ;
+			onestep();
+		}
+		else if(DotCount > 255){
+			STROBE6_HIGH ;
+			for ( pixel = 0; pixel < 8; pixel++ ) {
+				mask = 0x80;
+				for( bits = 1; bits <= 8; bits++ ) {
+					if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
+						DATAIN_LOW ;
+						CLK_HIGH ;
+						CLK_LOW ;
+					} else {
+						DATAIN_HIGH ;
+						CLK_HIGH ;
+						CLK_LOW ;
+						PresentDotCount6++;
+					}
+					mask = mask >> 1;
+				}
+			}
+			udelay(Stb_Width+DotCount6-64) ;
+			STROBE6_LOW ;
+
+			STROBE5_HIGH ;
+			for ( ; pixel < 16; pixel++ ) {
+				mask = 0x80;
+				for( bits = 1; bits <= 8; bits++ ) {
+					if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
+						DATAIN_LOW ;
+						CLK_HIGH ;
+						CLK_LOW ;
+					} else {
+						DATAIN_HIGH ;
+						CLK_HIGH ;
+						CLK_LOW ;
+						PresentDotCount5++;
+					}
+					mask = mask >> 1;
+				}
+			}
+			udelay(Stb_Width+DotCount5-64) ;
+			STROBE5_LOW ;
+
+			STROBE4_HIGH ;
+			for ( ; pixel < 24; pixel++ ) {
+				mask = 0x80;
+				for( bits = 1; bits <= 8; bits++ ) {
+					if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
+						DATAIN_LOW ;
+						CLK_HIGH ;
+						CLK_LOW ;
+					} else {
+						DATAIN_HIGH ;
+						CLK_HIGH ;
+						CLK_LOW ;
+						PresentDotCount4++;
+					}
+					mask = mask >> 1;
+				}
+			}
+			udelay(Stb_Width+DotCount4-64) ;
+			STROBE4_LOW ;
+			onestep() ;
+			STROBE3_HIGH ;
+			for ( ; pixel < 32; pixel++ ) {
+				mask = 0x80;
+				for( bits = 1; bits <= 8; bits++ ) {
+					if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
+						DATAIN_LOW ;
+						CLK_HIGH ;
+						CLK_LOW ;
+					} else {
+						DATAIN_HIGH ;
+						CLK_HIGH ;
+						CLK_LOW ;
+						PresentDotCount3++;
+					}
+					mask = mask >> 1;
+				}
+			}
+			udelay(Stb_Width+DotCount3-64) ;
+			STROBE3_LOW ;
+
+			STROBE2_HIGH ;
+			for ( ; pixel < 40; pixel++ ) {
+				mask = 0x80;
+				for( bits = 1; bits <= 8; bits++ ) {
+					if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
+						DATAIN_LOW ;
+						CLK_HIGH ;
+						CLK_LOW ;
+					} else {
+						DATAIN_HIGH ;
+						CLK_HIGH ;
+						CLK_LOW ;
+						PresentDotCount2++;
+					}
+					mask = mask >> 1;
+				}
+			}
+			udelay(Stb_Width+DotCount2-64) ;
+			STROBE2_LOW ;
+
+			STROBE1_HIGH ;
+			for ( ; pixel < 48; pixel++ ) {
+				mask = 0x80;
+				for( bits = 1; bits <= 8; bits++ ) {
+					if ( (storelines[line * 48 + pixel] & mask ) == 0 ) {
+						DATAIN_LOW ;
+						CLK_HIGH ;
+						CLK_LOW ;
+					} else {
+						DATAIN_HIGH ;
+						CLK_HIGH ;
+						CLK_LOW ;
+						PresentDotCount1 ++;
+					}
+					mask = mask >> 1;
+				}
+			}
+			udelay(Stb_Width+DotCount1-64) ;
+			STROBE1_LOW ;
+			onestep() ;
+		}
+
+		DotCount = DotCount1 = DotCount2 = DotCount3 = DotCount4 = DotCount5 = DotCount6 = 0;
+		DotCount1 = PresentDotCount1 ;
+		DotCount2 = PresentDotCount2 ;
+		DotCount3 = PresentDotCount3 ;
+		DotCount4 = PresentDotCount4 ;
+		DotCount5 = PresentDotCount5 ;
+		DotCount6 = PresentDotCount6 ;
+		PresentDotCount1 = PresentDotCount2 = PresentDotCount3 = PresentDotCount4 = PresentDotCount5 = PresentDotCount6 = 0;
+		line ++ ;
+
 	}
 
 	paper_feed=0;
