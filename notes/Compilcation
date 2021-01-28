@@ -1,0 +1,19 @@
+Pre Processor
+Compiler
+Assembler
+Linker
+
+
+
+Pre Processor 
+In Pre processor stage 
+
+* Removal of Comments 
+* Expention of Macros 
+* Expansion of #include files 
+* Conditional Compilation 
+
+Compiler : - convert pre processed source code into assembly code
+Assmbelr : - During this stage, an assembler is used to translate the assembly instructions to object code
+Linker : - Linker will link all object files into single output 
+
