@@ -1,0 +1,14 @@
+https://elinux.org/Device_Tree_Usage#Basic_Concepts
+
+https://www.youtube.com/watch?v=uzBwHFjJ0vU
+
+https://github.com/devicetree-org/devicetree-specification/releases/tag/v0.3
+
+https://elinux.org/Device_Tree_Reference#Device_Tree_Source_Format
+
+https://elixir.bootlin.com/linux/latest/source/include/linux/device/driver.h#L95
+
+https://events19.linuxfoundation.org/wp-content/uploads/2017/12/Introduction-to-Linux-Kernel-Driver-Programming-Michael-Opdenacker-Bootlin-.pdf
+
+
+https://events.static.linuxfound.org/sites/events/files/slides/petazzoni-device-tree-dummies.pdf

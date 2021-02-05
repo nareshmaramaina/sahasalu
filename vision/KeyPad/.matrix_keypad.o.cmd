@@ -1,4 +1,4 @@
-cmd_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := /opt/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-gcc -Wp,-MD,/home/naresh/sahasalu/vision/KeyPad/.matrix_keypad.o.d  -nostdinc -isystem /opt/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include -I/home/naresh/KPDS_Kernel/arch/arm/include -Iarch/arm/include/generated -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx6/include -Iarch/arm/plat-mxc/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -O2 -marm -fno-dwarf2-cfi-asm -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fomit-frame-pointer -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -DCC_HAVE_ASM_GOTO  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(matrix_keypad)"  -D"KBUILD_MODNAME=KBUILD_STR(matrix_keypad)" -c -o /home/naresh/sahasalu/vision/KeyPad/.tmp_matrix_keypad.o /home/naresh/sahasalu/vision/KeyPad/matrix_keypad.c
+cmd_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := /opt/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-gcc -Wp,-MD,/home/naresh/sahasalu/vision/KeyPad/.matrix_keypad.o.d  -nostdinc -isystem /opt/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include -I/u01/ksrc/KPDS_Kernel/arch/arm/include -Iarch/arm/include/generated -Iinclude  -include include/generated/autoconf.h -D__KERNEL__ -mlittle-endian -Iarch/arm/mach-mx6/include -Iarch/arm/plat-mxc/include -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -Werror-implicit-function-declaration -Wno-format-security -fno-delete-null-pointer-checks -O2 -marm -fno-dwarf2-cfi-asm -mabi=aapcs-linux -mno-thumb-interwork -funwind-tables -D__LINUX_ARM_ARCH__=7 -march=armv7-a -msoft-float -Uarm -Wframe-larger-than=1024 -fno-stack-protector -Wno-unused-but-set-variable -fomit-frame-pointer -Wdeclaration-after-statement -Wno-pointer-sign -fno-strict-overflow -fconserve-stack -DCC_HAVE_ASM_GOTO  -DMODULE  -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(matrix_keypad)"  -D"KBUILD_MODNAME=KBUILD_STR(matrix_keypad)" -c -o /home/naresh/sahasalu/vision/KeyPad/.tmp_matrix_keypad.o /home/naresh/sahasalu/vision/KeyPad/matrix_keypad.c
 
 source_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := /home/naresh/sahasalu/vision/KeyPad/matrix_keypad.c
 
@@ -32,13 +32,13 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
     $(wildcard include/config/arch/dma/addr/t/64bit.h) \
     $(wildcard include/config/phys/addr/t/64bit.h) \
     $(wildcard include/config/64bit.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/types.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/types.h \
   include/asm-generic/int-ll64.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/bitsperlong.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/bitsperlong.h \
   include/asm-generic/bitsperlong.h \
   include/linux/posix_types.h \
   include/linux/stddef.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/posix_types.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/posix_types.h \
   include/linux/kobject.h \
     $(wildcard include/config/hotplug.h) \
   include/linux/list.h \
@@ -50,7 +50,7 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
     $(wildcard include/config/debug/lock/alloc.h) \
     $(wildcard include/config/sysfs.h) \
   include/linux/errno.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/errno.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/errno.h \
   include/asm-generic/errno.h \
   include/asm-generic/errno-base.h \
   include/linux/lockdep.h \
@@ -60,10 +60,10 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
     $(wildcard include/config/prove/locking.h) \
     $(wildcard include/config/prove/rcu.h) \
   include/linux/kobject_ns.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/atomic.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/atomic.h \
     $(wildcard include/config/smp.h) \
     $(wildcard include/config/generic/atomic64.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/system.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/system.h \
     $(wildcard include/config/function/graph/tracer.h) \
     $(wildcard include/config/cpu/32v6k.h) \
     $(wildcard include/config/cpu/xsc3.h) \
@@ -74,18 +74,18 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
     $(wildcard include/config/cpu/sa110.h) \
     $(wildcard include/config/cpu/v6.h) \
   include/linux/linkage.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/linkage.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/linkage.h \
   include/linux/irqflags.h \
     $(wildcard include/config/irqsoff/tracer.h) \
     $(wildcard include/config/preempt/tracer.h) \
     $(wildcard include/config/trace/irqflags/support.h) \
   include/linux/typecheck.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/irqflags.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/ptrace.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/irqflags.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/ptrace.h \
     $(wildcard include/config/cpu/endian/be8.h) \
     $(wildcard include/config/arm/thumb.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/hwcap.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/outercache.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/hwcap.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/outercache.h \
     $(wildcard include/config/outer/cache/sync.h) \
     $(wildcard include/config/outer/cache.h) \
   include/asm-generic/cmpxchg-local.h \
@@ -100,7 +100,7 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
   include/linux/thread_info.h \
     $(wildcard include/config/compat.h) \
   include/linux/bitops.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/bitops.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/bitops.h \
   include/asm-generic/bitops/non-atomic.h \
   include/asm-generic/bitops/fls64.h \
   include/asm-generic/bitops/sched.h \
@@ -109,17 +109,17 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
   include/asm-generic/bitops/const_hweight.h \
   include/asm-generic/bitops/lock.h \
   include/asm-generic/bitops/le.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/byteorder.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/byteorder.h \
   include/linux/byteorder/little_endian.h \
   include/linux/swab.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/swab.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/swab.h \
   include/linux/byteorder/generic.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/thread_info.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/thread_info.h \
     $(wildcard include/config/arm/thumbee.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/fpstate.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/fpstate.h \
     $(wildcard include/config/vfpv3.h) \
     $(wildcard include/config/iwmmxt.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/domain.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/domain.h \
     $(wildcard include/config/io/36.h) \
     $(wildcard include/config/cpu/use/domains.h) \
   include/linux/kernel.h \
@@ -137,29 +137,29 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
   include/linux/init.h \
     $(wildcard include/config/modules.h) \
   include/linux/dynamic_debug.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/bug.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/bug.h \
     $(wildcard include/config/bug.h) \
     $(wildcard include/config/debug/bugverbose.h) \
   include/asm-generic/bug.h \
     $(wildcard include/config/generic/bug.h) \
     $(wildcard include/config/generic/bug/relative/pointers.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/div64.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/div64.h \
   include/linux/stringify.h \
   include/linux/bottom_half.h \
   include/linux/spinlock_types.h \
   include/linux/spinlock_types_up.h \
   include/linux/rwlock_types.h \
   include/linux/spinlock_up.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/processor.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/processor.h \
     $(wildcard include/config/have/hw/breakpoint.h) \
     $(wildcard include/config/mmu.h) \
     $(wildcard include/config/arm/errata/754327.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/hw_breakpoint.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/hw_breakpoint.h \
   include/linux/rwlock.h \
   include/linux/spinlock_api_up.h \
   include/linux/kref.h \
   include/linux/wait.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/current.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/current.h \
   include/linux/klist.h \
   include/linux/module.h \
     $(wildcard include/config/symbol/prefix.h) \
@@ -172,12 +172,12 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
     $(wildcard include/config/constructors.h) \
     $(wildcard include/config/debug/set/module/ronx.h) \
   include/linux/stat.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/stat.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/stat.h \
   include/linux/time.h \
     $(wildcard include/config/arch/uses/gettimeoffset.h) \
   include/linux/cache.h \
     $(wildcard include/config/arch/has/cache/line/size.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/cache.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/cache.h \
     $(wildcard include/config/arm/l1/cache/shift.h) \
     $(wildcard include/config/aeabi.h) \
   include/linux/seqlock.h \
@@ -217,12 +217,12 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
   include/linux/bitmap.h \
   include/linux/string.h \
     $(wildcard include/config/binary/printf.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/string.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/string.h \
   include/linux/pageblock-flags.h \
     $(wildcard include/config/hugetlb/page.h) \
     $(wildcard include/config/hugetlb/page/size/variable.h) \
   include/generated/bounds.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/page.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/page.h \
     $(wildcard include/config/cpu/copy/v3.h) \
     $(wildcard include/config/cpu/copy/v4wt.h) \
     $(wildcard include/config/cpu/copy/v4wb.h) \
@@ -230,8 +230,8 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
     $(wildcard include/config/cpu/copy/fa.h) \
     $(wildcard include/config/cpu/xscale.h) \
     $(wildcard include/config/cpu/copy/v6.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/glue.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/memory.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/glue.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/memory.h \
     $(wildcard include/config/page/offset.h) \
     $(wildcard include/config/thumb2/kernel.h) \
     $(wildcard include/config/dram/size.h) \
@@ -254,7 +254,7 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
     $(wildcard include/config/mx1/video.h) \
     $(wildcard include/config/video/mx2/hostsupport.h) \
     $(wildcard include/config/arch/mx5.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/sizes.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/sizes.h \
   include/asm-generic/sizes.h \
   include/asm-generic/memory_model.h \
     $(wildcard include/config/sparsemem/vmemmap.h) \
@@ -287,11 +287,11 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
     $(wildcard include/config/need/per/cpu/page/first/chunk.h) \
     $(wildcard include/config/have/setup/per/cpu/area.h) \
   include/linux/pfn.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/percpu.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/percpu.h \
   include/asm-generic/percpu.h \
   include/linux/percpu-defs.h \
     $(wildcard include/config/debug/force/weak/per/cpu.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/topology.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/topology.h \
   include/asm-generic/topology.h \
   include/linux/mmdebug.h \
     $(wildcard include/config/debug/vm.h) \
@@ -307,9 +307,9 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
   include/linux/jiffies.h \
   include/linux/timex.h \
   include/linux/param.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/param.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/param.h \
     $(wildcard include/config/hz.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/timex.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/timex.h \
   arch/arm/plat-mxc/include/mach/timex.h \
     $(wildcard include/config/arch/mx2.h) \
   include/linux/debugobjects.h \
@@ -330,8 +330,8 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
   include/linux/rcutree.h \
   include/linux/elf.h \
   include/linux/elf-em.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/elf.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/user.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/elf.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/user.h \
   include/linux/moduleparam.h \
     $(wildcard include/config/alpha.h) \
     $(wildcard include/config/ia64.h) \
@@ -339,13 +339,13 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
   include/linux/tracepoint.h \
   include/linux/jump_label.h \
     $(wildcard include/config/jump/label.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/module.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/module.h \
     $(wildcard include/config/arm/unwind.h) \
   include/trace/events/module.h \
   include/trace/define_trace.h \
   include/linux/pm.h \
     $(wildcard include/config/pm/runtime.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/device.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/device.h \
     $(wildcard include/config/dmabounce.h) \
   include/linux/pm_wakeup.h \
   include/linux/mod_devicetable.h \
@@ -365,7 +365,7 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
     $(wildcard include/config/migration.h) \
   include/linux/limits.h \
   include/linux/ioctl.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/ioctl.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/ioctl.h \
   include/asm-generic/ioctl.h \
   include/linux/blk_types.h \
     $(wildcard include/config/blk/dev/integrity.h) \
@@ -394,7 +394,7 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
   include/linux/sunrpc/msg_prot.h \
   include/linux/inet.h \
   include/linux/fcntl.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/fcntl.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/fcntl.h \
   include/asm-generic/fcntl.h \
   include/linux/err.h \
   include/linux/irq.h \
@@ -404,7 +404,7 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
     $(wildcard include/config/generic/pending/irq.h) \
   include/linux/irqreturn.h \
   include/linux/irqnr.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/irq.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/irq.h \
   arch/arm/plat-mxc/include/mach/irqs.h \
     $(wildcard include/config/mxc/tzic.h) \
     $(wildcard include/config/arm/gic.h) \
@@ -413,13 +413,13 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
     $(wildcard include/config/soc/imx51.h) \
     $(wildcard include/config/mach/mx31ads/wm1133/ev1.h) \
     $(wildcard include/config/mx3/ipu/irqs.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/irq_regs.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/irq_regs.h \
   include/asm-generic/irq_regs.h \
   include/linux/irqdesc.h \
     $(wildcard include/config/irq/preflow/fasteoi.h) \
     $(wildcard include/config/proc/fs.h) \
     $(wildcard include/config/sparse/irq.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/hw_irq.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/hw_irq.h \
   include/linux/interrupt.h \
     $(wildcard include/config/irq/forced/threading.h) \
     $(wildcard include/config/generic/irq/probe.h) \
@@ -428,7 +428,7 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
     $(wildcard include/config/irq/time/accounting.h) \
   include/linux/ftrace_irq.h \
     $(wildcard include/config/ftrace/nmi/enter.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/hardirq.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/hardirq.h \
     $(wildcard include/config/local/timers.h) \
   include/linux/irq_cpustat.h \
   include/linux/hrtimer.h \
@@ -491,23 +491,23 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
     $(wildcard include/config/mmu/notifier.h) \
     $(wildcard include/config/transparent/hugepage.h) \
   include/linux/auxvec.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/auxvec.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/auxvec.h \
   include/linux/page-debug-flags.h \
     $(wildcard include/config/page/poisoning.h) \
     $(wildcard include/config/page/debug/something/else.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/mmu.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/mmu.h \
     $(wildcard include/config/cpu/has/asid.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/cputime.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/cputime.h \
   include/asm-generic/cputime.h \
   include/linux/sem.h \
   include/linux/ipc.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/ipcbuf.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/sembuf.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/ipcbuf.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/sembuf.h \
   include/linux/signal.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/signal.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/signal.h \
   include/asm-generic/signal-defs.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/sigcontext.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/siginfo.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/sigcontext.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/siginfo.h \
   include/asm-generic/siginfo.h \
   include/linux/proportions.h \
   include/linux/seccomp.h \
@@ -517,7 +517,7 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
   include/linux/plist.h \
     $(wildcard include/config/debug/pi/list.h) \
   include/linux/resource.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/resource.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/resource.h \
   include/asm-generic/resource.h \
   include/linux/task_io_accounting.h \
     $(wildcard include/config/task/io/accounting.h) \
@@ -533,10 +533,10 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
   include/linux/aio_abi.h \
   include/linux/uio.h \
   include/linux/delay.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/delay.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/delay.h \
   include/linux/gpio.h \
     $(wildcard include/config/generic/gpio.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/gpio.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/gpio.h \
   arch/arm/plat-mxc/include/mach/gpio.h \
   arch/arm/plat-mxc/include/mach/hardware.h \
   arch/arm/plat-mxc/include/mach/mxc.h \
@@ -563,11 +563,11 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
   include/linux/debug_locks.h \
     $(wildcard include/config/debug/locking/api/selftests.h) \
   include/linux/range.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/pgtable.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/pgtable.h \
     $(wildcard include/config/highpte.h) \
   include/asm-generic/4level-fixup.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/proc-fns.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/glue-proc.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/proc-fns.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/glue-proc.h \
     $(wildcard include/config/cpu/arm610.h) \
     $(wildcard include/config/cpu/arm7tdmi.h) \
     $(wildcard include/config/cpu/arm710.h) \
@@ -589,7 +589,7 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
     $(wildcard include/config/cpu/v6k.h) \
     $(wildcard include/config/cpu/v7.h) \
   arch/arm/plat-mxc/include/mach/vmalloc.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/pgtable-hwdef.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/pgtable-hwdef.h \
   include/asm-generic/pgtable.h \
   include/linux/page-flags.h \
     $(wildcard include/config/pageflags/extended.h) \
@@ -600,10 +600,10 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
   include/linux/vmstat.h \
     $(wildcard include/config/vm/event/counters.h) \
   include/linux/vm_event_item.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/uaccess.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/unified.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/uaccess.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/unified.h \
     $(wildcard include/config/arm/asm/unified.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/io.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/io.h \
   arch/arm/plat-mxc/include/mach/io.h \
   arch/arm/plat-mxc/include/mach/common.h \
   arch/arm/plat-mxc/include/mach/mxc_dvfs.h \
@@ -612,8 +612,8 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
     $(wildcard include/config/sion.h) \
   arch/arm/plat-mxc/include/mach/iomux-v3.h \
   arch/arm/plat-mxc/include/mach/imx-uart.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/setup.h \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/mach-types.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/setup.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/mach-types.h \
   include/generated/mach-types.h \
     $(wildcard include/config/arch/ebsa110.h) \
     $(wildcard include/config/arch/rpc.h) \
@@ -1714,7 +1714,7 @@ deps_/home/naresh/sahasalu/vision/KeyPad/matrix_keypad.o := \
     $(wildcard include/config/mach/mx6sl/arm2.h) \
     $(wildcard include/config/mach/mx6q/hdmidongle.h) \
     $(wildcard include/config/mach/mx6sl/evk.h) \
-  /home/naresh/KPDS_Kernel/arch/arm/include/asm/mach/arch.h \
+  /u01/ksrc/KPDS_Kernel/arch/arm/include/asm/mach/arch.h \
     $(wildcard include/config/multi/irq/handler.h) \
   include/linux/input/matrix_keypad.h \
   include/linux/kernel_stat.h \

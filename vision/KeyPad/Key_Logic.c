@@ -317,8 +317,9 @@ int main()
 		unsigned short code = KEY_VAL(key);
 		//printf(" MATRIX_SCAN_CODE(row, col, row_shift) = %d \n",MATRIX_SCAN_CODE(row, col, row_shift));
 		keycodes[MATRIX_SCAN_CODE(row, col, row_shift)] = code;
-		  printf ("row = %d\tcol = %d\tcode = %d\tkeycode[%d] = %d\t\ti = %d\tkey = %d \n",row,col,code,i,keycodes[code],i,key) ;
-		  PrintAllBits(key);
+		printf("\t%x\n",key);
+//		  printf ("row = %d\tcol = %d\tcode = %d\tkeycode[%d] = %d\t\ti = %d\tkey = %x \n",row,col,code,i,keycodes[code],i,key) ;
+//		  PrintAllBits(key);
 	}
 
 	return 0;

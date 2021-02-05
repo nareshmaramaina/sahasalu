@@ -49,7 +49,9 @@ cdev_del
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 module_param(myshort, short, S_IRUSR ); // Variable, data type , Permissions 
-MODULE_PARM_DESC(myshort, "A short integer"); // Description about variable for modinfo purpose 
+MODULE_PARM_DESC(myshort, "A short integer"); // Description about variable for modinfo purpose
+
+/sys/module/( Driver Name )/parameters/( Module parameters are available You can Set also 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -345,3 +347,11 @@ before we can scan keypad after activating column gpio
 			0x0201006C>;
 	};  
 ----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+GPIOs with debounce support
+
+Debouncing is a configuration set to a pin indicating that it is connected to a mechanical switch or button, or similar that may bounce. Bouncing means the line is pulled high/low quickly at very short intervals for mechanical reasons. This can result in the value being unstable or irqs fireing repeatedly unless the line is debounced.
+
+Debouncing in practice involves setting up a timer when something happens on the line, wait a little while and then sample the line again, so see if it still has the same value (low or high). This could also be repeated by a clever state machine, waiting for a line to become stable. In either case, it sets a certain number of milliseconds for debouncing, or just “on/off” if that time is not configurable.
+

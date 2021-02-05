@@ -630,7 +630,7 @@ static int work_thread(void *arg)
 			return 0;
 		} 
 
-		//pr_info(" jiffies = %d key_out_flag %d touch_pnt_out %d bkl_on_timer%d bkl_cont_on%d \n",jiffies,key_out_flag,touch_pnt_out,bkl_on_timer,bkl_cont_on);
+		////pr_info(" jiffies = %d key_out_flag %d touch_pnt_out %d bkl_on_timer%d bkl_cont_on%d \n",jiffies,key_out_flag,touch_pnt_out,bkl_on_timer,bkl_cont_on);
 		if ( key_out_flag || touch_pnt_out || bkl_on_timer || bkl_cont_on )
 		{
 			gpio_set_value(LCD_BKL,1); // bkl _on
@@ -646,11 +646,11 @@ static int work_thread(void *arg)
 			if ( key_out_flag || touch_pnt_out || buzz_on_flg )
 			{
 				gpio_set_value(BUZZ, 1);
-				pr_info(" buzz_on_flg = %d\n", buzz_on_flg);
+				//pr_info(" buzz_on_flg = %d\n", buzz_on_flg);
 
 				if (!buzz_on_flg)
 				{
-					pr_info(" In msleep buzz_on_flg = %d\n", buzz_on_flg);
+					//pr_info(" In msleep buzz_on_flg = %d\n", buzz_on_flg);
 					msleep_interruptible(buz_counter*10);
 					gpio_set_value(BUZZ, 0);
 				}

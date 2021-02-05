@@ -189,9 +189,6 @@ static void kpad_timer(unsigned long data)
 	memset(new_state, 0, sizeof(new_state));
 	if(encoder_gs() == 0 )
 	{
-		pr_info(" Column0 = %d\n", col_get_gpio_value(MX6_BRD_LCD_DAT11_COL0));
-		pr_info(" Column1 = %d\n", col_get_gpio_value(MX6_BRD_LCD_DAT12_COL1));
-		pr_info(" Column2 = %d\n", col_get_gpio_value(MX6_BRD_LCD_DAT13_COL2));
 		if(scan_count)
 		{
 			val = col_get_gpio_value(MX6_BRD_LCD_DAT11_COL0);
@@ -202,23 +199,23 @@ static void kpad_timer(unsigned long data)
 			val = col_get_gpio_value(MX6_BRD_LCD_DAT13_COL2);
 			if(val)
 				new_state[rowdata] |= 0x04 ;
-			if((new_state[rowdata] == 5) (rowdata == 3) &&){ // ( KEY( Col, Row );
+			if((new_state[rowdata] == 5) && (rowdata == 3) ){ // ( KEY( Col, Row );
 				if(fn_key_count == 1)		
 					fn_key_count = 0 ;
 				shift_count ++ ;
 				if(shift_count == 1){
 					code = MATRIX_SCAN_CODE((new_state[rowdata]), rowdata, keypad->row_shift);
-					input_event(input_dev, EV_MSC, MSC_SCAN, code);
-					input_report_key(input_dev,keypad->keycodes[code],1);
+					//input_event(input_dev, EV_MSC, MSC_SCAN, code);
+					pr_info("keypad->keycodes[code] = %d\n",keypad->keycodes[code]);input_report_key(input_dev,keypad->keycodes[code],1);
 					//bkl_controller();
-					input_sync(input_dev) ;
+					//input_sync(input_dev) ;
 					scan_count = 0 ;
 				}
 				else if (shift_count == 2){
 					code = MATRIX_SCAN_CODE((new_state[rowdata]), rowdata, keypad->row_shift);
-					input_event(input_dev, EV_MSC, MSC_SCAN, code);
-					input_report_key(input_dev,keypad->keycodes[code],0);
-					input_sync(input_dev) ;
+					//input_event(input_dev, EV_MSC, MSC_SCAN, code);
+					pr_info("keypad->keycodes[code] = %d\n",keypad->keycodes[code]);input_report_key(input_dev,keypad->keycodes[code],0);
+					//input_sync(input_dev) ;
 					shift_count = 0 ;
 					scan_count = 0 ;
 				}
@@ -239,7 +236,7 @@ static void kpad_timer(unsigned long data)
 				key_out_flag=1;
 			}
 			else
-			{
+			{		// row,col,key  0 1 0 2 
 				/*KEY(0, 0, KEY_Q),KEY(0, 1, KEY_I),KEY(0, 2, KEY_G),KEY(0, 3, KEY_C),KEY(0, 4, KEY_TAB),KEY(0, 5, KEY_4),KEY(0, 6, KEY_8),KEY(0, 7, KEY_ENTER),
 				  KEY(1, 0, KEY_W),KEY(1, 1, KEY_O),KEY(1, 2, KEY_H),KEY(1, 3, KEY_V),KEY(1, 4, KEY_1),KEY(1, 5, KEY_5),KEY(1, 6, KEY_9),KEY(1, 7, KEY_RESERVED),
 				  KEY(2, 0, KEY_E),KEY(2, 1, KEY_P),KEY(2, 2, KEY_J),KEY(2, 3, KEY_B),KEY(2, 4, KEY_2),KEY(2, 5, KEY_6),KEY(2, 6, KEY_RIGHT),KEY(2, 7,KEY_RESERVED),
@@ -269,22 +266,22 @@ static void kpad_timer(unsigned long data)
 				{
 					if(shift_count == 1){
 						code = MATRIX_SCAN_CODE(5, 3, keypad->row_shift);
-						input_event(input_dev, EV_MSC, MSC_SCAN, code);
-						input_report_key(input_dev,keypad->keycodes[code],0);
-						input_sync(input_dev) ;
+						//input_event(input_dev, EV_MSC, MSC_SCAN, code);
+						pr_info("keypad->keycodes[code] = %d\n",keypad->keycodes[code]);input_report_key(input_dev,keypad->keycodes[code],0);
+						//input_sync(input_dev) ;
 						shift_count = 0 ;
 					}
 					if(((new_state[rowdata]) % 2) == 0){ // Even Coloumn 
 						// Q   , 
 						code = MATRIX_SCAN_CODE((new_state[rowdata]+7), rowdata, keypad->row_shift);
-						input_event(input_dev, EV_MSC, MSC_SCAN, code);
-						input_report_key(input_dev,keypad->keycodes[code],1);
+						//input_event(input_dev, EV_MSC, MSC_SCAN, code);
+						pr_info("keypad->keycodes[code] = %d\n",keypad->keycodes[code]);input_report_key(input_dev,keypad->keycodes[code],1);
 						//bkl_controller();
-						input_sync(input_dev) ;
+						//input_sync(input_dev) ;
 						udelay(1) ;
-						input_event(input_dev, EV_MSC, MSC_SCAN, code);
-						input_report_key(input_dev,keypad->keycodes[code],0);
-						input_sync(input_dev) ;
+						//input_event(input_dev, EV_MSC, MSC_SCAN, code);
+						pr_info("keypad->keycodes[code] = %d\n",keypad->keycodes[code]);input_report_key(input_dev,keypad->keycodes[code],0);
+						//input_sync(input_dev) ;
 						scan_count = 0 ;
 						//printk(" printk key1\n");
 						//bkl_controller() ;
@@ -292,25 +289,25 @@ static void kpad_timer(unsigned long data)
 					}
 					else {
 						code = MATRIX_SCAN_CODE(5, 3, keypad->row_shift);
-						input_event(input_dev, EV_MSC, MSC_SCAN, code);
-						input_report_key(input_dev,keypad->keycodes[code],1);
+						//input_event(input_dev, EV_MSC, MSC_SCAN, code);
+						pr_info("keypad->keycodes[code] = %d\n",keypad->keycodes[code]);input_report_key(input_dev,keypad->keycodes[code],1);
 						//bkl_controller();
-						input_sync(input_dev) ;
+						//input_sync(input_dev) ;
 						udelay(1) ;
 
 						code = MATRIX_SCAN_CODE((new_state[rowdata]+7), rowdata, keypad->row_shift);
-						input_event(input_dev, EV_MSC, MSC_SCAN, code);
-						input_report_key(input_dev,keypad->keycodes[code],1);
-						input_sync(input_dev) ;
+						//input_event(input_dev, EV_MSC, MSC_SCAN, code);
+						pr_info("keypad->keycodes[code] = %d\n",keypad->keycodes[code]);input_report_key(input_dev,keypad->keycodes[code],1);
+						//input_sync(input_dev) ;
 						udelay(1) ;
-						input_event(input_dev, EV_MSC, MSC_SCAN, code);
-						input_report_key(input_dev,keypad->keycodes[code],0);
-						input_sync(input_dev) ;
+						//input_event(input_dev, EV_MSC, MSC_SCAN, code);
+						pr_info("keypad->keycodes[code] = %d\n",keypad->keycodes[code]);input_report_key(input_dev,keypad->keycodes[code],0);
+						//input_sync(input_dev) ;
 
 						code = MATRIX_SCAN_CODE(5, 3, keypad->row_shift);
-						input_event(input_dev, EV_MSC, MSC_SCAN, code);
-						input_report_key(input_dev,keypad->keycodes[code],0);
-						input_sync(input_dev) ;
+						//input_event(input_dev, EV_MSC, MSC_SCAN, code);
+						pr_info("keypad->keycodes[code] = %d\n",keypad->keycodes[code]);input_report_key(input_dev,keypad->keycodes[code],0);
+						//input_sync(input_dev) ;
 						scan_count = 0 ;
 						//printk(" printk key3\n");
 						//bkl_controller() ;
@@ -326,25 +323,25 @@ static void kpad_timer(unsigned long data)
 						if(shift_count == 1){  // Case For KEY_RIGHTSHIFT
 
 							code = MATRIX_SCAN_CODE(5, 3, keypad->row_shift);
-							input_event(input_dev, EV_MSC, MSC_SCAN, code);
-							input_report_key(input_dev,keypad->keycodes[code],0);
-							input_sync(input_dev) ;
+							//input_event(input_dev, EV_MSC, MSC_SCAN, code);
+							pr_info("keypad->keycodes[code] = %d\n",keypad->keycodes[code]);input_report_key(input_dev,keypad->keycodes[code],0);
+							//input_sync(input_dev) ;
 							shift_count = 0 ;
 						}
 					}
 					code = MATRIX_SCAN_CODE((new_state[rowdata]), rowdata, keypad->row_shift);
-					input_event(input_dev, EV_MSC, MSC_SCAN, code);
-					input_report_key(input_dev,keypad->keycodes[code],1);
+					//input_event(input_dev, EV_MSC, MSC_SCAN, code);
+					pr_info("keypad->keycodes[code] = %d\n",keypad->keycodes[code]);input_report_key(input_dev,keypad->keycodes[code],1);
 					//bkl_controller();
-					input_sync(input_dev) ;
+					//input_sync(input_dev) ;
 					udelay(3) ;
-					input_event(input_dev, EV_MSC, MSC_SCAN, code);
-					input_report_key(input_dev,keypad->keycodes[code],0);
-					input_sync(input_dev) ;
+					//input_event(input_dev, EV_MSC, MSC_SCAN, code);
+					pr_info("keypad->keycodes[code] = %d\n",keypad->keycodes[code]);input_report_key(input_dev,keypad->keycodes[code],0);
+					//input_sync(input_dev) ;
 					scan_count = 0 ;
 					default_keys = 0 ;
 					//printk(" printk key2\n");
-					//bkl_controller() ;
+					//bkl_controller) ;
 					key_out_flag=1;
 					if((new_state[rowdata] == 3 && rowdata == 5)){
 						clear_count ++ ;
@@ -373,9 +370,6 @@ static void kpad_timer(unsigned long data)
 		}
 	}
 	else{
-		pr_info(" Row0 %d\n",gpio_get_value(MX6_BRD_LCD_DAT8_ROW0)); 
-		pr_info(" Row1 %d\n",gpio_get_value(MX6_BRD_LCD_DAT9_ROW1)); 
-		pr_info(" Row2 %d\n",gpio_get_value(MX6_BRD_LCD_DAT10_ROW2)); 
 		clear_count = 0 ;
 
 		for(i=0;i<8;i++)
@@ -428,6 +422,20 @@ static int matrix_keypad_start(struct input_dev *dev)
 	keypad->stopped = false;
 	mb();
 
+/* Mandatory barriers are used to enforce memory consistency on a full system level. The most common example of this is when communicating with external memory mapped peripherals. All mandatory barriers are guaranteed to expand to at least a compiler barrier, regardless of target architecture.     
+Statement 	Description
+
+mb()
+
+	A full system memory barrier. All memory operations before the mb() in the instruction stream will be committed before any operations after the mb() are committed. This ordering will be visible to all bus masters in the system. It will also ensure the order in which accesses from a single processor reaches slave devices.
+
+rmb()
+
+	Like mb(), but only guarantees ordering between read accesses. That is, all read operations before an rmb() will be committed before any read operations after the rmb().
+
+wmb()
+
+	Like mb(), but only guarantees ordering between write accesses. That is, all write operations before a wmb() will be committed before any write operations after the wmb(). */
 	return 0;
 }
 
@@ -601,12 +609,12 @@ static int __devinit matrix_keypad_probe(struct platform_device *pdev)
 		unsigned short code = KEY_VAL(key);
 
 		keycodes[MATRIX_SCAN_CODE(row, col, row_shift)] = code;
-		//                printk ("row = %d\tcol = %d\tcode = %d\tkeycode[i] = %d\t\ti = %d\tkey = %d \n",row,col,code,keycodes[i],i,key) ;
+		printk ("row = %d\tcol = %d\tcode = %d\tkeycode[i] = %d\t\ti = %d\tkey = %d \n",row,col,code,keycodes[i],i,key) ;
 		__set_bit(code, input_dev->keybit);
 	}
 	__clear_bit(KEY_RESERVED, input_dev->keybit);
 
-	input_set_capability(input_dev, EV_MSC, MSC_SCAN);
+	input_set_capability(input_dev, EV_MSC, MSC_SCAN); // 
 	input_set_drvdata(input_dev, keypad);
 
 	err = init_matrix_gpio(pdev, keypad);
