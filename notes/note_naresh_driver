@@ -230,6 +230,14 @@ int sysfs_create_group(struct kobject *kobj, const struct attribute_group *grp);
 void kobject_put(struct kobject *kobj);
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
+
+If we want to use GPIO lines enable or disable via sysfs. You should not do before the gpio_request gpio_set_output_direction. 
+If you do that You can't access from sysfs entry i.e, /sys/class/gpio 
+
+If you do export all gpio pins, before the  gpio_request gpio_set_output_direction ( e.g, imx_iocon ) , u can confortably use from sysfs 
+
+
+mount -t debugfs debugfs /sys/kernel/debug/
 ----------------------------------------------------------------------------------------------------------------------------------------------
 GPIO Drivers ( https://www.kernel.org/doc/html/latest/driver-api/gpio/driver.html Full description ) 
 
@@ -355,3 +363,109 @@ Debouncing is a configuration set to a pin indicating that it is connected to a 
 
 Debouncing in practice involves setting up a timer when something happens on the line, wait a little while and then sample the line again, so see if it still has the same value (low or high). This could also be repeated by a clever state machine, waiting for a line to become stable. In either case, it sets a certain number of milliseconds for debouncing, or just “on/off” if that time is not configurable.
 
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+References :- https://www.kernel.org/doc/Documentation/gpio/sysfs.txt
+
+
+	https://www.ics.com/blog/gpio-programming-using-sysfs-interface
+
+
+
+
+
+
+you will see the GPIO hardware exposed in the file system under /sys/class/gpio
+
+ls /sys/class/gpio 
+
+
+export*  gpiochip0@  gpiochip100@  gpiochip504@  unexport*
+
+We'll look at how to use this interface next. Note that the device names starting with "gpiochip" are the GPIO controllers and we won't directly use them.
+
+
+The basic steps to use a GPIO pin from the sysfs interface are the following 
+
+1. Export the pin 
+
+2. Set the pin direction ( input or output )
+
+If an output pin, set the level to low or high.
+If an input pin, read the pin's level (low or high).
+When done, unexport the pin.
+
+Above Exesie Commands:- 
+
+
+Step 1: echo 250 > /sys/class/gpio
+
+Step 2: ls /sys/class/gpio/gpio250/ 
+
+active_low  direction   power       uevent
+device      edge        subsystem   value
+
+Step 3: 
+
+As an example, we can export GPIO pin 24 (which corresponds to physical pin number 18 on the GPIO connector of the Raspberry Pi) with this shell command:
+
+$ echo 24 >/sys/class/gpio/export
+
+We will now see a gpio24 device appear under /sys/class gpio that was not there before:
+
+$ ls /sys/class/gpio
+export*  gpio24@  gpiochip0@  gpiochip100@  gpiochip504@  unexport*
+
+This is a symbolic link to a directory which has a number of files in it:
+
+$ ls /sys/class/gpio/gpio24/
+active_low*  device@  direction*  edge*  power/  subsystem@  uevent*  value*
+
+Step 2 is to set the pin to be either an input or an output. This is done by writing either "in", or "out" to the direction file we saw above. For example, to set gpio24 as an input we would do:
+
+$ echo in >/sys/class/gpio/gpio24/direction
+
+Or to set it as an output:
+
+$ echo out >/sys/class/gpio/gpio24/direction
+
+The file can be read back if you want to check the current status:
+
+$ cat /sys/class/gpio/gpio24/direction 
+out
+
+While this may not be true for all hardware, a GPIO pin will generally default to being an input as this is always safe to do at the hardware level.
+
+If we are configuring an output pin, we can now set it's level. You write the value 0 or 1 (corresponding to low or high) to the value file for the pin. Continuing our example this could be done with:
+
+$ echo 0 >/sys/class/gpio/gpio24/value
+
+to set it low, or 
+
+$ echo 1 >/sys/class/gpio/gpio24/value
+
+to set it high.
+
+If we had configured the pin as an input and tried to do this, we would get an error because it is not valid to set the value of an input pin:
+
+bash: echo: write error: Operation not permitted
+
+If it had been configured as an input pin, we can read its value using the same file:
+
+$ cat /sys/class/gpio/gpio24/value
+0
+
+In this case 0 or low.
+
+You may be wondering if it is valid to read the value of an output pin, and the answer is yes. The value you read back depends on the actual hardware. On the Raspberry Pi you should see the same value that was output, but on some hardware it may reflect the actual signal level, which may be different if external hardware is driving it high or low.
+
+The final step, if you are finished using the GPIO pin, is to unexport it. To do this, just write the pin name to the unexport file, i.e.
+
+$ echo 24 >/sys/class/gpio/unexport
+
+After doing this, the entry for gpio24 will no longer appear in sysfs:
+
+$ ls /sys/class/gpio
+export*  gpiochip0@  gpiochip100@  gpiochip504@  unexport*
+
+----------------------------------------------------------------------------------------------------------------------------------------------

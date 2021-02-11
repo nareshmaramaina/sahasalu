@@ -1,3 +1,15 @@
+					Byte Stream 	- FIFO , Pipe , stream socket  
+Communication  -  Data  Transfer  
+
+					Messages 	- Data Gram  socket , (POSIX , System V ) Message Queues 
+
+
+		 - Shared Memeory 	- ( POSIX , System V ) Shared Memory , Memeroy Mapping. 
+
+			
+
+
+
 1. files as message interfaces
 
 	issues

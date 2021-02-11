@@ -1,4 +1,3 @@
 0x7cb5a323	key_out_flag	/home/naresh/sahasalu/vision/KeyPad/matrix_keypad	EXPORT_SYMBOL
 0x6d04c571	key_buzzer_onoff_flag	/home/naresh/sahasalu/vision/KeyPad/matrix_keypad	EXPORT_SYMBOL
-0xd0a9cc31	backlight_timeout	/home/naresh/sahasalu/vision/KeyPad/matrix_keypad	EXPORT_SYMBOL
 0x10227b59	touch_buzzer_onoff_flag	/home/naresh/sahasalu/vision/KeyPad/matrix_keypad	EXPORT_SYMBOL

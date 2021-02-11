@@ -1,5 +1,6 @@
 obj-m := matrix_keypad.o
 obj-m += imx_iocon.o
+obj-m += mygpio.o
 
 #KDIR=/lib/modules/$(shell uname -r)/build/
 #KDIR=/root/prev/kernel_src/linux-3.0.35_1170_lcd/

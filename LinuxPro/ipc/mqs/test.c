@@ -8,7 +8,7 @@ int main()
 	char buf[30];
 	fd = open("./abc", O_RDWR);
 	getchar();
-	read(fd, buf , 20);
+	printf(" %d \n",read(fd, buf , 20));
 	close(fd);
 	exit(0);
 }

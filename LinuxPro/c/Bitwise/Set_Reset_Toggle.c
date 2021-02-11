@@ -2,18 +2,20 @@
 int main()
 {
 	// Power of 2 
-	int num,pos;
+	int num,pos,tmp;
 	while(1)
 	{
-		printf("Enter A number \n");
+		printf("Enter number \n");
 		scanf("%d",&num);
-		printf("Enter A number \n");
+		printf("Enter Position to set,reset,toggle number \n");
 		scanf("%d",&pos);
 		PrintAllBits(num);
-		//num = SetBit(num,pos);
-		//num = ResetBit(num,pos);
-		num = ToggleBit(num,pos);
-		PrintAllBits(num);
+		tmp = SetBit(num,pos);
+		PrintAllBits(tmp);
+		tmp = ResetBit(num,pos);
+		PrintAllBits(tmp);
+		tmp = ToggleBit(num,pos);
+		PrintAllBits(tmp);
 
 	}
 }
@@ -39,7 +41,7 @@ int SetBit(int num,int pos)
 int PrintAllBits(int num)
 {
 	int i=0;
-	for(i= ( sizeof(int)*8) -1; i>=0 ; i-- )
+	for(i= ( sizeof(int)*8)-1; i>=0 ; i-- )
 		printf("%d ", (( num>>i ) & 1 ) );
 	printf("\n");
 	return 0;

@@ -92,8 +92,8 @@ struct matrix_keypad {
 };
 
 static struct timer_list bkl_timer ;
-volatile int backlight_timeout =0;
-EXPORT_SYMBOL(backlight_timeout);
+//volatile int backlight_timeout =0;
+//EXPORT_SYMBOL(backlight_timeout);
 
 volatile int key_buzzer_onoff_flag =1;
 EXPORT_SYMBOL(key_buzzer_onoff_flag);

@@ -81,7 +81,7 @@
 void imx6sl_hw_init(void)
 {
 	//	mxc_iomux_v3_setup_pad(MX6SL_PAD_EPDC_SDCE1__GPIO_1_28) ; // KEYPAD_BACKLIGHT
-	mxc_iomux_v3_setup_pad(MX6SL_PAD_PWM1__GPIO_3_23) ; // LCD_BACKLIGHT
+/*	mxc_iomux_v3_setup_pad(MX6SL_PAD_PWM1__GPIO_3_23) ; // LCD_BACKLIGHT
 	mxc_iomux_v3_setup_pad(MX6SL_PAD_EPDC_D10__GPIO_1_17) ; // AUD_PWR_CONTROL
 	mxc_iomux_v3_setup_pad(MX6SL_PAD_AUD_RXFS__GPIO_1_0) ; // BAT_SENSE
 	mxc_iomux_v3_setup_pad(MX6SL_PAD_LCD_DAT19__GPIO_3_7) ; // BUZZER
@@ -101,7 +101,7 @@ void imx6sl_hw_init(void)
 
 
 	mxc_iomux_v3_setup_pad(MX6SL_PAD_KEY_COL3__GPIO_3_30);//wifi power control
-
+	*/
 	//	gpio_request(KPD_BKL, "kpd_bkl");
 	gpio_request(LCD_BKL, "lcd_bkl");
 	gpio_request(AUD_PWR, "aud_pwr");
@@ -147,33 +147,58 @@ void imx6sl_hw_init(void)
 	gpio_direction_output(SERIAL_PWR_PIN,0);
 	gpio_direction_output(RFU_USB_PWR_CTRL_PIN,1) ;
 	gpio_direction_output(WIFI_RF_PWR_CTRL_PIN,1) ;
-	gpio_direction_output(RFID_PWR_CTRL_PIN,0) ;
+	gpio_direction_output(RFID_PWR_CTRL_PIN,0) ; 
 }
-
 
 void imx6sl_hw_deinit(void)
 {
-	//	gpio_free(KPD_BKL);
 	gpio_free(LCD_BKL);
 	gpio_free(AUD_PWR);
 	gpio_free(BAT_CHG);
 	gpio_free(BUZZ);
 	gpio_free(GPS_ON_OFF_PIN);
-	gpio_direction_output(OPT_CAPPWR_EN_PIN, 0);
-	gpio_direction_output(IFD_PWR_ENABLE_PIN, 0);
-	gpio_direction_output(BT_PWR_CTRL, 0);
-	gpio_direction_output(HOST_PWR_CTRL, 0);
-	gpio_direction_output(SAM_PWR_CTRL, 0);
-	gpio_direction_output(CAMERA_PWR_CTRL, 0);
-	gpio_direction_output(GSM_PWR_CTRL, 0);
-	gpio_direction_output(GSM_USB_PWR_CTRL, 0);
-	gpio_direction_output(CAMERA_FLASH_CTRL, 1);
-	gpio_direction_output(SIM_SELECT, 1);
+	gpio_free(OPT_CAPPWR_EN_PIN);
+	gpio_free(IFD_PWR_ENABLE_PIN);
+	gpio_free(BT_PWR_CTRL);
+	gpio_free(HOST_PWR_CTRL);
+	gpio_free(SAM_PWR_CTRL);
+	gpio_free(CAMERA_PWR_CTRL);
+	gpio_free(GSM_PWR_CTRL);
+	gpio_free(GSM_USB_PWR_CTRL);
+	gpio_free(CAMERA_FLASH_CTRL);
+	gpio_free(SIM_SELECT);
 	gpio_free(GSM_M_RESET_PIN);
 	gpio_free(BAT_SENSE_PIN);
-	gpio_direction_output(SERIAL_PWR_PIN,0);
+	gpio_free(SERIAL_PWR_PIN);
 	gpio_free(RFU_USB_PWR_CTRL_PIN);
-	gpio_free(RFID_PWR_CTRL_PIN) ;
-	gpio_free(WIFI_RF_PWR_CTRL_PIN) ;
-}
+	gpio_free(WIFI_RF_PWR_CTRL_PIN);
+	gpio_free(RFID_PWR_CTRL_PIN);
 
+
+
+}
+/*{
+//	gpio_free(KPD_BKL);
+gpio_free(LCD_BKL);
+gpio_free(AUD_PWR);
+gpio_free(BAT_CHG);
+gpio_free(BUZZ);
+gpio_free(GPS_ON_OFF_PIN);
+gpio_direction_output(OPT_CAPPWR_EN_PIN, 0);
+gpio_direction_output(IFD_PWR_ENABLE_PIN, 0);
+gpio_direction_output(BT_PWR_CTRL, 0);
+gpio_direction_output(HOST_PWR_CTRL, 0);
+gpio_direction_output(SAM_PWR_CTRL, 0);
+gpio_direction_output(CAMERA_PWR_CTRL, 0);
+gpio_direction_output(GSM_PWR_CTRL, 0);
+gpio_direction_output(GSM_USB_PWR_CTRL, 0);
+gpio_direction_output(CAMERA_FLASH_CTRL, 1);
+gpio_direction_output(SIM_SELECT, 1);
+gpio_direction_output(SERIAL_PWR_PIN,0);
+gpio_free(GSM_M_RESET_PIN);
+gpio_free(BAT_SENSE_PIN);
+gpio_free(RFU_USB_PWR_CTRL_PIN);
+gpio_free(RFID_PWR_CTRL_PIN) ;
+gpio_free(WIFI_RF_PWR_CTRL_PIN) ;
+}
+*/

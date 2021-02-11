@@ -1,2 +1,3 @@
 kernel//home/naresh/sahasalu/vision/KeyPad/matrix_keypad.ko
 kernel//home/naresh/sahasalu/vision/KeyPad/imx_iocon.ko
+kernel//home/naresh/sahasalu/vision/KeyPad/mygpio.ko

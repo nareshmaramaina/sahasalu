@@ -13,6 +13,24 @@ int main()
 		//		CountNumberOfSetBits(num);
 	}
 }
+int Check_Pwr_of_4(int num)
+{
+
+        if ( !(  num &  ( num -1) ) && (num & 055555555) )
+                printf("Power of 4 \n");
+        else
+                printf("Not A power of 4\n");
+
+        return 0;
+}
+int Check_PositiveorNegative(int num)
+{
+        if (  num * -1 > num )
+                printf("- %d \n",num);
+        else
+                printf("+ %d \n",num);
+        return 0;
+}
 
 int PrintAllBits(int num)
 {

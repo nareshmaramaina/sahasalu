@@ -1,0 +1,15 @@
+Unlike USB or SPI, i2c devices are not enumerated at the hardware level, Instead software must know which devices are connected on each i2c bus segment, and what address these devices are using. 
+
+
+Kenrel must instanitate i2c devices explicitly .
+
+There are several ways to achieve this, depending on the context and requirements.
+Method 1: Declare the I2C devices statically
+
+This method is appropriate when the I2C bus is a system bus as is the case for many embedded systems. On such systems, each I2C bus has a number which is known in advance. It is thus possible to pre-declare the I2C devices which live on this bus.
+
+This information is provided to the kernel in a different way on different architectures: device tree, ACPI or board files.
+
+
+I2c devices will be instanted automatically by i2c core. The devices will be automatically unbound and destroyed when device go away 
+
