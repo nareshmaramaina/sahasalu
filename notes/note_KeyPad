@@ -1,107 +1,81 @@
 
- the keyboard produces scancodes, the scancodes are assembled into keycodes (one unique code for each key), and keycodes are converted to tty input characters using the kernel keymaps. After that, the normal `stty' processing takes place, just as for any other terminal.
+the keyboard produces scancodes, the scancodes are assembled into keycodes (one unique code for each key), and keycodes are converted to input characters using the kernel keymaps. After that, the normal `stty' processing takes place, just as for any other terminal.
 Scancodes First
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Description
-
-Every force-feedback device must implement upload() and playback() methods; erase() is optional. set_gain() and set_autocenter() need only be implemented if driver sets up FF_GAIN and FF_AUTOCENTER bits.
-
-Note that playback(), set_gain() and set_autocenter() are called with dev->event_lock spinlock held and interrupts off and thus may not sleep.
-
-void input_event(struct input_dev * dev, unsigned int type, unsigned int code, int value)
-
-    report new input event
-
-Parameters
-
-struct input_dev * dev
-    device that generated the event
-unsigned int type
-    type of the event
-unsigned int code
-    event code
-int value
-    value of the event 
-
-https://www.kernel.org/doc/Documentation/input/event-codes.txt
-
-* EV_MSC:
-  - Used to describe miscellaneous input data that do not fit into other types.
-
-
- input_event(input_dev, EV_MSC, MSC_SCAN, code);
- input_report_key(input_dev,keypad->keycodes[code],1);
-
-input_report_key()
-
-
-/**
- * input_event() - report new input event
- * @dev: device that generated the event
- * @type: type of the event
- * @code: event code
- * @value: value of the event
- *
- * This function should be used by drivers implementing various input
- * devices to report input events. See also input_inject_event().
- *
- * NOTE: input_event() may be safely used right after input device was
- * allocated with input_allocate_device(), even before it is registered
- * with input_register_device(), but the event will not reach any of the
- * input handlers. Such early invocation of input_event() may be used
- * to 'seed' initial state of a switch or initial position of absolute
- * axis, etc.
- */
-
-
-
-call to the input system. There is no need to check whether the interrupt
-routine isn't reporting two same value events (press, press for example) to
-the input system, because the input_report_* functions check that
-themselves.
-
-Then there is the
-
-	input_sync()
-
-call to tell those who receive the events that we've sent a complete report.
-This doesn't seem important in the one button case, but is quite important
-for for example mouse movement, where you don't want the X and Y values
-to be interpreted separately, because that'd result in a different movement.
 
 
 Keyboard drivers should use EV_KEY to report key presses,
 
 
-The Matrix keypad supports multiple rows and coloumns, a key can be placed at intersection of a unique row and unique coloumn. 
+	 The Matrix keypad supports multiple rows and coloumns, a key can be placed at intersection of a unique row and unique coloumn. 
+
+
+	 Description
+
+	 Every force-feedback device must implement upload() and playback() methods; erase() is optional. set_gain() and set_autocenter() need only be implemented if driver sets up FF_GAIN and FF_AUTOCENTER bits.
+
+	 Note that playback(), set_gain() and set_autocenter() are called with dev->event_lock spinlock held and interrupts off and thus may not sleep.
+
+void input_event(struct input_dev * dev, unsigned int type, unsigned int code, int value)
+
+	report new input event
+
+	Parameters
+
+	struct input_dev * dev
+	device that generated the event
+	unsigned int type
+	type of the event
+	unsigned int code
+	event code
+	int value
+	value of the event 
+
+	https://www.kernel.org/doc/Documentation/input/event-codes.txt
+
+	* EV_MSC:
+	- Used to describe miscellaneous input data that do not fit into other types.
+
+
+	input_event(input_dev, EV_MSC, MSC_SCAN, code);
+	input_report_key(input_dev,keypad->keycodes[code],1);
+
+input_report_key()
+
+
+	/**
+	 * input_event() - report new input event
+	 * @dev: device that generated the event
+	 * @type: type of the event
+	 * @code: event code
+	 * @value: value of the event
+	 *
+	 * This function should be used by drivers implementing various input
+	 * devices to report input events. See also input_inject_event().
+	 *
+	 * NOTE: input_event() may be safely used right after input device was
+	 * allocated with input_allocate_device(), even before it is registered
+	 * with input_register_device(), but the event will not reach any of the
+	 * input handlers. Such early invocation of input_event() may be used
+	 * to 'seed' initial state of a switch or initial position of absolute
+	 * axis, etc.
+	 */
 
 
 
- 
+	call to the input system. There is no need to check whether the interrupt
+	routine isn't reporting two same value events (press, press for example) to
+	the input system, because the input_report_* functions check that
+	themselves.
+
+	Then there is the
+
+input_sync()
+
+	call to tell those who receive the events that we've sent a complete report.
+	This doesn't seem important in the one button case, but is quite important
+	for for example mouse movement, where you don't want the X and Y values
+	to be interpreted separately, because that'd result in a different movement.
+
+
+
+

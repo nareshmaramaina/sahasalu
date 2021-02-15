@@ -18,54 +18,54 @@ static sem_t sem;
 
 static void *threadFunc(void *arg)
 {
-    int loops = *((int *) arg);
-    int loc, j;
+	int loops = *((int *) arg);
+	int loc, j;
 	printf("%s: \n",__func__);
-    for (j = 0; j < loops; j++) {
-      if (sem_wait(&sem) == -1)
-            DEATH ("sem_wait");
+	for (j = 0; j < loops; j++) {
+		if (sem_wait(&sem) == -1)
+			DEATH ("sem_wait");
 
-        loc = glob;
-        loc++;
-        glob = loc;
+		loc = glob;
+		loc++;
+		glob = loc;
 
-      if (sem_post(&sem) == -1)
-            DEATH ("sem_post");
-    }
+		if (sem_post(&sem) == -1)
+			DEATH ("sem_post");
+	}
 
-    return NULL;
+	return NULL;
 }
 
 int main()
 {
-    pthread_t t1, t2;
-    int loops, s;
+	pthread_t t1, t2;
+	int loops, s;
 
-    loops = 10000000;
+	loops = 10000000;
 
-    /* Initialize a thread-shared mutex with the value 1 */
+	/* Initialize a thread-shared mutex with the value 1 */
 
-    if (sem_init(&sem, 0, 1) == -1)
-        DEATH("sem_init");
+	if (sem_init(&sem, 0, 1) == -1)
+		DEATH("sem_init");
 
-    /* Create two threads that increment 'glob' */
+	/* Create two threads that increment 'glob' */
 
-    s = pthread_create(&t1, NULL, threadFunc, &loops);
-    if (s != 0)
-        DEATH( "pthread_create");
-    s = pthread_create(&t2, NULL, threadFunc, &loops);
-    if (s != 0)
-        DEATH ("pthread_create");
+	s = pthread_create(&t1, NULL, threadFunc, &loops);
+	if (s != 0)
+		DEATH( "pthread_create");
+	s = pthread_create(&t2, NULL, threadFunc, &loops);
+	if (s != 0)
+		DEATH ("pthread_create");
 
-    /* Wait for threads to terminate */
+	/* Wait for threads to terminate */
 
-    s = pthread_join(t1, NULL);
-    if (s != 0)
-        DEATH ("pthread_join");
-    s = pthread_join(t2, NULL);
-    if (s != 0)
-        DEATH( "pthread_join");
+	s = pthread_join(t1, NULL);
+	if (s != 0)
+		DEATH ("pthread_join");
+	s = pthread_join(t2, NULL);
+	if (s != 0)
+		DEATH( "pthread_join");
 
-    printf("glob = %d\n", glob);
-    exit(EXIT_SUCCESS);
+	printf("glob = %d\n", glob);
+	exit(EXIT_SUCCESS);
 }
