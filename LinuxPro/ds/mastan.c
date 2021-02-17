@@ -46,8 +46,14 @@ int AddAtend(int num)
 
 int List_Even_Add()
 {
-
-	struct hi *tmp=head;
+	/* Procedure 
+ * Take end, Final_end, prev, curr or tmp, last, variables
+ * First Traverse loop to set end element , end is fixed 
+ * 	If head is odd then  copy next link to  head, move curr link to end of the list and make it link as NULL, then put  prev and curr is head 
+ *     if head is odd but head, this situation, importantely take a copy of current link to last, then move current link to end of the list make it as null,   then set  previous link to last and curr,
+ *    else if if even just increamnt pointer and take a copy of prev
+ */
+ 	struct hi *tmp=head;
 	struct hi *end,*Final_end,*prev,*last;
 	while( tmp -> link != NULL )
 		tmp = tmp->link;
@@ -64,12 +70,12 @@ int List_Even_Add()
 			{
 				//last=tmp->link;
 				//prev=tmp->link;
-				prev= head = tmp->link;
+				head = tmp->link;
 				Final_end->link = tmp;
 				Final_end->link->link = NULL ;
 				//Final_end=tmp;
 				Final_end=Final_end->link;
-				tmp=head;
+				prev=tmp=head;
 			}
 			else 
 			{
@@ -79,10 +85,12 @@ int List_Even_Add()
 				Final_end=Final_end->link;
 				tmp=prev->link=last;
 			}
-			continue;
 		}
-		prev=tmp;
-		tmp=tmp->link;
+		else 
+		{
+			prev=tmp;
+			tmp=tmp->link;
+		}
 	}
 	print_even_and_odd();
 	return 0;
