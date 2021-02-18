@@ -10,7 +10,7 @@ struct hi
 	int num;
 	struct hi *link;
 };
-struct hi *head=NULL,*end;
+struct hi *head=NULL;
 int AddAtend(int num)
 {
 
@@ -44,87 +44,48 @@ int AddAtend(int num)
 	return 0;
 }
 
-int List_Even_Add()
+int List_Even_Odd()
 {
-	/* Procedure 
- * Take end, Final_end, prev, curr or tmp, last, variables
- * First Traverse loop to set end element , end is fixed 
- * 	If head is odd then  copy next link to  head, move curr link to end of the list and make it link as NULL, then put  prev and curr is head 
- *     if head is odd but head, this situation, importantely take a copy of current link to last, then move current link to end of the list make it as null,   then set  previous link to last and curr,
- *    else if if even just increamnt pointer and take a copy of prev
- */
- 	struct hi *tmp=head;
-	struct hi *end,*Final_end,*prev,*last;
-	while( tmp -> link != NULL )
-		tmp = tmp->link;
+struct hi *curr,*end,*tail,*prev;
 
-	Final_end=end=tmp;
-	tmp =  head;
-	prev=tmp;
+prev = end = curr = head;
 
-	while ( tmp != end )
+while ( end -> link != NULL )
+end=end->link;
+
+tail = end;
+// 1 1 2  3  4  5 6 
+
+while ( curr != end )
+{
+	if ( curr -> num % 2 != 0 )
 	{
-		if ( tmp->num %2 != 0 )
+		if (  curr == head ) 
 		{
-			if ( tmp == head)
-			{
-				//last=tmp->link;
-				//prev=tmp->link;
-				head = tmp->link;
-				Final_end->link = tmp;
-				Final_end->link->link = NULL ;
-				//Final_end=tmp;
-				Final_end=Final_end->link;
-				prev=tmp=head;
-			}
-			else 
-			{
-				last=tmp->link;
-				Final_end->link=tmp;
-				Final_end->link->link = NULL ;
-				Final_end=Final_end->link;
-				tmp=prev->link=last;
-			}
+			head = curr->link;
+			tail->link=curr;
+			tail->link->link=NULL;
+			tail = tail->link;
+			curr = prev = head;
 		}
 		else 
 		{
-			prev=tmp;
-			tmp=tmp->link;
+			tail->link = curr;
+			prev->link=curr->link;
+			tail->link->link=NULL;
+			tail = tail->link;
+			curr=prev->link;	
 		}
 	}
-	print_even_and_odd();
-	return 0;
-}
-int print_even_and_odd()
-{
-
-	struct hi *even, *odd, *tmp =head;
-	printf("Arraged as even and odd \n");
-	print();
-	while(tmp)
+	else 	
 	{
-		if ( tmp->num % 2 != 0 )
-		{
-			odd=tmp;
-			even=tmp=head;
-			while(tmp->link != odd)
-				tmp = tmp->link;
-			tmp->link=NULL;
-
-			break;
-		}
-		tmp=tmp->link;
+		prev = curr;
+		curr = curr->link;
 	}
-
-	head=odd;
-	printf("Odd\n");
-	print();
-	head=even;
-	printf("Even\n");
-	print();
-	return 0;
 }
 
+
+}
 int main()
 {
 	AddAtend(1);
@@ -149,7 +110,8 @@ int main()
 	AddAtend(8);
 	AddAtend(9);
 	print();
-	List_Even_Add();
+	List_Even_Odd();
+	print();
 	return 0;
 }
 void print()
