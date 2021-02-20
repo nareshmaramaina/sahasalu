@@ -1,3 +1,52 @@
+Matrix Keyboard Driver 
+
+
+Keyboard is input device to CPU.   The keyboard is interfaced with GPIO controller. 
+
+
+The Matrix keypad supports multiple rows and columns, a key can be placed at intersection of a unique row and unique column. We are using matrix keyboard I.e, 8*8.  So it can produce 64 combinations of unique  key code.
+
+When a key is pressed, a row and a column make a contact. otherwise, there is no connection between rows and columns. So this is the logic we are going to use. 
+
+Scanning is detecting a row number and a column number is pressed  
+
+The keyboard produces scan codes,  The scan codes are assembled into key codes. 
+
+( One unique code for each key ). and  Key codes  are converted to input characters using the kernel maps. 
+
+
+Keyboard drivers should use EV_KEY to report key presses,
+
+
+
+void input_event(struct input_dev * dev, unsigned int type, unsigned int code, int value) ;
+
+report new input event.
+
+ input_event(input_dev, EV_MSC, MSC_SCAN, code);
+ input_report_key(input_dev,keypad→keycodes[code],1);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 the keyboard produces scancodes, the scancodes are assembled into keycodes (one unique code for each key), and keycodes are converted to input characters using the kernel keymaps. After that, the normal `stty' processing takes place, just as for any other terminal.
 Scancodes First
