@@ -22,7 +22,6 @@ module init
 2) imx6sl ( Sololite ) Hardware init
 3) kthread Running 
 4) Timer Initilized with 10 + jiffies
-
 static struct timer_list gl11_timer ;
   gl11_timer.function = gl11_timer_work ;
   gl11_timer.expires = jiffies+10;
@@ -49,12 +48,11 @@ Work thread
 
 we demanzise this thread and we are etnering into continuous while  loop
 
-
 in that loop we are waiting for timer interrupt  through  
 
 wait_event_interruptible(wq,(atomic_read (&data_present)
 
-in Which loop we are handling, on key click or touch click , we giving sound  and LCD bkl on
+in Which loop we are handling, on key click or touch click , we giving buzzer sound  and LCD bkl on
 
 If any want to off the backgrond sound also we are giving support in this driver only. 
 
