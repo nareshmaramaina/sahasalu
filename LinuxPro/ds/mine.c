@@ -11,6 +11,38 @@ struct hi
 	struct hi *link;
 };
 struct hi *head=NULL;
+
+
+void find_nth_element_from_end(int n)
+{
+
+	struct hi *tmp=head,*new;
+
+	int i;
+
+	for(i=0;i<=n;i++)
+	{
+		if ( tmp && tmp->link != NULL )
+			tmp = tmp->link;
+		else 
+		{
+			fprintf(stdout," %d Nth Nodes are not present\n",n);
+			return;
+		}
+	}
+
+	new=head;
+	while(tmp)
+	{
+		tmp=tmp->link;
+		new = new->link;	
+	}
+	fprintf(stdout," %dth node element is = %d \n",n, new->num);
+	return;
+}
+
+
+
 void Delete_mid()
 {
 
@@ -145,29 +177,27 @@ int main()
 	AddAtend(2);
 	AddAtend(1);
 	AddAtend(0);
-	/*	AddAtend(5);
-		AddAtend(6);
-		AddAtend(4);
-		AddAtend(7);
-		AddAtend(5);
-		AddAtend(5);
-		AddAtend(6);
-		AddAtend(4);
-		AddAtend(3);
-		AddAtend(4);
-		AddAtend(5);
-		AddAtend(6);
-		AddAtend(7);*/
+	AddAtend(5);
+	AddAtend(6);
+	AddAtend(4);
+	AddAtend(7);
+	AddAtend(51);
+	AddAtend(50);
+	AddAtend(60);
+	AddAtend(40);
+	AddAtend(3);
+	AddAtend(4);
+	AddAtend(5);
+	AddAtend(6);
+	AddAtend(7);
+	print();
+	find_nth_element_from_end(6);
 
 	//Addatbeg(12);
-	print();
 	//	Delete_Num(2);
 	//Delete_mid();
-	MyReverse();
-	print();
 	//printMiddle();
 	//reverse_list();
-	print();
 	return 0;
 }
 // 1,2,3,4,5,6,7

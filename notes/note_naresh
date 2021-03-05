@@ -1024,3 +1024,4 @@ git push -u origin master
 
 
 320 * 240 
+cc func.c  --save-temps

@@ -46,51 +46,51 @@ int AddAtend(int num)
 
 int List_Even_Odd()
 {
-/* Procedure 
-- * Take end, Final_end, prev, curr or tmp, last, variables
-- * First Traverse loop to set end element , end is fixed 
-- *     If head is odd then  copy next link to  head, move curr link to end of the list and make it link as NULL, then put  prev and curr is head 
-- *     if head is odd but head, this situation, importantely take a copy of current link to last, then move current link to end of the list make it as null,   then set  previous link to last and curr,
-- *    else if if even just increamnt pointer and take a copy of prev
-- */
+	/* Procedure 
+	   - * Take end, Final_end, prev, curr or tmp, last, variables
+	   - * First Traverse loop to set end element , end is fixed 
+	   - *     If head is odd then  copy next link to  head, move curr link to end of the list and make it link as NULL, then put  prev and curr is head 
+	   - *     if head is odd but head, this situation, importantely take a copy of current link to last, then move current link to end of the list make it as null,   then set  previous link to last and curr,
+	   - *    else if if even just increamnt pointer and take a copy of prev
+	   - */
 
-struct hi *curr,*end,*tail,*prev;
+	struct hi *curr,*end,*tail,*prev;
 
-prev = end = curr = head;
+	prev = end = curr = head;
 
-while ( end -> link != NULL )
-end=end->link;
+	while ( end -> link != NULL )
+		end=end->link;
 
-tail = end;
-// 1 1 2  3  4  5 6 
+	tail = end;
+	// 1 1 2  3  4  5 6 
 
-while ( curr != end )
-{
-	if ( curr -> num % 2 != 0 )
+	while ( curr != end )
 	{
-		if (  curr == head ) 
+		if ( curr -> num % 2 != 0 )
 		{
-			head = curr->link;
-			tail->link=curr;
-			tail->link->link=NULL;
-			tail = tail->link;
-			curr = prev = head;
+			if (  curr == head ) 
+			{
+				head = curr->link;
+				tail->link=curr;
+				tail->link->link=NULL;
+				tail = tail->link;
+				curr = prev = head;
+			}
+			else 
+			{
+				tail->link = curr;
+				prev->link=curr->link;
+				tail->link->link=NULL;
+				tail = tail->link;
+				curr=prev->link;	
+			}
 		}
-		else 
+		else 	
 		{
-			tail->link = curr;
-			prev->link=curr->link;
-			tail->link->link=NULL;
-			tail = tail->link;
-			curr=prev->link;	
+			prev = curr;
+			curr = curr->link;
 		}
 	}
-	else 	
-	{
-		prev = curr;
-		curr = curr->link;
-	}
-}
 
 
 }
