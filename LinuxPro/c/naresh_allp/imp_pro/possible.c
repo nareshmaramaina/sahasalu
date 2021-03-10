@@ -3,12 +3,10 @@
 int i=0;
 void swap(char *str,char *str1)
 {
-	printf(" Start   %s %s  \n", str,str1);
 	char ch;
 	ch=*str;
 	*str=*str1;
 	*str1=ch;
-	printf(" End i = %d    %s %s  \n", ++i,str,str1);
 }
 void possi(char *str,int l,int n)
 {

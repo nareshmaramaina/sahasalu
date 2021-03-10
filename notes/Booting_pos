@@ -17,7 +17,7 @@ Boot ROM
 
 	Initilization of memory controller or Dynamic controller initilization ( DRAM controller ) optional 
 
-	Load Boot loader ( FSBLor SSBL  )  into preconfigured Address space 
+	Load Boot loader ( FSBL or SSBL  )  into preconfigured Address space 
 
 -FSBL ( First Stage Boot Loader ) 
  - Loaded into Static RAM from stroage 

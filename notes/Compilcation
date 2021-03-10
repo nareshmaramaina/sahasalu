@@ -1,3 +1,47 @@
+Kernel Compile for imx6 
+
+make menuconfig ARCH=arm CROSS_COMPILE=/opt/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi-
+
+Above command will generate .config file
+
+make ARCH=arm CROSS_COMPILE=/opt/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/arm-none-linux-gnueabi- 
+mkimage -A arm -O linux -T kernel -C none -a 0x10008000 -e 0x10008000 -n 'GL11-KR-3.0.35-1860-1.1.IMG' -d arch/arm/boot/zImage GL11-KR-3.0.35-1860-1.1.IMG
+
+
+Buildroot :- 
+
+Buildroot is a simple, efficient and easy-to-use tool to generate embedded
+Linux systems through cross-compilation. 
+
+
+make help  // all possoble options
+
+make list-defconfigs // It will give a list , Select Your Board 
+
+
+make freescale_imx6sololiteevk_defconfig  // Default Selection for Board 
+
+
+To build and use the buildroot stuff, do the following:
+
+1) run 'make menuconfig'
+2) select the target architecture and the packages you wish to compile
+3) run 'make'
+4) wait while it compiles
+5) find the kernel, bootloader, root filesystem, etc. in output/images
+
+You do not need to be root to build or run buildroot.  Have fun!
+
+Buildroot comes with a basic configuration for a number of boards. Run
+'make list-defconfigs' to view the list of provided configurations.
+
+
+
+
+
+
+Normal C 
+
 Pre Processor
 Compiler
 Assembler
@@ -16,4 +60,5 @@ In Pre processor stage
 Compiler : - convert pre processed source code into assembly code
 Assmbelr : - During this stage, an assembler is used to translate the assembly instructions to object code
 Linker : - Linker will link all object files into single output 
+
 
