@@ -469,3 +469,6 @@ $ ls /sys/class/gpio
 export*  gpiochip0@  gpiochip100@  gpiochip504@  unexport*
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
+
+
+https://radek.io/2012/11/10/magical-container_of-macro/

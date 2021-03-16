@@ -1,0 +1,55 @@
+Process schedular decides which process runs, when and for how long.
+
+Policy is the behaviour of the schedular that determines what runs when. for optimally utilizes process time.
+
+The Schedular policy in a system must attempt to safity two confilicating goals : 
+
+Fast Process response time ( Low Latency ) ,  and maximal system utilization ( high through put ) 
+
+
+
+
+
+
+I/O-Bound Versus Processor-Bound Processes
+Processes can be classified as either I/O-bound or processor-bound.The former is character-
+ized as a process that spends much of its time submitting and waiting on I/O requests.
+Consequently, such a process is runnable for only short durations, because it eventually
+blocks waiting on more I/O. (Here, by I/O, we mean any type of blockable resource,
+such as keyboard input or network I/O, and not just disk I/O.) Most graphical user inter-
+face (GUI) applications, for example, are I/O-bound, even if they never read from or
+write to the disk, because they spend most of their time waiting on user interaction via
+the keyboard and mouse.
+Conversely, processor-bound processes spend much of their time executing code.They
+tend to run until they are preempted because they do not block on I/O requests very
+often. Because they are not I/O-driven, however, system response does not dictate that
+the scheduler run them often.A scheduler policy for processor-bound processes, there-
+fore, tends to run such processes less frequently but for longer durations.The ultimate
+example of a processor-bound process is one executing an infinite loop
+
+
+
+Proiroty 
+
+Kernel implements two seperate priority ranges, First is the nice value, ( It means Your nice to the other processes in the system ).  a number form -20 to 19 , Default is 0 , Highest prority Runs First ,  -20 ( Highest ) , 19 ( Lowest )   ps -el
+
+The second range is the real time priority. The values are configurable, But by default range from 0 to 99  
+
+ps -eo state,uid,pid,ppid,rtprio,time,comm .
+A value of “-” means the process is not real-time
+
+
+
+Time slices :- 
+
+Time slice is a numeric value that represents how long a task can run until  it is preempted 
+
+
+When process enters the  runnable state, it becomes a eligble to run . 
+
+
+In Linux, under the new CFS scheduler, the decision is a
+function of how much of a proportion of the processor the newly runnable processor has
+consumed. If it has consumed a smaller proportion of the processor than the currently
+executing process, it runs immediately, preempting the current process. If not, it is sched-
+uled to run at a later time. 

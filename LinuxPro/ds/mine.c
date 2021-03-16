@@ -170,28 +170,48 @@ int AddAtend(int num)
 	}
 	return 0;
 }
+
+int my_lifo(int num)
+{
+
+	struct hi *node;
+
+	node = malloc(sizeof(node));
+
+	if ( node == NULL )
+		return -1;
+	
+	node->num=num;
+
+	if ( head == NULL )
+	{
+		head = node;
+		node ->link = NULL;
+	}
+	else 
+	{
+		node->link = head;
+		head = node;
+	}
+	return 0;
+}
 int main()
 {
-	AddAtend(4);
-	AddAtend(3);
-	AddAtend(2);
-	AddAtend(1);
-	AddAtend(0);
-	AddAtend(5);
-	AddAtend(6);
-	AddAtend(4);
-	AddAtend(7);
-	AddAtend(51);
-	AddAtend(50);
-	AddAtend(60);
-	AddAtend(40);
-	AddAtend(3);
-	AddAtend(4);
-	AddAtend(5);
-	AddAtend(6);
-	AddAtend(7);
+
+	my_lifo(4);
+	my_lifo(3);
+	my_lifo(2);
+	my_lifo(1);
+	my_lifo(1);
+	my_lifo(1);
+	my_lifo(1);
+	my_lifo(1);
+	my_lifo(1);
+	my_lifo(1);
+	my_lifo(1);
+	my_lifo(1);
+	my_lifo(91);
 	print();
-	find_nth_element_from_end(6);
 
 	//Addatbeg(12);
 	//	Delete_Num(2);

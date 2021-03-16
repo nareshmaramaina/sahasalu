@@ -238,4 +238,32 @@ Logical ANd 1	&&
 Logical OR 1	||
 Assignment 11	=, +=, -= , *=, /=, %=, <<=, >>=, &=,^=,|=
 Comma	1	, 
+----------------------------------------------------------------------------------
 
+sizeof ( char )  Y we are using  ( char *)  is 	 2000 - 1000             = 1000 / 4 ( if it is integer ) = 1000 / 1 if it is character ,
+
+----------------------------------------------------------------------------------
+Over Flow Logic 
+
+
+unsigned  int k:3     ( 0- 7  )  If You Be on that ,   Value % Max Value = Result
+ int k : 5       ;    ( -15 to 16  )  Value / 32  i.e, (2^5)  , if it is 65 / 32 = 2  ( Even ) So -  ( 65 % 32 ) 
+
+
+
+struct test {
+        unsigned int x;
+        long int y : 32;
+        unsigned int z;
+};
+
+
+size will be  16 , Why because compiler divide delcared long int two part of 32  ( If Use Declare another bit fild it will helpful
+
+
+
+fork();
+fork();
+fork();
+printf
+2*2*2 = 8 time called  
