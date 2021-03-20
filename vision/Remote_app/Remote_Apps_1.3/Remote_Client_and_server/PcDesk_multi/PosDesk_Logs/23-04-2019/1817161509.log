@@ -1,0 +1,500 @@
+
+******* WELCOME PosDesk and PcDesk  Date: [ 23-04-2019 ]	 Time: [ 14:47:20 ] *******
+
+
+Time: [ 14:47:24 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   84 root         0 SW   [usb_wakeup thre]
+  306 root         0 SW   [sync_supers]
+  308 root         0 SW   [bdi-default]
+  310 root         0 SW<  [kblockd]
+  325 root         0 SW<  [imx6q-ecspi.1]
+  337 root         0 SW   [khubd]
+  377 root         0 SW<  [l2cap]
+  380 root         0 SW<  [cfg80211]
+  468 root         0 SW<  [rpciod]
+  474 root         0 SW   [usb_wakeup thre]
+  476 root         0 SW<  [otg_switch]
+  480 root         0 SW   [usb_wakeup thre]
+  494 root         0 SW   [kswapd0]
+  553 root         0 SW   [fsnotify_mark]
+  568 root         0 SW<  [nfsiod]
+  573 root         0 SW<  [crypto]
+  882 root         0 SW   [kworker/0:3]
+ 1138 root         0 SW   [kapmd]
+ 1213 root         0 SW   [irq/391-ad7877]
+ 1292 root         0 SW<  [krfcommd]
+ 1314 root         0 SW   [mmcqd/1]
+ 1315 root         0 SW   [mmcqd/1boot0]
+ 1316 root         0 SW   [mmcqd/1boot1]
+ 1327 root         0 SW   [kjournald]
+ 1337 root      1756 S <  udevd --daemon
+ 2383 root         0 SW   [flush-179:0]
+ 2403 root         0 SW   [gl11_work_kthre]
+ 2405 root         0 SW   [kjournald]
+ 2415 root         0 SW   [kjournald]
+ 2440 root      2220 S    /usr/sbin/inetd
+ 2443 root      2188 S    /usr/sbin/dropbear
+ 2452 root      1460 S    /vision/rgb_battery
+ 2454 root      1464 S    /home/autoapn_start
+ 2457 messageb  3304 S    dbus-daemon --system
+ 2482 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2495 root      5020 S    /usr/bin/autoapn
+ 2555 root      2228 S    sh /vision/PosDesk.sh
+ 2558 root      1604 S    /vision/PosDesk
+ 2569 root      2228 S    sh -c curl google.co.in --connect-timeout 18 --max-t
+ 2570 root      4568 S    curl google.co.in --connect-timeout 18 --max-time 36
+ 2586 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 2587 root      2232 R    ps
+ 2635 root      2072 S    wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf -
+ 2646 root     10288 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2668 root      2228 S    udhcpc -i wlan0 -t 8 -n
+ 2695 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2705 root      6712 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2747 root      5244 S    matchbox-panel --bgtrans yes
+ 2752 root      5216 S    mb-applet-menu-launcher
+ 2753 root      4768 S    mb-applet-clock
+ 2754 root     23828 S    mb-applet-console-operations
+ 2755 root     23652 S    mb-applet-microsd
+ 2766 root     26164 S    mb-applet-usb
+ 2848 root     24048 S    mb-applet-autoapn
+ 2849 root     23892 S    mb-applet-rds
+ 2850 root     23808 S    /usr/bin/mb-applet-rdsiris
+ 2962 root     42564 S    /root/Biomatiques/BiomatiquesRDS
+ 3093 root     28548 S    /vision/Notifier
+ 3449 root     29172 S    /usr/bin/rds_init
+ 4127 root         0 SW   [kworker/u:3]
+ 4202 root      2232 S    -sh
+12614 root         0 SW   [kworker/u:2]
+19344 root         0 SW   [kworker/0:0]
+25152 root         0 SW   [kworker/u:0]
+27931 root         0 SW   [kworker/0:2]
+31112 root         0 SW   [kworker/u:1]
+31682 root         0 SW   [kworker/0:1]
+
+
+Time: [ 14:47:25 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   84 root         0 SW   [usb_wakeup thre]
+  306 root         0 SW   [sync_supers]
+  308 root         0 SW   [bdi-default]
+  310 root         0 SW<  [kblockd]
+  325 root         0 SW<  [imx6q-ecspi.1]
+  337 root         0 SW   [khubd]
+  377 root         0 SW<  [l2cap]
+  380 root         0 SW<  [cfg80211]
+  468 root         0 SW<  [rpciod]
+  474 root         0 SW   [usb_wakeup thre]
+  476 root         0 SW<  [otg_switch]
+  480 root         0 SW   [usb_wakeup thre]
+  494 root         0 SW   [kswapd0]
+  553 root         0 SW   [fsnotify_mark]
+  568 root         0 SW<  [nfsiod]
+  573 root         0 SW<  [crypto]
+  882 root         0 SW   [kworker/0:3]
+ 1138 root         0 SW   [kapmd]
+ 1213 root         0 SW   [irq/391-ad7877]
+ 1292 root         0 SW<  [krfcommd]
+ 1314 root         0 SW   [mmcqd/1]
+ 1315 root         0 SW   [mmcqd/1boot0]
+ 1316 root         0 SW   [mmcqd/1boot1]
+ 1327 root         0 SW   [kjournald]
+ 1337 root      1756 S <  udevd --daemon
+ 2383 root         0 SW   [flush-179:0]
+ 2403 root         0 SW   [gl11_work_kthre]
+ 2405 root         0 SW   [kjournald]
+ 2415 root         0 SW   [kjournald]
+ 2440 root      2220 S    /usr/sbin/inetd
+ 2443 root      2188 S    /usr/sbin/dropbear
+ 2452 root      1460 S    /vision/rgb_battery
+ 2454 root      1464 S    /home/autoapn_start
+ 2457 messageb  3304 S    dbus-daemon --system
+ 2482 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2495 root      5020 S    /usr/bin/autoapn
+ 2555 root      2228 S    sh /vision/PosDesk.sh
+ 2558 root      1608 S    /vision/PosDesk
+ 2599 root      4784 R    ./mc
+ 2604 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 2605 root      2232 R    ps
+ 2635 root      2072 S    wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf -
+ 2646 root     10288 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2668 root      2228 S    udhcpc -i wlan0 -t 8 -n
+ 2695 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2705 root      6712 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2747 root      5244 S    matchbox-panel --bgtrans yes
+ 2752 root      5216 S    mb-applet-menu-launcher
+ 2753 root      4768 S    mb-applet-clock
+ 2754 root     23828 S    mb-applet-console-operations
+ 2755 root     23652 S    mb-applet-microsd
+ 2766 root     26164 S    mb-applet-usb
+ 2848 root     24048 S    mb-applet-autoapn
+ 2849 root     23892 S    mb-applet-rds
+ 2850 root     23808 S    /usr/bin/mb-applet-rdsiris
+ 2962 root     42564 S    /root/Biomatiques/BiomatiquesRDS
+ 3093 root     28548 S    /vision/Notifier
+ 3449 root     29172 S    /usr/bin/rds_init
+ 4127 root         0 SW   [kworker/u:3]
+ 4202 root      2232 S    -sh
+12614 root         0 SW   [kworker/u:2]
+19344 root         0 SW   [kworker/0:0]
+25152 root         0 SW   [kworker/u:0]
+27931 root         0 SW   [kworker/0:2]
+31112 root         0 SW   [kworker/u:1]
+31682 root         0 SW   [kworker/0:1]
+
+
+Time: [ 14:47:27 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   84 root         0 SW   [usb_wakeup thre]
+  306 root         0 SW   [sync_supers]
+  308 root         0 SW   [bdi-default]
+  310 root         0 SW<  [kblockd]
+  325 root         0 SW<  [imx6q-ecspi.1]
+  337 root         0 SW   [khubd]
+  377 root         0 SW<  [l2cap]
+  380 root         0 SW<  [cfg80211]
+  468 root         0 SW<  [rpciod]
+  474 root         0 SW   [usb_wakeup thre]
+  476 root         0 SW<  [otg_switch]
+  480 root         0 SW   [usb_wakeup thre]
+  494 root         0 SW   [kswapd0]
+  553 root         0 SW   [fsnotify_mark]
+  568 root         0 SW<  [nfsiod]
+  573 root         0 SW<  [crypto]
+  882 root         0 SW   [kworker/0:3]
+ 1138 root         0 SW   [kapmd]
+ 1213 root         0 SW   [irq/391-ad7877]
+ 1292 root         0 SW<  [krfcommd]
+ 1314 root         0 SW   [mmcqd/1]
+ 1315 root         0 SW   [mmcqd/1boot0]
+ 1316 root         0 SW   [mmcqd/1boot1]
+ 1327 root         0 SW   [kjournald]
+ 1337 root      1756 S <  udevd --daemon
+ 2383 root         0 SW   [flush-179:0]
+ 2403 root         0 SW   [gl11_work_kthre]
+ 2405 root         0 SW   [kjournald]
+ 2415 root         0 SW   [kjournald]
+ 2440 root      2220 S    /usr/sbin/inetd
+ 2443 root      2188 S    /usr/sbin/dropbear
+ 2452 root      1460 S    /vision/rgb_battery
+ 2454 root      1464 S    /home/autoapn_start
+ 2457 messageb  3304 S    dbus-daemon --system
+ 2482 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2495 root      5020 S    /usr/bin/autoapn
+ 2555 root      2228 S    sh /vision/PosDesk.sh
+ 2558 root      1612 S    /vision/PosDesk
+ 2599 root      5728 S    ./mc
+ 2618 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 2619 root      2232 R    ps
+ 2635 root      2072 S    wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf -
+ 2646 root     10288 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2668 root      2228 S    udhcpc -i wlan0 -t 8 -n
+ 2695 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2705 root      6712 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2747 root      5244 S    matchbox-panel --bgtrans yes
+ 2752 root      5216 S    mb-applet-menu-launcher
+ 2753 root      4768 S    mb-applet-clock
+ 2754 root     23828 S    mb-applet-console-operations
+ 2755 root     23652 S    mb-applet-microsd
+ 2766 root     26164 S    mb-applet-usb
+ 2848 root     24048 S    mb-applet-autoapn
+ 2849 root     23892 S    mb-applet-rds
+ 2850 root     23808 S    /usr/bin/mb-applet-rdsiris
+ 2962 root     42564 S    /root/Biomatiques/BiomatiquesRDS
+ 3093 root     28548 S    /vision/Notifier
+ 3449 root     29172 S    /usr/bin/rds_init
+ 4127 root         0 SW   [kworker/u:3]
+ 4202 root      2232 S    -sh
+12614 root         0 SW   [kworker/u:2]
+19344 root         0 SW   [kworker/0:0]
+25152 root         0 SW   [kworker/u:0]
+27931 root         0 SW   [kworker/0:2]
+31112 root         0 SW   [kworker/u:1]
+31682 root         0 SW   [kworker/0:1]
+
+
+Time: [ 14:47:52 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   84 root         0 SW   [usb_wakeup thre]
+  306 root         0 SW   [sync_supers]
+  308 root         0 SW   [bdi-default]
+  310 root         0 SW<  [kblockd]
+  325 root         0 SW<  [imx6q-ecspi.1]
+  337 root         0 SW   [khubd]
+  377 root         0 SW<  [l2cap]
+  380 root         0 SW<  [cfg80211]
+  468 root         0 SW<  [rpciod]
+  474 root         0 SW   [usb_wakeup thre]
+  476 root         0 SW<  [otg_switch]
+  480 root         0 SW   [usb_wakeup thre]
+  494 root         0 SW   [kswapd0]
+  553 root         0 SW   [fsnotify_mark]
+  568 root         0 SW<  [nfsiod]
+  573 root         0 SW<  [crypto]
+  882 root         0 SW   [kworker/0:3]
+ 1138 root         0 SW   [kapmd]
+ 1213 root         0 SW   [irq/391-ad7877]
+ 1292 root         0 SW<  [krfcommd]
+ 1314 root         0 SW   [mmcqd/1]
+ 1315 root         0 SW   [mmcqd/1boot0]
+ 1316 root         0 SW   [mmcqd/1boot1]
+ 1327 root         0 SW   [kjournald]
+ 1337 root      1756 S <  udevd --daemon
+ 2383 root         0 SW   [flush-179:0]
+ 2403 root         0 SW   [gl11_work_kthre]
+ 2405 root         0 SW   [kjournald]
+ 2415 root         0 SW   [kjournald]
+ 2440 root      2220 S    /usr/sbin/inetd
+ 2443 root      2188 S    /usr/sbin/dropbear
+ 2452 root      1460 S    /vision/rgb_battery
+ 2454 root      1464 S    /home/autoapn_start
+ 2457 messageb  3304 S    dbus-daemon --system
+ 2482 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2495 root      5020 S    /usr/bin/autoapn
+ 2555 root      2228 S    sh /vision/PosDesk.sh
+ 2558 root      1616 S    /vision/PosDesk
+ 2635 root      2072 S    wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf -
+ 2646 root     10288 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2668 root      2228 S    udhcpc -i wlan0 -t 8 -n
+ 2695 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2705 root      6712 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2747 root      5244 S    matchbox-panel --bgtrans yes
+ 2752 root      5216 S    mb-applet-menu-launcher
+ 2753 root      4768 S    mb-applet-clock
+ 2754 root     23828 S    mb-applet-console-operations
+ 2755 root     23652 S    mb-applet-microsd
+ 2766 root     26164 S    mb-applet-usb
+ 2848 root     24048 S    mb-applet-autoapn
+ 2849 root     23892 S    mb-applet-rds
+ 2850 root     23808 S    /usr/bin/mb-applet-rdsiris
+ 2886 root     14964 S    ./mc
+ 2962 root     42564 S    /root/Biomatiques/BiomatiquesRDS
+ 2996 root      2228 S    sh -c curl google.co.in --connect-timeout 18 --max-t
+ 2997 root      4568 S    curl google.co.in --connect-timeout 18 --max-time 36
+ 2998 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 2999 root      2232 R    ps
+ 3093 root     28548 S    /vision/Notifier
+ 3449 root     29172 S    /usr/bin/rds_init
+ 4127 root         0 SW   [kworker/u:3]
+ 4202 root      2232 S    -sh
+12614 root         0 SW   [kworker/u:2]
+19344 root         0 SW   [kworker/0:0]
+25152 root         0 SW   [kworker/u:0]
+27931 root         0 SW   [kworker/0:2]
+31112 root         0 SW   [kworker/u:1]
+31682 root         0 SW   [kworker/0:1]
+
+
+Time: [ 14:47:53 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   84 root         0 SW   [usb_wakeup thre]
+  306 root         0 SW   [sync_supers]
+  308 root         0 SW   [bdi-default]
+  310 root         0 SW<  [kblockd]
+  325 root         0 SW<  [imx6q-ecspi.1]
+  337 root         0 SW   [khubd]
+  377 root         0 SW<  [l2cap]
+  380 root         0 SW<  [cfg80211]
+  468 root         0 SW<  [rpciod]
+  474 root         0 SW   [usb_wakeup thre]
+  476 root         0 SW<  [otg_switch]
+  480 root         0 SW   [usb_wakeup thre]
+  494 root         0 SW   [kswapd0]
+  553 root         0 SW   [fsnotify_mark]
+  568 root         0 SW<  [nfsiod]
+  573 root         0 SW<  [crypto]
+  882 root         0 SW   [kworker/0:3]
+ 1138 root         0 SW   [kapmd]
+ 1213 root         0 SW   [irq/391-ad7877]
+ 1292 root         0 SW<  [krfcommd]
+ 1314 root         0 SW   [mmcqd/1]
+ 1315 root         0 SW   [mmcqd/1boot0]
+ 1316 root         0 SW   [mmcqd/1boot1]
+ 1327 root         0 SW   [kjournald]
+ 1337 root      1756 S <  udevd --daemon
+ 2383 root         0 SW   [flush-179:0]
+ 2403 root         0 SW   [gl11_work_kthre]
+ 2405 root         0 SW   [kjournald]
+ 2415 root         0 SW   [kjournald]
+ 2440 root      2220 S    /usr/sbin/inetd
+ 2443 root      2188 S    /usr/sbin/dropbear
+ 2452 root      1460 S    /vision/rgb_battery
+ 2454 root      1464 S    /home/autoapn_start
+ 2457 messageb  3304 S    dbus-daemon --system
+ 2482 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2495 root      5020 S    /usr/bin/autoapn
+ 2555 root      2228 S    sh /vision/PosDesk.sh
+ 2558 root      1620 S    /vision/PosDesk
+ 2635 root      2072 S    wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf -
+ 2646 root     10288 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2668 root      2228 S    udhcpc -i wlan0 -t 8 -n
+ 2695 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2705 root      6712 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2747 root      5244 S    matchbox-panel --bgtrans yes
+ 2752 root      5216 S    mb-applet-menu-launcher
+ 2753 root      4768 S    mb-applet-clock
+ 2754 root     23828 S    mb-applet-console-operations
+ 2755 root     23652 S    mb-applet-microsd
+ 2766 root     26164 S    mb-applet-usb
+ 2848 root     24048 S    mb-applet-autoapn
+ 2849 root     23892 S    mb-applet-rds
+ 2850 root     23808 S    /usr/bin/mb-applet-rdsiris
+ 2962 root     42564 S    /root/Biomatiques/BiomatiquesRDS
+ 2996 root      2228 S    sh -c curl google.co.in --connect-timeout 18 --max-t
+ 2997 root      4568 S    curl google.co.in --connect-timeout 18 --max-time 36
+ 3007 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 3008 root      2232 R    ps
+ 3093 root     28548 S    /vision/Notifier
+ 3449 root     29172 S    /usr/bin/rds_init
+ 4127 root         0 SW   [kworker/u:3]
+ 4202 root      2232 S    -sh
+12614 root         0 SW   [kworker/u:2]
+19344 root         0 SW   [kworker/0:0]
+25152 root         0 SW   [kworker/u:0]
+27931 root         0 SW   [kworker/0:2]
+31112 root         0 SW   [kworker/u:1]
+31682 root         0 SW   [kworker/0:1]
+
+******* WELCOME PosDesk and PcDesk  Date: [ 23-04-2019 ]	 Time: [ 14:51:37 ] *******
+
+
+Time: [ 14:51:40 ]	Command: [ ls ]	Status: [ Success ]
+Biomatiques
+PosDesk
+Screenshot from 2019-04-02 09:31:05.png
+autoapn
+busybox
+curlTxt
+frame1
+frame2
+fw_printenv machineid.txt
+libBiomatiquesApi.so
+machineid=1817161509.txt
+mcpid
+mhpds
+only once at a time
+rdpid
+rhms_generic
+rhms_update_binary
+set_root_passwd
+test
+verify_root_passwd
+zbarcam
+
+
+Time: [ 14:51:42 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   84 root         0 SW   [usb_wakeup thre]
+  306 root         0 SW   [sync_supers]
+  308 root         0 SW   [bdi-default]
+  310 root         0 SW<  [kblockd]
+  325 root         0 SW<  [imx6q-ecspi.1]
+  337 root         0 SW   [khubd]
+  377 root         0 SW<  [l2cap]
+  380 root         0 SW<  [cfg80211]
+  468 root         0 SW<  [rpciod]
+  474 root         0 SW   [usb_wakeup thre]
+  476 root         0 SW<  [otg_switch]
+  480 root         0 SW   [usb_wakeup thre]
+  494 root         0 SW   [kswapd0]
+  553 root         0 SW   [fsnotify_mark]
+  568 root         0 SW<  [nfsiod]
+  573 root         0 SW<  [crypto]
+  882 root         0 SW   [kworker/0:3]
+ 1138 root         0 SW   [kapmd]
+ 1213 root         0 SW   [irq/391-ad7877]
+ 1292 root         0 SW<  [krfcommd]
+ 1314 root         0 SW   [mmcqd/1]
+ 1315 root         0 SW   [mmcqd/1boot0]
+ 1316 root         0 SW   [mmcqd/1boot1]
+ 1327 root         0 SW   [kjournald]
+ 1337 root      1756 S <  udevd --daemon
+ 2383 root         0 SW   [flush-179:0]
+ 2403 root         0 SW   [gl11_work_kthre]
+ 2405 root         0 SW   [kjournald]
+ 2415 root         0 SW   [kjournald]
+ 2440 root      2220 S    /usr/sbin/inetd
+ 2443 root      2188 S    /usr/sbin/dropbear
+ 2452 root      1460 S    /vision/rgb_battery
+ 2454 root      1464 S    /home/autoapn_start
+ 2457 messageb  3304 S    dbus-daemon --system
+ 2482 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2495 root      5020 S    /usr/bin/autoapn
+ 2635 root      2072 S    wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf -
+ 2646 root     10288 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2668 root      2228 S    udhcpc -i wlan0 -t 8 -n
+ 2695 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2705 root      6712 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2747 root      5244 S    matchbox-panel --bgtrans yes
+ 2752 root      5216 S    mb-applet-menu-launcher
+ 2753 root      4768 S    mb-applet-clock
+ 2754 root     23828 S    mb-applet-console-operations
+ 2755 root     23652 S    mb-applet-microsd
+ 2766 root     26164 S    mb-applet-usb
+ 2848 root     24048 S    mb-applet-autoapn
+ 2849 root     23892 S    mb-applet-rds
+ 2850 root     23808 S    /usr/bin/mb-applet-rdsiris
+ 2962 root     42564 S    /root/Biomatiques/BiomatiquesRDS
+ 3093 root     28548 S    /vision/Notifier
+ 3449 root     29172 S    /usr/bin/rds_init
+ 4127 root         0 SW   [kworker/u:3]
+ 4202 root      2232 S    -sh
+ 4891 root         0 SW   [kworker/0:1]
+ 5952 root      2228 S    sh /vision/PosDesk.sh
+ 5956 root      1608 S    /vision/PosDesk
+ 5969 root      2228 S    sh -c curl google.co.in --connect-timeout 18 --max-t
+ 5970 root      4568 S    curl google.co.in --connect-timeout 18 --max-time 36
+ 5988 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 5989 root      2232 R    ps
+12614 root         0 SW   [kworker/u:2]
+19344 root         0 SW   [kworker/0:0]
+25152 root         0 SW   [kworker/u:0]
+31112 root         0 SW   [kworker/u:1]
+
+
+Time: [ 14:51:56 ]	Command: [ ls ]	Status: [ Success ]
+Biomatiques
+PosDesk
+Screenshot from 2019-04-02 09:31:05.png
+autoapn
+busybox
+curlTxt
+frame1
+frame2
+fw_printenv machineid.txt
+libBiomatiquesApi.so
+machineid=1817161509.txt
+mcpid
+mhpds
+only once at a time
+rdpid
+rhms_generic
+rhms_update_binary
+set_root_passwd
+test
+verify_root_passwd
+zbarcam

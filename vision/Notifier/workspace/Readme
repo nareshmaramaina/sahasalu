@@ -1,0 +1,24 @@
+edit mosquitto.conf 
+
+	allow_anonymous false
+	password_file /home/naresh/passwordfile  ( Creat Passwdfile by simply Below enter " mosquitto_passwd -b passwordfile user password
+
+
+
+Server 
+
+	mosquitto -c ./mosquitto_example.conf  -p 9999
+
+
+
+Subscriber
+
+	 mosquitto_sub -p 9999 -t hi -P password -u user
+
+ 
+
+Publisher
+
+ mosquitto_pub  -p 9999 -t hi -P password -u user -m "loss"
+
+

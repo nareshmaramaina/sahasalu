@@ -1,0 +1,194 @@
+
+******* WELCOME PosDesk and PcDesk  Date: [ 05-09-2019 ]	 Time: [ 12:25:52 ] *******
+ProjectName: TRIPURAPDS
+Machineid: 18171817888888
+Macid: 7C:F0:BA:F8:32:8B
+Uid: 081c71d4ea9e6220
+AppType: 88
+AppVersion: VV1.0
+U-boot: GL11-UB-2009.08-1573-1.1.bin
+Kernel: GL11-KR-3.0.35-1647-1.1.IMG
+Rootfs: GL11-RD-EXT3-1699-1.0.IMG
+FirmwareVersion: 2.0
+
+
+Time: [ 12:26:29 ]	Command: [ curl ipinfo.io ]	Status: [ Success ]
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:02 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:03 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:04 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:05 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:06 --:--:--     0100   277  100   277    0     0     39      0  0:00:07  0:00:07 --:--:--    62100   277  100   277    0     0     39      0  0:00:07  0:00:07 --:--:--    81
+{
+  "ip": "27.59.140.85",
+  "city": "Hyderabad",
+  "region": "Telangana",
+  "country": "IN",
+  "loc": "17.3840,78.4564",
+  "org": "AS45609 Bharti Airtel Ltd. AS for GPRS Service",
+  "postal": "500001",
+  "timezone": "Asia/Kolkata",
+  "readme": "https://ipinfo.io/missingauth"
+}
+
+Time: [ 12:28:09 ]	Command: [ ls ]	Status: [ Success ]
+Pendrive_patch_srikakulam_2.1_30082019.zip
+PosDesk
+PosDesk.sh
+a.out
+fw_setenv
+hi
+libBiomatiquesSDK.so
+mcpid
+patch
+rdpid
+rhms_update_binary
+rootfs_patch.tar.bz2
+rootfs_update.sh
+
+******* WELCOME PosDesk and PcDesk  Date: [ 05-09-2019 ]	 Time: [ 12:30:49 ] *******
+ProjectName: TRIPURAPDS
+Machineid: 18171817888888
+Macid: 7C:F0:BA:F8:32:8B
+Uid: 081c71d4ea9e6220
+AppType: 88
+AppVersion: VV1.0
+U-boot: GL11-UB-2009.08-1573-1.1.bin
+Kernel: GL11-KR-3.0.35-1647-1.1.IMG
+Rootfs: GL11-RD-EXT3-1699-1.0.IMG
+FirmwareVersion: 2.0
+
+******* WELCOME PosDesk and PcDesk  Date: [ 05-09-2019 ]	 Time: [ 12:32:29 ] *******
+ProjectName: TRIPURAPDS
+Machineid: 18171817888888
+Macid: 7C:F0:BA:F8:32:8B
+Uid: 081c71d4ea9e6220
+AppType: 88
+AppVersion: VV1.0
+U-boot: GL11-UB-2009.08-1573-1.1.bin
+Kernel: GL11-KR-3.0.35-1647-1.1.IMG
+Rootfs: GL11-RD-EXT3-1699-1.0.IMG
+FirmwareVersion: 2.0
+
+
+Time: [ 12:32:35 ]	Command: [ ls ]	Status: [ Success ]
+Pendrive_patch_srikakulam_2.1_30082019.zip
+PosDesk
+PosDesk.sh
+a.out
+fw_setenv
+hi
+libBiomatiquesSDK.so
+mcpid
+patch
+rdpid
+rhms_update_binary
+rootfs_patch.tar.bz2
+rootfs_update.sh
+
+******* WELCOME PosDesk and PcDesk  Date: [ 05-09-2019 ]	 Time: [ 12:35:04 ] *******
+ProjectName: TRIPURAPDS
+Machineid: 18171817888888
+Macid: 7C:F0:BA:F8:32:8B
+Uid: 081c71d4ea9e6220
+AppType: 88
+AppVersion: VV1.0
+U-boot: GL11-UB-2009.08-1573-1.1.bin
+Kernel: GL11-KR-3.0.35-1647-1.1.IMG
+Rootfs: GL11-RD-EXT3-1699-1.0.IMG
+FirmwareVersion: 2.0
+
+Time out, some thing late processing with client
+
+******* WELCOME PosDesk and PcDesk  Date: [ 05-09-2019 ]	 Time: [ 12:47:37 ] *******
+ProjectName: TRIPURAPDS
+Machineid: 18171817888888
+Macid: 7C:F0:BA:F8:32:8B
+Uid: 081c71d4ea9e6220
+AppType: 88
+AppVersion: VV1.0
+U-boot: GL11-UB-2009.08-1573-1.1.bin
+Kernel: GL11-KR-3.0.35-1647-1.1.IMG
+Rootfs: GL11-RD-EXT3-1699-1.0.IMG
+FirmwareVersion: 2.0
+
+******* WELCOME PosDesk and PcDesk  Date: [ 05-09-2019 ]	 Time: [ 12:48:31 ] *******
+ProjectName: TRIPURAPDS
+Machineid: 18171817888888 (ERROR)
+Macid: 7C:F0:BA:F8:32:8B
+Uid: 081c71d4ea9e6220
+AppType: 100
+AppVersion: VV1.0
+U-boot: GL11-UB-2009.08-1573-1.1.bin
+Kernel: GL11-KR-3.0.35-1647-1.1.IMG
+Rootfs: GL11-RD-EXT3-1699-1.0.IMG
+FirmwareVersion: 2.0
+
+
+Time: [ 12:48:39 ]	Command: [ ls ]	Status: [ Success ]
+Pendrive_patch_srikakulam_2.1_30082019.zip
+PosDesk
+PosDesk.sh
+a.out
+fw_setenv
+hi
+libBiomatiquesSDK.so
+mcpid
+patch
+rdpid
+rhms_update_binary
+rootfs_patch.tar.bz2
+rootfs_update.sh
+
+******* WELCOME PosDesk and PcDesk  Date: [ 05-09-2019 ]	 Time: [ 12:50:08 ] *******
+ProjectName: TRIPURAPDS
+Machineid: 18171817888888 (ERROR)
+Macid: 7C:F0:BA:F8:32:8B
+Uid: 081c71d4ea9e6220
+AppType: 100
+AppVersion: VV1.0
+U-boot: GL11-UB-2009.08-1573-1.1.bin
+Kernel: GL11-KR-3.0.35-1647-1.1.IMG
+Rootfs: GL11-RD-EXT3-1699-1.0.IMG
+FirmwareVersion: 2.0
+
+
+Time: [ 12:50:14 ]	Command: [ ls ]	Status: [ Success ]
+Pendrive_patch_srikakulam_2.1_30082019.zip
+PosDesk
+PosDesk.sh
+a.out
+fw_setenv
+hi
+libBiomatiquesSDK.so
+mcpid
+patch
+rdpid
+rhms_update_binary
+rootfs_patch.tar.bz2
+rootfs_update.sh
+
+******* WELCOME PosDesk and PcDesk  Date: [ 05-09-2019 ]	 Time: [ 12:51:27 ] *******
+ProjectName: TRIPURAPDS
+Machineid: 18171817888888 (ERROR)
+Macid: 7C:F0:BA:F8:32:8B
+Uid: 081c71d4ea9e6220
+AppType: 100
+AppVersion: VV1.0
+U-boot: GL11-UB-2009.08-1573-1.1.bin
+Kernel: GL11-KR-3.0.35-1647-1.1.IMG
+Rootfs: GL11-RD-EXT3-1699-1.0.IMG
+FirmwareVersion: 2.0
+
+
+Time: [ 12:51:37 ]	Command: [ ls ]	Status: [ Success ]
+Pendrive_patch_srikakulam_2.1_30082019.zip
+PosDesk
+PosDesk.sh
+a.out
+fw_setenv
+hi
+libBiomatiquesSDK.so
+mcpid
+patch
+rdpid
+rhms_update_binary
+rootfs_patch.tar.bz2
+rootfs_update.sh

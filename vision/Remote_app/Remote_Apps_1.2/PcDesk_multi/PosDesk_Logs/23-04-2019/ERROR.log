@@ -1,0 +1,570 @@
+
+******* WELCOME PosDesk and PcDesk  Date: [ 23-04-2019 ]	 Time: [ 15:40:30 ] *******
+
+
+Time: [ 15:40:33 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 3189 pts/1    00:00:00 sudo
+ 3190 pts/1    00:00:00 su
+ 3191 pts/1    00:00:00 bash
+ 8379 pts/1    00:00:00 a.out
+ 8388 pts/1    00:00:00 sh
+ 8389 pts/1    00:00:00 ps
+
+
+Time: [ 15:40:34 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 3189 pts/1    00:00:00 sudo
+ 3190 pts/1    00:00:00 su
+ 3191 pts/1    00:00:00 bash
+ 8379 pts/1    00:00:00 a.out
+ 8390 pts/1    00:00:00 sh
+ 8391 pts/1    00:00:00 ps
+
+
+Time: [ 15:40:35 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 3189 pts/1    00:00:00 sudo
+ 3190 pts/1    00:00:00 su
+ 3191 pts/1    00:00:00 bash
+ 8379 pts/1    00:00:00 a.out
+ 8392 pts/1    00:00:00 sh
+ 8393 pts/1    00:00:00 ps
+
+
+Time: [ 15:40:38 ]	Command: [ ls -lrht ]	Status: [ Success ]
+total 1.7G
+-rw-r--r--  1 root   root   612K Feb  3  2017 isu80.2
+-rw-r--r--  1 root   root   612K Feb  3  2017 isu80.1
+drwxr-xr-x  2 naresh naresh 4.0K Feb  5  2018 opentftp
+drwxrwxrwx  6 naresh naresh 4.0K Mar  7  2018 SDK
+drwxrwxr-x 16 root   root   4.0K Mar 12  2018 buildroot-2017.02.10
+drwxr-xr-x  4 naresh naresh 4.0K May  4  2018 Read_Write_Contact
+drwxr-xr-x 12 root   root   4.0K May  5  2018 message_app_1.0
+drwxr-xr-x  3 root   root   4.0K May 16  2018 mmc
+drwxr-xr-x 10 root   root   4.0K May 16  2018 gl11_gsm_send_read_SMS
+drwxr-xr-x  2 naresh naresh 4.0K May 17  2018 new_src
+drwxr-xr-x  2 root   root   4.0K Jun  1  2018 printer_hex_file
+drwxr-xr-x 12 root   root   4.0K Jun  4  2018 autoapn_5.0.2
+drwxr-xr-x 11 naresh naresh 4.0K Jun  6  2018 IMX25_AutoConnectivity_4.4_Only_GSM
+drwxr-xr-x  6 root   root   4.0K Jun 15  2018 ALL_CAMERA
+drwxr-xr-x  4 root   root   4.0K Jun 19  2018 refs
+drwxr-xr-x  2 root   root   4.0K Jun 19  2018 info
+drwxr-xr-x  2 root   root   4.0K Jun 19  2018 branches
+drwxr-xr-x  4 root   root   4.0K Jun 19  2018 objects
+drwxr-xr-x  3 root   root   4.0K Jun 22  2018 ssh_pos_on_pc
+drwxr-xr-x  6 root   root   4.0K Jun 25  2018 download_imx25
+drwxr-x--x  6 root   root   4.0K Jul  3  2018 Integrate_IMX6
+drwxr-xr-x  6 root   root   4.0K Jul  6  2018 patch
+drwx--x--x  6 naresh naresh 4.0K Jul 16  2018 GNANBHUMI
+drwxr-x--x  4 root   root   4.0K Jul 16  2018 Integrate_IMX25
+drwxr-xr-x  2 root   root   4.0K Jul 17  2018 hooks
+drwxrwxrwx  3 root   root   4.0K Jul 17  2018 1362
+drwxrwxrwx 33 naresh naresh 4.0K Jul 20  2018 1617
+drwxr-xr-x  5 root   root   4.0K Jul 28  2018 u03
+drwxrwxr-x  4 naresh naresh 4.0K Aug  3  2018 IMX6_FW_UPDATE
+drwxr-xr-x 27 naresh naresh 4.0K Aug  3  2018 linux-3.0.35_lcd
+-rwxr-xr-x  1 root   root   5.2K Aug  7  2018 killing
+-rw-r--r--  1 root   root    657 Aug  7  2018 Nating_from_internet.sh
+drwxr-xr-x  3 root   root   4.0K Aug  7  2018 TSTSTSTS
+-rw-r--r--  1 root   root     11 Aug  7  2018 sample.txt
+-rw-r--r--  1 naresh naresh  60K Aug  8  2018 uboot_password.tar.bz2
+drwxr-xr-x  2 root   root   4.0K Aug  8  2018 uboot-password
+drwxr-xr-x  4 root   root   4.0K Aug  9  2018 rd_patch
+-rw-r--r--  1 naresh naresh 2.3M Aug  9  2018 rd_init_patch.zip
+drwxr-xr-x  4 root   root   4.0K Aug 10  2018 PATCH_FOR_RUN_rhms
+drwxr-xr-x  3 root   root   4.0K Aug 14  2018 PATCH
+drwxr-xr-x  2 root   root   4.0K Aug 16  2018 lib_imx25
+-rwxr-xr-x  1 naresh naresh 1.5K Aug 16  2018 startx
+drwxr-xr-x  3 root   root   4.0K Aug 16  2018 KPDS-1.8
+-rw-r--r--  1 naresh naresh 151K Aug 17  2018 sdcard_software_loding
+-rwxr-xr-x  1 root   root    14K Aug 18  2018 setmachineid
+drwxr-xr-x  4 naresh naresh 4.0K Aug 18  2018 MLS
+drwxr-xr-x  4 naresh naresh 4.0K Aug 18  2018 rd_server_imx6
+drwxr-xr-x 24 naresh naresh 4.0K Aug 21  2018 RD_SERVICE
+drwxr-xr-x  4 root   root   4.0K Aug 21  2018 RAM_TEST
+-rw-r--r--  1 root   root      0 Aug 21  2018 mahesh_1604567856_21082018
+-rwxr-xr-x  1 root   root     37 Aug 24  2018 rhms
+drwxr-xr-x  4 root   root   4.0K Aug 24  2018 uploaded_to_PLM
+drwxrwxrwx  2 naresh naresh 4.0K Aug 25  2018 1137_511_449
+-rw-r--r--  1 root   root      0 Aug 28  2018 serial_1.1
+-rw-r--r--  1 root   root    803 Aug 28  2018 appdskrishna_rhms_problem_IDs
+-rwxrwxr-x  1 naresh naresh 207K Sep  3  2018 ZBARCAM-READER-0.2
+drwxr-xr-x  7 root   root   4.0K Sep  5  2018 diff
+-rw-r--r--  1 root   root     34 Sep  6  2018 mydata.txt
+-rw-r--r--  1 naresh naresh 2.6M Sep  6  2018 30042018_DPO_WLAN0_Batronics.tar.bz2
+-rw-r--r--  1 naresh naresh 2.6M Sep  6  2018 rt5370sta_src.tar.bz2
+drwxr-xr-x  6 root   root   4.0K Sep  6  2018 kernel_src
+-rw-r--r--  1 root   root   140M Sep  6  2018 linux-2.6.31_src_rt5370sta_src.zip
+-rw-r--r--  1 root   root    43K Sep 11  2018 out.log
+-rw-r--r--  1 naresh naresh 3.2M Sep 12  2018 temp-rootfs.IMG
+drwxr-xr-x  4 naresh naresh 4.0K Sep 12  2018 TEMP_ROOTFS
+drwxr-xr-x  4 naresh naresh 4.0K Sep 12  2018 GNOME
+drwxr-xr-x  3 naresh naresh 4.0K Sep 14  2018 IMX25_TEMPS
+drwxr-xr-x 18 naresh naresh 4.0K Sep 14  2018 temp_rootfs_reduced
+-rwxr-xr-x  1 root   root   3.6M Sep 14  2018 imx25_temp_rootfs.img
+-rw-r--r--  1 root   root    113 Sep 18  2018 temp_rootfs_cmd
+-rw-r--r--  1 root   root    142 Sep 18  2018 curl_command
+drw-r--r--  7 naresh naresh 4.0K Sep 18  2018 Firmware
+-rw-r--r--  1 root   root    313 Sep 20  2018 chits.c
+-rw-r--r--  1 root   root    28K Sep 24  2018 Download.tar.bz2
+-rw-r--r--  1 root   root    222 Sep 24  2018 appds_rhms_problem_IDs
+-rw-r--r--  1 naresh naresh  13K Sep 25  2018 imx_iocon.ko
+drwxr-xr-x  7 root   root   4.0K Sep 25  2018 mygit
+-rw-r--r--  1 root   root     73 Sep 25  2018 description
+drwxr-xr-x  2 root   root   4.0K Sep 25  2018 Desktop
+-rw-r--r--  1 root   root     23 Sep 25  2018 HEAD
+-rw-r--r--  1 root   root     66 Sep 25  2018 config
+-rwxr-xr-x  1 naresh naresh 214M Sep 25  2018 TT-Qt-4.7.4.tar.gz
+-rw-r--r--  1 naresh naresh 945M Sep 25  2018 freescale-35.tar.gz
+drwxr-xr-x  3 root   root   4.0K Sep 26  2018 APP_RHMS_BKP
+drwxr-xr-x  6 root   root   4.0K Sep 26  2018 APP_RHMS
+-rwxr-xr-x  1 naresh naresh   26 Sep 28  2018 usbsend
+drwxr-xr-x  3 root   root   4.0K Sep 29  2018 u-boot_src
+-rw-r--r--  1 root   root      0 Sep 29  2018 1557
+-rw-r--r--  1 root   root    377 Oct  1  2018 macid.c
+-rw-rw-r--  1 naresh naresh  24K Oct  1  2018 RHMS_review.xls
+-rw-r--r--  1 root   root   286M Oct  1  2018 RHMS_PROJECT.tar.bz2
+drwxr-xr-x  2 naresh naresh 4.0K Oct  1  2018 tftpboot
+-rwxrwxr-x  1 naresh naresh 129K Oct  1  2018 libgl11pos.so
+drwxr-xr-x  2 naresh naresh 4.0K Oct  1  2018 source
+drwxr-xr-x  4 naresh naresh 4.0K Oct  1  2018 client
+drwxr-xr-x 12 naresh naresh 4.0K Oct  3  2018 autoapn_5.0.7
+-rw-r--r--  1 root   root    521 Oct  3  2018 bill
+-rwxr-xr-x  1 root   root    37K Oct  5  2018 confi.db1
+-rw-r--r--  1 root   root   7.2K Oct  5  2018 bill.tar.bz2
+drwxrwxr-x 13 naresh naresh 4.0K Oct  6  2018 mosquitto-1.4.8
+-rw-r--r--  1 naresh naresh 5.2K Oct  6  2018 ares_dns.h
+-rw-r--r--  1 naresh naresh 4.7K Oct  6  2018 ares_rules.h
+-rw-r--r--  1 naresh naresh  20K Oct  6  2018 ares.h
+-rw-r--r--  1 naresh naresh  648 Oct  6  2018 ares_version.h
+-rw-r--r--  1 naresh naresh 4.1K Oct  6  2018 ares_build.h
+drwxr-xr-x  2 naresh naresh 4.0K Oct  6  2018 mytasks
+drwxrwxrwx  6 root   root   4.0K Oct  6  2018 From_ssh
+-rw-------  1 naresh naresh 4.3M Oct 10  2018 openssl-1.0.1e.tar.gz
+drwxr-xr-x 22 root   root   4.0K Oct 10  2018 openssl-1.0.1e
+drwxr-xr-x  5 root   root   4.0K Oct 10  2018 OPENSSL
+drwxr-xr-x  6 root   root   4.0K Oct 10  2018 OPI22
+-rwxr-xr-x  1 naresh naresh 124K Oct 10  2018 ls
+-rwxr-xr-x  1 root   root    283 Oct 10  2018 note
+drwxr-xr-x 10 root   root   4.0K Oct 10  2018 AMS
+-rw-r--r--  1 root   root   120K Oct 12  2018 Screenshot from 2018-10-12 11-02-02.png
+-rw-r--r--  1 root   root      0 Oct 12  2018 dummy
+-rw-r--r--  1 root   root   2.2K Oct 16  2018 xorg.conf.new
+-rw-r--r--  1 root   root     68 Oct 16  2018 start_pc
+-rwxr-xr-x  1 naresh naresh 9.7K Oct 16  2018 unity
+drwxr-xr-x  2 root   root   4.0K Oct 16  2018 ubuntu-session
+-rw-r--r--  1 root   root    534 Oct 16  2018 ubuntu-session.list
+-rw-r--r--  1 root   root    306 Oct 16  2018 ubuntu-session.md5sums
+-rw-r--r--  1 root   root      1 Oct 17  2018 install.sh
+drwx------  2 root   root   4.0K Oct 22  2018 Downloads
+drwxr-xr-x 17 root   root   4.0K Oct 22  2018 temp_rootf_fs_IMX6
+drwxr-xr-x  2 root   root   4.0K Oct 23 19:03 testing
+drwxrwxr-x  3 naresh naresh 4.0K Oct 25 12:17 allinfo
+-rwxr-xr-x  1 naresh naresh 101K Oct 25 15:38 autoapn
+-rwxr-xr-x  1 naresh naresh  65K Oct 26 15:02 unity-control-center
+drwxr-xr-x  3 root   root   4.0K Oct 26 15:22 unitycontrol
+drwxr-xr-x  3 root   root   4.0K Oct 26 17:01 snap
+drwxr-xr-x  2 root   root   4.0K Oct 29 12:41 myDrivers
+-rwxrwxr-x  1 naresh naresh  11K Oct 30 12:39 rhms_projects_updated_with_rdv1.7.1_220918.xls
+-rw-r--r--  1 root   root    880 Oct 30 14:18 config.txt
+drwxrwxr-x  2 root   root   4.0K Oct 31 16:00 allinfo1
+drwxrwxr-x  2 naresh naresh 4.0K Nov  8 11:13 daily_report
+drwxr-xr-x  5 root   root   4.0K Nov 14 10:03 kpds_virus_patch
+-rw-r--r--  1 root   root     89 Nov 17 14:52 k.sh
+drwxrwxr-x  3 root   root   4.0K Nov 20 14:56 Bluetooth
+-rw-r--r--  1 root   root   8.0K Nov 21 11:19 message_dbsample
+-rw-r--r--  1 root   root      0 Nov 21 15:17 adsplay_ver.conf
+-rw-r--r--  1 root   root    142 Nov 21 19:00 kk.c
+drwxr-xr-x  2 naresh naresh 4.0K Nov 22 16:46 ads_files
+-rw-r--r--  1 root   root   4.4K Nov 26 13:01 index.html
+-rwxr-xr-x  1 root   root    23K Nov 26 17:56 dmesg
+-rw-r--r--  1 root   root   3.8K Nov 27 11:47 SD.directory
+-rwxr-xr-x  1 naresh naresh  924 Nov 28 10:23 dev_info.c
+-rwxr-xr-x  1 root   root   1.6K Nov 30 14:50 build_maker_visiontek_1.1.sh
+-rw-r--r--  1 root   root     85 Dec 10 17:14 main_cvd.md5
+drwxr-xr-x 19 naresh naresh 4.0K Dec 11 11:24 Backup_bhargav
+-rw-r--r--  1 root   root     86 Dec 14 11:08 daily_cvd.md5
+-rw-r--r--  1 root   root    715 Dec 14 11:09 DAILY_CVD_CHECKSUM_UPLOAD.sh
+-rw-r--r--  1 root   root   1.2M Dec 20 09:49 lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+-rw-r--r--  1 root   root    105 Dec 20 14:41 RHMS_BACKUP_CMD.sh
+-rw-r--r--  1 root   root   1.7K Dec 21 09:53 REMOTE_STATUS.XML.~1~
+-rw-r--r--  1 root   root   1.8K Dec 21 09:53 remote_status.xml.~1~
+-rwxrwxrwx  1 root   root    21K Dec 22 17:54 DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+-rw-r--r--  1 root   root    16K Dec 27 14:17 kollam.txt
+-rw-r--r--  1 root   root    665 Dec 27 17:21 test_script_for_sdcard_1.0.sh
+-rw-r--r--  1 root   root    585 Dec 27 17:22 TEST_SCRIPT_FOR_SDCARD_SH.BKP
+-rw-r--r--  1 root   root    611 Dec 27 17:22 TEST_SCRIPT_FOR_SDCARD.SH
+-rw-r--r--  1 root   root   1.5K Dec 27 18:01 remote_status.xml_1170
+-rw-r--r--  1 root   root   3.1M Jan  3 20:08 appds_iritech_patch_01032019.tar.bz2
+-rw-r--r--  1 root   root    407 Jan  5 18:00 stcpt.sh
+-rw-r--r--  1 root   root   321K Jan  8 14:53 mk2120ul-mgmtserv.log
+-rw-r--r--  1 root   root   1.5K Jan  8 16:18 remote_status.xml
+-rw-r--r--  1 root   root    387 Jan 11 16:12 get_week_num.c
+-rw-r--r--  1 root   root   1.8K Jan 18 14:19 live_score.sh
+-rw-r--r--  1 root   root    106 Jan 18 14:36 score.sh
+-rw-r--r--  1 root   root    288 Jan 18 15:20 run.sh.bkp
+-rw-r--r--  1 naresh naresh 5.8M Jan 18 15:54 94_patch_TLS.zip
+-rw-r--r--  1 root   root    270 Jan 19 10:08 xorg.conf.failsafe
+drwx------ 33 root   root   4.0K Jan 19 10:44 selfdiag_loadtest_final
+drwxrwxr-x  3 root   root   4.0K Jan 19 11:46 src
+-rw-r--r--  1 root   root    16K Jan 19 11:47 kollam.xls
+drwxrwxr-x  2 root   root   4.0K Jan 22 16:35 allinfo2
+-rw-r--r--  1 root   root    346 Jan 23 09:54 run.sh
+-rw-r--r--  1 root   root   107K Jan 23 10:51 p.txt
+-rw-r--r--  1 root   root   6.7K Jan 23 14:52 all.txt
+-rwxr-xr-x  1 root   root    32K Jan 23 15:14 DEREGISTER_700_FROM_PATCHTEST.xls
+-rw-r--r--  1 root   root      0 Jan 24 14:39 tutorial.c
+-rw-r--r--  1 root   root   4.9M Jan 24 15:36 TotalDevicesReport24-01-2019_tsts.xls
+drwxrwxrwx  5 root   root   4.0K Jan 28 12:55 GNANBHUMI1
+-rw-r--r--  1 root   root   462K Jan 29 18:00 MF1S50YYX_V1.pdf
+drwxr-xr-x  2 root   root   4.0K Jan 30 11:35 rfid_practise
+drwxr-xr-x  7 root   root   4.0K Feb  1 12:56 openssl
+-rw-r--r--  1 root   root    229 Feb  4 13:03 4g.txt
+-rw-r--r--  1 root   root    236 Feb  4 13:04 3g.txt
+-rw-r--r--  1 root   root    18K Feb  5 10:35 Download
+-rw-r--r--  1 root   root     13 Feb  5 12:01 problem_appds
+-rw-r--r--  1 root   root    11K Feb  5 15:21 Download_dbs
+-rw-r--r--  1 root   root     38 Feb  5 19:04 anydesk_taken_serial_ids.txt
+drwxr-xr-x  5 root   root   4.0K Feb  5 19:20 Imp_tars
+-rw-r--r--  1 root   root   3.4M Feb  7 10:15 DeviceDetails07-02-2019_hpds.xls
+drwxr-xr-x  2 root   root   4.0K Feb  8 11:14 json
+-rw-r--r--  1 root   root   903K Feb 12 09:59 mosquitto.tar.bz2
+-rw-r--r--  1 root   root   896K Feb 13 18:12 mosquitto_1.0_develp.tar.bz2
+drwxr-xr-x  4 root   root   4.0K Feb 13 20:00 REMOTE_CLIENT
+drwxr-xr-x  2 root   root   4.0K Feb 14 10:23 mosquitto
+-rw-r--r--  1 root   root   912K Feb 16 12:40 mosquitto_1.1_devolped.tar.bz2
+-rw-r--r--  1 root   root   926K Feb 16 17:31 patch.tar.bz2
+-rw-r--r--  1 root   root     48 Feb 16 17:31 patch.md5
+drwxr-xr-x  2 root   root   4.0K Feb 18 15:08 mosquitto_test_1.1
+drwxr-xr-x  3 root   root   4.0K Feb 18 18:33 mosquitto_test
+-rwxr-xr-x  1 root   root    985 Feb 19 09:30 agree
+drwxr-xr-x  2 root   root   4.0K Feb 21 16:05 tes
+-rw-r--r--  1 naresh naresh  46K Feb 22 09:57 imx6sl.dtsi
+-rw-r--r--  1 root   root      0 Feb 22 14:57 kk
+-rwxr-xr-x  1 root   root    11K Feb 25 10:07 PosDesk
+-rw-r--r--  1 naresh naresh 2.0K Feb 27 10:15 machineid1.c
+-rw-r--r--  1 root   root   8.4K Mar  1 09:58 DevInfo.c
+-rw-r--r--  1 root   root   1.9K Mar  2 13:59 occurence_report_1.0.sh
+dr-xr-xr-x 21 root   root   4.0K Mar  6 12:49 Fino-PPP-LIB
+drwxr-xr-x  5 naresh naresh 4.0K Mar  6 15:04 Notifier_1.2
+-rw-r--r--  1 root   root   5.1K Mar 14 12:11 l
+-rwxr-xr-x  1 root   root   4.6K Mar 19 14:05 update.sh
+-rw-r--r--  1 root   root   9.0K Mar 19 17:58 Dereg_From_patchtest_allversions_78nos_on_190319.xls
+-rw-r--r--  1 root   root    12K Mar 19 17:58 Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+-rwxrwxrwx  1 root   root   6.4M Mar 22 11:30 Foundations.of.Qt.Development.pdf
+-rwxr-xr-x  1 root   root   6.1M Mar 22 11:45 Qt_prgming_book.chm
+drwxr-xr-x  2 root   root   4.0K Mar 22 18:03 build-sample-pc-Debug
+drwxr-xr-x  2 root   root   4.0K Mar 22 18:14 sample
+drwxr-xr-x  3 naresh naresh 4.0K Mar 25 18:43 mosquitto_patch
+-rw-r--r--  1 root   root    17K Mar 28 09:59 Speedtest
+-rw-r--r--  1 root   root    17K Mar 28 10:00 Speed
+-rw-r--r--  1 root   root    197 Mar 28 12:22 out.txt
+-rwxr-xr-x  1 root   root    557 Mar 28 17:57 PosDesk.sh
+drwxr-xr-x  4 root   root   4.0K Mar 29 15:58 xml
+drwxr-xr-x 10 naresh naresh 4.0K Apr  1 10:13 RHMS_PROJECT
+dr-x------ 12 naresh naresh 4.0K Apr  1 15:08 DOWNLOAD_PROJECT
+-rwxr-xr-x  1 root   root    15K Apr  3 17:58 CmsUpdate
+-rw-r--r--  1 root   root      0 Apr  8 12:17 KKK.txt
+drwxr-xr-x  3 root   root   4.0K Apr 16 12:03 displayImage_SRC
+drwxr-xr-x 17 root   root   4.0K Apr 16 12:28 taking_backup
+drwxr-xr-x  2 root   root   4.0K Apr 16 12:54 from_kermit
+drwxr-xr-x 19 root   root   4.0K Apr 22 15:10 myp
+
+
+Time: [ 15:40:40 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 3189 pts/1    00:00:00 sudo
+ 3190 pts/1    00:00:00 su
+ 3191 pts/1    00:00:00 bash
+ 8379 pts/1    00:00:00 a.out
+ 8396 pts/1    00:00:00 sh
+ 8397 pts/1    00:00:00 ps
+
+
+Time: [ 15:40:41 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 3189 pts/1    00:00:00 sudo
+ 3190 pts/1    00:00:00 su
+ 3191 pts/1    00:00:00 bash
+ 8379 pts/1    00:00:00 a.out
+ 8398 pts/1    00:00:00 sh
+ 8399 pts/1    00:00:00 ps
+
+
+Time: [ 15:40:42 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 3189 pts/1    00:00:00 sudo
+ 3190 pts/1    00:00:00 su
+ 3191 pts/1    00:00:00 bash
+ 8379 pts/1    00:00:00 a.out
+ 8400 pts/1    00:00:00 sh
+ 8401 pts/1    00:00:00 ps
+
+
+Time: [ 15:40:43 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 3189 pts/1    00:00:00 sudo
+ 3190 pts/1    00:00:00 su
+ 3191 pts/1    00:00:00 bash
+ 8379 pts/1    00:00:00 a.out
+ 8402 pts/1    00:00:00 sh
+ 8403 pts/1    00:00:00 ps
+
+
+Time: [ 15:40:44 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 3189 pts/1    00:00:00 sudo
+ 3190 pts/1    00:00:00 su
+ 3191 pts/1    00:00:00 bash
+ 8379 pts/1    00:00:00 a.out
+ 8404 pts/1    00:00:00 sh
+ 8405 pts/1    00:00:00 ps
+
+******* WELCOME PosDesk and PcDesk  Date: [ 23-04-2019 ]	 Time: [ 15:42:35 ] *******
+
+
+Time: [ 15:43:04 ]	Command: [ ls ]	Status: [ Success ]
+1137_511_449
+1362
+1557
+1617
+30042018_DPO_WLAN0_Batronics.tar.bz2
+3g.txt
+4g.txt
+94_patch_TLS.zip
+ads_files
+adsplay_ver.conf
+agree
+ALL_CAMERA
+allinfo
+allinfo1
+allinfo2
+all.txt
+AMS
+anydesk_taken_serial_ids.txt
+appds_iritech_patch_01032019.tar.bz2
+appdskrishna_rhms_problem_IDs
+appds_rhms_problem_IDs
+APP_RHMS
+APP_RHMS_BKP
+ares_build.h
+ares_dns.h
+ares.h
+ares_rules.h
+ares_version.h
+autoapn
+autoapn_5.0.2
+autoapn_5.0.7
+Backup_bhargav
+bill
+bill.tar.bz2
+Bluetooth
+branches
+build_maker_visiontek_1.1.sh
+buildroot-2017.02.10
+build-sample-pc-Debug
+chits.c
+client
+CmsUpdate
+confi.db1
+config
+config.txt
+curl_command
+DAILY_CVD_CHECKSUM_UPLOAD.sh
+daily_cvd.md5
+daily_report
+Dereg_From_patchtest_allversions_78nos_on_190319.xls
+DEREGISTER_700_FROM_PATCHTEST.xls
+DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+description
+Desktop
+DeviceDetails07-02-2019_hpds.xls
+dev_info.c
+DevInfo.c
+diff
+displayImage_SRC
+dmesg
+Download
+Download_dbs
+download_imx25
+DOWNLOAD_PROJECT
+Downloads
+Download.tar.bz2
+dummy
+Fino-PPP-LIB
+Firmware
+Foundations.of.Qt.Development.pdf
+freescale-35.tar.gz
+from_kermit
+From_ssh
+get_week_num.c
+gl11_gsm_send_read_SMS
+GNANBHUMI
+GNANBHUMI1
+GNOME
+HEAD
+hooks
+Imp_tars
+IMX25_AutoConnectivity_4.4_Only_GSM
+imx25_temp_rootfs.img
+IMX25_TEMPS
+IMX6_FW_UPDATE
+imx6sl.dtsi
+imx_iocon.ko
+index.html
+info
+install.sh
+Integrate_IMX25
+Integrate_IMX6
+isu80.1
+isu80.2
+json
+kernel_src
+killing
+kk
+kk.c
+KKK.txt
+kollam.txt
+kollam.xls
+KPDS-1.8
+kpds_virus_patch
+k.sh
+l
+libgl11pos.so
+lib_imx25
+linux-2.6.31_src_rt5370sta_src.zip
+linux-3.0.35_lcd
+live_score.sh
+lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+ls
+machineid1.c
+macid.c
+mahesh_1604567856_21082018
+main_cvd.md5
+message_app_1.0
+message_dbsample
+MF1S50YYX_V1.pdf
+mk2120ul-mgmtserv.log
+MLS
+mmc
+mosquitto
+mosquitto_1.0_develp.tar.bz2
+mosquitto_1.1_devolped.tar.bz2
+mosquitto-1.4.8
+mosquitto_patch
+mosquitto.tar.bz2
+mosquitto_test
+mosquitto_test_1.1
+mydata.txt
+myDrivers
+mygit
+myp
+mytasks
+Nating_from_internet.sh
+new_src
+note
+Notifier_1.2
+objects
+occurence_report_1.0.sh
+openssl
+OPENSSL
+openssl-1.0.1e
+openssl-1.0.1e.tar.gz
+opentftp
+OPI22
+out.log
+out.txt
+patch
+PATCH
+PATCH_FOR_RUN_rhms
+patch.md5
+patch.tar.bz2
+PosDesk
+PosDesk.sh
+printer_hex_file
+problem_appds
+p.txt
+Qt_prgming_book.chm
+RAM_TEST
+rd_init_patch.zip
+rd_patch
+rd_server_imx6
+RD_SERVICE
+Read_Write_Contact
+refs
+Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+REMOTE_CLIENT
+remote_status.xml
+remote_status.xml.~1~
+REMOTE_STATUS.XML.~1~
+remote_status.xml_1170
+rfid_practise
+rhms
+RHMS_BACKUP_CMD.sh
+RHMS_PROJECT
+rhms_projects_updated_with_rdv1.7.1_220918.xls
+RHMS_PROJECT.tar.bz2
+RHMS_review.xls
+rt5370sta_src.tar.bz2
+run.sh
+run.sh.bkp
+sample
+sample.txt
+score.sh
+Screenshot from 2018-10-12 11-02-02.png
+sdcard_software_loding
+SD.directory
+SDK
+selfdiag_loadtest_final
+serial_1.1
+setmachineid
+snap
+source
+Speed
+Speedtest
+src
+ssh_pos_on_pc
+start_pc
+startx
+stcpt.sh
+taking_backup
+temp_rootf_fs_IMX6
+TEMP_ROOTFS
+temp_rootfs_cmd
+temp-rootfs.IMG
+temp_rootfs_reduced
+tes
+testing
+test_script_for_sdcard_1.0.sh
+TEST_SCRIPT_FOR_SDCARD.SH
+TEST_SCRIPT_FOR_SDCARD_SH.BKP
+tftpboot
+TotalDevicesReport24-01-2019_tsts.xls
+TSTSTSTS
+TT-Qt-4.7.4.tar.gz
+tutorial.c
+u03
+uboot-password
+uboot_password.tar.bz2
+u-boot_src
+ubuntu-session
+ubuntu-session.list
+ubuntu-session.md5sums
+unity
+unitycontrol
+unity-control-center
+update.sh
+uploaded_to_PLM
+usbsend
+xml
+xorg.conf.failsafe
+xorg.conf.new
+ZBARCAM-READER-0.2
+
+
+Time: [ 15:43:08 ]	Command: [ #exit3 ]	Status: [ Success ]
+
+******* WELCOME PosDesk and PcDesk  Date: [ 23-04-2019 ]	 Time: [ 15:43:16 ] *******
+
+Time out, some thing late processing with client

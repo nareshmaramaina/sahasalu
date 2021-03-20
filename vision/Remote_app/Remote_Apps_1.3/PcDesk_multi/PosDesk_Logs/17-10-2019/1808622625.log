@@ -1,0 +1,1664 @@
+
+******* WELCOME PosDesk and PcDesk  Date: [ 17-10-2019 ]	 Time: [ 10:03:25 ] *******
+ProjectName: MADRASSECURITY
+Machineid: 1808622625
+Macid: 7C:F0:BA:F7:F8:8A
+Uid: 172731d4eacb4188
+AppType: 100
+AppVersion: 3.0
+U-boot: GL11-UB-2009.08-1520-1.1.bin
+Kernel: GL11-KR-3.0.35-1921-1.0.IMG
+Rootfs: GL11-RD-EXT3-1920-1.1.IMG
+FirmwareVersion: 2.3
+
+
+Time: [ 10:03:40 ]	Command: [ ls ]	Status: [ Success ]
+Biomatiques
+curlTxt
+mcpid
+pro_details_appl
+rdpid
+tmp
+
+
+Time: [ 10:04:04 ]	Command: [ cat /var/gprs ]	Status: [ Success ]
+0,X,0,0,
+
+Time: [ 10:04:20 ]	Command: [ ls ]	Status: [ Success ]
+Biomatiques
+curlTxt
+mcpid
+pro_details_appl
+rdpid
+tmp
+
+
+Time: [ 10:04:26 ]	Command: [ ifconfig ]	Status: [ Success ]
+eth0      Link encap:Ethernet  HWaddr 7C:F0:BA:F7:F8:8A  
+          inet addr:192.168.0.45  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:63693 errors:0 dropped:13493 overruns:0 frame:0
+          TX packets:1480 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:4646299 (4.4 MiB)  TX bytes:214530 (209.5 KiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:10134 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:10134 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:1035168 (1010.9 KiB)  TX bytes:1035168 (1010.9 KiB)
+
+
+
+Time: [ 10:05:09 ]	Command: [ cd /var/log/ ]	Status: [ Success ]
+
+
+Time: [ 10:05:10 ]	Command: [ ls ]	Status: [ Success ]
+DOT
+Health
+Netlogs
+health_status_on_
+health_status_on_01042019085546
+health_status_on_01062019154319
+health_status_on_01072019085258
+health_status_on_01082019083450
+health_status_on_01082019084946
+health_status_on_01082019085759
+health_status_on_01102019090509
+health_status_on_02032019085110
+health_status_on_02042019092625
+health_status_on_02052019084658
+health_status_on_02072019090204
+health_status_on_02082019074516
+health_status_on_02082019084627
+health_status_on_02082019085135
+health_status_on_02082019085507
+health_status_on_03042019160446
+health_status_on_03052019153529
+health_status_on_03062019075904
+health_status_on_03062019090743
+health_status_on_03062019091519
+health_status_on_03072019085300
+health_status_on_03072019085954
+health_status_on_03082019085159
+health_status_on_03082019085803
+health_status_on_03092019082951
+health_status_on_03092019084025
+health_status_on_03102019082112
+health_status_on_04042019092630
+health_status_on_04052019085822
+health_status_on_04062019091118
+health_status_on_04072019084832
+health_status_on_04072019085223
+health_status_on_04092019085444
+health_status_on_04092019150229
+health_status_on_04092019151237
+health_status_on_04092019151853
+health_status_on_04092019152510
+health_status_on_04092019153055
+health_status_on_04102019083717
+health_status_on_04102019085027
+health_status_on_05072019081130
+health_status_on_05072019084250
+health_status_on_05082019085007
+health_status_on_05092019085235
+health_status_on_05102019084739
+health_status_on_06052019160443
+health_status_on_06072019084638
+health_status_on_06072019085813
+health_status_on_06082019084648
+health_status_on_06082019090231
+health_status_on_06092019083814
+health_status_on_06092019090413
+health_status_on_07052019153338
+health_status_on_07062019090346
+health_status_on_07062019090824
+health_status_on_07062019091229
+health_status_on_07082019085100
+health_status_on_07092019084331
+health_status_on_07092019085009
+health_status_on_07102019100854
+health_status_on_08032019085120
+health_status_on_08042019092014
+health_status_on_08042019100829
+health_status_on_08052019132940
+health_status_on_08072019084444
+health_status_on_08082019084858
+health_status_on_08082019160643
+health_status_on_09042019083903
+health_status_on_09052019083106
+health_status_on_09072019082048
+health_status_on_09072019082636
+health_status_on_09072019085318
+health_status_on_09082019080406
+health_status_on_09092019082702
+health_status_on_09092019083218
+health_status_on_09092019084046
+health_status_on_09092019084614
+health_status_on_09092019085427
+health_status_on_10042019085252
+health_status_on_10052019102750
+health_status_on_10062019095058
+health_status_on_10062019153537
+health_status_on_10072019084420
+health_status_on_10072019084957
+health_status_on_11032019085220
+health_status_on_11032019090957
+health_status_on_11052019094120
+health_status_on_11062019092320
+health_status_on_11072019084014
+health_status_on_11092019083533
+health_status_on_11092019085523
+health_status_on_11092019151424
+health_status_on_11092019152222
+health_status_on_12042019092121
+health_status_on_12062019092108
+health_status_on_12062019092657
+health_status_on_12072019083845
+health_status_on_13052019092401
+health_status_on_13062019092500
+health_status_on_13082019083350
+health_status_on_13082019084547
+health_status_on_13092019084648
+health_status_on_13092019085807
+health_status_on_14032019090403
+health_status_on_14032019161648
+health_status_on_14052019145849
+health_status_on_14082019083731
+health_status_on_14082019084403
+health_status_on_14092019085757
+health_status_on_15032019084836
+health_status_on_15042019085520
+health_status_on_15052019092650
+health_status_on_15062019091618
+health_status_on_15072019082705
+health_status_on_15072019084042
+health_status_on_15082019084829
+health_status_on_15082019233128
+health_status_on_15092019160858
+health_status_on_15092019233056
+health_status_on_16032019085356
+health_status_on_16032019160228
+health_status_on_16042019093244
+health_status_on_16052019143152
+health_status_on_16072019085101
+health_status_on_16072019233103
+health_status_on_16092019093510
+health_status_on_17042019092055
+health_status_on_17052019084940
+health_status_on_17062019090145
+health_status_on_17062019093028
+health_status_on_17082019084647
+health_status_on_17082019085108
+health_status_on_17082019085552
+health_status_on_17092019090044
+health_status_on_18032019091836
+health_status_on_18032019155146
+health_status_on_18042019103442
+health_status_on_18052019135930
+health_status_on_18052019140908
+health_status_on_18052019163446
+health_status_on_18052019164227
+health_status_on_18062019091733
+health_status_on_18072019085540
+health_status_on_18092019083753
+health_status_on_18092019085940
+health_status_on_18092019161827
+health_status_on_19032019084239
+health_status_on_19062019083737
+health_status_on_19072019084740
+health_status_on_19082019085200
+health_status_on_19082019085537
+health_status_on_19092019084125
+health_status_on_19092019085736
+health_status_on_19092019102410
+health_status_on_20032019085401
+health_status_on_20032019144929
+health_status_on_20052019080905
+health_status_on_20052019092047
+health_status_on_20062019084424
+health_status_on_20072019082516
+health_status_on_20072019084626
+health_status_on_20072019085753
+health_status_on_20072019090354
+health_status_on_20072019091026
+health_status_on_20082019084405
+health_status_on_20082019084916
+health_status_on_20082019160946
+health_status_on_20092019085238
+health_status_on_20092019090118
+health_status_on_21052019082931
+health_status_on_21062019084702
+health_status_on_21062019085321
+health_status_on_21082019083043
+health_status_on_21092019083416
+health_status_on_21092019090407
+health_status_on_21092019154443
+health_status_on_22022019155926
+health_status_on_22032019090710
+health_status_on_22042019091834
+health_status_on_22052019085441
+health_status_on_22062019084942
+health_status_on_22062019090000
+health_status_on_22072019084819
+health_status_on_22082019085457
+health_status_on_23022019085655
+health_status_on_23022019151928
+health_status_on_23032019085324
+health_status_on_23032019092215
+health_status_on_23032019092646
+health_status_on_23032019160429
+health_status_on_23042019091839
+health_status_on_23052019092900
+health_status_on_23072019084308
+health_status_on_23082019083641
+health_status_on_23082019085625
+health_status_on_23092019084349
+health_status_on_23092019153924
+health_status_on_23092019154754
+health_status_on_24042019091806
+health_status_on_24052019081238
+health_status_on_24062019083112
+health_status_on_24062019084924
+health_status_on_24072019090415
+health_status_on_24092019090149
+health_status_on_24092019090904
+health_status_on_25022019090908
+health_status_on_25032019091654
+health_status_on_25042019085521
+health_status_on_25042019090622
+health_status_on_25042019091221
+health_status_on_25052019085617
+health_status_on_25062019084751
+health_status_on_25072019082947
+health_status_on_25072019083401
+health_status_on_25072019085615
+health_status_on_25092019090838
+health_status_on_26032019085152
+health_status_on_26032019154727
+health_status_on_26042019093930
+health_status_on_26062019083934
+health_status_on_26072019083017
+health_status_on_26082019081930
+health_status_on_26082019084715
+health_status_on_26092019084016
+health_status_on_26092019084934
+health_status_on_26092019152629
+health_status_on_27032019085157
+health_status_on_27042019091944
+health_status_on_27052019090219
+health_status_on_27052019091636
+health_status_on_27062019085651
+health_status_on_27062019090117
+health_status_on_27072019082350
+health_status_on_27082019085347
+health_status_on_27092019083641
+health_status_on_28022019152002
+health_status_on_28032019090047
+health_status_on_28052019082051
+health_status_on_28052019084333
+health_status_on_28052019085112
+health_status_on_28062019085258
+health_status_on_28062019090108
+health_status_on_28082019083721
+health_status_on_28082019084638
+health_status_on_28082019085306
+health_status_on_28092019093937
+health_status_on_29032019085909
+health_status_on_29042019091914
+health_status_on_29052019081651
+health_status_on_29052019092101
+health_status_on_29062019085601
+health_status_on_29082019084821
+health_status_on_29082019085212
+health_status_on_30032019085000
+health_status_on_30042019155153
+health_status_on_30052019082233
+health_status_on_30072019083519
+health_status_on_30072019084228
+health_status_on_30082019084323
+health_status_on_30092019082301
+health_status_on_30092019083418
+health_status_on_31052019085119
+health_status_on_31052019091321
+health_status_on_31072019082436
+health_status_on_31072019083847
+health_status_on_31072019085713
+health_status_on_31082019084532
+health_status_on_31082019085158
+hotplug
+lastlog
+sysbootinf
+wtmp
+
+
+Time: [ 10:05:16 ]	Command: [ cd Netlogs ]	Status: [ Success ]
+
+
+Time: [ 10:05:18 ]	Command: [ ls ]	Status: [ Success ]
+log.conf
+logs_2.tar.bz2
+logs_3.tar.bz2
+logs_4.tar.bz2
+logs_5.tar.bz2
+logs_6.tar.bz2
+logs_7.tar.bz2
+logs_8.tar.bz2
+logs_9.tar.bz2
+network_2019_10_01.log
+network_2019_10_03.log
+network_2019_10_04.log
+network_2019_10_05.log
+network_2019_10_07.log
+network_2019_10_08.log
+network_2019_10_09.log
+network_2019_10_10.log
+network_2019_10_11.log
+network_2019_10_12.log
+network_2019_10_13.log
+network_2019_10_14.log
+network_2019_10_15.log
+network_2019_10_16.log
+network_2019_10_17.log
+
+Time out, some thing late processing with client
+
+******* WELCOME PosDesk and PcDesk  Date: [ 17-10-2019 ]	 Time: [ 10:14:44 ] *******
+
+Time out, some thing late processing with client
+
+******* WELCOME PosDesk and PcDesk  Date: [ 17-10-2019 ]	 Time: [ 10:17:23 ] *******
+ProjectName: MADRASSECURITY
+Machineid: 1808622625
+Macid: 7C:F0:BA:F7:F8:8A
+Uid: 172731d4eacb4188
+AppType: 100
+AppVersion: 3.0
+U-boot: GL11-UB-2009.08-1520-1.1.bin
+Kernel: GL11-KR-3.0.35-1921-1.0.IMG
+Rootfs: GL11-RD-EXT3-1920-1.1.IMG
+FirmwareVersion: 2.3
+
+
+Time: [ 10:17:32 ]	Command: [ lsusb ]	Status: [ Success ]
+Bus 003 Device 024: ID 05c6:9000 Qualcomm, Inc. 
+Bus 003 Device 012: ID 147e:2016  
+Bus 003 Device 003: ID 0424:2514 Standard Microsystems Corp. 
+Bus 003 Device 002: ID 0424:2514 Standard Microsystems Corp. 
+Bus 003 Device 001: ID 1d6b:0002  
+Bus 001 Device 001: ID 1d6b:0002  
+
+
+Time: [ 10:17:45 ]	Command: [ cd /tmp ]	Status: [ Success ]
+
+
+Time: [ 10:17:47 ]	Command: [ ls ]	Status: [ Success ]
+DevInfo
+GprsNetworkSettings.ini
+awplay
+consent.json
+ethernet_status
+gprs_update
+ltib
+response_file
+revision_operator_details
+rhms_details.xml
+rootfsver
+saved_ssids
+scan_dev.txt
+scanned_device.txt
+sim_details
+test.pid
+uid
+wifi_status
+
+
+Time: [ 10:17:55 ]	Command: [ cat rhms_details.xml ]	Status: [ Success ]
+<?xml version="1.0" encoding="UTF-8"?>
+<RHMS_DETAILS>
+  <MODULE>SIM5360E</MODULE>
+  <FIRMWARE></FIRMWARE>
+  <IMEI></IMEI>
+  <CCID1></CCID1>
+  <CCID2></CCID2>
+  <Signal1></Signal1>
+  <Signal2></Signal2>
+  <Operator1></Operator1>
+  <Operator2></Operator2>
+  <WIFI>1</WIFI>
+  <ETHERNET>1</ETHERNET>
+</RHMS_DETAILS>
+
+
+Time: [ 10:18:07 ]	Command: [ cd /etc/ ]	Status: [ Success ]
+
+
+Time: [ 10:18:13 ]	Command: [ cat gsm.conf ]	Status: [ Success ]
+cat: can't open 'gsm.conf': No such file or directory
+
+
+Time: [ 10:18:49 ]	Command: [ echo "SIM5360E" > gsm.conf ]	Status: [ Success ]
+
+
+Time: [ 10:19:12 ]	Command: [ cat gsm.conf ]	Status: [ Success ]
+SIM5360E
+
+
+Time: [ 10:19:41 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   85 root         0 SW   [usb_wakeup thre]
+  271 root         0 SW   [sync_supers]
+  273 root         0 SW   [bdi-default]
+  275 root         0 SW<  [kblockd]
+  289 root         0 SW<  [imx6q-ecspi.1]
+  301 root         0 SW   [khubd]
+  340 root         0 SW<  [l2cap]
+  343 root         0 SW<  [cfg80211]
+  431 root         0 SW<  [rpciod]
+  437 root         0 SW   [usb_wakeup thre]
+  439 root         0 SW<  [otg_switch]
+  443 root         0 SW   [usb_wakeup thre]
+  457 root         0 SW   [kswapd0]
+  517 root         0 SW   [fsnotify_mark]
+  532 root         0 SW<  [nfsiod]
+  537 root         0 SW<  [crypto]
+ 1102 root         0 SW   [kapmd]
+ 1176 root         0 SW   [irq/391-ad7877]
+ 1244 root         0 SW<  [krfcommd]
+ 1259 root         0 SW   [mmcqd/1]
+ 1260 root         0 SW   [mmcqd/1boot0]
+ 1261 root         0 SW   [mmcqd/1boot1]
+ 1272 root         0 SW   [kjournald]
+ 1282 root      1756 S <  udevd --daemon
+ 1404 root         0 SW   [kworker/u:1]
+ 1462 root         0 SW   [kworker/0:1]
+ 2313 root         0 SW   [flush-179:0]
+ 2333 root         0 SW   [gl11_work_kthre]
+ 2335 root         0 SW   [kjournald]
+ 2345 root         0 SW   [kjournald]
+ 2371 root      2220 S    /usr/sbin/inetd
+ 2375 root      1460 S    /vision/rgb_battery
+ 2385 root      2188 S    /usr/sbin/dropbear -b /etc/banner
+ 2409 root         0 SW   [kworker/0:2]
+ 2411 messageb  3304 S    dbus-daemon --system
+ 2433 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2530 root     15272 S    /home/rhms_update_binary
+ 2531 root      2228 S    {exe} ash /vision/PosDesk.sh
+ 2540 root      2268 S    /vision/DOT
+ 2582 root     12236 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2590 root      2232 S    /sbin/getty -L ttyGS0 115200 vt100
+ 2605 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2609 root      7264 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2613 root      5352 S    matchbox-panel --bgtrans yes
+ 2618 root      5324 S    mb-applet-menu-launcher
+ 2619 root      4768 S    mb-applet-clock
+ 2620 root     23844 S    mb-applet-console-operations
+ 2629 root     23652 S    mb-applet-microsd
+ 2632 root     25924 S    mb-applet-usb
+ 2759 root     20848 S    /usr/bin/rds_init
+ 2793 root     26408 S    /root/Biomatiques/BiomatiquesRDS
+ 2796 root      1464 S    /vision/gps_start
+ 2841 root         0 SW   [kworker/u:3]
+ 2844 root     24024 S    mb-applet-autoapn
+ 2845 root     23892 S    mb-applet-rds
+ 2846 root     23812 S    mb-applet-rdsiris
+ 4233 root      1464 S    /home/autoapn_start
+ 4254 root      5052 S    /usr/bin/autoapn
+ 4309 root     40560 S    /usr/bin/tstsabas
+ 4737 root     14892 S    ./mc
+ 4975 root     24644 S    /home/rdservice/rds
+ 5269 root         0 SW   [kworker/u:0]
+ 5311 root         0 SW   [kworker/0:0]
+ 6264 root      3008 S    /vision/PosDesk
+ 7191 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 7192 root      2232 R    ps
+10094 root      2276 S    /usr/bin/get_gps_data
+10331 root      2228 S    udhcpc -i eth0 -t 8 -n
+
+
+Time: [ 10:19:58 ]	Command: [ cd /tmp ]	Status: [ Success ]
+
+
+Time: [ 10:20:46 ]	Command: [ ls ]	Status: [ Success ]
+DevInfo
+GprsNetworkSettings.ini
+awplay
+consent.json
+ethernet_status
+gprs_update
+ltib
+response_file
+revision_operator_details
+rhms_details.xml
+rootfsver
+saved_ssids
+scan_dev.txt
+scanned_device.txt
+sim_details
+test.pid
+uid
+wifi_status
+
+
+Time: [ 10:20:58 ]	Command: [ rm_old * ]	Status: [ Success ]
+rm_old: cannot remove `ltib': Is a directory
+
+
+Time: [ 10:21:38 ]	Command: [ ls ]	Status: [ Success ]
+ltib
+
+
+Time: [ 10:21:42 ]	Command: [ ls ]	Status: [ Success ]
+ltib
+
+
+Time: [ 10:21:49 ]	Command: [ cd ]	Status: [ Success ]
+
+
+Time: [ 10:21:56 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   85 root         0 SW   [usb_wakeup thre]
+  271 root         0 SW   [sync_supers]
+  273 root         0 SW   [bdi-default]
+  275 root         0 SW<  [kblockd]
+  289 root         0 SW<  [imx6q-ecspi.1]
+  301 root         0 SW   [khubd]
+  340 root         0 SW<  [l2cap]
+  343 root         0 SW<  [cfg80211]
+  431 root         0 SW<  [rpciod]
+  437 root         0 SW   [usb_wakeup thre]
+  439 root         0 SW<  [otg_switch]
+  443 root         0 SW   [usb_wakeup thre]
+  457 root         0 SW   [kswapd0]
+  517 root         0 SW   [fsnotify_mark]
+  532 root         0 SW<  [nfsiod]
+  537 root         0 SW<  [crypto]
+ 1102 root         0 SW   [kapmd]
+ 1176 root         0 SW   [irq/391-ad7877]
+ 1244 root         0 SW<  [krfcommd]
+ 1259 root         0 SW   [mmcqd/1]
+ 1260 root         0 SW   [mmcqd/1boot0]
+ 1261 root         0 SW   [mmcqd/1boot1]
+ 1272 root         0 SW   [kjournald]
+ 1282 root      1756 S <  udevd --daemon
+ 2313 root         0 SW   [flush-179:0]
+ 2333 root         0 SW   [gl11_work_kthre]
+ 2335 root         0 SW   [kjournald]
+ 2345 root         0 SW   [kjournald]
+ 2371 root      2220 S    /usr/sbin/inetd
+ 2375 root      1460 S    /vision/rgb_battery
+ 2385 root      2188 S    /usr/sbin/dropbear -b /etc/banner
+ 2409 root         0 SW   [kworker/0:2]
+ 2411 messageb  3304 S    dbus-daemon --system
+ 2433 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2530 root     15272 S    /home/rhms_update_binary
+ 2531 root      2228 S    {exe} ash /vision/PosDesk.sh
+ 2540 root      2268 S    /vision/DOT
+ 2582 root     12236 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2590 root      2232 S    /sbin/getty -L ttyGS0 115200 vt100
+ 2605 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2609 root      7264 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2613 root      5352 S    matchbox-panel --bgtrans yes
+ 2618 root      5324 S    mb-applet-menu-launcher
+ 2619 root      4768 S    mb-applet-clock
+ 2620 root     23844 S    mb-applet-console-operations
+ 2629 root     23652 S    mb-applet-microsd
+ 2632 root     25924 S    mb-applet-usb
+ 2759 root     20848 S    /usr/bin/rds_init
+ 2793 root     26408 S    /root/Biomatiques/BiomatiquesRDS
+ 2796 root      1464 S    /vision/gps_start
+ 2841 root         0 SW   [kworker/u:3]
+ 2844 root     24024 S    mb-applet-autoapn
+ 2845 root     23892 S    mb-applet-rds
+ 2846 root     23812 S    mb-applet-rdsiris
+ 4233 root      1464 S    /home/autoapn_start
+ 4254 root      5052 S    /usr/bin/autoapn
+ 4309 root     40560 S    /usr/bin/tstsabas
+ 4737 root     14892 S    ./mc
+ 4975 root     24644 S    /home/rdservice/rds
+ 5269 root         0 SW   [kworker/u:0]
+ 5311 root         0 SW   [kworker/0:0]
+ 6264 root      3028 S    /vision/PosDesk
+ 8073 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 8074 root      2232 R    ps
+10094 root      2276 S    /usr/bin/get_gps_data
+10331 root      2228 S    udhcpc -i eth0 -t 8 -n
+
+
+Time: [ 10:22:16 ]	Command: [ kill 2530 ]	Status: [ Success ]
+
+
+Time: [ 10:22:19 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   85 root         0 SW   [usb_wakeup thre]
+  271 root         0 SW   [sync_supers]
+  273 root         0 SW   [bdi-default]
+  275 root         0 SW<  [kblockd]
+  289 root         0 SW<  [imx6q-ecspi.1]
+  301 root         0 SW   [khubd]
+  340 root         0 SW<  [l2cap]
+  343 root         0 SW<  [cfg80211]
+  431 root         0 SW<  [rpciod]
+  437 root         0 SW   [usb_wakeup thre]
+  439 root         0 SW<  [otg_switch]
+  443 root         0 SW   [usb_wakeup thre]
+  457 root         0 SW   [kswapd0]
+  517 root         0 SW   [fsnotify_mark]
+  532 root         0 SW<  [nfsiod]
+  537 root         0 SW<  [crypto]
+ 1102 root         0 SW   [kapmd]
+ 1176 root         0 SW   [irq/391-ad7877]
+ 1244 root         0 SW<  [krfcommd]
+ 1259 root         0 SW   [mmcqd/1]
+ 1260 root         0 SW   [mmcqd/1boot0]
+ 1261 root         0 SW   [mmcqd/1boot1]
+ 1272 root         0 SW   [kjournald]
+ 1282 root      1756 S <  udevd --daemon
+ 2313 root         0 SW   [flush-179:0]
+ 2333 root         0 SW   [gl11_work_kthre]
+ 2335 root         0 SW   [kjournald]
+ 2345 root         0 SW   [kjournald]
+ 2371 root      2220 S    /usr/sbin/inetd
+ 2375 root      1460 S    /vision/rgb_battery
+ 2385 root      2188 S    /usr/sbin/dropbear -b /etc/banner
+ 2409 root         0 SW   [kworker/0:2]
+ 2411 messageb  3304 S    dbus-daemon --system
+ 2433 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2531 root      2228 S    {exe} ash /vision/PosDesk.sh
+ 2540 root      2268 S    /vision/DOT
+ 2582 root     12236 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2590 root      2232 S    /sbin/getty -L ttyGS0 115200 vt100
+ 2605 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2609 root      7264 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2613 root      5352 S    matchbox-panel --bgtrans yes
+ 2618 root      5324 S    mb-applet-menu-launcher
+ 2619 root      4768 S    mb-applet-clock
+ 2620 root     23844 S    mb-applet-console-operations
+ 2629 root     23652 S    mb-applet-microsd
+ 2632 root     25924 S    mb-applet-usb
+ 2759 root     20848 S    /usr/bin/rds_init
+ 2793 root     26408 S    /root/Biomatiques/BiomatiquesRDS
+ 2796 root      1464 S    /vision/gps_start
+ 2841 root         0 SW   [kworker/u:3]
+ 2844 root     24024 S    mb-applet-autoapn
+ 2845 root     23892 S    mb-applet-rds
+ 2846 root     23812 S    mb-applet-rdsiris
+ 4233 root      1464 S    /home/autoapn_start
+ 4254 root      5052 S    /usr/bin/autoapn
+ 4309 root     40560 S    /usr/bin/tstsabas
+ 4737 root     14892 S    ./mc
+ 4975 root     24644 S    /home/rdservice/rds
+ 5269 root         0 SW   [kworker/u:0]
+ 5311 root         0 SW   [kworker/0:0]
+ 6264 root      3032 S    /vision/PosDesk
+ 8221 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 8222 root      2232 R    ps
+10094 root      2276 S    /usr/bin/get_gps_data
+10331 root      2228 S    udhcpc -i eth0 -t 8 -n
+
+
+Time: [ 10:22:43 ]	Command: [ /home/rhms_update_binary run & ]	Status: [ Success ]
+
+
+Time: [ 10:23:06 ]	Command: [ killall autoapn ]	Status: [ Success ]
+
+
+Time: [ 10:23:16 ]	Command: [ dme	 ]	Status: [ Success ]
+sh: dme: not found
+
+
+Time: [ 10:23:20 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   85 root         0 SW   [usb_wakeup thre]
+  271 root         0 SW   [sync_supers]
+  273 root         0 SW   [bdi-default]
+  275 root         0 SW<  [kblockd]
+  289 root         0 SW<  [imx6q-ecspi.1]
+  301 root         0 SW   [khubd]
+  340 root         0 SW<  [l2cap]
+  343 root         0 SW<  [cfg80211]
+  431 root         0 SW<  [rpciod]
+  437 root         0 SW   [usb_wakeup thre]
+  439 root         0 SW<  [otg_switch]
+  443 root         0 SW   [usb_wakeup thre]
+  457 root         0 SW   [kswapd0]
+  517 root         0 SW   [fsnotify_mark]
+  532 root         0 SW<  [nfsiod]
+  537 root         0 SW<  [crypto]
+ 1102 root         0 SW   [kapmd]
+ 1176 root         0 SW   [irq/391-ad7877]
+ 1244 root         0 SW<  [krfcommd]
+ 1259 root         0 SW   [mmcqd/1]
+ 1260 root         0 SW   [mmcqd/1boot0]
+ 1261 root         0 SW   [mmcqd/1boot1]
+ 1272 root         0 SW   [kjournald]
+ 1282 root      1756 S <  udevd --daemon
+ 2313 root         0 SW   [flush-179:0]
+ 2333 root         0 SW   [gl11_work_kthre]
+ 2335 root         0 SW   [kjournald]
+ 2345 root         0 SW   [kjournald]
+ 2371 root      2220 S    /usr/sbin/inetd
+ 2375 root      1460 S    /vision/rgb_battery
+ 2385 root      2188 S    /usr/sbin/dropbear -b /etc/banner
+ 2409 root         0 SW   [kworker/0:2]
+ 2411 messageb  3304 S    dbus-daemon --system
+ 2433 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2531 root      2228 S    {exe} ash /vision/PosDesk.sh
+ 2540 root      2268 S    /vision/DOT
+ 2582 root     12236 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2590 root      2232 S    /sbin/getty -L ttyGS0 115200 vt100
+ 2605 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2609 root      7264 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2613 root      5352 S    matchbox-panel --bgtrans yes
+ 2618 root      5324 S    mb-applet-menu-launcher
+ 2619 root      4768 S    mb-applet-clock
+ 2620 root     23844 S    mb-applet-console-operations
+ 2629 root     23652 S    mb-applet-microsd
+ 2632 root     25924 S    mb-applet-usb
+ 2759 root     20848 S    /usr/bin/rds_init
+ 2793 root     26408 S    /root/Biomatiques/BiomatiquesRDS
+ 2796 root      1464 S    /vision/gps_start
+ 2841 root         0 SW   [kworker/u:3]
+ 2844 root     24024 S    mb-applet-autoapn
+ 2845 root     23892 S    mb-applet-rds
+ 2846 root     23812 S    mb-applet-rdsiris
+ 4233 root      1464 S    /home/autoapn_start
+ 4309 root     40560 S    /usr/bin/tstsabas
+ 4737 root     14892 S    ./mc
+ 4975 root     24644 S    /home/rdservice/rds
+ 5269 root         0 SW   [kworker/u:0]
+ 5311 root         0 SW   [kworker/0:0]
+ 6264 root      3040 S    /vision/PosDesk
+ 8383 root     14800 S    /home/rhms_update_binary run
+ 8586 root         0 SW   [kworker/u:1]
+ 8588 root      5052 S    /usr/bin/autoapn
+ 8648 root      2228 S    udhcpc -i eth0 -t 8 -n
+ 8693 root      2276 S    /usr/bin/get_gps_data
+ 8694 root         0 SW   [kworker/0:1]
+ 8771 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 8772 root      2232 R    ps
+
+
+Time: [ 10:23:26 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   85 root         0 SW   [usb_wakeup thre]
+  271 root         0 SW   [sync_supers]
+  273 root         0 SW   [bdi-default]
+  275 root         0 SW<  [kblockd]
+  289 root         0 SW<  [imx6q-ecspi.1]
+  301 root         0 SW   [khubd]
+  340 root         0 SW<  [l2cap]
+  343 root         0 SW<  [cfg80211]
+  431 root         0 SW<  [rpciod]
+  437 root         0 SW   [usb_wakeup thre]
+  439 root         0 SW<  [otg_switch]
+  443 root         0 SW   [usb_wakeup thre]
+  457 root         0 SW   [kswapd0]
+  517 root         0 SW   [fsnotify_mark]
+  532 root         0 SW<  [nfsiod]
+  537 root         0 SW<  [crypto]
+ 1102 root         0 SW   [kapmd]
+ 1176 root         0 SW   [irq/391-ad7877]
+ 1244 root         0 SW<  [krfcommd]
+ 1259 root         0 SW   [mmcqd/1]
+ 1260 root         0 SW   [mmcqd/1boot0]
+ 1261 root         0 SW   [mmcqd/1boot1]
+ 1272 root         0 SW   [kjournald]
+ 1282 root      1756 S <  udevd --daemon
+ 2313 root         0 SW   [flush-179:0]
+ 2333 root         0 SW   [gl11_work_kthre]
+ 2335 root         0 SW   [kjournald]
+ 2345 root         0 SW   [kjournald]
+ 2371 root      2220 S    /usr/sbin/inetd
+ 2375 root      1460 S    /vision/rgb_battery
+ 2385 root      2188 S    /usr/sbin/dropbear -b /etc/banner
+ 2409 root         0 SW   [kworker/0:2]
+ 2411 messageb  3304 S    dbus-daemon --system
+ 2433 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2531 root      2228 S    {exe} ash /vision/PosDesk.sh
+ 2540 root      2268 S    /vision/DOT
+ 2582 root     12236 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2590 root      2232 S    /sbin/getty -L ttyGS0 115200 vt100
+ 2605 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2609 root      7264 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2613 root      5352 S    matchbox-panel --bgtrans yes
+ 2618 root      5324 S    mb-applet-menu-launcher
+ 2619 root      4768 S    mb-applet-clock
+ 2620 root     23844 S    mb-applet-console-operations
+ 2629 root     23652 S    mb-applet-microsd
+ 2632 root     25924 S    mb-applet-usb
+ 2759 root     20848 S    /usr/bin/rds_init
+ 2793 root     26408 S    /root/Biomatiques/BiomatiquesRDS
+ 2796 root      1464 S    /vision/gps_start
+ 2841 root         0 SW   [kworker/u:3]
+ 2844 root     24024 S    mb-applet-autoapn
+ 2845 root     23892 S    mb-applet-rds
+ 2846 root     23812 S    mb-applet-rdsiris
+ 4233 root      1464 S    /home/autoapn_start
+ 4309 root     40560 S    /usr/bin/tstsabas
+ 4737 root     14892 S    ./mc
+ 4975 root     24644 S    /home/rdservice/rds
+ 5269 root         0 SW   [kworker/u:0]
+ 5311 root         0 SW   [kworker/0:0]
+ 6264 root      3044 S    /vision/PosDesk
+ 8383 root     14800 S    /home/rhms_update_binary run
+ 8586 root         0 SW   [kworker/u:1]
+ 8588 root      5052 S    /usr/bin/autoapn
+ 8648 root      2228 S    udhcpc -i eth0 -t 8 -n
+ 8693 root      2276 S    /usr/bin/get_gps_data
+ 8694 root         0 SW   [kworker/0:1]
+ 8820 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 8821 root      2232 R    ps
+
+
+Time: [ 10:23:28 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   85 root         0 SW   [usb_wakeup thre]
+  271 root         0 SW   [sync_supers]
+  273 root         0 SW   [bdi-default]
+  275 root         0 SW<  [kblockd]
+  289 root         0 SW<  [imx6q-ecspi.1]
+  301 root         0 SW   [khubd]
+  340 root         0 SW<  [l2cap]
+  343 root         0 SW<  [cfg80211]
+  431 root         0 SW<  [rpciod]
+  437 root         0 SW   [usb_wakeup thre]
+  439 root         0 SW<  [otg_switch]
+  443 root         0 SW   [usb_wakeup thre]
+  457 root         0 SW   [kswapd0]
+  517 root         0 SW   [fsnotify_mark]
+  532 root         0 SW<  [nfsiod]
+  537 root         0 SW<  [crypto]
+ 1102 root         0 SW   [kapmd]
+ 1176 root         0 SW   [irq/391-ad7877]
+ 1244 root         0 SW<  [krfcommd]
+ 1259 root         0 SW   [mmcqd/1]
+ 1260 root         0 SW   [mmcqd/1boot0]
+ 1261 root         0 SW   [mmcqd/1boot1]
+ 1272 root         0 SW   [kjournald]
+ 1282 root      1756 S <  udevd --daemon
+ 2313 root         0 SW   [flush-179:0]
+ 2333 root         0 SW   [gl11_work_kthre]
+ 2335 root         0 SW   [kjournald]
+ 2345 root         0 SW   [kjournald]
+ 2371 root      2220 S    /usr/sbin/inetd
+ 2375 root      1460 S    /vision/rgb_battery
+ 2385 root      2188 S    /usr/sbin/dropbear -b /etc/banner
+ 2409 root         0 SW   [kworker/0:2]
+ 2411 messageb  3304 S    dbus-daemon --system
+ 2433 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2531 root      2228 S    {exe} ash /vision/PosDesk.sh
+ 2540 root      2268 S    /vision/DOT
+ 2582 root     12236 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2590 root      2232 S    /sbin/getty -L ttyGS0 115200 vt100
+ 2605 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2609 root      7264 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2613 root      5352 S    matchbox-panel --bgtrans yes
+ 2618 root      5324 S    mb-applet-menu-launcher
+ 2619 root      4768 S    mb-applet-clock
+ 2620 root     23844 S    mb-applet-console-operations
+ 2629 root     23652 S    mb-applet-microsd
+ 2632 root     25924 S    mb-applet-usb
+ 2759 root     20848 S    /usr/bin/rds_init
+ 2793 root     26408 S    /root/Biomatiques/BiomatiquesRDS
+ 2796 root      1464 S    /vision/gps_start
+ 2841 root         0 SW   [kworker/u:3]
+ 2844 root     24024 S    mb-applet-autoapn
+ 2845 root     23892 S    mb-applet-rds
+ 2846 root     23812 S    mb-applet-rdsiris
+ 4233 root      1464 S    /home/autoapn_start
+ 4309 root     40560 S    /usr/bin/tstsabas
+ 4737 root     14892 S    ./mc
+ 4975 root     24644 S    /home/rdservice/rds
+ 5269 root         0 SW   [kworker/u:0]
+ 5311 root         0 SW   [kworker/0:0]
+ 6264 root      3048 S    /vision/PosDesk
+ 8383 root     14800 S    /home/rhms_update_binary run
+ 8586 root         0 SW   [kworker/u:1]
+ 8588 root      5052 S    /usr/bin/autoapn
+ 8648 root      2228 S    udhcpc -i eth0 -t 8 -n
+ 8693 root      2276 S    /usr/bin/get_gps_data
+ 8694 root         0 SW   [kworker/0:1]
+ 8836 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 8837 root      2232 R    ps
+
+
+Time: [ 10:23:33 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   85 root         0 SW   [usb_wakeup thre]
+  271 root         0 SW   [sync_supers]
+  273 root         0 SW   [bdi-default]
+  275 root         0 SW<  [kblockd]
+  289 root         0 SW<  [imx6q-ecspi.1]
+  301 root         0 SW   [khubd]
+  340 root         0 SW<  [l2cap]
+  343 root         0 SW<  [cfg80211]
+  431 root         0 SW<  [rpciod]
+  437 root         0 SW   [usb_wakeup thre]
+  439 root         0 SW<  [otg_switch]
+  443 root         0 SW   [usb_wakeup thre]
+  457 root         0 SW   [kswapd0]
+  517 root         0 SW   [fsnotify_mark]
+  532 root         0 SW<  [nfsiod]
+  537 root         0 SW<  [crypto]
+ 1102 root         0 SW   [kapmd]
+ 1176 root         0 SW   [irq/391-ad7877]
+ 1244 root         0 SW<  [krfcommd]
+ 1259 root         0 SW   [mmcqd/1]
+ 1260 root         0 SW   [mmcqd/1boot0]
+ 1261 root         0 SW   [mmcqd/1boot1]
+ 1272 root         0 SW   [kjournald]
+ 1282 root      1756 S <  udevd --daemon
+ 2313 root         0 SW   [flush-179:0]
+ 2333 root         0 SW   [gl11_work_kthre]
+ 2335 root         0 SW   [kjournald]
+ 2345 root         0 SW   [kjournald]
+ 2371 root      2220 S    /usr/sbin/inetd
+ 2375 root      1460 S    /vision/rgb_battery
+ 2385 root      2188 S    /usr/sbin/dropbear -b /etc/banner
+ 2409 root         0 SW   [kworker/0:2]
+ 2411 messageb  3304 S    dbus-daemon --system
+ 2433 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2531 root      2228 S    {exe} ash /vision/PosDesk.sh
+ 2540 root      2268 S    /vision/DOT
+ 2582 root     12236 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2590 root      2232 S    /sbin/getty -L ttyGS0 115200 vt100
+ 2605 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2609 root      7264 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2613 root      5352 S    matchbox-panel --bgtrans yes
+ 2618 root      5324 S    mb-applet-menu-launcher
+ 2619 root      4768 S    mb-applet-clock
+ 2620 root     23844 S    mb-applet-console-operations
+ 2629 root     23652 S    mb-applet-microsd
+ 2632 root     25924 S    mb-applet-usb
+ 2759 root     20848 S    /usr/bin/rds_init
+ 2793 root     26408 S    /root/Biomatiques/BiomatiquesRDS
+ 2796 root      1464 S    /vision/gps_start
+ 2841 root         0 SW   [kworker/u:3]
+ 2844 root     24024 S    mb-applet-autoapn
+ 2845 root     23892 S    mb-applet-rds
+ 2846 root     23812 S    mb-applet-rdsiris
+ 4233 root      1464 S    /home/autoapn_start
+ 4309 root     40560 S    /usr/bin/tstsabas
+ 4737 root     14892 S    ./mc
+ 4975 root     24644 S    /home/rdservice/rds
+ 5269 root         0 SW   [kworker/u:0]
+ 5311 root         0 SW   [kworker/0:0]
+ 6264 root      3052 S    /vision/PosDesk
+ 8383 root     14800 S    /home/rhms_update_binary run
+ 8586 root         0 SW   [kworker/u:1]
+ 8588 root      5052 S    /usr/bin/autoapn
+ 8648 root      2228 S    udhcpc -i eth0 -t 8 -n
+ 8693 root      2276 S    /usr/bin/get_gps_data
+ 8694 root         0 SW   [kworker/0:1]
+ 8867 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 8868 root      2232 R    ps
+
+
+Time: [ 10:23:38 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   85 root         0 SW   [usb_wakeup thre]
+  271 root         0 SW   [sync_supers]
+  273 root         0 SW   [bdi-default]
+  275 root         0 SW<  [kblockd]
+  289 root         0 SW<  [imx6q-ecspi.1]
+  301 root         0 SW   [khubd]
+  340 root         0 SW<  [l2cap]
+  343 root         0 SW<  [cfg80211]
+  431 root         0 SW<  [rpciod]
+  437 root         0 SW   [usb_wakeup thre]
+  439 root         0 SW<  [otg_switch]
+  443 root         0 SW   [usb_wakeup thre]
+  457 root         0 SW   [kswapd0]
+  517 root         0 SW   [fsnotify_mark]
+  532 root         0 SW<  [nfsiod]
+  537 root         0 SW<  [crypto]
+ 1102 root         0 SW   [kapmd]
+ 1176 root         0 SW   [irq/391-ad7877]
+ 1244 root         0 SW<  [krfcommd]
+ 1259 root         0 SW   [mmcqd/1]
+ 1260 root         0 SW   [mmcqd/1boot0]
+ 1261 root         0 SW   [mmcqd/1boot1]
+ 1272 root         0 SW   [kjournald]
+ 1282 root      1756 S <  udevd --daemon
+ 2313 root         0 SW   [flush-179:0]
+ 2333 root         0 SW   [gl11_work_kthre]
+ 2335 root         0 SW   [kjournald]
+ 2345 root         0 SW   [kjournald]
+ 2371 root      2220 S    /usr/sbin/inetd
+ 2375 root      1460 S    /vision/rgb_battery
+ 2385 root      2188 S    /usr/sbin/dropbear -b /etc/banner
+ 2409 root         0 SW   [kworker/0:2]
+ 2411 messageb  3304 S    dbus-daemon --system
+ 2433 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2531 root      2228 S    {exe} ash /vision/PosDesk.sh
+ 2540 root      2268 S    /vision/DOT
+ 2582 root     12236 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2590 root      2232 S    /sbin/getty -L ttyGS0 115200 vt100
+ 2605 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2609 root      7264 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2613 root      5352 S    matchbox-panel --bgtrans yes
+ 2618 root      5324 S    mb-applet-menu-launcher
+ 2619 root      4768 S    mb-applet-clock
+ 2620 root     23844 S    mb-applet-console-operations
+ 2629 root     23652 S    mb-applet-microsd
+ 2632 root     25924 S    mb-applet-usb
+ 2759 root     20848 S    /usr/bin/rds_init
+ 2793 root     26408 S    /root/Biomatiques/BiomatiquesRDS
+ 2796 root      1464 S    /vision/gps_start
+ 2841 root         0 SW   [kworker/u:3]
+ 2844 root     24024 S    mb-applet-autoapn
+ 2845 root     23892 S    mb-applet-rds
+ 2846 root     23812 S    mb-applet-rdsiris
+ 4233 root      1464 S    /home/autoapn_start
+ 4309 root     40560 S    /usr/bin/tstsabas
+ 4737 root     14892 S    ./mc
+ 4975 root     24644 S    /home/rdservice/rds
+ 5269 root         0 SW   [kworker/u:0]
+ 5311 root         0 SW   [kworker/0:0]
+ 6264 root      3056 S    /vision/PosDesk
+ 8383 root     14800 S    /home/rhms_update_binary run
+ 8586 root         0 SW   [kworker/u:1]
+ 8588 root      5052 S    /usr/bin/autoapn
+ 8648 root      2228 S    udhcpc -i eth0 -t 8 -n
+ 8693 root      2276 S    /usr/bin/get_gps_data
+ 8694 root         0 SW   [kworker/0:1]
+ 8903 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 8904 root      2232 R    ps
+
+
+Time: [ 10:23:48 ]	Command: [ cat /var/gprs ]	Status: [ Success ]
+0,X,0,0,
+
+Time: [ 10:23:53 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   85 root         0 SW   [usb_wakeup thre]
+  271 root         0 SW   [sync_supers]
+  273 root         0 SW   [bdi-default]
+  275 root         0 SW<  [kblockd]
+  289 root         0 SW<  [imx6q-ecspi.1]
+  301 root         0 SW   [khubd]
+  340 root         0 SW<  [l2cap]
+  343 root         0 SW<  [cfg80211]
+  431 root         0 SW<  [rpciod]
+  437 root         0 SW   [usb_wakeup thre]
+  439 root         0 SW<  [otg_switch]
+  443 root         0 SW   [usb_wakeup thre]
+  457 root         0 SW   [kswapd0]
+  517 root         0 SW   [fsnotify_mark]
+  532 root         0 SW<  [nfsiod]
+  537 root         0 SW<  [crypto]
+ 1102 root         0 SW   [kapmd]
+ 1176 root         0 SW   [irq/391-ad7877]
+ 1244 root         0 SW<  [krfcommd]
+ 1259 root         0 SW   [mmcqd/1]
+ 1260 root         0 SW   [mmcqd/1boot0]
+ 1261 root         0 SW   [mmcqd/1boot1]
+ 1272 root         0 SW   [kjournald]
+ 1282 root      1756 S <  udevd --daemon
+ 2313 root         0 SW   [flush-179:0]
+ 2333 root         0 SW   [gl11_work_kthre]
+ 2335 root         0 SW   [kjournald]
+ 2345 root         0 SW   [kjournald]
+ 2371 root      2220 S    /usr/sbin/inetd
+ 2375 root      1460 S    /vision/rgb_battery
+ 2385 root      2188 S    /usr/sbin/dropbear -b /etc/banner
+ 2409 root         0 SW   [kworker/0:2]
+ 2411 messageb  3304 S    dbus-daemon --system
+ 2433 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2531 root      2228 S    {exe} ash /vision/PosDesk.sh
+ 2540 root      2268 S    /vision/DOT
+ 2582 root     12236 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2590 root      2232 S    /sbin/getty -L ttyGS0 115200 vt100
+ 2605 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2609 root      7264 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2613 root      5352 S    matchbox-panel --bgtrans yes
+ 2618 root      5324 S    mb-applet-menu-launcher
+ 2619 root      4768 S    mb-applet-clock
+ 2620 root     23844 S    mb-applet-console-operations
+ 2629 root     23652 S    mb-applet-microsd
+ 2632 root     25924 S    mb-applet-usb
+ 2759 root     20848 S    /usr/bin/rds_init
+ 2793 root     26408 S    /root/Biomatiques/BiomatiquesRDS
+ 2796 root      1464 S    /vision/gps_start
+ 2841 root         0 SW   [kworker/u:3]
+ 2844 root     24024 S    mb-applet-autoapn
+ 2845 root     23892 S    mb-applet-rds
+ 2846 root     23812 S    mb-applet-rdsiris
+ 4233 root      1464 S    /home/autoapn_start
+ 4309 root     40560 S    /usr/bin/tstsabas
+ 4737 root     14892 S    ./mc
+ 4975 root     24644 S    /home/rdservice/rds
+ 5269 root         0 SW   [kworker/u:0]
+ 5311 root         0 SW   [kworker/0:0]
+ 6264 root      3064 S    /vision/PosDesk
+ 8383 root     14800 S    /home/rhms_update_binary run
+ 8586 root         0 SW   [kworker/u:1]
+ 8588 root      5052 S    /usr/bin/autoapn
+ 8648 root      2228 S    udhcpc -i eth0 -t 8 -n
+ 8694 root         0 SW   [kworker/0:1]
+ 8960 root      2276 S    /usr/bin/get_gps_data
+ 9043 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 9044 root      2232 R    ps
+
+
+Time: [ 10:24:03 ]	Command: [ cd /tmp ]	Status: [ Success ]
+
+
+Time: [ 10:24:49 ]	Command: [ ls ]	Status: [ Success ]
+ethernet_status
+gprs_update
+ltib
+response_file
+revision_operator_details
+rhms_details.xml
+rootfsver
+sim_details
+uid
+wifi_status
+
+
+Time: [ 10:25:05 ]	Command: [ catrhms_details.xml ]	Status: [ Success ]
+sh: catrhms_details.xml: not found
+
+
+Time: [ 10:25:58 ]	Command: [ cat  rhms_details.xml ]	Status: [ Success ]
+<?xml version="1.0" encoding="UTF-8"?>
+<RHMS_DETAILS>
+  <MODULE>SIM5360E</MODULE>
+  <FIRMWARE>35316B11SIM5360E</FIRMWARE>
+  <IMEI>863789029736026</IMEI>
+  <CCID1></CCID1>
+  <CCID2></CCID2>
+  <Signal1></Signal1>
+  <Signal2></Signal2>
+  <Operator1></Operator1>
+  <Operator2></Operator2>
+  <WIFI>1</WIFI>
+  <ETHERNET>1</ETHERNET>
+</RHMS_DETAILS>
+
+
+Time: [ 10:28:04 ]	Command: [ ls ]	Status: [ Success ]
+ethernet_status
+gprs_update
+ltib
+response_file
+revision_operator_details
+rhms_details.xml
+rootfsver
+sim_details
+uid
+wifi_status
+
+
+Time: [ 10:28:55 ]	Command: [ ls ]	Status: [ Success ]
+ethernet_status
+gprs_update
+ltib
+response_file
+revision_operator_details
+rhms_details.xml
+rootfsver
+sim_details
+uid
+wifi_status
+
+
+Time: [ 10:29:06 ]	Command: [ cat /etc/visiontek_release ]	Status: [ Success ]
+PATCH_VERSION=2.3
+PATCH_DATE=11102019-23:30
+PATCH_MD5SUM=
+
+
+Time: [ 10:29:42 ]	Command: [ echo "PATCH_VERSION=1.9" > /etc/visiontek_release ]	Status: [ Success ]
+
+
+Time: [ 10:30:17 ]	Command: [ echo "PATCH_DATE=11102019-23:30" >> /etc/visiontek_release ]	Status: [ Success ]
+
+Time out, some thing late processing with client
+
+******* WELCOME PosDesk and PcDesk  Date: [ 17-10-2019 ]	 Time: [ 10:36:53 ] *******
+ProjectName: MADRASSECURITY
+Machineid: 1808622625
+Macid: 7C:F0:BA:F7:F8:8A
+Uid: 172731d4eacb4188
+AppType: 100
+AppVersion: 3.0
+U-boot: GL11-UB-2009.08-1520-1.1.bin
+Kernel: GL11-KR-3.0.35-1921-1.0.IMG
+Rootfs: GL11-RD-EXT3-1920-1.1.IMG
+FirmwareVersion: 1.9
+
+******* WELCOME PosDesk and PcDesk  Date: [ 17-10-2019 ]	 Time: [ 11:02:34 ] *******
+ProjectName: MADRASSECURITY
+Machineid: 1808622625
+Macid: 7C:F0:BA:F7:F8:8A
+Uid: 172731d4eacb4188
+AppType: 100
+AppVersion: 3.0
+U-boot: GL11-UB-2009.08-1520-1.1.bin
+Kernel: GL11-KR-3.0.35-1921-1.0.IMG
+Rootfs: GL11-RD-EXT3-1920-1.1.IMG
+FirmwareVersion: 1.9
+
+Time out, some thing late processing with client
+
+******* WELCOME PosDesk and PcDesk  Date: [ 17-10-2019 ]	 Time: [ 11:07:20 ] *******
+ProjectName: MADRASSECURITY
+Machineid: 1808622625
+Macid: 7C:F0:BA:F7:F8:8A
+Uid: 172731d4eacb4188
+AppType: 100
+AppVersion: 3.0
+U-boot: GL11-UB-2009.08-1520-1.1.bin
+Kernel: GL11-KR-3.0.35-1921-1.0.IMG
+Rootfs: GL11-RD-EXT3-1920-1.1.IMG
+FirmwareVersion: 1.9
+
+Time out, some thing late processing with client
+
+******* WELCOME PosDesk and PcDesk  Date: [ 17-10-2019 ]	 Time: [ 11:11:22 ] *******
+ProjectName: MADRASSECURITY
+Machineid: 1808622625
+Macid: 7C:F0:BA:F7:F8:8A
+Uid: 172731d4eacb4188
+AppType: 100
+AppVersion: 3.0
+U-boot: GL11-UB-2009.08-1520-1.1.bin
+Kernel: GL11-KR-3.0.35-1921-1.0.IMG
+Rootfs: GL11-RD-EXT3-1920-1.1.IMG
+FirmwareVersion: 1.9
+
+
+Time: [ 11:11:50 ]	Command: [    ]	Status: [ Success ]
+
+
+Time: [ 11:12:06 ]	Command: [ ls ]	Status: [ Success ]
+Biomatiques
+curlTxt
+mcpid
+pro_details_appl
+rdpid
+tmp
+
+
+Time: [ 11:12:19 ]	Command: [ ls ]	Status: [ Success ]
+Biomatiques
+curlTxt
+mcpid
+pro_details_appl
+rdpid
+tmp
+
+
+Time: [ 11:12:27 ]	Command: [ cat /etc/visiontek_release ]	Status: [ Success ]
+PATCH_VERSION=1.9
+PATCH_DATE=11102019-23:30
+PATCH_MD5SUM=
+
+
+Time: [ 11:12:31 ]	Command: [ ls ]	Status: [ Success ]
+Biomatiques
+curlTxt
+mcpid
+pro_details_appl
+rdpid
+tmp
+
+
+Time: [ 11:12:33 ]	Command: [ ls ]	Status: [ Success ]
+Biomatiques
+curlTxt
+mcpid
+pro_details_appl
+rdpid
+tmp
+
+
+Time: [ 11:12:35 ]	Command: [ ls ]	Status: [ Success ]
+Biomatiques
+curlTxt
+mcpid
+pro_details_appl
+rdpid
+tmp
+
+
+Time: [ 11:12:36 ]	Command: [ ls ]	Status: [ Success ]
+Biomatiques
+curlTxt
+mcpid
+pro_details_appl
+rdpid
+tmp
+
+
+Time: [ 11:12:45 ]	Command: [ cat /opt/rhms_date_update ]	Status: [ Success ]
+Date:17102019
+
+Time: [ 11:12:50 ]	Command: [ ls ]	Status: [ Success ]
+Biomatiques
+curlTxt
+mcpid
+pro_details_appl
+rdpid
+tmp
+
+
+Time: [ 11:12:56 ]	Command: [ ifconfig ]	Status: [ Success ]
+eth0      Link encap:Ethernet  HWaddr 7C:F0:BA:F7:F8:8A  
+          inet addr:192.168.0.45  Bcast:192.168.0.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:305904 errors:0 dropped:29921 overruns:0 frame:0
+          TX packets:3051 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:20803029 (19.8 MiB)  TX bytes:382321 (373.3 KiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:19240 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:19240 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:1902208 (1.8 MiB)  TX bytes:1902208 (1.8 MiB)
+
+
+
+Time: [ 11:13:00 ]	Command: [ ls -lrth ]	Status: [ Success ]
+-rwxr-xr-x    1 root     root        8.4K Nov 29  2017 pro_details_appl
+-rw-r--r--    1 root     root           0 Mar 19  2019 tmp
+drwxr-xr-x    2 root     root        4.0K Apr 23 16:09 Biomatiques
+-rw-r--r--    1 root     root           5 Oct 17 08:57 mcpid
+-rw-r--r--    1 root     root         497 Oct 17 11:12 curlTxt
+-rw-r--r--    1 root     root          10 Oct 17 11:12 rdpid
+
+******* WELCOME PosDesk and PcDesk  Date: [ 17-10-2019 ]	 Time: [ 11:32:26 ] *******
+ProjectName: MADRASSECURITY
+Machineid: 1808622625
+Macid: 7C:F0:BA:F7:F8:8A
+Uid: 172731d4eacb4188
+AppType: 100
+AppVersion: 3.0
+U-boot: GL11-UB-2009.08-1520-1.1.bin
+Kernel: GL11-KR-3.0.35-1921-1.0.IMG
+Rootfs: GL11-RD-EXT3-1920-1.1.IMG
+FirmwareVersion: 1.9
+
+
+Time: [ 11:32:31 ]	Command: [ ls ]	Status: [ Success ]
+Biomatiques
+curlTxt
+mcpid
+pro_details_appl
+rdpid
+tmp
+
+
+Time: [ 11:32:35 ]	Command: [ ls ]	Status: [ Success ]
+Biomatiques
+curlTxt
+mcpid
+pro_details_appl
+rdpid
+tmp
+
+
+Time: [ 11:32:37 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   85 root         0 SW   [usb_wakeup thre]
+  271 root         0 SW   [sync_supers]
+  273 root         0 SW   [bdi-default]
+  275 root         0 SW<  [kblockd]
+  289 root         0 SW<  [imx6q-ecspi.1]
+  301 root         0 SW   [khubd]
+  340 root         0 SW<  [l2cap]
+  343 root         0 SW<  [cfg80211]
+  431 root         0 SW<  [rpciod]
+  437 root         0 SW   [usb_wakeup thre]
+  439 root         0 SW<  [otg_switch]
+  443 root         0 SW   [usb_wakeup thre]
+  457 root         0 SW   [kswapd0]
+  517 root         0 SW   [fsnotify_mark]
+  532 root         0 SW<  [nfsiod]
+  537 root         0 SW<  [crypto]
+ 1078 root         0 SW   [kworker/0:2]
+ 1102 root         0 SW   [kapmd]
+ 1176 root         0 SW   [irq/391-ad7877]
+ 1244 root         0 SW<  [krfcommd]
+ 1259 root         0 SW   [mmcqd/1]
+ 1260 root         0 SW   [mmcqd/1boot0]
+ 1261 root         0 SW   [mmcqd/1boot1]
+ 1272 root         0 SW   [kjournald]
+ 1282 root      1756 S <  udevd --daemon
+ 2313 root         0 SW   [flush-179:0]
+ 2333 root         0 SW   [gl11_work_kthre]
+ 2335 root         0 SW   [kjournald]
+ 2345 root         0 SW   [kjournald]
+ 2371 root      2220 S    /usr/sbin/inetd
+ 2375 root      1460 S    /vision/rgb_battery
+ 2385 root      2188 S    /usr/sbin/dropbear -b /etc/banner
+ 2411 messageb  3304 S    dbus-daemon --system
+ 2433 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2531 root      2228 S    {exe} ash /vision/PosDesk.sh
+ 2540 root      2268 S    /vision/DOT
+ 2582 root     12236 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2590 root      2232 S    /sbin/getty -L ttyGS0 115200 vt100
+ 2605 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2609 root      7264 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2613 root      5352 S    matchbox-panel --bgtrans yes
+ 2618 root      5324 S    mb-applet-menu-launcher
+ 2619 root      4768 S    mb-applet-clock
+ 2620 root     23844 S    mb-applet-console-operations
+ 2629 root     23652 S    mb-applet-microsd
+ 2632 root     25924 S    mb-applet-usb
+ 2759 root     20848 S    /usr/bin/rds_init
+ 2793 root     26408 S    /root/Biomatiques/BiomatiquesRDS
+ 2796 root      1464 S    /vision/gps_start
+ 2844 root     24024 S    mb-applet-autoapn
+ 2845 root     23892 S    mb-applet-rds
+ 2846 root     23812 S    mb-applet-rdsiris
+ 3462 root      2996 S    /vision/PosDesk
+ 3595 root         0 SW   [kworker/0:1]
+ 3607 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 3608 root      2232 R    ps
+ 4233 root      1464 S    /home/autoapn_start
+ 4309 root     40560 S    /usr/bin/tstsabas
+ 4737 root     14892 S    ./mc
+ 4975 root     24644 S    /home/rdservice/rds
+ 5269 root         0 SW   [kworker/u:0]
+ 8383 root     14800 S    /home/rhms_update_binary run
+ 8586 root         0 SW   [kworker/u:1]
+ 8588 root      5052 S    /usr/bin/autoapn
+ 8960 root      2276 S    /usr/bin/get_gps_data
+23420 root         0 SW   [kworker/0:0]
+
+
+Time: [ 11:32:39 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   85 root         0 SW   [usb_wakeup thre]
+  271 root         0 SW   [sync_supers]
+  273 root         0 SW   [bdi-default]
+  275 root         0 SW<  [kblockd]
+  289 root         0 SW<  [imx6q-ecspi.1]
+  301 root         0 SW   [khubd]
+  340 root         0 SW<  [l2cap]
+  343 root         0 SW<  [cfg80211]
+  431 root         0 SW<  [rpciod]
+  437 root         0 SW   [usb_wakeup thre]
+  439 root         0 SW<  [otg_switch]
+  443 root         0 SW   [usb_wakeup thre]
+  457 root         0 SW   [kswapd0]
+  517 root         0 SW   [fsnotify_mark]
+  532 root         0 SW<  [nfsiod]
+  537 root         0 SW<  [crypto]
+ 1078 root         0 SW   [kworker/0:2]
+ 1102 root         0 SW   [kapmd]
+ 1176 root         0 SW   [irq/391-ad7877]
+ 1244 root         0 SW<  [krfcommd]
+ 1259 root         0 SW   [mmcqd/1]
+ 1260 root         0 SW   [mmcqd/1boot0]
+ 1261 root         0 SW   [mmcqd/1boot1]
+ 1272 root         0 SW   [kjournald]
+ 1282 root      1756 S <  udevd --daemon
+ 2313 root         0 SW   [flush-179:0]
+ 2333 root         0 SW   [gl11_work_kthre]
+ 2335 root         0 SW   [kjournald]
+ 2345 root         0 SW   [kjournald]
+ 2371 root      2220 S    /usr/sbin/inetd
+ 2375 root      1460 S    /vision/rgb_battery
+ 2385 root      2188 S    /usr/sbin/dropbear -b /etc/banner
+ 2411 messageb  3304 S    dbus-daemon --system
+ 2433 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2531 root      2228 S    {exe} ash /vision/PosDesk.sh
+ 2540 root      2268 S    /vision/DOT
+ 2582 root     12236 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2590 root      2232 S    /sbin/getty -L ttyGS0 115200 vt100
+ 2605 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2609 root      7264 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2613 root      5352 S    matchbox-panel --bgtrans yes
+ 2618 root      5324 S    mb-applet-menu-launcher
+ 2619 root      4768 S    mb-applet-clock
+ 2620 root     23844 S    mb-applet-console-operations
+ 2629 root     23652 S    mb-applet-microsd
+ 2632 root     25924 S    mb-applet-usb
+ 2759 root     20848 S    /usr/bin/rds_init
+ 2793 root     26408 S    /root/Biomatiques/BiomatiquesRDS
+ 2796 root      1464 S    /vision/gps_start
+ 2844 root     24024 S    mb-applet-autoapn
+ 2845 root     23892 S    mb-applet-rds
+ 2846 root     23812 S    mb-applet-rdsiris
+ 3462 root      3000 S    /vision/PosDesk
+ 3595 root         0 SW   [kworker/0:1]
+ 3626 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 3627 root      2232 R    ps
+ 4233 root      1464 S    /home/autoapn_start
+ 4309 root     40560 S    /usr/bin/tstsabas
+ 4737 root     14892 S    ./mc
+ 4975 root     24644 S    /home/rdservice/rds
+ 5269 root         0 SW   [kworker/u:0]
+ 8383 root     14800 S    /home/rhms_update_binary run
+ 8586 root         0 SW   [kworker/u:1]
+ 8588 root      5052 S    /usr/bin/autoapn
+ 8960 root      2276 S    /usr/bin/get_gps_data
+23420 root         0 SW   [kworker/0:0]
+
+
+Time: [ 11:32:41 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   85 root         0 SW   [usb_wakeup thre]
+  271 root         0 SW   [sync_supers]
+  273 root         0 SW   [bdi-default]
+  275 root         0 SW<  [kblockd]
+  289 root         0 SW<  [imx6q-ecspi.1]
+  301 root         0 SW   [khubd]
+  340 root         0 SW<  [l2cap]
+  343 root         0 SW<  [cfg80211]
+  431 root         0 SW<  [rpciod]
+  437 root         0 SW   [usb_wakeup thre]
+  439 root         0 SW<  [otg_switch]
+  443 root         0 SW   [usb_wakeup thre]
+  457 root         0 SW   [kswapd0]
+  517 root         0 SW   [fsnotify_mark]
+  532 root         0 SW<  [nfsiod]
+  537 root         0 SW<  [crypto]
+ 1078 root         0 SW   [kworker/0:2]
+ 1102 root         0 SW   [kapmd]
+ 1176 root         0 SW   [irq/391-ad7877]
+ 1244 root         0 SW<  [krfcommd]
+ 1259 root         0 SW   [mmcqd/1]
+ 1260 root         0 SW   [mmcqd/1boot0]
+ 1261 root         0 SW   [mmcqd/1boot1]
+ 1272 root         0 SW   [kjournald]
+ 1282 root      1756 S <  udevd --daemon
+ 2313 root         0 SW   [flush-179:0]
+ 2333 root         0 SW   [gl11_work_kthre]
+ 2335 root         0 SW   [kjournald]
+ 2345 root         0 SW   [kjournald]
+ 2371 root      2220 S    /usr/sbin/inetd
+ 2375 root      1460 S    /vision/rgb_battery
+ 2385 root      2188 S    /usr/sbin/dropbear -b /etc/banner
+ 2411 messageb  3304 S    dbus-daemon --system
+ 2433 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2531 root      2228 S    {exe} ash /vision/PosDesk.sh
+ 2540 root      2268 S    /vision/DOT
+ 2582 root     12236 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2590 root      2232 S    /sbin/getty -L ttyGS0 115200 vt100
+ 2605 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2609 root      7264 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2613 root      5352 S    matchbox-panel --bgtrans yes
+ 2618 root      5324 S    mb-applet-menu-launcher
+ 2619 root      4768 S    mb-applet-clock
+ 2620 root     23844 S    mb-applet-console-operations
+ 2629 root     23652 S    mb-applet-microsd
+ 2632 root     25924 S    mb-applet-usb
+ 2759 root     20848 S    /usr/bin/rds_init
+ 2793 root     26408 S    /root/Biomatiques/BiomatiquesRDS
+ 2796 root      1464 S    /vision/gps_start
+ 2844 root     24024 S    mb-applet-autoapn
+ 2845 root     23892 S    mb-applet-rds
+ 2846 root     23812 S    mb-applet-rdsiris
+ 3462 root      3004 S    /vision/PosDesk
+ 3595 root         0 SW   [kworker/0:1]
+ 3650 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 3651 root      2232 R    ps
+ 4233 root      1464 S    /home/autoapn_start
+ 4309 root     40560 S    /usr/bin/tstsabas
+ 4737 root     14892 S    ./mc
+ 4975 root     24644 S    /home/rdservice/rds
+ 5269 root         0 SW   [kworker/u:0]
+ 8383 root     14800 S    /home/rhms_update_binary run
+ 8586 root         0 SW   [kworker/u:1]
+ 8588 root      5052 S    /usr/bin/autoapn
+ 8960 root      2276 S    /usr/bin/get_gps_data
+23420 root         0 SW   [kworker/0:0]

@@ -1,0 +1,4 @@
+check address binding in list by 
+	socklist command 
+then  if u want to remove that bind use
+fuser -k 2222/tcp  <--- 2222 is port want to remove(unbind from your ipaddress ) 

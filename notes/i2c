@@ -10,6 +10,4 @@ This method is appropriate when the I2C bus is a system bus as is the case for m
 
 This information is provided to the kernel in a different way on different architectures: device tree, ACPI or board files.
 
-
-I2c devices will be instanted automatically by i2c core. The devices will be automatically unbound and destroyed when device go away 
-
+I2c devices will be instanted automatically by i2c core. The devices will be automatically unbound and destroyed when device go away

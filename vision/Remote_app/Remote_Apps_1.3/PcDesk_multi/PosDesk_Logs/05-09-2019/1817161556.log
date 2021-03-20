@@ -1,0 +1,290 @@
+
+******* WELCOME PosDesk and PcDesk  Date: [ 05-09-2019 ]	 Time: [ 12:10:13 ] *******
+ProjectName: TRIPURAPDS
+Machineid: 1817161556
+Macid: 7C:F0:BA:F8:32:8B
+Uid: 081c71d4ea9e6220
+AppType: 100
+AppVersion: VV1.0
+U-boot: GL11-UB-2009.08-1573-1.1.bin
+Kernel: GL11-KR-3.0.35-1647-1.1.IMG
+Rootfs: GL11-RD-EXT3-1699-1.0.IMG
+FirmwareVersion: 2.0
+
+
+Time: [ 12:10:20 ]	Command: [ ls ]	Status: [ Success ]
+Pendrive_patch_srikakulam_2.1_30082019.zip
+PosDesk
+PosDesk.sh
+a.out
+fw_setenv
+hi
+libBiomatiquesSDK.so
+mcpid
+patch
+rdpid
+rhms_update_binary
+rootfs_patch.tar.bz2
+rootfs_update.sh
+
+
+Time: [ 12:10:48 ]	Command: [ ls -lrth ]	Status: [ Success ]
+-rwxr-xr-x    1 root     root       22.2K Aug 30 20:15 fw_setenv
+-rwxr-xr-x    1 root     root      825.1K Aug 30 20:40 libBiomatiquesSDK.so
+-rwxr-xr-x    1 root     root        4.1M Aug 30 21:39 Pendrive_patch_srikakulam_2.1_30082019.zip
+-rwxr-xr-x    1 root     root       12.8K Sep  4 12:47 a.out
+-rwxr-xr-x    1 root     root         906 Sep  4 14:14 rootfs_update.sh
+-rwxr-xr-x    1 root     root        4.1M Sep  4 14:14 rootfs_patch.tar.bz2
+drwxr-xr-x    7 root     root        4.0K Sep  4 14:14 patch
+-rwxr-xr-x    1 root     root           0 Sep  4 14:23 hi
+-rwxr-xr-x    1 root     root         725 Sep  5 09:46 PosDesk.sh
+-rwxr-xr-x    1 root     root       98.2K Sep  5 10:11 rhms_update_binary
+-rwxr-xr-x    1 root     root       23.4K Sep  5 12:09 PosDesk
+-rwxr-xr-x    1 root     root           0 Sep  5 12:10 mcpid
+-rwxr-xr-x    1 root     root           0 Sep  5 12:10 rdpid
+
+
+Time: [ 12:10:58 ]	Command: [ ifconfig ]	Status: [ Success ]
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+ppp0      Link encap:Point-to-Point Protocol  
+          inet addr:100.120.214.5  P-t-P:10.64.64.64  Mask:255.255.255.255
+          UP POINTOPOINT RUNNING NOARP MULTICAST  MTU:1024  Metric:1
+          RX packets:5003 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6454 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:3 
+          RX bytes:749211 (731.6 KiB)  TX bytes:481408 (470.1 KiB)
+
+
+
+Time: [ 12:11:07 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   84 root         0 SW   [usb_wakeup thre]
+  309 root         0 SW   [sync_supers]
+  311 root         0 SW   [bdi-default]
+  313 root         0 SW<  [kblockd]
+  327 root         0 SW<  [imx6q-ecspi.1]
+  339 root         0 SW   [khubd]
+  378 root         0 SW<  [l2cap]
+  381 root         0 SW<  [cfg80211]
+  469 root         0 SW<  [rpciod]
+  475 root         0 SW   [usb_wakeup thre]
+  477 root         0 SW<  [otg_switch]
+  481 root         0 SW   [usb_wakeup thre]
+  495 root         0 SW   [kswapd0]
+  554 root         0 SW   [fsnotify_mark]
+  569 root         0 SW<  [nfsiod]
+  579 root         0 SW<  [crypto]
+ 1144 root         0 SW   [kapmd]
+ 1219 root         0 SW   [irq/391-ad7877]
+ 1298 root         0 SW<  [krfcommd]
+ 1317 root         0 SW   [mmcqd/1]
+ 1318 root         0 SW   [mmcqd/1boot0]
+ 1319 root         0 SW   [mmcqd/1boot1]
+ 1330 root         0 SW   [kjournald]
+ 1340 root      1756 S <  udevd --daemon
+ 2373 root         0 SW   [flush-179:0]
+ 2393 root         0 SW   [gl11_work_kthre]
+ 2395 root         0 SW   [kjournald]
+ 2402 root         0 SW   [kjournald]
+ 2427 root      3868 S    /vision/rgb_battery
+ 2429 root      2220 S    /usr/sbin/inetd
+ 2451 root      2188 S    /usr/sbin/dropbear
+ 2461 messageb  3304 S    dbus-daemon --system
+ 2572 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2577 root      4000 S    /vision/DOT
+ 2637 root     10756 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2694 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2755 root      6212 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2766 root      5164 S    matchbox-panel --bgtrans yes
+ 2774 root      5020 S    mb-applet-menu-launcher
+ 2775 root      4768 S    mb-applet-clock
+ 2776 root     23832 S    mb-applet-console-operations
+ 2799 root     23628 S    mb-applet-microsd
+ 2816 root     25936 S    mb-applet-usb
+ 2849 root     29172 S    /usr/bin/rd_init
+ 2896 root     24012 S    mb-applet-autoapn
+ 2897 root     23892 S    mb-applet-rds
+ 9837 root         0 SW   [kworker/u:2]
+ 9881 root         0 SW   [kworker/0:0]
+11401 root      2228 S    {exe} ash /vision/PosDesk.sh
+11642 root      2528 S    /vision/PosDesk
+12361 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+12362 root      2232 R    ps
+17858 root         0 SW   [kworker/u:0]
+18961 root      1464 S    /home/autoapn_start
+18996 root     14936 S    /usr/bin/autoapn
+21183 root      2228 S    sh -c /usr/sbin/pppd /dev/data 115200 connect /etc/p
+21184 root      2868 S    /usr/sbin/pppd /dev/data 115200 connect /etc/ppp/ppp
+22511 root         0 SW   [kworker/0:1]
+30147 root      2232 S    -sh
+
+
+Time: [ 12:11:19 ]	Command: [ #ex ]	Status: [ Success ]
+
+
+Time: [ 12:11:30 ]	Command: [ #exi ]	Status: [ Success ]
+
+
+Time: [ 12:11:32 ]	Command: [ ls ]	Status: [ Success ]
+Pendrive_patch_srikakulam_2.1_30082019.zip
+PosDesk
+PosDesk.sh
+a.out
+fw_setenv
+hi
+libBiomatiquesSDK.so
+mcpid
+patch
+rdpid
+rhms_update_binary
+rootfs_patch.tar.bz2
+rootfs_update.sh
+
+******* WELCOME PosDesk and PcDesk  Date: [ 05-09-2019 ]	 Time: [ 12:12:35 ] *******
+ProjectName: TRIPURAPDS
+Machineid: 1817161556
+Macid: 7C:F0:BA:F8:32:8B
+Uid: 081c71d4ea9e6220
+AppType: 100
+AppVersion: VV1.0
+U-boot: GL11-UB-2009.08-1573-1.1.bin
+Kernel: GL11-KR-3.0.35-1647-1.1.IMG
+Rootfs: GL11-RD-EXT3-1699-1.0.IMG
+FirmwareVersion: 2.0
+
+
+Time: [ 12:12:44 ]	Command: [ #ex ]	Status: [ Success ]
+
+
+Time: [ 12:13:03 ]	Command: [ #exi ]	Status: [ Success ]
+
+
+Time: [ 12:13:21 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    6 root         0 SW<  [khelper]
+   84 root         0 SW   [usb_wakeup thre]
+  309 root         0 SW   [sync_supers]
+  311 root         0 SW   [bdi-default]
+  313 root         0 SW<  [kblockd]
+  327 root         0 SW<  [imx6q-ecspi.1]
+  339 root         0 SW   [khubd]
+  378 root         0 SW<  [l2cap]
+  381 root         0 SW<  [cfg80211]
+  469 root         0 SW<  [rpciod]
+  475 root         0 SW   [usb_wakeup thre]
+  477 root         0 SW<  [otg_switch]
+  481 root         0 SW   [usb_wakeup thre]
+  495 root         0 SW   [kswapd0]
+  554 root         0 SW   [fsnotify_mark]
+  569 root         0 SW<  [nfsiod]
+  579 root         0 SW<  [crypto]
+ 1144 root         0 SW   [kapmd]
+ 1219 root         0 SW   [irq/391-ad7877]
+ 1298 root         0 SW<  [krfcommd]
+ 1317 root         0 SW   [mmcqd/1]
+ 1318 root         0 SW   [mmcqd/1boot0]
+ 1319 root         0 SW   [mmcqd/1boot1]
+ 1330 root         0 SW   [kjournald]
+ 1340 root      1756 S <  udevd --daemon
+ 2373 root         0 SW   [flush-179:0]
+ 2393 root         0 SW   [gl11_work_kthre]
+ 2395 root         0 SW   [kjournald]
+ 2402 root         0 SW   [kjournald]
+ 2427 root      3868 S    /vision/rgb_battery
+ 2429 root      2220 S    /usr/sbin/inetd
+ 2451 root      2188 S    /usr/sbin/dropbear
+ 2461 messageb  3304 S    dbus-daemon --system
+ 2572 root      3304 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2577 root      4000 S    /vision/DOT
+ 2637 root     10756 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2694 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2755 root      6212 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2766 root      5164 S    matchbox-panel --bgtrans yes
+ 2774 root      5020 S    mb-applet-menu-launcher
+ 2775 root      4768 S    mb-applet-clock
+ 2776 root     23832 S    mb-applet-console-operations
+ 2799 root     23628 S    mb-applet-microsd
+ 2816 root     25936 S    mb-applet-usb
+ 2849 root     29172 S    /usr/bin/rd_init
+ 2896 root     24012 S    mb-applet-autoapn
+ 2897 root     23892 S    mb-applet-rds
+ 9837 root         0 SW   [kworker/u:2]
+ 9881 root         0 SW   [kworker/0:0]
+13144 root      2228 S    {exe} ash /vision/PosDesk.sh
+13147 root      2516 S    /vision/PosDesk
+13833 root      2228 S    sh -c curl google.co.in --connect-timeout 18 --max-t
+13834 root      5080 S    curl google.co.in --connect-timeout 18 --max-time 36
+13841 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+13842 root      2232 R    ps
+17858 root         0 SW   [kworker/u:0]
+18961 root      1464 S    /home/autoapn_start
+18996 root     14936 S    /usr/bin/autoapn
+21183 root      2228 S    sh -c /usr/sbin/pppd /dev/data 115200 connect /etc/p
+21184 root      2868 S    /usr/sbin/pppd /dev/data 115200 connect /etc/ppp/ppp
+22511 root         0 SW   [kworker/0:1]
+30147 root      2232 S    -sh
+
+******* WELCOME PosDesk and PcDesk  Date: [ 05-09-2019 ]	 Time: [ 12:21:26 ] *******
+ProjectName: TRIPURAPDS
+Machineid: 1817161556
+Macid: 7C:F0:BA:F8:32:8B
+Uid: 081c71d4ea9e6220
+AppType: 100
+AppVersion: VV1.0
+U-boot: GL11-UB-2009.08-1573-1.1.bin
+Kernel: GL11-KR-3.0.35-1647-1.1.IMG
+Rootfs: GL11-RD-EXT3-1699-1.0.IMG
+FirmwareVersion: 2.0
+
+
+Time: [ 12:21:33 ]	Command: [ ls ]	Status: [ Success ]
+Pendrive_patch_srikakulam_2.1_30082019.zip
+PosDesk
+PosDesk.sh
+a.out
+fw_setenv
+hi
+libBiomatiquesSDK.so
+mcpid
+patch
+rdpid
+rhms_update_binary
+rootfs_patch.tar.bz2
+rootfs_update.sh
+
+
+Time: [ 12:22:05 ]	Command: [ ./fw_setenv machineid 18171817888888 ]	Status: [ Success ]
+
+
+Time: [ 12:22:23 ]	Command: [ ls ]	Status: [ Success ]
+Pendrive_patch_srikakulam_2.1_30082019.zip
+PosDesk
+PosDesk.sh
+a.out
+fw_setenv
+hi
+libBiomatiquesSDK.so
+mcpid
+patch
+rdpid
+rhms_update_binary
+rootfs_patch.tar.bz2
+rootfs_update.sh
+
+
+Time: [ 12:22:39 ]	Command: [ /vision/Pos ]	Status: [ Success ]
+sh: /vision/Pos: not found

@@ -1,0 +1,1135 @@
+
+******* WELCOME PosDesk and PcDesk  Date: [ 20-04-2019 ]	 Time: [ 10:56:45 ] *******
+
+
+Time: [ 10:56:48 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    5 root         0 SW   [kworker/u:0]
+    6 root         0 SW<  [khelper]
+   85 root         0 SW   [usb_wakeup thre]
+  271 root         0 SW   [sync_supers]
+  273 root         0 SW   [bdi-default]
+  275 root         0 SW<  [kblockd]
+  289 root         0 SW<  [imx6q-ecspi.1]
+  301 root         0 SW   [khubd]
+  340 root         0 SW<  [l2cap]
+  343 root         0 SW<  [cfg80211]
+  431 root         0 SW<  [rpciod]
+  437 root         0 SW   [usb_wakeup thre]
+  439 root         0 SW<  [otg_switch]
+  443 root         0 SW   [usb_wakeup thre]
+  457 root         0 SW   [kswapd0]
+  517 root         0 SW   [fsnotify_mark]
+  532 root         0 SW<  [nfsiod]
+  537 root         0 SW<  [crypto]
+ 1102 root         0 SW   [kapmd]
+ 1177 root         0 SW   [irq/391-ad7877]
+ 1212 root         0 SW   [kworker/u:2]
+ 1245 root         0 SW<  [krfcommd]
+ 1260 root         0 SW   [mmcqd/1]
+ 1261 root         0 SW   [mmcqd/1boot0]
+ 1262 root         0 SW   [mmcqd/1boot1]
+ 1273 root         0 SW   [kjournald]
+ 1283 root      1756 S <  udevd --daemon
+ 2317 root         0 SW   [flush-179:0]
+ 2336 root         0 SW   [kjournald]
+ 2338 root         0 SW   [gl11_work_kthre]
+ 2341 root         0 SW   [kjournald]
+ 2375 root      2220 S    /usr/sbin/inetd
+ 2379 root      1460 S    /vision/rgb_battery
+ 2382 root      1464 S    /home/autoapn_start
+ 2392 root      2188 S    /usr/sbin/dropbear -b /etc/banner
+ 2414 messageb  3304 S    dbus-daemon --system
+ 2427 root      3324 S    /usr/bin/autoapn
+ 2450 root      5664 S    /home/rhms_update_binary
+ 2455 root      2412 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2509 root      9868 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2517 root      2232 S    -sh
+ 2526 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2532 root      6500 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2546 root      5244 S    matchbox-panel --bgtrans yes
+ 2557 root      5220 S    mb-applet-menu-launcher
+ 2558 root      4644 S    mb-applet-launcher -o -1 -l mbterm.png mb-applet-xte
+ 2559 root      4768 S    mb-applet-clock
+ 2560 root     23828 S    mb-applet-console-operations
+ 2571 root         0 SW   [kworker/0:2]
+ 2572 root     23652 S    mb-applet-microsd
+ 2575 root     25924 S    mb-applet-usb
+ 2590 root      4644 S    mb-applet-system-monitor
+ 2607 root      2072 S    wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf -
+ 2628 root         0 SW   [kworker/0:3]
+ 2636 root     20104 S    /usr/bin/rds_init
+ 2657 root      1464 S    /vision/gps_start
+ 2679 root      2228 S    udhcpc -i wlan0 -t 8 -n
+ 2685 root         0 SW   [kworker/u:3]
+ 2699 root     24024 S    mb-applet-autoapn
+ 2700 root     23892 S    mb-applet-rds
+ 2701 root     23808 S    mb-applet-rdsiris
+ 2718 root      2276 S    /usr/bin/get_gps_data
+ 2834 root      6096 S    ./mc
+ 4174 root     28548 S    /vision/Notifier
+ 4393 root      2228 S    sh /vision/PosDesk.sh
+ 4396 root      1604 S    /vision/PosDesk
+ 4423 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 4424 root      2232 R    ps
+
+
+Time: [ 10:56:52 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    5 root         0 SW   [kworker/u:0]
+    6 root         0 SW<  [khelper]
+   85 root         0 SW   [usb_wakeup thre]
+  271 root         0 SW   [sync_supers]
+  273 root         0 SW   [bdi-default]
+  275 root         0 SW<  [kblockd]
+  289 root         0 SW<  [imx6q-ecspi.1]
+  301 root         0 SW   [khubd]
+  340 root         0 SW<  [l2cap]
+  343 root         0 SW<  [cfg80211]
+  431 root         0 SW<  [rpciod]
+  437 root         0 SW   [usb_wakeup thre]
+  439 root         0 SW<  [otg_switch]
+  443 root         0 SW   [usb_wakeup thre]
+  457 root         0 SW   [kswapd0]
+  517 root         0 SW   [fsnotify_mark]
+  532 root         0 SW<  [nfsiod]
+  537 root         0 SW<  [crypto]
+ 1102 root         0 SW   [kapmd]
+ 1177 root         0 SW   [irq/391-ad7877]
+ 1212 root         0 SW   [kworker/u:2]
+ 1245 root         0 SW<  [krfcommd]
+ 1260 root         0 SW   [mmcqd/1]
+ 1261 root         0 SW   [mmcqd/1boot0]
+ 1262 root         0 SW   [mmcqd/1boot1]
+ 1273 root         0 SW   [kjournald]
+ 1283 root      1756 S <  udevd --daemon
+ 2317 root         0 SW   [flush-179:0]
+ 2336 root         0 SW   [kjournald]
+ 2338 root         0 SW   [gl11_work_kthre]
+ 2341 root         0 SW   [kjournald]
+ 2375 root      2220 S    /usr/sbin/inetd
+ 2379 root      1460 S    /vision/rgb_battery
+ 2382 root      1464 S    /home/autoapn_start
+ 2392 root      2188 S    /usr/sbin/dropbear -b /etc/banner
+ 2414 messageb  3304 S    dbus-daemon --system
+ 2427 root      3324 S    /usr/bin/autoapn
+ 2450 root      5664 S    /home/rhms_update_binary
+ 2455 root      2412 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2509 root      9868 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2517 root      2232 S    -sh
+ 2526 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2532 root      6500 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2546 root      5244 S    matchbox-panel --bgtrans yes
+ 2557 root      5220 S    mb-applet-menu-launcher
+ 2558 root      4644 S    mb-applet-launcher -o -1 -l mbterm.png mb-applet-xte
+ 2559 root      4768 S    mb-applet-clock
+ 2560 root     23828 S    mb-applet-console-operations
+ 2571 root         0 SW   [kworker/0:2]
+ 2572 root     23652 S    mb-applet-microsd
+ 2575 root     25924 S    mb-applet-usb
+ 2590 root      4644 S    mb-applet-system-monitor
+ 2607 root      2072 S    wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf -
+ 2628 root         0 SW   [kworker/0:3]
+ 2636 root     20104 S    /usr/bin/rds_init
+ 2657 root      1464 S    /vision/gps_start
+ 2679 root      2228 S    udhcpc -i wlan0 -t 8 -n
+ 2685 root         0 SW   [kworker/u:3]
+ 2699 root     24024 S    mb-applet-autoapn
+ 2700 root     23892 S    mb-applet-rds
+ 2701 root     23808 S    mb-applet-rdsiris
+ 2718 root      2276 S    /usr/bin/get_gps_data
+ 2834 root      6096 S    ./mc
+ 4174 root     28548 S    /vision/Notifier
+ 4393 root      2228 S    sh /vision/PosDesk.sh
+ 4396 root      1608 S    /vision/PosDesk
+ 4425 root      2228 S    sh -c curl google.co.in --connect-timeout 18 --max-t
+ 4426 root      5080 S    curl google.co.in --connect-timeout 18 --max-time 36
+ 4441 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 4442 root      2232 R    ps
+
+
+Time: [ 10:56:54 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    5 root         0 SW   [kworker/u:0]
+    6 root         0 SW<  [khelper]
+   85 root         0 SW   [usb_wakeup thre]
+  271 root         0 SW   [sync_supers]
+  273 root         0 SW   [bdi-default]
+  275 root         0 SW<  [kblockd]
+  289 root         0 SW<  [imx6q-ecspi.1]
+  301 root         0 SW   [khubd]
+  340 root         0 SW<  [l2cap]
+  343 root         0 SW<  [cfg80211]
+  431 root         0 SW<  [rpciod]
+  437 root         0 SW   [usb_wakeup thre]
+  439 root         0 SW<  [otg_switch]
+  443 root         0 SW   [usb_wakeup thre]
+  457 root         0 SW   [kswapd0]
+  517 root         0 SW   [fsnotify_mark]
+  532 root         0 SW<  [nfsiod]
+  537 root         0 SW<  [crypto]
+ 1102 root         0 SW   [kapmd]
+ 1177 root         0 SW   [irq/391-ad7877]
+ 1212 root         0 SW   [kworker/u:2]
+ 1245 root         0 SW<  [krfcommd]
+ 1260 root         0 SW   [mmcqd/1]
+ 1261 root         0 SW   [mmcqd/1boot0]
+ 1262 root         0 SW   [mmcqd/1boot1]
+ 1273 root         0 SW   [kjournald]
+ 1283 root      1756 S <  udevd --daemon
+ 2317 root         0 SW   [flush-179:0]
+ 2336 root         0 SW   [kjournald]
+ 2338 root         0 SW   [gl11_work_kthre]
+ 2341 root         0 SW   [kjournald]
+ 2375 root      2220 S    /usr/sbin/inetd
+ 2379 root      1460 S    /vision/rgb_battery
+ 2382 root      1464 S    /home/autoapn_start
+ 2392 root      2188 S    /usr/sbin/dropbear -b /etc/banner
+ 2414 messageb  3304 S    dbus-daemon --system
+ 2427 root      3324 S    /usr/bin/autoapn
+ 2450 root      5664 S    /home/rhms_update_binary
+ 2455 root      2412 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2509 root      9868 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2517 root      2232 S    -sh
+ 2526 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2532 root      6500 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2546 root      5244 S    matchbox-panel --bgtrans yes
+ 2557 root      5220 S    mb-applet-menu-launcher
+ 2558 root      4644 S    mb-applet-launcher -o -1 -l mbterm.png mb-applet-xte
+ 2559 root      4768 S    mb-applet-clock
+ 2560 root     23828 S    mb-applet-console-operations
+ 2571 root         0 SW   [kworker/0:2]
+ 2572 root     23652 S    mb-applet-microsd
+ 2575 root     25924 S    mb-applet-usb
+ 2590 root      4644 S    mb-applet-system-monitor
+ 2607 root      2072 S    wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf -
+ 2628 root         0 SW   [kworker/0:3]
+ 2636 root     20104 S    /usr/bin/rds_init
+ 2657 root      1464 S    /vision/gps_start
+ 2679 root      2228 S    udhcpc -i wlan0 -t 8 -n
+ 2685 root         0 SW   [kworker/u:3]
+ 2699 root     24024 S    mb-applet-autoapn
+ 2700 root     23892 S    mb-applet-rds
+ 2701 root     23808 S    mb-applet-rdsiris
+ 2718 root      2276 S    /usr/bin/get_gps_data
+ 2834 root      6096 S    ./mc
+ 4174 root     28548 S    /vision/Notifier
+ 4393 root      2228 S    sh /vision/PosDesk.sh
+ 4396 root      1612 S    /vision/PosDesk
+ 4457 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 4458 root      2232 R    ps
+
+
+Time: [ 10:57:06 ]	Command: [ ps ]	Status: [ Success ]
+  PID USER       VSZ STAT COMMAND
+    1 root      2228 S    init
+    2 root         0 SW   [kthreadd]
+    3 root         0 SW   [ksoftirqd/0]
+    5 root         0 SW   [kworker/u:0]
+    6 root         0 SW<  [khelper]
+   85 root         0 SW   [usb_wakeup thre]
+  271 root         0 SW   [sync_supers]
+  273 root         0 SW   [bdi-default]
+  275 root         0 SW<  [kblockd]
+  289 root         0 SW<  [imx6q-ecspi.1]
+  301 root         0 SW   [khubd]
+  340 root         0 SW<  [l2cap]
+  343 root         0 SW<  [cfg80211]
+  431 root         0 SW<  [rpciod]
+  437 root         0 SW   [usb_wakeup thre]
+  439 root         0 SW<  [otg_switch]
+  443 root         0 SW   [usb_wakeup thre]
+  457 root         0 SW   [kswapd0]
+  517 root         0 SW   [fsnotify_mark]
+  532 root         0 SW<  [nfsiod]
+  537 root         0 SW<  [crypto]
+ 1102 root         0 SW   [kapmd]
+ 1177 root         0 SW   [irq/391-ad7877]
+ 1212 root         0 SW   [kworker/u:2]
+ 1245 root         0 SW<  [krfcommd]
+ 1260 root         0 SW   [mmcqd/1]
+ 1261 root         0 SW   [mmcqd/1boot0]
+ 1262 root         0 SW   [mmcqd/1boot1]
+ 1273 root         0 SW   [kjournald]
+ 1283 root      1756 S <  udevd --daemon
+ 2317 root         0 SW   [flush-179:0]
+ 2336 root         0 SW   [kjournald]
+ 2338 root         0 SW   [gl11_work_kthre]
+ 2341 root         0 SW   [kjournald]
+ 2375 root      2220 S    /usr/sbin/inetd
+ 2379 root      1460 S    /vision/rgb_battery
+ 2382 root      1464 S    /home/autoapn_start
+ 2392 root      2188 S    /usr/sbin/dropbear -b /etc/banner
+ 2414 messageb  3304 S    dbus-daemon --system
+ 2427 root      3324 S    /usr/bin/autoapn
+ 2450 root      5664 S    /home/rhms_update_binary
+ 2455 root      2412 S    /usr/bin/dbus-daemon --fork --print-pid 5 --print-ad
+ 2509 root      9868 S    Xfbdev -mouse tslib,2,device=/dev/input/ts0 -keybd k
+ 2517 root      2232 S    -sh
+ 2526 root      4868 S    matchbox-window-manager -d :0.0 -use_lowlight no -us
+ 2532 root      6500 S    matchbox-desktop --icon-size 60 --icon-padding 36
+ 2546 root      5244 S    matchbox-panel --bgtrans yes
+ 2557 root      5220 S    mb-applet-menu-launcher
+ 2558 root      4644 S    mb-applet-launcher -o -1 -l mbterm.png mb-applet-xte
+ 2559 root      4768 S    mb-applet-clock
+ 2560 root     23828 S    mb-applet-console-operations
+ 2571 root         0 SW   [kworker/0:2]
+ 2572 root     23652 S    mb-applet-microsd
+ 2575 root     25924 S    mb-applet-usb
+ 2590 root      4644 S    mb-applet-system-monitor
+ 2607 root      2072 S    wpa_supplicant -iwlan0 -c /etc/wpa_supplicant.conf -
+ 2628 root         0 SW   [kworker/0:3]
+ 2636 root     20104 S    /usr/bin/rds_init
+ 2657 root      1464 S    /vision/gps_start
+ 2679 root      2228 S    udhcpc -i wlan0 -t 8 -n
+ 2685 root         0 SW   [kworker/u:3]
+ 2699 root     24024 S    mb-applet-autoapn
+ 2700 root     23892 S    mb-applet-rds
+ 2701 root     23808 S    mb-applet-rdsiris
+ 2718 root      2276 S    /usr/bin/get_gps_data
+ 2834 root      6096 S    ./mc
+ 4174 root     28548 S    /vision/Notifier
+ 4393 root      2228 S    sh /vision/PosDesk.sh
+ 4396 root      1616 S    /vision/PosDesk
+ 4517 root      2228 S    sh -c ps > /tmp/.cmd_buff.log 2>&1
+ 4518 root      2232 R    ps
+
+
+Time: [ 10:57:13 ]	Command: [ cat /root/Notifier ]	Status: [ Success ]
+ELFvermp ã)  ãyþÿë<ˆåXŸåÒýÿë` á|1Ÿå0ÓåP áp1Ÿå0Óå@ ád1Ÿå0Óåà áX1Ÿå0Óå1å„$0Kâ(ÀKâ ½Qûÿëd!Ÿåd1Ÿå á°øÿë  á@„â3ÿ/á
+s/%s/  &> /dev/nullsquitto/All_Modes_Report%02X:%02XSuccessnary &= %s port %d topic = %s retry_time %d secs ***
+110630 (prerelease)Ã	Ž^PýP
+¶JOetS#\
+ÄÃâ¾:;/%¼iõ`JŒ’cludeludechain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/includeibc-2.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../lib/gcc/arm-fsl-linux-gnueabi/4.6.2/include.13-linaro-multilib-2011.12/fsl-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/include/bitst¡»hŸ#×Ù½××K…¼ôôK†õôKK/include2/fsl-linaro-toolchain/bin/../arm-fsl-linux-gnueabi/multi-libs/usr/includeusr/include,sedium_clients_threadbug_frame{ºšf.cIBC_2.4art
+
+Time: [ 10:57:28 ]	Command: [ ls ]	Status: [ Success ]
+Backup_Message.png
+CmsUpdate
+DevInfo
+Device_Work_and_battery
+HI.png
+Image
+KK.txt
+Notifier
+PosDesk
+PosDesk.sh
+RootfsBAckup.png
+app-1.0.zip
+cli
+config-appversions
+config-patchversions
+displayImage
+dot
+fail.png
+failed.png
+hi
+iptables.tar.bz2
+kk
+kk.sh
+logo.png
+look
+mcpid
+rdpid
+rhms_bandhan
+rhms_generic
+rhms_update_binary
+sample
+
+
+Time: [ 10:57:30 ]	Command: [ ls ]	Status: [ Success ]
+Backup_Message.png
+CmsUpdate
+DevInfo
+Device_Work_and_battery
+HI.png
+Image
+KK.txt
+Notifier
+PosDesk
+PosDesk.sh
+RootfsBAckup.png
+app-1.0.zip
+cli
+config-appversions
+config-patchversions
+displayImage
+dot
+fail.png
+failed.png
+hi
+iptables.tar.bz2
+kk
+kk.sh
+logo.png
+look
+mcpid
+rdpid
+rhms_bandhan
+rhms_generic
+rhms_update_binary
+sample
+
+
+Time: [ 10:57:40 ]	Command: [ ./rhms_generic  ]	Status: [ Success ]
+RHMS Details are Updated for the Day
+IFD power on Failure
+IFD power on Failure
+SAM Open Error
+SAM Open Error
+SDCard Not Found
+Camera Poweron Failed
+
+****************************
+Binary  : RHMS Client
+Date    : Apr 12 2019
+Time    : 15:13:31
+Version : 3.4
+***************************
+
+Checking... RHMS Last Success Date
+Diffrence between two dates 0
+
+
+Running... io module health status
+
+Audio test success
+Application Type:100
+Application Version:2.4
+Adaptor Status:Connected
+Battery is Connected
+Battery is Charging
+ther_ret=693
+buff=1.8
+Patch Name is patch-1.8.zip
+Internal Mem Status(Total/Use/Free):1007.9M/33.3M/923.4M
+Internal Mem Status(Total/Use/Free):3.9G/143.9M/3.6G
+Internal Mem Status(Total/Use/Free):1.2G/102.1M/1.1G
+USB Pendrive:Not Found
+1008MB/106MB/902MB
+Optical Scanner Detected
+Camera not found usb_device_presence = -1
+Camera not found usb_device_presence = -1
+Camera not found usb_device_presence = -1
+Camera not found usb_device_presence = -1
+Camera not found usb_device_presence = -1
+Cam pwr_on = -1
+Waiting for SAM Thread Compleation
+
+
+Success: io module health status details
+
+module.IMEI_no:863789027267057
+module.CCID_no:8991000900502374328
+module.GSM_Version:35316B11SIM5360E
+module.Sim_Details:SIM1/26db/airtel/3G
+Success: Gprs Details
+Success: Wifi Details
+Success: Ethernet Details
+
+
+xml Framing ...
+
+Connection Available
+Network Details sucess
+Return of curl is 0 
+,Server IP from ACK file ##202.53.78.186##
+Server Port from ACK file ##5051##
+!!!!!!!!!MHNAGPUR!!!!!!!!!!!! Project 
+Product Name is MHNAGPUR
+Serial Number is 111817161551
+ProjectName is MHNAGPUR
+Handshaking Frame for Sending ####Health#111817161551#MHNAGPUR###
+Connected to server
+start Buffer******#Health#111817161551#MHNAGPUR*****
+Recieve Buffer  #Health#111817161551#MHNAGPUR 0 re_try count
+sent:39 <?xml version="1.0" encoding="UTF-8"?>
+
+sent:19 <POSHEALTHDETAILS>
+
+sent:19   <DEVICE_DETAILS>
+
+sent:40     <TerminalID>1817161551</TerminalID>
+
+sent:38     <SerialNo>111817161551</SerialNo>
+
+sent:45     <IMEInumber>863789027267057</IMEInumber>
+
+sent:49     <CCIDnumber>8991000900502374328</CCIDnumber>
+
+sent:32     <UID>3117b9d4ea9ae792</UID>
+
+sent:37     <Macid>7C:F0:BA:06:01:5D</Macid>
+
+sent:20   </DEVICE_DETAILS>
+
+sent:16   <PERIPHERALS>
+
+sent:18     <RTC>OK</RTC>
+
+sent:42     <Date_Time>20042019105740</Date_Time>
+
+sent:22     <AUDIO>OK</AUDIO>
+
+sent:42     <FingerPrint>OK/Optical</FingerPrint>
+
+sent:53     <FPScannerid>293604959-1729I047593</FPScannerid>
+
+sent:35     <Ethernet>Not Alive</Ethernet>
+
+sent:43     <PaperStatus>Not Present</PaperStatus>
+
+sent:26     <Printer>OK</Printer>
+
+sent:27     <Camera>ERROR</Camera>
+
+sent:23     <IFD1>ERROR</IFD1>
+
+sent:23     <IFD2>ERROR</IFD2>
+
+sent:33     <Adapter>Connected</Adapter>
+
+sent:38     <Battery>7.20V/Charging</Battery>
+
+sent:46     <GSMVersion>35316B11SIM5360E</GSMVersion>
+
+sent:49     <SimDetails>SIM1/26db/airtel/3G</SimDetails>
+
+sent:23     <SAM1>ERROR</SAM1>
+
+sent:23     <SAM2>ERROR</SAM2>
+
+sent:20     <WIFI>OK</WIFI>
+
+sent:17   </PERIPHERALS>
+
+sent:11   <MEMORY>
+
+sent:68     <InternalMem-Sysuser>1007.9M/33.3M/923.4M</InternalMem-Sysuser>
+
+sent:60     <InternalMem-Jffs2>3.9G/143.9M/3.6G</InternalMem-Jffs2>
+
+sent:41     <ExternalMem>Not Found</ExternalMem>
+
+sent:37     <Usbdevice>Not Found</Usbdevice>
+
+sent:34     <RAM>1008MB/106MB/902MB</RAM>
+
+sent:12   </MEMORY>
+
+sent:11   <IMAGES>
+
+sent:66     <UbootImageName>GL11-UB-2009.08-1520-1.1.bin</UbootImageName>
+
+sent:67     <KernelImageName>GL11-KR-3.0.35-1521-1.3.IMG</KernelImageName>
+
+sent:65     <RootfsImageName>GL11-RD-EXT3-1920-1.1.IMG</RootfsImageName>
+
+sent:43     <ApplicationType>100</ApplicationType>
+
+sent:41     <ApplicationVer>2.4</ApplicationVer>
+
+sent:53     <FirmwarePatchVersion>1.8</FirmwarePatchVersion>
+
+sent:57     <FirmwarePatchName>patch-1.8.zip</FirmwarePatchName>
+
+sent:12   </IMAGES>
+
+sent:20 </POSHEALTHDETAILS>
+
+sent:6 #END#
+
+Number of bytes Sent are 1661
+Read buff = 617	 count 0
+Read buff###<GeneralSettings>
+<RTMServerIP>202.53.78.186</RTMServerIP>
+<PortNo>5051</PortNo>
+<UserID>visiontek</UserID>
+<Password>Linkwell*123</Password>
+<FTP_PATH_APP>ftp://202.53.78.186/APPLICATIONS/LINKWELL/MHNAGPUR//</FTP_PATH_APP>
+<ApplicationImageName>100</ApplicationImageName>
+<ApplicationServer Communication Success
+Version>1.0</ApplicationVersion>
+<FTP_PATH_FIRMWARE>ftp://visiontek:Linkwell*123@202.53.78.186:21/FIRMWARE/GL11/1187/1.0/LINKWELL/MHNAGPUR/1.0/</FTP_PATH_FIRMWARE>
+<FirmwarePatchName>patch-1.8.zip</FirmwarePatchName>
+<FirmWarePatchVersion>1.8</FirmWarePatchVersion>
+<ProjectName>MHNAGPUR</ProjectName>
+</GeneralSettings>### number of bytes received count 0
+GeneralSettings End of File...
+Date:20042019
+
+
+Time: [ 10:58:16 ]	Command: [ rm_old /tmp/* ]	Status: [ Success ]
+rm_old: cannot remove `/tmp/ltib': Is a directory
+
+
+Time: [ 10:58:29 ]	Command: [ ./rhms_generic ]	Status: [ Success ]
+RHMS Details are Updated for the Day
+IFD power on Failure
+IFD power on Failure
+SAM Open Error
+SAM Open Error
+SDCard Not Found
+Camera Poweron Failed
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/revision_operator_details file not found
+---> Failed to fetch gprs details
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/revision_operator_details file not found
+---> Failed to fetch gprs details
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/revision_operator_details file not found
+---> Failed to fetch gprs details
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/revision_operator_details file not found
+---> Failed to fetch gprs details
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/sim_details file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/gprs_update file not found
+/tmp/revision_operator_details file not found
+---> Failed to fetch gprs details
+
+****************************
+Binary  : RHMS Client
+Date    : Apr 12 2019
+Time    : 15:13:31
+Version : 3.4
+***************************
+
+Checking... RHMS Last Success Date
+Diffrence between two dates 0
+
+
+Running... io module health status
+
+Audio test success
+Application Type:100
+Application Version:2.4
+Adaptor Status:Connected
+Battery is Connected
+Battery is Charging
+Ethernet Status: ERROR
+ther_ret=663
+buff=1.8
+Patch Name is patch-1.8.zip
+Internal Mem Status(Total/Use/Free):1007.9M/33.3M/923.4M
+Internal Mem Status(Total/Use/Free):3.9G/143.9M/3.6G
+Internal Mem Status(Total/Use/Free):1.2G/102.1M/1.1G
+USB Pendrive:Not Found
+1008MB/107MB/901MB
+Optical Scanner Detected
+Camera not found usb_device_presence = -1
+Camera not found usb_device_presence = -1
+Camera not found usb_device_presence = -1
+Camera not found usb_device_presence = -1
+Camera not found usb_device_presence = -1
+Cam pwr_on = -1
+Waiting for SAM Thread Compleation
+
+
+Success: io module health status details
+
+
+module.IMEI_no:ERROR
+module.CCID_no:ERROR
+Getting Signal Details Failed
+module.GSM_Version:ERROR
+module.Sim_Details:SIM0/0db/ERROR/3G
+
+4) Waiting For Gprs Details 	ret= -1
+
+module.IMEI_no:ERROR
+module.CCID_no:ERROR
+Getting Signal Details Failed
+module.GSM_Version:ERROR
+module.Sim_Details:SIM0/0db/ERROR/3G
+
+3) Waiting For Gprs Details 	ret= -1
+
+module.IMEI_no:ERROR
+module.CCID_no:ERROR
+Getting Signal Details Failed
+module.GSM_Version:ERROR
+module.Sim_Details:SIM0/0db/ERROR/3G
+
+2) Waiting For Gprs Details 	ret= -1
+
+module.IMEI_no:ERROR
+module.CCID_no:ERROR
+Getting Signal Details Failed
+module.GSM_Version:ERROR
+module.Sim_Details:SIM0/0db/ERROR/3G
+
+1) Waiting For Gprs Details 	ret= -1
+
+module.IMEI_no:ERROR
+module.CCID_no:ERROR
+Getting Signal Details Failed
+module.GSM_Version:ERROR
+module.Sim_Details:SIM0/0db/ERROR/3G
+
+0) Waiting For Gprs Details 	ret= -1
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+
+4) Waiting For Wifi Details 	ret= -1
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+
+3) Waiting For Wifi Details 	ret= -1
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+
+2) Waiting For Wifi Details 	ret= -1
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+
+1) Waiting For Wifi Details 	ret= -1
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+/tmp/wifi_status file not found
+
+0) Waiting For Wifi DServer Communication Success
+etails 	ret= -1
+Ethernet Status: ERROR
+
+3) Waiting for ethernet details 	ret= -1
+Ethernet Status: ERROR
+
+2) Waiting for ethernet details 	ret= -1
+Ethernet Status: ERROR
+
+1) Waiting for ethernet details 	ret= -1
+Ethernet Status: ERROR
+
+0) Waiting for ethernet details 	ret= -1
+
+
+xml Framing ...
+
+Connection Available
+Network Details sucess
+Return of curl is 0 
+,Server IP from ACK file ##202.53.78.186##
+Server Port from ACK file ##5051##
+!!!!!!!!!MHNAGPUR!!!!!!!!!!!! Project 
+Product Name is MHNAGPUR
+Serial Number is 111817161551
+ProjectName is MHNAGPUR
+Handshaking Frame for Sending ####Health#111817161551#MHNAGPUR###
+Connected to server
+start Buffer******#Health#111817161551#MHNAGPUR*****
+Recieve Buffer  #Health#111817161551#MHNAGPUR 0 re_try count
+sent:39 <?xml version="1.0" encoding="UTF-8"?>
+
+sent:19 <POSHEALTHDETAILS>
+
+sent:19   <DEVICE_DETAILS>
+
+sent:40     <TerminalID>1817161551</TerminalID>
+
+sent:38     <SerialNo>111817161551</SerialNo>
+
+sent:35     <IMEInumber>ERROR</IMEInumber>
+
+sent:35     <CCIDnumber>ERROR</CCIDnumber>
+
+sent:32     <UID>3117b9d4ea9ae792</UID>
+
+sent:37     <Macid>7C:F0:BA:06:01:5D</Macid>
+
+sent:20   </DEVICE_DETAILS>
+
+sent:16   <PERIPHERALS>
+
+sent:18     <RTC>OK</RTC>
+
+sent:42     <Date_Time>20042019105828</Date_Time>
+
+sent:22     <AUDIO>OK</AUDIO>
+
+sent:42     <FingerPrint>OK/Optical</FingerPrint>
+
+sent:53     <FPScannerid>293604959-1729I047593</FPScannerid>
+
+sent:31     <Ethernet>ERROR</Ethernet>
+
+sent:43     <PaperStatus>Not Present</PaperStatus>
+
+sent:26     <Printer>OK</Printer>
+
+sent:27     <Camera>ERROR</Camera>
+
+sent:23     <IFD1>ERROR</IFD1>
+
+sent:23     <IFD2>ERROR</IFD2>
+
+sent:33     <Adapter>Connected</Adapter>
+
+sent:38     <Battery>7.21V/Charging</Battery>
+
+sent:35     <GSMVersion>ERROR</GSMVersion>
+
+sent:47     <SimDetails>SIM0/0db/ERROR/3G</SimDetails>
+
+sent:23     <SAM1>ERROR</SAM1>
+
+sent:23     <SAM2>ERROR</SAM2>
+
+sent:23     <WIFI>ERROR</WIFI>
+
+sent:17   </PERIPHERALS>
+
+sent:11   <MEMORY>
+
+sent:68     <InternalMem-Sysuser>1007.9M/33.3M/923.4M</InternalMem-Sysuser>
+
+sent:60     <InternalMem-Jffs2>3.9G/143.9M/3.6G</InternalMem-Jffs2>
+
+sent:41     <ExternalMem>Not Found</ExternalMem>
+
+sent:37     <Usbdevice>Not Found</Usbdevice>
+
+sent:34     <RAM>1008MB/107MB/901MB</RAM>
+
+sent:12   </MEMORY>
+
+sent:11   <IMAGES>
+
+sent:66     <UbootImageName>GL11-UB-2009.08-1520-1.1.bin</UbootImageName>
+
+sent:67     <KernelImageName>GL11-KR-3.0.35-1521-1.3.IMG</KernelImageName>
+
+sent:65     <RootfsImageName>GL11-RD-EXT3-1920-1.1.IMG</RootfsImageName>
+
+sent:43     <ApplicationType>100</ApplicationType>
+
+sent:41     <ApplicationVer>2.4</ApplicationVer>
+
+sent:53     <FirmwarePatchVersion>1.8</FirmwarePatchVersion>
+
+sent:57     <FirmwarePatchName>patch-1.8.zip</FirmwarePatchName>
+
+sent:12   </IMAGES>
+
+sent:20 </POSHEALTHDETAILS>
+
+sent:6 #END#
+
+Number of bytes Sent are 1623
+Read buff = -1	 count 0
+Read buff###### number of bytes received count 1
+Read buff = 617	 count 1
+Read buff###<GeneralSettings>
+<RTMServerIP>202.53.78.186</RTMServerIP>
+<PortNo>5051</PortNo>
+<UserID>visiontek</UserID>
+<Password>Linkwell*123</Password>
+<FTP_PATH_APP>ftp://202.53.78.186/APPLICATIONS/LINKWELL/MHNAGPUR//</FTP_PATH_APP>
+<ApplicationImageName>100</ApplicationImageName>
+<ApplicationVersion>1.0</ApplicationVersion>
+<FTP_PATH_FIRMWARE>ftp://visiontek:Linkwell*123@202.53.78.186:21/FIRMWARE/GL11/1187/1.0/LINKWELL/MHNAGPUR/1.0/</FTP_PATH_FIRMWARE>
+<FirmwarePatchName>patch-1.8.zip</FirmwarePatchName>
+<FirmWarePatchVersion>1.8</FirmWarePatchVersion>
+<ProjectName>MHNAGPUR</ProjectName>
+</GeneralSettings>### number of bytes received count 1
+GeneralSettings End of File...
+Date:20042019
+
+
+Time: [ 11:09:47 ]	Command: [ ls ]	Status: [ Success ]
+Backup_Message.png
+CmsUpdate
+DevInfo
+Device_Work_and_battery
+HI.png
+Image
+KK.txt
+Notifier
+PosDesk
+PosDesk.sh
+RootfsBAckup.png
+app-1.0.zip
+cli
+config-appversions
+config-patchversions
+displayImage
+dot
+fail.png
+failed.png
+hi
+iptables.tar.bz2
+kk
+kk.sh
+logo.png
+look
+mcpid
+rdpid
+rhms_bandhan
+rhms_generic
+rhms_update_binary
+sample
+
+
+Time: [ 11:09:57 ]	Command: [ ls /tmp ]	Status: [ Success ]
+ltib
+machineid
+response_file
+rootfsver
+uid
+
+
+Time: [ 11:10:20 ]	Command: [ cat / ]	Status: [ Success ]
+cat: read error: Is a directory
+
+
+Time: [ 11:10:36 ]	Command: [ cat /etc/rtm_response ]	Status: [ Success ]
+RTMServerIP:202.53.78.186
+PortNo:5051
+UserID:visiontek
+Password:Linkwell*123
+FTP_PATH_APP:ftp://202.53.78.186/APPLICATIONS/LINKWELL/MHNAGPUR//
+ApplicationImageName:100
+ApplicationVersion:1.0
+FTP_PATH_FIRMWARE:ftp://visiontek:Linkwell*123@202.53.78.186:21/FIRMWARE/GL11/1187/1.0/LINKWELL/MHNAGPUR/1.0/
+FirmWarePatchVersion:1.8
+ProjectName:MHNAGPUR
+
+
+Time: [ 11:10:47 ]	Command: [ ls /tmp ]	Status: [ Success ]
+ltib
+machineid
+response_file
+rootfsver
+uid
+
+
+Time: [ 11:10:58 ]	Command: [ cat /tmp/machine ]	Status: [ Success ]
+cat: can't open '/tmp/machine': No such file or directory
+
+
+Time: [ 11:11:40 ]	Command: [ cat  ]	Status: [ Success ]
+
+
+Time: [ 11:11:51 ]	Command: [ cat  ]	Status: [ Success ]
+
+
+Time: [ 11:11:59 ]	Command: [ cat /tmp/machineid ]	Status: [ Success ]
+machineid=1817161551
+
+Time out, some thing late processing with client

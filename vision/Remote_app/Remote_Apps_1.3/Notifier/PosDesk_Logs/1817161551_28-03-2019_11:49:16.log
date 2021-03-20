@@ -1,0 +1,160 @@
+
+
+CMD: ls
+RESPONSE:
++15
+94_patch_TLS.zip
+BUGG
+Biomatiques
+DevInfo
+Device_Work_and_battery
+KK
+K_client
+Keepalive_client
+Macid_kk
+Notifier
+Notifier_1
+Notifier_1.2
+Notifier_1.4
+Notifier_keepalive
+Notifier_loop_minus_1
+PosDesk
+PosDesk.sh
+Prlm_dev
+Remote_client
+Speedtest
+Speedtest_1
+Start
+a.out
+app_ver
+autoapn
+client
+config-patchversions
+curlTxt
+fiweb_server.crt
+g
+idkit
+kk
+libmosquitto.so.1
+loop_start
+machine
+maya
+mcpid
+mosq_client
+mosq_project.conf
+mosquitto
+mosquitto_passwd
+mosquitto_pub
+mosquitto_sub
+p.txt
+patch-1.6.zip
+patch-17.zip
+patchtest_rtm_response
+pro_details_appl
+rdpid
+revision_operator_details
+rgb_battery
+rhms_1104
+rhms_patha
+rhms_update_binary
+rootfs_patch.tar.bz2
+rootfs_update.sh
+run.sh
+saved_ssids
+serial1
+set_macid.sh
+tsts_rhms
+uid
+uninstall_mosquitto_package.sh
+
+CMD: ls -lrth
+RESPONSE:
+-rwxr-xr-x    1 root     root        8.4K Nov 29  2017 pro_details_appl
+drwxr-xr-x    2 root     root        4.0K Jan 30 12:07 Biomatiques
+-rwxr-xr-x    1 root     root          29 Jan 30 12:12 app_ver
+-rwxr-xr-x    1 root     root        1.3K Jan 30 16:40 fiweb_server.crt
+-rwxr-xr-x    1 root     root      106.3K Jan 30 19:25 autoapn
+-rwxr-xr-x    1 root     root       15.4K Feb  1 15:40 Device_Work_and_battery
+-rwxr-xr-x    1 root     root        5.8K Feb  1 15:58 uid
+-rwxr-xr-x    1 root     root       5.8M Feb  6 09:52 94_patch_TLS.zip
+-rwxr-xr-x    1 root     root       17.1K Feb  8 09:55 mosquitto_passwd
+-rwxr-xr-x    1 root     root       42.0K Feb  8 09:55 mosquitto_pub
+-rwxr-xr-x    1 root     root       39.3K Feb  8 09:55 mosquitto_sub
+-rwxr-xr-x    1 root     root         249 Feb  8 11:28 run.sh
+-rwxr-xr-x    1 root     root        1.1M Feb  8 12:46 mosquitto
+-rwxr-xr-x    1 root     root      903.0K Feb  8 15:12 libmosquitto.so.1
+-rwxr-xr-x    1 root     root      109.7K Feb  8 17:51 p.txt
+-rwxr34 Notifier_1
+-rwxr-xr-x    1 root     root       3      7.6K Feb 28 11:03 K_client
+-rwxr-xr-x    1 roroot           0 Mar  4 17:05 g
+-rwxr-xr-x    1 rooxr-x    1 root     root          72 Mar 25 17:31 mo   root       58.1K Mar 26 18:24 rhms_update_binary1 root     root       38.4K Mar 28 09:42 Notifier
+-
+
+CMD: ls
+RESPONSE:
++15
+94_patch_TLS.zip
+BUGG
+Biomatiques
+DevInfo
+Device_Work_and_battery
+KK
+K_client
+Keepalive_client
+Macid_kk
+Notifier
+Notifier_1
+Notifier_1.2
+Notifier_1.4
+Notifier_keepalive
+Notifier_loop_minus_1
+PosDesk
+PosDesk.sh
+Prlm_dev
+Remote_client
+Speedtest
+Speedtest_1
+Start
+a.out
+app_ver
+autoapn
+client
+config-patchversions
+curlTxt
+fiweb_server.crt
+g
+idkit
+kk
+libmosquitto.so.1
+loop_start
+machine
+maya
+mcpid
+mosq_client
+mosq_project.conf
+mosquitto
+mosquitto_passwd
+mosquitto_pub
+mosquitto_sub
+p.txt
+patch-1.6.zip
+patch-17.zip
+patchtest_rtm_response
+pro_details_appl
+rdpid
+revision_operator_details
+rgb_battery
+rhms_1104
+rhms_patha
+rhms_update_binary
+rootfs_patch.tar.bz2
+rootfs_update.sh
+run.sh
+saved_ssids
+serial1
+set_macid.sh
+tsts_rhms
+uid
+uninstall_mosquitto_package.sh
+
+CMD: #exit#

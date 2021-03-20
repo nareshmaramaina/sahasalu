@@ -7,9 +7,10 @@
 #include <linux/sched.h>
 #include <linux/workqueue.h>
 #include <linux/interrupt.h>
+#include <linux/delay.h>
 #include <asm/io.h>
-
-
+#include <linux/mutex.h>
+DEFINE_MUTEX(lock);
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Naresh.m");
 
@@ -39,11 +40,12 @@ irq_handler_t irq_handler( int irq_no)
 		pr_info(" in Interrupt Context %d\n",ret);
 	else 
 		pr_info(" in Process Context %d\n",ret);
-
+//	msleep(1000);
+	
 	pr_info("Entering IRQ, ,in context of %s with pid = %d\n",current->comm, current->pid);
 
 	tasklet_schedule(&Tasklet);
-
+	
 	pr_info("Completion\n");
 	return IRQ_HANDLED;
 }
@@ -58,11 +60,10 @@ static int __init irq_ex_init(void)
 		pr_info(" in Interrupt Context %d\n",ret);
 	else 
 		pr_info(" in Process Context %d\n",ret);
-
-	tasklet_schedule(&Tasklet);
+	
 
 	pr_info("Completion\n");	
-	//	return request_irq (396, (irq_handler_t) irq_handler,IRQF_SHARED, "irq_handler",(void *)(irq_handler));
+	return request_irq (396, (irq_handler_t) irq_handler,IRQF_SHARED, "irq_handler",(void *)(irq_handler));
 }
 
 static void __exit irq_ex_exit(void)

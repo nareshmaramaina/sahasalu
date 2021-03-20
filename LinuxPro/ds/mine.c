@@ -13,6 +13,7 @@ struct hi
 struct hi *head=NULL;
 
 
+
 void find_nth_element_from_end(int n)
 {
 
@@ -180,7 +181,7 @@ int my_lifo(int num)
 
 	if ( node == NULL )
 		return -1;
-	
+
 	node->num=num;
 
 	if ( head == NULL )
@@ -195,6 +196,19 @@ int my_lifo(int num)
 	}
 	return 0;
 }
+
+
+int print_recurssively( struct hi *node)
+{
+
+	if ( node == NULL )
+		return -1;
+
+	printf("%d ", node->num);
+	
+	print_recurssively(node->link);
+
+}
 int main()
 {
 
@@ -202,17 +216,8 @@ int main()
 	my_lifo(3);
 	my_lifo(2);
 	my_lifo(1);
-	my_lifo(1);
-	my_lifo(1);
-	my_lifo(1);
-	my_lifo(1);
-	my_lifo(1);
-	my_lifo(1);
-	my_lifo(1);
-	my_lifo(1);
-	my_lifo(91);
+	print_recurssively(head);
 	print();
-
 	//Addatbeg(12);
 	//	Delete_Num(2);
 	//Delete_mid();

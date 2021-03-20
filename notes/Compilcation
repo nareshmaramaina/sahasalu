@@ -8,6 +8,9 @@ make ARCH=arm CROSS_COMPILE=/opt/gcc-4.6.2-glibc-2.13-linaro-multilib-2011.12/fs
 mkimage -A arm -O linux -T kernel -C none -a 0x10008000 -e 0x10008000 -n 'GL11-KR-3.0.35-1860-1.1.IMG' -d arch/arm/boot/zImage GL11-KR-3.0.35-1860-1.1.IMG
 
 
+
+
+
 Buildroot :- 
 
 Buildroot is a simple, efficient and easy-to-use tool to generate embedded
@@ -60,5 +63,4 @@ In Pre processor stage
 Compiler : - convert pre processed source code into assembly code
 Assmbelr : - During this stage, an assembler is used to translate the assembly instructions to object code
 Linker : - Linker will link all object files into single output 
-
 

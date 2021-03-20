@@ -1,0 +1,1 @@
+curl  --connect-timeout 32 --max-time 64 -s -u rnd:rnd123 -T /home/naresh/Speedtest ftp://115.111.229.10/PosDesk_Update/

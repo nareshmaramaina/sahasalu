@@ -1,0 +1,2 @@
+/usr/bin/wget -c -T 24  ftp://rnd:rnd123@115.111.229.10/PosDesk_Update/Speedtest -o /tmp/Speedteset
+/usr/bin/wget -c -T 24  ftp://rnd:rnd123@115.111.229.10/PosDesk_Update/Speedtest  -O /root/Speedtest

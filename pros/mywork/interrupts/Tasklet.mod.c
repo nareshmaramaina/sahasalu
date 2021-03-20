@@ -18,7 +18,9 @@ static const struct modversion_info ____versions[]
 __used
 __attribute__((section("__versions"))) = {
 	{ 0xdb8f28a, "module_layout" },
+	{ 0xd6b8e852, "request_threaded_irq" },
 	{ 0xfaef0ed, "__tasklet_schedule" },
+	{ 0xf9a482f9, "msleep" },
 	{ 0xefd6cf06, "__aeabi_unwind_cpp_pr0" },
 	{ 0x27e1a049, "printk" },
 };

@@ -1,0 +1,15 @@
+
+******* WELCOME PosDesk and PcDesk  Date: [ 05-09-2019 ]	 Time: [ 12:19:44 ] *******
+ProjectName: PRODUCTION
+Machineid: 1234567891
+Macid: 7C:F0:BA:FA:76:5A
+Uid: 031629d4eacb4188
+AppType: 100
+AppVersion: 1.0
+U-boot: GL11-UB-2009.08-1573-1.1.bin
+Kernel: GL11-KR-3.0.35-1647-1.4.IMG
+Rootfs: GL11-RD-EXT3-2025-1.2.IMG
+FirmwareVersion: 1.5
+
+
+Time: [ 12:19:47 ]	Command: [ #ex ]	Status: [ Success ]

@@ -1,0 +1,4304 @@
+
+******* WELCOME PosDesk and PcDesk  Date: [ 23-04-2019 ]	 Time: [ 15:40:30 ] *******
+
+
+Time: [ 15:40:33 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 3189 pts/1    00:00:00 sudo
+ 3190 pts/1    00:00:00 su
+ 3191 pts/1    00:00:00 bash
+ 8379 pts/1    00:00:00 a.out
+ 8388 pts/1    00:00:00 sh
+ 8389 pts/1    00:00:00 ps
+
+
+Time: [ 15:40:34 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 3189 pts/1    00:00:00 sudo
+ 3190 pts/1    00:00:00 su
+ 3191 pts/1    00:00:00 bash
+ 8379 pts/1    00:00:00 a.out
+ 8390 pts/1    00:00:00 sh
+ 8391 pts/1    00:00:00 ps
+
+
+Time: [ 15:40:35 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 3189 pts/1    00:00:00 sudo
+ 3190 pts/1    00:00:00 su
+ 3191 pts/1    00:00:00 bash
+ 8379 pts/1    00:00:00 a.out
+ 8392 pts/1    00:00:00 sh
+ 8393 pts/1    00:00:00 ps
+
+
+Time: [ 15:40:38 ]	Command: [ ls -lrht ]	Status: [ Success ]
+total 1.7G
+-rw-r--r--  1 root   root   612K Feb  3  2017 isu80.2
+-rw-r--r--  1 root   root   612K Feb  3  2017 isu80.1
+drwxr-xr-x  2 naresh naresh 4.0K Feb  5  2018 opentftp
+drwxrwxrwx  6 naresh naresh 4.0K Mar  7  2018 SDK
+drwxrwxr-x 16 root   root   4.0K Mar 12  2018 buildroot-2017.02.10
+drwxr-xr-x  4 naresh naresh 4.0K May  4  2018 Read_Write_Contact
+drwxr-xr-x 12 root   root   4.0K May  5  2018 message_app_1.0
+drwxr-xr-x  3 root   root   4.0K May 16  2018 mmc
+drwxr-xr-x 10 root   root   4.0K May 16  2018 gl11_gsm_send_read_SMS
+drwxr-xr-x  2 naresh naresh 4.0K May 17  2018 new_src
+drwxr-xr-x  2 root   root   4.0K Jun  1  2018 printer_hex_file
+drwxr-xr-x 12 root   root   4.0K Jun  4  2018 autoapn_5.0.2
+drwxr-xr-x 11 naresh naresh 4.0K Jun  6  2018 IMX25_AutoConnectivity_4.4_Only_GSM
+drwxr-xr-x  6 root   root   4.0K Jun 15  2018 ALL_CAMERA
+drwxr-xr-x  4 root   root   4.0K Jun 19  2018 refs
+drwxr-xr-x  2 root   root   4.0K Jun 19  2018 info
+drwxr-xr-x  2 root   root   4.0K Jun 19  2018 branches
+drwxr-xr-x  4 root   root   4.0K Jun 19  2018 objects
+drwxr-xr-x  3 root   root   4.0K Jun 22  2018 ssh_pos_on_pc
+drwxr-xr-x  6 root   root   4.0K Jun 25  2018 download_imx25
+drwxr-x--x  6 root   root   4.0K Jul  3  2018 Integrate_IMX6
+drwxr-xr-x  6 root   root   4.0K Jul  6  2018 patch
+drwx--x--x  6 naresh naresh 4.0K Jul 16  2018 GNANBHUMI
+drwxr-x--x  4 root   root   4.0K Jul 16  2018 Integrate_IMX25
+drwxr-xr-x  2 root   root   4.0K Jul 17  2018 hooks
+drwxrwxrwx  3 root   root   4.0K Jul 17  2018 1362
+drwxrwxrwx 33 naresh naresh 4.0K Jul 20  2018 1617
+drwxr-xr-x  5 root   root   4.0K Jul 28  2018 u03
+drwxrwxr-x  4 naresh naresh 4.0K Aug  3  2018 IMX6_FW_UPDATE
+drwxr-xr-x 27 naresh naresh 4.0K Aug  3  2018 linux-3.0.35_lcd
+-rwxr-xr-x  1 root   root   5.2K Aug  7  2018 killing
+-rw-r--r--  1 root   root    657 Aug  7  2018 Nating_from_internet.sh
+drwxr-xr-x  3 root   root   4.0K Aug  7  2018 TSTSTSTS
+-rw-r--r--  1 root   root     11 Aug  7  2018 sample.txt
+-rw-r--r--  1 naresh naresh  60K Aug  8  2018 uboot_password.tar.bz2
+drwxr-xr-x  2 root   root   4.0K Aug  8  2018 uboot-password
+drwxr-xr-x  4 root   root   4.0K Aug  9  2018 rd_patch
+-rw-r--r--  1 naresh naresh 2.3M Aug  9  2018 rd_init_patch.zip
+drwxr-xr-x  4 root   root   4.0K Aug 10  2018 PATCH_FOR_RUN_rhms
+drwxr-xr-x  3 root   root   4.0K Aug 14  2018 PATCH
+drwxr-xr-x  2 root   root   4.0K Aug 16  2018 lib_imx25
+-rwxr-xr-x  1 naresh naresh 1.5K Aug 16  2018 startx
+drwxr-xr-x  3 root   root   4.0K Aug 16  2018 KPDS-1.8
+-rw-r--r--  1 naresh naresh 151K Aug 17  2018 sdcard_software_loding
+-rwxr-xr-x  1 root   root    14K Aug 18  2018 setmachineid
+drwxr-xr-x  4 naresh naresh 4.0K Aug 18  2018 MLS
+drwxr-xr-x  4 naresh naresh 4.0K Aug 18  2018 rd_server_imx6
+drwxr-xr-x 24 naresh naresh 4.0K Aug 21  2018 RD_SERVICE
+drwxr-xr-x  4 root   root   4.0K Aug 21  2018 RAM_TEST
+-rw-r--r--  1 root   root      0 Aug 21  2018 mahesh_1604567856_21082018
+-rwxr-xr-x  1 root   root     37 Aug 24  2018 rhms
+drwxr-xr-x  4 root   root   4.0K Aug 24  2018 uploaded_to_PLM
+drwxrwxrwx  2 naresh naresh 4.0K Aug 25  2018 1137_511_449
+-rw-r--r--  1 root   root      0 Aug 28  2018 serial_1.1
+-rw-r--r--  1 root   root    803 Aug 28  2018 appdskrishna_rhms_problem_IDs
+-rwxrwxr-x  1 naresh naresh 207K Sep  3  2018 ZBARCAM-READER-0.2
+drwxr-xr-x  7 root   root   4.0K Sep  5  2018 diff
+-rw-r--r--  1 root   root     34 Sep  6  2018 mydata.txt
+-rw-r--r--  1 naresh naresh 2.6M Sep  6  2018 30042018_DPO_WLAN0_Batronics.tar.bz2
+-rw-r--r--  1 naresh naresh 2.6M Sep  6  2018 rt5370sta_src.tar.bz2
+drwxr-xr-x  6 root   root   4.0K Sep  6  2018 kernel_src
+-rw-r--r--  1 root   root   140M Sep  6  2018 linux-2.6.31_src_rt5370sta_src.zip
+-rw-r--r--  1 root   root    43K Sep 11  2018 out.log
+-rw-r--r--  1 naresh naresh 3.2M Sep 12  2018 temp-rootfs.IMG
+drwxr-xr-x  4 naresh naresh 4.0K Sep 12  2018 TEMP_ROOTFS
+drwxr-xr-x  4 naresh naresh 4.0K Sep 12  2018 GNOME
+drwxr-xr-x  3 naresh naresh 4.0K Sep 14  2018 IMX25_TEMPS
+drwxr-xr-x 18 naresh naresh 4.0K Sep 14  2018 temp_rootfs_reduced
+-rwxr-xr-x  1 root   root   3.6M Sep 14  2018 imx25_temp_rootfs.img
+-rw-r--r--  1 root   root    113 Sep 18  2018 temp_rootfs_cmd
+-rw-r--r--  1 root   root    142 Sep 18  2018 curl_command
+drw-r--r--  7 naresh naresh 4.0K Sep 18  2018 Firmware
+-rw-r--r--  1 root   root    313 Sep 20  2018 chits.c
+-rw-r--r--  1 root   root    28K Sep 24  2018 Download.tar.bz2
+-rw-r--r--  1 root   root    222 Sep 24  2018 appds_rhms_problem_IDs
+-rw-r--r--  1 naresh naresh  13K Sep 25  2018 imx_iocon.ko
+drwxr-xr-x  7 root   root   4.0K Sep 25  2018 mygit
+-rw-r--r--  1 root   root     73 Sep 25  2018 description
+drwxr-xr-x  2 root   root   4.0K Sep 25  2018 Desktop
+-rw-r--r--  1 root   root     23 Sep 25  2018 HEAD
+-rw-r--r--  1 root   root     66 Sep 25  2018 config
+-rwxr-xr-x  1 naresh naresh 214M Sep 25  2018 TT-Qt-4.7.4.tar.gz
+-rw-r--r--  1 naresh naresh 945M Sep 25  2018 freescale-35.tar.gz
+drwxr-xr-x  3 root   root   4.0K Sep 26  2018 APP_RHMS_BKP
+drwxr-xr-x  6 root   root   4.0K Sep 26  2018 APP_RHMS
+-rwxr-xr-x  1 naresh naresh   26 Sep 28  2018 usbsend
+drwxr-xr-x  3 root   root   4.0K Sep 29  2018 u-boot_src
+-rw-r--r--  1 root   root      0 Sep 29  2018 1557
+-rw-r--r--  1 root   root    377 Oct  1  2018 macid.c
+-rw-rw-r--  1 naresh naresh  24K Oct  1  2018 RHMS_review.xls
+-rw-r--r--  1 root   root   286M Oct  1  2018 RHMS_PROJECT.tar.bz2
+drwxr-xr-x  2 naresh naresh 4.0K Oct  1  2018 tftpboot
+-rwxrwxr-x  1 naresh naresh 129K Oct  1  2018 libgl11pos.so
+drwxr-xr-x  2 naresh naresh 4.0K Oct  1  2018 source
+drwxr-xr-x  4 naresh naresh 4.0K Oct  1  2018 client
+drwxr-xr-x 12 naresh naresh 4.0K Oct  3  2018 autoapn_5.0.7
+-rw-r--r--  1 root   root    521 Oct  3  2018 bill
+-rwxr-xr-x  1 root   root    37K Oct  5  2018 confi.db1
+-rw-r--r--  1 root   root   7.2K Oct  5  2018 bill.tar.bz2
+drwxrwxr-x 13 naresh naresh 4.0K Oct  6  2018 mosquitto-1.4.8
+-rw-r--r--  1 naresh naresh 5.2K Oct  6  2018 ares_dns.h
+-rw-r--r--  1 naresh naresh 4.7K Oct  6  2018 ares_rules.h
+-rw-r--r--  1 naresh naresh  20K Oct  6  2018 ares.h
+-rw-r--r--  1 naresh naresh  648 Oct  6  2018 ares_version.h
+-rw-r--r--  1 naresh naresh 4.1K Oct  6  2018 ares_build.h
+drwxr-xr-x  2 naresh naresh 4.0K Oct  6  2018 mytasks
+drwxrwxrwx  6 root   root   4.0K Oct  6  2018 From_ssh
+-rw-------  1 naresh naresh 4.3M Oct 10  2018 openssl-1.0.1e.tar.gz
+drwxr-xr-x 22 root   root   4.0K Oct 10  2018 openssl-1.0.1e
+drwxr-xr-x  5 root   root   4.0K Oct 10  2018 OPENSSL
+drwxr-xr-x  6 root   root   4.0K Oct 10  2018 OPI22
+-rwxr-xr-x  1 naresh naresh 124K Oct 10  2018 ls
+-rwxr-xr-x  1 root   root    283 Oct 10  2018 note
+drwxr-xr-x 10 root   root   4.0K Oct 10  2018 AMS
+-rw-r--r--  1 root   root   120K Oct 12  2018 Screenshot from 2018-10-12 11-02-02.png
+-rw-r--r--  1 root   root      0 Oct 12  2018 dummy
+-rw-r--r--  1 root   root   2.2K Oct 16  2018 xorg.conf.new
+-rw-r--r--  1 root   root     68 Oct 16  2018 start_pc
+-rwxr-xr-x  1 naresh naresh 9.7K Oct 16  2018 unity
+drwxr-xr-x  2 root   root   4.0K Oct 16  2018 ubuntu-session
+-rw-r--r--  1 root   root    534 Oct 16  2018 ubuntu-session.list
+-rw-r--r--  1 root   root    306 Oct 16  2018 ubuntu-session.md5sums
+-rw-r--r--  1 root   root      1 Oct 17  2018 install.sh
+drwx------  2 root   root   4.0K Oct 22  2018 Downloads
+drwxr-xr-x 17 root   root   4.0K Oct 22  2018 temp_rootf_fs_IMX6
+drwxr-xr-x  2 root   root   4.0K Oct 23 19:03 testing
+drwxrwxr-x  3 naresh naresh 4.0K Oct 25 12:17 allinfo
+-rwxr-xr-x  1 naresh naresh 101K Oct 25 15:38 autoapn
+-rwxr-xr-x  1 naresh naresh  65K Oct 26 15:02 unity-control-center
+drwxr-xr-x  3 root   root   4.0K Oct 26 15:22 unitycontrol
+drwxr-xr-x  3 root   root   4.0K Oct 26 17:01 snap
+drwxr-xr-x  2 root   root   4.0K Oct 29 12:41 myDrivers
+-rwxrwxr-x  1 naresh naresh  11K Oct 30 12:39 rhms_projects_updated_with_rdv1.7.1_220918.xls
+-rw-r--r--  1 root   root    880 Oct 30 14:18 config.txt
+drwxrwxr-x  2 root   root   4.0K Oct 31 16:00 allinfo1
+drwxrwxr-x  2 naresh naresh 4.0K Nov  8 11:13 daily_report
+drwxr-xr-x  5 root   root   4.0K Nov 14 10:03 kpds_virus_patch
+-rw-r--r--  1 root   root     89 Nov 17 14:52 k.sh
+drwxrwxr-x  3 root   root   4.0K Nov 20 14:56 Bluetooth
+-rw-r--r--  1 root   root   8.0K Nov 21 11:19 message_dbsample
+-rw-r--r--  1 root   root      0 Nov 21 15:17 adsplay_ver.conf
+-rw-r--r--  1 root   root    142 Nov 21 19:00 kk.c
+drwxr-xr-x  2 naresh naresh 4.0K Nov 22 16:46 ads_files
+-rw-r--r--  1 root   root   4.4K Nov 26 13:01 index.html
+-rwxr-xr-x  1 root   root    23K Nov 26 17:56 dmesg
+-rw-r--r--  1 root   root   3.8K Nov 27 11:47 SD.directory
+-rwxr-xr-x  1 naresh naresh  924 Nov 28 10:23 dev_info.c
+-rwxr-xr-x  1 root   root   1.6K Nov 30 14:50 build_maker_visiontek_1.1.sh
+-rw-r--r--  1 root   root     85 Dec 10 17:14 main_cvd.md5
+drwxr-xr-x 19 naresh naresh 4.0K Dec 11 11:24 Backup_bhargav
+-rw-r--r--  1 root   root     86 Dec 14 11:08 daily_cvd.md5
+-rw-r--r--  1 root   root    715 Dec 14 11:09 DAILY_CVD_CHECKSUM_UPLOAD.sh
+-rw-r--r--  1 root   root   1.2M Dec 20 09:49 lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+-rw-r--r--  1 root   root    105 Dec 20 14:41 RHMS_BACKUP_CMD.sh
+-rw-r--r--  1 root   root   1.7K Dec 21 09:53 REMOTE_STATUS.XML.~1~
+-rw-r--r--  1 root   root   1.8K Dec 21 09:53 remote_status.xml.~1~
+-rwxrwxrwx  1 root   root    21K Dec 22 17:54 DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+-rw-r--r--  1 root   root    16K Dec 27 14:17 kollam.txt
+-rw-r--r--  1 root   root    665 Dec 27 17:21 test_script_for_sdcard_1.0.sh
+-rw-r--r--  1 root   root    585 Dec 27 17:22 TEST_SCRIPT_FOR_SDCARD_SH.BKP
+-rw-r--r--  1 root   root    611 Dec 27 17:22 TEST_SCRIPT_FOR_SDCARD.SH
+-rw-r--r--  1 root   root   1.5K Dec 27 18:01 remote_status.xml_1170
+-rw-r--r--  1 root   root   3.1M Jan  3 20:08 appds_iritech_patch_01032019.tar.bz2
+-rw-r--r--  1 root   root    407 Jan  5 18:00 stcpt.sh
+-rw-r--r--  1 root   root   321K Jan  8 14:53 mk2120ul-mgmtserv.log
+-rw-r--r--  1 root   root   1.5K Jan  8 16:18 remote_status.xml
+-rw-r--r--  1 root   root    387 Jan 11 16:12 get_week_num.c
+-rw-r--r--  1 root   root   1.8K Jan 18 14:19 live_score.sh
+-rw-r--r--  1 root   root    106 Jan 18 14:36 score.sh
+-rw-r--r--  1 root   root    288 Jan 18 15:20 run.sh.bkp
+-rw-r--r--  1 naresh naresh 5.8M Jan 18 15:54 94_patch_TLS.zip
+-rw-r--r--  1 root   root    270 Jan 19 10:08 xorg.conf.failsafe
+drwx------ 33 root   root   4.0K Jan 19 10:44 selfdiag_loadtest_final
+drwxrwxr-x  3 root   root   4.0K Jan 19 11:46 src
+-rw-r--r--  1 root   root    16K Jan 19 11:47 kollam.xls
+drwxrwxr-x  2 root   root   4.0K Jan 22 16:35 allinfo2
+-rw-r--r--  1 root   root    346 Jan 23 09:54 run.sh
+-rw-r--r--  1 root   root   107K Jan 23 10:51 p.txt
+-rw-r--r--  1 root   root   6.7K Jan 23 14:52 all.txt
+-rwxr-xr-x  1 root   root    32K Jan 23 15:14 DEREGISTER_700_FROM_PATCHTEST.xls
+-rw-r--r--  1 root   root      0 Jan 24 14:39 tutorial.c
+-rw-r--r--  1 root   root   4.9M Jan 24 15:36 TotalDevicesReport24-01-2019_tsts.xls
+drwxrwxrwx  5 root   root   4.0K Jan 28 12:55 GNANBHUMI1
+-rw-r--r--  1 root   root   462K Jan 29 18:00 MF1S50YYX_V1.pdf
+drwxr-xr-x  2 root   root   4.0K Jan 30 11:35 rfid_practise
+drwxr-xr-x  7 root   root   4.0K Feb  1 12:56 openssl
+-rw-r--r--  1 root   root    229 Feb  4 13:03 4g.txt
+-rw-r--r--  1 root   root    236 Feb  4 13:04 3g.txt
+-rw-r--r--  1 root   root    18K Feb  5 10:35 Download
+-rw-r--r--  1 root   root     13 Feb  5 12:01 problem_appds
+-rw-r--r--  1 root   root    11K Feb  5 15:21 Download_dbs
+-rw-r--r--  1 root   root     38 Feb  5 19:04 anydesk_taken_serial_ids.txt
+drwxr-xr-x  5 root   root   4.0K Feb  5 19:20 Imp_tars
+-rw-r--r--  1 root   root   3.4M Feb  7 10:15 DeviceDetails07-02-2019_hpds.xls
+drwxr-xr-x  2 root   root   4.0K Feb  8 11:14 json
+-rw-r--r--  1 root   root   903K Feb 12 09:59 mosquitto.tar.bz2
+-rw-r--r--  1 root   root   896K Feb 13 18:12 mosquitto_1.0_develp.tar.bz2
+drwxr-xr-x  4 root   root   4.0K Feb 13 20:00 REMOTE_CLIENT
+drwxr-xr-x  2 root   root   4.0K Feb 14 10:23 mosquitto
+-rw-r--r--  1 root   root   912K Feb 16 12:40 mosquitto_1.1_devolped.tar.bz2
+-rw-r--r--  1 root   root   926K Feb 16 17:31 patch.tar.bz2
+-rw-r--r--  1 root   root     48 Feb 16 17:31 patch.md5
+drwxr-xr-x  2 root   root   4.0K Feb 18 15:08 mosquitto_test_1.1
+drwxr-xr-x  3 root   root   4.0K Feb 18 18:33 mosquitto_test
+-rwxr-xr-x  1 root   root    985 Feb 19 09:30 agree
+drwxr-xr-x  2 root   root   4.0K Feb 21 16:05 tes
+-rw-r--r--  1 naresh naresh  46K Feb 22 09:57 imx6sl.dtsi
+-rw-r--r--  1 root   root      0 Feb 22 14:57 kk
+-rwxr-xr-x  1 root   root    11K Feb 25 10:07 PosDesk
+-rw-r--r--  1 naresh naresh 2.0K Feb 27 10:15 machineid1.c
+-rw-r--r--  1 root   root   8.4K Mar  1 09:58 DevInfo.c
+-rw-r--r--  1 root   root   1.9K Mar  2 13:59 occurence_report_1.0.sh
+dr-xr-xr-x 21 root   root   4.0K Mar  6 12:49 Fino-PPP-LIB
+drwxr-xr-x  5 naresh naresh 4.0K Mar  6 15:04 Notifier_1.2
+-rw-r--r--  1 root   root   5.1K Mar 14 12:11 l
+-rwxr-xr-x  1 root   root   4.6K Mar 19 14:05 update.sh
+-rw-r--r--  1 root   root   9.0K Mar 19 17:58 Dereg_From_patchtest_allversions_78nos_on_190319.xls
+-rw-r--r--  1 root   root    12K Mar 19 17:58 Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+-rwxrwxrwx  1 root   root   6.4M Mar 22 11:30 Foundations.of.Qt.Development.pdf
+-rwxr-xr-x  1 root   root   6.1M Mar 22 11:45 Qt_prgming_book.chm
+drwxr-xr-x  2 root   root   4.0K Mar 22 18:03 build-sample-pc-Debug
+drwxr-xr-x  2 root   root   4.0K Mar 22 18:14 sample
+drwxr-xr-x  3 naresh naresh 4.0K Mar 25 18:43 mosquitto_patch
+-rw-r--r--  1 root   root    17K Mar 28 09:59 Speedtest
+-rw-r--r--  1 root   root    17K Mar 28 10:00 Speed
+-rw-r--r--  1 root   root    197 Mar 28 12:22 out.txt
+-rwxr-xr-x  1 root   root    557 Mar 28 17:57 PosDesk.sh
+drwxr-xr-x  4 root   root   4.0K Mar 29 15:58 xml
+drwxr-xr-x 10 naresh naresh 4.0K Apr  1 10:13 RHMS_PROJECT
+dr-x------ 12 naresh naresh 4.0K Apr  1 15:08 DOWNLOAD_PROJECT
+-rwxr-xr-x  1 root   root    15K Apr  3 17:58 CmsUpdate
+-rw-r--r--  1 root   root      0 Apr  8 12:17 KKK.txt
+drwxr-xr-x  3 root   root   4.0K Apr 16 12:03 displayImage_SRC
+drwxr-xr-x 17 root   root   4.0K Apr 16 12:28 taking_backup
+drwxr-xr-x  2 root   root   4.0K Apr 16 12:54 from_kermit
+drwxr-xr-x 19 root   root   4.0K Apr 22 15:10 myp
+
+
+Time: [ 15:40:40 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 3189 pts/1    00:00:00 sudo
+ 3190 pts/1    00:00:00 su
+ 3191 pts/1    00:00:00 bash
+ 8379 pts/1    00:00:00 a.out
+ 8396 pts/1    00:00:00 sh
+ 8397 pts/1    00:00:00 ps
+
+
+Time: [ 15:40:41 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 3189 pts/1    00:00:00 sudo
+ 3190 pts/1    00:00:00 su
+ 3191 pts/1    00:00:00 bash
+ 8379 pts/1    00:00:00 a.out
+ 8398 pts/1    00:00:00 sh
+ 8399 pts/1    00:00:00 ps
+
+
+Time: [ 15:40:42 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 3189 pts/1    00:00:00 sudo
+ 3190 pts/1    00:00:00 su
+ 3191 pts/1    00:00:00 bash
+ 8379 pts/1    00:00:00 a.out
+ 8400 pts/1    00:00:00 sh
+ 8401 pts/1    00:00:00 ps
+
+
+Time: [ 15:40:43 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 3189 pts/1    00:00:00 sudo
+ 3190 pts/1    00:00:00 su
+ 3191 pts/1    00:00:00 bash
+ 8379 pts/1    00:00:00 a.out
+ 8402 pts/1    00:00:00 sh
+ 8403 pts/1    00:00:00 ps
+
+
+Time: [ 15:40:44 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 3189 pts/1    00:00:00 sudo
+ 3190 pts/1    00:00:00 su
+ 3191 pts/1    00:00:00 bash
+ 8379 pts/1    00:00:00 a.out
+ 8404 pts/1    00:00:00 sh
+ 8405 pts/1    00:00:00 ps
+
+******* WELCOME PosDesk and PcDesk  Date: [ 23-04-2019 ]	 Time: [ 15:42:35 ] *******
+
+
+Time: [ 15:43:04 ]	Command: [ ls ]	Status: [ Success ]
+1137_511_449
+1362
+1557
+1617
+30042018_DPO_WLAN0_Batronics.tar.bz2
+3g.txt
+4g.txt
+94_patch_TLS.zip
+ads_files
+adsplay_ver.conf
+agree
+ALL_CAMERA
+allinfo
+allinfo1
+allinfo2
+all.txt
+AMS
+anydesk_taken_serial_ids.txt
+appds_iritech_patch_01032019.tar.bz2
+appdskrishna_rhms_problem_IDs
+appds_rhms_problem_IDs
+APP_RHMS
+APP_RHMS_BKP
+ares_build.h
+ares_dns.h
+ares.h
+ares_rules.h
+ares_version.h
+autoapn
+autoapn_5.0.2
+autoapn_5.0.7
+Backup_bhargav
+bill
+bill.tar.bz2
+Bluetooth
+branches
+build_maker_visiontek_1.1.sh
+buildroot-2017.02.10
+build-sample-pc-Debug
+chits.c
+client
+CmsUpdate
+confi.db1
+config
+config.txt
+curl_command
+DAILY_CVD_CHECKSUM_UPLOAD.sh
+daily_cvd.md5
+daily_report
+Dereg_From_patchtest_allversions_78nos_on_190319.xls
+DEREGISTER_700_FROM_PATCHTEST.xls
+DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+description
+Desktop
+DeviceDetails07-02-2019_hpds.xls
+dev_info.c
+DevInfo.c
+diff
+displayImage_SRC
+dmesg
+Download
+Download_dbs
+download_imx25
+DOWNLOAD_PROJECT
+Downloads
+Download.tar.bz2
+dummy
+Fino-PPP-LIB
+Firmware
+Foundations.of.Qt.Development.pdf
+freescale-35.tar.gz
+from_kermit
+From_ssh
+get_week_num.c
+gl11_gsm_send_read_SMS
+GNANBHUMI
+GNANBHUMI1
+GNOME
+HEAD
+hooks
+Imp_tars
+IMX25_AutoConnectivity_4.4_Only_GSM
+imx25_temp_rootfs.img
+IMX25_TEMPS
+IMX6_FW_UPDATE
+imx6sl.dtsi
+imx_iocon.ko
+index.html
+info
+install.sh
+Integrate_IMX25
+Integrate_IMX6
+isu80.1
+isu80.2
+json
+kernel_src
+killing
+kk
+kk.c
+KKK.txt
+kollam.txt
+kollam.xls
+KPDS-1.8
+kpds_virus_patch
+k.sh
+l
+libgl11pos.so
+lib_imx25
+linux-2.6.31_src_rt5370sta_src.zip
+linux-3.0.35_lcd
+live_score.sh
+lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+ls
+machineid1.c
+macid.c
+mahesh_1604567856_21082018
+main_cvd.md5
+message_app_1.0
+message_dbsample
+MF1S50YYX_V1.pdf
+mk2120ul-mgmtserv.log
+MLS
+mmc
+mosquitto
+mosquitto_1.0_develp.tar.bz2
+mosquitto_1.1_devolped.tar.bz2
+mosquitto-1.4.8
+mosquitto_patch
+mosquitto.tar.bz2
+mosquitto_test
+mosquitto_test_1.1
+mydata.txt
+myDrivers
+mygit
+myp
+mytasks
+Nating_from_internet.sh
+new_src
+note
+Notifier_1.2
+objects
+occurence_report_1.0.sh
+openssl
+OPENSSL
+openssl-1.0.1e
+openssl-1.0.1e.tar.gz
+opentftp
+OPI22
+out.log
+out.txt
+patch
+PATCH
+PATCH_FOR_RUN_rhms
+patch.md5
+patch.tar.bz2
+PosDesk
+PosDesk.sh
+printer_hex_file
+problem_appds
+p.txt
+Qt_prgming_book.chm
+RAM_TEST
+rd_init_patch.zip
+rd_patch
+rd_server_imx6
+RD_SERVICE
+Read_Write_Contact
+refs
+Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+REMOTE_CLIENT
+remote_status.xml
+remote_status.xml.~1~
+REMOTE_STATUS.XML.~1~
+remote_status.xml_1170
+rfid_practise
+rhms
+RHMS_BACKUP_CMD.sh
+RHMS_PROJECT
+rhms_projects_updated_with_rdv1.7.1_220918.xls
+RHMS_PROJECT.tar.bz2
+RHMS_review.xls
+rt5370sta_src.tar.bz2
+run.sh
+run.sh.bkp
+sample
+sample.txt
+score.sh
+Screenshot from 2018-10-12 11-02-02.png
+sdcard_software_loding
+SD.directory
+SDK
+selfdiag_loadtest_final
+serial_1.1
+setmachineid
+snap
+source
+Speed
+Speedtest
+src
+ssh_pos_on_pc
+start_pc
+startx
+stcpt.sh
+taking_backup
+temp_rootf_fs_IMX6
+TEMP_ROOTFS
+temp_rootfs_cmd
+temp-rootfs.IMG
+temp_rootfs_reduced
+tes
+testing
+test_script_for_sdcard_1.0.sh
+TEST_SCRIPT_FOR_SDCARD.SH
+TEST_SCRIPT_FOR_SDCARD_SH.BKP
+tftpboot
+TotalDevicesReport24-01-2019_tsts.xls
+TSTSTSTS
+TT-Qt-4.7.4.tar.gz
+tutorial.c
+u03
+uboot-password
+uboot_password.tar.bz2
+u-boot_src
+ubuntu-session
+ubuntu-session.list
+ubuntu-session.md5sums
+unity
+unitycontrol
+unity-control-center
+update.sh
+uploaded_to_PLM
+usbsend
+xml
+xorg.conf.failsafe
+xorg.conf.new
+ZBARCAM-READER-0.2
+
+
+Time: [ 15:43:08 ]	Command: [ #exit3 ]	Status: [ Success ]
+
+******* WELCOME PosDesk and PcDesk  Date: [ 23-04-2019 ]	 Time: [ 15:43:16 ] *******
+
+Time out, some thing late processing with client
+
+******* WELCOME PosDesk and PcDesk  Date: [ 23-04-2019 ]	 Time: [ 18:31:40 ] *******
+
+
+Time: [ 18:31:44 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 3189 pts/1    00:00:00 sudo
+ 3190 pts/1    00:00:00 su
+ 3191 pts/1    00:00:01 bash
+10127 pts/1    00:00:00 a.out
+10136 pts/1    00:00:00 sh
+10137 pts/1    00:00:00 ps
+
+
+Time: [ 18:31:45 ]	Command: [ ls ]	Status: [ Success ]
+1137_511_449
+1362
+1557
+1617
+30042018_DPO_WLAN0_Batronics.tar.bz2
+3g.txt
+4g.txt
+94_patch_TLS.zip
+ads_files
+adsplay_ver.conf
+agree
+ALL_CAMERA
+allinfo
+allinfo1
+allinfo2
+all.txt
+AMS
+anydesk_taken_serial_ids.txt
+appds_iritech_patch_01032019.tar.bz2
+appdskrishna_rhms_problem_IDs
+appds_rhms_problem_IDs
+APP_RHMS
+APP_RHMS_BKP
+ares_build.h
+ares_dns.h
+ares.h
+ares_rules.h
+ares_version.h
+autoapn
+autoapn_5.0.2
+autoapn_5.0.7
+Backup_bhargav
+bill
+bill.tar.bz2
+Bluetooth
+branches
+build_maker_visiontek_1.1.sh
+buildroot-2017.02.10
+build-sample-pc-Debug
+chits.c
+client
+CmsUpdate
+confi.db1
+config
+config.txt
+curl_command
+DAILY_CVD_CHECKSUM_UPLOAD.sh
+daily_cvd.md5
+daily_report
+Dereg_From_patchtest_allversions_78nos_on_190319.xls
+DEREGISTER_700_FROM_PATCHTEST.xls
+DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+description
+Desktop
+DeviceDetails07-02-2019_hpds.xls
+dev_info.c
+DevInfo.c
+diff
+displayImage_SRC
+dmesg
+Download
+Download_dbs
+download_imx25
+DOWNLOAD_PROJECT
+Downloads
+Download.tar.bz2
+dummy
+Fino-PPP-LIB
+Firmware
+Foundations.of.Qt.Development.pdf
+freescale-35.tar.gz
+from_kermit
+From_ssh
+get_week_num.c
+gl11_gsm_send_read_SMS
+GNANBHUMI
+GNANBHUMI1
+GNOME
+HEAD
+hooks
+Imp_tars
+IMX25_AutoConnectivity_4.4_Only_GSM
+imx25_temp_rootfs.img
+IMX25_TEMPS
+IMX6_FW_UPDATE
+imx6sl.dtsi
+imx_iocon.ko
+index.html
+info
+install.sh
+Integrate_IMX25
+Integrate_IMX6
+isu80.1
+isu80.2
+json
+kernel_src
+killing
+kk
+kk.c
+KKK.txt
+kollam.txt
+kollam.xls
+KPDS-1.8
+kpds_virus_patch
+k.sh
+l
+libgl11pos.so
+lib_imx25
+linux-2.6.31_src_rt5370sta_src.zip
+linux-3.0.35_lcd
+live_score.sh
+lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+ls
+machineid1.c
+macid.c
+mahesh_1604567856_21082018
+main_cvd.md5
+message_app_1.0
+message_dbsample
+MF1S50YYX_V1.pdf
+mk2120ul-mgmtserv.log
+MLS
+mmc
+mosquitto
+mosquitto_1.0_develp.tar.bz2
+mosquitto_1.1_devolped.tar.bz2
+mosquitto-1.4.8
+mosquitto_patch
+mosquitto.tar.bz2
+mosquitto_test
+mosquitto_test_1.1
+mydata.txt
+myDrivers
+mygit
+myp
+mytasks
+Nating_from_internet.sh
+new_src
+note
+Notifier_1.2
+objects
+occurence_report_1.0.sh
+openssl
+OPENSSL
+openssl-1.0.1e
+openssl-1.0.1e.tar.gz
+opentftp
+OPI22
+out.log
+out.txt
+patch
+PATCH
+PATCH_FOR_RUN_rhms
+patch.md5
+patch.tar.bz2
+PosDesk
+PosDesk.sh
+printer_hex_file
+problem_appds
+p.txt
+Qt_prgming_book.chm
+RAM_TEST
+rd_init_patch.zip
+rd_patch
+rd_server_imx6
+RD_SERVICE
+Read_Write_Contact
+refs
+Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+REMOTE_CLIENT
+remote_status.xml
+remote_status.xml.~1~
+REMOTE_STATUS.XML.~1~
+remote_status.xml_1170
+rfid_practise
+rhms
+RHMS_BACKUP_CMD.sh
+RHMS_PROJECT
+rhms_projects_updated_with_rdv1.7.1_220918.xls
+RHMS_PROJECT.tar.bz2
+RHMS_review.xls
+rt5370sta_src.tar.bz2
+run.sh
+run.sh.bkp
+sample
+sample.txt
+score.sh
+Screenshot from 2018-10-12 11-02-02.png
+sdcard_software_loding
+SD.directory
+SDK
+selfdiag_loadtest_final
+serial_1.1
+setmachineid
+snap
+source
+Speed
+Speedtest
+src
+ssh_pos_on_pc
+start_pc
+startx
+stcpt.sh
+taking_backup
+temp_rootf_fs_IMX6
+TEMP_ROOTFS
+temp_rootfs_cmd
+temp-rootfs.IMG
+temp_rootfs_reduced
+tes
+testing
+test_script_for_sdcard_1.0.sh
+TEST_SCRIPT_FOR_SDCARD.SH
+TEST_SCRIPT_FOR_SDCARD_SH.BKP
+tftpboot
+TotalDevicesReport24-01-2019_tsts.xls
+TSTSTSTS
+TT-Qt-4.7.4.tar.gz
+tutorial.c
+u03
+uboot-password
+uboot_password.tar.bz2
+u-boot_src
+ubuntu-session
+ubuntu-session.list
+ubuntu-session.md5sums
+unity
+unitycontrol
+unity-control-center
+update.sh
+uploaded_to_PLM
+usbsend
+xml
+xorg.conf.failsafe
+xorg.conf.new
+ZBARCAM-READER-0.2
+
+
+Time: [ 18:31:47 ]	Command: [ top ]	Status: [ Success ]
+[?1h=[?25l[H[2J(B[mtop - 18:31:48 up  8:56,  1 user,  load average: 0.32, 0.28, 0.21(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 237 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 200 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 14.1 (B[m[39;49mus,(B[m[39;49m[1m  3.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 82.0 (B[m[39;49mid,(B[m[39;49m[1m  0.7 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   873884 (B[m[39;49mfree,(B[m[39;49m[1m  1157332 (B[m[39;49mused,(B[m[39;49m[1m  1877072 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2554056 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND     (B[m[39;49m[K
+(B[m 2619 naresh    20   0 1817744 261508  84232 S  35.3  6.7  92:11.08 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S  11.8  2.7  29:56.29 Xorg        (B[m[39;49m[K
+(B[m[1m10141 root      20   0   41932   3940   3280 R  11.8  0.1   0:00.03 top         (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   5.9  0.0   0:14.48 rcu_sched   (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.06 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K
+(B[m   16 root      20   0       0      0      0 S   0.0  0.0   0:00.44 ksoftirqd/1 (B[m[39;49m[K[H(B[mtop - 18:31:51 up  8:56,  1 user,  load average: 0.32, 0.28, 0.21(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 237 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 200 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 12.3 (B[m[39;49mus,(B[m[39;49m[1m  2.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 85.5 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   873976 (B[m[39;49mfree,(B[m[39;49m[1m  1157236 (B[m[39;49mused,(B[m[39;49m[1m  1877076 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2554152 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S  20.5  6.7  92:11.70 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   7.3  2.7  29:56.51 Xorg        (B[m[39;49m[K
+(B[m 2919 naresh    20   0  739292  45776  28120 S   1.0  1.2   3:28.83 gnome-term+ (B[m[39;49m[K
+(B[m 2269 naresh    20   0  355696   8836   5688 S   0.3  0.2   1:53.16 ibus-daemon (B[m[39;49m[K
+(B[m[1m10141 root      20   0   41900   4012   3280 R   0.3  0.1   0:00.04 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.48 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.06 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K[H(B[mtop - 18:31:54 up  8:56,  1 user,  load average: 0.29, 0.28, 0.21(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m 11.4 (B[m[39;49mus,(B[m[39;49m[1m  2.1 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 86.1 (B[m[39;49mid,(B[m[39;49m[1m  0.3 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   873976 (B[m[39;49mfree,(B[m[39;49m[1m  1157224 (B[m[39;49mused,(B[m[39;49m[1m  1877088 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2554160 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S  18.9  6.7  92:12.27 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   6.3  2.7  29:56.70 Xorg        (B[m[39;49m[K
+(B[m[1m10141 root      20   0   41900   4012   3280 R   0.7  0.1   0:00.06 top         (B[m[39;49m[K
+(B[m 2919 naresh    20   0  739292  45776  28120 S   0.3  1.2   3:28.84 gnome-term+ (B[m[39;49m[K
+(B[m 3553 mosquit+  20   0   32480   5040   4500 S   0.3  0.1   0:11.46 mosquitto   (B[m[39;49m[K
+
+
+
+
+
+
+
+
+
+
+
+[H(B[mtop - 18:31:57 up  8:56,  1 user,  load average: 0.29, 0.28, 0.21(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m 11.5 (B[m[39;49mus,(B[m[39;49m[1m  1.8 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 86.2 (B[m[39;49mid,(B[m[39;49m[1m  0.5 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   874092 (B[m[39;49mfree,(B[m[39;49m[1m  1157100 (B[m[39;49mused,(B[m[39;49m[1m  1877096 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2554276 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S  18.8  6.7  92:12.84 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   6.9  2.7  29:56.91 Xorg        (B[m[39;49m[K
+(B[m 2919 naresh    20   0  739292  45776  28120 S   0.7  1.2   3:28.86 gnome-term+ (B[m[39;49m[K
+(B[m[1m10141 root      20   0   41900   4012   3280 R   0.7  0.1   0:00.08 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.48 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.06 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K[H(B[mtop - 18:32:00 up  8:56,  1 user,  load average: 0.27, 0.27, 0.21(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 237 (B[m[39;49mtotal,(B[m[39;49m[1m   2 (B[m[39;49mrunning,(B[m[39;49m[1m 199 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 16.3 (B[m[39;49mus,(B[m[39;49m[1m  2.8 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 80.9 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   873920 (B[m[39;49mfree,(B[m[39;49m[1m  1157268 (B[m[39;49mused,(B[m[39;49m[1m  1877100 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2554120 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S  25.8  6.7  92:13.62 compiz      (B[m[39;49m[K
+(B[m[1m 1162 root      20   0  555000 105880  42232 R   8.9  2.7  29:57.18 Xorg        (B[m[39;49m[K
+(B[m 2919 naresh    20   0  739292  45776  28120 S   1.0  1.2   3:28.89 gnome-term+ (B[m[39;49m[K
+(B[m 2269 naresh    20   0  355696   8836   5688 S   0.7  0.2   1:53.18 ibus-daemon (B[m[39;49m[K
+(B[m 2293 naresh    20   0  472008  34620  24228 S   0.7  0.9   0:33.05 ibus-ui-gt+ (B[m[39;49m[K
+(B[m 3553 mosquit+  20   0   32480   5040   4500 S   0.3  0.1   0:11.47 mosquitto   (B[m[39;49m[K
+(B[m 9518 root      20   0       0      0      0 I   0.3  0.0   0:03.76 kworker/0:1 (B[m[39;49m[K
+(B[m[1m10141 root      20   0   41900   4012   3280 R   0.3  0.1   0:00.09 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.48 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.06 watchdog/0  (B[m[39;49m[K[H(B[mtop - 18:32:03 up  8:56,  1 user,  load average: 0.25, 0.27, 0.21(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 237 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 200 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 10.8 (B[m[39;49mus,(B[m[39;49m[1m  2.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 86.4 (B[m[39;49mid,(B[m[39;49m[1m  0.5 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   873920 (B[m[39;49mfree,(B[m[39;49m[1m  1157252 (B[m[39;49mused,(B[m[39;49m[1m  1877116 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2554132 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S  18.9  6.7  92:14.19 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   5.6  2.7  29:57.35 Xorg        (B[m[39;49m[K
+(B[m 2919 naresh    20   0  739292  45776  28120 S   0.7  1.2   3:28.91 gnome-term+ (B[m[39;49m[K
+(B[m 1056 root      20   0  407000  16724  13680 S   0.3  0.4   0:01.01 NetworkMan+ (B[m[39;49m[K
+(B[m 2269 naresh    20   0  355696   8836   5688 S   0.3  0.2   1:53.19 ibus-daemon (B[m[39;49m[K
+(B[m 2293 naresh    20   0  472008  34620  24228 S   0.3  0.9   0:33.06 ibus-ui-gt+ (B[m[39;49m[K
+(B[m[1m10141 root      20   0   41900   4012   3280 R   0.3  0.1   0:00.10 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.48 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.06 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K[H(B[mtop - 18:32:06 up  8:56,  1 user,  load average: 0.25, 0.27, 0.21(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 237 (B[m[39;49mtotal,(B[m[39;49m[1m   4 (B[m[39;49mrunning,(B[m[39;49m[1m 198 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 16.8 (B[m[39;49mus,(B[m[39;49m[1m  2.7 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 80.5 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   874100 (B[m[39;49mfree,(B[m[39;49m[1m  1157076 (B[m[39;49mused,(B[m[39;49m[1m  1877112 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2554312 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m[1m 2619 naresh    20   0 1817744 261508  84232 R  23.9  6.7  92:14.91 compiz      (B[m[39;49m[K
+(B[m[1m 1162 root      20   0  555000 105880  42232 R  10.0  2.7  29:57.65 Xorg        (B[m[39;49m[K
+(B[m 2269 naresh    20   0  355696   8836   5688 S   2.0  0.2   1:53.25 ibus-daemon (B[m[39;49m[K
+(B[m 2919 naresh    20   0  739292  45776  28120 S   1.3  1.2   3:28.95 gnome-term+ (B[m[39;49m[K
+(B[m 2293 naresh    20   0  472008  34620  24228 S   1.0  0.9   0:33.09 ibus-ui-gt+ (B[m[39;49m[K
+(B[m[1m10141 root      20   0   41900   4012   3280 R   0.7  0.1   0:00.12 top         (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.3  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m 2373 naresh    20   0  197776   6540   5896 S   0.3  0.2   0:32.55 ibus-engin+ (B[m[39;49m[K
+(B[m 2791 naresh    20   0  405304  22556  19376 S   0.3  0.6   0:00.77 hud-service (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m[1m    8 root      20   0       0      0      0 R   0.0  0.0   0:14.48 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K[H(B[mtop - 18:32:09 up  8:56,  1 user,  load average: 0.23, 0.26, 0.21(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 237 (B[m[39;49mtotal,(B[m[39;49m[1m   2 (B[m[39;49mrunning,(B[m[39;49m[1m 199 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 11.3 (B[m[39;49mus,(B[m[39;49m[1m  2.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 85.2 (B[m[39;49mid,(B[m[39;49m[1m  1.3 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   873968 (B[m[39;49mfree,(B[m[39;49m[1m  1157196 (B[m[39;49mused,(B[m[39;49m[1m  1877124 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2554184 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m[1m 2619 naresh    20   0 1817744 261508  84232 R  19.2  6.7  92:15.49 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   7.0  2.7  29:57.86 Xorg        (B[m[39;49m[K
+(B[m 2919 naresh    20   0  739292  45776  28120 S   0.7  1.2   3:28.97 gnome-term+ (B[m[39;49m[K
+(B[m 1133 root      20   0  867448  19792  15660 S   0.3  0.5   0:01.18 anydesk     (B[m[39;49m[K
+(B[m10070 root      20   0       0      0      0 I   0.3  0.0   0:00.66 kworker/1:2 (B[m[39;49m[K
+(B[m[1m10141 root      20   0   41900   4012   3280 R   0.3  0.1   0:00.13 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.48 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K[H(B[mtop - 18:32:12 up  8:56,  1 user,  load average: 0.23, 0.26, 0.21(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 237 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 200 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 12.0 (B[m[39;49mus,(B[m[39;49m[1m  2.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 86.0 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   874044 (B[m[39;49mfree,(B[m[39;49m[1m  1157116 (B[m[39;49mused,(B[m[39;49m[1m  1877128 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2554260 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S  19.9  6.7  92:16.09 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   7.0  2.7  29:58.07 Xorg        (B[m[39;49m[K
+(B[m 2919 naresh    20   0  739292  45776  28120 S   0.7  1.2   3:28.99 gnome-term+ (B[m[39;49m[K
+(B[m[1m10141 root      20   0   41900   4012   3280 R   0.3  0.1   0:00.14 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.48 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K[H(B[mtop - 18:32:15 up  8:56,  1 user,  load average: 0.21, 0.26, 0.21(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m 11.6 (B[m[39;49mus,(B[m[39;49m[1m  2.5 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 85.5 (B[m[39;49mid,(B[m[39;49m[1m  0.5 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   873944 (B[m[39;49mfree,(B[m[39;49m[1m  1157204 (B[m[39;49mused,(B[m[39;49m[1m  1877140 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2554160 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S  19.3  6.7  92:16.67 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   7.0  2.7  29:58.28 Xorg        (B[m[39;49m[K
+(B[m 2919 naresh    20   0  739292  45776  28120 S   0.7  1.2   3:29.01 gnome-term+ (B[m[39;49m[K
+(B[m[1m10141 root      20   0   41900   4012   3280 R   0.7  0.1   0:00.16 top         (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.3  0.0   0:14.49 rcu_sched   (B[m[39;49m[K
+(B[m 1059 root      20   0 1142768  21592  11584 S   0.3  0.6   0:04.20 snapd       (B[m[39;49m[K
+(B[m 9518 root      20   0       0      0      0 I   0.3  0.0   0:03.77 kworker/0:1 (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K[H(B[mtop - 18:32:18 up  8:56,  1 user,  load average: 0.19, 0.25, 0.21(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m 13.9 (B[m[39;49mus,(B[m[39;49m[1m  2.5 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 83.4 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   871156 (B[m[39;49mfree,(B[m[39;49m[1m  1159992 (B[m[39;49mused,(B[m[39;49m[1m  1877140 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2552552 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S  19.9  6.7  92:17.27 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   7.0  2.7  29:58.49 Xorg        (B[m[39;49m[K
+(B[m 9666 naresh    20   0 2569080 282664 130044 S   1.7  7.2   0:36.60 firefox     (B[m[39;49m[K
+(B[m 2269 naresh    20   0  355696   8836   5688 S   1.0  0.2   1:53.28 ibus-daemon (B[m[39;49m[K
+(B[m 2919 naresh    20   0  739292  45776  28120 S   1.0  1.2   3:29.04 gnome-term+ (B[m[39;49m[K
+(B[m 9719 naresh    20   0 1764060 190708 107332 S   1.0  4.9   0:11.81 Web Content (B[m[39;49m[K
+(B[m 2293 naresh    20   0  472008  34620  24228 S   0.7  0.9   0:33.11 ibus-ui-gt+ (B[m[39;49m[K
+(B[m[1m10141 root      20   0   41900   4012   3280 R   0.3  0.1   0:00.17 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.49 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[KKilled
+
+
+Time: [ 18:32:30 ]	Command: [ ls ]	Status: [ Success ]
+1137_511_449
+1362
+1557
+1617
+30042018_DPO_WLAN0_Batronics.tar.bz2
+3g.txt
+4g.txt
+94_patch_TLS.zip
+ads_files
+adsplay_ver.conf
+agree
+ALL_CAMERA
+allinfo
+allinfo1
+allinfo2
+all.txt
+AMS
+anydesk_taken_serial_ids.txt
+appds_iritech_patch_01032019.tar.bz2
+appdskrishna_rhms_problem_IDs
+appds_rhms_problem_IDs
+APP_RHMS
+APP_RHMS_BKP
+ares_build.h
+ares_dns.h
+ares.h
+ares_rules.h
+ares_version.h
+autoapn
+autoapn_5.0.2
+autoapn_5.0.7
+Backup_bhargav
+bill
+bill.tar.bz2
+Bluetooth
+branches
+build_maker_visiontek_1.1.sh
+buildroot-2017.02.10
+build-sample-pc-Debug
+chits.c
+client
+CmsUpdate
+confi.db1
+config
+config.txt
+curl_command
+DAILY_CVD_CHECKSUM_UPLOAD.sh
+daily_cvd.md5
+daily_report
+Dereg_From_patchtest_allversions_78nos_on_190319.xls
+DEREGISTER_700_FROM_PATCHTEST.xls
+DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+description
+Desktop
+DeviceDetails07-02-2019_hpds.xls
+dev_info.c
+DevInfo.c
+diff
+displayImage_SRC
+dmesg
+Download
+Download_dbs
+download_imx25
+DOWNLOAD_PROJECT
+Downloads
+Download.tar.bz2
+dummy
+Fino-PPP-LIB
+Firmware
+Foundations.of.Qt.Development.pdf
+freescale-35.tar.gz
+from_kermit
+From_ssh
+get_week_num.c
+gl11_gsm_send_read_SMS
+GNANBHUMI
+GNANBHUMI1
+GNOME
+HEAD
+hooks
+Imp_tars
+IMX25_AutoConnectivity_4.4_Only_GSM
+imx25_temp_rootfs.img
+IMX25_TEMPS
+IMX6_FW_UPDATE
+imx6sl.dtsi
+imx_iocon.ko
+index.html
+info
+install.sh
+Integrate_IMX25
+Integrate_IMX6
+isu80.1
+isu80.2
+json
+kernel_src
+killing
+kk
+kk.c
+KKK.txt
+kollam.txt
+kollam.xls
+KPDS-1.8
+kpds_virus_patch
+k.sh
+l
+libgl11pos.so
+lib_imx25
+linux-2.6.31_src_rt5370sta_src.zip
+linux-3.0.35_lcd
+live_score.sh
+lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+ls
+machineid1.c
+macid.c
+mahesh_1604567856_21082018
+main_cvd.md5
+message_app_1.0
+message_dbsample
+MF1S50YYX_V1.pdf
+mk2120ul-mgmtserv.log
+MLS
+mmc
+mosquitto
+mosquitto_1.0_develp.tar.bz2
+mosquitto_1.1_devolped.tar.bz2
+mosquitto-1.4.8
+mosquitto_patch
+mosquitto.tar.bz2
+mosquitto_test
+mosquitto_test_1.1
+mydata.txt
+myDrivers
+mygit
+myp
+mytasks
+Nating_from_internet.sh
+new_src
+note
+Notifier_1.2
+objects
+occurence_report_1.0.sh
+openssl
+OPENSSL
+openssl-1.0.1e
+openssl-1.0.1e.tar.gz
+opentftp
+OPI22
+out.log
+out.txt
+patch
+PATCH
+PATCH_FOR_RUN_rhms
+patch.md5
+patch.tar.bz2
+PosDesk
+PosDesk.sh
+printer_hex_file
+problem_appds
+p.txt
+Qt_prgming_book.chm
+RAM_TEST
+rd_init_patch.zip
+rd_patch
+rd_server_imx6
+RD_SERVICE
+Read_Write_Contact
+refs
+Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+REMOTE_CLIENT
+remote_status.xml
+remote_status.xml.~1~
+REMOTE_STATUS.XML.~1~
+remote_status.xml_1170
+rfid_practise
+rhms
+RHMS_BACKUP_CMD.sh
+RHMS_PROJECT
+rhms_projects_updated_with_rdv1.7.1_220918.xls
+RHMS_PROJECT.tar.bz2
+RHMS_review.xls
+rt5370sta_src.tar.bz2
+run.sh
+run.sh.bkp
+sample
+sample.txt
+score.sh
+Screenshot from 2018-10-12 11-02-02.png
+sdcard_software_loding
+SD.directory
+SDK
+selfdiag_loadtest_final
+serial_1.1
+setmachineid
+snap
+source
+Speed
+Speedtest
+src
+ssh_pos_on_pc
+start_pc
+startx
+stcpt.sh
+taking_backup
+temp_rootf_fs_IMX6
+TEMP_ROOTFS
+temp_rootfs_cmd
+temp-rootfs.IMG
+temp_rootfs_reduced
+tes
+testing
+test_script_for_sdcard_1.0.sh
+TEST_SCRIPT_FOR_SDCARD.SH
+TEST_SCRIPT_FOR_SDCARD_SH.BKP
+tftpboot
+TotalDevicesReport24-01-2019_tsts.xls
+TSTSTSTS
+TT-Qt-4.7.4.tar.gz
+tutorial.c
+u03
+uboot-password
+uboot_password.tar.bz2
+u-boot_src
+ubuntu-session
+ubuntu-session.list
+ubuntu-session.md5sums
+unity
+unitycontrol
+unity-control-center
+update.sh
+uploaded_to_PLM
+usbsend
+xml
+xorg.conf.failsafe
+xorg.conf.new
+ZBARCAM-READER-0.2
+
+
+Time: [ 18:32:32 ]	Command: [ ls ]	Status: [ Success ]
+1137_511_449
+1362
+1557
+1617
+30042018_DPO_WLAN0_Batronics.tar.bz2
+3g.txt
+4g.txt
+94_patch_TLS.zip
+ads_files
+adsplay_ver.conf
+agree
+ALL_CAMERA
+allinfo
+allinfo1
+allinfo2
+all.txt
+AMS
+anydesk_taken_serial_ids.txt
+appds_iritech_patch_01032019.tar.bz2
+appdskrishna_rhms_problem_IDs
+appds_rhms_problem_IDs
+APP_RHMS
+APP_RHMS_BKP
+ares_build.h
+ares_dns.h
+ares.h
+ares_rules.h
+ares_version.h
+autoapn
+autoapn_5.0.2
+autoapn_5.0.7
+Backup_bhargav
+bill
+bill.tar.bz2
+Bluetooth
+branches
+build_maker_visiontek_1.1.sh
+buildroot-2017.02.10
+build-sample-pc-Debug
+chits.c
+client
+CmsUpdate
+confi.db1
+config
+config.txt
+curl_command
+DAILY_CVD_CHECKSUM_UPLOAD.sh
+daily_cvd.md5
+daily_report
+Dereg_From_patchtest_allversions_78nos_on_190319.xls
+DEREGISTER_700_FROM_PATCHTEST.xls
+DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+description
+Desktop
+DeviceDetails07-02-2019_hpds.xls
+dev_info.c
+DevInfo.c
+diff
+displayImage_SRC
+dmesg
+Download
+Download_dbs
+download_imx25
+DOWNLOAD_PROJECT
+Downloads
+Download.tar.bz2
+dummy
+Fino-PPP-LIB
+Firmware
+Foundations.of.Qt.Development.pdf
+freescale-35.tar.gz
+from_kermit
+From_ssh
+get_week_num.c
+gl11_gsm_send_read_SMS
+GNANBHUMI
+GNANBHUMI1
+GNOME
+HEAD
+hooks
+Imp_tars
+IMX25_AutoConnectivity_4.4_Only_GSM
+imx25_temp_rootfs.img
+IMX25_TEMPS
+IMX6_FW_UPDATE
+imx6sl.dtsi
+imx_iocon.ko
+index.html
+info
+install.sh
+Integrate_IMX25
+Integrate_IMX6
+isu80.1
+isu80.2
+json
+kernel_src
+killing
+kk
+kk.c
+KKK.txt
+kollam.txt
+kollam.xls
+KPDS-1.8
+kpds_virus_patch
+k.sh
+l
+libgl11pos.so
+lib_imx25
+linux-2.6.31_src_rt5370sta_src.zip
+linux-3.0.35_lcd
+live_score.sh
+lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+ls
+machineid1.c
+macid.c
+mahesh_1604567856_21082018
+main_cvd.md5
+message_app_1.0
+message_dbsample
+MF1S50YYX_V1.pdf
+mk2120ul-mgmtserv.log
+MLS
+mmc
+mosquitto
+mosquitto_1.0_develp.tar.bz2
+mosquitto_1.1_devolped.tar.bz2
+mosquitto-1.4.8
+mosquitto_patch
+mosquitto.tar.bz2
+mosquitto_test
+mosquitto_test_1.1
+mydata.txt
+myDrivers
+mygit
+myp
+mytasks
+Nating_from_internet.sh
+new_src
+note
+Notifier_1.2
+objects
+occurence_report_1.0.sh
+openssl
+OPENSSL
+openssl-1.0.1e
+openssl-1.0.1e.tar.gz
+opentftp
+OPI22
+out.log
+out.txt
+patch
+PATCH
+PATCH_FOR_RUN_rhms
+patch.md5
+patch.tar.bz2
+PosDesk
+PosDesk.sh
+printer_hex_file
+problem_appds
+p.txt
+Qt_prgming_book.chm
+RAM_TEST
+rd_init_patch.zip
+rd_patch
+rd_server_imx6
+RD_SERVICE
+Read_Write_Contact
+refs
+Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+REMOTE_CLIENT
+remote_status.xml
+remote_status.xml.~1~
+REMOTE_STATUS.XML.~1~
+remote_status.xml_1170
+rfid_practise
+rhms
+RHMS_BACKUP_CMD.sh
+RHMS_PROJECT
+rhms_projects_updated_with_rdv1.7.1_220918.xls
+RHMS_PROJECT.tar.bz2
+RHMS_review.xls
+rt5370sta_src.tar.bz2
+run.sh
+run.sh.bkp
+sample
+sample.txt
+score.sh
+Screenshot from 2018-10-12 11-02-02.png
+sdcard_software_loding
+SD.directory
+SDK
+selfdiag_loadtest_final
+serial_1.1
+setmachineid
+snap
+source
+Speed
+Speedtest
+src
+ssh_pos_on_pc
+start_pc
+startx
+stcpt.sh
+taking_backup
+temp_rootf_fs_IMX6
+TEMP_ROOTFS
+temp_rootfs_cmd
+temp-rootfs.IMG
+temp_rootfs_reduced
+tes
+testing
+test_script_for_sdcard_1.0.sh
+TEST_SCRIPT_FOR_SDCARD.SH
+TEST_SCRIPT_FOR_SDCARD_SH.BKP
+tftpboot
+TotalDevicesReport24-01-2019_tsts.xls
+TSTSTSTS
+TT-Qt-4.7.4.tar.gz
+tutorial.c
+u03
+uboot-password
+uboot_password.tar.bz2
+u-boot_src
+ubuntu-session
+ubuntu-session.list
+ubuntu-session.md5sums
+unity
+unitycontrol
+unity-control-center
+update.sh
+uploaded_to_PLM
+usbsend
+xml
+xorg.conf.failsafe
+xorg.conf.new
+ZBARCAM-READER-0.2
+
+
+Time: [ 18:32:43 ]	Command: [ top ]	Status: [ Success ]
+[?1h=[?25l[H[2J(B[mtop - 18:32:43 up  8:57,  1 user,  load average: 0.12, 0.23, 0.20(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 237 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 200 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 14.1 (B[m[39;49mus,(B[m[39;49m[1m  3.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 82.0 (B[m[39;49mid,(B[m[39;49m[1m  0.7 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864336 (B[m[39;49mfree,(B[m[39;49m[1m  1166716 (B[m[39;49mused,(B[m[39;49m[1m  1877236 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2545828 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND     (B[m[39;49m[K
+(B[m 2619 naresh    20   0 1817744 261508  84232 S  55.6  6.7  92:20.19 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S  16.7  2.7  29:59.65 Xorg        (B[m[39;49m[K
+(B[m[1m10150 root      20   0   41932   3904   3248 R   5.6  0.1   0:00.02 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.50 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K
+(B[m   16 root      20   0       0      0      0 S   0.0  0.0   0:00.44 ksoftirqd/1 (B[m[39;49m[K[H(B[mtop - 18:32:46 up  8:57,  1 user,  load average: 0.12, 0.23, 0.20(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 237 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 200 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.2 (B[m[39;49mus,(B[m[39;49m[1m  0.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.2 (B[m[39;49mid,(B[m[39;49m[1m  1.5 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864212 (B[m[39;49mfree,(B[m[39;49m[1m  1166824 (B[m[39;49mused,(B[m[39;49m[1m  1877252 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2545704 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m[1m10150 root      20   0   41900   3976   3248 R   1.0  0.1   0:00.05 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.50 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K
+(B[m   16 root      20   0       0      0      0 S   0.0  0.0   0:00.44 ksoftirqd/1 (B[m[39;49m[K
+(B[m   18 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/1:+ (B[m[39;49m[K
+(B[m   19 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K[H(B[mtop - 18:32:49 up  8:57,  1 user,  load average: 0.11, 0.23, 0.20(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.2 (B[m[39;49mus,(B[m[39;49m[1m  0.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864212 (B[m[39;49mfree,(B[m[39;49m[1m  1166820 (B[m[39;49mused,(B[m[39;49m[1m  1877256 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.7  0.1   0:00.07 top         (B[m[39;49m[K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[H(B[mtop - 18:32:52 up  8:57,  1 user,  load average: 0.11, 0.23, 0.20(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.0 (B[m[39;49mus,(B[m[39;49m[1m  0.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.0 (B[m[39;49mid,(B[m[39;49m[1m  0.7 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.7  0.1   0:00.09 top         (B[m[39;49m[K
+(B[m  242 root      20   0       0      0      0 S   0.3  0.0   0:00.81 jbd2/sda5-8 (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.50 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K
+(B[m   16 root      20   0       0      0      0 S   0.0  0.0   0:00.44 ksoftirqd/1 (B[m[39;49m[K
+(B[m   18 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/1:+ (B[m[39;49m[K[H(B[mtop - 18:32:55 up  8:57,  1 user,  load average: 0.10, 0.22, 0.20(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  2.6 (B[m[39;49mus,(B[m[39;49m[1m  0.8 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 96.5 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864212 (B[m[39;49mfree,(B[m[39;49m[1m  1166808 (B[m[39;49mused,(B[m[39;49m[1m  1877268 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S   4.0  6.7  92:20.31 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   1.3  2.7  29:59.69 Xorg        (B[m[39;49m[K
+(B[m 9518 root      20   0       0      0      0 I   0.3  0.0   0:03.79 kworker/0:1 (B[m[39;49m[K
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.3  0.1   0:00.10 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.50 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K[H(B[mtop - 18:32:58 up  8:57,  1 user,  load average: 0.10, 0.22, 0.19(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.0 (B[m[39;49mus,(B[m[39;49m[1m  0.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.2 (B[m[39;49mid,(B[m[39;49m[1m  0.5 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864212 (B[m[39;49mfree,(B[m[39;49m[1m  1166800 (B[m[39;49mused,(B[m[39;49m[1m  1877276 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2545740 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.7  0.1   0:00.12 top         (B[m[39;49m[K
+(B[m10070 root      20   0       0      0      0 I   0.3  0.0   0:00.68 kworker/1:2 (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.50 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K
+(B[m   16 root      20   0       0      0      0 S   0.0  0.0   0:00.44 ksoftirqd/1 (B[m[39;49m[K
+(B[m   18 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/1:+ (B[m[39;49m[K[H(B[mtop - 18:33:01 up  8:57,  1 user,  load average: 0.10, 0.22, 0.19(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.7 (B[m[39;49mus,(B[m[39;49m[1m  0.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.8 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864212 (B[m[39;49mfree,(B[m[39;49m[1m  1166796 (B[m[39;49mused,(B[m[39;49m[1m  1877280 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S   1.0  6.7  92:20.34 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   0.3  2.7  29:59.70 Xorg        (B[m[39;49m[K
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.3  0.1   0:00.13 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.50 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K
+(B[m   16 root      20   0       0      0      0 S   0.0  0.0   0:00.44 ksoftirqd/1 (B[m[39;49m[K[H(B[mtop - 18:33:04 up  8:57,  1 user,  load average: 0.09, 0.22, 0.19(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  2.7 (B[m[39;49mus,(B[m[39;49m[1m  0.5 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 96.3 (B[m[39;49mid,(B[m[39;49m[1m  0.5 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864336 (B[m[39;49mfree,(B[m[39;49m[1m  1166668 (B[m[39;49mused,(B[m[39;49m[1m  1877284 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2545868 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S   4.0  6.7  92:20.46 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   1.7  2.7  29:59.75 Xorg        (B[m[39;49m[K
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.7  0.1   0:00.15 top         (B[m[39;49m[K
+(B[m 2919 naresh    20   0  739292  45776  28120 S   0.3  1.2   3:29.30 gnome-term+ (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.50 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K[H(B[mtop - 18:33:07 up  8:57,  1 user,  load average: 0.09, 0.22, 0.19(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.2 (B[m[39;49mus,(B[m[39;49m[1m  0.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864212 (B[m[39;49mfree,(B[m[39;49m[1m  1166784 (B[m[39;49mused,(B[m[39;49m[1m  1877292 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2545744 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.7  0.1   0:00.17 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.50 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K
+(B[m   16 root      20   0       0      0      0 S   0.0  0.0   0:00.44 ksoftirqd/1 (B[m[39;49m[K
+(B[m   18 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/1:+ (B[m[39;49m[K
+(B[m   19 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K[H(B[mtop - 18:33:10 up  8:57,  1 user,  load average: 0.08, 0.21, 0.19(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.0 (B[m[39;49mus,(B[m[39;49m[1m  0.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.3 (B[m[39;49mid,(B[m[39;49m[1m  0.5 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864212 (B[m[39;49mfree,(B[m[39;49m[1m  1166780 (B[m[39;49mused,(B[m[39;49m[1m  1877296 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.7  0.1   0:00.19 top         (B[m[39;49m[K
+(B[m 1643 rtkit     21   1  183504   2896   2628 S   0.3  0.1   0:00.27 rtkit-daem+ (B[m[39;49m[K
+(B[m 2619 naresh    20   0 1817744 261508  84232 S   0.3  6.7  92:20.47 compiz      (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.50 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K
+(B[m   16 root      20   0       0      0      0 S   0.0  0.0   0:00.44 ksoftirqd/1 (B[m[39;49m[K[H(B[mtop - 18:33:13 up  8:57,  1 user,  load average: 0.07, 0.21, 0.19(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  4.1 (B[m[39;49mus,(B[m[39;49m[1m  0.7 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 95.0 (B[m[39;49mid,(B[m[39;49m[1m  0.2 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864212 (B[m[39;49mfree,(B[m[39;49m[1m  1166768 (B[m[39;49mused,(B[m[39;49m[1m  1877308 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2545776 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S   6.0  6.7  92:20.65 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   2.3  2.7  29:59.82 Xorg        (B[m[39;49m[K
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.7  0.1   0:00.21 top         (B[m[39;49m[K
+
+
+
+
+
+
+
+
+
+
+
+
+
+[H(B[mtop - 18:33:16 up  8:57,  1 user,  load average: 0.07, 0.21, 0.19(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  2.8 (B[m[39;49mus,(B[m[39;49m[1m  0.5 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 96.2 (B[m[39;49mid,(B[m[39;49m[1m  0.5 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864212 (B[m[39;49mfree,(B[m[39;49m[1m  1166760 (B[m[39;49mused,(B[m[39;49m[1m  1877316 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S   4.0  6.7  92:20.77 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   2.0  2.7  29:59.88 Xorg        (B[m[39;49m[K
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.7  0.1   0:00.23 top         (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.3  0.0   0:14.51 rcu_sched   (B[m[39;49m[K
+(B[m 2919 naresh    20   0  739292  45776  28120 S   0.3  1.2   3:29.31 gnome-term+ (B[m[39;49m[K
+(B[m10127 root      20   0    4516   1816   1716 S   0.3  0.0   0:00.01 a.out       (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K[H(B[mtop - 18:33:19 up  8:57,  1 user,  load average: 0.07, 0.20, 0.19(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.2 (B[m[39;49mus,(B[m[39;49m[1m  0.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m 2464 naresh    20   0  981628  32248  24320 S   0.3  0.8   0:05.18 unity-sett+ (B[m[39;49m[K
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.3  0.1   0:00.24 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.51 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K
+(B[m   16 root      20   0       0      0      0 S   0.0  0.0   0:00.44 ksoftirqd/1 (B[m[39;49m[K
+(B[m   18 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/1:+ (B[m[39;49m[K[H(B[mtop - 18:33:22 up  8:57,  1 user,  load average: 0.07, 0.20, 0.19(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.2 (B[m[39;49mus,(B[m[39;49m[1m  0.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.0 (B[m[39;49mid,(B[m[39;49m[1m  0.5 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864212 (B[m[39;49mfree,(B[m[39;49m[1m  1166756 (B[m[39;49mused,(B[m[39;49m[1m  1877320 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.7  0.1   0:00.26 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.51 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K
+(B[m   16 root      20   0       0      0      0 S   0.0  0.0   0:00.44 ksoftirqd/1 (B[m[39;49m[K
+(B[m   18 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/1:+ (B[m[39;49m[K
+(B[m   19 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K[H(B[mtop - 18:33:25 up  8:57,  1 user,  load average: 0.06, 0.20, 0.19(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  2.7 (B[m[39;49mus,(B[m[39;49m[1m  0.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 97.0 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864212 (B[m[39;49mfree,(B[m[39;49m[1m  1166744 (B[m[39;49mused,(B[m[39;49m[1m  1877332 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S   4.0  6.7  92:20.89 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   1.7  2.7  29:59.93 Xorg        (B[m[39;49m[K
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.7  0.1   0:00.28 top         (B[m[39;49m[K
+(B[m 9518 root      20   0       0      0      0 I   0.3  0.0   0:03.80 kworker/0:1 (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.51 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K[H(B[mtop - 18:33:28 up  8:57,  1 user,  load average: 0.06, 0.20, 0.18(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.2 (B[m[39;49mus,(B[m[39;49m[1m  0.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.2 (B[m[39;49mid,(B[m[39;49m[1m  0.5 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864088 (B[m[39;49mfree,(B[m[39;49m[1m  1166860 (B[m[39;49mused,(B[m[39;49m[1m  1877340 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2545684 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.7  0.1   0:00.30 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.51 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K
+(B[m   16 root      20   0       0      0      0 S   0.0  0.0   0:00.44 ksoftirqd/1 (B[m[39;49m[K
+(B[m   18 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/1:+ (B[m[39;49m[K
+(B[m   19 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K[H(B[mtop - 18:33:31 up  8:57,  1 user,  load average: 0.06, 0.20, 0.18(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.0 (B[m[39;49mus,(B[m[39;49m[1m  0.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864088 (B[m[39;49mfree,(B[m[39;49m[1m  1166856 (B[m[39;49mused,(B[m[39;49m[1m  1877344 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.7  0.1   0:00.32 top         (B[m[39;49m[K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[H(B[mtop - 18:33:34 up  8:57,  1 user,  load average: 0.05, 0.19, 0.18(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  3.0 (B[m[39;49mus,(B[m[39;49m[1m  0.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 96.0 (B[m[39;49mid,(B[m[39;49m[1m  0.7 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864088 (B[m[39;49mfree,(B[m[39;49m[1m  1166848 (B[m[39;49mused,(B[m[39;49m[1m  1877352 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S   4.3  6.7  92:21.02 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   1.3  2.7  29:59.97 Xorg        (B[m[39;49m[K
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.7  0.1   0:00.34 top         (B[m[39;49m[K
+(B[m 2919 naresh    20   0  739292  45776  28120 S   0.3  1.2   3:29.32 gnome-term+ (B[m[39;49m[K
+(B[m 3553 mosquit+  20   0   32480   5040   4500 S   0.3  0.1   0:11.49 mosquitto   (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.51 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K[H(B[mtop - 18:33:37 up  8:58,  1 user,  load average: 0.05, 0.19, 0.18(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  5.3 (B[m[39;49mus,(B[m[39;49m[1m  1.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 93.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864088 (B[m[39;49mfree,(B[m[39;49m[1m  1166844 (B[m[39;49mused,(B[m[39;49m[1m  1877356 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S   8.3  6.7  92:21.27 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   3.6  2.7  30:00.08 Xorg        (B[m[39;49m[K
+(B[m 2502 naresh    20   0  714604  27860  20088 S   0.3  0.7   0:00.60 indicator-+ (B[m[39;49m[K
+(B[m 2628 naresh    20   0  785660  34356  25200 S   0.3  0.9   0:03.75 unity-pane+ (B[m[39;49m[K
+(B[m 2919 naresh    20   0  739292  45776  28120 S   0.3  1.2   3:29.33 gnome-term+ (B[m[39;49m[K
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.3  0.1   0:00.35 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.51 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K[H(B[mtop - 18:33:40 up  8:58,  1 user,  load average: 0.05, 0.19, 0.18(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  9.7 (B[m[39;49mus,(B[m[39;49m[1m  1.7 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 88.4 (B[m[39;49mid,(B[m[39;49m[1m  0.3 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864212 (B[m[39;49mfree,(B[m[39;49m[1m  1166712 (B[m[39;49mused,(B[m[39;49m[1m  1877364 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2545832 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S  15.2  6.7  92:21.73 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   5.6  2.7  30:00.25 Xorg        (B[m[39;49m[K
+(B[m 2919 naresh    20   0  739292  45776  28120 S   0.7  1.2   3:29.35 gnome-term+ (B[m[39;49m[K
+(B[m  954 root      20   0  110512   3688   3340 S   0.3  0.1   0:02.51 irqbalance  (B[m[39;49m[K
+(B[m 2269 naresh    20   0  355696   8836   5688 S   0.3  0.2   1:53.40 ibus-daemon (B[m[39;49m[K
+(B[m 2293 naresh    20   0  472008  34620  24228 S   0.3  0.9   0:33.17 ibus-ui-gt+ (B[m[39;49m[K
+(B[m10070 root      20   0       0      0      0 I   0.3  0.0   0:00.69 kworker/1:2 (B[m[39;49m[K
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.3  0.1   0:00.36 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.51 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K[H(B[mtop - 18:33:43 up  8:58,  1 user,  load average: 0.04, 0.19, 0.18(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  9.1 (B[m[39;49mus,(B[m[39;49m[1m  1.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 89.4 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   864088 (B[m[39;49mfree,(B[m[39;49m[1m  1166832 (B[m[39;49mused,(B[m[39;49m[1m  1877368 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2545712 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261508  84232 S  13.6  6.7  92:22.14 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 105880  42232 S   5.3  2.7  30:00.41 Xorg        (B[m[39;49m[K
+(B[m 2919 naresh    20   0  739292  45776  28120 S   0.7  1.2   3:29.37 gnome-term+ (B[m[39;49m[K
+(B[m[1m10150 root      20   0   41900   3976   3248 R   0.3  0.1   0:00.37 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.88 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.36 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.51 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[KKilled
+
+******* WELCOME PosDesk and PcDesk  Date: [ 23-04-2019 ]	 Time: [ 18:41:42 ] *******
+
+
+Time: [ 18:41:45 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 5198 pts/4    00:00:00 sudo
+ 5199 pts/4    00:00:00 su
+ 5200 pts/4    00:00:00 bash
+10267 pts/4    00:00:00 a.out
+10276 pts/4    00:00:00 sh
+10277 pts/4    00:00:00 ps
+
+
+Time: [ 18:41:50 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 5198 pts/4    00:00:00 sudo
+ 5199 pts/4    00:00:00 su
+ 5200 pts/4    00:00:00 bash
+10267 pts/4    00:00:00 a.out
+10278 pts/4    00:00:00 sh
+10279 pts/4    00:00:00 ps
+
+
+Time: [ 18:41:51 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+ 5198 pts/4    00:00:00 sudo
+ 5199 pts/4    00:00:00 su
+ 5200 pts/4    00:00:00 bash
+10267 pts/4    00:00:00 a.out
+10280 pts/4    00:00:00 sh
+10281 pts/4    00:00:00 ps
+
+
+Time: [ 18:41:53 ]	Command: [ top ]	Status: [ Success ]
+[?1h=[?25l[H[2J(B[mtop - 18:41:54 up  9:06,  1 user,  load average: 0.52, 0.36, 0.24(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 236 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 197 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 14.1 (B[m[39;49mus,(B[m[39;49m[1m  3.1 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 82.1 (B[m[39;49mid,(B[m[39;49m[1m  0.7 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   814544 (B[m[39;49mfree,(B[m[39;49m[1m  1166908 (B[m[39;49mused,(B[m[39;49m[1m  1926836 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2552484 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND     (B[m[39;49m[K
+(B[m[1m10283 root      20   0   41932   3768   3116 R   5.9  0.1   0:00.02 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.90 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.37 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.68 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.06 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K
+(B[m   16 root      20   0       0      0      0 S   0.0  0.0   0:00.45 ksoftirqd/1 (B[m[39;49m[K
+(B[m   18 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/1:+ (B[m[39;49m[K
+(B[m   19 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K[H(B[mtop - 18:41:57 up  9:06,  1 user,  load average: 0.52, 0.36, 0.24(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 236 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 197 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  3.8 (B[m[39;49mus,(B[m[39;49m[1m  0.8 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 94.9 (B[m[39;49mid,(B[m[39;49m[1m  0.5 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   814172 (B[m[39;49mfree,(B[m[39;49m[1m  1167272 (B[m[39;49mused,(B[m[39;49m[1m  1926844 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2552112 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261604  84232 S   6.6  6.7  93:38.24 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 106136  42488 S   2.0  2.7  30:27.85 Xorg        (B[m[39;49m[K
+(B[m[1m10283 root      20   0   41900   3840   3116 R   0.7  0.1   0:00.04 top         (B[m[39;49m[K
+(B[m 2919 naresh    20   0  740316  47168  28776 S   0.3  1.2   3:34.59 gnome-term+ (B[m[39;49m[K
+(B[m10220 root      20   0       0      0      0 I   0.3  0.0   0:00.03 kworker/1:0 (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.90 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.37 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.68 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.06 watchdog/1  (B[m[39;49m[K[H(B[mtop - 18:42:00 up  9:06,  1 user,  load average: 0.48, 0.35, 0.24(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  7.3 (B[m[39;49mus,(B[m[39;49m[1m  1.7 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 90.2 (B[m[39;49mid,(B[m[39;49m[1m  0.7 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   814172 (B[m[39;49mfree,(B[m[39;49m[1m  1167260 (B[m[39;49mused,(B[m[39;49m[1m  1926856 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2552124 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261604  84232 S  11.9  6.7  93:38.60 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 106136  42488 S   4.0  2.7  30:27.97 Xorg        (B[m[39;49m[K
+(B[m 9666 naresh    20   0 2585464 290144 130044 S   1.0  7.4   0:39.67 firefox     (B[m[39;49m[K
+(B[m[1m10283 root      20   0   41900   3840   3116 R   0.7  0.1   0:00.06 top         (B[m[39;49m[K
+(B[m 2269 naresh    20   0  355696   8836   5688 S   0.3  0.2   1:56.64 ibus-daemon (B[m[39;49m[K
+(B[m 2373 naresh    20   0  197776   6540   5896 S   0.3  0.2   0:33.46 ibus-engin+ (B[m[39;49m[K
+(B[m 2464 naresh    20   0  981628  32248  24320 S   0.3  0.8   0:05.28 unity-sett+ (B[m[39;49m[K
+(B[m 2919 naresh    20   0  740316  47168  28776 S   0.3  1.2   3:34.60 gnome-term+ (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.90 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.37 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.68 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K[H(B[mtop - 18:42:03 up  9:06,  1 user,  load average: 0.44, 0.35, 0.24(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  9.2 (B[m[39;49mus,(B[m[39;49m[1m  1.5 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 89.3 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   814172 (B[m[39;49mfree,(B[m[39;49m[1m  1167256 (B[m[39;49mused,(B[m[39;49m[1m  1926860 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m 2619 naresh    20   0 1817744 261604  84232 S  15.6  6.7  93:39.07 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 106136  42488 S   5.3  2.7  30:28.13 Xorg        (B[m[39;49m[K
+(B[m 2919 naresh    20   0  740316  47168  28776 S   0.7  1.2   3:34.62 gnome-term+ (B[m[39;49m[K
+(B[m 3553 mosquit+  20   0   32480   5040   4500 S   0.3  0.1   0:11.63 mosquitto   (B[m[39;49m[K
+(B[m 9518 root      20   0       0      0      0 I   0.3  0.0   0:04.10 kworker/0:1 (B[m[39;49m[K
+(B[m[1m10283 root      20   0   41900   3840   3116 R   0.3  0.1   0:00.07 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.90 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.37 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.68 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K[H(B[mtop - 18:42:06 up  9:06,  1 user,  load average: 0.44, 0.35, 0.24(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m 12.1 (B[m[39;49mus,(B[m[39;49m[1m  2.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 85.4 (B[m[39;49mid,(B[m[39;49m[1m  0.3 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   814140 (B[m[39;49mfree,(B[m[39;49m[1m  1167280 (B[m[39;49mused,(B[m[39;49m[1m  1926868 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2552192 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261604  84232 S  19.5  6.7  93:39.66 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 106136  42488 S   7.6  2.7  30:28.36 Xorg        (B[m[39;49m[K
+(B[m 2919 naresh    20   0  740316  47168  28776 S   0.3  1.2   3:34.63 gnome-term+ (B[m[39;49m[K
+(B[m 9666 naresh    20   0 2585464 290140 130044 S   0.3  7.4   0:39.68 firefox     (B[m[39;49m[K
+(B[m[1m10283 root      20   0   41900   3840   3116 R   0.3  0.1   0:00.08 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.90 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.37 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.68 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.06 watchdog/1  (B[m[39;49m[K[H(B[mtop - 18:42:09 up  9:06,  1 user,  load average: 0.57, 0.38, 0.25(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 236 (B[m[39;49mtotal,(B[m[39;49m[1m   3 (B[m[39;49mrunning,(B[m[39;49m[1m 196 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 17.6 (B[m[39;49mus,(B[m[39;49m[1m  3.8 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 78.5 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   814172 (B[m[39;49mfree,(B[m[39;49m[1m  1167244 (B[m[39;49mused,(B[m[39;49m[1m  1926872 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2552236 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261604  84232 S  27.2  6.7  93:40.48 compiz      (B[m[39;49m[K
+(B[m[1m 1162 root      20   0  555000 106136  42488 R  10.3  2.7  30:28.67 Xorg        (B[m[39;49m[K
+(B[m 2269 naresh    20   0  355696   8836   5688 S   1.7  0.2   1:56.69 ibus-daemon (B[m[39;49m[K
+(B[m 2919 naresh    20   0  740316  47168  28776 S   1.7  1.2   3:34.68 gnome-term+ (B[m[39;49m[K
+(B[m 2293 naresh    20   0  472008  34620  24228 S   1.3  0.9   0:34.29 ibus-ui-gt+ (B[m[39;49m[K
+(B[m[1m10283 root      20   0   41900   3840   3116 R   0.7  0.1   0:00.10 top         (B[m[39;49m[K
+(B[m 2373 naresh    20   0  197776   6540   5896 S   0.3  0.2   0:33.47 ibus-engin+ (B[m[39;49m[K
+(B[m 2628 naresh    20   0  785660  34356  25200 S   0.3  0.9   0:03.84 unity-pane+ (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.90 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.37 ksoftirqd/0 (B[m[39;49m[K
+(B[m[1m    8 root      20   0       0      0      0 R   0.0  0.0   0:14.68 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K[H(B[mtop - 18:42:12 up  9:06,  1 user,  load average: 0.57, 0.38, 0.25(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 236 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 197 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 19.8 (B[m[39;49mus,(B[m[39;49m[1m  4.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 75.2 (B[m[39;49mid,(B[m[39;49m[1m  0.7 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   814048 (B[m[39;49mfree,(B[m[39;49m[1m  1167356 (B[m[39;49mused,(B[m[39;49m[1m  1926884 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2552116 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261604  84232 S  29.2  6.7  93:41.36 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 106136  42488 S  10.3  2.7  30:28.98 Xorg        (B[m[39;49m[K
+(B[m 2269 naresh    20   0  355696   8836   5688 S   2.7  0.2   1:56.77 ibus-daemon (B[m[39;49m[K
+(B[m 2919 naresh    20   0  740316  47168  28776 S   2.0  1.2   3:34.74 gnome-term+ (B[m[39;49m[K
+(B[m 2293 naresh    20   0  472008  34620  24228 S   1.7  0.9   0:34.34 ibus-ui-gt+ (B[m[39;49m[K
+(B[m[1m10283 root      20   0   41900   3840   3116 R   0.7  0.1   0:00.12 top         (B[m[39;49m[K
+(B[m 2373 naresh    20   0  197776   6540   5896 S   0.3  0.2   0:33.48 ibus-engin+ (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.90 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.37 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.68 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K[H(B[mtop - 18:42:15 up  9:06,  1 user,  load average: 0.52, 0.37, 0.25(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 235 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 196 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 15.7 (B[m[39;49mus,(B[m[39;49m[1m  3.6 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 80.5 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   814304 (B[m[39;49mfree,(B[m[39;49m[1m  1167100 (B[m[39;49mused,(B[m[39;49m[1m  1926884 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2552380 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261604  84232 S  24.4  6.7  93:42.10 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 106136  42488 S   9.2  2.7  30:29.26 Xorg        (B[m[39;49m[K
+(B[m 2919 naresh    20   0  740316  47168  28776 S   1.3  1.2   3:34.78 gnome-term+ (B[m[39;49m[K
+(B[m 2269 naresh    20   0  355696   8836   5688 S   1.0  0.2   1:56.80 ibus-daemon (B[m[39;49m[K
+(B[m[1m10283 root      20   0   41900   3840   3116 R   0.7  0.1   0:00.14 top         (B[m[39;49m[K
+(B[m 1059 root      20   0 1142768  21592  11584 S   0.3  0.6   0:04.24 snapd       (B[m[39;49m[K
+(B[m 2373 naresh    20   0  197776   6540   5896 S   0.3  0.2   0:33.49 ibus-engin+ (B[m[39;49m[K
+(B[m 2470 naresh    20   0  434516  26012  18820 S   0.3  0.7   0:06.44 bamfdaemon  (B[m[39;49m[K
+(B[m 9518 root      20   0       0      0      0 I   0.3  0.0   0:04.11 kworker/0:1 (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.90 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.37 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.68 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K[H(B[mtop - 18:42:18 up  9:06,  1 user,  load average: 0.48, 0.36, 0.25(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m 10.1 (B[m[39;49mus,(B[m[39;49m[1m  2.6 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 86.8 (B[m[39;49mid,(B[m[39;49m[1m  0.5 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   814148 (B[m[39;49mfree,(B[m[39;49m[1m  1167080 (B[m[39;49mused,(B[m[39;49m[1m  1927060 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2552228 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261604  84232 S  14.0  6.7  93:42.52 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 106136  42488 S   5.0  2.7  30:29.41 Xorg        (B[m[39;49m[K
+(B[m 9666 naresh    20   0 2585464 290192 130044 S   1.7  7.4   0:39.73 firefox     (B[m[39;49m[K
+(B[m 2919 naresh    20   0  740316  47168  28776 S   1.0  1.2   3:34.81 gnome-term+ (B[m[39;49m[K
+(B[m 2269 naresh    20   0  355696   8836   5688 S   0.7  0.2   1:56.82 ibus-daemon (B[m[39;49m[K
+(B[m 2373 naresh    20   0  197776   6540   5896 S   0.3  0.2   0:33.50 ibus-engin+ (B[m[39;49m[K
+(B[m 2660 naresh    20   0  673096  35096  25868 S   0.3  0.9   0:00.86 nm-applet   (B[m[39;49m[K
+(B[m 9719 naresh    20   0 1764060 190968 107332 S   0.3  4.9   0:11.84 Web Content (B[m[39;49m[K
+(B[m10220 root      20   0       0      0      0 I   0.3  0.0   0:00.04 kworker/1:0 (B[m[39;49m[K
+(B[m[1m10283 root      20   0   41900   3840   3116 R   0.3  0.1   0:00.15 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.90 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.37 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.68 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K[H(B[mtop - 18:42:21 up  9:06,  1 user,  load average: 0.48, 0.36, 0.25(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m 15.7 (B[m[39;49mus,(B[m[39;49m[1m  3.6 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 80.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   814580 (B[m[39;49mfree,(B[m[39;49m[1m  1166792 (B[m[39;49mused,(B[m[39;49m[1m  1926916 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2552672 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261604  84232 S  24.8  6.7  93:43.27 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 106136  42488 S   8.9  2.7  30:29.68 Xorg        (B[m[39;49m[K
+(B[m 2919 naresh    20   0  740316  47168  28776 S   1.7  1.2   3:34.86 gnome-term+ (B[m[39;49m[K
+(B[m 2269 naresh    20   0  355696   8836   5688 S   1.0  0.2   1:56.85 ibus-daemon (B[m[39;49m[K
+(B[m[1m10283 root      20   0   41900   3840   3116 R   0.7  0.1   0:00.17 top         (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.3  0.0   0:14.69 rcu_sched   (B[m[39;49m[K
+(B[m 2373 naresh    20   0  197776   6540   5896 S   0.3  0.2   0:33.51 ibus-engin+ (B[m[39;49m[K
+(B[m    1 root      20   0  160304   9572   6712 S   0.0  0.2   0:02.90 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.37 ksoftirqd/0 (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K[H(B[mtop - 18:42:24 up  9:06,  1 user,  load average: 0.44, 0.36, 0.25(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 236 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 197 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 14.3 (B[m[39;49mus,(B[m[39;49m[1m  3.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 82.4 (B[m[39;49mid,(B[m[39;49m[1m  0.3 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   811044 (B[m[39;49mfree,(B[m[39;49m[1m  1170316 (B[m[39;49mused,(B[m[39;49m[1m  1926928 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2549140 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2619 naresh    20   0 1817744 261604  84232 S  22.2  6.7  93:43.94 compiz      (B[m[39;49m[K
+(B[m 1162 root      20   0  555000 106136  42488 S   7.6  2.7  30:29.91 Xorg        (B[m[39;49m[K
+(B[m 2919 naresh    20   0  740316  47168  28776 S   1.7  1.2   3:34.91 gnome-term+ (B[m[39;49m[K
+(B[m10285 root      20   0   55736   9648   6116 S   1.3  0.2   0:00.04 vi          (B[m[39;49m[K
+(B[m 2269 naresh    20   0  355696   8836   5688 S   0.7  0.2   1:56.87 ibus-daemon (B[m[39;49m[K
+(B[m[1m10283 root      20   0   41900   3840   3116 R   0.7  0.1   0:00.19 top         (B[m[39;49m[K
+(B[m 2293 naresh    20   0  472008  34620  24228 S   0.3  0.9   0:34.35 ibus-ui-gt+ (B[m[39;49m[K
+
+
+
+
+
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:14.69 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[KKilled
+
+******* WELCOME PosDesk and PcDesk  Date: [ 23-04-2019 ]	 Time: [ 18:46:32 ] *******
+
+
+Time: [ 18:46:40 ]	Command: [ ls ]	Status: [ Success ]
+1137_511_449
+1362
+1557
+1617
+30042018_DPO_WLAN0_Batronics.tar.bz2
+3g.txt
+4g.txt
+94_patch_TLS.zip
+ads_files
+adsplay_ver.conf
+agree
+ALL_CAMERA
+allinfo
+allinfo1
+allinfo2
+all.txt
+AMS
+anydesk_taken_serial_ids.txt
+appds_iritech_patch_01032019.tar.bz2
+appdskrishna_rhms_problem_IDs
+appds_rhms_problem_IDs
+APP_RHMS
+APP_RHMS_BKP
+ares_build.h
+ares_dns.h
+ares.h
+ares_rules.h
+ares_version.h
+autoapn
+autoapn_5.0.2
+autoapn_5.0.7
+Backup_bhargav
+bill
+bill.tar.bz2
+Bluetooth
+branches
+build_maker_visiontek_1.1.sh
+buildroot-2017.02.10
+build-sample-pc-Debug
+chits.c
+client
+CmsUpdate
+confi.db1
+config
+config.txt
+curl_command
+DAILY_CVD_CHECKSUM_UPLOAD.sh
+daily_cvd.md5
+daily_report
+Dereg_From_patchtest_allversions_78nos_on_190319.xls
+DEREGISTER_700_FROM_PATCHTEST.xls
+DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+description
+Desktop
+DeviceDetails07-02-2019_hpds.xls
+dev_info.c
+DevInfo.c
+diff
+displayImage_SRC
+dmesg
+Download
+Download_dbs
+download_imx25
+DOWNLOAD_PROJECT
+Downloads
+Download.tar.bz2
+dummy
+Fino-PPP-LIB
+Firmware
+Foundations.of.Qt.Development.pdf
+freescale-35.tar.gz
+from_kermit
+From_ssh
+get_week_num.c
+gl11_gsm_send_read_SMS
+GNANBHUMI
+GNANBHUMI1
+GNOME
+HEAD
+hooks
+Imp_tars
+IMX25_AutoConnectivity_4.4_Only_GSM
+imx25_temp_rootfs.img
+IMX25_TEMPS
+IMX6_FW_UPDATE
+imx6sl.dtsi
+imx_iocon.ko
+index.html
+info
+install.sh
+Integrate_IMX25
+Integrate_IMX6
+isu80.1
+isu80.2
+json
+kernel_src
+killing
+kk
+kk.c
+KKK.txt
+kollam.txt
+kollam.xls
+KPDS-1.8
+kpds_virus_patch
+k.sh
+l
+libgl11pos.so
+lib_imx25
+linux-2.6.31_src_rt5370sta_src.zip
+linux-3.0.35_lcd
+live_score.sh
+lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+ls
+machineid1.c
+macid.c
+mahesh_1604567856_21082018
+main_cvd.md5
+message_app_1.0
+message_dbsample
+MF1S50YYX_V1.pdf
+mk2120ul-mgmtserv.log
+MLS
+mmc
+mosquitto
+mosquitto_1.0_develp.tar.bz2
+mosquitto_1.1_devolped.tar.bz2
+mosquitto-1.4.8
+mosquitto_patch
+mosquitto.tar.bz2
+mosquitto_test
+mosquitto_test_1.1
+mydata.txt
+myDrivers
+mygit
+myp
+mytasks
+Nating_from_internet.sh
+new_src
+note
+Notifier_1.2
+objects
+occurence_report_1.0.sh
+openssl
+OPENSSL
+openssl-1.0.1e
+openssl-1.0.1e.tar.gz
+opentftp
+OPI22
+out.log
+out.txt
+patch
+PATCH
+PATCH_FOR_RUN_rhms
+patch.md5
+patch.tar.bz2
+PosDesk
+PosDesk.sh
+printer_hex_file
+problem_appds
+p.txt
+Qt_prgming_book.chm
+RAM_TEST
+rd_init_patch.zip
+rd_patch
+rd_server_imx6
+RD_SERVICE
+Read_Write_Contact
+refs
+Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+REMOTE_CLIENT
+remote_status.xml
+remote_status.xml.~1~
+REMOTE_STATUS.XML.~1~
+remote_status.xml_1170
+rfid_practise
+rhms
+RHMS_BACKUP_CMD.sh
+RHMS_PROJECT
+rhms_projects_updated_with_rdv1.7.1_220918.xls
+RHMS_PROJECT.tar.bz2
+RHMS_review.xls
+rt5370sta_src.tar.bz2
+run.sh
+run.sh.bkp
+sample
+sample.txt
+score.sh
+Screenshot from 2018-10-12 11-02-02.png
+sdcard_software_loding
+SD.directory
+SDK
+selfdiag_loadtest_final
+serial_1.1
+setmachineid
+snap
+source
+Speed
+Speedtest
+src
+ssh_pos_on_pc
+start_pc
+startx
+stcpt.sh
+taking_backup
+temp_rootf_fs_IMX6
+TEMP_ROOTFS
+temp_rootfs_cmd
+temp-rootfs.IMG
+temp_rootfs_reduced
+tes
+testing
+test_script_for_sdcard_1.0.sh
+TEST_SCRIPT_FOR_SDCARD.SH
+TEST_SCRIPT_FOR_SDCARD_SH.BKP
+tftpboot
+TotalDevicesReport24-01-2019_tsts.xls
+TSTSTSTS
+TT-Qt-4.7.4.tar.gz
+tutorial.c
+u03
+uboot-password
+uboot_password.tar.bz2
+u-boot_src
+ubuntu-session
+ubuntu-session.list
+ubuntu-session.md5sums
+unity
+unitycontrol
+unity-control-center
+update.sh
+uploaded_to_PLM
+usbsend
+xml
+xorg.conf.failsafe
+xorg.conf.new
+ZBARCAM-READER-0.2
+
+
+Time: [ 18:46:41 ]	Command: [ ls ]	Status: [ Success ]
+1137_511_449
+1362
+1557
+1617
+30042018_DPO_WLAN0_Batronics.tar.bz2
+3g.txt
+4g.txt
+94_patch_TLS.zip
+ads_files
+adsplay_ver.conf
+agree
+ALL_CAMERA
+allinfo
+allinfo1
+allinfo2
+all.txt
+AMS
+anydesk_taken_serial_ids.txt
+appds_iritech_patch_01032019.tar.bz2
+appdskrishna_rhms_problem_IDs
+appds_rhms_problem_IDs
+APP_RHMS
+APP_RHMS_BKP
+ares_build.h
+ares_dns.h
+ares.h
+ares_rules.h
+ares_version.h
+autoapn
+autoapn_5.0.2
+autoapn_5.0.7
+Backup_bhargav
+bill
+bill.tar.bz2
+Bluetooth
+branches
+build_maker_visiontek_1.1.sh
+buildroot-2017.02.10
+build-sample-pc-Debug
+chits.c
+client
+CmsUpdate
+confi.db1
+config
+config.txt
+curl_command
+DAILY_CVD_CHECKSUM_UPLOAD.sh
+daily_cvd.md5
+daily_report
+Dereg_From_patchtest_allversions_78nos_on_190319.xls
+DEREGISTER_700_FROM_PATCHTEST.xls
+DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+description
+Desktop
+DeviceDetails07-02-2019_hpds.xls
+dev_info.c
+DevInfo.c
+diff
+displayImage_SRC
+dmesg
+Download
+Download_dbs
+download_imx25
+DOWNLOAD_PROJECT
+Downloads
+Download.tar.bz2
+dummy
+Fino-PPP-LIB
+Firmware
+Foundations.of.Qt.Development.pdf
+freescale-35.tar.gz
+from_kermit
+From_ssh
+get_week_num.c
+gl11_gsm_send_read_SMS
+GNANBHUMI
+GNANBHUMI1
+GNOME
+HEAD
+hooks
+Imp_tars
+IMX25_AutoConnectivity_4.4_Only_GSM
+imx25_temp_rootfs.img
+IMX25_TEMPS
+IMX6_FW_UPDATE
+imx6sl.dtsi
+imx_iocon.ko
+index.html
+info
+install.sh
+Integrate_IMX25
+Integrate_IMX6
+isu80.1
+isu80.2
+json
+kernel_src
+killing
+kk
+kk.c
+KKK.txt
+kollam.txt
+kollam.xls
+KPDS-1.8
+kpds_virus_patch
+k.sh
+l
+libgl11pos.so
+lib_imx25
+linux-2.6.31_src_rt5370sta_src.zip
+linux-3.0.35_lcd
+live_score.sh
+lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+ls
+machineid1.c
+macid.c
+mahesh_1604567856_21082018
+main_cvd.md5
+message_app_1.0
+message_dbsample
+MF1S50YYX_V1.pdf
+mk2120ul-mgmtserv.log
+MLS
+mmc
+mosquitto
+mosquitto_1.0_develp.tar.bz2
+mosquitto_1.1_devolped.tar.bz2
+mosquitto-1.4.8
+mosquitto_patch
+mosquitto.tar.bz2
+mosquitto_test
+mosquitto_test_1.1
+mydata.txt
+myDrivers
+mygit
+myp
+mytasks
+Nating_from_internet.sh
+new_src
+note
+Notifier_1.2
+objects
+occurence_report_1.0.sh
+openssl
+OPENSSL
+openssl-1.0.1e
+openssl-1.0.1e.tar.gz
+opentftp
+OPI22
+out.log
+out.txt
+patch
+PATCH
+PATCH_FOR_RUN_rhms
+patch.md5
+patch.tar.bz2
+PosDesk
+PosDesk.sh
+printer_hex_file
+problem_appds
+p.txt
+Qt_prgming_book.chm
+RAM_TEST
+rd_init_patch.zip
+rd_patch
+rd_server_imx6
+RD_SERVICE
+Read_Write_Contact
+refs
+Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+REMOTE_CLIENT
+remote_status.xml
+remote_status.xml.~1~
+REMOTE_STATUS.XML.~1~
+remote_status.xml_1170
+rfid_practise
+rhms
+RHMS_BACKUP_CMD.sh
+RHMS_PROJECT
+rhms_projects_updated_with_rdv1.7.1_220918.xls
+RHMS_PROJECT.tar.bz2
+RHMS_review.xls
+rt5370sta_src.tar.bz2
+run.sh
+run.sh.bkp
+sample
+sample.txt
+score.sh
+Screenshot from 2018-10-12 11-02-02.png
+sdcard_software_loding
+SD.directory
+SDK
+selfdiag_loadtest_final
+serial_1.1
+setmachineid
+snap
+source
+Speed
+Speedtest
+src
+ssh_pos_on_pc
+start_pc
+startx
+stcpt.sh
+taking_backup
+temp_rootf_fs_IMX6
+TEMP_ROOTFS
+temp_rootfs_cmd
+temp-rootfs.IMG
+temp_rootfs_reduced
+tes
+testing
+test_script_for_sdcard_1.0.sh
+TEST_SCRIPT_FOR_SDCARD.SH
+TEST_SCRIPT_FOR_SDCARD_SH.BKP
+tftpboot
+TotalDevicesReport24-01-2019_tsts.xls
+TSTSTSTS
+TT-Qt-4.7.4.tar.gz
+tutorial.c
+u03
+uboot-password
+uboot_password.tar.bz2
+u-boot_src
+ubuntu-session
+ubuntu-session.list
+ubuntu-session.md5sums
+unity
+unitycontrol
+unity-control-center
+update.sh
+uploaded_to_PLM
+usbsend
+xml
+xorg.conf.failsafe
+xorg.conf.new
+ZBARCAM-READER-0.2
+
+
+Time: [ 18:46:43 ]	Command: [ ls ]	Status: [ Success ]
+1137_511_449
+1362
+1557
+1617
+30042018_DPO_WLAN0_Batronics.tar.bz2
+3g.txt
+4g.txt
+94_patch_TLS.zip
+ads_files
+adsplay_ver.conf
+agree
+ALL_CAMERA
+allinfo
+allinfo1
+allinfo2
+all.txt
+AMS
+anydesk_taken_serial_ids.txt
+appds_iritech_patch_01032019.tar.bz2
+appdskrishna_rhms_problem_IDs
+appds_rhms_problem_IDs
+APP_RHMS
+APP_RHMS_BKP
+ares_build.h
+ares_dns.h
+ares.h
+ares_rules.h
+ares_version.h
+autoapn
+autoapn_5.0.2
+autoapn_5.0.7
+Backup_bhargav
+bill
+bill.tar.bz2
+Bluetooth
+branches
+build_maker_visiontek_1.1.sh
+buildroot-2017.02.10
+build-sample-pc-Debug
+chits.c
+client
+CmsUpdate
+confi.db1
+config
+config.txt
+curl_command
+DAILY_CVD_CHECKSUM_UPLOAD.sh
+daily_cvd.md5
+daily_report
+Dereg_From_patchtest_allversions_78nos_on_190319.xls
+DEREGISTER_700_FROM_PATCHTEST.xls
+DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+description
+Desktop
+DeviceDetails07-02-2019_hpds.xls
+dev_info.c
+DevInfo.c
+diff
+displayImage_SRC
+dmesg
+Download
+Download_dbs
+download_imx25
+DOWNLOAD_PROJECT
+Downloads
+Download.tar.bz2
+dummy
+Fino-PPP-LIB
+Firmware
+Foundations.of.Qt.Development.pdf
+freescale-35.tar.gz
+from_kermit
+From_ssh
+get_week_num.c
+gl11_gsm_send_read_SMS
+GNANBHUMI
+GNANBHUMI1
+GNOME
+HEAD
+hooks
+Imp_tars
+IMX25_AutoConnectivity_4.4_Only_GSM
+imx25_temp_rootfs.img
+IMX25_TEMPS
+IMX6_FW_UPDATE
+imx6sl.dtsi
+imx_iocon.ko
+index.html
+info
+install.sh
+Integrate_IMX25
+Integrate_IMX6
+isu80.1
+isu80.2
+json
+kernel_src
+killing
+kk
+kk.c
+KKK.txt
+kollam.txt
+kollam.xls
+KPDS-1.8
+kpds_virus_patch
+k.sh
+l
+libgl11pos.so
+lib_imx25
+linux-2.6.31_src_rt5370sta_src.zip
+linux-3.0.35_lcd
+live_score.sh
+lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+ls
+machineid1.c
+macid.c
+mahesh_1604567856_21082018
+main_cvd.md5
+message_app_1.0
+message_dbsample
+MF1S50YYX_V1.pdf
+mk2120ul-mgmtserv.log
+MLS
+mmc
+mosquitto
+mosquitto_1.0_develp.tar.bz2
+mosquitto_1.1_devolped.tar.bz2
+mosquitto-1.4.8
+mosquitto_patch
+mosquitto.tar.bz2
+mosquitto_test
+mosquitto_test_1.1
+mydata.txt
+myDrivers
+mygit
+myp
+mytasks
+Nating_from_internet.sh
+new_src
+note
+Notifier_1.2
+objects
+occurence_report_1.0.sh
+openssl
+OPENSSL
+openssl-1.0.1e
+openssl-1.0.1e.tar.gz
+opentftp
+OPI22
+out.log
+out.txt
+patch
+PATCH
+PATCH_FOR_RUN_rhms
+patch.md5
+patch.tar.bz2
+PosDesk
+PosDesk.sh
+printer_hex_file
+problem_appds
+p.txt
+Qt_prgming_book.chm
+RAM_TEST
+rd_init_patch.zip
+rd_patch
+rd_server_imx6
+RD_SERVICE
+Read_Write_Contact
+refs
+Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+REMOTE_CLIENT
+remote_status.xml
+remote_status.xml.~1~
+REMOTE_STATUS.XML.~1~
+remote_status.xml_1170
+rfid_practise
+rhms
+RHMS_BACKUP_CMD.sh
+RHMS_PROJECT
+rhms_projects_updated_with_rdv1.7.1_220918.xls
+RHMS_PROJECT.tar.bz2
+RHMS_review.xls
+rt5370sta_src.tar.bz2
+run.sh
+run.sh.bkp
+sample
+sample.txt
+score.sh
+Screenshot from 2018-10-12 11-02-02.png
+sdcard_software_loding
+SD.directory
+SDK
+selfdiag_loadtest_final
+serial_1.1
+setmachineid
+snap
+source
+Speed
+Speedtest
+src
+ssh_pos_on_pc
+start_pc
+startx
+stcpt.sh
+taking_backup
+temp_rootf_fs_IMX6
+TEMP_ROOTFS
+temp_rootfs_cmd
+temp-rootfs.IMG
+temp_rootfs_reduced
+tes
+testing
+test_script_for_sdcard_1.0.sh
+TEST_SCRIPT_FOR_SDCARD.SH
+TEST_SCRIPT_FOR_SDCARD_SH.BKP
+tftpboot
+TotalDevicesReport24-01-2019_tsts.xls
+TSTSTSTS
+TT-Qt-4.7.4.tar.gz
+tutorial.c
+u03
+uboot-password
+uboot_password.tar.bz2
+u-boot_src
+ubuntu-session
+ubuntu-session.list
+ubuntu-session.md5sums
+unity
+unitycontrol
+unity-control-center
+update.sh
+uploaded_to_PLM
+usbsend
+xml
+xorg.conf.failsafe
+xorg.conf.new
+ZBARCAM-READER-0.2
+
+
+Time: [ 18:46:45 ]	Command: [ top ]	Status: [ Success ]
+top: failed tty get
+
+
+Time: [ 18:46:51 ]	Command: [ ls ]	Status: [ Success ]
+1137_511_449
+1362
+1557
+1617
+30042018_DPO_WLAN0_Batronics.tar.bz2
+3g.txt
+4g.txt
+94_patch_TLS.zip
+ads_files
+adsplay_ver.conf
+agree
+ALL_CAMERA
+allinfo
+allinfo1
+allinfo2
+all.txt
+AMS
+anydesk_taken_serial_ids.txt
+appds_iritech_patch_01032019.tar.bz2
+appdskrishna_rhms_problem_IDs
+appds_rhms_problem_IDs
+APP_RHMS
+APP_RHMS_BKP
+ares_build.h
+ares_dns.h
+ares.h
+ares_rules.h
+ares_version.h
+autoapn
+autoapn_5.0.2
+autoapn_5.0.7
+Backup_bhargav
+bill
+bill.tar.bz2
+Bluetooth
+branches
+build_maker_visiontek_1.1.sh
+buildroot-2017.02.10
+build-sample-pc-Debug
+chits.c
+client
+CmsUpdate
+confi.db1
+config
+config.txt
+curl_command
+DAILY_CVD_CHECKSUM_UPLOAD.sh
+daily_cvd.md5
+daily_report
+Dereg_From_patchtest_allversions_78nos_on_190319.xls
+DEREGISTER_700_FROM_PATCHTEST.xls
+DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+description
+Desktop
+DeviceDetails07-02-2019_hpds.xls
+dev_info.c
+DevInfo.c
+diff
+displayImage_SRC
+dmesg
+Download
+Download_dbs
+download_imx25
+DOWNLOAD_PROJECT
+Downloads
+Download.tar.bz2
+dummy
+Fino-PPP-LIB
+Firmware
+Foundations.of.Qt.Development.pdf
+freescale-35.tar.gz
+from_kermit
+From_ssh
+get_week_num.c
+gl11_gsm_send_read_SMS
+GNANBHUMI
+GNANBHUMI1
+GNOME
+HEAD
+hooks
+Imp_tars
+IMX25_AutoConnectivity_4.4_Only_GSM
+imx25_temp_rootfs.img
+IMX25_TEMPS
+IMX6_FW_UPDATE
+imx6sl.dtsi
+imx_iocon.ko
+index.html
+info
+install.sh
+Integrate_IMX25
+Integrate_IMX6
+isu80.1
+isu80.2
+json
+kernel_src
+killing
+kk
+kk.c
+KKK.txt
+kollam.txt
+kollam.xls
+KPDS-1.8
+kpds_virus_patch
+k.sh
+l
+libgl11pos.so
+lib_imx25
+linux-2.6.31_src_rt5370sta_src.zip
+linux-3.0.35_lcd
+live_score.sh
+lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+ls
+machineid1.c
+macid.c
+mahesh_1604567856_21082018
+main_cvd.md5
+message_app_1.0
+message_dbsample
+MF1S50YYX_V1.pdf
+mk2120ul-mgmtserv.log
+MLS
+mmc
+mosquitto
+mosquitto_1.0_develp.tar.bz2
+mosquitto_1.1_devolped.tar.bz2
+mosquitto-1.4.8
+mosquitto_patch
+mosquitto.tar.bz2
+mosquitto_test
+mosquitto_test_1.1
+mydata.txt
+myDrivers
+mygit
+myp
+mytasks
+Nating_from_internet.sh
+new_src
+note
+Notifier_1.2
+objects
+occurence_report_1.0.sh
+openssl
+OPENSSL
+openssl-1.0.1e
+openssl-1.0.1e.tar.gz
+opentftp
+OPI22
+out.log
+out.txt
+patch
+PATCH
+PATCH_FOR_RUN_rhms
+patch.md5
+patch.tar.bz2
+PosDesk
+PosDesk.sh
+printer_hex_file
+problem_appds
+p.txt
+Qt_prgming_book.chm
+RAM_TEST
+rd_init_patch.zip
+rd_patch
+rd_server_imx6
+RD_SERVICE
+Read_Write_Contact
+refs
+Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+REMOTE_CLIENT
+remote_status.xml
+remote_status.xml.~1~
+REMOTE_STATUS.XML.~1~
+remote_status.xml_1170
+rfid_practise
+rhms
+RHMS_BACKUP_CMD.sh
+RHMS_PROJECT
+rhms_projects_updated_with_rdv1.7.1_220918.xls
+RHMS_PROJECT.tar.bz2
+RHMS_review.xls
+rt5370sta_src.tar.bz2
+run.sh
+run.sh.bkp
+sample
+sample.txt
+score.sh
+Screenshot from 2018-10-12 11-02-02.png
+sdcard_software_loding
+SD.directory
+SDK
+selfdiag_loadtest_final
+serial_1.1
+setmachineid
+snap
+source
+Speed
+Speedtest
+src
+ssh_pos_on_pc
+start_pc
+startx
+stcpt.sh
+taking_backup
+temp_rootf_fs_IMX6
+TEMP_ROOTFS
+temp_rootfs_cmd
+temp-rootfs.IMG
+temp_rootfs_reduced
+tes
+testing
+test_script_for_sdcard_1.0.sh
+TEST_SCRIPT_FOR_SDCARD.SH
+TEST_SCRIPT_FOR_SDCARD_SH.BKP
+tftpboot
+TotalDevicesReport24-01-2019_tsts.xls
+TSTSTSTS
+TT-Qt-4.7.4.tar.gz
+tutorial.c
+u03
+uboot-password
+uboot_password.tar.bz2
+u-boot_src
+ubuntu-session
+ubuntu-session.list
+ubuntu-session.md5sums
+unity
+unitycontrol
+unity-control-center
+update.sh
+uploaded_to_PLM
+usbsend
+xml
+xorg.conf.failsafe
+xorg.conf.new
+ZBARCAM-READER-0.2
+
+
+Time: [ 18:46:52 ]	Command: [ ls ]	Status: [ Success ]
+1137_511_449
+1362
+1557
+1617
+30042018_DPO_WLAN0_Batronics.tar.bz2
+3g.txt
+4g.txt
+94_patch_TLS.zip
+ads_files
+adsplay_ver.conf
+agree
+ALL_CAMERA
+allinfo
+allinfo1
+allinfo2
+all.txt
+AMS
+anydesk_taken_serial_ids.txt
+appds_iritech_patch_01032019.tar.bz2
+appdskrishna_rhms_problem_IDs
+appds_rhms_problem_IDs
+APP_RHMS
+APP_RHMS_BKP
+ares_build.h
+ares_dns.h
+ares.h
+ares_rules.h
+ares_version.h
+autoapn
+autoapn_5.0.2
+autoapn_5.0.7
+Backup_bhargav
+bill
+bill.tar.bz2
+Bluetooth
+branches
+build_maker_visiontek_1.1.sh
+buildroot-2017.02.10
+build-sample-pc-Debug
+chits.c
+client
+CmsUpdate
+confi.db1
+config
+config.txt
+curl_command
+DAILY_CVD_CHECKSUM_UPLOAD.sh
+daily_cvd.md5
+daily_report
+Dereg_From_patchtest_allversions_78nos_on_190319.xls
+DEREGISTER_700_FROM_PATCHTEST.xls
+DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+description
+Desktop
+DeviceDetails07-02-2019_hpds.xls
+dev_info.c
+DevInfo.c
+diff
+displayImage_SRC
+dmesg
+Download
+Download_dbs
+download_imx25
+DOWNLOAD_PROJECT
+Downloads
+Download.tar.bz2
+dummy
+Fino-PPP-LIB
+Firmware
+Foundations.of.Qt.Development.pdf
+freescale-35.tar.gz
+from_kermit
+From_ssh
+get_week_num.c
+gl11_gsm_send_read_SMS
+GNANBHUMI
+GNANBHUMI1
+GNOME
+HEAD
+hooks
+Imp_tars
+IMX25_AutoConnectivity_4.4_Only_GSM
+imx25_temp_rootfs.img
+IMX25_TEMPS
+IMX6_FW_UPDATE
+imx6sl.dtsi
+imx_iocon.ko
+index.html
+info
+install.sh
+Integrate_IMX25
+Integrate_IMX6
+isu80.1
+isu80.2
+json
+kernel_src
+killing
+kk
+kk.c
+KKK.txt
+kollam.txt
+kollam.xls
+KPDS-1.8
+kpds_virus_patch
+k.sh
+l
+libgl11pos.so
+lib_imx25
+linux-2.6.31_src_rt5370sta_src.zip
+linux-3.0.35_lcd
+live_score.sh
+lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+ls
+machineid1.c
+macid.c
+mahesh_1604567856_21082018
+main_cvd.md5
+message_app_1.0
+message_dbsample
+MF1S50YYX_V1.pdf
+mk2120ul-mgmtserv.log
+MLS
+mmc
+mosquitto
+mosquitto_1.0_develp.tar.bz2
+mosquitto_1.1_devolped.tar.bz2
+mosquitto-1.4.8
+mosquitto_patch
+mosquitto.tar.bz2
+mosquitto_test
+mosquitto_test_1.1
+mydata.txt
+myDrivers
+mygit
+myp
+mytasks
+Nating_from_internet.sh
+new_src
+note
+Notifier_1.2
+objects
+occurence_report_1.0.sh
+openssl
+OPENSSL
+openssl-1.0.1e
+openssl-1.0.1e.tar.gz
+opentftp
+OPI22
+out.log
+out.txt
+patch
+PATCH
+PATCH_FOR_RUN_rhms
+patch.md5
+patch.tar.bz2
+PosDesk
+PosDesk.sh
+printer_hex_file
+problem_appds
+p.txt
+Qt_prgming_book.chm
+RAM_TEST
+rd_init_patch.zip
+rd_patch
+rd_server_imx6
+RD_SERVICE
+Read_Write_Contact
+refs
+Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+REMOTE_CLIENT
+remote_status.xml
+remote_status.xml.~1~
+REMOTE_STATUS.XML.~1~
+remote_status.xml_1170
+rfid_practise
+rhms
+RHMS_BACKUP_CMD.sh
+RHMS_PROJECT
+rhms_projects_updated_with_rdv1.7.1_220918.xls
+RHMS_PROJECT.tar.bz2
+RHMS_review.xls
+rt5370sta_src.tar.bz2
+run.sh
+run.sh.bkp
+sample
+sample.txt
+score.sh
+Screenshot from 2018-10-12 11-02-02.png
+sdcard_software_loding
+SD.directory
+SDK
+selfdiag_loadtest_final
+serial_1.1
+setmachineid
+snap
+source
+Speed
+Speedtest
+src
+ssh_pos_on_pc
+start_pc
+startx
+stcpt.sh
+taking_backup
+temp_rootf_fs_IMX6
+TEMP_ROOTFS
+temp_rootfs_cmd
+temp-rootfs.IMG
+temp_rootfs_reduced
+tes
+testing
+test_script_for_sdcard_1.0.sh
+TEST_SCRIPT_FOR_SDCARD.SH
+TEST_SCRIPT_FOR_SDCARD_SH.BKP
+tftpboot
+TotalDevicesReport24-01-2019_tsts.xls
+TSTSTSTS
+TT-Qt-4.7.4.tar.gz
+tutorial.c
+u03
+uboot-password
+uboot_password.tar.bz2
+u-boot_src
+ubuntu-session
+ubuntu-session.list
+ubuntu-session.md5sums
+unity
+unitycontrol
+unity-control-center
+update.sh
+uploaded_to_PLM
+usbsend
+xml
+xorg.conf.failsafe
+xorg.conf.new
+ZBARCAM-READER-0.2
+
+
+Time: [ 18:46:54 ]	Command: [ top ]	Status: [ Success ]
+top: failed tty get
+
+
+Time: [ 18:47:07 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+    1 ?        00:00:02 systemd
+    2 ?        00:00:00 kthreadd
+    4 ?        00:00:00 kworker/0:0H
+    6 ?        00:00:00 mm_percpu_wq
+    7 ?        00:00:00 ksoftirqd/0
+    8 ?        00:00:14 rcu_sched
+    9 ?        00:00:00 rcu_bh
+   10 ?        00:00:00 migration/0
+   11 ?        00:00:00 watchdog/0
+   12 ?        00:00:00 cpuhp/0
+   13 ?        00:00:00 cpuhp/1
+   14 ?        00:00:00 watchdog/1
+   15 ?        00:00:00 migration/1
+   16 ?        00:00:00 ksoftirqd/1
+   18 ?        00:00:00 kworker/1:0H
+   19 ?        00:00:00 kdevtmpfs
+   20 ?        00:00:00 netns
+   21 ?        00:00:00 rcu_tasks_kthre
+   22 ?        00:00:00 kauditd
+   25 ?        00:00:00 khungtaskd
+   26 ?        00:00:00 oom_reaper
+   27 ?        00:00:00 writeback
+   28 ?        00:00:00 kcompactd0
+   29 ?        00:00:00 ksmd
+   30 ?        00:00:00 khugepaged
+   31 ?        00:00:00 crypto
+   32 ?        00:00:00 kintegrityd
+   33 ?        00:00:00 kblockd
+   34 ?        00:00:00 ata_sff
+   35 ?        00:00:00 md
+   36 ?        00:00:00 edac-poller
+   37 ?        00:00:00 devfreq_wq
+   38 ?        00:00:00 watchdogd
+   40 ?        00:00:01 kswapd0
+   41 ?        00:00:00 ecryptfs-kthrea
+   83 ?        00:00:00 kthrotld
+   84 ?        00:00:00 acpi_thermal_pm
+   85 ?        00:00:00 scsi_eh_0
+   86 ?        00:00:00 scsi_tmf_0
+   87 ?        00:00:00 scsi_eh_1
+   88 ?        00:00:00 scsi_tmf_1
+   95 ?        00:00:00 ipv6_addrconf
+  104 ?        00:00:00 kstrp
+  121 ?        00:00:00 charger_manager
+  162 ?        00:00:01 kworker/1:1H
+  163 ?        00:00:00 kworker/u9:0
+  164 ?        00:00:00 i915/signal:0
+  165 ?        00:00:00 i915/signal:2
+  242 ?        00:00:00 jbd2/sda5-8
+  243 ?        00:00:00 ext4-rsv-conver
+  257 ?        00:00:00 kworker/0:1H
+  277 ?        00:00:00 systemd-journal
+  308 ?        00:00:00 systemd-udevd
+  621 ?        00:00:00 loop0
+  623 ?        00:00:00 loop1
+  626 ?        00:00:00 loop2
+  628 ?        00:00:00 loop3
+  630 ?        00:00:00 loop4
+  632 ?        00:00:00 loop5
+  634 ?        00:00:00 loop6
+  636 ?        00:00:00 loop7
+  638 ?        00:00:00 loop8
+  640 ?        00:00:00 loop9
+  642 ?        00:00:00 loop10
+  647 ?        00:00:00 loop11
+  649 ?        00:00:00 loop12
+  651 ?        00:00:00 loop13
+  653 ?        00:00:00 loop14
+  655 ?        00:00:00 loop15
+  657 ?        00:00:00 loop16
+  659 ?        00:00:00 loop17
+  661 ?        00:00:00 loop18
+  663 ?        00:00:00 loop19
+  665 ?        00:00:00 loop20
+  667 ?        00:00:00 loop21
+  669 ?        00:00:00 loop22
+  671 ?        00:00:00 loop23
+  673 ?        00:00:00 loop24
+  679 ?        00:00:00 loop25
+  686 ?        00:00:00 loop26
+  688 ?        00:00:00 loop27
+  690 ?        00:00:00 loop28
+  692 ?        00:00:00 loop29
+  771 ?        00:00:00 jbd2/sda8-8
+  772 ?        00:00:00 ext4-rsv-conver
+  776 ?        00:00:00 jbd2/sda1-8
+  777 ?        00:00:00 ext4-rsv-conver
+  780 ?        00:00:00 jbd2/sda7-8
+  781 ?        00:00:00 ext4-rsv-conver
+  945 ?        00:00:00 cron
+  953 ?        00:00:00 systemd-logind
+  954 ?        00:00:02 irqbalance
+  957 ?        00:00:00 ModemManager
+  967 ?        00:00:01 accounts-daemon
+  969 ?        00:00:00 networkd-dispat
+ 1049 ?        00:00:04 acpid
+ 1055 ?        00:00:04 udisksd
+ 1056 ?        00:00:01 NetworkManager
+ 1057 ?        00:00:00 wpa_supplicant
+ 1059 ?        00:00:04 snapd
+ 1085 ?        00:00:01 polkitd
+ 1091 ?        00:00:00 syslogd
+ 1133 ?        00:00:01 anydesk
+ 1136 ?        00:00:00 lightdm
+ 1145 ?        00:00:01 sshd
+ 1341 ?        00:00:00 xinetd
+ 1647 ?        00:00:00 upowerd
+ 1693 ?        00:00:00 lightdm
+ 2084 ?        00:00:16 packagekitd
+ 2746 ?        00:00:01 fwupd
+ 2938 ?        00:00:00 systemd
+ 2939 ?        00:00:00 (sd-pam)
+ 3019 ?        00:00:00 cupsd
+ 3020 ?        00:00:00 cups-browsed
+ 5198 ?        00:00:00 sudo
+ 5199 ?        00:00:00 su
+ 5200 ?        00:00:00 bash
+ 8164 ?        00:00:00 dbus-daemon
+ 8166 ?        00:00:00 gvfsd
+ 8171 ?        00:00:00 gvfsd-fuse
+ 8179 ?        00:00:00 gvfs-udisks2-vo
+ 8183 ?        00:00:00 gvfs-gphoto2-vo
+ 8187 ?        00:00:00 gvfs-goa-volume
+ 8191 ?        00:00:00 gvfs-mtp-volume
+ 8195 ?        00:00:00 gvfs-afc-volume
+ 8200 ?        00:00:00 gvfsd-trash
+ 8210 ?        00:00:00 dconf-service
+ 8214 ?        00:00:00 gvfsd-network
+ 8251 ?        00:00:00 gvfsd-dnssd
+ 8295 ?        00:00:00 gnome-keyring-d
+ 9518 ?        00:00:04 kworker/0:1
+ 9993 ?        00:00:00 kworker/u8:0
+10070 ?        00:00:00 kworker/1:2
+10160 ?        00:00:00 kworker/u8:2
+10220 ?        00:00:00 kworker/1:0
+10262 ?        00:00:00 kworker/0:2
+10352 ?        00:00:00 a.out
+10374 ?        00:00:00 kworker/u8:1
+10377 ?        00:00:00 sh
+10378 ?        00:00:00 ps
+
+
+Time: [ 18:47:08 ]	Command: [ ps ]	Status: [ Success ]
+  PID TTY          TIME CMD
+    1 ?        00:00:02 systemd
+    2 ?        00:00:00 kthreadd
+    4 ?        00:00:00 kworker/0:0H
+    6 ?        00:00:00 mm_percpu_wq
+    7 ?        00:00:00 ksoftirqd/0
+    8 ?        00:00:14 rcu_sched
+    9 ?        00:00:00 rcu_bh
+   10 ?        00:00:00 migration/0
+   11 ?        00:00:00 watchdog/0
+   12 ?        00:00:00 cpuhp/0
+   13 ?        00:00:00 cpuhp/1
+   14 ?        00:00:00 watchdog/1
+   15 ?        00:00:00 migration/1
+   16 ?        00:00:00 ksoftirqd/1
+   18 ?        00:00:00 kworker/1:0H
+   19 ?        00:00:00 kdevtmpfs
+   20 ?        00:00:00 netns
+   21 ?        00:00:00 rcu_tasks_kthre
+   22 ?        00:00:00 kauditd
+   25 ?        00:00:00 khungtaskd
+   26 ?        00:00:00 oom_reaper
+   27 ?        00:00:00 writeback
+   28 ?        00:00:00 kcompactd0
+   29 ?        00:00:00 ksmd
+   30 ?        00:00:00 khugepaged
+   31 ?        00:00:00 crypto
+   32 ?        00:00:00 kintegrityd
+   33 ?        00:00:00 kblockd
+   34 ?        00:00:00 ata_sff
+   35 ?        00:00:00 md
+   36 ?        00:00:00 edac-poller
+   37 ?        00:00:00 devfreq_wq
+   38 ?        00:00:00 watchdogd
+   40 ?        00:00:01 kswapd0
+   41 ?        00:00:00 ecryptfs-kthrea
+   83 ?        00:00:00 kthrotld
+   84 ?        00:00:00 acpi_thermal_pm
+   85 ?        00:00:00 scsi_eh_0
+   86 ?        00:00:00 scsi_tmf_0
+   87 ?        00:00:00 scsi_eh_1
+   88 ?        00:00:00 scsi_tmf_1
+   95 ?        00:00:00 ipv6_addrconf
+  104 ?        00:00:00 kstrp
+  121 ?        00:00:00 charger_manager
+  162 ?        00:00:01 kworker/1:1H
+  163 ?        00:00:00 kworker/u9:0
+  164 ?        00:00:00 i915/signal:0
+  165 ?        00:00:00 i915/signal:2
+  242 ?        00:00:00 jbd2/sda5-8
+  243 ?        00:00:00 ext4-rsv-conver
+  257 ?        00:00:00 kworker/0:1H
+  277 ?        00:00:00 systemd-journal
+  308 ?        00:00:00 systemd-udevd
+  621 ?        00:00:00 loop0
+  623 ?        00:00:00 loop1
+  626 ?        00:00:00 loop2
+  628 ?        00:00:00 loop3
+  630 ?        00:00:00 loop4
+  632 ?        00:00:00 loop5
+  634 ?        00:00:00 loop6
+  636 ?        00:00:00 loop7
+  638 ?        00:00:00 loop8
+  640 ?        00:00:00 loop9
+  642 ?        00:00:00 loop10
+  647 ?        00:00:00 loop11
+  649 ?        00:00:00 loop12
+  651 ?        00:00:00 loop13
+  653 ?        00:00:00 loop14
+  655 ?        00:00:00 loop15
+  657 ?        00:00:00 loop16
+  659 ?        00:00:00 loop17
+  661 ?        00:00:00 loop18
+  663 ?        00:00:00 loop19
+  665 ?        00:00:00 loop20
+  667 ?        00:00:00 loop21
+  669 ?        00:00:00 loop22
+  671 ?        00:00:00 loop23
+  673 ?        00:00:00 loop24
+  679 ?        00:00:00 loop25
+  686 ?        00:00:00 loop26
+  688 ?        00:00:00 loop27
+  690 ?        00:00:00 loop28
+  692 ?        00:00:00 loop29
+  771 ?        00:00:00 jbd2/sda8-8
+  772 ?        00:00:00 ext4-rsv-conver
+  776 ?        00:00:00 jbd2/sda1-8
+  777 ?        00:00:00 ext4-rsv-conver
+  780 ?        00:00:00 jbd2/sda7-8
+  781 ?        00:00:00 ext4-rsv-conver
+  945 ?        00:00:00 cron
+  953 ?        00:00:00 systemd-logind
+  954 ?        00:00:02 irqbalance
+  957 ?        00:00:00 ModemManager
+  967 ?        00:00:01 accounts-daemon
+  969 ?        00:00:00 networkd-dispat
+ 1049 ?        00:00:04 acpid
+ 1055 ?        00:00:04 udisksd
+ 1056 ?        00:00:01 NetworkManager
+ 1057 ?        00:00:00 wpa_supplicant
+ 1059 ?        00:00:04 snapd
+ 1085 ?        00:00:01 polkitd
+ 1091 ?        00:00:00 syslogd
+ 1133 ?        00:00:01 anydesk
+ 1136 ?        00:00:00 lightdm
+ 1145 ?        00:00:01 sshd
+ 1341 ?        00:00:00 xinetd
+ 1647 ?        00:00:00 upowerd
+ 1693 ?        00:00:00 lightdm
+ 2084 ?        00:00:16 packagekitd
+ 2746 ?        00:00:01 fwupd
+ 2938 ?        00:00:00 systemd
+ 2939 ?        00:00:00 (sd-pam)
+ 3019 ?        00:00:00 cupsd
+ 3020 ?        00:00:00 cups-browsed
+ 5198 ?        00:00:00 sudo
+ 5199 ?        00:00:00 su
+ 5200 ?        00:00:00 bash
+ 8164 ?        00:00:00 dbus-daemon
+ 8166 ?        00:00:00 gvfsd
+ 8171 ?        00:00:00 gvfsd-fuse
+ 8179 ?        00:00:00 gvfs-udisks2-vo
+ 8183 ?        00:00:00 gvfs-gphoto2-vo
+ 8187 ?        00:00:00 gvfs-goa-volume
+ 8191 ?        00:00:00 gvfs-mtp-volume
+ 8195 ?        00:00:00 gvfs-afc-volume
+ 8200 ?        00:00:00 gvfsd-trash
+ 8210 ?        00:00:00 dconf-service
+ 8214 ?        00:00:00 gvfsd-network
+ 8251 ?        00:00:00 gvfsd-dnssd
+ 8295 ?        00:00:00 gnome-keyring-d
+ 9518 ?        00:00:04 kworker/0:1
+ 9993 ?        00:00:00 kworker/u8:0
+10070 ?        00:00:00 kworker/1:2
+10160 ?        00:00:00 kworker/u8:2
+10220 ?        00:00:00 kworker/1:0
+10262 ?        00:00:00 kworker/0:2
+10352 ?        00:00:00 a.out
+10374 ?        00:00:00 kworker/u8:1
+10379 ?        00:00:00 sh
+10380 ?        00:00:00 ps
+
+
+Time: [ 18:47:12 ]	Command: [ ls -lrth ]	Status: [ Success ]
+total 1.7G
+-rw-r--r--  1 root   root   612K Feb  3  2017 isu80.2
+-rw-r--r--  1 root   root   612K Feb  3  2017 isu80.1
+drwxr-xr-x  2 naresh naresh 4.0K Feb  5  2018 opentftp
+drwxrwxrwx  6 naresh naresh 4.0K Mar  7  2018 SDK
+drwxrwxr-x 16 root   root   4.0K Mar 12  2018 buildroot-2017.02.10
+drwxr-xr-x  4 naresh naresh 4.0K May  4  2018 Read_Write_Contact
+drwxr-xr-x 12 root   root   4.0K May  5  2018 message_app_1.0
+drwxr-xr-x  3 root   root   4.0K May 16  2018 mmc
+drwxr-xr-x 10 root   root   4.0K May 16  2018 gl11_gsm_send_read_SMS
+drwxr-xr-x  2 naresh naresh 4.0K May 17  2018 new_src
+drwxr-xr-x  2 root   root   4.0K Jun  1  2018 printer_hex_file
+drwxr-xr-x 12 root   root   4.0K Jun  4  2018 autoapn_5.0.2
+drwxr-xr-x 11 naresh naresh 4.0K Jun  6  2018 IMX25_AutoConnectivity_4.4_Only_GSM
+drwxr-xr-x  6 root   root   4.0K Jun 15  2018 ALL_CAMERA
+drwxr-xr-x  4 root   root   4.0K Jun 19  2018 refs
+drwxr-xr-x  2 root   root   4.0K Jun 19  2018 info
+drwxr-xr-x  2 root   root   4.0K Jun 19  2018 branches
+drwxr-xr-x  4 root   root   4.0K Jun 19  2018 objects
+drwxr-xr-x  3 root   root   4.0K Jun 22  2018 ssh_pos_on_pc
+drwxr-xr-x  6 root   root   4.0K Jun 25  2018 download_imx25
+drwxr-x--x  6 root   root   4.0K Jul  3  2018 Integrate_IMX6
+drwxr-xr-x  6 root   root   4.0K Jul  6  2018 patch
+drwx--x--x  6 naresh naresh 4.0K Jul 16  2018 GNANBHUMI
+drwxr-x--x  4 root   root   4.0K Jul 16  2018 Integrate_IMX25
+drwxr-xr-x  2 root   root   4.0K Jul 17  2018 hooks
+drwxrwxrwx  3 root   root   4.0K Jul 17  2018 1362
+drwxrwxrwx 33 naresh naresh 4.0K Jul 20  2018 1617
+drwxr-xr-x  5 root   root   4.0K Jul 28  2018 u03
+drwxrwxr-x  4 naresh naresh 4.0K Aug  3  2018 IMX6_FW_UPDATE
+drwxr-xr-x 27 naresh naresh 4.0K Aug  3  2018 linux-3.0.35_lcd
+-rwxr-xr-x  1 root   root   5.2K Aug  7  2018 killing
+-rw-r--r--  1 root   root    657 Aug  7  2018 Nating_from_internet.sh
+drwxr-xr-x  3 root   root   4.0K Aug  7  2018 TSTSTSTS
+-rw-r--r--  1 root   root     11 Aug  7  2018 sample.txt
+-rw-r--r--  1 naresh naresh  60K Aug  8  2018 uboot_password.tar.bz2
+drwxr-xr-x  2 root   root   4.0K Aug  8  2018 uboot-password
+drwxr-xr-x  4 root   root   4.0K Aug  9  2018 rd_patch
+-rw-r--r--  1 naresh naresh 2.3M Aug  9  2018 rd_init_patch.zip
+drwxr-xr-x  4 root   root   4.0K Aug 10  2018 PATCH_FOR_RUN_rhms
+drwxr-xr-x  3 root   root   4.0K Aug 14  2018 PATCH
+drwxr-xr-x  2 root   root   4.0K Aug 16  2018 lib_imx25
+-rwxr-xr-x  1 naresh naresh 1.5K Aug 16  2018 startx
+drwxr-xr-x  3 root   root   4.0K Aug 16  2018 KPDS-1.8
+-rw-r--r--  1 naresh naresh 151K Aug 17  2018 sdcard_software_loding
+-rwxr-xr-x  1 root   root    14K Aug 18  2018 setmachineid
+drwxr-xr-x  4 naresh naresh 4.0K Aug 18  2018 MLS
+drwxr-xr-x  4 naresh naresh 4.0K Aug 18  2018 rd_server_imx6
+drwxr-xr-x 24 naresh naresh 4.0K Aug 21  2018 RD_SERVICE
+drwxr-xr-x  4 root   root   4.0K Aug 21  2018 RAM_TEST
+-rw-r--r--  1 root   root      0 Aug 21  2018 mahesh_1604567856_21082018
+-rwxr-xr-x  1 root   root     37 Aug 24  2018 rhms
+drwxr-xr-x  4 root   root   4.0K Aug 24  2018 uploaded_to_PLM
+drwxrwxrwx  2 naresh naresh 4.0K Aug 25  2018 1137_511_449
+-rw-r--r--  1 root   root      0 Aug 28  2018 serial_1.1
+-rw-r--r--  1 root   root    803 Aug 28  2018 appdskrishna_rhms_problem_IDs
+-rwxrwxr-x  1 naresh naresh 207K Sep  3  2018 ZBARCAM-READER-0.2
+drwxr-xr-x  7 root   root   4.0K Sep  5  2018 diff
+-rw-r--r--  1 root   root     34 Sep  6  2018 mydata.txt
+-rw-r--r--  1 naresh naresh 2.6M Sep  6  2018 30042018_DPO_WLAN0_Batronics.tar.bz2
+-rw-r--r--  1 naresh naresh 2.6M Sep  6  2018 rt5370sta_src.tar.bz2
+drwxr-xr-x  6 root   root   4.0K Sep  6  2018 kernel_src
+-rw-r--r--  1 root   root   140M Sep  6  2018 linux-2.6.31_src_rt5370sta_src.zip
+-rw-r--r--  1 root   root    43K Sep 11  2018 out.log
+-rw-r--r--  1 naresh naresh 3.2M Sep 12  2018 temp-rootfs.IMG
+drwxr-xr-x  4 naresh naresh 4.0K Sep 12  2018 TEMP_ROOTFS
+drwxr-xr-x  4 naresh naresh 4.0K Sep 12  2018 GNOME
+drwxr-xr-x  3 naresh naresh 4.0K Sep 14  2018 IMX25_TEMPS
+drwxr-xr-x 18 naresh naresh 4.0K Sep 14  2018 temp_rootfs_reduced
+-rwxr-xr-x  1 root   root   3.6M Sep 14  2018 imx25_temp_rootfs.img
+-rw-r--r--  1 root   root    113 Sep 18  2018 temp_rootfs_cmd
+-rw-r--r--  1 root   root    142 Sep 18  2018 curl_command
+drw-r--r--  7 naresh naresh 4.0K Sep 18  2018 Firmware
+-rw-r--r--  1 root   root    313 Sep 20  2018 chits.c
+-rw-r--r--  1 root   root    28K Sep 24  2018 Download.tar.bz2
+-rw-r--r--  1 root   root    222 Sep 24  2018 appds_rhms_problem_IDs
+-rw-r--r--  1 naresh naresh  13K Sep 25  2018 imx_iocon.ko
+drwxr-xr-x  7 root   root   4.0K Sep 25  2018 mygit
+-rw-r--r--  1 root   root     73 Sep 25  2018 description
+drwxr-xr-x  2 root   root   4.0K Sep 25  2018 Desktop
+-rw-r--r--  1 root   root     23 Sep 25  2018 HEAD
+-rw-r--r--  1 root   root     66 Sep 25  2018 config
+-rwxr-xr-x  1 naresh naresh 214M Sep 25  2018 TT-Qt-4.7.4.tar.gz
+-rw-r--r--  1 naresh naresh 945M Sep 25  2018 freescale-35.tar.gz
+drwxr-xr-x  3 root   root   4.0K Sep 26  2018 APP_RHMS_BKP
+drwxr-xr-x  6 root   root   4.0K Sep 26  2018 APP_RHMS
+-rwxr-xr-x  1 naresh naresh   26 Sep 28  2018 usbsend
+drwxr-xr-x  3 root   root   4.0K Sep 29  2018 u-boot_src
+-rw-r--r--  1 root   root      0 Sep 29  2018 1557
+-rw-r--r--  1 root   root    377 Oct  1  2018 macid.c
+-rw-rw-r--  1 naresh naresh  24K Oct  1  2018 RHMS_review.xls
+-rw-r--r--  1 root   root   286M Oct  1  2018 RHMS_PROJECT.tar.bz2
+drwxr-xr-x  2 naresh naresh 4.0K Oct  1  2018 tftpboot
+-rwxrwxr-x  1 naresh naresh 129K Oct  1  2018 libgl11pos.so
+drwxr-xr-x  2 naresh naresh 4.0K Oct  1  2018 source
+drwxr-xr-x  4 naresh naresh 4.0K Oct  1  2018 client
+drwxr-xr-x 12 naresh naresh 4.0K Oct  3  2018 autoapn_5.0.7
+-rw-r--r--  1 root   root    521 Oct  3  2018 bill
+-rwxr-xr-x  1 root   root    37K Oct  5  2018 confi.db1
+-rw-r--r--  1 root   root   7.2K Oct  5  2018 bill.tar.bz2
+drwxrwxr-x 13 naresh naresh 4.0K Oct  6  2018 mosquitto-1.4.8
+-rw-r--r--  1 naresh naresh 5.2K Oct  6  2018 ares_dns.h
+-rw-r--r--  1 naresh naresh 4.7K Oct  6  2018 ares_rules.h
+-rw-r--r--  1 naresh naresh  20K Oct  6  2018 ares.h
+-rw-r--r--  1 naresh naresh  648 Oct  6  2018 ares_version.h
+-rw-r--r--  1 naresh naresh 4.1K Oct  6  2018 ares_build.h
+drwxr-xr-x  2 naresh naresh 4.0K Oct  6  2018 mytasks
+drwxrwxrwx  6 root   root   4.0K Oct  6  2018 From_ssh
+-rw-------  1 naresh naresh 4.3M Oct 10  2018 openssl-1.0.1e.tar.gz
+drwxr-xr-x 22 root   root   4.0K Oct 10  2018 openssl-1.0.1e
+drwxr-xr-x  5 root   root   4.0K Oct 10  2018 OPENSSL
+drwxr-xr-x  6 root   root   4.0K Oct 10  2018 OPI22
+-rwxr-xr-x  1 naresh naresh 124K Oct 10  2018 ls
+-rwxr-xr-x  1 root   root    283 Oct 10  2018 note
+drwxr-xr-x 10 root   root   4.0K Oct 10  2018 AMS
+-rw-r--r--  1 root   root   120K Oct 12  2018 Screenshot from 2018-10-12 11-02-02.png
+-rw-r--r--  1 root   root      0 Oct 12  2018 dummy
+-rw-r--r--  1 root   root   2.2K Oct 16  2018 xorg.conf.new
+-rw-r--r--  1 root   root     68 Oct 16  2018 start_pc
+-rwxr-xr-x  1 naresh naresh 9.7K Oct 16  2018 unity
+drwxr-xr-x  2 root   root   4.0K Oct 16  2018 ubuntu-session
+-rw-r--r--  1 root   root    534 Oct 16  2018 ubuntu-session.list
+-rw-r--r--  1 root   root    306 Oct 16  2018 ubuntu-session.md5sums
+-rw-r--r--  1 root   root      1 Oct 17  2018 install.sh
+drwx------  2 root   root   4.0K Oct 22  2018 Downloads
+drwxr-xr-x 17 root   root   4.0K Oct 22  2018 temp_rootf_fs_IMX6
+drwxr-xr-x  2 root   root   4.0K Oct 23 19:03 testing
+drwxrwxr-x  3 naresh naresh 4.0K Oct 25 12:17 allinfo
+-rwxr-xr-x  1 naresh naresh 101K Oct 25 15:38 autoapn
+-rwxr-xr-x  1 naresh naresh  65K Oct 26 15:02 unity-control-center
+drwxr-xr-x  3 root   root   4.0K Oct 26 15:22 unitycontrol
+drwxr-xr-x  3 root   root   4.0K Oct 26 17:01 snap
+drwxr-xr-x  2 root   root   4.0K Oct 29 12:41 myDrivers
+-rwxrwxr-x  1 naresh naresh  11K Oct 30 12:39 rhms_projects_updated_with_rdv1.7.1_220918.xls
+-rw-r--r--  1 root   root    880 Oct 30 14:18 config.txt
+drwxrwxr-x  2 root   root   4.0K Oct 31 16:00 allinfo1
+drwxrwxr-x  2 naresh naresh 4.0K Nov  8 11:13 daily_report
+drwxr-xr-x  5 root   root   4.0K Nov 14 10:03 kpds_virus_patch
+-rw-r--r--  1 root   root     89 Nov 17 14:52 k.sh
+drwxrwxr-x  3 root   root   4.0K Nov 20 14:56 Bluetooth
+-rw-r--r--  1 root   root   8.0K Nov 21 11:19 message_dbsample
+-rw-r--r--  1 root   root      0 Nov 21 15:17 adsplay_ver.conf
+-rw-r--r--  1 root   root    142 Nov 21 19:00 kk.c
+drwxr-xr-x  2 naresh naresh 4.0K Nov 22 16:46 ads_files
+-rw-r--r--  1 root   root   4.4K Nov 26 13:01 index.html
+-rwxr-xr-x  1 root   root    23K Nov 26 17:56 dmesg
+-rw-r--r--  1 root   root   3.8K Nov 27 11:47 SD.directory
+-rwxr-xr-x  1 naresh naresh  924 Nov 28 10:23 dev_info.c
+-rwxr-xr-x  1 root   root   1.6K Nov 30 14:50 build_maker_visiontek_1.1.sh
+-rw-r--r--  1 root   root     85 Dec 10 17:14 main_cvd.md5
+drwxr-xr-x 19 naresh naresh 4.0K Dec 11 11:24 Backup_bhargav
+-rw-r--r--  1 root   root     86 Dec 14 11:08 daily_cvd.md5
+-rw-r--r--  1 root   root    715 Dec 14 11:09 DAILY_CVD_CHECKSUM_UPLOAD.sh
+-rw-r--r--  1 root   root   1.2M Dec 20 09:49 lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+-rw-r--r--  1 root   root    105 Dec 20 14:41 RHMS_BACKUP_CMD.sh
+-rw-r--r--  1 root   root   1.7K Dec 21 09:53 REMOTE_STATUS.XML.~1~
+-rw-r--r--  1 root   root   1.8K Dec 21 09:53 remote_status.xml.~1~
+-rwxrwxrwx  1 root   root    21K Dec 22 17:54 DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+-rw-r--r--  1 root   root    16K Dec 27 14:17 kollam.txt
+-rw-r--r--  1 root   root    665 Dec 27 17:21 test_script_for_sdcard_1.0.sh
+-rw-r--r--  1 root   root    585 Dec 27 17:22 TEST_SCRIPT_FOR_SDCARD_SH.BKP
+-rw-r--r--  1 root   root    611 Dec 27 17:22 TEST_SCRIPT_FOR_SDCARD.SH
+-rw-r--r--  1 root   root   1.5K Dec 27 18:01 remote_status.xml_1170
+-rw-r--r--  1 root   root   3.1M Jan  3 20:08 appds_iritech_patch_01032019.tar.bz2
+-rw-r--r--  1 root   root    407 Jan  5 18:00 stcpt.sh
+-rw-r--r--  1 root   root   321K Jan  8 14:53 mk2120ul-mgmtserv.log
+-rw-r--r--  1 root   root   1.5K Jan  8 16:18 remote_status.xml
+-rw-r--r--  1 root   root    387 Jan 11 16:12 get_week_num.c
+-rw-r--r--  1 root   root   1.8K Jan 18 14:19 live_score.sh
+-rw-r--r--  1 root   root    106 Jan 18 14:36 score.sh
+-rw-r--r--  1 root   root    288 Jan 18 15:20 run.sh.bkp
+-rw-r--r--  1 naresh naresh 5.8M Jan 18 15:54 94_patch_TLS.zip
+-rw-r--r--  1 root   root    270 Jan 19 10:08 xorg.conf.failsafe
+drwx------ 33 root   root   4.0K Jan 19 10:44 selfdiag_loadtest_final
+drwxrwxr-x  3 root   root   4.0K Jan 19 11:46 src
+-rw-r--r--  1 root   root    16K Jan 19 11:47 kollam.xls
+drwxrwxr-x  2 root   root   4.0K Jan 22 16:35 allinfo2
+-rw-r--r--  1 root   root    346 Jan 23 09:54 run.sh
+-rw-r--r--  1 root   root   107K Jan 23 10:51 p.txt
+-rw-r--r--  1 root   root   6.7K Jan 23 14:52 all.txt
+-rwxr-xr-x  1 root   root    32K Jan 23 15:14 DEREGISTER_700_FROM_PATCHTEST.xls
+-rw-r--r--  1 root   root      0 Jan 24 14:39 tutorial.c
+-rw-r--r--  1 root   root   4.9M Jan 24 15:36 TotalDevicesReport24-01-2019_tsts.xls
+drwxrwxrwx  5 root   root   4.0K Jan 28 12:55 GNANBHUMI1
+-rw-r--r--  1 root   root   462K Jan 29 18:00 MF1S50YYX_V1.pdf
+drwxr-xr-x  2 root   root   4.0K Jan 30 11:35 rfid_practise
+drwxr-xr-x  7 root   root   4.0K Feb  1 12:56 openssl
+-rw-r--r--  1 root   root    229 Feb  4 13:03 4g.txt
+-rw-r--r--  1 root   root    236 Feb  4 13:04 3g.txt
+-rw-r--r--  1 root   root    18K Feb  5 10:35 Download
+-rw-r--r--  1 root   root     13 Feb  5 12:01 problem_appds
+-rw-r--r--  1 root   root    11K Feb  5 15:21 Download_dbs
+-rw-r--r--  1 root   root     38 Feb  5 19:04 anydesk_taken_serial_ids.txt
+drwxr-xr-x  5 root   root   4.0K Feb  5 19:20 Imp_tars
+-rw-r--r--  1 root   root   3.4M Feb  7 10:15 DeviceDetails07-02-2019_hpds.xls
+drwxr-xr-x  2 root   root   4.0K Feb  8 11:14 json
+-rw-r--r--  1 root   root   903K Feb 12 09:59 mosquitto.tar.bz2
+-rw-r--r--  1 root   root   896K Feb 13 18:12 mosquitto_1.0_develp.tar.bz2
+drwxr-xr-x  4 root   root   4.0K Feb 13 20:00 REMOTE_CLIENT
+drwxr-xr-x  2 root   root   4.0K Feb 14 10:23 mosquitto
+-rw-r--r--  1 root   root   912K Feb 16 12:40 mosquitto_1.1_devolped.tar.bz2
+-rw-r--r--  1 root   root   926K Feb 16 17:31 patch.tar.bz2
+-rw-r--r--  1 root   root     48 Feb 16 17:31 patch.md5
+drwxr-xr-x  2 root   root   4.0K Feb 18 15:08 mosquitto_test_1.1
+drwxr-xr-x  3 root   root   4.0K Feb 18 18:33 mosquitto_test
+-rwxr-xr-x  1 root   root    985 Feb 19 09:30 agree
+drwxr-xr-x  2 root   root   4.0K Feb 21 16:05 tes
+-rw-r--r--  1 naresh naresh  46K Feb 22 09:57 imx6sl.dtsi
+-rw-r--r--  1 root   root      0 Feb 22 14:57 kk
+-rwxr-xr-x  1 root   root    11K Feb 25 10:07 PosDesk
+-rw-r--r--  1 naresh naresh 2.0K Feb 27 10:15 machineid1.c
+-rw-r--r--  1 root   root   8.4K Mar  1 09:58 DevInfo.c
+-rw-r--r--  1 root   root   1.9K Mar  2 13:59 occurence_report_1.0.sh
+dr-xr-xr-x 21 root   root   4.0K Mar  6 12:49 Fino-PPP-LIB
+drwxr-xr-x  5 naresh naresh 4.0K Mar  6 15:04 Notifier_1.2
+-rw-r--r--  1 root   root   5.1K Mar 14 12:11 l
+-rwxr-xr-x  1 root   root   4.6K Mar 19 14:05 update.sh
+-rw-r--r--  1 root   root   9.0K Mar 19 17:58 Dereg_From_patchtest_allversions_78nos_on_190319.xls
+-rw-r--r--  1 root   root    12K Mar 19 17:58 Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+-rwxrwxrwx  1 root   root   6.4M Mar 22 11:30 Foundations.of.Qt.Development.pdf
+-rwxr-xr-x  1 root   root   6.1M Mar 22 11:45 Qt_prgming_book.chm
+drwxr-xr-x  2 root   root   4.0K Mar 22 18:03 build-sample-pc-Debug
+drwxr-xr-x  2 root   root   4.0K Mar 22 18:14 sample
+drwxr-xr-x  3 naresh naresh 4.0K Mar 25 18:43 mosquitto_patch
+-rw-r--r--  1 root   root    17K Mar 28 09:59 Speedtest
+-rw-r--r--  1 root   root    17K Mar 28 10:00 Speed
+-rw-r--r--  1 root   root    197 Mar 28 12:22 out.txt
+-rwxr-xr-x  1 root   root    557 Mar 28 17:57 PosDesk.sh
+drwxr-xr-x  4 root   root   4.0K Mar 29 15:58 xml
+drwxr-xr-x 10 naresh naresh 4.0K Apr  1 10:13 RHMS_PROJECT
+dr-x------ 12 naresh naresh 4.0K Apr  1 15:08 DOWNLOAD_PROJECT
+-rwxr-xr-x  1 root   root    15K Apr  3 17:58 CmsUpdate
+-rw-r--r--  1 root   root      0 Apr  8 12:17 KKK.txt
+drwxr-xr-x  3 root   root   4.0K Apr 16 12:03 displayImage_SRC
+drwxr-xr-x 17 root   root   4.0K Apr 16 12:28 taking_backup
+drwxr-xr-x  2 root   root   4.0K Apr 16 12:54 from_kermit
+drwxr-xr-x 19 root   root   4.0K Apr 22 15:10 myp
+
+
+Time: [ 18:47:37 ]	Command: [ ls ]	Status: [ Success ]
+1137_511_449
+1362
+1557
+1617
+30042018_DPO_WLAN0_Batronics.tar.bz2
+3g.txt
+4g.txt
+94_patch_TLS.zip
+ads_files
+adsplay_ver.conf
+agree
+ALL_CAMERA
+allinfo
+allinfo1
+allinfo2
+all.txt
+AMS
+anydesk_taken_serial_ids.txt
+appds_iritech_patch_01032019.tar.bz2
+appdskrishna_rhms_problem_IDs
+appds_rhms_problem_IDs
+APP_RHMS
+APP_RHMS_BKP
+ares_build.h
+ares_dns.h
+ares.h
+ares_rules.h
+ares_version.h
+autoapn
+autoapn_5.0.2
+autoapn_5.0.7
+Backup_bhargav
+bill
+bill.tar.bz2
+Bluetooth
+branches
+build_maker_visiontek_1.1.sh
+buildroot-2017.02.10
+build-sample-pc-Debug
+chits.c
+client
+CmsUpdate
+confi.db1
+config
+config.txt
+curl_command
+DAILY_CVD_CHECKSUM_UPLOAD.sh
+daily_cvd.md5
+daily_report
+Dereg_From_patchtest_allversions_78nos_on_190319.xls
+DEREGISTER_700_FROM_PATCHTEST.xls
+DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+description
+Desktop
+DeviceDetails07-02-2019_hpds.xls
+dev_info.c
+DevInfo.c
+diff
+displayImage_SRC
+dmesg
+Download
+Download_dbs
+download_imx25
+DOWNLOAD_PROJECT
+Downloads
+Download.tar.bz2
+dummy
+Fino-PPP-LIB
+Firmware
+Foundations.of.Qt.Development.pdf
+freescale-35.tar.gz
+from_kermit
+From_ssh
+get_week_num.c
+gl11_gsm_send_read_SMS
+GNANBHUMI
+GNANBHUMI1
+GNOME
+HEAD
+hooks
+Imp_tars
+IMX25_AutoConnectivity_4.4_Only_GSM
+imx25_temp_rootfs.img
+IMX25_TEMPS
+IMX6_FW_UPDATE
+imx6sl.dtsi
+imx_iocon.ko
+index.html
+info
+install.sh
+Integrate_IMX25
+Integrate_IMX6
+isu80.1
+isu80.2
+json
+kernel_src
+killing
+kk
+kk.c
+KKK.txt
+kollam.txt
+kollam.xls
+KPDS-1.8
+kpds_virus_patch
+k.sh
+l
+libgl11pos.so
+lib_imx25
+linux-2.6.31_src_rt5370sta_src.zip
+linux-3.0.35_lcd
+live_score.sh
+lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+ls
+machineid1.c
+macid.c
+mahesh_1604567856_21082018
+main_cvd.md5
+message_app_1.0
+message_dbsample
+MF1S50YYX_V1.pdf
+mk2120ul-mgmtserv.log
+MLS
+mmc
+mosquitto
+mosquitto_1.0_develp.tar.bz2
+mosquitto_1.1_devolped.tar.bz2
+mosquitto-1.4.8
+mosquitto_patch
+mosquitto.tar.bz2
+mosquitto_test
+mosquitto_test_1.1
+mydata.txt
+myDrivers
+mygit
+myp
+mytasks
+Nating_from_internet.sh
+new_src
+note
+Notifier_1.2
+objects
+occurence_report_1.0.sh
+openssl
+OPENSSL
+openssl-1.0.1e
+openssl-1.0.1e.tar.gz
+opentftp
+OPI22
+out.log
+out.txt
+patch
+PATCH
+PATCH_FOR_RUN_rhms
+patch.md5
+patch.tar.bz2
+PosDesk
+PosDesk.sh
+printer_hex_file
+problem_appds
+p.txt
+Qt_prgming_book.chm
+RAM_TEST
+rd_init_patch.zip
+rd_patch
+rd_server_imx6
+RD_SERVICE
+Read_Write_Contact
+refs
+Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+REMOTE_CLIENT
+remote_status.xml
+remote_status.xml.~1~
+REMOTE_STATUS.XML.~1~
+remote_status.xml_1170
+rfid_practise
+rhms
+RHMS_BACKUP_CMD.sh
+RHMS_PROJECT
+rhms_projects_updated_with_rdv1.7.1_220918.xls
+RHMS_PROJECT.tar.bz2
+RHMS_review.xls
+rt5370sta_src.tar.bz2
+run.sh
+run.sh.bkp
+sample
+sample.txt
+score.sh
+Screenshot from 2018-10-12 11-02-02.png
+sdcard_software_loding
+SD.directory
+SDK
+selfdiag_loadtest_final
+serial_1.1
+setmachineid
+snap
+source
+Speed
+Speedtest
+src
+ssh_pos_on_pc
+start_pc
+startx
+stcpt.sh
+taking_backup
+temp_rootf_fs_IMX6
+TEMP_ROOTFS
+temp_rootfs_cmd
+temp-rootfs.IMG
+temp_rootfs_reduced
+tes
+testing
+test_script_for_sdcard_1.0.sh
+TEST_SCRIPT_FOR_SDCARD.SH
+TEST_SCRIPT_FOR_SDCARD_SH.BKP
+tftpboot
+TotalDevicesReport24-01-2019_tsts.xls
+TSTSTSTS
+TT-Qt-4.7.4.tar.gz
+tutorial.c
+u03
+uboot-password
+uboot_password.tar.bz2
+u-boot_src
+ubuntu-session
+ubuntu-session.list
+ubuntu-session.md5sums
+unity
+unitycontrol
+unity-control-center
+update.sh
+uploaded_to_PLM
+usbsend
+xml
+xorg.conf.failsafe
+xorg.conf.new
+ZBARCAM-READER-0.2

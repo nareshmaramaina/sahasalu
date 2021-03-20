@@ -1,0 +1,5589 @@
+
+******* WELCOME PosDesk and PcDesk  Date: [ 03-09-2019 ]	 Time: [ 15:00:26 ] *******
+
+
+Time: [ 15:00:35 ]	Command: [ ls ]	Status: [ Success ]
+1
+111806562552
+1137_511_449
+1362
+1557
+1610188445_________________________________
+1617
+1mydata.h
+30042018_DPO_WLAN0_Batronics.tar.bz2
+3g.txt
+4G_3G_AGPS_TESTING_ALL
+4G_3G_AGPS_TESTING_ALL.tar.bz2
+4g.txt
+94_patch_TLS.zip
+access.c
+ACK_FROM_SERVER.XML
+ads_files
+adsplay_ver.conf
+affinity.c
+agree
+aio_read_write
+aio_read_write.c
+aio_read_write_list
+aio_read_write_list.c
+aligned.c
+ALL_CAMERA
+allinfo
+allinfo1
+allinfo2
+ALL_MHPDS_DEVICES_LIST
+alloc_brk.c
+alloc.c
+alloc_sbrk.c
+all.txt
+AMS
+anon_mmap.c
+ansilimits.c
+anydesk_taken_serial_ids.txt
+a.out
+app
+app.c
+appds_device_details.xls
+appds_iritech_patch_01032019.tar.bz2
+appdskrishna_rhms_problem_IDs
+appds_rhms_problem_IDs
+appds_serial_numbers
+APP_RHMS
+APP_RHMS_BKP
+ares_build.h
+ares_dns.h
+ares.h
+ares_rules.h
+ares_version.h
+attr_sched1.c
+attr_sched.c
+attr_stack.c
+autoapn
+autoapn_5.0.2
+autoapn_5.0.7
+Backup_bhargav
+barrier.c
+Battery_Temp
+bill
+bill.tar.bz2
+binary_sems.c
+binary_sems.h
+Bluetooth
+bmphandler.c
+books
+branches
+brk
+buftest.c
+build_maker_visiontek_1.1.sh
+buildroot-2017.02.10
+build-sample-pc-Debug
+busybox
+c
+Californium.properties
+call
+call1
+call1.c
+call.c
+cdpwd.c
+chits.c
+CHKFREED.c
+cleanup
+cleanup1
+cleanup1.c
+cleanup.c
+client
+clone1.c
+clone2.c
+clone3.c
+CmsUpdate
+common.c
+common.h
+common.o
+confi.db1
+config
+config.c
+config.txt
+consistent.c
+contents
+Contents.txt
+copy
+copy.c
+copysync
+copysync.c
+create
+create.c
+curl_command
+DAILY_CVD_CHECKSUM_UPLOAD.sh
+daily_cvd.md5
+daily_report
+deamon.c
+defattrtib.c
+demo
+demo.c
+Demo.txt
+dep
+deprecated.c
+Dereg_From_patchtest_allversions_78nos_on_190319.xls
+DEREGISTER_700_FROM_PATCHTEST.xls
+Deregister_goapds_16_devices_from_patchtest_and_registering_in_goapds_on_240519.xls
+deregistering_40_devices_from_goapds_and_registering_in_mhvisiontek_on_170819.xls
+DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+description
+Desktop
+destructor.c
+detached_attrib.c
+DeviceDetails07-02-2019_hpds.xls
+dev_info.c
+DevInfo.c
+diff
+direct.c
+directio
+directio.c
+direct_read
+direct_read.c
+displayImage_SRC
+dltest
+dltest.c
+dmesg
+Download
+Download_1.1_application
+Download_dbs
+download_imx25
+DOWNLOAD_PROJECT
+Downloads
+Download.tar.bz2
+dummy
+dummy_file.txt
+dyn_detach.c
+dyn_join.c
+epoll1.c
+errchk.c
+event_flags.c
+event_flags.h
+ex2.c
+exec1.c
+exec2.c
+exec3.c
+exec4.c
+exec5.c
+exer
+F1.TXT
+faq
+field_rhms_patch.tar.bz2
+file1
+FILE1.TXT
+filetype.c
+find_system_break
+find_system_break.c
+Fino-PPP-LIB
+Firmware
+flock
+FLOCK1
+FLOCK1.c
+FLOCK2
+FLOCK2.c
+FLOCK3
+FLOCK3.c
+flock.c
+Foundations.of.Qt.Development.pdf
+freescale-35.tar.gz
+frk10.c
+frk1.c
+frk2.c
+frk3.c
+frk4.c
+frk5.c
+frk6.c
+frk7.c
+frk8.c
+frk9.c
+frkas1.c
+frkas.c
+frkfd.c
+from_kermit
+From_ssh
+fs_stats
+fs_stats.c
+fstat
+fstat.c
+fstatcopy
+fstatcopy.c
+ftdi_sio.ko
+ftok.c
+funambol_dm_server_developer_guide.pdf
+funambol_dm_server_developer_guide.ppt
+getclk.c
+get_week_num.c
+gifhandler.c
+gl11_gsm_send_read_SMS
+GNANBHUMI
+GNANBHUMI1
+GNOME
+gopal.txt
+handlers.h
+HEAD
+hello
+hole.c
+hooks
+ignorepend.c
+imei
+Imp_tars
+IMX25_AutoConnectivity_4.4_Only_GSM
+imx25_temp_rootfs.img
+IMX25_TEMPS
+IMX6_FW_UPDATE
+imx6sl.dtsi
+imx_iocon.ko
+index.html
+IN_FMS.txt
+info
+inline.c
+inline.s
+install.log
+install.sh
+Integrate_IMX25
+Integrate_IMX6
+iotypes
+ipc
+isu80.1
+isu80.2
+JDK.history
+jpghandler.c
+json
+kerala_all_devices.xls
+kerala_gsm.xls
+kernel_src
+killing
+kk
+kk.c
+KKK.txt
+kollam.txt
+kollam.xls
+KPDS-1.8
+kpds_virus_patch
+k.sh
+l
+ldd3_pdf.tar.bz2
+leshan-client-demo.jar
+leshan-server-demo.jar
+lib
+lib1.c
+libab.a
+liba.o
+liba.so
+libb.o
+libb.so
+lib.c
+libgl11pos.so
+lib.h
+lib_imx25
+lib.o
+libsrc.c
+libtest.c
+libtest.cman
+libxyz.so
+linux-2.6.31_src_rt5370sta_src.zip
+linux-3.0.35_lcd
+Linux_backup.pdf
+linux.mp4
+LinuxPro
+live_score.sh
+lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+locker
+locker.c
+ls
+lseek
+lseek.c
+machineid1.c
+macid.c
+mahesh_1604567856_21082018
+main.c
+main_cvd.md5
+Makefile
+Makefile.inc
+mallinfo
+mallinfo.c
+malloc
+malloc.c
+malloc_stats
+malloc_stats.c
+malloc_status.c
+malloc_tuning
+malloc_tuning.c
+malloc_tunning.c
+malloc_usable_size
+malloc_usable_size.c
+mallopt.c
+mama
+mandl.c
+mem1.c
+mem2a.c
+mem2b.c
+mem4.c
+mem51.c
+memconst.h
+meminfo.c
+memkey.h
+memlock
+memlock.c
+message_app_1.0
+message_dbsample
+MF1S50YYX_V1.pdf
+mhintegra_till_now_connected_to_1.8_on_040619.xls
+mhnagpur_till_now_connected_to_1.8_on_040619.xls
+mhpds_all_devices_list_with_macid_and_connected_time.txt
+mhpds_all_devices_list_with_macid_and_connected_time.xls
+mhpds_device_details.xls
+mhpds_macid.txt
+mhpds.txt
+mincore.c
+mk2120ul-mgmtserv.log
+mlockall.c
+mlock.c
+MLS
+mmap
+mmap1
+mmap1.c
+mmap2
+mmap2.c
+mmap3
+mmap3.c
+mmap4
+mmap4.c
+mmap5
+mmap5.c
+mmap.c
+mmap_fullfile
+mmap_fullfile.c
+mmc
+mosquitto
+mosquitto_1.0_develp.tar.bz2
+mosquitto_1.1_devolped.tar.bz2
+mosquitto-1.4.8
+mosquitto_patch
+mosquitto.sh
+mosquitto.tar.bz2
+mosquitto_test
+mosquitto_test_1.1
+mqinfo.c
+mq_notify_sig.c
+mq_notify_sigwaitinfo.c
+mq_notify_thread.c
+msg_file_client.c
+msgfile.h
+msg_file_server.c
+msgls.c
+msgq1.c
+msgq21.c
+msgq22.c
+msgq23.c
+msgq2a.c
+msgq2b.c
+msgq3.c
+msg_unlink.c
+mtxmain.c
+mtxmydata.h
+mtxreader.c
+mtxwriter.c
+multi1
+multi1.c
+multi2
+multi2.c
+multi3
+multi3.c
+multi4
+multi4.c
+mydata.h
+mydata.txt
+myDrivers
+mygit
+mylib.c
+mylib.o
+myp
+mytasks
+Nating_from_internet.sh
+new_src
+non_locker
+non_locker.c
+nonnull.c
+nooverrun.c
+noreturn.c
+note
+notes
+Notifier_1.2
+Notifier_server
+objects
+occurence_report_1.0.sh
+oldact.c
+one.c
+oom
+oom.c
+open
+open.c
+openssl
+OPENSSL
+openssl-1.0.1e
+openssl-1.0.1e.tar.gz
+opentftp
+OPI22
+ostypes
+out
+out.log
+out.txt
+OVERRUN.c
+part1.c
+patch
+PATCH
+patch-2.0.zip
+PATCH_FOR_RUN_rhms
+patch.md5
+patch.tar.bz2
+pathlim.c
+pat.txt
+pcxhandler.c
+PERR.c
+perror
+perror.c
+poll1
+poll1.c
+poll2
+poll2.c
+PosDesk
+PosDesk.sh
+posixlimits.c
+_posix_man
+posix_memaling.c
+posixopts.c
+POSIXVER.c
+printer_hex_file
+prio.c
+priority1.c
+priority.c
+PRL.c
+problem_appds
+PROC1
+PROC1.c
+PROC2
+PROC2.c
+PROC3
+PROC3.c
+PROC41
+PROC41.c
+PROC42
+PROC42.c
+PROC51
+PROC51.c
+PROC52
+PROC52.c
+proclimits.c
+procon.c
+proconsyn.c
+prod_condvar1.c
+prod_condvar2.c
+psem_getvalue.c
+psem_timedwait.c
+psem_trywait.c
+psem_unlink.c
+psem_wait.c
+pshm_create.c
+pshm_read.c
+pshm_unlink.c
+pshm_write.c
+pthread_once.c
+pthread_rwlock.c
+pthread_seq.c
+pthread_seq.h
+pthread_spinlock.c
+ptimer1.c
+ptimer2.c
+ptimer3.c
+ptimer4.c
+p.txt
+qtest1.c
+qtest.c
+Qt_prgming_book.chm
+r
+RAM_TEST
+rd_init_patch.zip
+rd_patch
+rd_server_imx6
+RD_SERVICE
+Read
+read1
+read1.c
+read_ahead
+read_ahead.c
+read.c
+reader.c
+readfifo.c
+Readme
+Readme.atops
+Readmertc
+Readme.systypes
+Readme.txt
+read.txt
+Read.txt
+readv
+readv.c
+Read_Write_Contact
+recur.c
+refs
+Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+Registartion_nd_Deregistration_procedure.docx
+Registartion_nd_Deregistration_procedure.pdf
+registering_40_devices_in_mhvisiontek_on_170819_1.xls
+register.txt
+REMOTE_CLIENT
+remote_status.xml
+remote_status.xml.~1~
+REMOTE_STATUS.XML.~1~
+remote_status.xml_1170
+re.txt
+rfid_practise
+rhms
+RHMS_BACKUP_CMD.sh
+RHMS_PROJECT
+rhms_projects_all_PDS_patches_information_and_rdv1.7.1_Updated_Data.xls
+RHMS_PROJECT.tar.bz2
+RHMS_review.xls
+RHMS_RULES_FOR_DEVICES.ppt
+rlimit.c
+rot
+rt5370sta_src.tar.bz2
+rtc.c
+run
+run.sh
+run.sh.bkp
+ruta
+rwlock
+rw_wriprio.c
+sample
+sample.txt
+sched
+sched_param
+sched_param.c
+sched_scheduler.c
+score.sh
+Screenshot from 2018-10-12 11-02-02.png
+sdcard_software_loding
+SD.directory
+SDK
+search
+section.c
+selfdiag_loadtest_final
+selfdiag_loadtest_final.tar.bz2
+semcreate.c
+sempost.c
+semun.h
+seperate_kerala.xls
+serial_1.1
+setclk.c
+setmachineid
+set_Machineid
+sigabort.c
+sigaction.c
+sigalarm1.c
+sigalarm.c
+sigaltstack.c
+sigblock.c
+sigchld1.c
+sigchld.c
+sigcom1.c
+sigcom.c
+sigdefer.c
+sigfd1.c
+sigfd.c
+sigign.c
+siginfo.c
+sigintr.c
+signals
+sigrestart.c
+sigset1.c
+sigset1.s
+sigset2.c
+sigset3.c
+sigset4.c
+sigset5.c
+sigtwait2.c
+sigtwait3.c
+sigtwait.c
+sigwait2.c
+sigwait.c
+simple_thread1.c
+simple_thread.c
+sindhu
+sindhu.c
+singlecopy
+singlecopy.c
+snap
+source
+sp1.c
+sp2.c
+sp3a.c
+sp4a.c
+sp4b.c
+Speed
+Speedtest
+spek.c
+splice
+splice.c
+src
+srikakulam_ok.txt
+srikakulam.txt
+ssh_pos_on_pc
+start_pc
+startx
+stcpt.sh
+STDARGS.c
+student.dat
+svshm_xfr.h
+svshm_xfr_reader.c
+svshm_xfr_writer.c
+sync
+sync.c
+sync_re.c
+sys_fork
+syslim.c
+sysopen
+sysread
+taking_backup
+temp_rootf_fs_IMX6
+TEMP_ROOTFS
+temp_rootfs_cmd
+temp-rootfs.IMG
+temp_rootfs_reduced
+tes
+test
+test1
+test1.c
+test2
+test3.c
+test4.c
+test.c
+testfile
+test.file
+testing
+test_script_for_sdcard_1.0.sh
+TEST_SCRIPT_FOR_SDCARD.SH
+TEST_SCRIPT_FOR_SDCARD_SH.BKP
+Test_sshpass
+tftpboot
+thrcancel1.c
+thrcancel2.c
+thrcancel3.c
+thread_incr_atomic.c
+thread_incr.c
+thread_incr_deadlock.c
+thread_incr_mtx.c
+thread_incr_psem.c
+thr_shdata_abmon.c
+thr_shdata.c
+thr_shdata_sync.c
+thr_shdata_syncmtx.c
+tiffhandler.c
+tifhandler.c
+timer1.c
+timer2.c
+timerex1.c
+timerex3.c
+timerex.c
+tools.txt
+TotalDevicesReport24-01-2019_tsts.xls
+TSTSTSTS
+TT-Qt-4.7.4.tar.gz
+tutorial.c
+two.c
+u03
+uboot-password
+uboot_password.tar.bz2
+u-boot_src
+ubuntu-session
+ubuntu-session.list
+ubuntu-session.md5sums
+ui.c
+underrun.c
+unity
+unitycontrol
+unity-control-center
+unused_result.c
+Update_Application
+update.sh
+uploaded_to_PLM
+usbsend
+venu.txt
+version
+vim
+viml.c
+write
+write1
+write1.c
+write.c
+writefifo.c
+writer.c
+Write.txt
+writev
+writev.c
+xml
+xorg.conf.failsafe
+xorg.conf.new
+y
+y.pub
+ZBARCAM-READER-0.2
+
+
+Time: [ 15:00:41 ]	Command: [ top ]	Status: [ Success ]
+[?1h=[?25l[H[2J(B[mtop - 15:00:41 up  3:54,  1 user,  load average: 0.10, 0.20, 0.22(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 233 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 191 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 12.6 (B[m[39;49mus,(B[m[39;49m[1m  2.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 83.8 (B[m[39;49mid,(B[m[39;49m[1m  1.2 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   439968 (B[m[39;49mfree,(B[m[39;49m[1m  1548916 (B[m[39;49mused,(B[m[39;49m[1m  1919404 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2142672 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND     (B[m[39;49m[K
+(B[m 2661 naresh    20   0 1539628 249100  83768 S  29.4  6.4  44:31.27 compiz      (B[m[39;49m[K
+(B[m[1m12145 root      20   0   41932   3784   3148 R  11.8  0.1   0:00.03 top         (B[m[39;49m[K
+(B[m    1 root      20   0  225796   9680   6840 S   0.0  0.2   0:02.08 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.24 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:04.89 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.03 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K
+(B[m   16 root      20   0       0      0      0 S   0.0  0.0   0:00.21 ksoftirqd/1 (B[m[39;49m[K
+(B[m   18 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/1:+ (B[m[39;49m[K[H(B[mtop - 15:00:44 up  3:54,  1 user,  load average: 0.10, 0.20, 0.22(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 233 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 191 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  4.5 (B[m[39;49mus,(B[m[39;49m[1m  1.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 93.8 (B[m[39;49mid,(B[m[39;49m[1m  0.3 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   439936 (B[m[39;49mfree,(B[m[39;49m[1m  1548924 (B[m[39;49mused,(B[m[39;49m[1m  1919428 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2142656 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2661 naresh    20   0 1539628 249100  83768 S   8.3  6.4  44:31.52 compiz      (B[m[39;49m[K
+(B[m 1153 root      20   0  717584 176904  65340 S   2.6  4.5  11:59.13 Xorg        (B[m[39;49m[K
+(B[m  754 root      20   0       0      0      0 S   0.3  0.0   0:00.05 jbd2/sda7-8 (B[m[39;49m[K
+(B[m 2382 naresh    20   0  197772   6520   5904 S   0.3  0.2   0:05.45 ibus-engin+ (B[m[39;49m[K
+(B[m11651 naresh    20   0 4442304 259804 145424 S   0.3  6.6   0:19.37 soffice.bin (B[m[39;49m[K
+(B[m[1m12145 root      20   0   41900   3872   3148 R   0.3  0.1   0:00.04 top         (B[m[39;49m[K
+(B[m    1 root      20   0  225796   9680   6840 S   0.0  0.2   0:02.08 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.24 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:04.89 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K[H(B[mtop - 15:00:47 up  3:54,  1 user,  load average: 0.10, 0.20, 0.22(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  4.2 (B[m[39;49mus,(B[m[39;49m[1m  0.7 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 94.7 (B[m[39;49mid,(B[m[39;49m[1m  0.5 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   440060 (B[m[39;49mfree,(B[m[39;49m[1m  1548788 (B[m[39;49mused,(B[m[39;49m[1m  1919440 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2142784 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2661 naresh    20   0 1539628 249100  83768 S   7.3  6.4  44:31.74 compiz      (B[m[39;49m[K
+(B[m 1153 root      20   0  717584 176904  65340 S   1.7  4.5  11:59.18 Xorg        (B[m[39;49m[K
+(B[m[1m12145 root      20   0   41900   3872   3148 R   1.0  0.1   0:00.07 top         (B[m[39;49m[K
+(B[m 2894 naresh    20   0  811332  43932  27912 S   0.3  1.1   0:26.42 gnome-term+ (B[m[39;49m[K
+(B[m    1 root      20   0  225796   9680   6840 S   0.0  0.2   0:02.08 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.24 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:04.89 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.03 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K[H(B[mtop - 15:00:50 up  3:54,  1 user,  load average: 0.09, 0.20, 0.22(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  3.6 (B[m[39;49mus,(B[m[39;49m[1m  1.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 95.0 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   439936 (B[m[39;49mfree,(B[m[39;49m[1m  1548908 (B[m[39;49mused,(B[m[39;49m[1m  1919444 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2142660 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2661 naresh    20   0 1539628 249100  83768 S   7.0  6.4  44:31.95 compiz      (B[m[39;49m[K
+(B[m 1153 root      20   0  717584 176904  65340 S   2.3  4.5  11:59.25 Xorg        (B[m[39;49m[K
+(B[m[1m12145 root      20   0   41900   3872   3148 R   0.7  0.1   0:00.09 top         (B[m[39;49m[K
+(B[m 1188 mysql     20   0 1482208 174780  13236 S   0.3  4.5   0:07.93 mysqld      (B[m[39;49m[K
+
+
+
+
+
+
+
+
+
+
+
+
+[H(B[mtop - 15:00:53 up  3:54,  1 user,  load average: 0.09, 0.20, 0.22(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  6.0 (B[m[39;49mus,(B[m[39;49m[1m  1.8 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 90.5 (B[m[39;49mid,(B[m[39;49m[1m  1.7 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   439936 (B[m[39;49mfree,(B[m[39;49m[1m  1548900 (B[m[39;49mused,(B[m[39;49m[1m  1919452 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2142680 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2661 naresh    20   0 1539628 249100  83768 S  10.9  6.4  44:32.28 compiz      (B[m[39;49m[K
+(B[m 1153 root      20   0  717584 176904  65340 S   3.6  4.5  11:59.36 Xorg        (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.3  0.0   0:04.90 rcu_sched   (B[m[39;49m[K
+(B[m 2894 naresh    20   0  811332  43932  27912 S   0.3  1.1   0:26.43 gnome-term+ (B[m[39;49m[K
+(B[m 2899 naresh    20   0 2304224 236252 106688 S   0.3  6.0   0:45.39 thunderbird (B[m[39;49m[K
+(B[m11516 root      20   0       0      0      0 I   0.3  0.0   0:01.49 kworker/1:0 (B[m[39;49m[K
+(B[m11884 root      20   0       0      0      0 I   0.3  0.0   0:00.02 kworker/u8+ (B[m[39;49m[K
+(B[m11995 root      20   0       0      0      0 I   0.3  0.0   0:00.04 kworker/0:3 (B[m[39;49m[K
+(B[m[1m12145 root      20   0   41900   3872   3148 R   0.3  0.1   0:00.10 top         (B[m[39;49m[K
+(B[m    1 root      20   0  225796   9680   6840 S   0.0  0.2   0:02.08 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.24 ksoftirqd/0 (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 watchdog/0  (B[m[39;49m[K[H(B[mtop - 15:00:56 up  3:54,  1 user,  load average: 0.08, 0.19, 0.22(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  6.9 (B[m[39;49mus,(B[m[39;49m[1m  1.5 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 91.6 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   439812 (B[m[39;49mfree,(B[m[39;49m[1m  1549020 (B[m[39;49mused,(B[m[39;49m[1m  1919456 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2142556 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2661 naresh    20   0 1539628 249100  83768 S  10.6  6.4  44:32.60 compiz      (B[m[39;49m[K
+(B[m 1153 root      20   0  717584 176904  65340 S   3.3  4.5  11:59.46 Xorg        (B[m[39;49m[K
+(B[m 2894 naresh    20   0  811332  43932  27912 S   0.3  1.1   0:26.44 gnome-term+ (B[m[39;49m[K
+(B[m11651 naresh    20   0 4442304 259804 145424 S   0.3  6.6   0:19.38 soffice.bin (B[m[39;49m[K
+(B[m[1m12145 root      20   0   41900   3872   3148 R   0.3  0.1   0:00.11 top         (B[m[39;49m[K
+(B[m    1 root      20   0  225796   9680   6840 S   0.0  0.2   0:02.08 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.24 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:04.90 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.03 watchdog/1  (B[m[39;49m[K[H(B[mtop - 15:00:59 up  3:54,  1 user,  load average: 0.07, 0.19, 0.22(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 233 (B[m[39;49mtotal,(B[m[39;49m[1m   3 (B[m[39;49mrunning,(B[m[39;49m[1m 189 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  4.1 (B[m[39;49mus,(B[m[39;49m[1m  1.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 94.0 (B[m[39;49mid,(B[m[39;49m[1m  0.8 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   439812 (B[m[39;49mfree,(B[m[39;49m[1m  1549004 (B[m[39;49mused,(B[m[39;49m[1m  1919472 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m[1m 2661 naresh    20   0 1539628 249100  83768 R   7.3  6.4  44:32.82 compiz      (B[m[39;49m[K
+(B[m[1m 1153 root      20   0  717584 176904  65340 R   2.0  4.5  11:59.52 Xorg        (B[m[39;49m[K
+(B[m[1m12145 root      20   0   41900   3872   3148 R   0.7  0.1   0:00.13 top         (B[m[39;49m[K
+(B[m 1242 root      20   0   23168   3384   2928 S   0.3  0.1   0:03.75 mosquitto   (B[m[39;49m[K
+(B[m    1 root      20   0  225796   9680   6840 S   0.0  0.2   0:02.08 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.24 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:04.90 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.03 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K[H(B[mtop - 15:01:02 up  3:54,  1 user,  load average: 0.07, 0.19, 0.22(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 233 (B[m[39;49mtotal,(B[m[39;49m[1m   3 (B[m[39;49mrunning,(B[m[39;49m[1m 190 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  7.3 (B[m[39;49mus,(B[m[39;49m[1m  1.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 91.3 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   439856 (B[m[39;49mfree,(B[m[39;49m[1m  1548956 (B[m[39;49mused,(B[m[39;49m[1m  1919476 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2142632 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m[1m 2661 naresh    20   0 1539628 249100  83768 R  12.3  6.4  44:33.19 compiz      (B[m[39;49m[K
+(B[m 1153 root      20   0  717584 176904  65340 S   3.6  4.5  11:59.63 Xorg        (B[m[39;49m[K
+(B[m 2894 naresh    20   0  811332  43932  27912 S   0.3  1.1   0:26.45 gnome-term+ (B[m[39;49m[K
+(B[m 2899 naresh    20   0 2304224 236252 106688 S   0.3  6.0   0:45.40 thunderbird (B[m[39;49m[K
+(B[m[1m12145 root      20   0   41900   3872   3148 R   0.3  0.1   0:00.14 top         (B[m[39;49m[K
+(B[m    1 root      20   0  225796   9680   6840 S   0.0  0.2   0:02.08 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.24 ksoftirqd/0 (B[m[39;49m[K
+(B[m[1m    8 root      20   0       0      0      0 R   0.0  0.0   0:04.90 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.03 watchdog/1  (B[m[39;49m[K[H(B[mtop - 15:01:05 up  3:54,  1 user,  load average: 0.15, 0.20, 0.22(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 233 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 191 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  2.2 (B[m[39;49mus,(B[m[39;49m[1m  1.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 96.5 (B[m[39;49mid,(B[m[39;49m[1m  0.2 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.2 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   439936 (B[m[39;49mfree,(B[m[39;49m[1m  1548864 (B[m[39;49mused,(B[m[39;49m[1m  1919488 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2142712 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2661 naresh    20   0 1539628 249100  83768 S   5.0  6.4  44:33.34 compiz      (B[m[39;49m[K
+(B[m 1153 root      20   0  717584 176904  65340 S   1.7  4.5  11:59.68 Xorg        (B[m[39;49m[K
+(B[m[1m12145 root      20   0   41900   3872   3148 R   0.7  0.1   0:00.16 top         (B[m[39;49m[K
+(B[m  995 root      20   0  110408   2088   1868 S   0.3  0.1   0:01.01 irqbalance  (B[m[39;49m[K
+(B[m    1 root      20   0  225796   9680   6840 S   0.0  0.2   0:02.08 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.24 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:04.90 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.03 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K[H(B[mtop - 15:01:08 up  3:54,  1 user,  load average: 0.15, 0.20, 0.22(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  0.3 (B[m[39;49mus,(B[m[39;49m[1m  0.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.3 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2142724 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m[1m12145 root      20   0   41900   3872   3148 R   0.7  0.1   0:00.18 top         (B[m[39;49m[K
+(B[m 1188 mysql     20   0 1482208 174780  13236 S   0.3  4.5   0:07.94 mysqld      (B[m[39;49m[K
+(B[m    1 root      20   0  225796   9680   6840 S   0.0  0.2   0:02.08 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.24 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:04.90 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.03 watchdog/1  (B[m[39;49m[K
+(B[m   15 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/1 (B[m[39;49m[K
+(B[m   16 root      20   0       0      0      0 S   0.0  0.0   0:00.21 ksoftirqd/1 (B[m[39;49m[K
+(B[m   18 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/1:+ (B[m[39;49m[K[H(B[mtop - 15:01:11 up  3:54,  1 user,  load average: 0.14, 0.20, 0.22(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  5.3 (B[m[39;49mus,(B[m[39;49m[1m  1.2 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 92.9 (B[m[39;49mid,(B[m[39;49m[1m  0.7 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3908288 (B[m[39;49mtotal,(B[m[39;49m[1m   439812 (B[m[39;49mfree,(B[m[39;49m[1m  1548984 (B[m[39;49mused,(B[m[39;49m[1m  1919492 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m  7811068 (B[m[39;49mtotal,(B[m[39;49m[1m  7811068 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  2142600 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 2661 naresh    20   0 1539628 249100  83768 S   8.6  6.4  44:33.60 compiz      (B[m[39;49m[K
+(B[m 1153 root      20   0  717584 176904  65340 S   3.0  4.5  11:59.77 Xorg        (B[m[39;49m[K
+(B[m[1m12145 root      20   0   41900   3872   3148 R   0.7  0.1   0:00.20 top         (B[m[39;49m[K
+(B[m 2894 naresh    20   0  811332  43932  27912 S   0.3  1.1   0:26.46 gnome-term+ (B[m[39;49m[K
+(B[m11651 naresh    20   0 4442304 259804 145424 S   0.3  6.6   0:19.39 soffice.bin (B[m[39;49m[K
+(B[m    1 root      20   0  225796   9680   6840 S   0.0  0.2   0:02.08 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 S   0.0  0.0   0:00.24 ksoftirqd/0 (B[m[39;49m[K
+(B[m    8 root      20   0       0      0      0 I   0.0  0.0   0:04.90 rcu_sched   (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 I   0.0  0.0   0:00.00 rcu_bh      (B[m[39;49m[K
+(B[m   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.02 watchdog/0  (B[m[39;49m[K
+(B[m   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1     (B[m[39;49m[K
+(B[m   14 root      rt   0       0      0      0 S   0.0  0.0   0:00.03 watchdog/1  (B[m[39;49m[KKilled
+
+
+Time: [ 15:01:22 ]	Command: [ hello ]	Status: [ Success ]
+sh: 1: hello: not found
+
+
+Time: [ 15:01:30 ]	Command: [ ls ]	Status: [ Success ]
+1
+111806562552
+1137_511_449
+1362
+1557
+1610188445_________________________________
+1617
+1mydata.h
+30042018_DPO_WLAN0_Batronics.tar.bz2
+3g.txt
+4G_3G_AGPS_TESTING_ALL
+4G_3G_AGPS_TESTING_ALL.tar.bz2
+4g.txt
+94_patch_TLS.zip
+access.c
+ACK_FROM_SERVER.XML
+ads_files
+adsplay_ver.conf
+affinity.c
+agree
+aio_read_write
+aio_read_write.c
+aio_read_write_list
+aio_read_write_list.c
+aligned.c
+ALL_CAMERA
+allinfo
+allinfo1
+allinfo2
+ALL_MHPDS_DEVICES_LIST
+alloc_brk.c
+alloc.c
+alloc_sbrk.c
+all.txt
+AMS
+anon_mmap.c
+ansilimits.c
+anydesk_taken_serial_ids.txt
+a.out
+app
+app.c
+appds_device_details.xls
+appds_iritech_patch_01032019.tar.bz2
+appdskrishna_rhms_problem_IDs
+appds_rhms_problem_IDs
+appds_serial_numbers
+APP_RHMS
+APP_RHMS_BKP
+ares_build.h
+ares_dns.h
+ares.h
+ares_rules.h
+ares_version.h
+attr_sched1.c
+attr_sched.c
+attr_stack.c
+autoapn
+autoapn_5.0.2
+autoapn_5.0.7
+Backup_bhargav
+barrier.c
+Battery_Temp
+bill
+bill.tar.bz2
+binary_sems.c
+binary_sems.h
+Bluetooth
+bmphandler.c
+books
+branches
+brk
+buftest.c
+build_maker_visiontek_1.1.sh
+buildroot-2017.02.10
+build-sample-pc-Debug
+busybox
+c
+Californium.properties
+call
+call1
+call1.c
+call.c
+cdpwd.c
+chits.c
+CHKFREED.c
+cleanup
+cleanup1
+cleanup1.c
+cleanup.c
+client
+clone1.c
+clone2.c
+clone3.c
+CmsUpdate
+common.c
+common.h
+common.o
+confi.db1
+config
+config.c
+config.txt
+consistent.c
+contents
+Contents.txt
+copy
+copy.c
+copysync
+copysync.c
+create
+create.c
+curl_command
+DAILY_CVD_CHECKSUM_UPLOAD.sh
+daily_cvd.md5
+daily_report
+deamon.c
+defattrtib.c
+demo
+demo.c
+Demo.txt
+dep
+deprecated.c
+Dereg_From_patchtest_allversions_78nos_on_190319.xls
+DEREGISTER_700_FROM_PATCHTEST.xls
+Deregister_goapds_16_devices_from_patchtest_and_registering_in_goapds_on_240519.xls
+deregistering_40_devices_from_goapds_and_registering_in_mhvisiontek_on_170819.xls
+DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+description
+Desktop
+destructor.c
+detached_attrib.c
+DeviceDetails07-02-2019_hpds.xls
+dev_info.c
+DevInfo.c
+diff
+direct.c
+directio
+directio.c
+direct_read
+direct_read.c
+displayImage_SRC
+dltest
+dltest.c
+dmesg
+Download
+Download_1.1_application
+Download_dbs
+download_imx25
+DOWNLOAD_PROJECT
+Downloads
+Download.tar.bz2
+dummy
+dummy_file.txt
+dyn_detach.c
+dyn_join.c
+epoll1.c
+errchk.c
+event_flags.c
+event_flags.h
+ex2.c
+exec1.c
+exec2.c
+exec3.c
+exec4.c
+exec5.c
+exer
+F1.TXT
+faq
+field_rhms_patch.tar.bz2
+file1
+FILE1.TXT
+filetype.c
+find_system_break
+find_system_break.c
+Fino-PPP-LIB
+Firmware
+flock
+FLOCK1
+FLOCK1.c
+FLOCK2
+FLOCK2.c
+FLOCK3
+FLOCK3.c
+flock.c
+Foundations.of.Qt.Development.pdf
+freescale-35.tar.gz
+frk10.c
+frk1.c
+frk2.c
+frk3.c
+frk4.c
+frk5.c
+frk6.c
+frk7.c
+frk8.c
+frk9.c
+frkas1.c
+frkas.c
+frkfd.c
+from_kermit
+From_ssh
+fs_stats
+fs_stats.c
+fstat
+fstat.c
+fstatcopy
+fstatcopy.c
+ftdi_sio.ko
+ftok.c
+funambol_dm_server_developer_guide.pdf
+funambol_dm_server_developer_guide.ppt
+getclk.c
+get_week_num.c
+gifhandler.c
+gl11_gsm_send_read_SMS
+GNANBHUMI
+GNANBHUMI1
+GNOME
+gopal.txt
+handlers.h
+HEAD
+hello
+hole.c
+hooks
+ignorepend.c
+imei
+Imp_tars
+IMX25_AutoConnectivity_4.4_Only_GSM
+imx25_temp_rootfs.img
+IMX25_TEMPS
+IMX6_FW_UPDATE
+imx6sl.dtsi
+imx_iocon.ko
+index.html
+IN_FMS.txt
+info
+inline.c
+inline.s
+install.log
+install.sh
+Integrate_IMX25
+Integrate_IMX6
+iotypes
+ipc
+isu80.1
+isu80.2
+JDK.history
+jpghandler.c
+json
+kerala_all_devices.xls
+kerala_gsm.xls
+kernel_src
+killing
+kk
+kk.c
+KKK.txt
+kollam.txt
+kollam.xls
+KPDS-1.8
+kpds_virus_patch
+k.sh
+l
+ldd3_pdf.tar.bz2
+leshan-client-demo.jar
+leshan-server-demo.jar
+lib
+lib1.c
+libab.a
+liba.o
+liba.so
+libb.o
+libb.so
+lib.c
+libgl11pos.so
+lib.h
+lib_imx25
+lib.o
+libsrc.c
+libtest.c
+libtest.cman
+libxyz.so
+linux-2.6.31_src_rt5370sta_src.zip
+linux-3.0.35_lcd
+Linux_backup.pdf
+linux.mp4
+LinuxPro
+live_score.sh
+lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+locker
+locker.c
+ls
+lseek
+lseek.c
+machineid1.c
+macid.c
+mahesh_1604567856_21082018
+main.c
+main_cvd.md5
+Makefile
+Makefile.inc
+mallinfo
+mallinfo.c
+malloc
+malloc.c
+malloc_stats
+malloc_stats.c
+malloc_status.c
+malloc_tuning
+malloc_tuning.c
+malloc_tunning.c
+malloc_usable_size
+malloc_usable_size.c
+mallopt.c
+mama
+mandl.c
+mem1.c
+mem2a.c
+mem2b.c
+mem4.c
+mem51.c
+memconst.h
+meminfo.c
+memkey.h
+memlock
+memlock.c
+message_app_1.0
+message_dbsample
+MF1S50YYX_V1.pdf
+mhintegra_till_now_connected_to_1.8_on_040619.xls
+mhnagpur_till_now_connected_to_1.8_on_040619.xls
+mhpds_all_devices_list_with_macid_and_connected_time.txt
+mhpds_all_devices_list_with_macid_and_connected_time.xls
+mhpds_device_details.xls
+mhpds_macid.txt
+mhpds.txt
+mincore.c
+mk2120ul-mgmtserv.log
+mlockall.c
+mlock.c
+MLS
+mmap
+mmap1
+mmap1.c
+mmap2
+mmap2.c
+mmap3
+mmap3.c
+mmap4
+mmap4.c
+mmap5
+mmap5.c
+mmap.c
+mmap_fullfile
+mmap_fullfile.c
+mmc
+mosquitto
+mosquitto_1.0_develp.tar.bz2
+mosquitto_1.1_devolped.tar.bz2
+mosquitto-1.4.8
+mosquitto_patch
+mosquitto.sh
+mosquitto.tar.bz2
+mosquitto_test
+mosquitto_test_1.1
+mqinfo.c
+mq_notify_sig.c
+mq_notify_sigwaitinfo.c
+mq_notify_thread.c
+msg_file_client.c
+msgfile.h
+msg_file_server.c
+msgls.c
+msgq1.c
+msgq21.c
+msgq22.c
+msgq23.c
+msgq2a.c
+msgq2b.c
+msgq3.c
+msg_unlink.c
+mtxmain.c
+mtxmydata.h
+mtxreader.c
+mtxwriter.c
+multi1
+multi1.c
+multi2
+multi2.c
+multi3
+multi3.c
+multi4
+multi4.c
+mydata.h
+mydata.txt
+myDrivers
+mygit
+mylib.c
+mylib.o
+myp
+mytasks
+Nating_from_internet.sh
+new_src
+non_locker
+non_locker.c
+nonnull.c
+nooverrun.c
+noreturn.c
+note
+notes
+Notifier_1.2
+Notifier_server
+objects
+occurence_report_1.0.sh
+oldact.c
+one.c
+oom
+oom.c
+open
+open.c
+openssl
+OPENSSL
+openssl-1.0.1e
+openssl-1.0.1e.tar.gz
+opentftp
+OPI22
+ostypes
+out
+out.log
+out.txt
+OVERRUN.c
+part1.c
+patch
+PATCH
+patch-2.0.zip
+PATCH_FOR_RUN_rhms
+patch.md5
+patch.tar.bz2
+pathlim.c
+pat.txt
+pcxhandler.c
+PERR.c
+perror
+perror.c
+poll1
+poll1.c
+poll2
+poll2.c
+PosDesk
+PosDesk.sh
+posixlimits.c
+_posix_man
+posix_memaling.c
+posixopts.c
+POSIXVER.c
+printer_hex_file
+prio.c
+priority1.c
+priority.c
+PRL.c
+problem_appds
+PROC1
+PROC1.c
+PROC2
+PROC2.c
+PROC3
+PROC3.c
+PROC41
+PROC41.c
+PROC42
+PROC42.c
+PROC51
+PROC51.c
+PROC52
+PROC52.c
+proclimits.c
+procon.c
+proconsyn.c
+prod_condvar1.c
+prod_condvar2.c
+psem_getvalue.c
+psem_timedwait.c
+psem_trywait.c
+psem_unlink.c
+psem_wait.c
+pshm_create.c
+pshm_read.c
+pshm_unlink.c
+pshm_write.c
+pthread_once.c
+pthread_rwlock.c
+pthread_seq.c
+pthread_seq.h
+pthread_spinlock.c
+ptimer1.c
+ptimer2.c
+ptimer3.c
+ptimer4.c
+p.txt
+qtest1.c
+qtest.c
+Qt_prgming_book.chm
+r
+RAM_TEST
+rd_init_patch.zip
+rd_patch
+rd_server_imx6
+RD_SERVICE
+Read
+read1
+read1.c
+read_ahead
+read_ahead.c
+read.c
+reader.c
+readfifo.c
+Readme
+Readme.atops
+Readmertc
+Readme.systypes
+Readme.txt
+read.txt
+Read.txt
+readv
+readv.c
+Read_Write_Contact
+recur.c
+refs
+Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+Registartion_nd_Deregistration_procedure.docx
+Registartion_nd_Deregistration_procedure.pdf
+registering_40_devices_in_mhvisiontek_on_170819_1.xls
+register.txt
+REMOTE_CLIENT
+remote_status.xml
+remote_status.xml.~1~
+REMOTE_STATUS.XML.~1~
+remote_status.xml_1170
+re.txt
+rfid_practise
+rhms
+RHMS_BACKUP_CMD.sh
+RHMS_PROJECT
+rhms_projects_all_PDS_patches_information_and_rdv1.7.1_Updated_Data.xls
+RHMS_PROJECT.tar.bz2
+RHMS_review.xls
+RHMS_RULES_FOR_DEVICES.ppt
+rlimit.c
+rot
+rt5370sta_src.tar.bz2
+rtc.c
+run
+run.sh
+run.sh.bkp
+ruta
+rwlock
+rw_wriprio.c
+sample
+sample.txt
+sched
+sched_param
+sched_param.c
+sched_scheduler.c
+score.sh
+Screenshot from 2018-10-12 11-02-02.png
+sdcard_software_loding
+SD.directory
+SDK
+search
+section.c
+selfdiag_loadtest_final
+selfdiag_loadtest_final.tar.bz2
+semcreate.c
+sempost.c
+semun.h
+seperate_kerala.xls
+serial_1.1
+setclk.c
+setmachineid
+set_Machineid
+sigabort.c
+sigaction.c
+sigalarm1.c
+sigalarm.c
+sigaltstack.c
+sigblock.c
+sigchld1.c
+sigchld.c
+sigcom1.c
+sigcom.c
+sigdefer.c
+sigfd1.c
+sigfd.c
+sigign.c
+siginfo.c
+sigintr.c
+signals
+sigrestart.c
+sigset1.c
+sigset1.s
+sigset2.c
+sigset3.c
+sigset4.c
+sigset5.c
+sigtwait2.c
+sigtwait3.c
+sigtwait.c
+sigwait2.c
+sigwait.c
+simple_thread1.c
+simple_thread.c
+sindhu
+sindhu.c
+singlecopy
+singlecopy.c
+snap
+source
+sp1.c
+sp2.c
+sp3a.c
+sp4a.c
+sp4b.c
+Speed
+Speedtest
+spek.c
+splice
+splice.c
+src
+srikakulam_ok.txt
+srikakulam.txt
+ssh_pos_on_pc
+start_pc
+startx
+stcpt.sh
+STDARGS.c
+student.dat
+svshm_xfr.h
+svshm_xfr_reader.c
+svshm_xfr_writer.c
+sync
+sync.c
+sync_re.c
+sys_fork
+syslim.c
+sysopen
+sysread
+taking_backup
+temp_rootf_fs_IMX6
+TEMP_ROOTFS
+temp_rootfs_cmd
+temp-rootfs.IMG
+temp_rootfs_reduced
+tes
+test
+test1
+test1.c
+test2
+test3.c
+test4.c
+test.c
+testfile
+test.file
+testing
+test_script_for_sdcard_1.0.sh
+TEST_SCRIPT_FOR_SDCARD.SH
+TEST_SCRIPT_FOR_SDCARD_SH.BKP
+Test_sshpass
+tftpboot
+thrcancel1.c
+thrcancel2.c
+thrcancel3.c
+thread_incr_atomic.c
+thread_incr.c
+thread_incr_deadlock.c
+thread_incr_mtx.c
+thread_incr_psem.c
+thr_shdata_abmon.c
+thr_shdata.c
+thr_shdata_sync.c
+thr_shdata_syncmtx.c
+tiffhandler.c
+tifhandler.c
+timer1.c
+timer2.c
+timerex1.c
+timerex3.c
+timerex.c
+tools.txt
+TotalDevicesReport24-01-2019_tsts.xls
+TSTSTSTS
+TT-Qt-4.7.4.tar.gz
+tutorial.c
+two.c
+u03
+uboot-password
+uboot_password.tar.bz2
+u-boot_src
+ubuntu-session
+ubuntu-session.list
+ubuntu-session.md5sums
+ui.c
+underrun.c
+unity
+unitycontrol
+unity-control-center
+unused_result.c
+Update_Application
+update.sh
+uploaded_to_PLM
+usbsend
+venu.txt
+version
+vim
+viml.c
+write
+write1
+write1.c
+write.c
+writefifo.c
+writer.c
+Write.txt
+writev
+writev.c
+xml
+xorg.conf.failsafe
+xorg.conf.new
+y
+y.pub
+ZBARCAM-READER-0.2
+
+
+Time: [ 15:01:32 ]	Command: [ ls ]	Status: [ Success ]
+1
+111806562552
+1137_511_449
+1362
+1557
+1610188445_________________________________
+1617
+1mydata.h
+30042018_DPO_WLAN0_Batronics.tar.bz2
+3g.txt
+4G_3G_AGPS_TESTING_ALL
+4G_3G_AGPS_TESTING_ALL.tar.bz2
+4g.txt
+94_patch_TLS.zip
+access.c
+ACK_FROM_SERVER.XML
+ads_files
+adsplay_ver.conf
+affinity.c
+agree
+aio_read_write
+aio_read_write.c
+aio_read_write_list
+aio_read_write_list.c
+aligned.c
+ALL_CAMERA
+allinfo
+allinfo1
+allinfo2
+ALL_MHPDS_DEVICES_LIST
+alloc_brk.c
+alloc.c
+alloc_sbrk.c
+all.txt
+AMS
+anon_mmap.c
+ansilimits.c
+anydesk_taken_serial_ids.txt
+a.out
+app
+app.c
+appds_device_details.xls
+appds_iritech_patch_01032019.tar.bz2
+appdskrishna_rhms_problem_IDs
+appds_rhms_problem_IDs
+appds_serial_numbers
+APP_RHMS
+APP_RHMS_BKP
+ares_build.h
+ares_dns.h
+ares.h
+ares_rules.h
+ares_version.h
+attr_sched1.c
+attr_sched.c
+attr_stack.c
+autoapn
+autoapn_5.0.2
+autoapn_5.0.7
+Backup_bhargav
+barrier.c
+Battery_Temp
+bill
+bill.tar.bz2
+binary_sems.c
+binary_sems.h
+Bluetooth
+bmphandler.c
+books
+branches
+brk
+buftest.c
+build_maker_visiontek_1.1.sh
+buildroot-2017.02.10
+build-sample-pc-Debug
+busybox
+c
+Californium.properties
+call
+call1
+call1.c
+call.c
+cdpwd.c
+chits.c
+CHKFREED.c
+cleanup
+cleanup1
+cleanup1.c
+cleanup.c
+client
+clone1.c
+clone2.c
+clone3.c
+CmsUpdate
+common.c
+common.h
+common.o
+confi.db1
+config
+config.c
+config.txt
+consistent.c
+contents
+Contents.txt
+copy
+copy.c
+copysync
+copysync.c
+create
+create.c
+curl_command
+DAILY_CVD_CHECKSUM_UPLOAD.sh
+daily_cvd.md5
+daily_report
+deamon.c
+defattrtib.c
+demo
+demo.c
+Demo.txt
+dep
+deprecated.c
+Dereg_From_patchtest_allversions_78nos_on_190319.xls
+DEREGISTER_700_FROM_PATCHTEST.xls
+Deregister_goapds_16_devices_from_patchtest_and_registering_in_goapds_on_240519.xls
+deregistering_40_devices_from_goapds_and_registering_in_mhvisiontek_on_170819.xls
+DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+description
+Desktop
+destructor.c
+detached_attrib.c
+DeviceDetails07-02-2019_hpds.xls
+dev_info.c
+DevInfo.c
+diff
+direct.c
+directio
+directio.c
+direct_read
+direct_read.c
+displayImage_SRC
+dltest
+dltest.c
+dmesg
+Download
+Download_1.1_application
+Download_dbs
+download_imx25
+DOWNLOAD_PROJECT
+Downloads
+Download.tar.bz2
+dummy
+dummy_file.txt
+dyn_detach.c
+dyn_join.c
+epoll1.c
+errchk.c
+event_flags.c
+event_flags.h
+ex2.c
+exec1.c
+exec2.c
+exec3.c
+exec4.c
+exec5.c
+exer
+F1.TXT
+faq
+field_rhms_patch.tar.bz2
+file1
+FILE1.TXT
+filetype.c
+find_system_break
+find_system_break.c
+Fino-PPP-LIB
+Firmware
+flock
+FLOCK1
+FLOCK1.c
+FLOCK2
+FLOCK2.c
+FLOCK3
+FLOCK3.c
+flock.c
+Foundations.of.Qt.Development.pdf
+freescale-35.tar.gz
+frk10.c
+frk1.c
+frk2.c
+frk3.c
+frk4.c
+frk5.c
+frk6.c
+frk7.c
+frk8.c
+frk9.c
+frkas1.c
+frkas.c
+frkfd.c
+from_kermit
+From_ssh
+fs_stats
+fs_stats.c
+fstat
+fstat.c
+fstatcopy
+fstatcopy.c
+ftdi_sio.ko
+ftok.c
+funambol_dm_server_developer_guide.pdf
+funambol_dm_server_developer_guide.ppt
+getclk.c
+get_week_num.c
+gifhandler.c
+gl11_gsm_send_read_SMS
+GNANBHUMI
+GNANBHUMI1
+GNOME
+gopal.txt
+handlers.h
+HEAD
+hello
+hole.c
+hooks
+ignorepend.c
+imei
+Imp_tars
+IMX25_AutoConnectivity_4.4_Only_GSM
+imx25_temp_rootfs.img
+IMX25_TEMPS
+IMX6_FW_UPDATE
+imx6sl.dtsi
+imx_iocon.ko
+index.html
+IN_FMS.txt
+info
+inline.c
+inline.s
+install.log
+install.sh
+Integrate_IMX25
+Integrate_IMX6
+iotypes
+ipc
+isu80.1
+isu80.2
+JDK.history
+jpghandler.c
+json
+kerala_all_devices.xls
+kerala_gsm.xls
+kernel_src
+killing
+kk
+kk.c
+KKK.txt
+kollam.txt
+kollam.xls
+KPDS-1.8
+kpds_virus_patch
+k.sh
+l
+ldd3_pdf.tar.bz2
+leshan-client-demo.jar
+leshan-server-demo.jar
+lib
+lib1.c
+libab.a
+liba.o
+liba.so
+libb.o
+libb.so
+lib.c
+libgl11pos.so
+lib.h
+lib_imx25
+lib.o
+libsrc.c
+libtest.c
+libtest.cman
+libxyz.so
+linux-2.6.31_src_rt5370sta_src.zip
+linux-3.0.35_lcd
+Linux_backup.pdf
+linux.mp4
+LinuxPro
+live_score.sh
+lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+locker
+locker.c
+ls
+lseek
+lseek.c
+machineid1.c
+macid.c
+mahesh_1604567856_21082018
+main.c
+main_cvd.md5
+Makefile
+Makefile.inc
+mallinfo
+mallinfo.c
+malloc
+malloc.c
+malloc_stats
+malloc_stats.c
+malloc_status.c
+malloc_tuning
+malloc_tuning.c
+malloc_tunning.c
+malloc_usable_size
+malloc_usable_size.c
+mallopt.c
+mama
+mandl.c
+mem1.c
+mem2a.c
+mem2b.c
+mem4.c
+mem51.c
+memconst.h
+meminfo.c
+memkey.h
+memlock
+memlock.c
+message_app_1.0
+message_dbsample
+MF1S50YYX_V1.pdf
+mhintegra_till_now_connected_to_1.8_on_040619.xls
+mhnagpur_till_now_connected_to_1.8_on_040619.xls
+mhpds_all_devices_list_with_macid_and_connected_time.txt
+mhpds_all_devices_list_with_macid_and_connected_time.xls
+mhpds_device_details.xls
+mhpds_macid.txt
+mhpds.txt
+mincore.c
+mk2120ul-mgmtserv.log
+mlockall.c
+mlock.c
+MLS
+mmap
+mmap1
+mmap1.c
+mmap2
+mmap2.c
+mmap3
+mmap3.c
+mmap4
+mmap4.c
+mmap5
+mmap5.c
+mmap.c
+mmap_fullfile
+mmap_fullfile.c
+mmc
+mosquitto
+mosquitto_1.0_develp.tar.bz2
+mosquitto_1.1_devolped.tar.bz2
+mosquitto-1.4.8
+mosquitto_patch
+mosquitto.sh
+mosquitto.tar.bz2
+mosquitto_test
+mosquitto_test_1.1
+mqinfo.c
+mq_notify_sig.c
+mq_notify_sigwaitinfo.c
+mq_notify_thread.c
+msg_file_client.c
+msgfile.h
+msg_file_server.c
+msgls.c
+msgq1.c
+msgq21.c
+msgq22.c
+msgq23.c
+msgq2a.c
+msgq2b.c
+msgq3.c
+msg_unlink.c
+mtxmain.c
+mtxmydata.h
+mtxreader.c
+mtxwriter.c
+multi1
+multi1.c
+multi2
+multi2.c
+multi3
+multi3.c
+multi4
+multi4.c
+mydata.h
+mydata.txt
+myDrivers
+mygit
+mylib.c
+mylib.o
+myp
+mytasks
+Nating_from_internet.sh
+new_src
+non_locker
+non_locker.c
+nonnull.c
+nooverrun.c
+noreturn.c
+note
+notes
+Notifier_1.2
+Notifier_server
+objects
+occurence_report_1.0.sh
+oldact.c
+one.c
+oom
+oom.c
+open
+open.c
+openssl
+OPENSSL
+openssl-1.0.1e
+openssl-1.0.1e.tar.gz
+opentftp
+OPI22
+ostypes
+out
+out.log
+out.txt
+OVERRUN.c
+part1.c
+patch
+PATCH
+patch-2.0.zip
+PATCH_FOR_RUN_rhms
+patch.md5
+patch.tar.bz2
+pathlim.c
+pat.txt
+pcxhandler.c
+PERR.c
+perror
+perror.c
+poll1
+poll1.c
+poll2
+poll2.c
+PosDesk
+PosDesk.sh
+posixlimits.c
+_posix_man
+posix_memaling.c
+posixopts.c
+POSIXVER.c
+printer_hex_file
+prio.c
+priority1.c
+priority.c
+PRL.c
+problem_appds
+PROC1
+PROC1.c
+PROC2
+PROC2.c
+PROC3
+PROC3.c
+PROC41
+PROC41.c
+PROC42
+PROC42.c
+PROC51
+PROC51.c
+PROC52
+PROC52.c
+proclimits.c
+procon.c
+proconsyn.c
+prod_condvar1.c
+prod_condvar2.c
+psem_getvalue.c
+psem_timedwait.c
+psem_trywait.c
+psem_unlink.c
+psem_wait.c
+pshm_create.c
+pshm_read.c
+pshm_unlink.c
+pshm_write.c
+pthread_once.c
+pthread_rwlock.c
+pthread_seq.c
+pthread_seq.h
+pthread_spinlock.c
+ptimer1.c
+ptimer2.c
+ptimer3.c
+ptimer4.c
+p.txt
+qtest1.c
+qtest.c
+Qt_prgming_book.chm
+r
+RAM_TEST
+rd_init_patch.zip
+rd_patch
+rd_server_imx6
+RD_SERVICE
+Read
+read1
+read1.c
+read_ahead
+read_ahead.c
+read.c
+reader.c
+readfifo.c
+Readme
+Readme.atops
+Readmertc
+Readme.systypes
+Readme.txt
+read.txt
+Read.txt
+readv
+readv.c
+Read_Write_Contact
+recur.c
+refs
+Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+Registartion_nd_Deregistration_procedure.docx
+Registartion_nd_Deregistration_procedure.pdf
+registering_40_devices_in_mhvisiontek_on_170819_1.xls
+register.txt
+REMOTE_CLIENT
+remote_status.xml
+remote_status.xml.~1~
+REMOTE_STATUS.XML.~1~
+remote_status.xml_1170
+re.txt
+rfid_practise
+rhms
+RHMS_BACKUP_CMD.sh
+RHMS_PROJECT
+rhms_projects_all_PDS_patches_information_and_rdv1.7.1_Updated_Data.xls
+RHMS_PROJECT.tar.bz2
+RHMS_review.xls
+RHMS_RULES_FOR_DEVICES.ppt
+rlimit.c
+rot
+rt5370sta_src.tar.bz2
+rtc.c
+run
+run.sh
+run.sh.bkp
+ruta
+rwlock
+rw_wriprio.c
+sample
+sample.txt
+sched
+sched_param
+sched_param.c
+sched_scheduler.c
+score.sh
+Screenshot from 2018-10-12 11-02-02.png
+sdcard_software_loding
+SD.directory
+SDK
+search
+section.c
+selfdiag_loadtest_final
+selfdiag_loadtest_final.tar.bz2
+semcreate.c
+sempost.c
+semun.h
+seperate_kerala.xls
+serial_1.1
+setclk.c
+setmachineid
+set_Machineid
+sigabort.c
+sigaction.c
+sigalarm1.c
+sigalarm.c
+sigaltstack.c
+sigblock.c
+sigchld1.c
+sigchld.c
+sigcom1.c
+sigcom.c
+sigdefer.c
+sigfd1.c
+sigfd.c
+sigign.c
+siginfo.c
+sigintr.c
+signals
+sigrestart.c
+sigset1.c
+sigset1.s
+sigset2.c
+sigset3.c
+sigset4.c
+sigset5.c
+sigtwait2.c
+sigtwait3.c
+sigtwait.c
+sigwait2.c
+sigwait.c
+simple_thread1.c
+simple_thread.c
+sindhu
+sindhu.c
+singlecopy
+singlecopy.c
+snap
+source
+sp1.c
+sp2.c
+sp3a.c
+sp4a.c
+sp4b.c
+Speed
+Speedtest
+spek.c
+splice
+splice.c
+src
+srikakulam_ok.txt
+srikakulam.txt
+ssh_pos_on_pc
+start_pc
+startx
+stcpt.sh
+STDARGS.c
+student.dat
+svshm_xfr.h
+svshm_xfr_reader.c
+svshm_xfr_writer.c
+sync
+sync.c
+sync_re.c
+sys_fork
+syslim.c
+sysopen
+sysread
+taking_backup
+temp_rootf_fs_IMX6
+TEMP_ROOTFS
+temp_rootfs_cmd
+temp-rootfs.IMG
+temp_rootfs_reduced
+tes
+test
+test1
+test1.c
+test2
+test3.c
+test4.c
+test.c
+testfile
+test.file
+testing
+test_script_for_sdcard_1.0.sh
+TEST_SCRIPT_FOR_SDCARD.SH
+TEST_SCRIPT_FOR_SDCARD_SH.BKP
+Test_sshpass
+tftpboot
+thrcancel1.c
+thrcancel2.c
+thrcancel3.c
+thread_incr_atomic.c
+thread_incr.c
+thread_incr_deadlock.c
+thread_incr_mtx.c
+thread_incr_psem.c
+thr_shdata_abmon.c
+thr_shdata.c
+thr_shdata_sync.c
+thr_shdata_syncmtx.c
+tiffhandler.c
+tifhandler.c
+timer1.c
+timer2.c
+timerex1.c
+timerex3.c
+timerex.c
+tools.txt
+TotalDevicesReport24-01-2019_tsts.xls
+TSTSTSTS
+TT-Qt-4.7.4.tar.gz
+tutorial.c
+two.c
+u03
+uboot-password
+uboot_password.tar.bz2
+u-boot_src
+ubuntu-session
+ubuntu-session.list
+ubuntu-session.md5sums
+ui.c
+underrun.c
+unity
+unitycontrol
+unity-control-center
+unused_result.c
+Update_Application
+update.sh
+uploaded_to_PLM
+usbsend
+venu.txt
+version
+vim
+viml.c
+write
+write1
+write1.c
+write.c
+writefifo.c
+writer.c
+Write.txt
+writev
+writev.c
+xml
+xorg.conf.failsafe
+xorg.conf.new
+y
+y.pub
+ZBARCAM-READER-0.2
+
+
+Time: [ 15:01:33 ]	Command: [ ls ]	Status: [ Success ]
+1
+111806562552
+1137_511_449
+1362
+1557
+1610188445_________________________________
+1617
+1mydata.h
+30042018_DPO_WLAN0_Batronics.tar.bz2
+3g.txt
+4G_3G_AGPS_TESTING_ALL
+4G_3G_AGPS_TESTING_ALL.tar.bz2
+4g.txt
+94_patch_TLS.zip
+access.c
+ACK_FROM_SERVER.XML
+ads_files
+adsplay_ver.conf
+affinity.c
+agree
+aio_read_write
+aio_read_write.c
+aio_read_write_list
+aio_read_write_list.c
+aligned.c
+ALL_CAMERA
+allinfo
+allinfo1
+allinfo2
+ALL_MHPDS_DEVICES_LIST
+alloc_brk.c
+alloc.c
+alloc_sbrk.c
+all.txt
+AMS
+anon_mmap.c
+ansilimits.c
+anydesk_taken_serial_ids.txt
+a.out
+app
+app.c
+appds_device_details.xls
+appds_iritech_patch_01032019.tar.bz2
+appdskrishna_rhms_problem_IDs
+appds_rhms_problem_IDs
+appds_serial_numbers
+APP_RHMS
+APP_RHMS_BKP
+ares_build.h
+ares_dns.h
+ares.h
+ares_rules.h
+ares_version.h
+attr_sched1.c
+attr_sched.c
+attr_stack.c
+autoapn
+autoapn_5.0.2
+autoapn_5.0.7
+Backup_bhargav
+barrier.c
+Battery_Temp
+bill
+bill.tar.bz2
+binary_sems.c
+binary_sems.h
+Bluetooth
+bmphandler.c
+books
+branches
+brk
+buftest.c
+build_maker_visiontek_1.1.sh
+buildroot-2017.02.10
+build-sample-pc-Debug
+busybox
+c
+Californium.properties
+call
+call1
+call1.c
+call.c
+cdpwd.c
+chits.c
+CHKFREED.c
+cleanup
+cleanup1
+cleanup1.c
+cleanup.c
+client
+clone1.c
+clone2.c
+clone3.c
+CmsUpdate
+common.c
+common.h
+common.o
+confi.db1
+config
+config.c
+config.txt
+consistent.c
+contents
+Contents.txt
+copy
+copy.c
+copysync
+copysync.c
+create
+create.c
+curl_command
+DAILY_CVD_CHECKSUM_UPLOAD.sh
+daily_cvd.md5
+daily_report
+deamon.c
+defattrtib.c
+demo
+demo.c
+Demo.txt
+dep
+deprecated.c
+Dereg_From_patchtest_allversions_78nos_on_190319.xls
+DEREGISTER_700_FROM_PATCHTEST.xls
+Deregister_goapds_16_devices_from_patchtest_and_registering_in_goapds_on_240519.xls
+deregistering_40_devices_from_goapds_and_registering_in_mhvisiontek_on_170819.xls
+DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+description
+Desktop
+destructor.c
+detached_attrib.c
+DeviceDetails07-02-2019_hpds.xls
+dev_info.c
+DevInfo.c
+diff
+direct.c
+directio
+directio.c
+direct_read
+direct_read.c
+displayImage_SRC
+dltest
+dltest.c
+dmesg
+Download
+Download_1.1_application
+Download_dbs
+download_imx25
+DOWNLOAD_PROJECT
+Downloads
+Download.tar.bz2
+dummy
+dummy_file.txt
+dyn_detach.c
+dyn_join.c
+epoll1.c
+errchk.c
+event_flags.c
+event_flags.h
+ex2.c
+exec1.c
+exec2.c
+exec3.c
+exec4.c
+exec5.c
+exer
+F1.TXT
+faq
+field_rhms_patch.tar.bz2
+file1
+FILE1.TXT
+filetype.c
+find_system_break
+find_system_break.c
+Fino-PPP-LIB
+Firmware
+flock
+FLOCK1
+FLOCK1.c
+FLOCK2
+FLOCK2.c
+FLOCK3
+FLOCK3.c
+flock.c
+Foundations.of.Qt.Development.pdf
+freescale-35.tar.gz
+frk10.c
+frk1.c
+frk2.c
+frk3.c
+frk4.c
+frk5.c
+frk6.c
+frk7.c
+frk8.c
+frk9.c
+frkas1.c
+frkas.c
+frkfd.c
+from_kermit
+From_ssh
+fs_stats
+fs_stats.c
+fstat
+fstat.c
+fstatcopy
+fstatcopy.c
+ftdi_sio.ko
+ftok.c
+funambol_dm_server_developer_guide.pdf
+funambol_dm_server_developer_guide.ppt
+getclk.c
+get_week_num.c
+gifhandler.c
+gl11_gsm_send_read_SMS
+GNANBHUMI
+GNANBHUMI1
+GNOME
+gopal.txt
+handlers.h
+HEAD
+hello
+hole.c
+hooks
+ignorepend.c
+imei
+Imp_tars
+IMX25_AutoConnectivity_4.4_Only_GSM
+imx25_temp_rootfs.img
+IMX25_TEMPS
+IMX6_FW_UPDATE
+imx6sl.dtsi
+imx_iocon.ko
+index.html
+IN_FMS.txt
+info
+inline.c
+inline.s
+install.log
+install.sh
+Integrate_IMX25
+Integrate_IMX6
+iotypes
+ipc
+isu80.1
+isu80.2
+JDK.history
+jpghandler.c
+json
+kerala_all_devices.xls
+kerala_gsm.xls
+kernel_src
+killing
+kk
+kk.c
+KKK.txt
+kollam.txt
+kollam.xls
+KPDS-1.8
+kpds_virus_patch
+k.sh
+l
+ldd3_pdf.tar.bz2
+leshan-client-demo.jar
+leshan-server-demo.jar
+lib
+lib1.c
+libab.a
+liba.o
+liba.so
+libb.o
+libb.so
+lib.c
+libgl11pos.so
+lib.h
+lib_imx25
+lib.o
+libsrc.c
+libtest.c
+libtest.cman
+libxyz.so
+linux-2.6.31_src_rt5370sta_src.zip
+linux-3.0.35_lcd
+Linux_backup.pdf
+linux.mp4
+LinuxPro
+live_score.sh
+lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+locker
+locker.c
+ls
+lseek
+lseek.c
+machineid1.c
+macid.c
+mahesh_1604567856_21082018
+main.c
+main_cvd.md5
+Makefile
+Makefile.inc
+mallinfo
+mallinfo.c
+malloc
+malloc.c
+malloc_stats
+malloc_stats.c
+malloc_status.c
+malloc_tuning
+malloc_tuning.c
+malloc_tunning.c
+malloc_usable_size
+malloc_usable_size.c
+mallopt.c
+mama
+mandl.c
+mem1.c
+mem2a.c
+mem2b.c
+mem4.c
+mem51.c
+memconst.h
+meminfo.c
+memkey.h
+memlock
+memlock.c
+message_app_1.0
+message_dbsample
+MF1S50YYX_V1.pdf
+mhintegra_till_now_connected_to_1.8_on_040619.xls
+mhnagpur_till_now_connected_to_1.8_on_040619.xls
+mhpds_all_devices_list_with_macid_and_connected_time.txt
+mhpds_all_devices_list_with_macid_and_connected_time.xls
+mhpds_device_details.xls
+mhpds_macid.txt
+mhpds.txt
+mincore.c
+mk2120ul-mgmtserv.log
+mlockall.c
+mlock.c
+MLS
+mmap
+mmap1
+mmap1.c
+mmap2
+mmap2.c
+mmap3
+mmap3.c
+mmap4
+mmap4.c
+mmap5
+mmap5.c
+mmap.c
+mmap_fullfile
+mmap_fullfile.c
+mmc
+mosquitto
+mosquitto_1.0_develp.tar.bz2
+mosquitto_1.1_devolped.tar.bz2
+mosquitto-1.4.8
+mosquitto_patch
+mosquitto.sh
+mosquitto.tar.bz2
+mosquitto_test
+mosquitto_test_1.1
+mqinfo.c
+mq_notify_sig.c
+mq_notify_sigwaitinfo.c
+mq_notify_thread.c
+msg_file_client.c
+msgfile.h
+msg_file_server.c
+msgls.c
+msgq1.c
+msgq21.c
+msgq22.c
+msgq23.c
+msgq2a.c
+msgq2b.c
+msgq3.c
+msg_unlink.c
+mtxmain.c
+mtxmydata.h
+mtxreader.c
+mtxwriter.c
+multi1
+multi1.c
+multi2
+multi2.c
+multi3
+multi3.c
+multi4
+multi4.c
+mydata.h
+mydata.txt
+myDrivers
+mygit
+mylib.c
+mylib.o
+myp
+mytasks
+Nating_from_internet.sh
+new_src
+non_locker
+non_locker.c
+nonnull.c
+nooverrun.c
+noreturn.c
+note
+notes
+Notifier_1.2
+Notifier_server
+objects
+occurence_report_1.0.sh
+oldact.c
+one.c
+oom
+oom.c
+open
+open.c
+openssl
+OPENSSL
+openssl-1.0.1e
+openssl-1.0.1e.tar.gz
+opentftp
+OPI22
+ostypes
+out
+out.log
+out.txt
+OVERRUN.c
+part1.c
+patch
+PATCH
+patch-2.0.zip
+PATCH_FOR_RUN_rhms
+patch.md5
+patch.tar.bz2
+pathlim.c
+pat.txt
+pcxhandler.c
+PERR.c
+perror
+perror.c
+poll1
+poll1.c
+poll2
+poll2.c
+PosDesk
+PosDesk.sh
+posixlimits.c
+_posix_man
+posix_memaling.c
+posixopts.c
+POSIXVER.c
+printer_hex_file
+prio.c
+priority1.c
+priority.c
+PRL.c
+problem_appds
+PROC1
+PROC1.c
+PROC2
+PROC2.c
+PROC3
+PROC3.c
+PROC41
+PROC41.c
+PROC42
+PROC42.c
+PROC51
+PROC51.c
+PROC52
+PROC52.c
+proclimits.c
+procon.c
+proconsyn.c
+prod_condvar1.c
+prod_condvar2.c
+psem_getvalue.c
+psem_timedwait.c
+psem_trywait.c
+psem_unlink.c
+psem_wait.c
+pshm_create.c
+pshm_read.c
+pshm_unlink.c
+pshm_write.c
+pthread_once.c
+pthread_rwlock.c
+pthread_seq.c
+pthread_seq.h
+pthread_spinlock.c
+ptimer1.c
+ptimer2.c
+ptimer3.c
+ptimer4.c
+p.txt
+qtest1.c
+qtest.c
+Qt_prgming_book.chm
+r
+RAM_TEST
+rd_init_patch.zip
+rd_patch
+rd_server_imx6
+RD_SERVICE
+Read
+read1
+read1.c
+read_ahead
+read_ahead.c
+read.c
+reader.c
+readfifo.c
+Readme
+Readme.atops
+Readmertc
+Readme.systypes
+Readme.txt
+read.txt
+Read.txt
+readv
+readv.c
+Read_Write_Contact
+recur.c
+refs
+Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+Registartion_nd_Deregistration_procedure.docx
+Registartion_nd_Deregistration_procedure.pdf
+registering_40_devices_in_mhvisiontek_on_170819_1.xls
+register.txt
+REMOTE_CLIENT
+remote_status.xml
+remote_status.xml.~1~
+REMOTE_STATUS.XML.~1~
+remote_status.xml_1170
+re.txt
+rfid_practise
+rhms
+RHMS_BACKUP_CMD.sh
+RHMS_PROJECT
+rhms_projects_all_PDS_patches_information_and_rdv1.7.1_Updated_Data.xls
+RHMS_PROJECT.tar.bz2
+RHMS_review.xls
+RHMS_RULES_FOR_DEVICES.ppt
+rlimit.c
+rot
+rt5370sta_src.tar.bz2
+rtc.c
+run
+run.sh
+run.sh.bkp
+ruta
+rwlock
+rw_wriprio.c
+sample
+sample.txt
+sched
+sched_param
+sched_param.c
+sched_scheduler.c
+score.sh
+Screenshot from 2018-10-12 11-02-02.png
+sdcard_software_loding
+SD.directory
+SDK
+search
+section.c
+selfdiag_loadtest_final
+selfdiag_loadtest_final.tar.bz2
+semcreate.c
+sempost.c
+semun.h
+seperate_kerala.xls
+serial_1.1
+setclk.c
+setmachineid
+set_Machineid
+sigabort.c
+sigaction.c
+sigalarm1.c
+sigalarm.c
+sigaltstack.c
+sigblock.c
+sigchld1.c
+sigchld.c
+sigcom1.c
+sigcom.c
+sigdefer.c
+sigfd1.c
+sigfd.c
+sigign.c
+siginfo.c
+sigintr.c
+signals
+sigrestart.c
+sigset1.c
+sigset1.s
+sigset2.c
+sigset3.c
+sigset4.c
+sigset5.c
+sigtwait2.c
+sigtwait3.c
+sigtwait.c
+sigwait2.c
+sigwait.c
+simple_thread1.c
+simple_thread.c
+sindhu
+sindhu.c
+singlecopy
+singlecopy.c
+snap
+source
+sp1.c
+sp2.c
+sp3a.c
+sp4a.c
+sp4b.c
+Speed
+Speedtest
+spek.c
+splice
+splice.c
+src
+srikakulam_ok.txt
+srikakulam.txt
+ssh_pos_on_pc
+start_pc
+startx
+stcpt.sh
+STDARGS.c
+student.dat
+svshm_xfr.h
+svshm_xfr_reader.c
+svshm_xfr_writer.c
+sync
+sync.c
+sync_re.c
+sys_fork
+syslim.c
+sysopen
+sysread
+taking_backup
+temp_rootf_fs_IMX6
+TEMP_ROOTFS
+temp_rootfs_cmd
+temp-rootfs.IMG
+temp_rootfs_reduced
+tes
+test
+test1
+test1.c
+test2
+test3.c
+test4.c
+test.c
+testfile
+test.file
+testing
+test_script_for_sdcard_1.0.sh
+TEST_SCRIPT_FOR_SDCARD.SH
+TEST_SCRIPT_FOR_SDCARD_SH.BKP
+Test_sshpass
+tftpboot
+thrcancel1.c
+thrcancel2.c
+thrcancel3.c
+thread_incr_atomic.c
+thread_incr.c
+thread_incr_deadlock.c
+thread_incr_mtx.c
+thread_incr_psem.c
+thr_shdata_abmon.c
+thr_shdata.c
+thr_shdata_sync.c
+thr_shdata_syncmtx.c
+tiffhandler.c
+tifhandler.c
+timer1.c
+timer2.c
+timerex1.c
+timerex3.c
+timerex.c
+tools.txt
+TotalDevicesReport24-01-2019_tsts.xls
+TSTSTSTS
+TT-Qt-4.7.4.tar.gz
+tutorial.c
+two.c
+u03
+uboot-password
+uboot_password.tar.bz2
+u-boot_src
+ubuntu-session
+ubuntu-session.list
+ubuntu-session.md5sums
+ui.c
+underrun.c
+unity
+unitycontrol
+unity-control-center
+unused_result.c
+Update_Application
+update.sh
+uploaded_to_PLM
+usbsend
+venu.txt
+version
+vim
+viml.c
+write
+write1
+write1.c
+write.c
+writefifo.c
+writer.c
+Write.txt
+writev
+writev.c
+xml
+xorg.conf.failsafe
+xorg.conf.new
+y
+y.pub
+ZBARCAM-READER-0.2
+
+
+Time: [ 15:01:36 ]	Command: [ ls ]	Status: [ Success ]
+1
+111806562552
+1137_511_449
+1362
+1557
+1610188445_________________________________
+1617
+1mydata.h
+30042018_DPO_WLAN0_Batronics.tar.bz2
+3g.txt
+4G_3G_AGPS_TESTING_ALL
+4G_3G_AGPS_TESTING_ALL.tar.bz2
+4g.txt
+94_patch_TLS.zip
+access.c
+ACK_FROM_SERVER.XML
+ads_files
+adsplay_ver.conf
+affinity.c
+agree
+aio_read_write
+aio_read_write.c
+aio_read_write_list
+aio_read_write_list.c
+aligned.c
+ALL_CAMERA
+allinfo
+allinfo1
+allinfo2
+ALL_MHPDS_DEVICES_LIST
+alloc_brk.c
+alloc.c
+alloc_sbrk.c
+all.txt
+AMS
+anon_mmap.c
+ansilimits.c
+anydesk_taken_serial_ids.txt
+a.out
+app
+app.c
+appds_device_details.xls
+appds_iritech_patch_01032019.tar.bz2
+appdskrishna_rhms_problem_IDs
+appds_rhms_problem_IDs
+appds_serial_numbers
+APP_RHMS
+APP_RHMS_BKP
+ares_build.h
+ares_dns.h
+ares.h
+ares_rules.h
+ares_version.h
+attr_sched1.c
+attr_sched.c
+attr_stack.c
+autoapn
+autoapn_5.0.2
+autoapn_5.0.7
+Backup_bhargav
+barrier.c
+Battery_Temp
+bill
+bill.tar.bz2
+binary_sems.c
+binary_sems.h
+Bluetooth
+bmphandler.c
+books
+branches
+brk
+buftest.c
+build_maker_visiontek_1.1.sh
+buildroot-2017.02.10
+build-sample-pc-Debug
+busybox
+c
+Californium.properties
+call
+call1
+call1.c
+call.c
+cdpwd.c
+chits.c
+CHKFREED.c
+cleanup
+cleanup1
+cleanup1.c
+cleanup.c
+client
+clone1.c
+clone2.c
+clone3.c
+CmsUpdate
+common.c
+common.h
+common.o
+confi.db1
+config
+config.c
+config.txt
+consistent.c
+contents
+Contents.txt
+copy
+copy.c
+copysync
+copysync.c
+create
+create.c
+curl_command
+DAILY_CVD_CHECKSUM_UPLOAD.sh
+daily_cvd.md5
+daily_report
+deamon.c
+defattrtib.c
+demo
+demo.c
+Demo.txt
+dep
+deprecated.c
+Dereg_From_patchtest_allversions_78nos_on_190319.xls
+DEREGISTER_700_FROM_PATCHTEST.xls
+Deregister_goapds_16_devices_from_patchtest_and_registering_in_goapds_on_240519.xls
+deregistering_40_devices_from_goapds_and_registering_in_mhvisiontek_on_170819.xls
+DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+description
+Desktop
+destructor.c
+detached_attrib.c
+DeviceDetails07-02-2019_hpds.xls
+dev_info.c
+DevInfo.c
+diff
+direct.c
+directio
+directio.c
+direct_read
+direct_read.c
+displayImage_SRC
+dltest
+dltest.c
+dmesg
+Download
+Download_1.1_application
+Download_dbs
+download_imx25
+DOWNLOAD_PROJECT
+Downloads
+Download.tar.bz2
+dummy
+dummy_file.txt
+dyn_detach.c
+dyn_join.c
+epoll1.c
+errchk.c
+event_flags.c
+event_flags.h
+ex2.c
+exec1.c
+exec2.c
+exec3.c
+exec4.c
+exec5.c
+exer
+F1.TXT
+faq
+field_rhms_patch.tar.bz2
+file1
+FILE1.TXT
+filetype.c
+find_system_break
+find_system_break.c
+Fino-PPP-LIB
+Firmware
+flock
+FLOCK1
+FLOCK1.c
+FLOCK2
+FLOCK2.c
+FLOCK3
+FLOCK3.c
+flock.c
+Foundations.of.Qt.Development.pdf
+freescale-35.tar.gz
+frk10.c
+frk1.c
+frk2.c
+frk3.c
+frk4.c
+frk5.c
+frk6.c
+frk7.c
+frk8.c
+frk9.c
+frkas1.c
+frkas.c
+frkfd.c
+from_kermit
+From_ssh
+fs_stats
+fs_stats.c
+fstat
+fstat.c
+fstatcopy
+fstatcopy.c
+ftdi_sio.ko
+ftok.c
+funambol_dm_server_developer_guide.pdf
+funambol_dm_server_developer_guide.ppt
+getclk.c
+get_week_num.c
+gifhandler.c
+gl11_gsm_send_read_SMS
+GNANBHUMI
+GNANBHUMI1
+GNOME
+gopal.txt
+handlers.h
+HEAD
+hello
+hole.c
+hooks
+ignorepend.c
+imei
+Imp_tars
+IMX25_AutoConnectivity_4.4_Only_GSM
+imx25_temp_rootfs.img
+IMX25_TEMPS
+IMX6_FW_UPDATE
+imx6sl.dtsi
+imx_iocon.ko
+index.html
+IN_FMS.txt
+info
+inline.c
+inline.s
+install.log
+install.sh
+Integrate_IMX25
+Integrate_IMX6
+iotypes
+ipc
+isu80.1
+isu80.2
+JDK.history
+jpghandler.c
+json
+kerala_all_devices.xls
+kerala_gsm.xls
+kernel_src
+killing
+kk
+kk.c
+KKK.txt
+kollam.txt
+kollam.xls
+KPDS-1.8
+kpds_virus_patch
+k.sh
+l
+ldd3_pdf.tar.bz2
+leshan-client-demo.jar
+leshan-server-demo.jar
+lib
+lib1.c
+libab.a
+liba.o
+liba.so
+libb.o
+libb.so
+lib.c
+libgl11pos.so
+lib.h
+lib_imx25
+lib.o
+libsrc.c
+libtest.c
+libtest.cman
+libxyz.so
+linux-2.6.31_src_rt5370sta_src.zip
+linux-3.0.35_lcd
+Linux_backup.pdf
+linux.mp4
+LinuxPro
+live_score.sh
+lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+locker
+locker.c
+ls
+lseek
+lseek.c
+machineid1.c
+macid.c
+mahesh_1604567856_21082018
+main.c
+main_cvd.md5
+Makefile
+Makefile.inc
+mallinfo
+mallinfo.c
+malloc
+malloc.c
+malloc_stats
+malloc_stats.c
+malloc_status.c
+malloc_tuning
+malloc_tuning.c
+malloc_tunning.c
+malloc_usable_size
+malloc_usable_size.c
+mallopt.c
+mama
+mandl.c
+mem1.c
+mem2a.c
+mem2b.c
+mem4.c
+mem51.c
+memconst.h
+meminfo.c
+memkey.h
+memlock
+memlock.c
+message_app_1.0
+message_dbsample
+MF1S50YYX_V1.pdf
+mhintegra_till_now_connected_to_1.8_on_040619.xls
+mhnagpur_till_now_connected_to_1.8_on_040619.xls
+mhpds_all_devices_list_with_macid_and_connected_time.txt
+mhpds_all_devices_list_with_macid_and_connected_time.xls
+mhpds_device_details.xls
+mhpds_macid.txt
+mhpds.txt
+mincore.c
+mk2120ul-mgmtserv.log
+mlockall.c
+mlock.c
+MLS
+mmap
+mmap1
+mmap1.c
+mmap2
+mmap2.c
+mmap3
+mmap3.c
+mmap4
+mmap4.c
+mmap5
+mmap5.c
+mmap.c
+mmap_fullfile
+mmap_fullfile.c
+mmc
+mosquitto
+mosquitto_1.0_develp.tar.bz2
+mosquitto_1.1_devolped.tar.bz2
+mosquitto-1.4.8
+mosquitto_patch
+mosquitto.sh
+mosquitto.tar.bz2
+mosquitto_test
+mosquitto_test_1.1
+mqinfo.c
+mq_notify_sig.c
+mq_notify_sigwaitinfo.c
+mq_notify_thread.c
+msg_file_client.c
+msgfile.h
+msg_file_server.c
+msgls.c
+msgq1.c
+msgq21.c
+msgq22.c
+msgq23.c
+msgq2a.c
+msgq2b.c
+msgq3.c
+msg_unlink.c
+mtxmain.c
+mtxmydata.h
+mtxreader.c
+mtxwriter.c
+multi1
+multi1.c
+multi2
+multi2.c
+multi3
+multi3.c
+multi4
+multi4.c
+mydata.h
+mydata.txt
+myDrivers
+mygit
+mylib.c
+mylib.o
+myp
+mytasks
+Nating_from_internet.sh
+new_src
+non_locker
+non_locker.c
+nonnull.c
+nooverrun.c
+noreturn.c
+note
+notes
+Notifier_1.2
+Notifier_server
+objects
+occurence_report_1.0.sh
+oldact.c
+one.c
+oom
+oom.c
+open
+open.c
+openssl
+OPENSSL
+openssl-1.0.1e
+openssl-1.0.1e.tar.gz
+opentftp
+OPI22
+ostypes
+out
+out.log
+out.txt
+OVERRUN.c
+part1.c
+patch
+PATCH
+patch-2.0.zip
+PATCH_FOR_RUN_rhms
+patch.md5
+patch.tar.bz2
+pathlim.c
+pat.txt
+pcxhandler.c
+PERR.c
+perror
+perror.c
+poll1
+poll1.c
+poll2
+poll2.c
+PosDesk
+PosDesk.sh
+posixlimits.c
+_posix_man
+posix_memaling.c
+posixopts.c
+POSIXVER.c
+printer_hex_file
+prio.c
+priority1.c
+priority.c
+PRL.c
+problem_appds
+PROC1
+PROC1.c
+PROC2
+PROC2.c
+PROC3
+PROC3.c
+PROC41
+PROC41.c
+PROC42
+PROC42.c
+PROC51
+PROC51.c
+PROC52
+PROC52.c
+proclimits.c
+procon.c
+proconsyn.c
+prod_condvar1.c
+prod_condvar2.c
+psem_getvalue.c
+psem_timedwait.c
+psem_trywait.c
+psem_unlink.c
+psem_wait.c
+pshm_create.c
+pshm_read.c
+pshm_unlink.c
+pshm_write.c
+pthread_once.c
+pthread_rwlock.c
+pthread_seq.c
+pthread_seq.h
+pthread_spinlock.c
+ptimer1.c
+ptimer2.c
+ptimer3.c
+ptimer4.c
+p.txt
+qtest1.c
+qtest.c
+Qt_prgming_book.chm
+r
+RAM_TEST
+rd_init_patch.zip
+rd_patch
+rd_server_imx6
+RD_SERVICE
+Read
+read1
+read1.c
+read_ahead
+read_ahead.c
+read.c
+reader.c
+readfifo.c
+Readme
+Readme.atops
+Readmertc
+Readme.systypes
+Readme.txt
+read.txt
+Read.txt
+readv
+readv.c
+Read_Write_Contact
+recur.c
+refs
+Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+Registartion_nd_Deregistration_procedure.docx
+Registartion_nd_Deregistration_procedure.pdf
+registering_40_devices_in_mhvisiontek_on_170819_1.xls
+register.txt
+REMOTE_CLIENT
+remote_status.xml
+remote_status.xml.~1~
+REMOTE_STATUS.XML.~1~
+remote_status.xml_1170
+re.txt
+rfid_practise
+rhms
+RHMS_BACKUP_CMD.sh
+RHMS_PROJECT
+rhms_projects_all_PDS_patches_information_and_rdv1.7.1_Updated_Data.xls
+RHMS_PROJECT.tar.bz2
+RHMS_review.xls
+RHMS_RULES_FOR_DEVICES.ppt
+rlimit.c
+rot
+rt5370sta_src.tar.bz2
+rtc.c
+run
+run.sh
+run.sh.bkp
+ruta
+rwlock
+rw_wriprio.c
+sample
+sample.txt
+sched
+sched_param
+sched_param.c
+sched_scheduler.c
+score.sh
+Screenshot from 2018-10-12 11-02-02.png
+sdcard_software_loding
+SD.directory
+SDK
+search
+section.c
+selfdiag_loadtest_final
+selfdiag_loadtest_final.tar.bz2
+semcreate.c
+sempost.c
+semun.h
+seperate_kerala.xls
+serial_1.1
+setclk.c
+setmachineid
+set_Machineid
+sigabort.c
+sigaction.c
+sigalarm1.c
+sigalarm.c
+sigaltstack.c
+sigblock.c
+sigchld1.c
+sigchld.c
+sigcom1.c
+sigcom.c
+sigdefer.c
+sigfd1.c
+sigfd.c
+sigign.c
+siginfo.c
+sigintr.c
+signals
+sigrestart.c
+sigset1.c
+sigset1.s
+sigset2.c
+sigset3.c
+sigset4.c
+sigset5.c
+sigtwait2.c
+sigtwait3.c
+sigtwait.c
+sigwait2.c
+sigwait.c
+simple_thread1.c
+simple_thread.c
+sindhu
+sindhu.c
+singlecopy
+singlecopy.c
+snap
+source
+sp1.c
+sp2.c
+sp3a.c
+sp4a.c
+sp4b.c
+Speed
+Speedtest
+spek.c
+splice
+splice.c
+src
+srikakulam_ok.txt
+srikakulam.txt
+ssh_pos_on_pc
+start_pc
+startx
+stcpt.sh
+STDARGS.c
+student.dat
+svshm_xfr.h
+svshm_xfr_reader.c
+svshm_xfr_writer.c
+sync
+sync.c
+sync_re.c
+sys_fork
+syslim.c
+sysopen
+sysread
+taking_backup
+temp_rootf_fs_IMX6
+TEMP_ROOTFS
+temp_rootfs_cmd
+temp-rootfs.IMG
+temp_rootfs_reduced
+tes
+test
+test1
+test1.c
+test2
+test3.c
+test4.c
+test.c
+testfile
+test.file
+testing
+test_script_for_sdcard_1.0.sh
+TEST_SCRIPT_FOR_SDCARD.SH
+TEST_SCRIPT_FOR_SDCARD_SH.BKP
+Test_sshpass
+tftpboot
+thrcancel1.c
+thrcancel2.c
+thrcancel3.c
+thread_incr_atomic.c
+thread_incr.c
+thread_incr_deadlock.c
+thread_incr_mtx.c
+thread_incr_psem.c
+thr_shdata_abmon.c
+thr_shdata.c
+thr_shdata_sync.c
+thr_shdata_syncmtx.c
+tiffhandler.c
+tifhandler.c
+timer1.c
+timer2.c
+timerex1.c
+timerex3.c
+timerex.c
+tools.txt
+TotalDevicesReport24-01-2019_tsts.xls
+TSTSTSTS
+TT-Qt-4.7.4.tar.gz
+tutorial.c
+two.c
+u03
+uboot-password
+uboot_password.tar.bz2
+u-boot_src
+ubuntu-session
+ubuntu-session.list
+ubuntu-session.md5sums
+ui.c
+underrun.c
+unity
+unitycontrol
+unity-control-center
+unused_result.c
+Update_Application
+update.sh
+uploaded_to_PLM
+usbsend
+venu.txt
+version
+vim
+viml.c
+write
+write1
+write1.c
+write.c
+writefifo.c
+writer.c
+Write.txt
+writev
+writev.c
+xml
+xorg.conf.failsafe
+xorg.conf.new
+y
+y.pub
+ZBARCAM-READER-0.2
+
+
+Time: [ 15:01:43 ]	Command: [ ls -lrth ]	Status: [ Success ]
+total 1.8G
+-rw-r--r--  1 root   root   612K Feb  3  2017 isu80.2
+-rw-r--r--  1 root   root   612K Feb  3  2017 isu80.1
+-rw-r--r--  1 root   root   1.3K Dec 29  2017 viml.c
+-rw-r--r--  1 root   root    743 Dec 29  2017 ui.c
+-rw-r--r--  1 root   root   2.5K Dec 29  2017 timerex.c
+-rw-r--r--  1 root   root   1.5K Dec 29  2017 timerex3.c
+-rw-r--r--  1 root   root   3.0K Dec 29  2017 timerex1.c
+-rw-r--r--  1 root   root   1.2K Dec 29  2017 timer2.c
+-rw-r--r--  1 root   root    830 Dec 29  2017 timer1.c
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 tifhandler.c
+-rw-r--r--  1 root   root    854 Dec 29  2017 tiffhandler.c
+-rw-r--r--  1 root   root   1.7K Dec 29  2017 thr_shdata_syncmtx.c
+-rw-r--r--  1 root   root   1.3K Dec 29  2017 thr_shdata_sync.c
+-rw-r--r--  1 root   root    817 Dec 29  2017 thr_shdata.c
+-rw-r--r--  1 root   root   1.6K Dec 29  2017 thr_shdata_abmon.c
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 thread_incr_mtx.c
+-rw-r--r--  1 root   root   1.4K Dec 29  2017 thread_incr_deadlock.c
+-rw-r--r--  1 root   root    889 Dec 29  2017 thread_incr.c
+-rw-r--r--  1 root   root   2.0K Dec 29  2017 thread_incr_atomic.c
+-rw-r--r--  1 root   root   2.1K Dec 29  2017 thrcancel3.c
+-rw-r--r--  1 root   root   1.8K Dec 29  2017 thrcancel2.c
+-rw-r--r--  1 root   root   2.0K Dec 29  2017 thrcancel1.c
+-rw-r--r--  1 root   root    563 Dec 29  2017 sys_fork
+-rw-r--r--  1 root   root    639 Dec 29  2017 STDARGS.c
+-rw-r--r--  1 root   root   2.1K Dec 29  2017 spek.c
+-rw-r--r--  1 root   root    469 Dec 29  2017 singlecopy.c
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 singlecopy
+-rw-r--r--  1 root   root    804 Dec 29  2017 simple_thread.c
+-rw-r--r--  1 root   root    898 Dec 29  2017 simple_thread1.c
+-rw-r--r--  1 root   root    819 Dec 29  2017 sigchld.c
+-rw-r--r--  1 root   root    997 Dec 29  2017 sigchld1.c
+-rw-r--r--  1 root   root    358 Dec 29  2017 setclk.c
+-rw-r--r--  1 root   root    772 Dec 29  2017 sched_scheduler.c
+-rw-r--r--  1 root   root    473 Dec 29  2017 sched_param.c
+-rw-r--r--  1 root   root   7.3K Dec 29  2017 sched_param
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 sched
+-rw-r--r--  1 root   root    844 Dec 29  2017 rw_wriprio.c
+-rw-r--r--  1 root   root    436 Dec 29  2017 rwlock
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 run
+-rw-r--r--  1 root   root   1.3K Dec 29  2017 rtc.c
+-rw-r--r--  1 root   root   1.4K Dec 29  2017 recur.c
+-rw-r--r--  1 root   root    592 Dec 29  2017 Readme.txt
+-rw-r--r--  1 root   root    485 Dec 29  2017 Readme.systypes
+-rw-r--r--  1 root   root    499 Dec 29  2017 Readmertc
+-rw-r--r--  1 root   root   1.7K Dec 29  2017 Readme.atops
+-rw-r--r--  1 root   root   1.8K Dec 29  2017 ptimer4.c
+-rw-r--r--  1 root   root   3.8K Dec 29  2017 ptimer3.c
+-rw-r--r--  1 root   root   1.9K Dec 29  2017 ptimer2.c
+-rw-r--r--  1 root   root   1.9K Dec 29  2017 ptimer1.c
+-rw-r--r--  1 root   root   1.3K Dec 29  2017 pthread_spinlock.c
+-rw-r--r--  1 root   root    300 Dec 29  2017 pthread_seq.h
+-rw-r--r--  1 root   root    781 Dec 29  2017 pthread_seq.c
+-rw-r--r--  1 root   root   1.9K Dec 29  2017 pthread_rwlock.c
+-rw-r--r--  1 root   root    949 Dec 29  2017 pthread_once.c
+-rw-r--r--  1 root   root   2.6K Dec 29  2017 prod_condvar2.c
+-rw-r--r--  1 root   root   3.4K Dec 29  2017 prod_condvar1.c
+-rw-r--r--  1 root   root   1.8K Dec 29  2017 proconsyn.c
+-rw-r--r--  1 root   root   1.4K Dec 29  2017 procon.c
+-rw-r--r--  1 root   root    255 Dec 29  2017 PROC52.c
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 PROC52
+-rw-r--r--  1 root   root    389 Dec 29  2017 PROC51.c
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 PROC51
+-rw-r--r--  1 root   root    353 Dec 29  2017 PROC42.c
+-rw-r--r--  1 root   root   7.3K Dec 29  2017 PROC42
+-rw-r--r--  1 root   root    404 Dec 29  2017 PROC41.c
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 PROC41
+-rw-r--r--  1 root   root    353 Dec 29  2017 PROC3.c
+-rw-r--r--  1 root   root   7.3K Dec 29  2017 PROC3
+-rw-r--r--  1 root   root    267 Dec 29  2017 PROC2.c
+-rw-r--r--  1 root   root   7.3K Dec 29  2017 PROC2
+-rw-r--r--  1 root   root    260 Dec 29  2017 PROC1.c
+-rw-r--r--  1 root   root   7.3K Dec 29  2017 PROC1
+-rw-r--r--  1 root   root    772 Dec 29  2017 PRL.c
+-rw-r--r--  1 root   root    709 Dec 29  2017 priority.c
+-rw-r--r--  1 root   root   1.2K Dec 29  2017 priority1.c
+-rw-r--r--  1 root   root   2.3K Dec 29  2017 prio.c
+-rw-r--r--  1 root   root    268 Dec 29  2017 POSIXVER.c
+-rw-r--r--  1 root   root    614 Dec 29  2017 posixopts.c
+-rw-r--r--  1 root   root     89 Dec 29  2017 _posix_man
+-rw-r--r--  1 root   root    667 Dec 29  2017 posixlimits.c
+-rw-r--r--  1 root   root    150 Dec 29  2017 PERR.c
+-rw-r--r--  1 root   root    991 Dec 29  2017 pcxhandler.c
+-rw-r--r--  1 root   root      0 Dec 29  2017 part1.c
+-rw-r--r--  1 root   root    985 Dec 29  2017 notes
+-rw-r--r--  1 root   root   4.8K Dec 29  2017 non_locker.c
+-rw-r--r--  1 root   root   7.6K Dec 29  2017 non_locker
+-rw-r--r--  1 root   root   1.2K Dec 29  2017 mylib.o
+-rw-r--r--  1 root   root     46 Dec 29  2017 mylib.c
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 mmap5
+-rw-r--r--  1 root   root    846 Dec 29  2017 mandl.c
+-rw-r--r--  1 root   root     88 Dec 29  2017 Makefile.inc
+-rw-r--r--  1 root   root    593 Dec 29  2017 Makefile
+-rw-r--r--  1 root   root   4.0K Dec 29  2017 locker.c
+-rw-r--r--  1 root   root   7.6K Dec 29  2017 locker
+-rw-r--r--  1 root   root      1 Dec 29  2017 libtest.cman
+-rw-r--r--  1 root   root    701 Dec 29  2017 lib
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 jpghandler.c
+-rw-r--r--  1 root   root    380 Dec 29  2017 handlers.h
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 gifhandler.c
+-rw-r--r--  1 root   root    532 Dec 29  2017 getclk.c
+-rw-r--r--  1 root   root    662 Dec 29  2017 frkfd.c
+-rw-r--r--  1 root   root    636 Dec 29  2017 frkas.c
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 frkas1.c
+-rw-r--r--  1 root   root    589 Dec 29  2017 frk9.c
+-rw-r--r--  1 root   root    636 Dec 29  2017 frk8.c
+-rw-r--r--  1 root   root    582 Dec 29  2017 frk7.c
+-rw-r--r--  1 root   root   1.2K Dec 29  2017 frk6.c
+-rw-r--r--  1 root   root    482 Dec 29  2017 frk5.c
+-rw-r--r--  1 root   root    904 Dec 29  2017 frk4.c
+-rw-r--r--  1 root   root    818 Dec 29  2017 frk3.c
+-rw-r--r--  1 root   root    808 Dec 29  2017 frk2.c
+-rw-r--r--  1 root   root    646 Dec 29  2017 frk1.c
+-rw-r--r--  1 root   root    720 Dec 29  2017 frk10.c
+-rw-r--r--  1 root   root    455 Dec 29  2017 flock.c
+-rw-r--r--  1 root   root    240 Dec 29  2017 FLOCK3.c
+-rw-r--r--  1 root   root   7.3K Dec 29  2017 FLOCK3
+-rw-r--r--  1 root   root    267 Dec 29  2017 FLOCK2.c
+-rw-r--r--  1 root   root   7.3K Dec 29  2017 FLOCK2
+-rw-r--r--  1 root   root    249 Dec 29  2017 FLOCK1.c
+-rw-r--r--  1 root   root   7.3K Dec 29  2017 FLOCK1
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 flock
+-rw-r--r--  1 root   root     37 Dec 29  2017 FILE1.TXT
+-rw-r--r--  1 root   root     65 Dec 29  2017 file1
+-rw-r--r--  1 root   root    433 Dec 29  2017 faq
+-rw-r--r--  1 root   root     37 Dec 29  2017 F1.TXT
+-rw-r--r--  1 root   root    256 Dec 29  2017 exer
+-rw-r--r--  1 root   root   1.5K Dec 29  2017 ex2.c
+-rw-r--r--  1 root   root   1.3K Dec 29  2017 errchk.c
+-rw-r--r--  1 root   root    976 Dec 29  2017 dyn_join.c
+-rw-r--r--  1 root   root    976 Dec 29  2017 dyn_detach.c
+-rw-r--r--  1 root   root    122 Dec 29  2017 dummy_file.txt
+-rw-r--r--  1 root   root   1.2K Dec 29  2017 detached_attrib.c
+-rw-r--r--  1 root   root   2.0K Dec 29  2017 defattrtib.c
+-rw-r--r--  1 root   root    841 Dec 29  2017 deamon.c
+-rw-r--r--  1 root   root     91 Dec 29  2017 Contents.txt
+-rw-r--r--  1 root   root   2.0K Dec 29  2017 consistent.c
+-rw-r--r--  1 root   root     65 Dec 29  2017 config.txt
+-rw-r--r--  1 root   root   1.2K Dec 29  2017 config.c
+-rw-r--r--  1 root   root   1.5K Dec 29  2017 common.o
+-rw-r--r--  1 root   root    118 Dec 29  2017 common.h
+-rw-r--r--  1 root   root   1.2K Dec 29  2017 common.c
+-rw-r--r--  1 root   root    954 Dec 29  2017 clone3.c
+-rw-r--r--  1 root   root    815 Dec 29  2017 clone2.c
+-rw-r--r--  1 root   root    608 Dec 29  2017 clone1.c
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 bmphandler.c
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 barrier.c
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 attr_stack.c
+-rw-r--r--  1 root   root   1.4K Dec 29  2017 attr_sched.c
+-rw-r--r--  1 root   root   1.3K Dec 29  2017 attr_sched1.c
+-rw-r--r--  1 root   root   7.6K Dec 29  2017 a.out
+-rw-r--r--  1 root   root    575 Dec 29  2017 ansilimits.c
+-rw-r--r--  1 root   root    565 Dec 29  2017 affinity.c
+-rw-r--r--  1 root   root   1.5K Dec 29  2017 writev.c
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 writev
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 Write.txt
+-rw-r--r--  1 root   root    712 Dec 29  2017 writer.c
+-rw-r--r--  1 root   root    406 Dec 29  2017 writefifo.c
+-rw-r--r--  1 root   root    335 Dec 29  2017 write.c
+-rw-r--r--  1 root   root    824 Dec 29  2017 write1.c
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 write1
+-rw-r--r--  1 root   root   7.3K Dec 29  2017 write
+-rw-r--r--  1 root   root      0 Dec 29  2017 vim
+-rw-r--r--  1 root   root    990 Dec 29  2017 version
+-rw-r--r--  1 root   root     27 Dec 29  2017 venu.txt
+-rw-r--r--  1 root   root    273 Dec 29  2017 unused_result.c
+-rw-r--r--  1 root   root    743 Dec 29  2017 underrun.c
+-rw-r--r--  1 root   root    126 Dec 29  2017 two.c
+-rw-r--r--  1 root   root    741 Dec 29  2017 tools.txt
+-rw-r--r--  1 root   root   1.4K Dec 29  2017 thread_incr_psem.c
+-rw-r--r--  1 root   root     29 Dec 29  2017 test.file
+-rw-r--r--  1 root   root      0 Dec 29  2017 testfile
+-rw-r--r--  1 root   root    438 Dec 29  2017 test.c
+-rw-r--r--  1 root   root    284 Dec 29  2017 test4.c
+-rw-r--r--  1 root   root    291 Dec 29  2017 test3.c
+-rw-r--r--  1 root   root     42 Dec 29  2017 test2
+-rw-r--r--  1 root   root    405 Dec 29  2017 test1.c
+-rw-r--r--  1 root   root     42 Dec 29  2017 test1
+-rw-r--r--  1 root   root   7.2K Dec 29  2017 test
+-rw-r--r--  1 root   root    506 Dec 29  2017 sysread
+-rw-r--r--  1 root   root   1.2K Dec 29  2017 sysopen
+-rw-r--r--  1 root   root    939 Dec 29  2017 syslim.c
+-rw-r--r--  1 root   root   1.7K Dec 29  2017 sync_re.c
+-rw-r--r--  1 root   root    776 Dec 29  2017 sync.c
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 sync
+-rw-r--r--  1 root   root   2.9K Dec 29  2017 svshm_xfr_writer.c
+-rw-r--r--  1 root   root   1.6K Dec 29  2017 svshm_xfr_reader.c
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 svshm_xfr.h
+-rw-r--r--  1 root   root     80 Dec 29  2017 student.dat
+-rw-r--r--  1 root   root   1.2K Dec 29  2017 splice.c
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 splice
+-rw-r--r--  1 root   root    938 Dec 29  2017 sp4b.c
+-rw-r--r--  1 root   root    845 Dec 29  2017 sp4a.c
+-rw-r--r--  1 root   root    494 Dec 29  2017 sp3a.c
+-rw-r--r--  1 root   root    538 Dec 29  2017 sp2.c
+-rw-r--r--  1 root   root    179 Dec 29  2017 sp1.c
+-rw-r--r--  1 root   root    456 Dec 29  2017 sindhu.c
+-rw-r--r--  1 root   root    432 Dec 29  2017 sindhu
+-rw-r--r--  1 root   root    812 Dec 29  2017 sigwait.c
+-rw-r--r--  1 root   root    967 Dec 29  2017 sigwait2.c
+-rw-r--r--  1 root   root    905 Dec 29  2017 sigtwait.c
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 sigtwait3.c
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 sigtwait2.c
+-rw-r--r--  1 root   root    500 Dec 29  2017 sigset5.c
+-rw-r--r--  1 root   root    745 Dec 29  2017 sigset4.c
+-rw-r--r--  1 root   root    652 Dec 29  2017 sigset3.c
+-rw-r--r--  1 root   root    609 Dec 29  2017 sigset2.c
+-rw-r--r--  1 root   root   2.0K Dec 29  2017 sigset1.s
+-rw-r--r--  1 root   root    602 Dec 29  2017 sigset1.c
+-rw-r--r--  1 root   root    868 Dec 29  2017 sigrestart.c
+-rw-r--r--  1 root   root    538 Dec 29  2017 signals
+-rw-r--r--  1 root   root    262 Dec 29  2017 sigintr.c
+-rw-r--r--  1 root   root   1.3K Dec 29  2017 siginfo.c
+-rw-r--r--  1 root   root    604 Dec 29  2017 sigign.c
+-rw-r--r--  1 root   root   1.3K Dec 29  2017 sigfd.c
+-rw-r--r--  1 root   root   1.7K Dec 29  2017 sigfd1.c
+-rw-r--r--  1 root   root    816 Dec 29  2017 sigdefer.c
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 sigcom.c
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 sigcom1.c
+-rw-r--r--  1 root   root    944 Dec 29  2017 sigblock.c
+-rw-r--r--  1 root   root   1.6K Dec 29  2017 sigaltstack.c
+-rw-r--r--  1 root   root    286 Dec 29  2017 sigalarm.c
+-rw-r--r--  1 root   root   1.5K Dec 29  2017 sigalarm1.c
+-rw-r--r--  1 root   root    779 Dec 29  2017 sigaction.c
+-rw-r--r--  1 root   root    333 Dec 29  2017 sigabort.c
+-rw-r--r--  1 root   root    689 Dec 29  2017 semun.h
+-rw-r--r--  1 root   root    381 Dec 29  2017 sempost.c
+-rw-r--r--  1 root   root    374 Dec 29  2017 semcreate.c
+-rw-r--r--  1 root   root    121 Dec 29  2017 section.c
+-rw-r--r--  1 root   root      5 Dec 29  2017 ruta
+-rw-r--r--  1 root   root    237 Dec 29  2017 rlimit.c
+-rw-r--r--  1 root   root     27 Dec 29  2017 re.txt
+-rw-r--r--  1 root   root   1.4K Dec 29  2017 readv.c
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 readv
+-rw-r--r--  1 root   root      0 Dec 29  2017 Read.txt
+-rw-r--r--  1 root   root      5 Dec 29  2017 read.txt
+-rw-r--r--  1 root   root   1.9K Dec 29  2017 Readme
+-rw-r--r--  1 root   root    502 Dec 29  2017 readfifo.c
+-rw-r--r--  1 root   root    807 Dec 29  2017 reader.c
+-rw-r--r--  1 root   root    337 Dec 29  2017 read.c
+-rw-r--r--  1 root   root    828 Dec 29  2017 read_ahead.c
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 read_ahead
+-rw-r--r--  1 root   root    506 Dec 29  2017 read1.c
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 read1
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 Read
+-rw-r--r--  1 root   root    873 Dec 29  2017 qtest.c
+-rw-r--r--  1 root   root    467 Dec 29  2017 qtest1.c
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 pshm_write.c
+-rw-r--r--  1 root   root    314 Dec 29  2017 pshm_unlink.c
+-rw-r--r--  1 root   root    970 Dec 29  2017 pshm_read.c
+-rw-r--r--  1 root   root    839 Dec 29  2017 pshm_create.c
+-rw-r--r--  1 root   root    556 Dec 29  2017 psem_wait.c
+-rw-r--r--  1 root   root    437 Dec 29  2017 psem_unlink.c
+-rw-r--r--  1 root   root    517 Dec 29  2017 psem_trywait.c
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 psem_timedwait.c
+-rw-r--r--  1 root   root    433 Dec 29  2017 psem_getvalue.c
+-rw-r--r--  1 root   root   4.9K Dec 29  2017 proclimits.c
+-rw-r--r--  1 root   root    173 Dec 29  2017 posix_memaling.c
+-rw-r--r--  1 root   root    986 Dec 29  2017 poll2.c
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 poll2
+-rw-r--r--  1 root   root    777 Dec 29  2017 poll1.c
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 poll1
+-rw-r--r--  1 root   root    611 Dec 29  2017 perror.c
+-rw-r--r--  1 root   root   7.6K Dec 29  2017 perror
+-rw-r--r--  1 root   root    808 Dec 29  2017 pathlim.c
+-rw-r--r--  1 root   root    672 Dec 29  2017 OVERRUN.c
+-rw-r--r--  1 root   root    638 Dec 29  2017 ostypes
+-rw-r--r--  1 root   root    860 Dec 29  2017 open.c
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 open
+-rw-r--r--  1 root   root    417 Dec 29  2017 oom.c
+-rw-r--r--  1 root   root   7.3K Dec 29  2017 oom
+-rw-r--r--  1 root   root     83 Dec 29  2017 one.c
+-rw-r--r--  1 root   root    826 Dec 29  2017 oldact.c
+-rw-r--r--  1 root   root    201 Dec 29  2017 noreturn.c
+-rw-r--r--  1 root   root    673 Dec 29  2017 nooverrun.c
+-rw-r--r--  1 root   root    197 Dec 29  2017 nonnull.c
+-rw-r--r--  1 root   root     96 Dec 29  2017 mydata.h
+-rw-r--r--  1 root   root    929 Dec 29  2017 multi4.c
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 multi4
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 multi3.c
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 multi3
+-rw-r--r--  1 root   root    973 Dec 29  2017 multi2.c
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 multi2
+-rw-r--r--  1 root   root    503 Dec 29  2017 multi1.c
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 multi1
+-rw-r--r--  1 root   root    647 Dec 29  2017 mtxwriter.c
+-rw-r--r--  1 root   root    695 Dec 29  2017 mtxreader.c
+-rw-r--r--  1 root   root    109 Dec 29  2017 mtxmydata.h
+-rw-r--r--  1 root   root    923 Dec 29  2017 mtxmain.c
+-rw-r--r--  1 root   root    399 Dec 29  2017 msg_unlink.c
+-rw-r--r--  1 root   root    560 Dec 29  2017 msgq3.c
+-rw-r--r--  1 root   root   1.2K Dec 29  2017 msgq2b.c
+-rw-r--r--  1 root   root    598 Dec 29  2017 msgq2a.c
+-rw-r--r--  1 root   root    547 Dec 29  2017 msgq23.c
+-rw-r--r--  1 root   root    555 Dec 29  2017 msgq22.c
+-rw-r--r--  1 root   root    634 Dec 29  2017 msgq21.c
+-rw-r--r--  1 root   root    439 Dec 29  2017 msgq1.c
+-rw-r--r--  1 root   root   1.2K Dec 29  2017 msgls.c
+-rw-r--r--  1 root   root   3.8K Dec 29  2017 msg_file_server.c
+-rw-r--r--  1 root   root   1.6K Dec 29  2017 msgfile.h
+-rw-r--r--  1 root   root   2.7K Dec 29  2017 msg_file_client.c
+-rw-r--r--  1 root   root   1.9K Dec 29  2017 mq_notify_thread.c
+-rw-r--r--  1 root   root   2.7K Dec 29  2017 mq_notify_sigwaitinfo.c
+-rw-r--r--  1 root   root   2.1K Dec 29  2017 mq_notify_sig.c
+-rw-r--r--  1 root   root    747 Dec 29  2017 mqinfo.c
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 mmap_fullfile.c
+-rw-r--r--  1 root   root   7.6K Dec 29  2017 mmap_fullfile
+-rw-r--r--  1 root   root    778 Dec 29  2017 mmap.c
+-rw-r--r--  1 root   root    842 Dec 29  2017 mmap5.c
+-rw-r--r--  1 root   root    942 Dec 29  2017 mmap4.c
+-rw-r--r--  1 root   root   7.6K Dec 29  2017 mmap4
+-rw-r--r--  1 root   root    877 Dec 29  2017 mmap3.c
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 mmap3
+-rw-r--r--  1 root   root    986 Dec 29  2017 mmap2.c
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 mmap2
+-rw-r--r--  1 root   root    906 Dec 29  2017 mmap1.c
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 mmap1
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 mmap
+-rw-r--r--  1 root   root    528 Dec 29  2017 mlock.c
+-rw-r--r--  1 root   root    579 Dec 29  2017 mlockall.c
+-rw-r--r--  1 root   root    931 Dec 29  2017 mincore.c
+-rw-r--r--  1 root   root   2.5K Dec 29  2017 memlock.c
+-rw-r--r--  1 root   root   7.7K Dec 29  2017 memlock
+-rw-r--r--  1 root   root     26 Dec 29  2017 memkey.h
+-rw-r--r--  1 root   root    874 Dec 29  2017 meminfo.c
+-rw-r--r--  1 root   root     26 Dec 29  2017 memconst.h
+-rw-r--r--  1 root   root    466 Dec 29  2017 mem51.c
+-rw-r--r--  1 root   root    388 Dec 29  2017 mem4.c
+-rw-r--r--  1 root   root    621 Dec 29  2017 mem2b.c
+-rw-r--r--  1 root   root    726 Dec 29  2017 mem2a.c
+-rw-r--r--  1 root   root    344 Dec 29  2017 mem1.c
+-rw-r--r--  1 root   root    505 Dec 29  2017 mallopt.c
+-rw-r--r--  1 root   root    158 Dec 29  2017 malloc_usable_size.c
+-rw-r--r--  1 root   root   7.3K Dec 29  2017 malloc_usable_size
+-rw-r--r--  1 root   root      0 Dec 29  2017 malloc_tunning.c
+-rw-r--r--  1 root   root    561 Dec 29  2017 malloc_tuning.c
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 malloc_tuning
+-rw-r--r--  1 root   root      0 Dec 29  2017 malloc_status.c
+-rw-r--r--  1 root   root    544 Dec 29  2017 malloc_stats.c
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 malloc_stats
+-rw-r--r--  1 root   root    236 Dec 29  2017 malloc.c
+-rw-r--r--  1 root   root   7.7K Dec 29  2017 malloc
+-rw-r--r--  1 root   root   1.5K Dec 29  2017 mallinfo.c
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 mallinfo
+-rw-r--r--  1 root   root    904 Dec 29  2017 main.c
+-rw-r--r--  1 root   root    853 Dec 29  2017 lseek.c
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 lseek
+-rw-r--r--  1 root   root    36M Dec 29  2017 linux.mp4
+-rw-r--r--  1 root   root   7.0K Dec 29  2017 libxyz.so
+-rw-r--r--  1 root   root    168 Dec 29  2017 libtest.c
+-rw-r--r--  1 root   root    303 Dec 29  2017 libsrc.c
+-rw-r--r--  1 root   root   1.7K Dec 29  2017 lib.o
+-rw-r--r--  1 root   root     35 Dec 29  2017 lib.h
+-rw-r--r--  1 root   root    190 Dec 29  2017 lib.c
+-rw-r--r--  1 root   root   7.0K Dec 29  2017 libb.so
+-rw-r--r--  1 root   root   1.7K Dec 29  2017 libb.o
+-rw-r--r--  1 root   root   7.0K Dec 29  2017 liba.so
+-rw-r--r--  1 root   root   1.7K Dec 29  2017 liba.o
+-rw-r--r--  1 root   root   3.6K Dec 29  2017 libab.a
+-rw-r--r--  1 root   root    155 Dec 29  2017 lib1.c
+-rw-r--r--  1 root   root   2.8K Dec 29  2017 ipc
+-rw-r--r--  1 root   root   2.2K Dec 29  2017 iotypes
+-rw-r--r--  1 root   root    129 Dec 29  2017 install.log
+-rw-r--r--  1 root   root    618 Dec 29  2017 inline.s
+-rw-r--r--  1 root   root    233 Dec 29  2017 inline.c
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 ignorepend.c
+-rw-r--r--  1 root   root    464 Dec 29  2017 hole.c
+-rw-r--r--  1 root   root    181 Dec 29  2017 gopal.txt
+-rw-r--r--  1 root   root    386 Dec 29  2017 ftok.c
+-rw-r--r--  1 root   root   1.7K Dec 29  2017 fstatcopy.c
+-rw-r--r--  1 root   root   7.6K Dec 29  2017 fstatcopy
+-rw-r--r--  1 root   root   1.7K Dec 29  2017 fstat.c
+-rw-r--r--  1 root   root   7.6K Dec 29  2017 fstat
+-rw-r--r--  1 root   root   1.2K Dec 29  2017 fs_stats.c
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 fs_stats
+-rw-r--r--  1 root   root    504 Dec 29  2017 find_system_break.c
+-rw-r--r--  1 root   root   7.3K Dec 29  2017 find_system_break
+-rw-r--r--  1 root   root   1.2K Dec 29  2017 filetype.c
+-rw-r--r--  1 root   root    267 Dec 29  2017 exec5.c
+-rw-r--r--  1 root   root    988 Dec 29  2017 exec4.c
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 exec3.c
+-rw-r--r--  1 root   root    815 Dec 29  2017 exec2.c
+-rw-r--r--  1 root   root    847 Dec 29  2017 exec1.c
+-rw-r--r--  1 root   root    753 Dec 29  2017 event_flags.h
+-rw-r--r--  1 root   root   1.4K Dec 29  2017 event_flags.c
+-rw-r--r--  1 root   root   1.3K Dec 29  2017 epoll1.c
+-rw-r--r--  1 root   root    293 Dec 29  2017 dltest.c
+-rw-r--r--  1 root   root   7.3K Dec 29  2017 dltest
+-rw-r--r--  1 root   root    602 Dec 29  2017 direct_read.c
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 direct_read
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 directio.c
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 directio
+-rw-r--r--  1 root   root      0 Dec 29  2017 direct.c
+-rw-r--r--  1 root   root    368 Dec 29  2017 destructor.c
+-rw-r--r--  1 root   root    243 Dec 29  2017 deprecated.c
+-rw-r--r--  1 root   root    262 Dec 29  2017 dep
+-rw-r--r--  1 root   root     18 Dec 29  2017 Demo.txt
+-rw-r--r--  1 root   root    361 Dec 29  2017 demo.c
+-rw-r--r--  1 root   root   7.3K Dec 29  2017 demo
+-rw-r--r--  1 root   root    392 Dec 29  2017 create.c
+-rw-r--r--  1 root   root   7.3K Dec 29  2017 create
+-rw-r--r--  1 root   root   1.1K Dec 29  2017 copysync.c
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 copysync
+-rw-r--r--  1 root   root   1.2K Dec 29  2017 copy.c
+-rw-r--r--  1 root   root   7.6K Dec 29  2017 copy
+-rw-r--r--  1 root   root     29 Dec 29  2017 contents
+-rw-r--r--  1 root   root    252 Dec 29  2017 cleanup.c
+-rw-r--r--  1 root   root    411 Dec 29  2017 cleanup1.c
+-rw-r--r--  1 root   root   7.5K Dec 29  2017 cleanup1
+-rw-r--r--  1 root   root   7.4K Dec 29  2017 cleanup
+-rw-r--r--  1 root   root    705 Dec 29  2017 CHKFREED.c
+-rw-r--r--  1 root   root    650 Dec 29  2017 cdpwd.c
+-rw-r--r--  1 root   root    188 Dec 29  2017 call.c
+-rw-r--r--  1 root   root    359 Dec 29  2017 call1.c
+-rw-r--r--  1 root   root   7.2K Dec 29  2017 call1
+-rw-r--r--  1 root   root   7.2K Dec 29  2017 call
+-rw-r--r--  1 root   root      0 Dec 29  2017 c
+-rw-r--r--  1 root   root    568 Dec 29  2017 buftest.c
+-rw-r--r--  1 root   root   7.2K Dec 29  2017 brk
+-rw-r--r--  1 root   root    658 Dec 29  2017 books
+-rw-r--r--  1 root   root    585 Dec 29  2017 binary_sems.h
+-rw-r--r--  1 root   root   1.5K Dec 29  2017 binary_sems.c
+-rw-r--r--  1 root   root    124 Dec 29  2017 app.c
+-rw-r--r--  1 root   root   7.2K Dec 29  2017 app
+-rw-r--r--  1 root   root    965 Dec 29  2017 anon_mmap.c
+-rw-r--r--  1 root   root    455 Dec 29  2017 alloc_sbrk.c
+-rw-r--r--  1 root   root    388 Dec 29  2017 alloc.c
+-rw-r--r--  1 root   root    537 Dec 29  2017 alloc_brk.c
+-rw-r--r--  1 root   root    384 Dec 29  2017 aligned.c
+-rw-r--r--  1 root   root   3.3K Dec 29  2017 aio_read_write_list.c
+-rw-r--r--  1 root   root   7.6K Dec 29  2017 aio_read_write_list
+-rw-r--r--  1 root   root   3.3K Dec 29  2017 aio_read_write.c
+-rw-r--r--  1 root   root   7.8K Dec 29  2017 aio_read_write
+-rw-r--r--  1 root   root    699 Dec 29  2017 access.c
+-rw-r--r--  1 root   root     73 Dec 29  2017 1mydata.h
+drwxr-xr-x  2 naresh naresh 4.0K Feb  5  2018 opentftp
+drwxrwxrwx  6 naresh naresh 4.0K Mar  7  2018 SDK
+drwxrwxr-x 16 root   root   4.0K Mar 12  2018 buildroot-2017.02.10
+drwxr-xr-x  4 naresh naresh 4.0K May  4  2018 Read_Write_Contact
+drwxr-xr-x 12 root   root   4.0K May  5  2018 message_app_1.0
+drwxr-xr-x  3 root   root   4.0K May 16  2018 mmc
+drwxr-xr-x 10 root   root   4.0K May 16  2018 gl11_gsm_send_read_SMS
+drwxr-xr-x  2 naresh naresh 4.0K May 17  2018 new_src
+drwxr-xr-x  2 root   root   4.0K Jun  1  2018 printer_hex_file
+drwxr-xr-x 12 root   root   4.0K Jun  4  2018 autoapn_5.0.2
+drwxr-xr-x 11 naresh naresh 4.0K Jun  6  2018 IMX25_AutoConnectivity_4.4_Only_GSM
+drwxr-xr-x  6 root   root   4.0K Jun 15  2018 ALL_CAMERA
+drwxr-xr-x  4 root   root   4.0K Jun 19  2018 refs
+drwxr-xr-x  2 root   root   4.0K Jun 19  2018 info
+drwxr-xr-x  2 root   root   4.0K Jun 19  2018 branches
+drwxr-xr-x  4 root   root   4.0K Jun 19  2018 objects
+drwxr-xr-x  3 root   root   4.0K Jun 22  2018 ssh_pos_on_pc
+drwxr-xr-x  6 root   root   4.0K Jun 25  2018 download_imx25
+drwxr-x--x  6 root   root   4.0K Jul  3  2018 Integrate_IMX6
+drwxr-xr-x  6 root   root   4.0K Jul  6  2018 patch
+drwx--x--x  6 naresh naresh 4.0K Jul 16  2018 GNANBHUMI
+drwxr-x--x  4 root   root   4.0K Jul 16  2018 Integrate_IMX25
+drwxrwxrwx  3 root   root   4.0K Jul 17  2018 1362
+drwxrwxrwx 33 naresh naresh 4.0K Jul 20  2018 1617
+drwxr-xr-x  5 root   root   4.0K Jul 28  2018 u03
+drwxrwxr-x  4 naresh naresh 4.0K Aug  3  2018 IMX6_FW_UPDATE
+drwxr-xr-x 27 naresh naresh 4.0K Aug  3  2018 linux-3.0.35_lcd
+-rwxr-xr-x  1 root   root   5.2K Aug  7  2018 killing
+-rw-r--r--  1 root   root    657 Aug  7  2018 Nating_from_internet.sh
+drwxr-xr-x  3 root   root   4.0K Aug  7  2018 TSTSTSTS
+-rw-r--r--  1 root   root     11 Aug  7  2018 sample.txt
+-rw-r--r--  1 naresh naresh  60K Aug  8  2018 uboot_password.tar.bz2
+drwxr-xr-x  2 root   root   4.0K Aug  8  2018 uboot-password
+drwxr-xr-x  4 root   root   4.0K Aug  9  2018 rd_patch
+-rw-r--r--  1 naresh naresh 2.3M Aug  9  2018 rd_init_patch.zip
+drwxr-xr-x  4 root   root   4.0K Aug 10  2018 PATCH_FOR_RUN_rhms
+drwxr-xr-x  3 root   root   4.0K Aug 14  2018 PATCH
+drwxr-xr-x  2 root   root   4.0K Aug 16  2018 lib_imx25
+-rwxr-xr-x  1 naresh naresh 1.5K Aug 16  2018 startx
+drwxr-xr-x  3 root   root   4.0K Aug 16  2018 KPDS-1.8
+-rw-r--r--  1 naresh naresh 151K Aug 17  2018 sdcard_software_loding
+-rwxr-xr-x  1 root   root    14K Aug 18  2018 setmachineid
+drwxr-xr-x  4 naresh naresh 4.0K Aug 18  2018 MLS
+drwxr-xr-x  4 naresh naresh 4.0K Aug 18  2018 rd_server_imx6
+drwxr-xr-x 24 naresh naresh 4.0K Aug 21  2018 RD_SERVICE
+drwxr-xr-x  4 root   root   4.0K Aug 21  2018 RAM_TEST
+-rw-r--r--  1 root   root      0 Aug 21  2018 mahesh_1604567856_21082018
+-rwxr-xr-x  1 root   root     37 Aug 24  2018 rhms
+drwxr-xr-x  4 root   root   4.0K Aug 24  2018 uploaded_to_PLM
+drwxrwxrwx  2 naresh naresh 4.0K Aug 25  2018 1137_511_449
+-rw-r--r--  1 root   root      0 Aug 28  2018 serial_1.1
+-rw-r--r--  1 root   root    803 Aug 28  2018 appdskrishna_rhms_problem_IDs
+-rwxrwxr-x  1 naresh naresh 207K Sep  3  2018 ZBARCAM-READER-0.2
+drwxr-xr-x  7 root   root   4.0K Sep  5  2018 diff
+-rw-r--r--  1 root   root     34 Sep  6  2018 mydata.txt
+-rw-r--r--  1 naresh naresh 2.6M Sep  6  2018 30042018_DPO_WLAN0_Batronics.tar.bz2
+-rw-r--r--  1 naresh naresh 2.6M Sep  6  2018 rt5370sta_src.tar.bz2
+-rw-r--r--  1 root   root   140M Sep  6  2018 linux-2.6.31_src_rt5370sta_src.zip
+-rw-r--r--  1 root   root    43K Sep 11  2018 out.log
+-rw-r--r--  1 naresh naresh 3.2M Sep 12  2018 temp-rootfs.IMG
+drwxr-xr-x  4 naresh naresh 4.0K Sep 12  2018 TEMP_ROOTFS
+drwxr-xr-x  4 naresh naresh 4.0K Sep 12  2018 GNOME
+drwxr-xr-x  3 naresh naresh 4.0K Sep 14  2018 IMX25_TEMPS
+drwxr-xr-x 18 naresh naresh 4.0K Sep 14  2018 temp_rootfs_reduced
+-rwxr-xr-x  1 root   root   3.6M Sep 14  2018 imx25_temp_rootfs.img
+-rw-r--r--  1 root   root    113 Sep 18  2018 temp_rootfs_cmd
+-rw-r--r--  1 root   root    142 Sep 18  2018 curl_command
+drw-r--r--  7 naresh naresh 4.0K Sep 18  2018 Firmware
+-rw-r--r--  1 root   root    313 Sep 20  2018 chits.c
+-rw-r--r--  1 root   root    28K Sep 24  2018 Download.tar.bz2
+-rw-r--r--  1 root   root    222 Sep 24  2018 appds_rhms_problem_IDs
+-rw-r--r--  1 naresh naresh  13K Sep 25  2018 imx_iocon.ko
+drwxr-xr-x  7 root   root   4.0K Sep 25  2018 mygit
+-rw-r--r--  1 root   root     73 Sep 25  2018 description
+-rw-r--r--  1 root   root     23 Sep 25  2018 HEAD
+-rwxr-xr-x  1 naresh naresh 214M Sep 25  2018 TT-Qt-4.7.4.tar.gz
+-rw-r--r--  1 naresh naresh 945M Sep 25  2018 freescale-35.tar.gz
+drwxr-xr-x  3 root   root   4.0K Sep 26  2018 APP_RHMS_BKP
+drwxr-xr-x  6 root   root   4.0K Sep 26  2018 APP_RHMS
+-rwxr-xr-x  1 naresh naresh   26 Sep 28  2018 usbsend
+drwxr-xr-x  3 root   root   4.0K Sep 29  2018 u-boot_src
+-rw-r--r--  1 root   root      0 Sep 29  2018 1557
+-rw-r--r--  1 root   root    377 Oct  1  2018 macid.c
+-rw-rw-r--  1 naresh naresh  24K Oct  1  2018 RHMS_review.xls
+-rw-r--r--  1 root   root   286M Oct  1  2018 RHMS_PROJECT.tar.bz2
+drwxr-xr-x  2 naresh naresh 4.0K Oct  1  2018 tftpboot
+-rwxrwxr-x  1 naresh naresh 129K Oct  1  2018 libgl11pos.so
+drwxr-xr-x  2 naresh naresh 4.0K Oct  1  2018 source
+drwxr-xr-x  4 naresh naresh 4.0K Oct  1  2018 client
+drwxr-xr-x 12 naresh naresh 4.0K Oct  3  2018 autoapn_5.0.7
+-rw-r--r--  1 root   root    521 Oct  3  2018 bill
+-rwxr-xr-x  1 root   root    37K Oct  5  2018 confi.db1
+-rw-r--r--  1 root   root   7.2K Oct  5  2018 bill.tar.bz2
+drwxrwxr-x 13 naresh naresh 4.0K Oct  6  2018 mosquitto-1.4.8
+-rw-r--r--  1 naresh naresh 5.2K Oct  6  2018 ares_dns.h
+-rw-r--r--  1 naresh naresh 4.7K Oct  6  2018 ares_rules.h
+-rw-r--r--  1 naresh naresh  20K Oct  6  2018 ares.h
+-rw-r--r--  1 naresh naresh  648 Oct  6  2018 ares_version.h
+-rw-r--r--  1 naresh naresh 4.1K Oct  6  2018 ares_build.h
+drwxr-xr-x  2 naresh naresh 4.0K Oct  6  2018 mytasks
+drwxrwxrwx  6 root   root   4.0K Oct  6  2018 From_ssh
+-rw-------  1 naresh naresh 4.3M Oct 10  2018 openssl-1.0.1e.tar.gz
+drwxr-xr-x 22 root   root   4.0K Oct 10  2018 openssl-1.0.1e
+drwxr-xr-x  5 root   root   4.0K Oct 10  2018 OPENSSL
+drwxr-xr-x  6 root   root   4.0K Oct 10  2018 OPI22
+-rwxr-xr-x  1 naresh naresh 124K Oct 10  2018 ls
+-rwxr-xr-x  1 root   root    283 Oct 10  2018 note
+drwxr-xr-x 10 root   root   4.0K Oct 10  2018 AMS
+-rw-r--r--  1 root   root   120K Oct 12  2018 Screenshot from 2018-10-12 11-02-02.png
+-rw-r--r--  1 root   root      0 Oct 12  2018 dummy
+-rw-r--r--  1 root   root   2.2K Oct 16  2018 xorg.conf.new
+-rw-r--r--  1 root   root     68 Oct 16  2018 start_pc
+-rwxr-xr-x  1 naresh naresh 9.7K Oct 16  2018 unity
+drwxr-xr-x  2 root   root   4.0K Oct 16  2018 ubuntu-session
+-rw-r--r--  1 root   root    534 Oct 16  2018 ubuntu-session.list
+-rw-r--r--  1 root   root    306 Oct 16  2018 ubuntu-session.md5sums
+-rw-r--r--  1 root   root      1 Oct 17  2018 install.sh
+drwx------  2 root   root   4.0K Oct 22  2018 Downloads
+drwxr-xr-x 17 root   root   4.0K Oct 22  2018 temp_rootf_fs_IMX6
+drwxr-xr-x  2 root   root   4.0K Oct 23  2018 testing
+drwxrwxr-x  3 naresh naresh 4.0K Oct 25  2018 allinfo
+-rwxr-xr-x  1 naresh naresh 101K Oct 25  2018 autoapn
+-rwxr-xr-x  1 naresh naresh  65K Oct 26  2018 unity-control-center
+drwxr-xr-x  3 root   root   4.0K Oct 26  2018 unitycontrol
+drwxr-xr-x  2 root   root   4.0K Oct 29  2018 myDrivers
+drwxrwxr-x  2 root   root   4.0K Oct 31  2018 allinfo1
+drwxrwxr-x  2 naresh naresh 4.0K Nov  8  2018 daily_report
+drwxr-xr-x  5 root   root   4.0K Nov 14  2018 kpds_virus_patch
+-rw-r--r--  1 root   root     89 Nov 17  2018 k.sh
+drwxrwxr-x  3 root   root   4.0K Nov 20  2018 Bluetooth
+-rw-r--r--  1 root   root   8.0K Nov 21  2018 message_dbsample
+-rw-r--r--  1 root   root      0 Nov 21  2018 adsplay_ver.conf
+-rw-r--r--  1 root   root    142 Nov 21  2018 kk.c
+drwxr-xr-x  2 naresh naresh 4.0K Nov 22  2018 ads_files
+-rw-r--r--  1 root   root   4.4K Nov 26  2018 index.html
+-rwxr-xr-x  1 root   root    23K Nov 26  2018 dmesg
+-rw-r--r--  1 root   root   3.8K Nov 27  2018 SD.directory
+-rwxr-xr-x  1 naresh naresh  924 Nov 28  2018 dev_info.c
+-rwxr-xr-x  1 root   root   1.6K Nov 30  2018 build_maker_visiontek_1.1.sh
+-rw-r--r--  1 root   root     85 Dec 10  2018 main_cvd.md5
+-rw-r--r--  1 root   root     86 Dec 14  2018 daily_cvd.md5
+-rw-r--r--  1 root   root    715 Dec 14  2018 DAILY_CVD_CHECKSUM_UPLOAD.sh
+-rw-r--r--  1 root   root   1.2M Dec 20  2018 lm80-p0436-7_f_410e_proc_apq8016e_device_spec.pdf
+-rw-r--r--  1 root   root    105 Dec 20  2018 RHMS_BACKUP_CMD.sh
+-rw-r--r--  1 root   root   1.7K Dec 21  2018 REMOTE_STATUS.XML.~1~
+-rw-r--r--  1 root   root   1.8K Dec 21  2018 remote_status.xml.~1~
+-rwxrwxrwx  1 root   root    21K Dec 22  2018 DEREGISTER_KASARAGODU_FROM_KPDS_390nos_ON_221218.xls
+-rw-r--r--  1 root   root    16K Dec 27  2018 kollam.txt
+-rw-r--r--  1 root   root    665 Dec 27  2018 test_script_for_sdcard_1.0.sh
+-rw-r--r--  1 root   root    585 Dec 27  2018 TEST_SCRIPT_FOR_SDCARD_SH.BKP
+-rw-r--r--  1 root   root    611 Dec 27  2018 TEST_SCRIPT_FOR_SDCARD.SH
+-rw-r--r--  1 root   root   1.5K Dec 27  2018 remote_status.xml_1170
+-rw-r--r--  1 root   root   3.1M Jan  3  2019 appds_iritech_patch_01032019.tar.bz2
+-rw-r--r--  1 root   root    407 Jan  5  2019 stcpt.sh
+-rw-r--r--  1 root   root   321K Jan  8  2019 mk2120ul-mgmtserv.log
+-rw-r--r--  1 root   root    387 Jan 11  2019 get_week_num.c
+-rw-r--r--  1 root   root    106 Jan 18  2019 score.sh
+-rw-r--r--  1 root   root    288 Jan 18  2019 run.sh.bkp
+-rw-r--r--  1 naresh naresh 5.8M Jan 18  2019 94_patch_TLS.zip
+-rw-r--r--  1 root   root    270 Jan 19  2019 xorg.conf.failsafe
+drwxrwxr-x  3 root   root   4.0K Jan 19  2019 src
+-rw-r--r--  1 root   root    16K Jan 19  2019 kollam.xls
+drwxrwxr-x  2 root   root   4.0K Jan 22  2019 allinfo2
+-rw-r--r--  1 root   root    346 Jan 23  2019 run.sh
+-rw-r--r--  1 root   root   107K Jan 23  2019 p.txt
+-rw-r--r--  1 root   root   6.7K Jan 23  2019 all.txt
+-rwxr-xr-x  1 root   root    32K Jan 23  2019 DEREGISTER_700_FROM_PATCHTEST.xls
+-rw-r--r--  1 root   root      0 Jan 24  2019 tutorial.c
+-rw-r--r--  1 root   root   4.9M Jan 24  2019 TotalDevicesReport24-01-2019_tsts.xls
+drwxrwxrwx  5 root   root   4.0K Jan 28  2019 GNANBHUMI1
+-rw-r--r--  1 root   root   462K Jan 29  2019 MF1S50YYX_V1.pdf
+drwxr-xr-x  2 root   root   4.0K Jan 30  2019 rfid_practise
+drwxr-xr-x  7 root   root   4.0K Feb  1  2019 openssl
+-rw-r--r--  1 root   root    229 Feb  4  2019 4g.txt
+-rw-r--r--  1 root   root    236 Feb  4  2019 3g.txt
+-rw-r--r--  1 root   root    18K Feb  5  2019 Download
+-rw-r--r--  1 root   root     13 Feb  5  2019 problem_appds
+-rw-r--r--  1 root   root    11K Feb  5  2019 Download_dbs
+-rw-r--r--  1 root   root     38 Feb  5  2019 anydesk_taken_serial_ids.txt
+-rw-r--r--  1 root   root   3.4M Feb  7  2019 DeviceDetails07-02-2019_hpds.xls
+drwxr-xr-x  2 root   root   4.0K Feb  8  2019 json
+-rw-r--r--  1 root   root   903K Feb 12  2019 mosquitto.tar.bz2
+-rw-r--r--  1 root   root   896K Feb 13  2019 mosquitto_1.0_develp.tar.bz2
+drwxr-xr-x  4 root   root   4.0K Feb 13  2019 REMOTE_CLIENT
+-rw-r--r--  1 root   root   912K Feb 16  2019 mosquitto_1.1_devolped.tar.bz2
+-rw-r--r--  1 root   root   926K Feb 16  2019 patch.tar.bz2
+-rw-r--r--  1 root   root     48 Feb 16  2019 patch.md5
+drwxr-xr-x  2 root   root   4.0K Feb 18  2019 mosquitto_test_1.1
+drwxr-xr-x  3 root   root   4.0K Feb 18  2019 mosquitto_test
+-rwxr-xr-x  1 root   root    985 Feb 19  2019 agree
+drwxr-xr-x  2 root   root   4.0K Feb 21  2019 tes
+-rw-r--r--  1 naresh naresh  46K Feb 22  2019 imx6sl.dtsi
+-rw-r--r--  1 root   root      0 Feb 22  2019 kk
+-rwxr-xr-x  1 root   root    11K Feb 25  2019 PosDesk
+-rw-r--r--  1 naresh naresh 2.0K Feb 27  2019 machineid1.c
+-rw-r--r--  1 root   root   8.4K Mar  1  2019 DevInfo.c
+-rw-r--r--  1 root   root   1.9K Mar  2  2019 occurence_report_1.0.sh
+dr-xr-xr-x 21 root   root   4.0K Mar  6 12:49 Fino-PPP-LIB
+drwxr-xr-x  5 naresh naresh 4.0K Mar  6 15:04 Notifier_1.2
+-rw-r--r--  1 root   root   5.1K Mar 14 12:11 l
+-rw-r--r--  1 root   root   9.0K Mar 19 17:58 Dereg_From_patchtest_allversions_78nos_on_190319.xls
+-rw-r--r--  1 root   root    12K Mar 19 17:58 Reg_From_patchtest_to_keralapds_78nos_on_190319.xls
+-rwxrwxrwx  1 root   root   6.4M Mar 22 11:30 Foundations.of.Qt.Development.pdf
+-rwxr-xr-x  1 root   root   6.1M Mar 22 11:45 Qt_prgming_book.chm
+drwxr-xr-x  2 root   root   4.0K Mar 22 18:03 build-sample-pc-Debug
+drwxr-xr-x  3 naresh naresh 4.0K Mar 25 18:43 mosquitto_patch
+-rw-r--r--  1 root   root    17K Mar 28 09:59 Speedtest
+-rw-r--r--  1 root   root    17K Mar 28 10:00 Speed
+-rw-r--r--  1 root   root    197 Mar 28 12:22 out.txt
+-rwxr-xr-x  1 root   root    557 Mar 28 17:57 PosDesk.sh
+-rwxr-xr-x  1 root   root    15K Apr  3 17:58 CmsUpdate
+-rw-r--r--  1 root   root      0 Apr  8 12:17 KKK.txt
+drwxr-xr-x  3 root   root   4.0K Apr 16 12:03 displayImage_SRC
+drwxr-xr-x 17 root   root   4.0K Apr 16 12:28 taking_backup
+-rwxr-xr-x  1 root   root    185 Apr 24 09:39 rot
+-rwxrwxrwx  1 root   root     36 Apr 24 09:48 r
+drwxr-xr-x  2 root   root   4.0K Apr 25 10:46 mosquitto
+-rw-r--r--  1 naresh naresh 2.0K Apr 25 16:13 mosquitto.sh
+drwxr-xr-x  6 root   root   4.0K Apr 29 12:25 Imp_tars
+drwxr-xr-x 19 naresh naresh 4.0K Apr 30 17:11 Backup_bhargav
+drwxr-xr-x  2 root   root   4.0K May  6 14:28 from_kermit
+-rwxr-xr-x  1 root   root   2.0M May  7 15:35 Registartion_nd_Deregistration_procedure.pdf
+-rwxr-xr-x  1 root   root   550K May 10 16:01 Registartion_nd_Deregistration_procedure.docx
+-rwxr-xr-x  1 root   root   5.4M May 20 17:33 kerala_gsm.xls
+-rwxr-xr-x  1 root   root   3.0K May 22 10:17 Notifier_server
+-rwxr-xr-x  1 root   root   1.6M May 22 13:02 seperate_kerala.xls
+-rwxr-xr-x  1 root   root   6.5K May 24 15:24 Deregister_goapds_16_devices_from_patchtest_and_registering_in_goapds_on_240519.xls
+-rwxr-xr-x  1 root   root    91K May 24 16:25 ftdi_sio.ko
+-rwxr-xr-x  1 root   root   5.8M May 25 09:25 kerala_all_devices.xls
+-rwxrwxr-x  1 naresh naresh  45K May 27 18:02 rhms_projects_all_PDS_patches_information_and_rdv1.7.1_Updated_Data.xls
+drwx------ 33 root   root   4.0K May 28 09:26 selfdiag_loadtest_final
+-rw-r--r--  1 root   root   4.9M May 28 09:27 selfdiag_loadtest_final.tar.bz2
+drwxr-xr-x  7 root   root   4.0K May 30 10:04 kernel_src
+drwxr-xr-x  4 root   root   4.0K Jun  1 14:25 xml
+-rw-r--r--  1 root   root   259K Jun  4 15:16 mhpds.txt
+-rw-r--r--  1 root   root   359K Jun  4 16:45 mhpds_macid.txt
+-rwxr-xr-x  1 root   root   268K Jun  4 17:57 mhnagpur_till_now_connected_to_1.8_on_040619.xls
+-rwxr-xr-x  1 root   root   5.5M Jun  4 17:57 mhintegra_till_now_connected_to_1.8_on_040619.xls
+-rw-r--r--  1 root   root   817K Jun  5 11:12 4G_3G_AGPS_TESTING_ALL.tar.bz2
+drwxr-xr-x  4 root   root   4.0K Jun  5 11:19 Battery_Temp
+drwxr-xr-x 14 root   root   4.0K Jun  6 17:16 4G_3G_AGPS_TESTING_ALL
+-rw-r--r--  1 root   root    393 Jun 10 14:43 y.pub
+-rw-------  1 root   root   1.7K Jun 10 14:43 y
+drwxr-xr-x  2 root   root   4.0K Jun 10 14:43 hooks
+-rw-r--r--  1 root   root     66 Jun 10 14:43 config
+drwxr-xr-x  4 naresh naresh 4.0K Jun 11 11:46 Test_sshpass
+drwxr-xr-x 10 naresh naresh 4.0K Jun 11 15:49 RHMS_PROJECT
+drwxr-xr-x  2 root   root   4.0K Jun 12 15:45 mama
+-rw-r--r--  1 root   root   1.8K Jun 13 14:47 live_score.sh
+-rw-r--r--  1 root   root      0 Jun 13 15:33 1610188445_________________________________
+-rwxr-xr-x  1 root   root   1.9M Jun 14 10:06 busybox
+-rw-r--r--  1 root   root    56K Jun 22 16:00 JDK.history
+-rw-r--r--  1 root   root   5.9M Jun 26 22:13 leshan-server-demo.jar
+-rw-r--r--  1 root   root   134K Jun 29 12:26 RHMS_RULES_FOR_DEVICES.ppt
+-rw-r--r--  1 root   root   2.4M Jun 29 12:26 funambol_dm_server_developer_guide.ppt
+-rwxr-xr-x  1 root   root   458K Jul  2 11:54 funambol_dm_server_developer_guide.pdf
+-rw-r--r--  1 root   root   1.6K Jul  2 16:56 Californium.properties
+-rw-r--r--  1 root   root   1.4M Jul  5 15:58 leshan-client-demo.jar
+drwxr-xr-x  2 root   root   4.0K Jul  5 18:07 Desktop
+-rwxr-xr-x  1 root   root    13M Jul  9 14:31 mhpds_device_details.xls
+-rw-r--r--  1 root   root   452K Jul  9 14:42 ALL_MHPDS_DEVICES_LIST
+-rw-r--r--  1 root   root   1.8M Jul  9 14:54 mhpds_all_devices_list_with_macid_and_connected_time.xls
+-rw-r--r--  1 root   root   1.8M Jul  9 14:55 mhpds_all_devices_list_with_macid_and_connected_time.txt
+drwxr-xr-x  6 root   root   4.0K Jul 19 10:20 snap
+drwxr-xr-x  8 root   root   4.0K Jul 23 13:56 Download_1.1_application
+drwxr-xr-x  4 root   root   4.0K Jul 23 13:56 Update_Application
+-rwxr-xr-x  1 root   root   5.4K Jul 23 16:35 update.sh
+-rwxr-xr-x  1 root   root    14K Jul 25 15:12 out
+-rwxr-xr-x  1 root   root    14K Jul 27 11:13 imei
+-rw-r--r--  1 root   root    430 Aug  1 15:44 pat.txt
+drwxr-xr-x  2 root   root   4.0K Aug  1 17:01 search
+-rw-r--r--  1 root   root    14K Aug  5 11:55 IN_FMS.txt
+-rw-r--r--  1 root   root   6.4M Aug  7 12:40 field_rhms_patch.tar.bz2
+-rw-r--r--  1 root   root      3 Aug  7 16:33 hello
+-rw-r--r--  1 root   root      0 Aug  7 16:52 1
+dr-x------  5 naresh naresh 4.0K Aug  7 17:45 DOWNLOAD_PROJECT
+drwxr-xr-x 24 root   root   4.0K Aug 13 12:51 LinuxPro
+-rw-r--r--  1 root   root    23K Aug 17 09:58 set_Machineid
+-rw-r--r--  1 root   root    614 Aug 17 14:48 ACK_FROM_SERVER.XML
+-rw-r--r--  1 root   root   9.5K Aug 17 18:32 registering_40_devices_in_mhvisiontek_on_170819_1.xls
+-rwxrwxrwx  1 root   root   7.5K Aug 17 18:40 deregistering_40_devices_from_goapds_and_registering_in_mhvisiontek_on_170819.xls
+-rw-r--r--  1 root   root    131 Aug 19 11:45 register.txt
+-rw-r--r--  1 root   root    12M Aug 19 17:20 ldd3_pdf.tar.bz2
+-rw-r--r--  1 root   root   4.4M Aug 19 17:21 Linux_backup.pdf
+drwxr-xr-x  3 root   root   4.0K Aug 21 11:18 sample
+-rwxr-xr-x  1 root   root    17M Aug 26 18:00 appds_device_details.xls
+-rw-r--r--  1 root   root   331K Aug 26 18:05 appds_serial_numbers
+-rw-r--r--  1 root   root    43K Aug 26 18:10 srikakulam.txt
+-rw-r--r--  1 root   root    54K Aug 26 18:11 srikakulam_ok.txt
+-rw-r--r--  1 root   root   1.5K Aug 28 15:40 remote_status.xml
+drwxr-xr-x 25 root   root    20K Aug 28 18:14 myp
+-rw-r--r--  1 root   root      0 Aug 29 18:52 111806562552
+-rw-r--r--  1 root   root   4.2M Aug 30 18:16 patch-2.0.zip
+
+
+Time: [ 15:01:52 ]	Command: [ cd /tmp	 ]	Status: [ Success ]
+
+
+Time: [ 15:01:53 ]	Command: [ ls ]	Status: [ Success ]
+1
+2GBn04C
+alloc_page.c
+alloc_pages.c
+anydesk
+a.out
+apic.c
+build.out
+Check_list.txt
+chrdrv_misc.c
+chrdrv_misc.ko
+chrdrv_misc.mod
+chrdrv_misc.mod.c
+chrdrv_misc.mod.o
+chrdrv_misc.o
+chrdrv_reg.c
+chrdrv_reg.ko
+chrdrv_reg.mod
+chrdrv_reg.mod.c
+chrdrv_reg.mod.o
+chrdrv_reg.o
+chrdrv_skel.c
+chrdrv_skel.ko
+chrdrv_skel.mod
+chrdrv_skel.mod.c
+chrdrv_skel.mod.o
+chrdrv_skel.o
+chrdrv_udev.c
+chrdrv_udev.ko
+chrdrv_udev.mod
+chrdrv_udev.mod.c
+chrdrv_udev.mod.o
+chrdrv_udev.o
+clock.c
+clock.h
+config-err-Q3bFAV
+DANGER
+dma_test3.c
+dma_test.c
+event-codes.txt
+exer
+fbmap.c
+fbtest1.c
+get_rtc.c
+HID1_11.pdf
+hsperfdata_naresh
+i2c_skel.c
+inputdrv.png
+inputskel.c
+inputskel.Readme
+inputstk.jpg
+intel-82093-apic.pdf
+inttest1.c
+inttest.c
+intthread.c
+ioctltest.c
+kb_intr1.c
+kb_intr.c
+KernPro
+KernPro.rar
+KernPro.zip
+kmalloc.c
+kmem_cache.c
+kthread_atomic.c
+kthread.c
+kthread_mutex.c
+kthread_spin.c
+kthread_sync.c
+kthread_sync_waitq.c
+lu116513lmxu2.tmp
+Makefile
+modcounter.c
+modcounter.ko
+modcounter.mod
+modcounter.mod.c
+modcounter.mod.o
+modcounter.o
+moddep1.c
+moddep1.ko
+moddep1.mod
+moddep1.mod.c
+moddep1.mod.o
+moddep1.o
+moddep.c
+modex.c
+modexfunc.c
+modexfunc.ko
+modexfunc.mod
+modexfunc.mod.c
+modexfunc.mod.o
+modexfunc.o
+modex.ko
+modex.mod
+modex.mod.c
+modex.mod.o
+modex.o
+modparam.c
+modparam.ko
+modparam.mod
+modparam.mod.c
+modparam.mod.o
+modparam.o
+modules
+modules.order
+module.syms
+Module.symvers
+mozilla_naresh0
+mycache.c
+myhello.c
+myhello.ko
+myhello.mod
+myhello.mod.c
+myhello.mod.o
+myhello.o
+napi_31.c
+netdevices.c
+netdevices.ko
+netdevices.mod
+netdevices.mod.c
+netdevices.mod.o
+netdevices.o
+netdevrecv.c
+netdevstub.c
+netdevstub.ko
+netdevstub.mod
+netdevstub.mod.c
+netdevstub.mod.o
+netdevstub.o
+netdevtransmit.c
+new1.txt
+new.txt
+old.txt
+OSL_PIPE_1000_SingleOfficeIPC_9039d37c1b184784bdf14c95d2c87bd4
+pci.c
+pci.ko
+pci.mod
+pci.mod.c
+pci.mod.o
+pci.o
+pci_skel.c
+pcistack
+pcistack~
+plat_skel.c
+printlog.c
+prochello.c
+ramdisk.c
+ramskel.c
+read
+readme
+Readme
+Readme~
+Readme.clock
+rtc.c
+rtc_chrdev.c
+rtc.h
+rtc_ioctl.c
+rtc_ioctlsync.c
+rtcproc.c
+rtc_read.c
+rtc_set.c
+rtc_sysfs.c
+rtc_sysfs.ko
+rtc_sysfs.mod
+rtc_sysfs.mod.c
+rtc_sysfs.mod.o
+rtc_sysfs.o
+snap.mosquitto
+ssh-ujLxmE7IYF6n
+steps
+structmm.c
+structpage.c
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-colord.service-KOkVDH
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-fwupd.service-zLsSYB
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-rtkit-daemon.service-G71G0P
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-systemd-resolved.service-5h3Uve
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-systemd-timesyncd.service-dvFUN0
+tasklet_ex2.c
+tasklet_ex3.c
+tasklet_ex4.c
+tasklet_ex5.c
+tasklet_ex.c
+tbh.c
+test.c
+test_misc.c
+test_skel.c
+tfunc.c
+tfunc.ko
+tfunc.mod
+tfunc.mod.c
+tfunc.mod.o
+tfunc.o
+thunderbird_naresh
+timer2.c
+timer2.c~
+timer.c
+timer.c~
+timer.ko
+timer.mod
+timer.mod.c
+timer.mod.o
+timer.o
+uiostub.c
+uiotest1.c
+uiotest.c
+unity_support_test.1
+usbchar_skel.c
+usbdrv2.c
+usbdrv.c
+usbkbd1.c
+usbkbd1.ko
+usbkbd1.mod
+usbkbd1.mod.c
+usbkbd1.mod.o
+usbkbd1.o
+usbprobe.c
+usb_skel.c
+useclk.c
+view
+vmalloc.c
+wqnewi.c
+wqnewi.c~
+wqpriv.c
+wqshared.c
+
+
+Time: [ 15:01:57 ]	Command: [ rm_old *.c ]	Status: [ Success ]
+sh: 1: rm_old: not found
+
+
+Time: [ 15:02:16 ]	Command: [ ls ]	Status: [ Success ]
+1
+2GBn04C
+alloc_page.c
+alloc_pages.c
+anydesk
+a.out
+apic.c
+build.out
+Check_list.txt
+chrdrv_misc.c
+chrdrv_misc.ko
+chrdrv_misc.mod
+chrdrv_misc.mod.c
+chrdrv_misc.mod.o
+chrdrv_misc.o
+chrdrv_reg.c
+chrdrv_reg.ko
+chrdrv_reg.mod
+chrdrv_reg.mod.c
+chrdrv_reg.mod.o
+chrdrv_reg.o
+chrdrv_skel.c
+chrdrv_skel.ko
+chrdrv_skel.mod
+chrdrv_skel.mod.c
+chrdrv_skel.mod.o
+chrdrv_skel.o
+chrdrv_udev.c
+chrdrv_udev.ko
+chrdrv_udev.mod
+chrdrv_udev.mod.c
+chrdrv_udev.mod.o
+chrdrv_udev.o
+clock.c
+clock.h
+config-err-Q3bFAV
+DANGER
+dma_test3.c
+dma_test.c
+event-codes.txt
+exer
+fbmap.c
+fbtest1.c
+get_rtc.c
+HID1_11.pdf
+hsperfdata_naresh
+i2c_skel.c
+inputdrv.png
+inputskel.c
+inputskel.Readme
+inputstk.jpg
+intel-82093-apic.pdf
+inttest1.c
+inttest.c
+intthread.c
+ioctltest.c
+kb_intr1.c
+kb_intr.c
+KernPro
+KernPro.rar
+KernPro.zip
+kmalloc.c
+kmem_cache.c
+kthread_atomic.c
+kthread.c
+kthread_mutex.c
+kthread_spin.c
+kthread_sync.c
+kthread_sync_waitq.c
+lu116513lmxu2.tmp
+Makefile
+modcounter.c
+modcounter.ko
+modcounter.mod
+modcounter.mod.c
+modcounter.mod.o
+modcounter.o
+moddep1.c
+moddep1.ko
+moddep1.mod
+moddep1.mod.c
+moddep1.mod.o
+moddep1.o
+moddep.c
+modex.c
+modexfunc.c
+modexfunc.ko
+modexfunc.mod
+modexfunc.mod.c
+modexfunc.mod.o
+modexfunc.o
+modex.ko
+modex.mod
+modex.mod.c
+modex.mod.o
+modex.o
+modparam.c
+modparam.ko
+modparam.mod
+modparam.mod.c
+modparam.mod.o
+modparam.o
+modules
+modules.order
+module.syms
+Module.symvers
+mozilla_naresh0
+mycache.c
+myhello.c
+myhello.ko
+myhello.mod
+myhello.mod.c
+myhello.mod.o
+myhello.o
+napi_31.c
+netdevices.c
+netdevices.ko
+netdevices.mod
+netdevices.mod.c
+netdevices.mod.o
+netdevices.o
+netdevrecv.c
+netdevstub.c
+netdevstub.ko
+netdevstub.mod
+netdevstub.mod.c
+netdevstub.mod.o
+netdevstub.o
+netdevtransmit.c
+new1.txt
+new.txt
+old.txt
+OSL_PIPE_1000_SingleOfficeIPC_9039d37c1b184784bdf14c95d2c87bd4
+pci.c
+pci.ko
+pci.mod
+pci.mod.c
+pci.mod.o
+pci.o
+pci_skel.c
+pcistack
+pcistack~
+plat_skel.c
+printlog.c
+prochello.c
+ramdisk.c
+ramskel.c
+read
+readme
+Readme
+Readme~
+Readme.clock
+rtc.c
+rtc_chrdev.c
+rtc.h
+rtc_ioctl.c
+rtc_ioctlsync.c
+rtcproc.c
+rtc_read.c
+rtc_set.c
+rtc_sysfs.c
+rtc_sysfs.ko
+rtc_sysfs.mod
+rtc_sysfs.mod.c
+rtc_sysfs.mod.o
+rtc_sysfs.o
+snap.mosquitto
+ssh-ujLxmE7IYF6n
+steps
+structmm.c
+structpage.c
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-colord.service-KOkVDH
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-fwupd.service-zLsSYB
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-rtkit-daemon.service-G71G0P
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-systemd-resolved.service-5h3Uve
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-systemd-timesyncd.service-dvFUN0
+tasklet_ex2.c
+tasklet_ex3.c
+tasklet_ex4.c
+tasklet_ex5.c
+tasklet_ex.c
+tbh.c
+test.c
+test_misc.c
+test_skel.c
+tfunc.c
+tfunc.ko
+tfunc.mod
+tfunc.mod.c
+tfunc.mod.o
+tfunc.o
+thunderbird_naresh
+timer2.c
+timer2.c~
+timer.c
+timer.c~
+timer.ko
+timer.mod
+timer.mod.c
+timer.mod.o
+timer.o
+uiostub.c
+uiotest1.c
+uiotest.c
+unity_support_test.1
+usbchar_skel.c
+usbdrv2.c
+usbdrv.c
+usbkbd1.c
+usbkbd1.ko
+usbkbd1.mod
+usbkbd1.mod.c
+usbkbd1.mod.o
+usbkbd1.o
+usbprobe.c
+usb_skel.c
+useclk.c
+view
+vmalloc.c
+wqnewi.c
+wqnewi.c~
+wqpriv.c
+wqshared.c
+
+
+Time: [ 15:02:24 ]	Command: [ ls ]	Status: [ Success ]
+1
+2GBn04C
+alloc_page.c
+alloc_pages.c
+anydesk
+a.out
+apic.c
+build.out
+Check_list.txt
+chrdrv_misc.c
+chrdrv_misc.ko
+chrdrv_misc.mod
+chrdrv_misc.mod.c
+chrdrv_misc.mod.o
+chrdrv_misc.o
+chrdrv_reg.c
+chrdrv_reg.ko
+chrdrv_reg.mod
+chrdrv_reg.mod.c
+chrdrv_reg.mod.o
+chrdrv_reg.o
+chrdrv_skel.c
+chrdrv_skel.ko
+chrdrv_skel.mod
+chrdrv_skel.mod.c
+chrdrv_skel.mod.o
+chrdrv_skel.o
+chrdrv_udev.c
+chrdrv_udev.ko
+chrdrv_udev.mod
+chrdrv_udev.mod.c
+chrdrv_udev.mod.o
+chrdrv_udev.o
+clock.c
+clock.h
+config-err-Q3bFAV
+DANGER
+dma_test3.c
+dma_test.c
+event-codes.txt
+exer
+fbmap.c
+fbtest1.c
+get_rtc.c
+HID1_11.pdf
+hsperfdata_naresh
+i2c_skel.c
+inputdrv.png
+inputskel.c
+inputskel.Readme
+inputstk.jpg
+intel-82093-apic.pdf
+inttest1.c
+inttest.c
+intthread.c
+ioctltest.c
+kb_intr1.c
+kb_intr.c
+KernPro
+KernPro.rar
+KernPro.zip
+kmalloc.c
+kmem_cache.c
+kthread_atomic.c
+kthread.c
+kthread_mutex.c
+kthread_spin.c
+kthread_sync.c
+kthread_sync_waitq.c
+lu116513lmxu2.tmp
+Makefile
+modcounter.c
+modcounter.ko
+modcounter.mod
+modcounter.mod.c
+modcounter.mod.o
+modcounter.o
+moddep1.c
+moddep1.ko
+moddep1.mod
+moddep1.mod.c
+moddep1.mod.o
+moddep1.o
+moddep.c
+modex.c
+modexfunc.c
+modexfunc.ko
+modexfunc.mod
+modexfunc.mod.c
+modexfunc.mod.o
+modexfunc.o
+modex.ko
+modex.mod
+modex.mod.c
+modex.mod.o
+modex.o
+modparam.c
+modparam.ko
+modparam.mod
+modparam.mod.c
+modparam.mod.o
+modparam.o
+modules
+modules.order
+module.syms
+Module.symvers
+mozilla_naresh0
+mycache.c
+myhello.c
+myhello.ko
+myhello.mod
+myhello.mod.c
+myhello.mod.o
+myhello.o
+napi_31.c
+netdevices.c
+netdevices.ko
+netdevices.mod
+netdevices.mod.c
+netdevices.mod.o
+netdevices.o
+netdevrecv.c
+netdevstub.c
+netdevstub.ko
+netdevstub.mod
+netdevstub.mod.c
+netdevstub.mod.o
+netdevstub.o
+netdevtransmit.c
+new1.txt
+new.txt
+old.txt
+OSL_PIPE_1000_SingleOfficeIPC_9039d37c1b184784bdf14c95d2c87bd4
+pci.c
+pci.ko
+pci.mod
+pci.mod.c
+pci.mod.o
+pci.o
+pci_skel.c
+pcistack
+pcistack~
+plat_skel.c
+printlog.c
+prochello.c
+ramdisk.c
+ramskel.c
+read
+readme
+Readme
+Readme~
+Readme.clock
+rtc.c
+rtc_chrdev.c
+rtc.h
+rtc_ioctl.c
+rtc_ioctlsync.c
+rtcproc.c
+rtc_read.c
+rtc_set.c
+rtc_sysfs.c
+rtc_sysfs.ko
+rtc_sysfs.mod
+rtc_sysfs.mod.c
+rtc_sysfs.mod.o
+rtc_sysfs.o
+snap.mosquitto
+ssh-ujLxmE7IYF6n
+steps
+structmm.c
+structpage.c
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-colord.service-KOkVDH
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-fwupd.service-zLsSYB
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-rtkit-daemon.service-G71G0P
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-systemd-resolved.service-5h3Uve
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-systemd-timesyncd.service-dvFUN0
+tasklet_ex2.c
+tasklet_ex3.c
+tasklet_ex4.c
+tasklet_ex5.c
+tasklet_ex.c
+tbh.c
+test.c
+test_misc.c
+test_skel.c
+tfunc.c
+tfunc.ko
+tfunc.mod
+tfunc.mod.c
+tfunc.mod.o
+tfunc.o
+thunderbird_naresh
+timer2.c
+timer2.c~
+timer.c
+timer.c~
+timer.ko
+timer.mod
+timer.mod.c
+timer.mod.o
+timer.o
+uiostub.c
+uiotest1.c
+uiotest.c
+unity_support_test.1
+usbchar_skel.c
+usbdrv2.c
+usbdrv.c
+usbkbd1.c
+usbkbd1.ko
+usbkbd1.mod
+usbkbd1.mod.c
+usbkbd1.mod.o
+usbkbd1.o
+usbprobe.c
+usb_skel.c
+useclk.c
+view
+vmalloc.c
+wqnewi.c
+wqnewi.c~
+wqpriv.c
+wqshared.c
+
+
+Time: [ 15:02:33 ]	Command: [ ls ]	Status: [ Success ]
+1
+2GBn04C
+alloc_page.c
+alloc_pages.c
+anydesk
+a.out
+apic.c
+build.out
+Check_list.txt
+chrdrv_misc.c
+chrdrv_misc.ko
+chrdrv_misc.mod
+chrdrv_misc.mod.c
+chrdrv_misc.mod.o
+chrdrv_misc.o
+chrdrv_reg.c
+chrdrv_reg.ko
+chrdrv_reg.mod
+chrdrv_reg.mod.c
+chrdrv_reg.mod.o
+chrdrv_reg.o
+chrdrv_skel.c
+chrdrv_skel.ko
+chrdrv_skel.mod
+chrdrv_skel.mod.c
+chrdrv_skel.mod.o
+chrdrv_skel.o
+chrdrv_udev.c
+chrdrv_udev.ko
+chrdrv_udev.mod
+chrdrv_udev.mod.c
+chrdrv_udev.mod.o
+chrdrv_udev.o
+clock.c
+clock.h
+config-err-Q3bFAV
+DANGER
+dma_test3.c
+dma_test.c
+event-codes.txt
+exer
+fbmap.c
+fbtest1.c
+get_rtc.c
+HID1_11.pdf
+hsperfdata_naresh
+i2c_skel.c
+inputdrv.png
+inputskel.c
+inputskel.Readme
+inputstk.jpg
+intel-82093-apic.pdf
+inttest1.c
+inttest.c
+intthread.c
+ioctltest.c
+kb_intr1.c
+kb_intr.c
+KernPro
+KernPro.rar
+KernPro.zip
+kmalloc.c
+kmem_cache.c
+kthread_atomic.c
+kthread.c
+kthread_mutex.c
+kthread_spin.c
+kthread_sync.c
+kthread_sync_waitq.c
+lu116513lmxu2.tmp
+Makefile
+modcounter.c
+modcounter.ko
+modcounter.mod
+modcounter.mod.c
+modcounter.mod.o
+modcounter.o
+moddep1.c
+moddep1.ko
+moddep1.mod
+moddep1.mod.c
+moddep1.mod.o
+moddep1.o
+moddep.c
+modex.c
+modexfunc.c
+modexfunc.ko
+modexfunc.mod
+modexfunc.mod.c
+modexfunc.mod.o
+modexfunc.o
+modex.ko
+modex.mod
+modex.mod.c
+modex.mod.o
+modex.o
+modparam.c
+modparam.ko
+modparam.mod
+modparam.mod.c
+modparam.mod.o
+modparam.o
+modules
+modules.order
+module.syms
+Module.symvers
+mozilla_naresh0
+mycache.c
+myhello.c
+myhello.ko
+myhello.mod
+myhello.mod.c
+myhello.mod.o
+myhello.o
+napi_31.c
+netdevices.c
+netdevices.ko
+netdevices.mod
+netdevices.mod.c
+netdevices.mod.o
+netdevices.o
+netdevrecv.c
+netdevstub.c
+netdevstub.ko
+netdevstub.mod
+netdevstub.mod.c
+netdevstub.mod.o
+netdevstub.o
+netdevtransmit.c
+new1.txt
+new.txt
+old.txt
+OSL_PIPE_1000_SingleOfficeIPC_9039d37c1b184784bdf14c95d2c87bd4
+pci.c
+pci.ko
+pci.mod
+pci.mod.c
+pci.mod.o
+pci.o
+pci_skel.c
+pcistack
+pcistack~
+plat_skel.c
+printlog.c
+prochello.c
+ramdisk.c
+ramskel.c
+read
+readme
+Readme
+Readme~
+Readme.clock
+rtc.c
+rtc_chrdev.c
+rtc.h
+rtc_ioctl.c
+rtc_ioctlsync.c
+rtcproc.c
+rtc_read.c
+rtc_set.c
+rtc_sysfs.c
+rtc_sysfs.ko
+rtc_sysfs.mod
+rtc_sysfs.mod.c
+rtc_sysfs.mod.o
+rtc_sysfs.o
+snap.mosquitto
+ssh-ujLxmE7IYF6n
+steps
+structmm.c
+structpage.c
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-colord.service-KOkVDH
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-fwupd.service-zLsSYB
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-rtkit-daemon.service-G71G0P
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-systemd-resolved.service-5h3Uve
+systemd-private-f05b7fd3be6c40d6be548bc086ebf29c-systemd-timesyncd.service-dvFUN0
+tasklet_ex2.c
+tasklet_ex3.c
+tasklet_ex4.c
+tasklet_ex5.c
+tasklet_ex.c
+tbh.c
+test.c
+test_misc.c
+test_skel.c
+tfunc.c
+tfunc.ko
+tfunc.mod
+tfunc.mod.c
+tfunc.mod.o
+tfunc.o
+thunderbird_naresh
+timer2.c
+timer2.c~
+timer.c
+timer.c~
+timer.ko
+timer.mod
+timer.mod.c
+timer.mod.o
+timer.o
+uiostub.c
+uiotest1.c
+uiotest.c
+unity_support_test.1
+usbchar_skel.c
+usbdrv2.c
+usbdrv.c
+usbkbd1.c
+usbkbd1.ko
+usbkbd1.mod
+usbkbd1.mod.c
+usbkbd1.mod.o
+usbkbd1.o
+usbprobe.c
+usb_skel.c
+useclk.c
+view
+vmalloc.c
+wqnewi.c
+wqnewi.c~
+wqpriv.c
+wqshared.c
+
+
+Time: [ 15:02:46 ]	Command: [ ls ]	Status: [ Success ]
+1
+2GBn04C
+alloc_page.c
+alloc_pages.c
+anydesk
+a.out
+apic.c
+build.out
+Check_list.txt
+chrdrv_misc.c
+chrdrv_misc.ko
+chrdrv_misc.mod
+chrdrv_misc.mod.c
+chrdrv_misc.mod.o
+chrdrv_misc.o
+chrdrv_reg.c
+chrdrv_reg.ko
+chrdrv_reg.mod
+chrdrv_reg.mod.c
+chrdrv_reg.mod.o
+chrdrv_reg.o
+chrdrv_skel.c
+chrdrv_skel.ko
+chrdrv_skel.mod
+chrdrv_skel.mod.c
+chrdrv_skel.mod.o
+chrdrv_skel.o
+chrdrv_udev.c
+chrdrv_udev.ko
+chrdrv_udev.mod
+chrdrv_ud

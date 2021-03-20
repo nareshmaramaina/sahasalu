@@ -1,0 +1,39 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Check_Expire_Date	ExpireDate.c	/^int  Check_Expire_Date(void)$/;"	f
+Create_dir_if_not	Max_devices_topic.c	/^void Create_dir_if_not( char *file)$/;"	f
+Disconnect	Low_devices_topic.c	/^static int Disconnect;$/;"	v	file:
+Disconnect	Max_devices_topic.c	/^static int Disconnect;$/;"	v	file:
+Download	Max_devices_topic.c	/^int Download(char *filename)$/;"	f
+Run_Low_clients_thread	Low_devices_topic.c	/^void *Run_Low_clients_thread(void *arg)$/;"	f
+Run_Max_clients_thread	Max_devices_topic.c	/^void *Run_Max_clients_thread(void *arg)$/;"	f
+Run_Medium_clients_thread	Medium_devices_topic.c	/^void *Run_Medium_clients_thread(void *arg)$/;"	f
+Upload	upload.c	/^int Upload(char *filename)$/;"	f
+Upload_file	upload.c	/^int Upload_file(char *filename)$/;"	f
+Wait_for_internet	Download.c	/^void Wait_for_internet(void)$/;"	f
+diff_bw_two_dates	ExpireDate.c	/^static int diff_bw_two_dates(int firstDate, int firstMonth, int firstYear, int secondDate, int secondMonth, int secondYear)$/;"	f	file:
+get_credentials	get_credentials.c	/^int get_credentials(void)$/;"	f
+get_date	ExpireDate.c	/^void get_date(int *day,int *month,int *year,int *hrs,int *mins,int *secs)$/;"	f
+get_date	get_date.c	/^void get_date(int *day,int *month,int *year,int *hrs,int *mins,int *secs)$/;"	f
+get_date	sample.c	/^void get_date(int *day,int *month,int *year)$/;"	f
+get_macid	get_macid.c	/^int get_macid(char *mac)$/;"	f
+macid	main.c	/^char macid[24]="";$/;"	v
+main	main.c	/^int main(int argc, char *argv[])$/;"	f
+main	test.c	/^int main()$/;"	f
+mosquitto_report	mosquitto_report.c	/^void mosquitto_report(char *mode,char *msg,char *cmd_status)$/;"	f
+my_connect_callback	Low_devices_topic.c	/^static void my_connect_callback(struct mosquitto *mosq, void *userdata, int result)$/;"	f	file:
+my_connect_callback	Max_devices_topic.c	/^static void my_connect_callback(struct mosquitto *mosq, void *userdata, int result)$/;"	f	file:
+my_connect_callback	Medium_devices_topic.c	/^static void my_connect_callback(struct mosquitto *mosq, void *userdata, int result)$/;"	f	file:
+my_message_callback	Low_devices_topic.c	/^static void my_message_callback(struct mosquitto *mosq, void *userdata, const struct mosquitto_message *message)$/;"	f	file:
+my_message_callback	Max_devices_topic.c	/^static void my_message_callback(struct mosquitto *mosq, void *userdata, const struct mosquitto_message *message)$/;"	f	file:
+my_message_callback	Medium_devices_topic.c	/^static void my_message_callback(struct mosquitto *mosq, void *userdata, const struct mosquitto_message *message)$/;"	f	file:
+on_disconnect	Low_devices_topic.c	/^static void on_disconnect(struct mosquitto *mosq,void *k,int result)$/;"	f	file:
+on_disconnect	Max_devices_topic.c	/^static void on_disconnect(struct mosquitto *mosq,void *k,int result)$/;"	f	file:
+on_disconnect	Medium_devices_topic.c	/^static void on_disconnect(struct mosquitto *mosq,void *k,int result)$/;"	f	file:
+topic	Low_devices_topic.c	/^static char topic[128]="";$/;"	v	file:
+topic	Medium_devices_topic.c	/^static char topic[128];$/;"	v	file:
+wget_download	Download.c	/^int wget_download (char *url,char *Taget_filename) \/\/ Mode= Active or Passive, retry_count =retry count to wget$/;"	f

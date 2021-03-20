@@ -1,0 +1,3 @@
+mosquitto_pub -p 2217 -t PATCHTEST_L_0 -m "#GET#REMOTE#7C:F0:BA:06:01:5D#" -q 2
+mosquitto_pub -p 2201 -t PATCHTEST_M_0 -m "ls" -q 2
+mosquitto_pub -p 2200 -t PATCHTEST -m "#UPLOAD#ALL# REPORT#" -q 2

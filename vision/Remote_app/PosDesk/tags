@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BACKLOG	include/header.h	22;"	d
+Check_CmD	include/header.h	/^char Check_CmD[128];$/;"	v
+Foreground_process	include/header.h	/^int Foreground_process;$/;"	v
+LENGTH	include/header.h	23;"	d
+alarmHandler	alarm_handler.c	/^void alarmHandler(int signo)$/;"	f
+check_cmd	check_cmd.c	/^int check_cmd(char *cmd_buff)$/;"	f
+file_send_func	file_send.c	/^void file_send_func(int sockfd)$/;"	f
+fun	sample.c	/^void fun(FILE *fp)$/;"	f
+get_Machineid	get_info.c	/^int get_Machineid(char *machineid)$/;"	f
+get_macid	get_info.c	/^int get_macid(char *macid)$/;"	f
+main	main.c	/^int main(int argc, char *argv[])$/;"	f
+main	sample.c	/^int main(int argc,char *argv[])$/;"	f
+main	test.c	/^int main()$/;"	f
+size_of_file	get_file_size.c	/^int size_of_file(const char *file)$/;"	f
+sockfd	include/header.h	/^int sockfd; $/;"	v
+wait_for_data	wait_for_data.c	/^int wait_for_data(int sockfd,int timeout)$/;"	f
