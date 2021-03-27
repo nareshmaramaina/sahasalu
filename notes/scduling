@@ -52,4 +52,7 @@ In Linux, under the new CFS scheduler, the decision is a
 function of how much of a proportion of the processor the newly runnable processor has
 consumed. If it has consumed a smaller proportion of the processor than the currently
 executing process, it runs immediately, preempting the current process. If not, it is sched-
-uled to run at a later time. 
+uled to run at a later time.
+
+
+https://www.embedded.com/how-to-use-priority-inheritance/ 

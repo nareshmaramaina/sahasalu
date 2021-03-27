@@ -24,7 +24,6 @@ Runs at early boot stage end is responsible for following operations
 In Processor view ( Real Memory mode )  -> Memory is single array -> Physical Offset 
 In processor view ( Protected Memory Mode ) - > Memory set of array/ vector  -> Blocks -> Frame 4k -> Physical Address = Frame No + offset 
 
-
  		CAche Alllocator 
 	
 Slab Allocator	Fragemnet allacator 	CMA Allocator 	DMA Allocator GCMA Allocator

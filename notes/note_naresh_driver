@@ -372,7 +372,7 @@ References :- https://www.kernel.org/doc/Documentation/gpio/sysfs.txt
 
 
 
-
+mount -t debugfs debugfs /sys/kernel/debug/
 
 
 you will see the GPIO hardware exposed in the file system under /sys/class/gpio

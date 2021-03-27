@@ -267,3 +267,8 @@ fork();
 fork();
 printf
 2*2*2 = 8 time called  
+
+
+
+/// Padding will increase speed by access , byte sizes at time, but free memory holes created 
+// But Packing save memory size but CPU cycles will increase , 

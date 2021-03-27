@@ -151,17 +151,17 @@ static int __init sbd_init(void)
 	strcpy(Device.gd->disk_name, "sbd0");
 	printk("\n before set capacity");
 	set_capacity(Device.gd,
-		     nsectors * (hardsect_size / KERNEL_SECTOR_SIZE));
+			nsectors * (hardsect_size / KERNEL_SECTOR_SIZE));
 	Device.gd->queue = Queue;
 	printk("\n before add_disk");
 	add_disk(Device.gd);
 
 	printk("\n successful initialisation");
 	return 0;
- out_unregister:
+out_unregister:
 	printk("\n at unregister");
 	unregister_blkdev(major_num, "sbd0");
- out:
+out:
 	vfree(Device.data);
 	return -ENOMEM;
 }

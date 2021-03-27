@@ -4,20 +4,20 @@
 void query_policy()
 {
 	int policy;
-        policy = sched_getscheduler(0);
+	policy = sched_getscheduler(0);
 	printf("\n %s: \n",__func__);
-        switch(policy)
-        {
-                case SCHED_OTHER:
-                        printf("\n Fair share scheduler......\n");
-                        break;
-                case SCHED_RR:
-                        printf("\n Round Robin scheduler......\n");
-                        break;
-                case SCHED_FIFO:
-                        printf("\n First In-First Out scheduler......\n");
-                        break;
-        }
+	switch(policy)
+	{
+		case SCHED_OTHER:
+			printf("\n Fair share scheduler......\n");
+			break;
+		case SCHED_RR:
+			printf("\n Round Robin scheduler......\n");
+			break;
+		case SCHED_FIFO:
+			printf("\n First In-First Out scheduler......\n");
+			break;
+	}
 }
 
 

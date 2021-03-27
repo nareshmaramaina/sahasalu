@@ -24,7 +24,7 @@ int main()
 
 	/* All childs execute the following code */
 	cpu_set_t cset;
-	CPU_ZERO( &cset );
+	CPU_ZEO( &cset );
 	CPU_SET( i, &cset);
 	
 	if( sched_setaffinity( 0, sizeof(cset), &cset ) == -1 )

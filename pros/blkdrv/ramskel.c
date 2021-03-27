@@ -18,7 +18,7 @@ static int major_num = 0;
 module_param(major_num, int, 0);
 static int hardsect_size = 512;
 module_param(hardsect_size, int, 0);
-static int nsectors = 1024;	/* How big the drive is */
+static int nsectors = 104;	/* How big the drive is */
 module_param(nsectors, int, 0);
 
 static unsigned long size;	//size of the device
@@ -44,6 +44,8 @@ static struct block_device_operations sbd_ops = {
 
 static void sbd_request(struct request_queue *q)
 {
+
+pr_info(" Requested \n");
 }
 
 static int __init sbd_init(void)
@@ -54,27 +56,30 @@ static int __init sbd_init(void)
 	data = vmalloc(size);
 	if (data == NULL)
 		return -ENOMEM;
-
+	
 	spin_lock_init(&lock);
 	Queue = blk_init_queue(sbd_request, &lock);
 	if (Queue == NULL)
 		return -ENOMEM;
 
+	pr_info("blk_init_queue Completed\n");
 	blk_queue_logical_block_size(Queue, hardsect_size);
 
-	major_num = register_blkdev(major_num, "sbd0");
+	major_num = register_blkdev(major_num, "sbd1");
 	if (major_num <= 0) {
 		pr_err("sbd: unable to get major number\n");
 		return -EIO;
 	}
+	pr_info("registration Completed\n");
 	gd = alloc_disk(1);
 	if (!gd)
 		return -ENOMEM;
-
+	
+	pr_info("Alloc completed\n");
 	gd->major = major_num;
 	gd->first_minor = 0;
 	gd->fops = &sbd_ops;
-	strcpy(gd->disk_name, "sbd0");
+	strcpy(gd->disk_name, "sbd1");
 	set_capacity(gd, size);
 	gd->queue = Queue;
 	add_disk(gd);
@@ -85,7 +90,7 @@ static void __exit sbd_exit(void)
 {
 	del_gendisk(gd);
 	put_disk(gd);
-	unregister_blkdev(major_num, "sbd0");
+	unregister_blkdev(major_num, "sbd1");
 	blk_cleanup_queue(Queue);
 	vfree(data);
 }

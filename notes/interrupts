@@ -72,20 +72,11 @@ By disabling interrupts you can garuntee that an interrupt handler never preempt
 Moreever disabling interrupts also disabling preemption.
 
 
-
-
 local_irq_disable(); enable // Set clear interrupts 
-
 
 Instead of that complexity , 
 
 WE can use save and restore mechanism 
-
-
-
-
-
-
 
 local_irq_save(); // save the current interrupts state ,and Disable the interrupts, 
 local_irq_restore(); // interrupts are restored to their previous state 

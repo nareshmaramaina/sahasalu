@@ -46,4 +46,3 @@ int PrintAllBits(int num)
 	printf("\n");
 	return 0;
 }
-
