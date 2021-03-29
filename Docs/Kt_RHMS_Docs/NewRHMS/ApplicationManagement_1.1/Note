@@ -1,0 +1,17 @@
+ApplicationManagement_1.1.zip contents  
+
+1. ApplicationManagement.pdf    - RHMS Application Management entire procedure.
+
+2. Write_RunningApp_info.c         - C source code for writing Running  application details, Due to multiple applications management facility, we have to write running application details in a format.  Write_RunningApp_info api will write in  RHMS format. Document will give detailed information
+
+we wrote below useful scripts  for Uploading Application patch update,
+
+3. create_app_patch.sh       - Application Patch creation script
+
+4. verify_application_patch.sh - Verification of application patch
+
+5. extract_app_patch.sh   - Extraction of patch zip 
+
+ 
+
+You can also create / verify / extract app patch manually with linux commands, document will explain the procedure 

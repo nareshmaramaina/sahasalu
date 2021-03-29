@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HealthStatus>
+  <SerialNo>111817161546</SerialNo>
+  <Date_Time>2021-01-12T14:32:21</Date_Time>
+  <GPS>
+    <Latitude>17.445569</Latitude>
+    <Longitude>78.465632</Longitude>
+    <Captured_Time>2021-01-08T13:02:00</Captured_Time>
+  </GPS>
+  <IRIS>NotConnected</IRIS>
+  <PaperStatus>NotPresent</PaperStatus>
+  <RTC>Success</RTC>
+  <Adapter>Connected</Adapter>
+  <Battery>NotConnected</Battery>
+  <BatteryVoltage>0.00V</BatteryVoltage>
+  <Comm>WIFI</Comm>
+  <FingerRDServiceStatus>Blue</FingerRDServiceStatus>
+  <System_memory>
+    <Total>1007.9M</Total>
+    <Use>419.1M</Use>
+    <Free>537.6M</Free>
+  </System_memory>
+  <InternalMem_Sysuser>
+    <Total>1007.9M</Total>
+    <Use>33.3M</Use>
+    <Free>923.4M</Free>
+  </InternalMem_Sysuser>
+  <InternalMem_Jffs2>
+    <Total>3.9G</Total>
+    <Use>136.1M</Use>
+    <Free>3.6G</Free>
+  </InternalMem_Jffs2>
+  <RAM>
+    <Total>1008MB</Total>
+    <Use>89MB</Use>
+    <Free>918MB</Free>
+  </RAM>
+</HealthStatus>

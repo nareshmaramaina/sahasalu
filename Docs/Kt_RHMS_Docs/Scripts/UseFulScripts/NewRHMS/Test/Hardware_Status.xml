@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeviceDetails>
+  <SerialNo>111817161546</SerialNo>
+  <Date_Time>2021-01-08T10:21:08</Date_Time>
+  <TerminalIDExists>Found</TerminalIDExists>
+  <TerminalID>1817161546</TerminalID>
+  <MacidExists>Yes</MacidExists>
+  <Macid>7C:F0:BA:F6:5F:E8</Macid>
+  <UbootImageName>GL11-UB-2009.08-1573-1.1.bin</UbootImageName>
+  <KernelImageName>GL11-KR-3.0.35-1860-1.3.IMG</KernelImageName>
+  <RootfsImageName>GL11-RD-EXT3-1926-1.4.IMG</RootfsImageName>
+  <IMEInumberExists>Yes</IMEInumberExists>
+  <IMEInumber>867583030779505</IMEInumber>
+  <UIDExists>Yes</UIDExists>
+  <UID>1e3b59d4eacc9db4</UID>
+  <IritechSnoExists>NotFound</IritechSnoExists>
+  <IritechSno/>
+  <GSMVersionExists>Yes</GSMVersionExists>
+  <GSMVersion>LE11B10SIM7600M22_IZAT</GSMVersion>
+  <GSM_ModuleExists>Yes</GSM_ModuleExists>
+  <GSM_Module>SIM7600I</GSM_Module>
+  <FPScanneridExists>Yes</FPScanneridExists>
+  <FPScannerid>607F194BF4F15CC8F01850F4C1AC9FDA</FPScannerid>
+  <HardwareIDExists>Yes</HardwareIDExists>
+  <HardwareID>19001979</HardwareID>
+  <WiFiMACIDExists>Yes</WiFiMACIDExists>
+  <WiFiMACID>70:F1:1C:2B:F7:E1</WiFiMACID>
+</DeviceDetails>

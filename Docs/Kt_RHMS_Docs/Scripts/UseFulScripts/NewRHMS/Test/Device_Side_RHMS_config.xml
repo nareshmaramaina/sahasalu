@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RHMS_Settings>
+  <DOT>1</DOT>
+  <BatteryInfo>1</BatteryInfo>
+  <Iris_or_Biomat>1</Iris_or_Biomat>
+  <IrisRDVer_and_SNo>1</IrisRDVer_and_SNo>
+  <BiomRDVer>0</BiomRDVer>
+  <CamType>0</CamType>
+  <WSSN>0</WSSN>
+  <Pinpad>0</Pinpad>
+  <PinpadSN>0</PinpadSN>
+  <FPSRDVer>1</FPSRDVer>
+  <GPS>1</GPS>
+  <geo_location>1</geo_location>
+  <BarcodeSno>0</BarcodeSno>
+  <HWChanged>1</HWChanged>
+  <Bluetooth>1</Bluetooth>
+  <SAM1>1</SAM1>
+  <SAM2>1</SAM2>
+  <Printer>1</Printer>
+  <WIFI>1</WIFI>
+  <IFD1>1</IFD1>
+  <IFD2>0</IFD2>
+  <Camera>1</Camera>
+  <Two_Simdetails_Autoapn>1</Two_Simdetails_Autoapn>
+</RHMS_Settings>

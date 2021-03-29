@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BootStatus>
+  <SerialNo>111817161546</SerialNo>
+  <Date_Time>2021-01-12T14:59:26</Date_Time>
+  <DOT>
+    <Date>2021-01-11</Date>
+    <Slot1>0</Slot1>
+    <Slot2>0</Slot2>
+    <Slot3>109</Slot3>
+    <Slot4>0</Slot4>
+  </DOT>
+  <Ethernet>NotConnected</Ethernet>
+  <FingerPrint>Capacitive</FingerPrint>
+  <SAM1>NotInserted</SAM1>
+  <SAM2>NotInserted</SAM2>
+  <IFD1>NotInserted</IFD1>
+  <Printer>Yes</Printer>
+  <Bluetooth>Yes</Bluetooth>
+  <WIFI>No</WIFI>
+  <Camera>No</Camera>
+  <Audio>Success</Audio>
+  <BatteryInfo>
+    <Date>2021-01-11</Date>
+    <Day_worked_mins>109</Day_worked_mins>
+    <Day_adapter_mins>109</Day_adapter_mins>
+    <Day_charged_mins>0</Day_charged_mins>
+    <Day_discharged_mins>0</Day_discharged_mins>
+  </BatteryInfo>
+  <ArrayofApplications/>
+  <ArrayofRunningApplications/>
+  <FirmwareName>NotFound</FirmwareName>
+  <FirmwareVersion>NotFound</FirmwareVersion>
+  <IritechRDVer>NotFound</IritechRDVer>
+  <FPSRDVer>1.0.4</FPSRDVer>
+  <FPSRDSDKVer>1.7.3</FPSRDSDKVer>
+  <ExternalMemExists>No</ExternalMemExists>
+  <UsbdeviceExists>No</UsbdeviceExists>
+  <SIM1CCIDnumberExists>NO_SIM</SIM1CCIDnumberExists>
+  <SIM1Operator>NotFound</SIM1Operator>
+  <SIM2CCIDnumberExists>NO_SIM</SIM2CCIDnumberExists>
+  <SIM2Operator>NotFound</SIM2Operator>
+  <RHMSClientVersion>5.5.7</RHMSClientVersion>
+  <AutoapnAppVersion>NotFound</AutoapnAppVersion>
+</BootStatus>

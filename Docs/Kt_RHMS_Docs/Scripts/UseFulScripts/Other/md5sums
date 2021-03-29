@@ -1,0 +1,45 @@
+if test $1  
+then 
+if test   ! -d $1 
+then
+echo "Please Give argment 1 as directory"
+exit 1
+fi
+else 
+echo "Please Give argment 1, as directory"
+exit 1
+fi
+
+print_md5sum()
+{
+
+	for file in `ls -a $1`
+		do
+			if [ $file = "."  ] || [ $file = ".." ]
+				then
+					continue;
+		fi
+			if [ -f $1/$file ]
+				then
+					md5sum $1/$file
+			else print_md5sum $1/$file
+				fi
+					done
+}
+
+for file in `ls -a $1`
+do
+if [ $file = "."  ] || [ $file = ".." ]
+then
+continue;
+fi
+
+if [ -f $1/$file ]
+then
+md5sum $1/$file
+else 
+print_md5sum $1/$file 
+fi
+
+
+done

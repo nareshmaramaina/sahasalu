@@ -1,0 +1,1 @@
+<ArrayOfApplicationStatusResponse xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><ApplicationStatusResponse><ProjectName>PRODUCTION</ProjectName><ApplicationType>PDS</ApplicationType><ApplicationName>PRODUCTION</ApplicationName><Version /><ApplicationURL /></ApplicationStatusResponse></ArrayOfApplicationStatusResponse>
