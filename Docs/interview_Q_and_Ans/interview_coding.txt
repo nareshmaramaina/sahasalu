@@ -1,0 +1,5 @@
+1) Write Program to find number is power of 4 or not
+2) Remove duplicates elements in array and sort it
+3) Reverse linked list
+4) Write Macro for SQURE
+	#define area(r) (r * r)  
