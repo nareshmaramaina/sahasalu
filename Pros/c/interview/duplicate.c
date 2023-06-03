@@ -21,29 +21,40 @@
 #include<stdio.h>
 int main ( int argc, char *argv[] )
 {
-	int a[]={9,20,9,1,2,3,3,3,21,34,5,5,5},tmp;
+	int a[]={9,20,9,1,2,3,3,3,21,34,5,5,3,34},tmp;
 	int i,j,size=sizeof(a)/sizeof(*a),flag;
 
-
-	// If sorted Then Use Below 
-	
-	for( i =0; i< size; tmp=a[i++])
-		if (  i==0  ||  tmp != a[i]  )
-			printf(" %d \n", a[i] );
-	// If not sorted Then Use Below 
-	printf(" Un sorted Also Works \n");
-	for( i =0; i< size; i++ )
-	{
-		for ( flag = 1,j =i+1 ; j<size;j++ )
-		{
-			if  ( a[i] == a[j] )
-			{
-				flag=0;
+	printf("\nGiven Elements:\t");
+	for ( i=0; i< size; i++)
+		printf("%d,",a[i]);
+	printf("\nUnsorted Removed Duplicates:\t");
+	for(i=0;i<size;i++) {
+		for ( j = i+1; j < size ; j++ ) {
+			if( a[i] == a[j] )
 				break;
-			}
-		} 
-		if ( flag )
-			printf(" %d \n", a[i] );
+		}
+		if ( j >= size )
+			printf("%d,",a[i]);
 	}
+
+	printf("\nSorted Array:\t");
+	for( i=0; i< size; i++) {
+		for( j=i+1;j<size;j++) {
+			if ( a[i] > a[j] ) {
+				tmp = a[i];
+				a[i] = a[j];
+				a[j] = tmp;
+			}
+		}
+
+	}
+	for ( i=0; i< size; i++)
+		printf("%d,",a[i]);
+	printf("\nsorted Removed Duplicates:\t");
+	for ( i=0; i< size-1; i++) {
+		if ( a[i] != a[i+1] )
+		printf("%d,",a[i]);
+	}
+		printf("%d,",a[i]);
 	return EXIT_SUCCESS;
 }				/* ----------  end of function main  ---------- */
