@@ -8,7 +8,7 @@ int main()
 		printf("Enter A number \n");
 		scanf("%d",&num);
 		//		PowerOf2(num);
-	//	PowerOf2_Logic2(num);
+	PowerOf2_Logic2(num);
 	//odd_or_even(num);
 	//		CountNumberOfSetBits(num);
 	}

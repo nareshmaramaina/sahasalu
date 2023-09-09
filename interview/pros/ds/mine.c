@@ -216,7 +216,9 @@ int main()
 	my_lifo(3);
 	my_lifo(2);
 	my_lifo(1);
-	print_recurssively(head);
+	//	print_recurssively(head);
+	print();
+	myrev();
 	print();
 	//Addatbeg(12);
 	//	Delete_Num(2);
@@ -299,7 +301,6 @@ void LIFO(int num)
 	{
 
 
-
 		copy = head;
 
 		head = mem;
@@ -353,29 +354,28 @@ int delete(int num)
 	return 0;
 }
 
-void MyReverse()
+void myrev()
 {
-
-	struct hi *prev,*curr,*next;
-	// 1 2 3 4 5 
-	// 2 1(NULL) 1 should store at prev  3 4 5 
-	// 
-	prev=NULL;
-	curr=head;
-	while(curr)
-	{
-		next = curr->link;
-
-		curr->link = prev;
-
-		prev = curr; 	
-
-		curr = next;
+	// 1 2 3 4 NULL
+	//
+	struct hi *curr,*prev,*next;
+	
+	prev = NULL;
+	curr = head;
+	while(curr) {
+	next = curr->link;
+	curr->link = prev;
+	prev = curr;
+	curr = next;
 	}
 
 	head = prev;
+	
 	return;
 }
+
+
+
 
 void reverse_list()
 {

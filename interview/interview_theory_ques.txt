@@ -1,0 +1,34 @@
+
+Kernel Ques:-
+
+* request_irq vs threaded irq
+	int request_threaded_irq( unsigned int irq,
+                          irq_handler_t handler,
+                          irq_handler_t thread_fn,
+                          unsigned long irqflags,
+                          const char *devname,
+                          void *dev_id
+                        );
+https://embetronicx.com/tutorials/linux/device-drivers/threaded-irq-in-linux-kernel/
+
+
+* Bottom havles and top halves
+* interrupt conpects
+* Spin lock vs Sleep locks
+* Work Queues
+* Kernel Threads
+
+
+Linux internals:-
+
+Ipc Mechanism
+Threads
+Locks
+
+
+
+
+C:-
+Storages Classes
+Voilatile Real world usage
+
