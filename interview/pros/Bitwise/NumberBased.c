@@ -1,8 +1,22 @@
 #include<stdio.h>
+#include <stdio.h>
+
+void print_bits(int num) {
+    int i;
+    for(i=(sizeof(int)*8)-1;i>=0;i--)
+        printf("%d",num>>i&1);
+    printf("\n");
+    return;
+}
+
 int main()
 {
 	// Power of 2 
 	int num;
+	int num=0xf;
+    int mask=0xa; 
+    print_bits(num);
+    print_bits((num & ~0xf)|mask);
 	while(1)
 	{
 		printf("Enter A number \n");
