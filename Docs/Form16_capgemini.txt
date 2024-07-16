@@ -1,0 +1,30 @@
+https://ess.hgsbs.com/Login/Login?company=CG
+The password to open the Form 16 for FY 22-23 is your 10 digits PAN in Capital.
+
+The password to open the Form 16 for FY 21-22 is your 10 digits PAN in Capital.
+
+Please download 7 zip utility to access Form 16 for FY 22-23 . Kindly download the file first on your System. Using right click use the option to save the file. Use the right click option to (show more options)- than 7-zip, Extract here. You would be prompted to enter the password. Enter the PAN in UPPERCASE. The file will be extracted
+
+ The password to open the Form 16 for FY 20-21 is your 10 digits PAN followed by date of birth (DDMMYYYY).
+
+For example: if your PAN is ABCDE1234F and date of birth is 17-Sep-1983, then the password is ABCDE1234F17091983.
+
+STEPS TO VALIDATE DIGITAL SIGNATURE ON FORM 16
+
+Upon opening the Form 16 PDF document, the Digital Signature will appear on your Form 16. Right Click on the box showing the digital signature.
+
+Select "Show Signature properties"
+
+Select "Show Certificate"
+
+Select"Trust"
+
+Click "Add to Trusted Identities"
+
+Click "OK"
+
+Click Select all the checkboxes of New window
+
+Click "OK"
+
+Click on "Verify/Validate Signature"
