@@ -1,0 +1,127 @@
+https://ess.hgsbs.com/Login/Login?company=CG
+
+1662980
+Nari@81421
+
+
+Finance Payroll Clearance in ECMS Tool (India Payroll)
+in, payrollhelpdesk
+​
+in, payrollhelpdesk
+​
+Mon 13-11-2023 15:06
+Dear Colleagues,                                                                                                              
+
+ 
+
+As a part of the Relieving process, India Payroll team would be giving the Finance Payroll Clearance in ECMS Tool One week in Advance prior to your last working day.
+
+ 
+
+Kindly make sure that all other teams have given their clearances before your last working day in ECMS Tool, so that, there is no delay in starting your final settlement process.
+
+Final settlement will be initiated post all the clearances are done.  Any delay in clearances would further delay the final settlement process.
+
+ 
+
+Final settlement will be completed and the amount will be transferred to your Bank account within 30 days from the last clearance date in ECMS Tool (Not last working day)
+
+Do reach out to Fnfhelpdesk.in@capgemini.com for any further clarifications on Final Settlement.
+
+ 
+
+Refer the Exit Orientation presentation about Final settlement on Talent India - Finance home page for information on Exit process.
+
+ 
+
+Key Important points to be noted:
+
+ 
+
+Complete the below activities before your last working day. 
+
+ 
+
+Clearances
+Ensure that all the other teams have given their clearance. Final settlement can be initiated only post all the clearances.
+Leave Encashment Days
+Do check your leave balances with HR team at the time of HR clearance.  Any corrections in leave balances to be discussed with HR and closed before last working day.
+Submission of OAAR & Investment Proofs
+Submit your OAAR claims and Investment Proofs, if any, into HGS Portal before 3 days prior to your last working day
+Proof submitted on emails “Will Not be Accepted” for Final Settlement
+Payment to Company towards Joining Bonus, Retention Bonus, Notice Pay
+Employees are required to settle the Joining Bonus, Retention Bonus, Notice Pay upfront
+Exit team would be sharing the Company Bank Details for transferring the funds.  Employee to do Online transfer (NEFT / RTGS Only) and share the screenshot with Exit Team for their Clearances.
+These recoveries (Joining Bonus, Retention Bonus, Notice Pay) will not be adjusted against the Full & Final Settlement
+Any Other Allowance (Shift / On-Call Allowances)
+If you are eligible for other allowances like Shift/On-call allowance etc., kindly ensure that  your Manager has uploaded and approved the same into PICS tool before your last working day
+No Manual inputs will be accepted
+HGS Login Credentials
+Reset your HGS Password before moving Out. 
+You can access the HGS Portal even after leaving the Company and access will be retained for you for the period 1-2 years.
+Personal Email IDs and Mobile #s
+Kindly ensure that your personal Email ID’s & Mobile #’s are updated in ECMS tool. This is required for future communication (From16). This is Mandatory.
+Pay-slips and Form 16s
+Download the required previous month’s pay-slips and previous years Form 16s.  This is Important.
+ 
+
+Regards,
+
+Finance – India Payroll Team              
+
+
+
+
+Resignation : Finance Dues Clearance are completed for Naresh Maramaina ( 42144315 ) from Bangalore
+ecmsprocess.in@capgemini.com
+​
+Maramaina, Naresh
+​
+​
+ecms.in@capgemini.com;
+​
+Valloor, Rakesh;
+​
+Mayasandra, Abhijith
+​
+Fri 17-11-2023 10:55
+
+
+Dear Naresh Maramaina,
+
+"Finance Dues Clearance" are completed in ECMS. Kindly check inputs in ECMS for support.
+ECMS >> Home >> Employee/My Exit Clearance Status
+
+If you are holding any recoveries or negative settlement amount, kindly transfer using details provided below and share the information below along with screenshot of transaction with your location HRSS SPOC or Payroll team on or before last working day
+Bank Name
+Online Transfer Reference No
+Online Transfer Date
+Online Transfer Amount
+
+Fund Transfer type :	RTGS / NEFT only
+Beneficiary Name:	Global edge
+Bank Name :	HDFC BANK
+IFSC :	HDFC BANK
+Bank Address :	# 8/24, Salco Centre, Richmond Road, Bangalore - 560025
+Bank Account Number:	05232120000124
+Account type:	Current Account
+Note:	Please note relieving letter/documents will only be issued after the confirmation of the above said payment is received by the Payroll team/Treasury team.
+If you require any further information on the recovery please contact DL IN Central Exit centralexit.in@capgemini.com
+
+
+For any clarification and support, please send a mail to your department and location SPOC (ECMS>> Contact List).
+ECMS Useful Links
+ECMS
+
+
+Exit Orientation Link
+As part of exit formalities, we will be conducting the Orientation session thrice a week [Every Tuesday, Wednesday, and Thursday] from 3:00 PM – 5:00 PM to address employees queries. Please click below link to join through Microsoft teams.
+• Click here to join the meeting
+Note: This meeting is recurring session and employee can join for the meeting till their last working day excluding Public and Location holiday
+
+Alternatively, you may reach out to Smart Services Desk at +91 80 66442727 for voice based assistance to resolve your queries.
+
+Please do not reply directly to this automated message. You will not get any acknowledgement or response.
+
+Regards,
+HRSS Offboarding Team
